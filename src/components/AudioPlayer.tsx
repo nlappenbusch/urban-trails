@@ -49,6 +49,8 @@ export default function AudioPlayer({
   const barRef = useRef<HTMLDivElement | null>(null);
   const lastEmitSec = useRef(-1);
   const playRef = useRef<() => void>(() => {});
+  const rootRef = useRef<HTMLDivElement | null>(null);
+  const prefetched = useRef(false);
 
   // Sticky-Bar kann diesen Player fernsteuern (Play/Pause-Toggle)
   useEffect(() => {
@@ -62,6 +64,49 @@ export default function AudioPlayer({
     window.addEventListener("ut-audio-ctl", onCtl);
     return () => window.removeEventListener("ut-audio-ctl", onCtl);
   }, [stopId]);
+
+  // Audio schon beim Scrollen vorladen → Play startet sofort.
+  // In Produktion liegen alle Audios vorgeneriert im Server-Cache, der
+  // Fetch ist also nur noch ein schneller Datei-Download.
+  async function prefetch() {
+    if (prefetched.current || audioRef.current) return;
+    prefetched.current = true;
+    const preferTts = process.env.NEXT_PUBLIC_PREFER_TTS === "1";
+    try {
+      if (audioFile && !preferTts) {
+        const audio = new Audio(audioFile);
+        audio.preload = "auto";
+        wireAudio(audio);
+        return;
+      }
+      const res = await fetch(
+        `/api/audio?city=${citySlug}&tour=${tourSlug}&stop=${stopId}`
+      );
+      if (res.ok && res.headers.get("content-type")?.includes("audio")) {
+        const blob = await res.blob();
+        wireAudio(new Audio(URL.createObjectURL(blob)));
+      }
+    } catch {
+      /* Play-Pfad übernimmt als Fallback */
+    }
+  }
+
+  useEffect(() => {
+    const el = rootRef.current;
+    if (!el || typeof IntersectionObserver === "undefined") return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          io.disconnect();
+          void prefetch();
+        }
+      },
+      { rootMargin: "400px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Anderes Audio gestartet? → dieses stoppen.
   useEffect(() => {
@@ -103,9 +148,10 @@ export default function AudioPlayer({
       pause();
       return;
     }
-    // Resume?
-    if (audioRef.current && t > 0) {
+    // Vorgeladen oder pausiert? → sofort abspielen, kein neuer Fetch.
+    if (audioRef.current) {
       await audioRef.current.play();
+      setMode("audio");
       setPlaying(true);
       emit({ stopId, stopName, state: "play", t, d });
       return;
@@ -211,7 +257,7 @@ export default function AudioPlayer({
   const hasBar = mode === "audio" && (d > 0 || playing);
 
   return (
-    <div className="w-full max-w-md">
+    <div ref={rootRef} className="w-full max-w-md">
       <div className="flex items-center gap-3">
         <button
           onClick={play}
@@ -228,7 +274,10 @@ export default function AudioPlayer({
         </button>
         <div className="min-w-0 flex-1">
           <div className="flex items-baseline justify-between gap-2">
-            <p className="truncate text-sm font-bold text-cream">
+            <p className="inline-flex min-w-0 items-center gap-1.5 truncate text-sm font-bold text-cream">
+              {playing && (
+                <span className="eq shrink-0 text-signal-500" aria-hidden="true"><i /><i /><i /><i /></span>
+              )}
               Audio-Story{playing && mode === "browser-tts" ? " · Browser-Stimme" : ""}
             </p>
             {hasBar && (
@@ -252,11 +301,18 @@ export default function AudioPlayer({
             </div>
           ) : (
             <p className="mt-0.5 truncate text-xs text-cream-faint">
-              {mode === "error"
-                ? "Audio nicht verfügbar"
-                : mode === "browser-tts" && playing
-                  ? "spricht…"
-                  : "Play drücken – Geschichte hören statt lesen"}
+              {mode === "loading" ? (
+                <span className="inline-flex items-center gap-1.5 font-semibold text-signal-600">
+                  <span className="eq" aria-hidden="true"><i /><i /><i /><i /></span>
+                  Story wird geladen…
+                </span>
+              ) : mode === "error" ? (
+                "Audio nicht verfügbar"
+              ) : mode === "browser-tts" && playing ? (
+                "spricht…"
+              ) : (
+                "Play drücken – Geschichte hören statt lesen"
+              )}
             </p>
           )}
         </div>

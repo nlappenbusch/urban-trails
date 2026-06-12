@@ -1,74 +1,68 @@
-# Urban Trails Switzerland
+# 🥾 Urban Trails Switzerland
 
-Selbstgeführte Premium-Walking-Touren mit Storytelling-Audioguides, interaktiver Karte, Geheimtipps und KI-Guide. Gebaut mit Next.js 15 (App Router), TypeScript und Tailwind CSS – als Plattform für beliebig viele Städte.
+**Selbstgeführte Premium-Walking-Touren durch die Schweiz** – Audio-Stories
+wie ein guter Podcast, Geheimtipps mit Adresse, Social-Check pro Spot und
+ein KI-Guide für unterwegs. Live: **https://urban-trails.ch**
 
-## Schnellstart
+> «Die Stadt ist kein Museum.» – Netflix + Komoot + Rick Steves, für Leute,
+> die Vibes suchen statt Sehenswürdigkeiten.
+
+## Was drinsteckt
+
+- **22 komplett ausgearbeitete Touren in 15 Destinationen** (Zürich, Luzern,
+  Bern, Basel, Genf, Lausanne, Lugano, St. Gallen, Thun, Chur, Winterthur,
+  Rapperswil, Baden, Eglisau, Regensberg) – jede mit GPS-Stops, Gehzeiten,
+  Stories, Fun Facts, Insider-Tipps mit echter Adresse, Fotospots
+- **8 Erlebnis-Kategorien**: Urban Vibes, Natur & Escape, Food Discovery,
+  People & Social, Hidden Gems, Sunset Walks, ADHS Quick, Story Mode
+- **Audio-Guides** pro Stop (60–120 s): Datei-Cache → ElevenLabs →
+  Gemini-TTS (Vertex) → Browser-Fallback; Warmup-Route zum Vorgenerieren
+- **Tour-Modus** wie eine App: Fortschritt (localStorage), GPS-Distanz,
+  «Du bist hier»-Erkennung, Sticky-Bar mit Mini-Player, Vollbild-Live-Karte
+  mit Standort-Tracking, Audio direkt von den Karten-Pins
+- **Mapbox**-Karten mit echten Fusswegen (Directions API), **KI-Guide**
+  («Frag deinen Guide», OpenAI), SEO (JSON-LD TouristTrip/FAQ, Sitemap)
+
+## Stack
+
+Next.js 15 (App Router, SSG, standalone) · TypeScript · Tailwind CSS ·
+Mapbox GL · Gemini TTS / ElevenLabs · Docker
+
+## Lokal entwickeln
 
 ```bash
 npm install
-cp .env.example .env.local   # Keys eintragen (optional, läuft auch ohne)
+cp .env.example .env.local   # Keys eintragen (siehe unten)
 npm run dev                  # http://localhost:3000
 ```
 
-Die Seite funktioniert komplett ohne API-Keys: Die Karte zeigt dann einen Platzhalter, Audio nutzt die Browser-Vorlesestimme. Mit Keys wird daraus das volle Produkt:
+| Variable | Zweck |
+|---|---|
+| `NEXT_PUBLIC_MAPBOX_TOKEN` | Karten (pk.…) |
+| `GEMINI_API_KEY` / `GEMINI_TTS_VOICE` | Audio-TTS (Vertex Express) |
+| `ELEVENLABS_API_KEY` / `…_VOICE_ID` | optional, hat Vorrang |
+| `OPENAI_API_KEY` | optional, KI-Guide |
+| `NEXT_PUBLIC_PREFER_TTS` | 1 = einheitliche TTS-Stimme |
+| `NEXT_PUBLIC_SITE_URL` | Canonical/Sitemap-Domain |
 
-| Key | Wofür | Woher |
-| --- | --- | --- |
-| `NEXT_PUBLIC_MAPBOX_TOKEN` | Interaktive Karte mit Route + Markern | [account.mapbox.com](https://account.mapbox.com/access-tokens/) (gratis bis 50k Loads/Monat) |
-| `ELEVENLABS_API_KEY` + `ELEVENLABS_VOICE_ID` | Studio-Qualität-Audioguides | [elevenlabs.io](https://elevenlabs.io) |
-| `OPENAI_API_KEY` | «Frag deinen Guide» (`POST /api/guide`) | [platform.openai.com](https://platform.openai.com) |
+## Content erweitern
 
-## Architektur
+Neue Tour = eine Datei in `src/data/tours/` (Typ `Tour`, siehe
+`src/lib/types.ts`) + Registry-Eintrag in `src/lib/tours.ts` +
+ggf. Destination in `src/data/destinations.ts`. Bilder: `src/data/images.ts`
+(Wikimedia Commons mit Credit). Audio entsteht automatisch.
 
-```
-src/
-├── app/
-│   ├── page.tsx                  Startseite (Hero, Touren, Destinationen)
-│   ├── touren/                   Übersicht aller Touren
-│   ├── ueberrasche-mich/         Abenteuer-Generator (Zeit + Mood → Tour)
-│   ├── [city]/                   Stadtseite (z.B. /zuerich)
-│   │   └── [tour]/               Tour-Detailseite mit Karte, Timeline, Audio, FAQ, JSON-LD
-│   ├── api/audio/                ElevenLabs-TTS-Proxy (Fallback: Browser-TTS)
-│   ├── api/guide/                KI-Guide (OpenAI, mit Tour-Kontext)
-│   ├── sitemap.ts / robots.ts    SEO
-│   └── layout.tsx                Root-Layout + Default-Metadata
-├── components/                   Header, Footer, TourCard, TourMap, AudioPlayer, StopTimeline, SurpriseMe
-├── data/
-│   ├── destinations.ts           Städte (Zürich live, weitere als comingSoon)
-│   └── tours/                    Eine Datei pro Tour – reiner Content, kein Code
-└── lib/
-    ├── types.ts                  Datenmodell (Destination → Tour → Stop)
-    ├── tours.ts                  Registry, Helpers, Empfehlungslogik
-    └── seo.ts                    JSON-LD (TouristTrip + FAQPage), URLs
-```
+## Deployment
 
-## Neue Tour / neue Stadt hinzufügen
+`git push` auf `main` deployed automatisch (GitHub Actions self-hosted
+Runner → `deploy.sh` → `docker compose up -d --build`, hinter Nginx Proxy
+Manager). Komplette Anleitung inkl. Troubleshooting: **SERVER-SETUP.md**
 
-1. Stadt in `src/data/destinations.ts` ergänzen (oder `comingSoon` entfernen).
-2. Neue Datei `src/data/tours/<slug>.ts` nach dem Muster der bestehenden Touren anlegen.
-3. Tour in `src/lib/tours.ts` im `tours`-Array registrieren.
+Nach grösseren Audio-Änderungen einmalig Cache füllen:
+`curl "http://127.0.0.1:8083/api/audio/warmup?limit=64"` (wiederholen bis
+`remaining: 0`).
 
-Fertig – Routen, Sitemap, SEO und Karten entstehen automatisch.
+---
 
-## Audio mit ElevenLabs produzieren
-
-Jeder Stop hat ein fertiges deutsches Audioguide-Skript (60–120 Sek.), sichtbar auf der Tour-Seite unter «Audioguide-Skript lesen». Zwei Wege:
-
-1. **Automatisch:** Keys in `.env.local`, der Player generiert on-the-fly über `/api/audio`. Für Produktion: Ergebnisse cachen (S3/Supabase Storage) – ElevenLabs rechnet pro Zeichen ab.
-2. **Manuell:** Skript kopieren, in ElevenLabs einfügen. Empfohlene Settings stehen in `src/app/api/audio/route.ts` (stability 0.55, style 0.35, `eleven_multilingual_v2`). Stimmen-Brief: warm, ruhig, neugierig – wie ein moderner Reise-Podcast, Schweizer Ortsnamen natürlich aussprechen.
-
-## SEO
-
-Pro Tour: eigene URL, Meta-Title/-Description, Keywords, OpenGraph, FAQ und Schema.org JSON-LD (`TouristTrip` + `FAQPage`). Sitemap und robots.txt werden generiert. Für Produktion `NEXT_PUBLIC_SITE_URL` auf die echte Domain setzen.
-
-## Monetarisierung (vorbereitet)
-
-Das Datenmodell kennt `isPremium` + `priceChf`; Cards und Tour-Seiten zeigen Gratis/Premium-Badges. Nächste Schritte für echten Verkauf: Auth (Supabase), Stripe Checkout, Gating der Stop-Inhalte ab Stop 3 für Nicht-Käufer, Affiliate-Links bei den `nearby`-Empfehlungen.
-
-## Roadmap-Ideen
-
-V1 (dieses Repo): 3 Zürich-Touren, Karte, Audio, SEO, Überrasche-mich.
-V2: Stripe + Supabase, Audio-Caching, Fortschritt («4/12 Stops») mit Geolocation.
-V3: Weitere Städte (Winterthur, Baden, Luzern), Badges/Gamification.
-V4: «Frag deinen Guide» als Chat-UI auf der Tour-Seite, dynamische Routenkürzung.
-V5: White-Label für Tourismusbüros & Hotels.
+Fotos: Wikimedia Commons (CC, Credit am Bild) · Karten: © Mapbox/OSM ·
+Made with viel Fussweg in Zürich.

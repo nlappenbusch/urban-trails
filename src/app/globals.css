@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Anker-Sprünge landen nicht unter dem Sticky-Header */
+[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+body {
+  @apply bg-ink-950 text-cream antialiased;
+}
+
+
+::selection {
+  @apply bg-signal-500 text-ink-950;
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-signal-500 px-6 py-3 font-semibold text-white transition hover:bg-signal-600 active:scale-[0.98];
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-full border border-cream/20 bg-ink-900 px-6 py-3 font-semibold text-cream transition hover:border-cream/40 active:scale-[0.98];
+  }
+  .stamp {
+    @apply inline-block rounded-full bg-cream px-3 py-1 text-[11px] font-bold uppercase tracking-widest text-white;
+  }
+  .stamp-orange {
+    @apply inline-block rounded-full bg-signal-500 px-3 py-1 text-[11px] font-bold uppercase tracking-widest text-white;
+  }
+  .kicker {
+    @apply text-[11px] font-bold uppercase tracking-[0.2em] text-cream-faint;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full border border-cream/15 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-widest text-cream-dim;
+  }
+  .card {
+    @apply rounded-2xl border border-cream/10 bg-ink-900 shadow-sm;
+  }
+  .ticket {
+    @apply rounded-2xl border-2 border-dashed border-cream/20 bg-ink-900;
+  }
+  .headline {
+    @apply font-display font-extrabold leading-[1.04] tracking-tight;
+  }
+  .headline em,
+  .headline .accent {
+    @apply inline-block -rotate-1 rounded-md bg-signal-500 px-2.5 not-italic text-white sm:px-3;
+  }
+  .outline-word {
+    @apply font-display font-extrabold uppercase leading-none tracking-tight;
+    -webkit-text-stroke: 2px rgba(24, 24, 27, 0.14);
+    color: transparent;
+    user-select: none;
+  }
+  /* Logo: Route animiert beim Hover */
+  .logo-route {
+    stroke-dasharray: 3 4;
+  }
+  .group:hover .logo-route {
+    animation: routeDash 0.9s linear infinite;
+  }
+  @keyframes routeDash {
+    to { stroke-dashoffset: -14; }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-ink-700;
+}
+::-webkit-scrollbar-track {
+  @apply bg-ink-950;
+}

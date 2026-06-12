@@ -1,0 +1,16 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, Linux, X64, docker-prod-01]
+    steps:
+      - name: Deploy ausführen
+        run: bash /opt/urban-trails/deploy.sh

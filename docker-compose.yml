@@ -1,0 +1,22 @@
+# Urban Trails Switzerland – interner Docker-Server
+# Host-Port 8083 (anpassen falls belegt; dann auch SERVER-SETUP.md + NPM!)
+services:
+  app:
+    build:
+      context: .
+      args:
+        # Werte kommen aus der .env im selben Ordner (compose interpoliert)
+        NEXT_PUBLIC_MAPBOX_TOKEN: ${NEXT_PUBLIC_MAPBOX_TOKEN}
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:-http://localhost:8083}
+        NEXT_PUBLIC_PREFER_TTS: ${NEXT_PUBLIC_PREFER_TTS:-1}
+    container_name: urban-trails
+    restart: unless-stopped
+    ports:
+      - "8083:3000"
+    env_file:
+      - .env
+    volumes:
+      - audio-cache:/app/.audio-cache
+
+volumes:
+  audio-cache:

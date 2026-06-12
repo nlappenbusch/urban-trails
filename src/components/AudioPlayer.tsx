@@ -79,13 +79,13 @@ export default function AudioPlayer({
         wireAudio(audio);
         return;
       }
-      const res = await fetch(
+      // Direkte URL statt Blob: Browser streamt (Range-Requests) und
+      // puffert nur den Anfang – schnell auch bei langsamer Verbindung.
+      const audio = new Audio(
         `/api/audio?city=${citySlug}&tour=${tourSlug}&stop=${stopId}`
       );
-      if (res.ok && res.headers.get("content-type")?.includes("audio")) {
-        const blob = await res.blob();
-        wireAudio(new Audio(URL.createObjectURL(blob)));
-      }
+      audio.preload = "auto";
+      wireAudio(audio);
     } catch {
       /* Play-Pfad übernimmt als Fallback */
     }
@@ -150,11 +150,17 @@ export default function AudioPlayer({
     }
     // Vorgeladen oder pausiert? → sofort abspielen, kein neuer Fetch.
     if (audioRef.current) {
-      await audioRef.current.play();
-      setMode("audio");
-      setPlaying(true);
-      emit({ stopId, stopName, state: "play", t, d });
-      return;
+      try {
+        await audioRef.current.play();
+        setMode("audio");
+        setPlaying(true);
+        emit({ stopId, stopName, state: "play", t, d });
+        return;
+      } catch {
+        // z.B. 503 beim Prefetch (Audio noch nicht generiert) → neu versuchen
+        audioRef.current = null;
+        setT(0);
+      }
     }
     setMode("loading");
 
@@ -174,21 +180,20 @@ export default function AudioPlayer({
     }
 
     try {
-      const res = await fetch(
+      // Streaming: Abspielen beginnt, sobald die ersten Sekunden da sind
+      const audio = new Audio(
         `/api/audio?city=${citySlug}&tour=${tourSlug}&stop=${stopId}`
       );
-      if (res.ok && res.headers.get("content-type")?.includes("audio")) {
-        const blob = await res.blob();
-        const audio = new Audio(URL.createObjectURL(blob));
-        wireAudio(audio);
-        await audio.play();
-        setMode("audio");
-        setPlaying(true);
-        emit({ stopId, stopName, state: "play" });
-        return;
-      }
+      audio.preload = "auto";
+      wireAudio(audio);
+      await audio.play();
+      setMode("audio");
+      setPlaying(true);
+      emit({ stopId, stopName, state: "play" });
+      return;
     } catch {
-      /* weiter zum Fallback */
+      audioRef.current = null;
+      /* weiter zum Browser-TTS-Fallback */
     }
 
     if (typeof window !== "undefined" && "speechSynthesis" in window) {

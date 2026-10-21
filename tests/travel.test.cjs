@@ -73,16 +73,16 @@ test('ElevenLabs generation is deduplicated, cached and failed responses do not 
     global.fetch=originalFetch;process.env=env;
   }
 });
-function workerFixture(complete) {
+function workerFixture(complete, url = "https://local/api/audio?v=one") {
   let handler;
-  const stored=new Map([['https://local/api/audio?v=one',new Response(new Uint8Array([0,1,2,3,4]),{headers:{'Content-Type':'audio/mpeg'}})]]);
+  const stored=new Map([[url,new Response(new Uint8Array([0,1,2,3,4]),{headers:{'Content-Type':'audio/mpeg'}})]]);
   const cache={match:async key=>key==='/__ut_offline_ready__'?(complete?Response.json({revision:'one'}):undefined):stored.get(key)?.clone()};
   vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../public/sw.js'),'utf8'),{
     self:{location:{origin:'https://local'},addEventListener:(name,fn)=>{if(name==='fetch')handler=fn;}},
     caches:{keys:async()=>['ut-tour-test-one'],open:async()=>cache},URL,Response,
     fetch:async()=>new Response('network',{status:503}),
   });
-  return async headers => {let result;handler({request:new Request('https://local/api/audio?v=one',{headers}),respondWith:p=>result=p});return result;};
+  return async headers => {let result;handler({request:new Request(url,{headers}),respondWith:p=>result=p});return result;};
 }
 test('Offline audio supports suffix and bounded ranges and rejects invalid ranges', async () => {
   const fetch=workerFixture(true);
@@ -93,4 +93,12 @@ test('Offline audio supports suffix and bounded ranges and rejects invalid range
 });
 test('Service worker never serves an incomplete download', async () => {
   assert.equal((await workerFixture(false)({})).status,503);
+});
+
+test('Frankenthal sample is available offline with seeking only after a complete download', async () => {
+  const url = 'https://local/audio/frankenthal/kanalhafen-v1.mp3';
+  const response = await workerFixture(true, url)({Range:'bytes=2-'});
+  assert.equal(response.status,206);
+  assert.deepEqual([...new Uint8Array(await response.arrayBuffer())],[2,3,4]);
+  assert.equal((await workerFixture(false, url)({})).status,503);
 });

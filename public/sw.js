@@ -5,7 +5,7 @@ self.addEventListener("activate", event => event.waitUntil(self.clients.claim())
 self.addEventListener("fetch", event => {
   const request = event.request, url = new URL(request.url);
   if (request.method !== "GET" || url.origin !== self.location.origin || request.headers.has("RSC")) return;
-  if (!(url.pathname === "/unterwegs" || url.pathname.startsWith("/unterwegs/") || url.pathname.startsWith("/_next/static/") || url.pathname === "/api/audio")) return;
+  if (!(url.pathname === "/unterwegs" || url.pathname.startsWith("/unterwegs/") || url.pathname.startsWith("/_next/static/") || url.pathname === "/api/audio" || url.pathname === "/frankenthal" || url.pathname.startsWith("/audio/frankenthal/"))) return;
   event.respondWith((async () => {
     const names = (await caches.keys()).filter(n => n.startsWith("ut-tour-")).reverse();
     let cached;
@@ -15,12 +15,12 @@ self.addEventListener("fetch", event => {
       cached = await cache.match(request.url);
       if (cached) break;
     }
-    if (url.pathname === "/unterwegs" || url.pathname.startsWith("/unterwegs/")) {
+    if (url.pathname === "/frankenthal" || url.pathname === "/unterwegs" || url.pathname.startsWith("/unterwegs/")) {
       try { return await fetch(request); } catch { return cached || new Response("Diese Tour wurde noch nicht offline gespeichert.", { status: 503, headers: { "Content-Type": "text/plain; charset=utf-8" } }); }
     }
     if (!cached) return fetch(request);
     const range = request.headers.get("Range");
-    if (range && url.pathname === "/api/audio") {
+    if (range && (url.pathname === "/api/audio" || url.pathname.startsWith("/audio/frankenthal/"))) {
       const bytes = await cached.arrayBuffer(), m = /^bytes=(\d*)-(\d*)$/.exec(range);
       const invalid = () => new Response(null, { status: 416, headers: { "Content-Range": `bytes */${bytes.byteLength}` } });
       if (!m || (!m[1] && !m[2])) return invalid();
@@ -32,3 +32,4 @@ self.addEventListener("fetch", event => {
     return cached;
   })());
 });
+

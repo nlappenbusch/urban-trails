@@ -51,6 +51,18 @@ export default function AudioPlayer({
   const playRef = useRef<() => void>(() => {});
   const rootRef = useRef<HTMLDivElement | null>(null);
   const prefetched = useRef(false);
+  const speechRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const speechTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function cancelOwnSpeech() {
+    if (speechTimer.current) clearTimeout(speechTimer.current);
+    speechTimer.current = null;
+    const utterance = speechRef.current;
+    speechRef.current = null;
+    if (!utterance) return;
+    utterance.onstart = utterance.onend = utterance.onerror = null;
+    window.speechSynthesis?.cancel();
+  }
 
   // Sticky-Bar kann diesen Player fernsteuern (Play/Pause-Toggle)
   useEffect(() => {
@@ -118,7 +130,7 @@ export default function AudioPlayer({
     return () => {
       window.removeEventListener("ut-audio", onOther);
       audioRef.current?.pause();
-      if (typeof window !== "undefined") window.speechSynthesis?.cancel();
+      cancelOwnSpeech();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stopId]);
@@ -200,32 +212,43 @@ export default function AudioPlayer({
       const u = new SpeechSynthesisUtterance(script);
       u.lang = "de-CH";
       u.rate = 0.95;
-      let voices = window.speechSynthesis.getVoices();
-      if (voices.length === 0) {
-        voices = await new Promise<SpeechSynthesisVoice[]>((resolve) => {
-          const timer = setTimeout(
-            () => resolve(window.speechSynthesis.getVoices()),
-            1500
-          );
-          window.speechSynthesis.onvoiceschanged = () => {
-            clearTimeout(timer);
-            resolve(window.speechSynthesis.getVoices());
-          };
-        });
-      }
+      const voices = window.speechSynthesis.getVoices();
       const de =
         voices.find((v) => v.lang === "de-CH") ??
         voices.find((v) => v.lang.startsWith("de"));
       if (de) u.voice = de;
+      // Tell the other players to release their own audio BEFORE speaking.
+      // Inactive players must never cancel the shared speech engine.
+      emit({ stopId, stopName, state: "play" });
+      speechRef.current = u;
+      u.onstart = () => {
+        if (speechRef.current !== u) return;
+        if (speechTimer.current) clearTimeout(speechTimer.current);
+        setMode("browser-tts");
+        setPlaying(true);
+      };
       u.onend = () => {
+        if (speechRef.current !== u) return;
+        cancelOwnSpeech();
         setPlaying(false);
         emit({ stopId, stopName, state: "ended" });
       };
-      window.speechSynthesis.cancel();
+      u.onerror = () => {
+        if (speechRef.current !== u) return;
+        cancelOwnSpeech();
+        setPlaying(false);
+        setMode("error");
+        emit({ stopId, stopName, state: "ended" });
+      };
+      speechTimer.current = setTimeout(() => {
+        if (speechRef.current !== u) return;
+        cancelOwnSpeech();
+        setPlaying(false);
+        setMode("error");
+        emit({ stopId, stopName, state: "ended" });
+      }, 8000);
+      window.speechSynthesis.resume();
       window.speechSynthesis.speak(u);
-      setMode("browser-tts");
-      setPlaying(true);
-      emit({ stopId, stopName, state: "play" });
       return;
     }
 
@@ -234,7 +257,7 @@ export default function AudioPlayer({
 
   function pause() {
     audioRef.current?.pause();
-    if (typeof window !== "undefined") window.speechSynthesis?.cancel();
+    cancelOwnSpeech();
     setPlaying(false);
     emit({ stopId, stopName, state: "pause", t, d });
   }
@@ -242,7 +265,7 @@ export default function AudioPlayer({
   function stopPlayback(silent: boolean) {
     audioRef.current?.pause();
     if (audioRef.current) audioRef.current.currentTime = 0;
-    if (typeof window !== "undefined") window.speechSynthesis?.cancel();
+    cancelOwnSpeech();
     setPlaying(false);
     setT(0);
     if (!silent) emit({ stopId, stopName, state: "ended" });

@@ -102,3 +102,24 @@ test('Frankenthal sample is available offline with seeking only after a complete
   assert.deepEqual([...new Uint8Array(await response.arrayBuffer())],[2,3,4]);
   assert.equal((await workerFixture(false, url)({})).status,503);
 });
+
+test('Inactive station players do not cancel browser speech; status waits for start', async () => {
+  const source=ts.transpileModule(fs.readFileSync(path.join(__dirname,'../src/components/AudioPlayer.tsx'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;
+  const listeners=new Map(), states=[];let activeStates, cancellations=0, current;
+  const speech={getVoices:()=>[],resume:()=>{},cancel:()=>{cancellations++;},speak:u=>{current=u;}};
+  const win={speechSynthesis:speech,addEventListener:(name,fn)=>{if(!listeners.has(name))listeners.set(name,new Set());listeners.get(name).add(fn);},removeEventListener:()=>{},dispatchEvent:e=>{for(const fn of listeners.get(e.type)||[])fn(e);}};
+  const react={useState:v=>{const a=activeStates,i=a.length;a.push(v);return[v,x=>{a[i]=x;}];},useRef:v=>({current:v}),useEffect:fn=>{fn();}};
+  const module={exports:{}};
+  const context={window:win,CustomEvent:class{constructor(type,init){this.type=type;this.detail=init.detail;}},SpeechSynthesisUtterance:class{constructor(text){this.text=text;}},Audio:class{play(){return Promise.reject(Error('no prepared audio'));}pause(){}},setTimeout,clearTimeout,process,console,require:n=>n==='react'?react:require(n),module,exports:module.exports};
+  vm.runInNewContext(source,context);
+  const render=id=>{activeStates=[];states.push(activeStates);return module.exports.default({citySlug:'test',tourSlug:'test',stopId:id,stopName:id,script:'Test'});};
+  const first=render('one'),second=render('two');
+  const button=node=>{if(!node)return;if(node.type==='button')return node;for(const child of [node.props?.children].flat(Infinity)){const found=button(child);if(found)return found;}};
+  await button(first).props.onClick();
+  assert.equal(cancellations,0);assert.equal(states[0][1],false);
+  const firstSpeech=current;current.onstart();assert.equal(states[0][1],true);
+  await button(second).props.onClick();assert.equal(cancellations,1);
+  assert.equal(firstSpeech.onstart,null);
+  current.onstart();assert.equal(states[1][1],true);assert.equal(cancellations,1);
+  current.onerror();assert.equal(states[1][0],'error');assert.equal(states[1][1],false);
+});

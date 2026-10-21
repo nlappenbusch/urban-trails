@@ -52,7 +52,7 @@ export default function GuideChat({
         res.ok && data?.answer
           ? data.answer
           : res.status === 503
-            ? "Der KI-Guide ist noch nicht aktiviert. Trag deinen OPENAI_API_KEY in .env.local ein – dann beantworte ich dir unterwegs alles, von Kaffee-Tipps bis Routen-Abkürzungen."
+            ? "Der Guide ist gerade nicht verfügbar. Die geprüften Tipps und Wegbeschreibungen findest du bei den einzelnen Stopps."
             : "Hoppla, das hat gerade nicht geklappt. Versuch es gleich nochmal.";
       setMessages((m) => [...m, { role: "guide", text: answer }]);
     } catch {

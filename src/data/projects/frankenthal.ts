@@ -1,0 +1,32 @@
+export type ProductionStatus = "planned" | "in-review" | "approved";
+export const frankenthal = {
+    id: "frankenthal", name: "Frankenthal zum Hören", status: "planned" as ProductionStatus,
+    description: "Eine Audiotour über Ankommen, Zusammenleben und Industriekultur. Projektvorschau auf Basis der Vergabeunterlagen, noch keine freigegebene Stadtführung.",
+    targetMinutes: { audio: 30, totalMin: 45, totalMax: 60 },
+    languages: [
+        { code: "de", name: "Deutsch", status: "Drehbuch in Vorbereitung" },
+        { code: "en", name: "Englisch", status: "Übersetzung und Sprachprüfung offen" },
+        { code: "fr", name: "Französisch", status: "Übersetzung und Sprachprüfung offen" },
+        { code: "it", name: "Italienisch", status: "Übersetzung und Sprachprüfung offen" },
+        { code: "de-easy", name: "Leichte Sprache", status: "Fachbearbeitung und Zielgruppenprüfung offen" },
+    ],
+    source: "Highlight-Tour mit Legende, S. 2; LV Audioguide Frankenthal, S. 1–2. Vergabe-ID CXS0Y5UDY6E5LP64.",
+    stops: [
+        ["wormser-tor", "Wormser Tor", 120, "Ankommen und Orientierung"],
+        ["metznerpark", "Metznerpark", 90, "Den heutigen Ort wahrnehmen"],
+        ["forthuberhaus", "Forthuberhaus", 90, "Haus und Stadtgesellschaft"],
+        ["kanalhafen", "Kanalhafen", 180, "Verbindung zum Rhein"],
+        ["zwoelf-apostel-kirche", "12-Apostel-Kirche", 120, "Religiöses Leben"],
+        ["erkenbertruine", "Erkenbertruine", 180, "Stift und historische Spuren"],
+        ["dreifaltigkeitskirche", "Dreifaltigkeitskirche", 120, "Zusammenleben und Perspektiven"],
+        ["bahnhof", "Bahnhof", 90, "Ankommen und Mobilität"],
+        ["brauhaus", "Brauhaus", 90, "Alltag und regionale Kultur"],
+        ["landgericht", "Landgericht", 90, "Stadtgesellschaft"],
+        ["parsevalhaus", "Parsevalhaus", 120, "Biografischer Zugang nach Recherche"],
+        ["elefant", "Elefant", 90, "Objektbezug nach Recherche"],
+        ["speyerer-tor", "Speyerer Tor", 120, "Stadtgrenze und Wandel"],
+        ["progymnasium", "Progymnasium", 90, "Lernen und Stadtleben"],
+        ["zuckerfabrik", "Zuckerfabrik", 210, "Industriekultur und Finale"],
+    ].map(([id, name, seconds, theme]) => ({ id: String(id), name: String(name), audioSeconds: Number(seconds), theme: String(theme), status: "planned" as ProductionStatus, coordinates: null, gpsApproved: false })),
+    voice: { provider: "ElevenLabs", status: "Stimme noch auszuwählen", regionalVoice: "Eine regionale Stimme wird erst nach ausdrücklicher Freigabe für Projekt, Sprachen und Nutzungsdauer eingesetzt." },
+};

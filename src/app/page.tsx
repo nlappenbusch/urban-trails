@@ -5,6 +5,7 @@ import TourCard from "@/components/TourCard";
 import { getTourHeroImage } from "@/data/images";
 
 export default function HomePage() {
+  const guideEnabled = Boolean(process.env.OPENAI_API_KEY && !process.env.OPENAI_API_KEY.startsWith("sk-your"));
   const totalStops = tours.reduce((n, t) => n + t.stops.length, 0);
   const hiddenGems = tours.reduce(
     (n, t) => n + t.stops.filter((s) => s.isHiddenGem).length,
@@ -37,8 +38,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-cream-dim">
             Selbstgeführte Spaziergänge durch Zürich und die schönsten Städtchen drumherum – für Leute, die Vibes suchen statt Sehenswürdigkeiten: Audio-Stories wie ein guter Podcast,
-            Geheimtipps mit Adresse, Social-Check für jeden Spot – und ein
-            KI-Guide für alles dazwischen.
+            Geheimtipps mit Adresse und Social-Check für jeden Spot.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link href="/touren" className="btn-primary">
@@ -212,7 +212,7 @@ export default function HomePage() {
             </div>
           )}
 
-          <div className="card p-6">
+          {guideEnabled && <div className="card p-6">
             <span className="stamp-orange self-start">Frag deinen Guide</span>
             <div className="mt-4 space-y-2 text-sm">
               <p className="ml-auto w-fit max-w-[90%] rounded-lg bg-ink-800 px-3 py-2 text-cream">
@@ -227,7 +227,7 @@ export default function HomePage() {
               Der KI-Guide kennt deine Route und antwortet unterwegs – Kaffee,
               Abkürzung, Bar, Fotospot.
             </p>
-          </div>
+          </div>}
 
           <div className="card p-6">
             <span className="stamp self-start">Tour-Modus</span>
@@ -333,7 +333,7 @@ export default function HomePage() {
               <li>✓ Insider-Touren (Hidden, Sunset, Chreis Cheib)</li>
               <li>✓ Studio-Audio-Stories</li>
               <li>✓ Social-Check &amp; Geheimtipps mit Adressen</li>
-              <li>✓ KI-Guide unterwegs</li>
+              {guideEnabled && <li>✓ KI-Guide unterwegs</li>}
             </ul>
           </div>
         </div>

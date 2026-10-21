@@ -16,7 +16,7 @@ export const zuerichKlassiker: Tour = {
   bestTimeOfDay: "Start am Vormittag oder frühen Nachmittag – goldenes Licht am See zum Schluss.",
   bestSeason: "Ganzjährig; im Sommer mit Badehose (Seebad!), im Dezember mit Glühwein.",
   difficulty: "leicht",
-  durationMinutes: 165,
+  durationMinutes: 248,
   distanceKm: 5.2,
   startPoint: "Zürich Hauptbahnhof, Haupthalle",
   endPoint: "Chinagarten Zürich, Seefeldquai",
@@ -28,9 +28,9 @@ export const zuerichKlassiker: Tour = {
   gradient: ["#0e3a6b", "#38a5ff"],
   imageHint: "Blick von der Münsterbrücke auf Grossmünster und Limmat im Abendlicht",
   seo: {
-    metaTitle: "Zürich Sehenswürdigkeiten zu Fuss: Die Klassiker-Tour mit Audioguide (5 km, ~3h)",
+    metaTitle: "Zürich Sehenswürdigkeiten zu Fuss: Die Klassiker-Tour mit Audioguide (5 km, rund 4h)",
     metaDescription:
-      "Selbstgeführte Walking-Tour durch Zürich: 12 Stops vom Hauptbahnhof über Lindenhof, Fraumünster und Grossmünster bis zum Chinagarten. Mit Audioguide, Karte, Geheimtipps und Gehzeiten.",
+      "Selbstgeführte Walking-Tour durch Zürich: 13 Stops vom Hauptbahnhof über Lindenhof, Fraumünster und Grossmünster bis zum Chinagarten. Mit Audioguide, Karte, Geheimtipps und Gehzeiten.",
     keywords: [
       "Zürich Sehenswürdigkeiten zu Fuss",
       "Zürich Stadtrundgang",
@@ -43,12 +43,12 @@ export const zuerichKlassiker: Tour = {
     {
       question: "Wie lange dauert die Zürich Klassiker Tour?",
       answer:
-        "Reine Gehzeit ca. 75 Minuten, mit Aufenthalten an den 12 Stops rund 2¾ bis 3 Stunden. Du kannst jederzeit pausieren – die Route ist in jeder Richtung mit ÖV erreichbar.",
+        "Die hinterlegten Richtwerte ergeben 63 Minuten Gehzeit und 185 Minuten Aufenthalt, insgesamt rund 4 Stunden 8 Minuten. Zusätzliche Pausen und Eintritte können die Tour verlängern. Du kannst jederzeit pausieren – die Route ist in jeder Richtung mit ÖV erreichbar.",
     },
     {
       question: "Ist die Tour kostenlos?",
       answer:
-        "Ja, die Klassiker-Tour ist unsere kostenlose Basis-Tour inklusive Karte und allen Texten. Premium-Features wie Offline-Audio und KI-Guide gibt es in der Premium-Version.",
+        "Ja, die Tour und die Mitlesetexte sind kostenlos. Optionale Eintritte, Speisen und Getränke sind nicht enthalten. Verfügbare Offline-Inhalte lassen sich im Unterwegs-Modus speichern.",
     },
     {
       question: "Ist die Route kinderwagentauglich?",
@@ -63,12 +63,12 @@ export const zuerichKlassiker: Tour = {
     {
       question: "Brauche ich Tickets für die Kirchen?",
       answer:
-        "Fraumünster verlangt einen kleinen Eintritt (inkl. Chagall-Fenster), der Grossmünster-Turm kostet separat. Beide lohnen sich.",
+        "Für touristische Besuche des Fraumünsters gilt derzeit ein Eintritt von CHF 5; Ausnahmen und aktuelle Zeiten beim Anbieter prüfen. Der Grossmünster-Turm kostet separat.",
     },
     {
       question: "Kann ich die Tour abkürzen?",
       answer:
-        "Ja. Die 90-Minuten-Variante endet beim Bellevue (Stop 10) – von dort fahren alle wichtigen Trams.",
+        "Ja. Du kannst beim Bellevue (Stop 10) enden. Plane die Zeit nach deinen Pausen; eine 90-Minuten-Dauer ist für diese Teilstrecke nicht geprüft.",
     },
   ],
   stops: [
@@ -109,13 +109,13 @@ export const zuerichKlassiker: Tour = {
       why: "Das meistbesuchte historische Museum der Schweiz – und der Park dahinter hat eine der heftigsten Geschichten der Stadt.",
       story:
         "Architekt Gustav Gull baute 1898 ein Fantasieschloss aus hundert Schweizer Baustilen – Kritiker spotteten, Besucher liebten es. Dahinter liegt der Platzspitz, wo Limmat und Sihl zusammenfliessen. In den 80ern als «Needle Park» weltberühmt-berüchtigt, heute einer der friedlichsten Orte der Stadt. Diese Verwandlung ist Zürich in einer Nuss: Die Stadt schaut hin, räumt auf, erfindet sich neu.",
-      funFact: "James Joyce spazierte hier täglich – er nannte den Zusammenfluss «seine Denkmaschine».",
+      funFact: "An der Spitze des Parks treffen Sihl und Limmat aufeinander – ein guter Ort, um die beiden Flussläufe zu beobachten.",
       insiderTip:
         "Der Neubau-Innenhof des Museums ist frei zugänglich – Beton-Brutalismus trifft Schlossromantik, kaum Touristen.",
       photoSpot: "Spitze des Platzspitz-Parks: zwei Flüsse, eine Perspektive.",
       isHiddenGem: false,
       audioScript:
-        "Sieht aus wie ein Märchenschloss, oder? Türmchen, Zinnen, Erker – als hätte jemand die ganze Schweizer Geschichte in ein Gebäude gegossen. Genau das war 1898 der Plan. Aber die spannendste Geschichte liegt hinter dem Schloss. Der Park dort heisst Platzspitz – und in den Achtzigern kannte ihn die ganze Welt unter einem anderen Namen: Needle Park. Hier spielte sich eine der grössten offenen Drogenszenen Europas ab. Tausende Menschen, jeden Tag. Die Bilder gingen um die Welt und zwangen die Schweiz, ihre Drogenpolitik komplett neu zu denken – mit einem Ansatz, der heute als Vorbild gilt. Wenn du heute durch den Park gehst, hörst du Vogelgezwitscher und siehst Yoga-Gruppen. Ganz vorne an der Spitze fliessen Limmat und Sihl zusammen. James Joyce stand genau dort, fast jeden Tag, und dachte über den Ulysses nach. Nicht das schlechteste Plätzchen zum Denken.",
+        "Sieht aus wie ein Märchenschloss, oder? Türmchen, Zinnen, Erker – als hätte jemand die ganze Schweizer Geschichte in ein Gebäude gegossen. Genau das war 1898 der Plan. Aber die spannendste Geschichte liegt hinter dem Schloss. Der Park dort heisst Platzspitz – und in den Achtzigern kannte ihn die ganze Welt unter einem anderen Namen: Needle Park. Hier spielte sich eine der grössten offenen Drogenszenen Europas ab. Tausende Menschen, jeden Tag. Die Bilder gingen um die Welt und zwangen die Schweiz, ihre Drogenpolitik komplett neu zu denken – mit einem Ansatz, der heute als Vorbild gilt. Wenn du heute durch den Park gehst, hörst du Vogelgezwitscher und siehst Yoga-Gruppen. Ganz vorne an der Spitze fliessen Limmat und Sihl zusammen. Nimm dir einen Moment und beobachte die beiden Flüsse, bevor du in die Altstadt zurückgehst.",
     },
     {
       id: "lindenhof",
@@ -190,11 +190,11 @@ export const zuerichKlassiker: Tour = {
       walkMinutesFromPrevious: 4,
       directions: "Vom St. Peter die Schlüsselgasse hinunter Richtung Limmat, rechts zum Münsterhof.",
       stayMinutes: 20,
-      why: "Die fünf Chagall-Fenster gehören zum Bewegendsten, was man in Zürich gratis fast sehen kann.",
+      why: "Der fünfteilige Fensterzyklus von Marc Chagall ist ein besonderer Grund für einen Besuch. Beachte die Eintrittsregelung.",
       story:
-        "853 gründete König Ludwig der Deutsche hier ein Kloster für seine Töchter. Die Äbtissinnen des Fraumünsters wurden später faktisch Stadtherrinnen – sie prägten Münzen und vergaben Marktrechte. Eine Frau regierte Zürich, im Mittelalter. 1970 dann der Coup: Der 83-jährige Marc Chagall gestaltete fünf Chorfenster – leuchtende Bibelszenen in Blau, Grün, Gelb und Rot, die er persönlich bemalte.",
+        "853 gründete König Ludwig der Deutsche hier ein Kloster für seine Töchter. Die Äbtissinnen des Fraumünsters wurden später faktisch Stadtherrinnen – sie prägten Münzen und vergaben Marktrechte. Eine Frau regierte Zürich, im Mittelalter. 1970 entstand der fünfteilige Chorfenster-Zyklus von Marc Chagall – leuchtende Bibelszenen in Blau, Grün, Gelb und Rot.",
       funFact:
-        "Chagall stand mit 83 Jahren selbst auf dem Gerüst und korrigierte jedes Detail – drei Jahre lang.",
+        "Der fünfteilige Fensterzyklus im Chor wird durch eine spätere Rosette von Chagall ergänzt.",
       insiderTip:
         "Geh am späten Nachmittag hinein, wenn die Sonne tief steht: Dann brennen die Fenster förmlich.",
       photoSpot: "Aussen: vom Münsterhof mit Zunfthaus zur Meisen im Rücken. (Innen Fotografierverbot.)",
@@ -223,7 +223,7 @@ export const zuerichKlassiker: Tour = {
       funFact:
         "Hans Waldmann liess Hunde der Bauern erschlagen und Luxusgesetze für alle ausser sich selbst erlassen – die Stadt köpfte ihn. Das Denkmal kam trotzdem, 450 Jahre später.",
       insiderTip:
-        "Unter der Brücke, am Limmatquai-Ufer, schwimmen im Sommer die Mutigen – der schönste improvisierte Badeplatz der Altstadt.",
+        "Hier nicht baden: Im Innenstadtabschnitt der Limmat und unter Brücken bestehen Badeverbote. Nutze ausgewiesene Badeanlagen und beachte die örtlichen Hinweise.",
       photoSpot: "Brückenmitte flussabwärts: Limmat, Rathaus und beide Ufer.",
       audioScript:
         "Bleib mal in der Mitte der Brücke stehen. Links das Fraumünster mit seiner schlanken grünen Spitze, rechts die beiden wuchtigen Türme des Grossmünsters – und unter dir zieht die Limmat seelenruhig Richtung Rhein. Diese Brücke verbindet seit fast zweihundert Jahren zwei Welten: drüben das feine, aristokratische Zürich, hier das raue Handwerkerquartier. Und siehst du den Reiter aus Bronze? Das ist Hans Waldmann – Bürgermeister, Kriegsheld, Aufsteiger. Er regierte die Stadt wie ein Fürst, verbot den Bauern ihre Hunde und gönnte sich selbst jeden Luxus, den er anderen verbot. 1489 hatten die Zürcher genug: Sie köpften ihn, keine fünfhundert Meter von hier. Und dann, viereinhalb Jahrhunderte später, stellten sie ihm trotzdem ein Denkmal hin. Vielleicht ist das die zürcherischste Pointe überhaupt: Erst köpfen, dann ehren – Hauptsache, es dauert lange genug.",
@@ -287,7 +287,7 @@ export const zuerichKlassiker: Tour = {
       teaser: "Zürichs Verkehrsherz – und der Platz, auf dem ein Schneemann explodiert.",
       coords: { lat: 47.36672, lng: 8.54497 },
       walkMinutesFromPrevious: 8,
-      directions: "Limmatquai flussabwärts bis zur Quaibrücke, das Bellevue liegt direkt davor.",
+      directions: "Limmatquai Richtung See bis zur Quaibrücke, das Bellevue liegt direkt davor.",
       stayMinutes: 10,
       why: "Hier öffnet sich die Stadt zum See – und im April brennt hier der Böögg.",
       story:
@@ -360,7 +360,7 @@ export const zuerichKlassiker: Tour = {
       funFact:
         "Fast alle Bauteile wurden in Kunming gefertigt, verschifft und hier von chinesischen Handwerkern montiert – ein 7'000-Kilometer-Flatpack.",
       insiderTip:
-        "Direkt daneben liegt die Wiese am Zürichhorn mit Heureka, der kinetischen Maschine von Jean Tinguely – läuft zu jeder vollen Stunde.",
+        "Prüfe vor deinem Besuch die Öffnungszeiten des Chinagartens: Mai bis Oktober 11–19 Uhr, November bis April 11–17 Uhr (Stand Oktober 2026). Am Zürichhorn kannst du auch ausserhalb des Gartens spazieren.",
       photoSpot: "Durch das Eingangstor auf den Teichpavillon – klassischer Rahmen-im-Rahmen-Shot.",
       audioScript:
         "Und plötzlich: China. Rote Säulen, geschwungene Dächer, ein stiller Teich – mitten am Zürichsee. Dieser Garten ist kein Themenpark, sondern ein echtes Staatsgeschenk. Zürichs Partnerstadt Kunming schenkte ihn der Stadt 1994 – als Dankeschön dafür, dass Zürcher Ingenieure beim Aufbau der Trinkwasserversorgung geholfen hatten. Wasser gegen Garten – ein schöner Tausch. Und Kunming kleckerte nicht: Es ist ein Tempelgarten, die höchste Kategorie chinesischer Gartenkunst. Die Bauteile wurden in China gefertigt, um die halbe Welt verschifft und hier von angereisten Handwerkern zusammengesetzt. Das Thema des Gartens sind die drei Freunde des Winters: Pinie, Bambus und Winterkirsche – die drei Pflanzen, die der Kälte trotzen. Ein Symbol für Freundschaft, die schwierige Zeiten übersteht. Damit ist deine Tour offiziell geschafft: vom römischen Zoll-Hügel bis zum kaiserlichen Garten, zweitausend Jahre in fünf Kilometern. Setz dich ans Wasser, schau auf den See – und falls du noch Energie hast: Die Badi Utoquai auf dem Rückweg hat bis in den Abend offen. Du hast es dir verdient.",

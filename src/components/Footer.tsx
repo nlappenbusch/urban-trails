@@ -58,6 +58,8 @@ export default function Footer() {
         <div>
           <p className="kicker">Entdecken</p>
           <ul className="mt-3 space-y-2 text-sm">
+            <li><Link href="/frankenthal" className="font-bold text-cream-dim hover:text-cream">Frankenthal · Projektvorschau</Link></li>
+            <li><Link href="/datenschutz" className="font-bold text-cream-dim hover:text-cream">Daten im Unterwegs-Modus</Link></li>
             <li>
               <Link
                 href="/touren"

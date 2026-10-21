@@ -217,7 +217,7 @@ function StopCard({
 
         <details className="mt-3 text-sm text-cream-dim">
           <summary className="cursor-pointer font-medium text-cream-dim hover:text-cream">
-            Audioguide-Skript lesen (auch perfekt für ElevenLabs)
+            Audiotext mitlesen
           </summary>
           <p className="mt-3 whitespace-pre-line rounded-2xl bg-black/30 p-4 leading-relaxed">
             {stop.audioScript}
@@ -466,6 +466,7 @@ export default function StopTimeline({ tour }: { tour: Tour }) {
             <div className="flex shrink-0 items-center gap-1.5">
               <button
                 onClick={toggleGeo}
+                aria-label="Standort verfolgen"
                 title="Standort verfolgen (Distanz + «du bist hier»)"
                 className={`grid h-10 w-10 place-items-center rounded-full text-sm font-semibold transition ${
                   geoState === "on"
@@ -476,6 +477,7 @@ export default function StopTimeline({ tour }: { tour: Tour }) {
                 {geoState === "loading" ? "⏳" : "📍"}
               </button>
               <button
+                aria-label="Karte öffnen"
                 onClick={() => setMapOpen(true)}
                 className="inline-flex h-10 items-center gap-1.5 rounded-full border border-cream/20 bg-ink-900 px-3.5 text-sm font-bold text-cream transition hover:bg-ink-800"
               >

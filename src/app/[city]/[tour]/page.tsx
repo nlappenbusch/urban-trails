@@ -40,6 +40,7 @@ export default async function TourPage({ params }: Props) {
   const tour = getTour(city, tourSlug);
   if (!tour) notFound();
 
+  const guideEnabled = Boolean(process.env.OPENAI_API_KEY && !process.env.OPENAI_API_KEY.startsWith("sk-your"));
   const hiddenGems = tour.stops.filter((s) => s.isHiddenGem).length;
   const jsonLd = tourJsonLd(tour);
   const hero = getTourHeroImage(tour.slug);
@@ -112,6 +113,7 @@ export default async function TourPage({ params }: Props) {
             «{tour.claim}»
           </p>
 
+          <div className="mt-6 flex flex-wrap gap-3"><a href="#tourstart" className="btn-primary">Tour starten</a><Link href={`/unterwegs/${tour.citySlug}/${tour.slug}`} className="btn-secondary">Offline & GPS</Link></div>
           <dl className="mt-10 grid max-w-3xl grid-cols-2 gap-4 sm:grid-cols-4">
             {[
               { label: "Dauer", value: formatDuration(tour.durationMinutes) },
@@ -200,11 +202,11 @@ export default async function TourPage({ params }: Props) {
           </div>
         </section>
 
-        <section className="mt-14">
+        {guideEnabled && <section className="mt-14">
           <GuideChat citySlug={tour.citySlug} tourSlug={tour.slug} />
-        </section>
+        </section>}
 
-        <section className="mt-16">
+        <section id="tourstart" className="mt-16">
           <h2 className="headline text-3xl text-cream sm:text-4xl">
             Stop für <em>Stop</em>
           </h2>

@@ -1,0 +1,3 @@
+import type { GeoPoint } from "./types";
+export function distanceMeters(a: GeoPoint, b: GeoPoint) { const rad = (n: number) => n * Math.PI / 180; const h = Math.sin(rad(b.lat - a.lat) / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(rad(b.lng - a.lng) / 2) ** 2; return 6371000 * 2 * Math.asin(Math.sqrt(Math.min(1, h))); }
+export function arrival(position: GeoPoint, accuracy: number, timestamp: number, stop: GeoPoint, now: number) { return Number.isFinite(accuracy) && accuracy >= 0 && accuracy <= 40 && now - timestamp >= 0 && now - timestamp <= 15000 && distanceMeters(position, stop) <= 45; }

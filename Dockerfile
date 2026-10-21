@@ -1,11 +1,11 @@
 # ── Stage 1: Dependencies ─────────────────────────────────
-FROM node:20-alpine AS deps
+FROM node:22.23.4-alpine AS deps
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 
 # ── Stage 2: Build ────────────────────────────────────────
-FROM node:20-alpine AS builder
+FROM node:22.23.4-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
@@ -21,7 +21,7 @@ ENV NEXT_PUBLIC_MAPBOX_TOKEN=$NEXT_PUBLIC_MAPBOX_TOKEN \
 RUN npm run build
 
 # ── Stage 3: Runtime (klein, non-root) ────────────────────
-FROM node:20-alpine AS runner
+FROM node:22.23.4-alpine AS runner
 WORKDIR /app
 ENV NODE_ENV=production \
     NEXT_TELEMETRY_DISABLED=1 \

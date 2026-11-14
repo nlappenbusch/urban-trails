@@ -1,0 +1,78 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "jardin-anglais": {
+    kind: "story",
+    question: "Warum wurden die Genfer Goldschmiede zu Uhrmachern?",
+    options: [
+      "Weil Calvin Schmuck verbot – Uhren galten als nützlich",
+      "Weil Gold knapp wurde",
+      "Weil der König von Frankreich Uhren bestellte",
+      "Weil Uhren steuerfrei waren",
+    ],
+    answer: 0,
+    hint: "Ein strenger Reformator hatte etwas gegen Prunk.",
+    explanation: "Schmuck war Sünde, Uhren waren Handwerk. Die Blumenuhr aus rund 6500 Pflanzen ehrt diese Tradition seit 1955.",
+    points: 10,
+  },
+  "jet-deau": {
+    kind: "knobel",
+    question: "Der Jet d'eau pumpt 500 Liter pro Sekunde. Wie viel Wasser ist das pro Minute?",
+    options: ["3'000 Liter", "8'000 Liter", "30'000 Liter", "300'000 Liter"],
+    answer: 2,
+    hint: "500 mal 60.",
+    explanation: "30'000 Liter pro Minute schiessen 140 Meter hoch. Begonnen hat alles 1886 als Überdruckventil der Wasserwerke.",
+    points: 30,
+  },
+  "cathedrale-st-pierre": {
+    kind: "story",
+    question: "Wo liegt Johannes Calvin begraben?",
+    options: [
+      "In einer Krypta unter der Kathedrale",
+      "In seiner Heimat Frankreich",
+      "In einem anonymen Grab – niemand weiss exakt, wo",
+      "Unter der Reformationsmauer",
+    ],
+    answer: 2,
+    hint: "Personenkult war ihm zuwider.",
+    explanation: "Calvin wollte ein anonymes Grab. In der Kathedrale steht aber noch sein schlichter Stuhl, von dem er fast täglich predigte.",
+    points: 20,
+  },
+  "bourg-de-four": {
+    kind: "story",
+    question: "Warum wurden die Häuser am Bourg-de-Four im 16. Jahrhundert um mehrere Stockwerke erhöht?",
+    options: [
+      "Wegen eines Hochwassers",
+      "Damit man über die Stadtmauer sehen konnte",
+      "Für Lagerräume der Uhrmacher",
+      "Um Glaubensflüchtlinge unterzubringen",
+    ],
+    answer: 3,
+    hint: "Die Hugenotten flohen aus Frankreich nach Genf.",
+    explanation: "Verdichtung anno 1550 für die Hugenotten. Im Namen steckt übrigens das römische «Forum».",
+    points: 20,
+  },
+  "parc-des-bastions": {
+    kind: "vor-ort",
+    question: "Welches lateinische Motto prangt an der Reformationsmauer?",
+    options: ["Ora et labora", "Post Tenebras Lux", "Carpe diem", "Unus pro omnibus"],
+    answer: 1,
+    hint: "Nach der Finsternis …",
+    explanation: "«Post Tenebras Lux» – nach der Finsternis das Licht, das Genfer Motto. Oben auf der Promenade de la Treille steht eine 126 Meter lange Holzbank.",
+    points: 10,
+  },
+  "bains-des-paquis": {
+    kind: "story",
+    question: "Wie wurden die Bains des Pâquis in den 80ern vor dem Abriss gerettet?",
+    options: [
+      "Durch einen Millionär",
+      "Durch die UNO",
+      "Durch eine Volksabstimmung",
+      "Durch einen Denkmalschutz-Prozess",
+    ],
+    answer: 2,
+    hint: "Die Genfer taten das Schweizerischste überhaupt.",
+    explanation: "Die Genfer stimmten ab und retteten ihr Volksbad von 1872. Im Winter: Sauna, dann die Leiter in den 7-Grad-See.",
+    points: 10,
+  },
+};

@@ -9,6 +9,7 @@ import { getTourHeroImage } from "@/data/images";
 import { getDestination } from "@/data/destinations";
 import { getCategory } from "@/lib/categories";
 import Link from "next/link";
+import { riddlesByTour } from "@/data/riddles";
 
 interface Props {
   params: Promise<{ city: string; tour: string }>;
@@ -215,7 +216,7 @@ export default async function TourPage({ params }: Props) {
             Ort oder hör einfach zu.
           </p>
           <div className="mt-10">
-            <StopTimeline tour={tour} />
+            <StopTimeline tour={tour} riddles={riddlesByTour[`${tour.citySlug}/${tour.slug}`] ?? {}} />
           </div>
         </section>
 

@@ -1,0 +1,68 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "uetliberg-bahn": {
+    kind: "knobel",
+    question: "Die Uetlibergbahn überwindet auf 9 km rund 470 Höhenmeter. Wie steil ist sie im Durchschnitt?",
+    options: ["Rund 5 Promille", "Rund 52 Promille", "Rund 79 Promille", "Rund 520 Promille"],
+    answer: 1,
+    hint: "470 Meter auf 9000 Meter – in Promille: 470 ÷ 9000 × 1000.",
+    explanation: "Rund 52 Promille im Schnitt, an den steilsten Stellen bis 79 – und das ganz ohne Zahnrad.",
+    points: 30,
+  },
+  "uto-kulm": {
+    kind: "story",
+    question: "Welches Naturschauspiel erlebst du auf Uto Kulm im Herbst regelmässig?",
+    options: ["Ein Nebelmeer unter dir", "Polarlichter", "Wanderdünen", "Einen Geysir"],
+    answer: 0,
+    hint: "Zürich versinkt – und du stehst in der Sonne.",
+    explanation: "Die Stadt verschwindet unter einem weissen Meer, nur Bergspitzen ragen heraus. Der Aussichtsturm auf dem Gipfel ist 30 Meter hoch.",
+    points: 10,
+  },
+  fallaetsche: {
+    kind: "story",
+    question: "Wer hat den riesigen Kessel der Fallätsche geformt?",
+    options: [
+      "Ein Gletscher in der Eiszeit",
+      "Ein alter Steinbruch",
+      "Wasser und Zeit – Erosion",
+      "Ein Meteoriteneinschlag",
+    ],
+    answer: 2,
+    hint: "Jedes Gewitter arbeitet weiter daran.",
+    explanation: "Über Jahrtausende hat sich der Regen in die weichen Schichten gefressen – und der Kessel frisst sich bis heute rückwärts in den Grat.",
+    points: 10,
+  },
+  planetenweg: {
+    kind: "knobel",
+    question: "Massstab 1 : 1 Milliarde – ein Meter Weg entspricht einer Million Kilometer. Die Erde ist rund 150 Millionen km von der Sonne entfernt. Wie weit liegt die Erd-Station von der Sonnen-Station?",
+    options: ["Rund 15 Meter", "Rund 150 Meter", "Rund 1.5 Kilometer", "Rund 15 Kilometer"],
+    answer: 1,
+    hint: "Ein Meter pro Million Kilometer.",
+    explanation: "Rund 150 Meter – darum kommen die inneren Planeten so schnell. Bis zum Saturn wanderst du dann über eine Stunde.",
+    points: 30,
+  },
+  felsenegg: {
+    kind: "story",
+    question: "Wer startet gerne von der Felsenegg-Kanzel aus – mit etwas Glück direkt vor deinem Sonnenuntergang?",
+    options: ["Heissluftballone", "Segelflugzeuge", "Modellraketen-Clubs", "Gleitschirmflieger"],
+    answer: 3,
+    hint: "Bunte Schirme am Abendhimmel.",
+    explanation: "Die Felsenegg ist ein beliebter Startplatz für Gleitschirme. Unter dir liegt der Zürichsee von Thalwil bis zur Halbinsel Au.",
+    points: 10,
+  },
+  felseneggbahn: {
+    kind: "story",
+    question: "Was ist an der Luftseilbahn Adliswil–Felsenegg einzigartig im Zürcher Verkehrsverbund?",
+    options: [
+      "Sie ist die älteste Bahn des Kantons",
+      "Sie ist die einzige Luftseilbahn im ZVV – dein normales Ticket gilt",
+      "Sie fährt rund um die Uhr",
+      "Sie wird mit Solarstrom vom Dach betrieben",
+    ],
+    answer: 1,
+    hint: "Du fährst damit, als wäre sie ein Bus.",
+    explanation: "Die LAF ist die einzige Luftseilbahn im ZVV und fährt seit 1954 – rund fünf Minuten Schwebeflug ins Sihltal.",
+    points: 20,
+  },
+};

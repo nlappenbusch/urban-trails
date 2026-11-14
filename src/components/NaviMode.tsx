@@ -11,6 +11,8 @@ import { distanceMeters } from "@/lib/gps";
 import { bearing, buildRoute, formatMeters, maneuverAngle, nextStep, pointAt, project, walkMinutes, type LngLat, type NavRoute } from "@/lib/nav";
 import { getStopImage } from "@/data/images";
 import { ambienceEnabled, onAmbiencePref, setAmbienceEnabled } from "@/lib/ambience";
+import RiddleCard from "@/components/RiddleCard";
+import type { TourRiddles } from "@/lib/riddle-types";
 
 interface Fix extends GeoPoint {
   acc: number;
@@ -56,11 +58,13 @@ function TurnIcon({ angle }: { angle: number }) {
 
 export default function NaviMode({
   tour,
+  riddles = {},
   done,
   onDone,
   onClose,
 }: {
   tour: Tour;
+  riddles?: TourRiddles;
   done: Set<string>;
   onDone: (id: string) => void;
   onClose: () => void;
@@ -78,6 +82,7 @@ export default function NaviMode({
   const [arrivedId, setArrivedId] = useState<string | null>(null);
   const [follow, setFollow] = useState(true);
   const [ambience, setAmbience] = useState(true);
+  const [riddleOpen, setRiddleOpen] = useState(false);
   const [audio, setAudio] = useState<{ stopId: string; playing: boolean; t: number; d: number } | null>(null);
 
   const mapEl = useRef<HTMLDivElement>(null);
@@ -351,6 +356,7 @@ export default function NaviMode({
 
   function finishStop() {
     onDone(target.id);
+    setRiddleOpen(false);
     const next = stops.findIndex((s, i) => i > idx && !done.has(s.id));
     if (next >= 0) setIdx(next);
     setFollow(true);
@@ -458,6 +464,16 @@ export default function NaviMode({
                   <div className="h-full rounded-full bg-signal-500 transition-[width] duration-300" style={{ width: `${audioPct}%` }} />
                 </div>
               )}
+              {riddles[target.id] &&
+                (riddleOpen ? (
+                  <div className="mt-3 max-h-[42dvh] overflow-y-auto">
+                    <RiddleCard tourKey={`${tour.citySlug}/${tour.slug}`} stopId={target.id} riddle={riddles[target.id]} compact />
+                  </div>
+                ) : (
+                  <button onClick={() => setRiddleOpen(true)} className="mt-3 w-full rounded-2xl border-2 border-dashed border-signal-500/50 py-3 text-sm font-extrabold text-signal-600">
+                    Rätsel lösen · bis {riddles[target.id].points} Punkte
+                  </button>
+                ))}
               <div className="mt-3 flex gap-2">
                 <a href={`#${target.id}`} onClick={onClose} className="flex-1 rounded-2xl border border-cream/15 py-3 text-center text-sm font-bold text-cream">
                   Text lesen

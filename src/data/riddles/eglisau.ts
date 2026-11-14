@@ -1,0 +1,78 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "bahnhof-eglisau-und-blick-auf-den-rhein": {
+    kind: "story",
+    question: "Wovon lebte Eglisau jahrhundertelang gut?",
+    options: ["Vom Brücken- und Fährgeld", "Vom Salzhandel", "Vom Bergbau", "Von einer Glashütte"],
+    answer: 0,
+    hint: "Wer über den Fluss wollte, musste hier durch – und bezahlen.",
+    explanation: "Brückenzoll und Fährgeld waren Eglisaus Geschäftsmodell. Eglisau ist übrigens die südlichste Rheinstadt.",
+    points: 10,
+  },
+  "untergass-das-staedtli": {
+    kind: "story",
+    question: "Warum nennt der Guide Eglisau ein kleines «Atlantis»?",
+    options: [
+      "Weil hier eine antike Stadt ausgegraben wurde",
+      "Weil das Städtli auf Pfählen im Wasser steht",
+      "Weil 1920 Teile der Vorstadt im gestauten Rhein versanken",
+      "Weil es jährlich überschwemmt wird",
+    ],
+    answer: 2,
+    hint: "Ein Kraftwerk flussabwärts hatte damit zu tun.",
+    explanation: "Beim Bau des Kraftwerks 1920 stieg der Rhein um mehrere Meter – Vorstadt und alte Holzbrücke versanken.",
+    points: 20,
+  },
+  "reformierte-kirche": {
+    kind: "story",
+    question: "Wie ist der Innenraum der reformierten Kirche über dem Städtli gestaltet?",
+    options: [
+      "Voller Goldaltäre und Heiligenbilder",
+      "Mit bunten Chagall-Fenstern",
+      "Als Kuppelbau mit Deckenfresken",
+      "Bewusst schlicht – Licht und Holz statt Gold",
+    ],
+    answer: 3,
+    hint: "Zwinglis Erbe – auch hier draussen auf dem Land.",
+    explanation: "Typisch reformiert: aussen markant, innen schlicht. Die Kirche entstand 1716–17, und von der Terrasse liegt dir das ganze Städtli zu Füssen.",
+    points: 10,
+  },
+  rheinbruecke: {
+    kind: "knobel",
+    question: "Das Eisenbahnviadukt stammt von 1897, die heutige Strassenbrücke von 1919. Wie viele Jahre ist das Viadukt älter?",
+    options: ["12", "22", "32", "42"],
+    answer: 1,
+    hint: "1919 minus 1897.",
+    explanation: "22 Jahre. Die Strassenbrücke ersetzte eine gedeckte Holzbrücke, die fast 400 Jahre hier stand – ihre Pfeilerreste liegen noch im Fluss.",
+    points: 20,
+  },
+  "rebberg-rheinhalde": {
+    kind: "story",
+    question: "Welche Rolle spielt der Rhein für die Reben am Hang?",
+    options: [
+      "Er bewässert sie über Kanäle",
+      "Er speichert Wärme und schützt vor Frost",
+      "Er bringt Dünger mit dem Hochwasser",
+      "Er hält Schädlinge fern",
+    ],
+    answer: 1,
+    hint: "Der Guide nennt ihn eine «Klimaanlage».",
+    explanation: "Der Fluss wirkt als Wärmespeicher. Hier wachsen vor allem Pinot Noir (Blauburgunder) und Riesling-Silvaner.",
+    points: 20,
+  },
+  "flussbad-am-rhein": {
+    kind: "story",
+    question: "Wie nutzen die Eglisauer den Rhein im Sommer am liebsten?",
+    options: [
+      "Sie rudern um die Wette",
+      "Sie fischen vom Steg aus",
+      "Sie steigen flussaufwärts ein und lassen sich zurücktreiben",
+      "Sie fahren Wasserski",
+    ],
+    answer: 2,
+    hint: "Schwimmen muss man kaum – der Fluss macht die Arbeit.",
+    explanation: "Ein paar hundert Meter flussaufwärts rein, auf den Rücken legen, heimtreiben – im Hochsommer bei über 20 Grad.",
+    points: 10,
+  },
+};

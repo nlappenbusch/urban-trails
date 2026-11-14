@@ -1,0 +1,68 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "baden-bahnhof": {
+    kind: "knobel",
+    question: "1847 dauerte die Fahrt Zürich–Baden 45 Minuten, heute sind es 15. Wie viel mal schneller bist du heute?",
+    options: ["2-mal", "3-mal", "4-mal", "30-mal"],
+    answer: 1,
+    hint: "45 geteilt durch 15.",
+    explanation: "Dreimal so schnell. Die erste Bahn der Schweiz hiess «Spanisch-Brötli-Bahn» – nach dem Blätterteiggebäck, das die Zürcher so liebten.",
+    points: 10,
+  },
+  "baden-stadtturm": {
+    kind: "vor-ort",
+    question: "An den Ecken des obersten Stockwerks ragen kleine, türmchenartige Erker hervor. Wie viele zählst du?",
+    options: ["Zwei", "Drei", "Vier", "Sechs"],
+    answer: 2,
+    hint: "Eines für jede Ecke des Turms.",
+    explanation: "Vier Eckerker, angefügt 1481–1483. Der Turm war Tor, Wehrturm und Gefängnis – die Zellen lagen direkt über dem Tor.",
+    points: 10,
+  },
+  "baden-tagsatzung": {
+    kind: "knobel",
+    question: "Die Tagsatzung tagte von 1426 bis 1712 in Baden. Wie viele Jahre waren das?",
+    options: ["186", "256", "286", "312"],
+    answer: 2,
+    hint: "1712 minus 1426.",
+    explanation: "286 Jahre – fast drei Jahrhunderte war Baden so etwas wie die Hauptstadt der alten Eidgenossenschaft. Vormittags Politik, nachmittags Bad.",
+    points: 20,
+  },
+  "baden-holzbruecke": {
+    kind: "story",
+    question: "Warum haben gedeckte Holzbrücken wie diese ein Dach?",
+    options: [
+      "Um das Holztragwerk vor Nässe zu schützen",
+      "Damit Fussgänger trocken bleiben",
+      "Damit man Zoll kassieren konnte",
+      "Als Lagerraum für Waren",
+    ],
+    answer: 0,
+    hint: "Es geht nicht um dich, sondern um die Brücke selbst.",
+    explanation: "Trockenes Holz lebt praktisch ewig: Das Tragwerk von 1810 kommt ohne einen Stahlträger aus. Gegenüber steht das Landvogteischloss mit dem Historischen Museum.",
+    points: 20,
+  },
+  "baden-ruine-stein": {
+    kind: "story",
+    question: "Welches Herrschergeschlecht sicherte mit der Burg Stein seine Stammlande?",
+    options: ["Die Kyburger", "Die Zähringer", "Die Habsburger", "Die Savoyer"],
+    answer: 2,
+    hint: "Ihre Stammburg steht nur ein paar Kilometer von hier – und sie wurden später ein Kaiserhaus.",
+    explanation: "Die Habsburger lagerten hier zeitweise sogar ihr Archiv. 1415 schleiften die Eidgenossen die Burg, 1712 sprengten Berner Truppen die Reste.",
+    points: 10,
+  },
+  "baden-baederquartier": {
+    kind: "story",
+    question: "Wofür steht der Name des Thermalbads «Fortyseven»?",
+    options: [
+      "Für die Zahl der Becken",
+      "Für das Gründungsjahr 1947",
+      "Für die Anzahl Quellen",
+      "Für die Temperatur der Quellen in Grad",
+    ],
+    answer: 3,
+    hint: "Halt beim Heissen Brunnen mal die Hände rein.",
+    explanation: "47 Grad heiss sprudeln die 18 Quellen – die heissesten der Schweiz. Schon die Römer gründeten hier «Aquae Helveticae».",
+    points: 10,
+  },
+};

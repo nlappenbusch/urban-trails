@@ -32,7 +32,7 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 # Server-seitiger Audio-Cache (TTS) – wird als Volume persistiert
-RUN mkdir -p .audio-cache && chown nextjs:nodejs .audio-cache
+RUN mkdir -p .audio-cache data && chown nextjs:nodejs .audio-cache data
 USER nextjs
 EXPOSE 3000
 CMD ["node", "server.js"]

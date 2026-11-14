@@ -4,6 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Logo from "@/components/Logo";
+import GameChip from "@/components/GameChip";
+import type { Catalog } from "@/lib/game";
 
 const links = [
   { href: "/touren", label: "Touren" },
@@ -11,7 +13,7 @@ const links = [
   { href: "/kategorien", label: "Kategorien" },
 ];
 
-export default function Header() {
+export default function Header({ catalog }: { catalog: Catalog }) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
@@ -39,17 +41,12 @@ export default function Header() {
           >
             Überrasch mich
           </Link>
+          <span className="ml-1"><GameChip catalog={catalog} /></span>
         </nav>
 
         {/* Mobile: CTA + Burger */}
         <div className="flex items-center gap-2 md:hidden">
-          <Link
-            href="/ueberrasche-mich"
-            className="rounded-full bg-signal-500 px-3.5 py-2 text-xs font-bold uppercase tracking-wide text-white"
-            onClick={() => setOpen(false)}
-          >
-            Überrasch mich
-          </Link>
+          <GameChip catalog={catalog} />
           <button
             onClick={() => setOpen(!open)}
             aria-label={open ? "Menü schliessen" : "Menü öffnen"}
@@ -96,6 +93,13 @@ export default function Header() {
               className="py-3.5 font-display text-lg font-extrabold tracking-tight text-signal-600"
             >
               ✨ Überrasch mich
+            </Link>
+            <Link
+              href="/konto"
+              onClick={() => setOpen(false)}
+              className="border-t border-cream/5 py-3.5 font-display text-lg font-extrabold tracking-tight text-cream"
+            >
+              Spielstand & Konto
             </Link>
           </div>
         </nav>

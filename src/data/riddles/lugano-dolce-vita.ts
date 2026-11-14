@@ -1,0 +1,63 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "piazza-riforma": {
+    kind: "story",
+    question: "Wie trinkst du deinen Espresso auf der Piazza della Riforma wie die Einheimischen?",
+    options: ["Im Stehen an der Bar", "Am Tisch mit Rahm", "Als Takeaway im Gehen", "Nur nach 17 Uhr"],
+    answer: 0,
+    hint: "Kostet die Hälfte und schmeckt nach Zugehörigkeit.",
+    explanation: "Kurz, stehend, an der Bar. Benannt ist die Piazza nach den liberalen Reformen von 1830.",
+    points: 10,
+  },
+  "via-nassa": {
+    kind: "story",
+    question: "Woher hat die Via Nassa ihren Namen?",
+    options: [
+      "Weil die Gasse oft überschwemmt war",
+      "Von einer Adelsfamilie Nassa",
+      "Von den Fischreusen («nasse»), die hier einst hingen",
+      "Von einem Weinkeller",
+    ],
+    answer: 2,
+    hint: "Die Gasse folgte früher der Uferlinie – und Lugano lebte vom See.",
+    explanation: "«Nasse» sind Fischreusen. Heute spiegeln sich unter den Arkaden Uhren und Mode – und Gelaterie.",
+    points: 20,
+  },
+  "santa-maria-angioli": {
+    kind: "story",
+    question: "Bei welchem berühmten Meister lernte Bernardino Luini, der Maler des Passions-Freskos?",
+    options: ["Michelangelo", "Raffael", "Tizian", "Leonardo da Vinci"],
+    answer: 3,
+    hint: "Er malte auch die Mona Lisa.",
+    explanation: "Luini war Leonardo-Schüler – die sanften Gesichter verraten es. Das Fresko vollendete er 1529.",
+    points: 10,
+  },
+  "parco-ciani": {
+    kind: "knobel",
+    question: "Der Parco Ciani misst rund 63'000 m². Wie vielen Fussballfeldern à rund 7'000 m² entspricht das?",
+    options: ["Etwa 3", "Etwa 6", "Etwa 9", "Etwa 15"],
+    answer: 2,
+    hint: "63 geteilt durch 7.",
+    explanation: "Etwa 9 Fussballfelder voller Kamelien, Magnolien und Palmen. Und das Seetor «Cancello sul lago» führt – nirgendwohin, nur ins Panorama.",
+    points: 20,
+  },
+  lungolago: {
+    kind: "story",
+    question: "Welchen Spitznamen trägt der Monte San Salvatore?",
+    options: ["Matterhorn des Südens", "Zuckerhut von Lugano", "Tessiner Rigi", "Grüner Riese"],
+    answer: 1,
+    hint: "Wie ein berühmter Berg in Rio de Janeiro.",
+    explanation: "Der «Zuckerhut von Lugano». Auf der anderen Seite liegt der Monte Brè, dessen Standseilbahn seit 1908 fährt.",
+    points: 20,
+  },
+  "belvedere-finale": {
+    kind: "story",
+    question: "Was findest du im kleinen Giardino Belvedere unter den Palmen?",
+    options: ["Einen Minigolfplatz", "Ein Freibad", "Moderne Skulpturen", "Einen Kräutergarten"],
+    answer: 2,
+    hint: "Kunst unter freiem Himmel.",
+    explanation: "Ein Skulpturengarten mit moderner Kunst – und davor die flache Ufermauer, die beste Abendbank der Stadt.",
+    points: 10,
+  },
+};

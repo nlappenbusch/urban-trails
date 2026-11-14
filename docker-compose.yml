@@ -17,6 +17,9 @@ services:
       - .env
     volumes:
       - audio-cache:/app/.audio-cache
+      # Konten & Spielstände (accounts.json, Sitzungsschlüssel)
+      - data:/app/data
 
 volumes:
   audio-cache:
+  data:

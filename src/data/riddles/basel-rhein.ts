@@ -1,0 +1,68 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "marktplatz-rathaus": {
+    kind: "vor-ort",
+    question: "Im Innenhof des Rathauses wacht eine Statue. Wen stellt sie dar?",
+    options: ["Munatius Plancus", "Erasmus von Rotterdam", "Wilhelm Tell", "Den Bischof von Basel"],
+    answer: 0,
+    hint: "Ein Römer – der angebliche Stadtgründer.",
+    explanation: "Munatius Plancus, der römische Stadtgründer: Basel ist älter als die Schweiz. Das rote Rathaus entstand ab 1514, kurz nach dem Beitritt zur Eidgenossenschaft 1501.",
+    points: 20,
+  },
+  "muenster-pfalz": {
+    kind: "vor-ort",
+    question: "An der Münsterfassade kämpft ein Reiter gegen einen (ziemlich kleinen) Drachen. Welcher Heilige ist das?",
+    options: ["Sankt Martin", "Sankt Gallus", "Sankt Georg", "Sankt Nikolaus"],
+    answer: 2,
+    hint: "Der klassische Drachentöter.",
+    explanation: "Der heilige Georg. Im Münster liegt zudem Erasmus von Rotterdam begraben – und hinter der Kirche wartet die Pfalz, 20 Meter über dem Rhein.",
+    points: 20,
+  },
+  "mittlere-bruecke": {
+    kind: "knobel",
+    question: "Die erste Mittlere Brücke entstand 1226, die heutige 1905. Wie viele Jahre liegen dazwischen?",
+    options: ["579", "679", "699", "779"],
+    answer: 1,
+    hint: "1905 minus 1226.",
+    explanation: "679 Jahre. Jahrhundertelang war sie der einzige feste Rheinübergang zwischen Bodensee und Nordsee – und vom Käppelijoch wurden Verurteilte in den Rhein gestossen.",
+    points: 30,
+  },
+  "rheingasse-kleinbasel": {
+    kind: "story",
+    question: "Was macht der Wilde Mann beim Vogel-Gryff-Fest dem Grossbasler Ufer gegenüber?",
+    options: [
+      "Er verbeugt sich tief",
+      "Er wirft Blumen hinüber",
+      "Er schwimmt hinüber",
+      "Er dreht ihm demonstrativ den Rücken zu",
+    ],
+    answer: 3,
+    hint: "Kleinbasel pflegt seine eigene Identität – mit Hingabe.",
+    explanation: "Der Wilde Mann kehrt dem «feinen» Grossbasel seit Jahrhunderten den Rücken zu. Die anderen zwei Wappentiere: Vogel Gryff und Leu.",
+    points: 10,
+  },
+  "klingental-faehre": {
+    kind: "story",
+    question: "Was treibt die Basler Rheinfähre ans andere Ufer?",
+    options: ["Ein leiser Elektromotor", "Die Strömung des Rheins", "Ruderer", "Ein Segel"],
+    answer: 1,
+    hint: "Kein Motor, kein Treibstoff – nur ein Seil und ein schräg gestelltes Ruder.",
+    explanation: "Gierseilfähre: Der Fährimaa stellt das Ruder schräg, die Strömung drückt das Boot hinüber. Basel betreibt das Prinzip seit 1854.",
+    points: 10,
+  },
+  "unterer-rheinweg": {
+    kind: "story",
+    question: "Was ist ein «Wickelfisch»?",
+    options: [
+      "Eine Basler Fischspezialität",
+      "Ein Fasnachtskostüm",
+      "Ein wasserdichter Schwimmsack in Fischform",
+      "Ein Rheinschiff",
+    ],
+    answer: 2,
+    hint: "Kleider rein, zuwickeln, mitschwimmen.",
+    explanation: "Im fischförmigen Sack bleiben Kleider, Handy und Portemonnaie trocken, während du dich durch die Stadt treiben lässt – eine Basler Erfindung.",
+    points: 10,
+  },
+};

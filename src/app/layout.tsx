@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { SITE_NAME, SITE_URL } from "@/lib/seo";
+import { buildCatalog } from "@/lib/catalog";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -45,7 +46,7 @@ export default function RootLayout({
         />
       </head>
       <body className="flex min-h-screen flex-col">
-        <Header />
+        <Header catalog={buildCatalog()} />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

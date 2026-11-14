@@ -1,0 +1,83 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  europaallee: {
+    kind: "story",
+    question: "Was stand früher auf dem Areal der Europaallee?",
+    options: [
+      "Die grösste Postverladeanlage der Schweiz",
+      "Ein Güterbahnhof für Kohle",
+      "Eine Kaserne",
+      "Ein Busdepot",
+    ],
+    answer: 0,
+    hint: "Heute werden hier statt Paketen Flat Whites durchgereicht.",
+    explanation: "Hier lag die grösste Postverladeanlage der Schweiz. Und an den Kaffeetheken von heute redet man – perfekt für Aufgabe 1.",
+    points: 20,
+  },
+  "kanzlei-flohmarkt-social": {
+    kind: "story",
+    question: "Was ist laut Guide die «älteste Türöffner-Frage der Welt» – ideal für den Xenix-Garten?",
+    options: [
+      "«Woher kommst du?»",
+      "«Was machst du beruflich?»",
+      "«Ist hier noch frei?»",
+      "«Kennen wir uns?»",
+    ],
+    answer: 2,
+    hint: "Du willst dich an einen Tisch setzen, an dem schon jemand sitzt.",
+    explanation: "«Ist hier noch frei?» funktioniert seit Jahrhunderten. Und samstags gilt: Feilschen ist Smalltalk mit eingebautem Zweck.",
+    points: 10,
+  },
+  "markthalle-gemeinschaftstisch": {
+    kind: "story",
+    question: "Welche Frage hat in der Markthalle laut Guide schon hundert stockende Gespräche gerettet?",
+    options: [
+      "«Kommst du oft hierher?»",
+      "«Wie spät ist es?»",
+      "«Hast du ein Ladekabel?»",
+      "«Hört man die Züge irgendwann nicht mehr?»",
+    ],
+    answer: 3,
+    hint: "Alle paar Minuten donnert etwas über deinem Kopf.",
+    explanation: "Über dir fahren die Züge übers Viadukt – der perfekte Rettungsanker. Und Essen ist das sicherste Smalltalk-Thema der Menschheit.",
+    points: 10,
+  },
+  "josefwiese-pingpong": {
+    kind: "story",
+    question: "Wie heisst das Pingpong-Format, bei dem alle um die Platte rennen und das beliebig viele Leute verträgt?",
+    options: ["Doppel", "Rundlauf", "Tie-Break", "Ping-Pong-Pyramide"],
+    answer: 1,
+    hint: "Man nennt es auch «Chinesisch».",
+    explanation: "Rundlauf funktioniert ab drei Personen und skaliert beliebig – wer am Rand wartet, wird traditionell reingewinkt.",
+    points: 10,
+  },
+  "spheres-buchbar": {
+    kind: "story",
+    question: "Warum wirst du mit einem Buch auf dem Tisch eher angesprochen als mit einem Handy?",
+    options: [
+      "Weil Bücher teuer aussehen",
+      "Weil man fragen will, ob es zu verkaufen ist",
+      "Das Buch signalisiert Musse, das Handy Abschottung",
+      "Weil in Bars Handys verboten sind",
+    ],
+    answer: 2,
+    hint: "Das Buch ist eine offene Visitenkarte.",
+    explanation: "Ein Buch sagt «Ich habe Zeit», ein Handy «Stör mich nicht». In der Buch-Bar Sphères ist «Was liest du?» quasi Hausordnung.",
+    points: 20,
+  },
+  "letten-finale-social": {
+    kind: "story",
+    question: "Was machst du bei der Abschluss-Aufgabe am Oberen Letten?",
+    options: [
+      "Du erzählst jemandem von der Barista-Empfehlung aus Aufgabe 1",
+      "Du springst in den Kanal",
+      "Du organisierst ein Pingpong-Turnier",
+      "Du liest jemandem aus deinem Buch vor",
+    ],
+    answer: 0,
+    hint: "Der Kreis der Tour schliesst sich.",
+    explanation: "Aus einer erfragten Info wird ein verschenktes Gespräch. Auf den Letten-Decks gibt es übrigens keine Einzelplätze – nur Bank und Boden.",
+    points: 10,
+  },
+};

@@ -7,7 +7,7 @@ const ts = require('typescript');
 function load(file) {
   const output = ts.transpileModule(fs.readFileSync(path.join(__dirname, '..', file), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, esModuleInterop: true } }).outputText;
   const module = { exports: {} };
-  new Function("require", "module", "exports", output)(n => n.startsWith("./") ? load("src/lib/" + n.slice(2) + ".ts") : n.startsWith("@/") ? load("src/" + n.slice(2) + ".ts") : require(n), module, module.exports);
+  new Function("require", "module", "exports", output)(n => n.startsWith(".") ? load(path.posix.join(path.posix.dirname(file), n) + ".ts") : n.startsWith("@/") ? load("src/" + n.slice(2) + ".ts") : require(n), module, module.exports);
   return module.exports;
 }
 const gps = load('src/lib/gps.ts');
@@ -133,4 +133,29 @@ test('Navigation maths: projection, remaining distance and next manoeuvre', () =
   assert.equal(next.step.modifier,'right');assert.ok(Math.abs(next.distance-56)<8);
   assert.equal(nav.maneuverAngle('turn','left'),-90);
   assert.ok(Math.abs(nav.bearing({lat:47.37,lng:8.54},{lat:47.38,lng:8.54}))<1);
+});
+
+test('Game: points, halving rules, tour bonus, merge and sanitising', () => {
+  const game=load('src/lib/game.ts');
+  const catalog=[{key:'c/t',city:'c',cityName:'C',name:'T',stops:[{id:'a',gem:true,pts:20},{id:'b',gem:false,pts:10}]}];
+  assert.equal(game.riddlePoints(20,{ok:true,tries:1,hint:false,at:1}),20);
+  assert.equal(game.riddlePoints(20,{ok:true,tries:1,hint:true,at:1}),10);
+  assert.equal(game.riddlePoints(20,{ok:true,tries:2,hint:true,at:1}),5);
+  assert.equal(game.riddlePoints(20,{ok:false,tries:2,hint:false,at:1}),0);
+  const state={v:1,stops:{'c/t':['a','b']},riddles:{'c/t/a':{ok:true,tries:1,hint:false,at:1},'c/t/b':{ok:true,tries:2,hint:false,at:2}}};
+  const s=game.score(state,catalog);
+  assert.equal(s.points,5+5+20+5+50+25);assert.equal(s.toursDone,1);assert.ok(s.badges.find(b=>b.id==='perfect').earned);
+  const dirty=game.sanitize({stops:{'c/t':['a','zzz'],'x/y':['q']},riddles:{'c/t/a':{ok:true,tries:99,hint:1,at:'x'},'nope':{ok:true}}},catalog);
+  assert.deepEqual(dirty.stops,{'c/t':['a']});assert.deepEqual(Object.keys(dirty.riddles),['c/t/a']);assert.equal(dirty.riddles['c/t/a'].tries,9);
+  const m=game.merge({v:1,stops:{'c/t':['a']},riddles:{'c/t/a':{ok:false,tries:2,hint:false,at:5}}},{v:1,stops:{'c/t':['b']},riddles:{'c/t/a':{ok:true,tries:1,hint:false,at:9}}});
+  assert.deepEqual(m.stops['c/t'].sort(),['a','b']);assert.equal(m.riddles['c/t/a'].ok,false);
+});
+test('Every stop of every tour has exactly one valid riddle', () => {
+  const tours=load('src/lib/tours.ts').tours, riddles=load('src/data/riddles/index.ts').riddlesByTour;
+  for (const t of tours) {
+    const set=riddles[t.citySlug+'/'+t.slug];
+    assert.ok(set,'Rätsel fehlen für '+t.slug);
+    assert.deepEqual(Object.keys(set).sort(),t.stops.map(s=>s.id).sort(),t.slug);
+    for (const r of Object.values(set)) { assert.ok(r.options.length>=3&&r.options.length<=4); assert.ok(r.answer>=0&&r.answer<r.options.length); assert.ok([10,20,30].includes(r.points)); assert.ok(r.hint&&r.explanation&&r.question); assert.equal(new Set(r.options).size,r.options.length); }
+  }
 });

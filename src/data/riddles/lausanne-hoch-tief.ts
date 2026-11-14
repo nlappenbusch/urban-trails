@@ -1,0 +1,73 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "cathedrale-lausanne": {
+    kind: "knobel",
+    question: "Der Nachtwächter ruft zu jeder vollen Stunde von 22 Uhr bis und mit 2 Uhr – jedes Mal in alle vier Himmelsrichtungen. Wie viele Rufe sind das pro Nacht?",
+    options: ["4", "16", "20", "24"],
+    answer: 2,
+    hint: "Zähl erst die Stunden: 22, 23, 0, 1, 2 – dann mal vier.",
+    explanation: "5 Stunden × 4 Richtungen = 20 Rufe – «C'est le guet! Il a sonné dix!». Und das seit 1405, ohne Unterbruch.",
+    points: 30,
+  },
+  "escaliers-du-marche": {
+    kind: "story",
+    question: "Warum bekamen die Escaliers du Marché ein Dach?",
+    options: [
+      "Damit Marktleute und Kirchgänger trockenen Fusses pendeln konnten",
+      "Zum Schutz vor Steinschlag",
+      "Damit der Bischof unbeobachtet blieb",
+      "Als Lagerplatz für Marktwaren",
+    ],
+    answer: 0,
+    hint: "Es geht ums Wetter.",
+    explanation: "Purer Pragmatismus seit dem 13. Jahrhundert. Und: Die Treppe hat eigene Hausnummern – man kann offiziell an einer Treppe wohnen.",
+    points: 10,
+  },
+  "place-de-la-palud": {
+    kind: "vor-ort",
+    question: "Welche Figur krönt den ältesten Brunnen der Stadt auf der Place de la Palud?",
+    options: ["Wilhelm Tell", "Ein Bär", "Justitia mit Waage und Schwert", "Der heilige Petrus"],
+    answer: 2,
+    hint: "Sie steht für Gerechtigkeit.",
+    explanation: "Justitia wacht über den Platz. Daneben spielt eine Figurenuhr zu jeder vollen Stunde in 90 Sekunden die Waadtländer Geschichte nach.",
+    points: 10,
+  },
+  flon: {
+    kind: "story",
+    question: "Was fliesst bis heute unsichtbar unter dem Quartier Flon?",
+    options: [
+      "Eine Thermalquelle",
+      "Ein unterirdischer See",
+      "Ein alter Abwasserkanal der Römer",
+      "Der Fluss Flon",
+    ],
+    answer: 3,
+    hint: "Das Quartier trägt seinen Namen.",
+    explanation: "Der Fluss wurde im 19. Jahrhundert überwölbt – das ganze Viertel steht quasi auf einem Deckel. Heute füllen Clubs und Kinos die alten Lagerhäuser.",
+    points: 10,
+  },
+  "ouchy-olympia": {
+    kind: "story",
+    question: "Warum verlegte Pierre de Coubertin das IOC 1915 nach Lausanne?",
+    options: [
+      "Weil er hier geboren wurde",
+      "Weil Olympia mitten im Weltkrieg neutralen Boden suchte",
+      "Weil Lausanne die Spiele ausgetragen hatte",
+      "Wegen tiefer Steuern",
+    ],
+    answer: 1,
+    hint: "Das Jahr verrät es: In Europa tobte ein Krieg.",
+    explanation: "Neutraler Boden im Ersten Weltkrieg – seither ist Lausanne «Capitale Olympique» mit über 50 Sportverbänden.",
+    points: 20,
+  },
+  "quai-ouchy": {
+    kind: "story",
+    question: "Welchen französischen Ort siehst du vom Quai d'Ouchy am gegenüberliegenden Ufer?",
+    options: ["Chamonix", "Annecy", "Évian", "Lyon"],
+    answer: 2,
+    hint: "Bekannt für sein Mineralwasser.",
+    explanation: "Drüben funkelt Évian. Und falls du wieder hoch willst: Die Metro M2 gilt als steilste U-Bahn der Welt.",
+    points: 10,
+  },
+};

@@ -7,6 +7,9 @@ import { getStopImage } from "@/data/images";
 import TourMap from "@/components/TourMap";
 import NaviMode, { requestCompass } from "@/components/NaviMode";
 import { sceneFor } from "@/lib/scene";
+import RiddleCard from "@/components/RiddleCard";
+import type { Riddle, TourRiddles } from "@/lib/riddle-types";
+import { stopsChanged } from "@/lib/game-client";
 
 /** Luftlinien-Distanz in Metern (Haversine) */
 function distanceMeters(a: GeoPoint, b: GeoPoint): number {
@@ -34,12 +37,14 @@ function StopCard({
   tour,
   done,
   onToggle,
+  riddle,
 }: {
   stop: Stop;
   index: number;
   tour: Tour;
   done: boolean;
   onToggle: () => void;
+  riddle?: Riddle;
 }) {
   const image = getStopImage(stop.id);
   return (
@@ -218,6 +223,12 @@ function StopCard({
           </button>
         </div>
 
+        {riddle && (
+          <div className="mt-5">
+            <RiddleCard tourKey={`${tour.citySlug}/${tour.slug}`} stopId={stop.id} riddle={riddle} />
+          </div>
+        )}
+
         <details className="mt-3 text-sm text-cream-dim">
           <summary className="cursor-pointer font-medium text-cream-dim hover:text-cream">
             Audiotext mitlesen
@@ -231,7 +242,7 @@ function StopCard({
   );
 }
 
-export default function StopTimeline({ tour }: { tour: Tour }) {
+export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddles?: TourRiddles }) {
   const storageKey = `ut-progress-${tour.citySlug}-${tour.slug}`;
   const [done, setDone] = useState<Set<string>>(new Set());
   const [loaded, setLoaded] = useState(false);
@@ -308,6 +319,7 @@ export default function StopTimeline({ tour }: { tour: Tour }) {
     if (!loaded) return;
     try {
       localStorage.setItem(storageKey, JSON.stringify([...done]));
+      stopsChanged(`${tour.citySlug}/${tour.slug}`, [...done]);
     } catch {
       /* ignore */
     }
@@ -427,6 +439,7 @@ export default function StopTimeline({ tour }: { tour: Tour }) {
             tour={tour}
             done={done.has(stop.id)}
             onToggle={() => toggle(stop.id)}
+            riddle={riddles[stop.id]}
           />
         ))}
       </ol>
@@ -529,6 +542,7 @@ export default function StopTimeline({ tour }: { tour: Tour }) {
       {naviOpen && (
         <NaviMode
           tour={tour}
+          riddles={riddles}
           done={done}
           onDone={(id) => setDone((prev) => new Set(prev).add(id))}
           onClose={() => setNaviOpen(false)}

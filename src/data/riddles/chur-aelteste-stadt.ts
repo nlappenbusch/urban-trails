@@ -1,0 +1,63 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "bahnhof-chur": {
+    kind: "vor-ort",
+    question: "Schau auf die Perrons der Rhätischen Bahn: Welche Farbe haben ihre typischen Züge?",
+    options: ["Rot", "Blau", "Grün", "Gelb"],
+    answer: 0,
+    hint: "Dieselbe Farbe wie das Schweizerkreuz-Feld.",
+    explanation: "Die Züge der RhB sind knallrot. Ab Chur fahren sie auf fast 400 km Schmalspur – durch 115 Tunnels und über 600 Brücken.",
+    points: 10,
+  },
+  obertor: {
+    kind: "story",
+    question: "Was war bis zur Eisenbahn Churs wichtigste Einnahmequelle?",
+    options: [
+      "Der Bergbau",
+      "Die Uhrenindustrie",
+      "Der Transit über die Bündner Pässe",
+      "Der Weinexport nach Deutschland",
+    ],
+    answer: 2,
+    hint: "Säumerkolonnen mit Maultieren zogen durch dieses Tor.",
+    explanation: "Chur war das Logistikzentrum der Alpen: Julier, Splügen und San Bernardino begannen am Obertor – mit Herbergen und Zoll.",
+    points: 20,
+  },
+  "arcas-platz": {
+    kind: "story",
+    question: "Auf welchen römischen Namen geht «Chur» zurück?",
+    options: ["Castrum", "Colonia", "Augusta", "Curia"],
+    answer: 3,
+    hint: "Curia Raetorum …",
+    explanation: "Aus Curia wurde Chur. Doch die Römer waren spät dran: Hier siedeln Menschen seit rund 5000 Jahren – Chur gilt als älteste Stadt der Schweiz.",
+    points: 10,
+  },
+  "bischoeflicher-hof": {
+    kind: "knobel",
+    question: "Das Bistum Chur wird 451 erstmals erwähnt, die Kathedrale wurde 1272 geweiht. Wie viele Jahre liegen dazwischen?",
+    options: ["721", "821", "921", "1021"],
+    answer: 1,
+    hint: "1272 minus 451.",
+    explanation: "821 Jahre. In der Kathedrale steht der grösste spätgotische Schnitzaltar der Schweiz – fast zehn Meter vergoldetes Schnitzwerk.",
+    points: 20,
+  },
+  "obere-gasse": {
+    kind: "story",
+    question: "Welcher Künstler schuf 1919 die Fenster der Martinskirche?",
+    options: ["Marc Chagall", "Augusto Giacometti", "Ferdinand Hodler", "Paul Klee"],
+    answer: 1,
+    hint: "Er stammt aus derselben Künstlerfamilie wie Alberto mit seinen dünnen Figuren.",
+    explanation: "Augusto Giacometti, der Bündner Farbmagier – er schuf auch die «Blüemlihalle» im Zürcher Amtshaus.",
+    points: 10,
+  },
+  "brambruesch-bahn": {
+    kind: "story",
+    question: "Auf welche Höhe bringt dich die Bahn nach Brambrüesch ungefähr?",
+    options: ["Rund 900 m", "Rund 1600 m", "Rund 2400 m", "Rund 3000 m"],
+    answer: 1,
+    hint: "Ein «1600er-Gipfel».",
+    explanation: "Erst Gondel aufs Känzeli, dann Sesselbahn auf rund 1600 Meter – Churs Hausberg direkt ab Stadtzentrum.",
+    points: 20,
+  },
+};

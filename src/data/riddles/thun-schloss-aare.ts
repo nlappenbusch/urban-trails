@@ -1,0 +1,68 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "bahnhof-thun": {
+    kind: "story",
+    question: "Welchen Beinamen trägt Thun?",
+    options: ["Tor zum Berner Oberland", "Stadt der Brücken", "Rosenstadt", "Perle am Genfersee"],
+    answer: 0,
+    hint: "Hier endet das Mittelland, und die Alpen beginnen.",
+    explanation: "Thun ist das «Tor zum Berner Oberland» – seit Jahrhunderten Umschlagplatz zwischen Schiff und Alpenpässen.",
+    points: 10,
+  },
+  "obere-hauptgasse": {
+    kind: "story",
+    question: "Wie entstanden die Thuner Hochtrottoirs?",
+    options: [
+      "Als Hochwasserschutz nach einer Flut",
+      "Als Tribünen für Ritterturniere",
+      "Die Keller wurden zur Gasse hin geöffnet, ihre Decken wurden zum Trottoir",
+      "Für Pferdefuhrwerke, die unten fahren sollten",
+    ],
+    answer: 2,
+    hint: "Mittelalterliche Verkaufsflächen-Optimierung.",
+    explanation: "Die Händler öffneten ihre Gewölbekeller zur Gasse – so entstanden zwei Ladenzeilen übereinander. Ein Schweizer Unikat.",
+    points: 20,
+  },
+  "schloss-thun": {
+    kind: "vor-ort",
+    question: "Schau dir das Schloss an: Wie viele Ecktürmchen sitzen auf dem wuchtigen Wohnturm?",
+    options: ["Zwei", "Drei", "Vier", "Acht"],
+    answer: 2,
+    hint: "Eines pro Ecke eines Würfels.",
+    explanation: "Vier Ecktürmchen auf dem Donjon der Zähringer von um 1190. Bis 2009 sassen hier tatsächlich noch Verwaltung und Gericht.",
+    points: 10,
+  },
+  "muehleschleuse-surfer": {
+    kind: "story",
+    question: "Mit welcher berühmten Münchner Surfwelle vergleichen sich die Thuner?",
+    options: ["Isarwelle", "Flosslände", "Olympiawelle", "Eisbach"],
+    answer: 3,
+    hint: "Sie liegt im Englischen Garten.",
+    explanation: "München hat den Eisbach, Thun die Mühleschleuse – und surft hier das ganze Jahr, im Winter in dickem Neopren.",
+    points: 20,
+  },
+  aarequai: {
+    kind: "story",
+    question: "Was hat der pyramidenförmige Niesen gegenüber zu bieten?",
+    options: [
+      "Den höchsten Wasserfall Europas",
+      "Die längste Treppe der Welt",
+      "Die älteste Zahnradbahn der Welt",
+      "Ein Observatorium auf dem Gipfel",
+    ],
+    answer: 1,
+    hint: "11'674 Stufen – einmal im Jahr wird sie hinaufgerannt.",
+    explanation: "Entlang der Bahntrasse führt die längste Treppe der Welt hinauf. Das Türkis der Aare kommt übrigens vom Gletschermehl.",
+    points: 10,
+  },
+  schadaupark: {
+    kind: "knobel",
+    question: "Das Wocher-Panorama entstand 1814, Schloss Schadau 1854. Wie viele Jahre ist das Panorama älter?",
+    options: ["14", "40", "54", "140"],
+    answer: 1,
+    hint: "1854 minus 1814.",
+    explanation: "40 Jahre. Das Wocher-Panorama gilt als ältestes erhaltenes Rundpanorama der Welt und zeigt Thun um 1810 in 360°.",
+    points: 20,
+  },
+};

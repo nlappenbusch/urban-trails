@@ -1,0 +1,58 @@
+import type { TourRiddles } from "@/lib/riddle-types";
+
+export const riddles: TourRiddles = {
+  "bahnhof-st-gallen": {
+    kind: "story",
+    question: "Womit wurde St. Gallen um 1900 zur Weltmarktführerin?",
+    options: ["Mit Stickerei", "Mit Schokolade", "Mit Uhren", "Mit Käse"],
+    answer: 0,
+    hint: "Die Pariser Mode hing an St. Galler Fäden.",
+    explanation: "St. Galler Stickerei kleidete die halbe Welt – und Michelle Obama trug bei der Amtseinführung Stickerei von hier.",
+    points: 10,
+  },
+  "stiftsbezirk-kathedrale": {
+    kind: "knobel",
+    question: "Gallus kam 612 hierher, die heutige Kathedrale entstand 1767. Wie viele Jahre liegen dazwischen?",
+    options: ["955", "1055", "1155", "1255"],
+    answer: 2,
+    hint: "1767 minus 612.",
+    explanation: "1155 Jahre. Der Legende nach brachte ein Bär dem Gallus Holz für die Hütte – deshalb steht er bis heute im Stadtwappen.",
+    points: 30,
+  },
+  stiftsbibliothek: {
+    kind: "vor-ort",
+    question: "Über dem Eingang zum Barocksaal steht eine griechische Inschrift. Was bedeutet sie?",
+    options: ["Wissen ist Macht", "Haus der Bücher", "Apotheke der Seele", "Schweigen ist Gold"],
+    answer: 2,
+    hint: "«Psyches iatreion» – Psyche steht für die Seele.",
+    explanation: "«Heilstätte» oder «Apotheke der Seele». Drinnen lagern rund 170'000 Bände – und eine ägyptische Mumie namens Schepenese.",
+    points: 20,
+  },
+  "erker-altstadt": {
+    kind: "story",
+    question: "Wie viele Erker zieren laut Guide die St. Galler Altstadt?",
+    options: ["Rund 30", "Rund 60", "111", "Über 300"],
+    answer: 2,
+    hint: "Eine Schnapszahl.",
+    explanation: "111 Erker – je exotischer die Motive wie Kamele oder Pelikane, desto weiter reichten die Handelsrouten des Hausherrn.",
+    points: 20,
+  },
+  stadtlounge: {
+    kind: "story",
+    question: "Aus welchem Material besteht der rote Belag der Stadtlounge?",
+    options: ["Aus Teppich", "Aus rot gefärbtem Beton", "Aus Kunstleder", "Aus Tartanbahn-Material"],
+    answer: 3,
+    hint: "Technisch gesehen lümmelst du auf einer Laufbahn.",
+    explanation: "Tartan wie auf Sportbahnen. Entworfen haben die Lounge 2005 Pipilotti Rist und Architekt Carlos Martinez.",
+    points: 10,
+  },
+  "drei-weieren": {
+    kind: "knobel",
+    question: "Die Drei Weieren entstanden 1610, der Mannenweier war bis 1972 nur für Männer. Wie viele Jahre nach dem Bau der Weiher durften dort alle baden?",
+    options: ["262", "312", "362", "412"],
+    answer: 2,
+    hint: "1972 minus 1610.",
+    explanation: "362 Jahre. Ursprünglich waren die Weiher Wasserspeicher für Bleichen und Mühlen der Textilstadt.",
+    points: 20,
+  },
+};

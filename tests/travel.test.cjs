@@ -7,7 +7,7 @@ const ts = require('typescript');
 function load(file) {
   const output = ts.transpileModule(fs.readFileSync(path.join(__dirname, '..', file), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, esModuleInterop: true } }).outputText;
   const module = { exports: {} };
-  new Function('require', 'module', 'exports', output)(require, module, module.exports);
+  new Function("require", "module", "exports", output)(n => n.startsWith("./") ? load("src/lib/" + n.slice(2) + ".ts") : n.startsWith("@/") ? load("src/" + n.slice(2) + ".ts") : require(n), module, module.exports);
   return module.exports;
 }
 const gps = load('src/lib/gps.ts');
@@ -38,7 +38,7 @@ test('Audio version changes for script, voice and model', () => {
   const tour = {citySlug:'test',slug:'test'}, stop = {id:'one',audioScript:'Before'};
   const env = {...process.env};
   try {
-    process.env.ELEVENLABS_VOICE_ID='voice-one';process.env.ELEVENLABS_MODEL_ID='model-one';
+    process.env.ELEVENLABS_API_KEY='test-key';process.env.ELEVENLABS_VOICE_ID='voice-one';process.env.ELEVENLABS_MODEL_ID='model-one';
     const first = audio.audioIdentity(tour,stop).version;
     assert.notEqual(audio.audioIdentity(tour,{...stop,audioScript:'After'}).version,first);
     process.env.ELEVENLABS_VOICE_ID='voice-two';assert.notEqual(audio.audioIdentity(tour,stop).version,first);
@@ -61,10 +61,10 @@ test('ElevenLabs generation is deduplicated, cached and failed responses do not 
     process.env.ELEVENLABS_API_KEY='test-key';process.env.ELEVENLABS_VOICE_ID='test-voice';
     global.fetch=async(url,options)=>{
       calls++;assert.match(url,/api\.elevenlabs\.io/);assert.equal(JSON.parse(options.body).text,stop.audioScript);
-      await new Promise(r=>setTimeout(r,20));return new Response(new Uint8Array([1,2,3]),{headers:{'Content-Type':'audio/mpeg'}});
+      await new Promise(r=>setTimeout(r,20));return new Response(new Uint8Array(2048),{headers:{'Content-Type':'audio/mpeg'}});
     };
     await Promise.all([audio.generateAudio(tour,stop),audio.generateAudio(tour,stop)]);
-    assert.equal(calls,1);assert.equal((await audio.readAudio(tour,stop)).length,3);
+    assert.equal(calls,1);assert.equal((await audio.readAudio(tour,stop)).length,2048);
     await audio.generateAudio(tour,stop);assert.equal(calls,1);
     const bad={...stop,id:stop.id+'-bad'};global.fetch=async()=>new Response('denied',{status:429});
     await assert.rejects(audio.generateAudio(tour,bad));assert.equal(await audio.readAudio(tour,bad),null);
@@ -103,23 +103,34 @@ test('Frankenthal sample is available offline with seeking only after a complete
   assert.equal((await workerFixture(false, url)({})).status,503);
 });
 
-test('Inactive station players do not cancel browser speech; status waits for start', async () => {
-  const source=ts.transpileModule(fs.readFileSync(path.join(__dirname,'../src/components/AudioPlayer.tsx'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;
-  const listeners=new Map(), states=[];let activeStates, cancellations=0, current;
-  const speech={getVoices:()=>[],resume:()=>{},cancel:()=>{cancellations++;},speak:u=>{current=u;}};
-  const win={speechSynthesis:speech,addEventListener:(name,fn)=>{if(!listeners.has(name))listeners.set(name,new Set());listeners.get(name).add(fn);},removeEventListener:()=>{},dispatchEvent:e=>{for(const fn of listeners.get(e.type)||[])fn(e);}};
-  const react={useState:v=>{const a=activeStates,i=a.length;a.push(v);return[v,x=>{a[i]=x;}];},useRef:v=>({current:v}),useEffect:fn=>{fn();}};
-  const module={exports:{}};
-  const context={window:win,CustomEvent:class{constructor(type,init){this.type=type;this.detail=init.detail;}},SpeechSynthesisUtterance:class{constructor(text){this.text=text;}},Audio:class{play(){return Promise.reject(Error('no prepared audio'));}pause(){}},setTimeout,clearTimeout,process,console,require:n=>n==='react'?react:require(n),module,exports:module.exports};
-  vm.runInNewContext(source,context);
-  const render=id=>{activeStates=[];states.push(activeStates);return module.exports.default({citySlug:'test',tourSlug:'test',stopId:id,stopName:id,script:'Test'});};
-  const first=render('one'),second=render('two');
-  const button=node=>{if(!node)return;if(node.type==='button')return node;for(const child of [node.props?.children].flat(Infinity)){const found=button(child);if(found)return found;}};
-  await button(first).props.onClick();
-  assert.equal(cancellations,0);assert.equal(states[0][1],false);
-  const firstSpeech=current;current.onstart();assert.equal(states[0][1],true);
-  await button(second).props.onClick();assert.equal(cancellations,1);
-  assert.equal(firstSpeech.onstart,null);
-  current.onstart();assert.equal(states[1][1],true);assert.equal(cancellations,1);
-  current.onerror();assert.equal(states[1][0],'error');assert.equal(states[1][1],false);
+test('Player never falls back to the robotic browser voice', () => {
+  const source=fs.readFileSync(path.join(__dirname,'../src/components/AudioPlayer.tsx'),'utf8');
+  assert.doesNotMatch(source,/speechSynthesis|SpeechSynthesisUtterance/);
+});
+test('Gemini is the default voice; legacy recordings stay valid except for changed scripts', () => {
+  const env={...process.env};
+  try {
+    delete process.env.ELEVENLABS_API_KEY;delete process.env.ELEVENLABS_VOICE_ID;delete process.env.GEMINI_TTS_VOICE;
+    const id=audio.audioIdentity({citySlug:'test',slug:'t'},{id:'one',audioScript:'Hallo'});
+    assert.equal(id.provider,'gemini');assert.equal(id.voice,'Sulafat');assert.match(id.file,/test-t-one-sulafat-[0-9a-f]{16}.mp3$/);
+    assert.notEqual(audio.audioIdentity({citySlug:'test',slug:'t'},{id:'one',audioScript:'Anders'}).version,id.version);
+  } finally { process.env=env; }
+});
+test('Ambience scene follows the place', () => {
+  const scene=load('src/lib/scene.ts').sceneFor;
+  assert.ok(scene({name:'Seebad Enge',teaser:'Baden im See'}).water>0.5);
+  assert.ok(scene({name:'Grossmünster',teaser:'Die Kirche mit den Doppeltürmen'}).bells>0.5);
+  assert.ok(scene({name:'Lindenhof',teaser:'Ruhiger Park über der Stadt'}).birds>0.5);
+  assert.equal(scene({name:'Bahnhofstrasse',teaser:'Shopping'}).water,0);
+});
+test('Navigation maths: projection, remaining distance and next manoeuvre', () => {
+  const nav=load('src/lib/nav.ts');
+  const route=nav.buildRoute([[8.54,47.37],[8.54,47.371],[8.542,47.371]],[{distance:111,name:'A',maneuver:{type:'depart',location:[8.54,47.37]}},{distance:150,name:'B',maneuver:{type:'turn',modifier:'right',instruction:'Rechts abbiegen',location:[8.54,47.371]}},{distance:0,name:'',maneuver:{type:'arrive',location:[8.542,47.371]}}],{lat:47.37,lng:8.54},'x');
+  assert.ok(Math.abs(route.length-262)<8);
+  const p=nav.project(route,{lat:47.3705,lng:8.5401});
+  assert.ok(p.off<10&&Math.abs(p.along-55)<6);
+  const next=nav.nextStep(route,p.along);
+  assert.equal(next.step.modifier,'right');assert.ok(Math.abs(next.distance-56)<8);
+  assert.equal(nav.maneuverAngle('turn','left'),-90);
+  assert.ok(Math.abs(nav.bearing({lat:47.37,lng:8.54},{lat:47.38,lng:8.54}))<1);
 });

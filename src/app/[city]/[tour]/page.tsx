@@ -113,7 +113,7 @@ export default async function TourPage({ params }: Props) {
             «{tour.claim}»
           </p>
 
-          <div className="mt-6 flex flex-wrap gap-3"><a href="#tourstart" className="btn-primary">Tour starten</a><Link href={`/unterwegs/${tour.citySlug}/${tour.slug}`} className="btn-secondary">Offline & GPS</Link></div>
+          <div className="mt-6 flex flex-wrap gap-3"><a href="#navi" className="btn-primary">Navi starten</a><a href="#tourstart" className="btn-secondary">Stops ansehen</a><Link href={`/unterwegs/${tour.citySlug}/${tour.slug}`} className="btn-secondary">Offline & GPS</Link></div>
           <dl className="mt-10 grid max-w-3xl grid-cols-2 gap-4 sm:grid-cols-4">
             {[
               { label: "Dauer", value: formatDuration(tour.durationMinutes) },

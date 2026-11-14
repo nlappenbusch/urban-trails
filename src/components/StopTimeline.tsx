@@ -5,6 +5,8 @@ import type { GeoPoint, Stop, Tour } from "@/lib/types";
 import AudioPlayer from "@/components/AudioPlayer";
 import { getStopImage } from "@/data/images";
 import TourMap from "@/components/TourMap";
+import NaviMode, { requestCompass } from "@/components/NaviMode";
+import { sceneFor } from "@/lib/scene";
 
 /** Luftlinien-Distanz in Metern (Haversine) */
 function distanceMeters(a: GeoPoint, b: GeoPoint): number {
@@ -194,6 +196,7 @@ function StopCard({
             stopName={stop.name}
             script={stop.audioScript}
             audioFile={stop.audioFile}
+            scene={sceneFor(stop)}
           />
           <a
             href={mapsLink(stop)}
@@ -243,6 +246,25 @@ export default function StopTimeline({ tour }: { tour: Tour }) {
     paused: boolean;
   } | null>(null);
   const [mapOpen, setMapOpen] = useState(false);
+  const [naviOpen, setNaviOpen] = useState(false);
+
+  // Direkt-Link «#navi» (z.B. Button oben in der Tour) öffnet das Navi
+  useEffect(() => {
+    function check() {
+      if (window.location.hash === "#navi") {
+        setNaviOpen(true);
+        history.replaceState(null, "", window.location.pathname + window.location.search);
+      }
+    }
+    check();
+    window.addEventListener("hashchange", check);
+    return () => window.removeEventListener("hashchange", check);
+  }, []);
+
+  function openNavi() {
+    void requestCompass(); // iOS fragt nur innerhalb eines Tipps
+    setNaviOpen(true);
+  }
 
   // Lauscht auf den globalen Audio-Status (siehe AudioPlayer)
   useEffect(() => {
@@ -491,19 +513,27 @@ export default function StopTimeline({ tour }: { tour: Tour }) {
                   Reset
                 </button>
               ) : (
-                nextStop && (
-                  <a
-                    href={`#${nextStop.id}`}
-                    className="inline-flex h-10 items-center rounded-full bg-signal-500 px-3.5 text-sm font-bold text-white transition hover:bg-signal-600"
-                  >
-                    Weiter ↓
-                  </a>
-                )
+                <button
+                  onClick={openNavi}
+                  className="inline-flex h-10 items-center gap-1.5 rounded-full bg-signal-500 px-4 text-sm font-extrabold text-white shadow-md transition hover:bg-signal-600 active:scale-95"
+                >
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 L20 21 L12 16.5 L4 21 Z" /></svg>
+                  Navi
+                </button>
               )}
             </div>
           </div>
         </div>
       </div>
+
+      {naviOpen && (
+        <NaviMode
+          tour={tour}
+          done={done}
+          onDone={(id) => setDone((prev) => new Set(prev).add(id))}
+          onClose={() => setNaviOpen(false)}
+        />
+      )}
 
       {/* ───── Vollbild-Live-Karte ───── */}
       {mapOpen && (

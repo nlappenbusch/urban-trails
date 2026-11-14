@@ -1,20 +1,32 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import type { AmbienceScene } from "@/lib/scene";
+import {
+  ambienceEnabled,
+  finishAmbience,
+  onAmbiencePref,
+  setAmbienceEnabled,
+  startAmbience,
+  stopAmbience,
+} from "@/lib/ambience";
 
 interface AudioPlayerProps {
   citySlug: string;
   tourSlug: string;
   stopId: string;
   stopName: string;
+  /** Text bleibt für Mitlese-Ansicht und Tests erhalten – vorgelesen wird nur echte Stimme. */
   script: string;
   audioFile?: string;
+  /** Klangkulisse des Ortes (Wasser, Glocken, Vögel …) */
+  scene?: AmbienceScene;
 }
 
-type Mode = "idle" | "loading" | "audio" | "browser-tts" | "error";
+type Mode = "idle" | "loading" | "audio" | "error";
 
 /** Globales Event, damit (a) immer nur ein Audio läuft und (b) die
- *  Sticky-Bar anzeigen kann, was gerade gespielt wird. */
+ *  Sticky-Bar / das Navi anzeigen kann, was gerade gespielt wird. */
 export interface UtAudioEventDetail {
   stopId: string;
   stopName: string;
@@ -38,33 +50,32 @@ export default function AudioPlayer({
   tourSlug,
   stopId,
   stopName,
-  script,
   audioFile,
+  scene,
 }: AudioPlayerProps) {
   const [mode, setMode] = useState<Mode>("idle");
   const [playing, setPlaying] = useState(false);
   const [t, setT] = useState(0);
   const [d, setD] = useState(0);
+  const [ambience, setAmbience] = useState(true);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const barRef = useRef<HTMLDivElement | null>(null);
   const lastEmitSec = useRef(-1);
   const playRef = useRef<() => void>(() => {});
   const rootRef = useRef<HTMLDivElement | null>(null);
   const prefetched = useRef(false);
-  const speechRef = useRef<SpeechSynthesisUtterance | null>(null);
-  const speechTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const playingRef = useRef(false);
+  playingRef.current = playing;
 
-  function cancelOwnSpeech() {
-    if (speechTimer.current) clearTimeout(speechTimer.current);
-    speechTimer.current = null;
-    const utterance = speechRef.current;
-    speechRef.current = null;
-    if (!utterance) return;
-    utterance.onstart = utterance.onend = utterance.onerror = null;
-    window.speechSynthesis?.cancel();
-  }
+  useEffect(() => {
+    setAmbience(ambienceEnabled());
+    return onAmbiencePref((on) => {
+      setAmbience(on);
+      if (on && playingRef.current) startAmbience(scene, 1.5);
+    });
+  }, [scene]);
 
-  // Sticky-Bar kann diesen Player fernsteuern (Play/Pause-Toggle)
+  // Sticky-Bar / Navi können diesen Player fernsteuern (Play/Pause-Toggle)
   useEffect(() => {
     playRef.current = play;
   });
@@ -77,30 +88,16 @@ export default function AudioPlayer({
     return () => window.removeEventListener("ut-audio-ctl", onCtl);
   }, [stopId]);
 
+  const preferTts = process.env.NEXT_PUBLIC_PREFER_TTS === "1";
+  const src = audioFile && !preferTts ? audioFile : `/api/audio?city=${citySlug}&tour=${tourSlug}&stop=${stopId}`;
+
   // Audio schon beim Scrollen vorladen → Play startet sofort.
-  // In Produktion liegen alle Audios vorgeneriert im Server-Cache, der
-  // Fetch ist also nur noch ein schneller Datei-Download.
-  async function prefetch() {
+  function prefetch() {
     if (prefetched.current || audioRef.current) return;
     prefetched.current = true;
-    const preferTts = process.env.NEXT_PUBLIC_PREFER_TTS === "1";
-    try {
-      if (audioFile && !preferTts) {
-        const audio = new Audio(audioFile);
-        audio.preload = "auto";
-        wireAudio(audio);
-        return;
-      }
-      // Direkte URL statt Blob: Browser streamt (Range-Requests) und
-      // puffert nur den Anfang – schnell auch bei langsamer Verbindung.
-      const audio = new Audio(
-        `/api/audio?city=${citySlug}&tour=${tourSlug}&stop=${stopId}`
-      );
-      audio.preload = "auto";
-      wireAudio(audio);
-    } catch {
-      /* Play-Pfad übernimmt als Fallback */
-    }
+    const audio = new Audio(src);
+    audio.preload = "auto";
+    wireAudio(audio);
   }
 
   useEffect(() => {
@@ -110,7 +107,7 @@ export default function AudioPlayer({
       (entries) => {
         if (entries.some((e) => e.isIntersecting)) {
           io.disconnect();
-          void prefetch();
+          prefetch();
         }
       },
       { rootMargin: "400px" }
@@ -124,13 +121,12 @@ export default function AudioPlayer({
   useEffect(() => {
     function onOther(e: Event) {
       const det = (e as CustomEvent<UtAudioEventDetail>).detail;
-      if (det.state === "play" && det.stopId !== stopId) stopPlayback(true);
+      if (det.state === "play" && det.stopId !== stopId) stopPlayback();
     }
     window.addEventListener("ut-audio", onOther);
     return () => {
       window.removeEventListener("ut-audio", onOther);
       audioRef.current?.pause();
-      cancelOwnSpeech();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stopId]);
@@ -140,7 +136,6 @@ export default function AudioPlayer({
     audio.ontimeupdate = () => {
       setT(audio.currentTime);
       setD(audio.duration || 0);
-      // Sticky-Bar nur 1×/Sekunde aktualisieren
       const sec = Math.floor(audio.currentTime);
       if (sec !== lastEmitSec.current) {
         lastEmitSec.current = sec;
@@ -151,6 +146,7 @@ export default function AudioPlayer({
     audio.onended = () => {
       setPlaying(false);
       setT(0);
+      finishAmbience();
       emit({ stopId, stopName, state: "ended" });
     };
   }
@@ -160,115 +156,55 @@ export default function AudioPlayer({
       pause();
       return;
     }
-    // Vorgeladen oder pausiert? → sofort abspielen, kein neuer Fetch.
+    // Andere Player stoppen und Kulisse starten – synchron im Klick (iOS).
+    emit({ stopId, stopName, state: "play", t, d });
+    startAmbience(scene);
+
     if (audioRef.current) {
       try {
         await audioRef.current.play();
         setMode("audio");
         setPlaying(true);
-        emit({ stopId, stopName, state: "play", t, d });
         return;
       } catch {
-        // z.B. 503 beim Prefetch (Audio noch nicht generiert) → neu versuchen
+        // z.B. 503 beim Vorladen → frisch versuchen
         audioRef.current = null;
         setT(0);
       }
     }
     setMode("loading");
-
-    const preferTts = process.env.NEXT_PUBLIC_PREFER_TTS === "1";
-    if (audioFile && !preferTts) {
-      try {
-        const audio = new Audio(audioFile);
-        wireAudio(audio);
-        await audio.play();
-        setMode("audio");
-        setPlaying(true);
-        emit({ stopId, stopName, state: "play" });
-        return;
-      } catch {
-        /* weiter */
-      }
-    }
-
     try {
-      // Streaming: Abspielen beginnt, sobald die ersten Sekunden da sind
-      const audio = new Audio(
-        `/api/audio?city=${citySlug}&tour=${tourSlug}&stop=${stopId}`
-      );
+      // Streaming: Abspielen beginnt, sobald die ersten Sekunden da sind.
+      // Beim allerersten Abruf eines Stopps wird die Aufnahme erzeugt (~20 s).
+      const audio = new Audio(src);
       audio.preload = "auto";
       wireAudio(audio);
       await audio.play();
       setMode("audio");
       setPlaying(true);
-      emit({ stopId, stopName, state: "play" });
-      return;
     } catch {
       audioRef.current = null;
-      /* weiter zum Browser-TTS-Fallback */
+      prefetched.current = false;
+      stopAmbience(0.8);
+      setPlaying(false);
+      setMode("error");
+      emit({ stopId, stopName, state: "ended" });
     }
-
-    if (typeof window !== "undefined" && "speechSynthesis" in window) {
-      const u = new SpeechSynthesisUtterance(script);
-      u.lang = "de-CH";
-      u.rate = 0.95;
-      const voices = window.speechSynthesis.getVoices();
-      const de =
-        voices.find((v) => v.lang === "de-CH") ??
-        voices.find((v) => v.lang.startsWith("de"));
-      if (de) u.voice = de;
-      // Tell the other players to release their own audio BEFORE speaking.
-      // Inactive players must never cancel the shared speech engine.
-      emit({ stopId, stopName, state: "play" });
-      speechRef.current = u;
-      u.onstart = () => {
-        if (speechRef.current !== u) return;
-        if (speechTimer.current) clearTimeout(speechTimer.current);
-        setMode("browser-tts");
-        setPlaying(true);
-      };
-      u.onend = () => {
-        if (speechRef.current !== u) return;
-        cancelOwnSpeech();
-        setPlaying(false);
-        emit({ stopId, stopName, state: "ended" });
-      };
-      u.onerror = () => {
-        if (speechRef.current !== u) return;
-        cancelOwnSpeech();
-        setPlaying(false);
-        setMode("error");
-        emit({ stopId, stopName, state: "ended" });
-      };
-      speechTimer.current = setTimeout(() => {
-        if (speechRef.current !== u) return;
-        cancelOwnSpeech();
-        setPlaying(false);
-        setMode("error");
-        emit({ stopId, stopName, state: "ended" });
-      }, 8000);
-      window.speechSynthesis.resume();
-      window.speechSynthesis.speak(u);
-      return;
-    }
-
-    setMode("error");
   }
 
   function pause() {
     audioRef.current?.pause();
-    cancelOwnSpeech();
+    stopAmbience(1.2);
     setPlaying(false);
     emit({ stopId, stopName, state: "pause", t, d });
   }
 
-  function stopPlayback(silent: boolean) {
+  function stopPlayback() {
+    if (!playingRef.current && !audioRef.current?.currentTime) return;
     audioRef.current?.pause();
     if (audioRef.current) audioRef.current.currentTime = 0;
-    cancelOwnSpeech();
     setPlaying(false);
     setT(0);
-    if (!silent) emit({ stopId, stopName, state: "ended" });
   }
 
   function seek(e: React.MouseEvent<HTMLDivElement>) {
@@ -306,13 +242,13 @@ export default function AudioPlayer({
               {playing && (
                 <span className="eq shrink-0 text-signal-500" aria-hidden="true"><i /><i /><i /><i /></span>
               )}
-              Audio-Story{playing && mode === "browser-tts" ? " · Browser-Stimme" : ""}
+              Audio-Story
             </p>
-            {hasBar && (
+            {hasBar ? (
               <p className="shrink-0 font-mono text-xs tabular-nums text-cream-faint">
                 {fmt(t)} / {fmt(d)}
               </p>
-            )}
+            ) : null}
           </div>
           {hasBar ? (
             <div
@@ -335,15 +271,25 @@ export default function AudioPlayer({
                   Story wird geladen…
                 </span>
               ) : mode === "error" ? (
-                "Audio nicht verfügbar"
-              ) : mode === "browser-tts" && playing ? (
-                "spricht…"
+                "Audio gerade nicht erreichbar – nochmal tippen oder unten mitlesen"
               ) : (
                 "Play drücken – Geschichte hören statt lesen"
               )}
             </p>
           )}
         </div>
+        {scene && (
+          <button
+            onClick={() => setAmbienceEnabled(!ambience)}
+            aria-pressed={ambience}
+            title={ambience ? "Klangkulisse ausschalten" : "Klangkulisse einschalten"}
+            className={`shrink-0 rounded-full px-2.5 py-1 text-[11px] font-bold transition ${
+              ambience ? "bg-signal-500/15 text-signal-400 ring-1 ring-signal-500/40" : "bg-ink-800 text-cream-faint ring-1 ring-cream/10"
+            }`}
+          >
+            {ambience ? "Kulisse an" : "Kulisse aus"}
+          </button>
+        )}
       </div>
     </div>
   );

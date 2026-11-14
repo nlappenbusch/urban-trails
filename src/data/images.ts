@@ -727,6 +727,61 @@ export const stopImages: Record<string, StopImage> = {
     alt: "The Zytglogge clock tower",
     credit: "https://commons.wikimedia.org/wiki/File%3AThe_Zytglogge_clock_tower.jpg",
   },
+  "so-krummturm": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Krummturm.4132.JPG/1280px-Krummturm.4132.JPG",
+    alt: "Krummturm in Solothurn mit seinem «schiefen» Dach",
+    credit: "https://commons.wikimedia.org/wiki/File%3AKrummturm.4132.JPG",
+  },
+  "so-wengibruecke-landhausquai": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Landhausquai_4%2C_Landhaus_Solothurn_20240331_0055.jpg/1280px-Landhausquai_4%2C_Landhaus_Solothurn_20240331_0055.jpg",
+    alt: "Landhaus am Landhausquai in Solothurn",
+    credit: "https://commons.wikimedia.org/wiki/File%3ALandhausquai_4%2C_Landhaus_Solothurn_20240331_0055.jpg",
+  },
+  "so-zytglogge": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Solothurn_Zeitglockenturm_3.JPG/1280px-Solothurn_Zeitglockenturm_3.JPG",
+    alt: "Zeitglockenturm (Zytglogge) in Solothurn",
+    credit: "https://commons.wikimedia.org/wiki/File%3ASolothurn_Zeitglockenturm_3.JPG",
+  },
+  "so-jesuitenkirche": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Jesuitenkirche_Solothurn_%281%29.jpg/1280px-Jesuitenkirche_Solothurn_%281%29.jpg",
+    alt: "Jesuitenkirche an der Hauptgasse in Solothurn",
+    credit: "https://commons.wikimedia.org/wiki/File%3AJesuitenkirche_Solothurn_%281%29.jpg",
+  },
+  "so-rathaus": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Rathaus_Kanton_Solothurn_1.jpg/1280px-Rathaus_Kanton_Solothurn_1.jpg",
+    alt: "Ostfassade des Rathauses Solothurn",
+    credit: "https://commons.wikimedia.org/wiki/File%3ARathaus_Kanton_Solothurn_1.jpg",
+  },
+  "so-baseltor": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Solothurn_Baseltor_1.JPG/1280px-Solothurn_Baseltor_1.JPG",
+    alt: "Baseltor in Solothurn",
+    credit: "https://commons.wikimedia.org/wiki/File%3ASolothurn_Baseltor_1.JPG",
+  },
+  "so-st-ursen": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/St._Ursenkathedrale.jpg/1280px-St._Ursenkathedrale.jpg",
+    alt: "St.-Ursen-Kathedrale in Solothurn",
+    credit: "https://commons.wikimedia.org/wiki/File%3ASt._Ursenkathedrale.jpg",
+  },
+  "so-roetibruecke": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Aare_und_St._Ursen_Kathedrale_in_Solothurn_%282014%29.jpg/1280px-Aare_und_St._Ursen_Kathedrale_in_Solothurn_%282014%29.jpg",
+    alt: "Aare mit Ritterquai und St.-Ursen-Kathedrale in Solothurn",
+    credit: "https://commons.wikimedia.org/wiki/File%3AAare_und_St._Ursen_Kathedrale_in_Solothurn_%282014%29.jpg",
+  },
+  "so-riedholzturm": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Riedholzturm_und_St._Ursenbastion%2C_Solothurn.jpg/1280px-Riedholzturm_und_St._Ursenbastion%2C_Solothurn.jpg",
+    alt: "Riedholzturm und St.-Ursen-Bastion in Solothurn, von Norden",
+    credit: "https://commons.wikimedia.org/wiki/File%3ARiedholzturm_und_St._Ursenbastion%2C_Solothurn.jpg",
+  },
+  "so-einsiedelei": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Einsiedelei_St_Verena_November_2015.jpg/1280px-Einsiedelei_St_Verena_November_2015.jpg",
+    alt: "Einsiedelei St. Verena in der Verenaschlucht",
+    credit: "https://commons.wikimedia.org/wiki/File%3AEinsiedelei_St_Verena_November_2015.jpg",
+  },
+  "so-schloss-waldegg": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Schloss_Waldegg.jpg/1280px-Schloss_Waldegg.jpg",
+    alt: "Schloss Waldegg mit Barockgarten, Südseite",
+    credit: "https://commons.wikimedia.org/wiki/File%3ASchloss_Waldegg.jpg",
+  },
 };
 
 export const tourHeroImages: Record<string, StopImage> = {
@@ -839,6 +894,16 @@ export const tourHeroImages: Record<string, StopImage> = {
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Z%C3%BCrich_view_Quaibr%C3%BCcke_20200702.jpg/1280px-Z%C3%BCrich_view_Quaibr%C3%BCcke_20200702.jpg",
     alt: "Zürich view Quaibrücke 20200702",
     credit: "https://commons.wikimedia.org/wiki/File%3AZ%C3%BCrich_view_Quaibr%C3%BCcke_20200702.jpg",
+  },
+  "solothurn-elf": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Landhausquai_-_panoramio.jpg/1280px-Landhausquai_-_panoramio.jpg",
+    alt: "Landhausquai in Solothurn an der Aare (Panorama)",
+    credit: "https://commons.wikimedia.org/wiki/File%3ALandhausquai_-_panoramio.jpg",
+  },
+  "solothurn-verenaschlucht": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Verenaschlucht_Martinskapelle.JPG/1280px-Verenaschlucht_Martinskapelle.JPG",
+    alt: "Martinskapelle in der Verenaschlucht",
+    credit: "https://commons.wikimedia.org/wiki/File%3AVerenaschlucht_Martinskapelle.JPG",
   },
 };
 

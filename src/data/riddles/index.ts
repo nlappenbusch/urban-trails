@@ -21,6 +21,8 @@ import { riddles as newPeopleRoute } from "./new-people-route";
 import { riddles as zuerich60Minuten } from "./zuerich-60-minuten";
 import { riddles as churAeltesteStadt } from "./chur-aelteste-stadt";
 import { riddles as zuerichFoodies } from "./zuerich-foodies";
+import { riddles as solothurnElf } from "./solothurn-elf";
+import { riddles as solothurnVerenaschlucht } from "./solothurn-verenaschlucht";
 
 /** Rätsel pro Tour – Schlüssel: `${citySlug}/${tourSlug}` */
 export const riddlesByTour: Record<string, TourRiddles> = {
@@ -46,6 +48,8 @@ export const riddlesByTour: Record<string, TourRiddles> = {
   "zuerich/zuerich-60-minuten": zuerich60Minuten,
   "chur/chur-aelteste-stadt": churAeltesteStadt,
   "zuerich/zuerich-foodies": zuerichFoodies,
+  "solothurn/solothurn-elf": solothurnElf,
+  "solothurn/solothurn-verenaschlucht": solothurnVerenaschlucht,
 };
 
 /** Rätsel für einen Stopp – undefined, wenn (noch) keins existiert */

@@ -118,6 +118,15 @@ export const destinations: Destination[] = [
       "5000 Jahre Siedlungsgeschichte, eine autofreie Altstadt und Berge, die direkt hinter dem Bahnhof anfangen.",
     center: { lat: 46.8508, lng: 9.5320 },
   },
+  {
+    slug: "solothurn",
+    name: "Solothurn",
+    canton: "SO",
+    teaser: "Die schönste Barockstadt der Schweiz – und alles dreht sich um die Elf.",
+    description:
+      "Ambassadorenstadt, Aare-Riviera und eine Kathedrale mit elf Altären und elf Glocken: Solothurn ist barock, südländisch entspannt und hat eine Waldschlucht mit Einsiedelei gleich vor der Haustür.",
+    center: { lat: 47.2081, lng: 7.5386 },
+  },
 ];
 
 // Kleinstädte aus dem «Züri zu Fuss»-Port

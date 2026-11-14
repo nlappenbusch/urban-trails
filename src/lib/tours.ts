@@ -21,6 +21,8 @@ import { newPeopleRoute } from "@/data/tours/new-people-route";
 import { zuerich60Minuten } from "@/data/tours/zuerich-60-minuten";
 import { churAeltesteStadt } from "@/data/tours/chur-aelteste-stadt";
 import { zuerichFoodies } from "@/data/tours/zuerich-foodies";
+import { solothurnElf } from "@/data/tours/solothurn-elf";
+import { solothurnVerenaschlucht } from "@/data/tours/solothurn-verenaschlucht";
 
 export const tours: Tour[] = [
   zuerichKlassiker,
@@ -45,6 +47,8 @@ export const tours: Tour[] = [
   zuerich60Minuten,
   churAeltesteStadt,
   zuerichFoodies,
+  solothurnElf,
+  solothurnVerenaschlucht,
 ];
 
 export function getTour(citySlug: string, tourSlug: string): Tour | undefined {

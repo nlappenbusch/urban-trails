@@ -1,0 +1,2630 @@
+{
+  "regions": [
+    {
+      "slug": "engadin",
+      "name": "Engadin / St. Moritz",
+      "station": "St. Moritz",
+      "center": {
+        "lat": 46.49,
+        "lng": 9.86
+      }
+    },
+    {
+      "slug": "davos",
+      "name": "Davos Klosters",
+      "station": "Davos Platz",
+      "center": {
+        "lat": 46.8,
+        "lng": 9.83
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "en-jugendherberge-pontresina",
+      "kind": "hotel",
+      "name": "Jugendherberge Pontresina",
+      "region": "engadin",
+      "town": "Pontresina",
+      "address": "Via da la Staziun 46, 7504 Pontresina",
+      "coords": {
+        "lat": 46.49107,
+        "lng": 9.89653
+      },
+      "url": "https://www.youthhostel.ch/de/hostels/pontresina/",
+      "price": 1,
+      "tags": [
+        "familie",
+        "freunde",
+        "aktiv",
+        "berg"
+      ],
+      "weatherProof": true,
+      "season": "Winter- und Sommersaison; in der Zwischensaison geschlossen",
+      "text": "Jugendherberge direkt beim Bahnhof Pontresina, mit Mehrbettzimmern und einfachen Doppelzimmern inklusive Frühstück. Von hier fährst du ohne Umweg auf die Berninalinie, und das Langlaufzentrum liegt gleich nebenan.",
+      "tip": "Halbpension kostet nur einen kleinen Aufpreis und lohnt sich, weil Pontresina abends nicht viele günstige Lokale hat.",
+      "source": "https://www.myswitzerland.com/en-ch/accommodations/pontresina-youth-hostel/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-hotel-steinbock-pontresina",
+      "kind": "hotel",
+      "name": "Hotel Steinbock Pontresina",
+      "region": "engadin",
+      "town": "Pontresina",
+      "address": "Via Maistra 219, 7504 Pontresina",
+      "coords": {
+        "lat": 46.48707,
+        "lng": 9.90798
+      },
+      "url": "https://www.hotelsteinbock.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "berg",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "Mitte Dezember bis Ende Oktober; dazwischen geschlossen",
+      "text": "Familiengeführtes Hotel in einem Engadinerhaus von 1651 an der Hauptstrasse von Pontresina. Im Haus ist das Colani-Stübli mit Engadiner Küche, und das Fonduerestaurant Gondolezza gehört zur gleichen Adresse.",
+      "tip": "Gäste können die Infrastruktur des Schwesterhotels Walther ein paar Häuser weiter mitbenutzen – frag beim Check-in, was im Zimmerpreis dabei ist.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Via_Maistra_219.jpg/1280px-Via_Maistra_219.jpg",
+        "alt": "Fassade des Hotels Steinbock an der Via Maistra in Pontresina",
+        "credit": "https://commons.wikimedia.org/wiki/File:Via_Maistra_219.jpg"
+      },
+      "source": "https://www.hotelsteinbock.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-romantik-hotel-muottas-muragl",
+      "kind": "hotel",
+      "name": "Romantik Hotel Muottas Muragl",
+      "region": "engadin",
+      "town": "Samedan",
+      "address": "Muottas Muragl, 7503 Samedan",
+      "coords": {
+        "lat": 46.52239,
+        "lng": 9.90259
+      },
+      "url": "https://www.muottasmuragl.ch",
+      "price": 3,
+      "tags": [
+        "romantisch",
+        "aussicht",
+        "berg",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "Juni bis Oktober und Mitte Dezember bis Anfang April",
+      "text": "Berghotel auf 2456 Metern, erreichbar nur mit der Standseilbahn ab Punt Muragl. Am Abend, wenn die Tagesgäste weg sind, hast du den Blick über die Oberengadiner Seen fast für dich allein.",
+      "tip": "Die Bahn fährt bis 23 Uhr – du kannst also unten im Tal essen und trotzdem oben schlafen.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Romantik_Hotel_Muottas_Muragl.jpg/1280px-Romantik_Hotel_Muottas_Muragl.jpg",
+        "alt": "Romantik Hotel Muottas Muragl im Schnee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Romantik_Hotel_Muottas_Muragl.jpg"
+      },
+      "source": "https://www.muottasmuragl.ch/en/about-us/arrival/operating-hours/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-hotel-waldhaus-sils",
+      "kind": "hotel",
+      "name": "Hotel Waldhaus Sils",
+      "region": "engadin",
+      "town": "Sils Maria",
+      "address": "Via da Fex 3, 7514 Sils Maria",
+      "coords": {
+        "lat": 46.42834,
+        "lng": 9.76109
+      },
+      "url": "https://www.waldhaus-sils.ch",
+      "price": 4,
+      "tags": [
+        "romantisch",
+        "kultur",
+        "genuss",
+        "wellness"
+      ],
+      "weatherProof": true,
+      "season": "Mitte Juni bis Ende Oktober und Mitte Dezember bis Anfang April",
+      "text": "Grandhotel von 1908 auf einem Hügel über Sils Maria, seit der Eröffnung in der Hand derselben Familie. Hier geht es weniger um Glamour als um Bibliothek, Hausmusik und lange Spaziergänge am Silsersee.",
+      "tip": "Wer nicht hier schläft, kann trotzdem auf einen Kaffee vorbeikommen und dann zu Fuss ins Fextal weitergehen.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sils_Waldhaus.JPG/1280px-Sils_Waldhaus.JPG",
+        "alt": "Hotel Waldhaus über Sils Maria",
+        "credit": "https://commons.wikimedia.org/wiki/File:Sils_Waldhaus.JPG"
+      },
+      "source": "https://swiss-historic-hotels.ch/en/hotels/hotel-waldhaus",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-hanselmann",
+      "kind": "cafe",
+      "name": "Hanselmann",
+      "region": "engadin",
+      "town": "St. Moritz",
+      "address": "Via Maistra 8, 7500 St. Moritz",
+      "coords": {
+        "lat": 46.49766,
+        "lng": 9.83914
+      },
+      "url": "https://www.hanselmann.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 7.30–19 Uhr",
+      "text": "Traditionelles Kaffeehaus mitten in St. Moritz Dorf mit Bäckerei, Confiserie und Restaurant im oberen Stock. Bekannt ist es für seine Engadiner Nusstorte, mittags gibt es eine Wochenkarte.",
+      "tip": "Die Nusstorte gibt es im Laden auch zum Mitnehmen – sie hält ohne Kühlschrank mehrere Tage und übersteht die Heimfahrt problemlos.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "1": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "2": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "3": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "4": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "5": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ],
+          "6": [
+            [
+              "07:30",
+              "19:00"
+            ]
+          ]
+        }
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/St._Moritz_Hanselmann.JPG/1280px-St._Moritz_Hanselmann.JPG",
+        "alt": "Fassade des Cafés Hanselmann in St. Moritz",
+        "credit": "https://commons.wikimedia.org/wiki/File:St._Moritz_Hanselmann.JPG"
+      },
+      "source": "https://www.hanselmann.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-lej-da-staz",
+      "kind": "restaurant",
+      "name": "Restorant Lej da Staz",
+      "region": "engadin",
+      "town": "Celerina",
+      "address": "Vietta da Staz 3, 7505 Celerina",
+      "coords": {
+        "lat": 46.49723,
+        "lng": 9.87129
+      },
+      "url": "https://www.laudinella.ch/restaurants/restaurant-lej-da-staz",
+      "price": 3,
+      "tags": [
+        "see",
+        "genuss",
+        "romantisch",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "Anfang Juni bis Mitte Oktober",
+      "hours": "täglich 11.30–17 Uhr",
+      "text": "Gasthaus am Ufer des kleinen Stazersees, mitten im Arven- und Lärchenwald zwischen St. Moritz, Celerina und Pontresina. Es ist nur zu Fuss oder mit dem Velo erreichbar, auf der Terrasse sitzt du direkt über dem Wasser.",
+      "tip": "Der See ist eines der wärmeren Badegewässer im Oberengadin – an heissen Tagen Badesachen einpacken.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:30",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Hotel_Lej_da_Staz_2.jpg/1280px-Hotel_Lej_da_Staz_2.jpg",
+        "alt": "Hotel-Restaurant Lej da Staz am Ufer des Stazersees",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_Lej_da_Staz_2.jpg"
+      },
+      "source": "https://www.graubuenden.ch/de/gastronomie/restaurant-lej-da-staz",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-gondolezza",
+      "kind": "restaurant",
+      "name": "Gondolezza",
+      "region": "engadin",
+      "town": "Pontresina",
+      "address": "Via Maistra 219, 7504 Pontresina",
+      "coords": {
+        "lat": 46.48713,
+        "lng": 9.9079
+      },
+      "url": "https://www.gondolezza.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "freunde",
+        "regenfest",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "Anfang Dezember bis Mitte April und Ende Mai bis Mitte Oktober",
+      "hours": "Mo/Di Ruhetag (in der Hochsaison teils täglich), ab 17.30 Uhr",
+      "text": "Fondue- und Raclettestube in einer ausgedienten Gondel der Diavolezza-Bahn, eingerichtet mit Holz, Eichentischen und Fellen. Auf den Tisch kommen Gletscher-Fondue und Raclette.",
+      "tip": "Die Gondel hat nur wenige Plätze – reservier unbedingt, am Wochenende am besten schon mit der Hotelbuchung.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "17:30",
+              "21:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "17:30",
+              "21:00"
+            ]
+          ],
+          "4": [
+            [
+              "17:30",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "17:30",
+              "21:00"
+            ]
+          ],
+          "6": [
+            [
+              "17:30",
+              "21:00"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "source": "https://www.gondolezza.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-restaurant-morteratsch",
+      "kind": "restaurant",
+      "name": "Restaurant Morteratsch",
+      "region": "engadin",
+      "town": "Pontresina",
+      "address": "Bahnstation Morteratsch, 7504 Pontresina",
+      "coords": {
+        "lat": 46.45103,
+        "lng": 9.94083
+      },
+      "url": "https://www.morteratsch.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "berg",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "Juni bis Ende Oktober und Anfang Dezember bis Mitte April",
+      "hours": "täglich 8–21.30 Uhr, warme Küche 11.30–16 und 18–20.30 Uhr",
+      "text": "Hotel-Restaurant direkt an der Bahnstation Morteratsch, wo der Gletscherweg beginnt. Nach der Wanderung sitzt du hier mit Blick ins Val Morteratsch und wartest bequem auf den nächsten Zug.",
+      "tip": "Zwischen 16 und 18 Uhr gibt es keine warme Küche – plan den Znacht ab 18 Uhr oder iss vorher.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:00",
+              "21:30"
+            ]
+          ],
+          "1": [
+            [
+              "08:00",
+              "21:30"
+            ]
+          ],
+          "2": [
+            [
+              "08:00",
+              "21:30"
+            ]
+          ],
+          "3": [
+            [
+              "08:00",
+              "21:30"
+            ]
+          ],
+          "4": [
+            [
+              "08:00",
+              "21:30"
+            ]
+          ],
+          "5": [
+            [
+              "08:00",
+              "21:30"
+            ]
+          ],
+          "6": [
+            [
+              "08:00",
+              "21:30"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "source": "https://www.graubuenden.ch/de/gastronomie/restaurant-morteratsch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-alp-gruem",
+      "kind": "restaurant",
+      "name": "Albergo Ristorante Alp Grüm",
+      "region": "engadin",
+      "town": "Alp Grüm",
+      "address": "Alp Grüm, 7710 Alp Grüm",
+      "coords": {
+        "lat": 46.37507,
+        "lng": 10.03379
+      },
+      "url": "https://www.alpgrum.com",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "genuss",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "Mitte Dezember bis Mitte April und Mitte Mai bis Anfang November",
+      "hours": "täglich 7–17 Uhr",
+      "text": "Gasthaus an der Station Alp Grüm auf gut 2000 Metern, die nur mit der Bahn oder zu Fuss erreichbar ist. Von der Terrasse schaust du auf den Palügletscher und hinunter ins Puschlav, gekocht wird Regionales wie Pizzoccheri.",
+      "tip": "Setz dich auf die Terrassenseite Richtung Gletscher und behalte die Uhr im Auge – die Züge Richtung Pontresina fahren etwa stündlich.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "07:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "07:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "07:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.graubuenden.ch/de/gastronomie/albergo-ristorante-alp-gruem",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-berghaus-diavolezza",
+      "kind": "restaurant",
+      "name": "Berghaus Diavolezza",
+      "region": "engadin",
+      "town": "Pontresina",
+      "address": "Bergstation Diavolezza, 7504 Pontresina",
+      "coords": {
+        "lat": 46.41224,
+        "lng": 9.96505
+      },
+      "url": "https://www.corvatsch-diavolezza.ch",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "fast ganzjährig; Mitte November bis Mitte Dezember geschlossen",
+      "hours": "täglich während Bahnbetrieb, warme Küche 11–15.30 Uhr",
+      "text": "Restaurant und Berghaus an der Bergstation auf knapp 3000 Metern. Durch die grossen Fenster und von der Terrasse siehst du direkt auf Piz Palü, Bernina und den Persgletscher.",
+      "tip": "Warme Gerichte gibt es nur bis 15.30 Uhr – wer später hochfährt, bekommt nur noch Snacks.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Berghaus_Diavolezza_seen_from_Chamanna_da_Boval_2022-09-26_01.jpg/1280px-Berghaus_Diavolezza_seen_from_Chamanna_da_Boval_2022-09-26_01.jpg",
+        "alt": "Berghaus Diavolezza auf dem Grat, von der Bovalhütte aus gesehen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Berghaus_Diavolezza_seen_from_Chamanna_da_Boval_2022-09-26_01.jpg"
+      },
+      "source": "https://www.graubuenden.ch/de/gastronomie/berghaus-diavolezza",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-hotel-fex-restaurant",
+      "kind": "restaurant",
+      "name": "Restaurant Hotel Fex",
+      "region": "engadin",
+      "town": "Sils (Fextal)",
+      "address": "Via da Fex 73, 7514 Sils",
+      "coords": {
+        "lat": 46.39837,
+        "lng": 9.77745
+      },
+      "url": "https://www.hotelfex.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "berg",
+        "romantisch",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "Mitte Juni bis Mitte Oktober und Mitte Dezember bis Anfang April",
+      "hours": "Sommer täglich 11.30–15 und 18–21 Uhr; Winter täglich 10–21 Uhr",
+      "text": "Gasthaus hinten im Fextal, einem Seitental von Sils, in das keine privaten Autos fahren. Du kommst zu Fuss, mit dem Velo oder der Pferdekutsche und isst danach drinnen in der Stube oder draussen im Garten.",
+      "tip": "Im Sommer steht im Hotelgarten ein Kiosk für den kleinen Hunger, wenn du nicht lange einkehren willst.",
+      "open": {
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hotel_Fex_und_Fex_Curtins_im_Herbst_-_panoramio.jpg/1280px-Hotel_Fex_und_Fex_Curtins_im_Herbst_-_panoramio.jpg",
+        "alt": "Hotel Fex und der Weiler Fex Curtins im Herbst",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_Fex_und_Fex_Curtins_im_Herbst_-_panoramio.jpg"
+      },
+      "source": "https://www.graubuenden.ch/de/gastronomie/hotel-fex-restaurant",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-muottas-muragl",
+      "kind": "aussicht",
+      "name": "Muottas Muragl",
+      "region": "engadin",
+      "town": "Samedan / Pontresina",
+      "address": "Talstation Punt Muragl, 7503 Samedan",
+      "coords": {
+        "lat": 46.50839,
+        "lng": 9.88287
+      },
+      "url": "https://www.mountains.ch",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "romantisch",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "Juni bis Oktober und Mitte Dezember bis Anfang April",
+      "hours": "Standseilbahn täglich 7.45–23 Uhr, alle 30 Min.",
+      "durationMin": 150,
+      "text": "Die Standseilbahn bringt dich in zehn Minuten von Punt Muragl auf 2456 Meter, wo du die ganze Seenkette des Oberengadins bis Maloja vor dir hast. Oben führt der flache Philosophenweg über die Hochebene, im Winter geht es mit dem Schlitten 4,2 Kilometer und 20 Kurven zurück ins Tal.",
+      "tip": "Die Schlittelbahn ist tagsüber etwa 9.30–16 Uhr und nur bei guter Schneelage offen; Schlitten mietest du gegen Depot an der Talstation.",
+      "priceInfo": {
+        "from": 42.5,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Sommer 2026; einfach CHF 30.50; GA und Halbtax werden an den Kassen nicht akzeptiert"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "07:45",
+              "23:00"
+            ]
+          ],
+          "1": [
+            [
+              "07:45",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "07:45",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "07:45",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "07:45",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "07:45",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "07:45",
+              "23:00"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/SW19_61_Muottas_Muragl_St_Moritz_lake_Piz_Julier_small.jpg/1280px-SW19_61_Muottas_Muragl_St_Moritz_lake_Piz_Julier_small.jpg",
+        "alt": "Blick von Muottas Muragl über das Hotel auf den St. Moritzersee und den Piz Julier",
+        "credit": "https://commons.wikimedia.org/wiki/File:SW19_61_Muottas_Muragl_St_Moritz_lake_Piz_Julier_small.jpg"
+      },
+      "source": "https://www.muottasmuragl.ch/en/about-us/arrival/operating-hours/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-diavolezza",
+      "kind": "aussicht",
+      "name": "Diavolezza",
+      "region": "engadin",
+      "town": "Pontresina",
+      "address": "Talstation Bernina Diavolezza, 7504 Pontresina",
+      "coords": {
+        "lat": 46.44173,
+        "lng": 9.98243
+      },
+      "url": "https://www.corvatsch-diavolezza.ch",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "fast ganzjährig; Revision etwa Mitte November bis Mitte Dezember",
+      "hours": "alle 20 Min.; Sommer etwa 8.20–17.20 Uhr, Winter 8.40/8–16.20/17 Uhr",
+      "durationMin": 120,
+      "text": "Die Luftseilbahn ab der Station Bernina Diavolezza fährt auf knapp 3000 Meter. Oben stehst du einem der eindrücklichsten Gletscherpanoramen der Alpen gegenüber, mit Piz Palü, Piz Bernina und dem Pers- und Morteratschgletscher.",
+      "tip": "Die erste Bahn am Morgen lohnt sich doppelt: klarere Sicht und noch kaum Betrieb auf der Terrasse.",
+      "priceInfo": {
+        "from": 46,
+        "to": 48,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Sommer CHF 46 (Halbtax/GA laut Betreiber gültig), Winter CHF 48 ohne Halbtax; Swiss Travel Pass nicht gültig"
+      },
+      "source": "https://www.corvatsch-diavolezza.ch/en/news-1/operating-hours",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-gletscherweg-morteratsch",
+      "kind": "aktivitaet",
+      "name": "Gletscherweg Morteratsch",
+      "region": "engadin",
+      "town": "Pontresina",
+      "address": "Start bei der Bahnstation Morteratsch, 7504 Pontresina",
+      "coords": {
+        "lat": 46.45103,
+        "lng": 9.94083
+      },
+      "url": "https://www.graubuenden.ch/de/touren/aufstieg-morteratschgletscher",
+      "price": 1,
+      "tags": [
+        "aktiv",
+        "berg",
+        "familie",
+        "gratis",
+        "kultur"
+      ],
+      "weatherProof": false,
+      "season": "Juni bis Oktober (schneefrei)",
+      "durationMin": 120,
+      "text": "Breiter, einfacher Weg vom Bahnhof Morteratsch talaufwärts bis zur Gletscherzunge, rund 50 Minuten pro Richtung. Tafeln am Wegrand zeigen, wo das Eis in welchem Jahr stand – du läufst also kilometerweit über Boden, den der Gletscher in den letzten 150 Jahren freigegeben hat.",
+      "tip": "An den 16 Infopunkten kannst du per QR-Code einen Audiotext abrufen; Kopfhörer einpacken.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        },
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Trail_to_Morteratsch_Glacier_in_2012_July.jpg/1280px-Trail_to_Morteratsch_Glacier_in_2012_July.jpg",
+        "alt": "Wanderweg im Val Morteratsch mit Blick auf den Morteratschgletscher",
+        "credit": "https://commons.wikimedia.org/wiki/File:Trail_to_Morteratsch_Glacier_in_2012_July.jpg"
+      },
+      "source": "https://unterwegs.sob.ch/en/tour/gletscherweg-morteratsch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-berninalinie-alp-gruem",
+      "kind": "aktivitaet",
+      "name": "Berninalinie bis Alp Grüm",
+      "region": "engadin",
+      "town": "Pontresina – Alp Grüm",
+      "address": "Bahnhof Pontresina bis Bahnhof Alp Grüm",
+      "coords": {
+        "lat": 46.37507,
+        "lng": 10.03379
+      },
+      "url": "https://www.rhb.ch",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Regionalzüge etwa stündlich",
+      "durationMin": 60,
+      "text": "Der Abschnitt der UNESCO-Welterbe-Strecke über den Berninapass: Vorbei am Lago Bianco und Ospizio Bernina fährt der Zug bis zur Station Alp Grüm, wo sich der Blick auf den Palügletscher und ins Puschlav öffnet. Du nimmst einfach den Regionalzug – reservieren musst du nur für den Bernina Express.",
+      "tip": "Für die Aussicht in Fahrtrichtung rechts sitzen; GA und Halbtax gelten auf den Regionalzügen der RhB.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pal%C3%BC_Glacier_from_Alp_Gr%C3%BCm_Station_2015.jpg/1280px-Pal%C3%BC_Glacier_from_Alp_Gr%C3%BCm_Station_2015.jpg",
+        "alt": "Palügletscher und Palüsee, gesehen vom Bahnhof Alp Grüm",
+        "credit": "https://commons.wikimedia.org/wiki/File:Pal%C3%BC_Glacier_from_Alp_Gr%C3%BCm_Station_2015.jpg"
+      },
+      "source": "https://www.graubuenden.ch/de/gastronomie/albergo-ristorante-alp-gruem",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-segantini-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Segantini Museum",
+      "region": "engadin",
+      "town": "St. Moritz",
+      "address": "Via Somplaz 30, 7500 St. Moritz",
+      "coords": {
+        "lat": 46.4927,
+        "lng": 9.83331
+      },
+      "url": "https://segantini-museum.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "20. Mai bis 20. Oktober und 10. Dezember bis 12. April",
+      "hours": "Mo geschlossen; Di–So 11–17 Uhr",
+      "durationMin": 60,
+      "text": "Kleines Museum mit Kuppelsaal, das dem Maler Giovanni Segantini gewidmet ist. Herzstück ist sein grosses Alpentriptychon «Werden – Sein – Vergehen», das du in Ruhe auf einer Bank betrachten kannst.",
+      "tip": "Nimm dir Zeit für den Kuppelsaal ganz oben – dort lohnt es sich, ein paar Minuten einfach sitzen zu bleiben.",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "Studierende 16–25 CHF 10, 6–16 Jahre CHF 3, unter 6 gratis"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Segantini_Museum.jpg/1280px-Segantini_Museum.jpg",
+        "alt": "Kuppelbau des Segantini Museums in St. Moritz",
+        "credit": "https://commons.wikimedia.org/wiki/File:Segantini_Museum.jpg"
+      },
+      "source": "https://segantini-museum.ch/besucherinfo/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-mineralbad-samedan",
+      "kind": "bad",
+      "name": "Mineralbad & Spa Samedan",
+      "region": "engadin",
+      "town": "Samedan",
+      "address": "San Bastiaun, 7503 Samedan",
+      "coords": {
+        "lat": 46.53378,
+        "lng": 9.87045
+      },
+      "url": "https://www.mineralbad-samedan.ch",
+      "price": 3,
+      "tags": [
+        "wellness",
+        "regenfest",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "Juni bis November und Dezember bis Mitte April; Ende April bis Anfang Juni geschlossen",
+      "hours": "Mo 13–20.30 Uhr; Di–So 12–20.30 Uhr (im Winter ab 10 Uhr)",
+      "durationMin": 150,
+      "text": "Kleines Mineralbad mitten im Dorf Samedan, eingebaut in den Hang neben der Kirche. Du folgst einem Baderitual durch mehrere Becken mit unterschiedlicher Temperatur und Mineralisierung.",
+      "tip": "Reservieren geht nicht – an Regentagen früh kommen, sonst wartest du am Eingang. Ab 18 Uhr ist der Eintritt deutlich günstiger.",
+      "priceInfo": {
+        "from": 43,
+        "unit": "Eintritt Erwachsene",
+        "note": "Baderitual inkl. Badetuch und Tee; ab 18 Uhr CHF 31; Kinder 7–15 CHF 20"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "12:00",
+              "20:30"
+            ]
+          ],
+          "1": [
+            [
+              "13:00",
+              "20:30"
+            ]
+          ],
+          "2": [
+            [
+              "12:00",
+              "20:30"
+            ]
+          ],
+          "3": [
+            [
+              "12:00",
+              "20:30"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "20:30"
+            ]
+          ],
+          "5": [
+            [
+              "12:00",
+              "20:30"
+            ]
+          ],
+          "6": [
+            [
+              "12:00",
+              "20:30"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "source": "https://www.aquaspa.ch/en/mineralbad-spa-samedan/prices",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-museum-engiadinais",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museum Engiadinais",
+      "region": "engadin",
+      "town": "St. Moritz",
+      "address": "Via dal Bagn 39, 7500 St. Moritz",
+      "coords": {
+        "lat": 46.49396,
+        "lng": 9.83528
+      },
+      "url": "https://www.museum-engiadinais.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "Juni bis Mitte Oktober und Dezember bis Mitte April",
+      "hours": "Do–So 11–17 Uhr; Mo–Mi geschlossen",
+      "durationMin": 75,
+      "text": "Das Museum in St. Moritz Bad zeigt in einem eigens dafür gebauten Engadinerhaus historische Stuben, Möbel und Alltagsgegenstände aus dem Tal. So bekommst du ein Gefühl dafür, wie man hier vor dem Tourismus gelebt hat.",
+      "tip": "Der E-Guide im Eintritt erklärt die einzelnen Räume – nimm ihn, sonst gehen viele Details verloren.",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 10, bis 17 Jahre gratis, Swiss Museum Pass gilt"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Engadinmuseum_St._Moritz.jpg/1280px-Engadinmuseum_St._Moritz.jpg",
+        "alt": "Gebäude des Museum Engiadinais in St. Moritz Bad",
+        "credit": "https://commons.wikimedia.org/wiki/File:Engadinmuseum_St._Moritz.jpg"
+      },
+      "source": "https://www.graubuenden.ch/de/ausflugsziele/museum-engiadinais",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-nationalparkzentrum-zernez",
+      "kind": "sehenswuerdigkeit",
+      "name": "Nationalparkzentrum Zernez",
+      "region": "engadin",
+      "town": "Zernez",
+      "address": "Urtatsch 2, 7530 Zernez",
+      "coords": {
+        "lat": 46.69925,
+        "lng": 10.0954
+      },
+      "url": "https://www.nationalpark.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "Mitte Mai bis Ende Oktober; im Winter mit reduzierten Öffnungszeiten",
+      "hours": "Sommer täglich 8.30–18 Uhr",
+      "durationMin": 90,
+      "text": "Besucherzentrum des Schweizerischen Nationalparks gleich beim Bahnhof Zernez, mit einer Ausstellung zum Thema Wildnis und wechselnden Sonderausstellungen. Hier erfährst du, warum im Park seit über hundert Jahren niemand eingreift.",
+      "tip": "Der Infobereich mit Karten und Wandertipps ist gratis – praktisch, wenn du nach dem Regen doch noch in den Park willst.",
+      "priceInfo": {
+        "from": 9,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–16 CHF 5, Familien CHF 20"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:30",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:30",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "08:30",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "08:30",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "08:30",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "08:30",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "08:30",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Nationalparkzentrum_Zernez.JPG/1280px-Nationalparkzentrum_Zernez.JPG",
+        "alt": "Gebäude des Nationalparkzentrums in Zernez",
+        "credit": "https://commons.wikimedia.org/wiki/File:Nationalparkzentrum_Zernez.JPG"
+      },
+      "source": "https://www.graubuenden.ch/de/ausflugsziele/nationalparkzentrum-zernez",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-halbinsel-chaste",
+      "kind": "aussicht",
+      "name": "Halbinsel Chastè am Silsersee",
+      "region": "engadin",
+      "town": "Sils",
+      "address": "Sils Baselgia, 7515 Sils",
+      "coords": {
+        "lat": 46.42816,
+        "lng": 9.74723
+      },
+      "url": "https://www.graubuenden.ch/de/touren/sils-halbinsel-chaste-sils",
+      "price": 1,
+      "tags": [
+        "see",
+        "aussicht",
+        "gratis",
+        "romantisch",
+        "kultur"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig zugänglich; schneefrei etwa Juni bis Oktober",
+      "durationMin": 75,
+      "text": "Bewaldete Halbinsel im Silsersee, auf der ein einfacher Rundweg von gut vier Kilometern ab Sils Maria verläuft. Unterwegs kommst du an einem Felsen mit eingemeisseltem Nietzsche-Zitat vorbei und an Bänkli mit Blick über den See.",
+      "tip": "Starte früh am Morgen: Dann ist der See oft spiegelglatt, bevor ab Mittag der Malojawind aufkommt.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Chast%C3%A8_and_mountains.jpg/1280px-Chast%C3%A8_and_mountains.jpg",
+        "alt": "Halbinsel Chastè im Silsersee vor Bergkulisse",
+        "credit": "https://commons.wikimedia.org/wiki/File:Chast%C3%A8_and_mountains.jpg"
+      },
+      "source": "https://www.graubuenden.ch/de/touren/sils-halbinsel-chaste-sils",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-nietzsche-haus",
+      "kind": "sehenswuerdigkeit",
+      "name": "Nietzsche-Haus",
+      "region": "engadin",
+      "town": "Sils Maria",
+      "address": "Via da Marias 67, 7514 Sils Maria",
+      "coords": {
+        "lat": 46.42884,
+        "lng": 9.76485
+      },
+      "url": "https://nietzschehaus.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "Mitte Juni bis Ende Oktober und Mitte Dezember bis Mitte April",
+      "hours": "Di–So 15–18 Uhr; Mo geschlossen",
+      "durationMin": 60,
+      "text": "In diesem Haus wohnte Friedrich Nietzsche in mehreren Sommern der 1880er-Jahre; sein karges Zimmer ist erhalten. Dazu kommen eine Ausstellung zu seinen Jahren in Sils und eine Bibliothek.",
+      "tip": "Weil das Haus erst um 15 Uhr öffnet, passt es gut in einen Nachmittag nach einer Wanderung am See.",
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "Schüler und Studierende CHF 5, Kinder unter 10 gratis"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "15:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "15:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "15:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "15:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "15:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "15:00",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Nietzsche_Haus_Sils.jpg/1280px-Nietzsche_Haus_Sils.jpg",
+        "alt": "Nietzsche-Haus in Sils Maria",
+        "credit": "https://commons.wikimedia.org/wiki/File:Nietzsche_Haus_Sils.jpg"
+      },
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/nietzsche-haus-chesa-nietzsche-2312.html",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "en-langlaufzentrum-cuntschett",
+      "kind": "aktivitaet",
+      "name": "Langlaufzentrum Cuntschett",
+      "region": "engadin",
+      "town": "Pontresina",
+      "address": "Cuntschett 1, 7504 Pontresina",
+      "coords": {
+        "lat": 46.49108,
+        "lng": 9.89687
+      },
+      "url": "https://www.pontresina.ch",
+      "price": 2,
+      "tags": [
+        "aktiv",
+        "familie",
+        "freunde"
+      ],
+      "weatherProof": false,
+      "season": "Ende November bis Mitte April (schneeabhängig)",
+      "hours": "beleuchtete Nachtloipe täglich 17–21 Uhr",
+      "durationMin": 120,
+      "text": "Langlaufzentrum beim Bahnhof Pontresina mit Übungsgelände, Langlaufschulen und Nordic-Shop für Mietmaterial. Ab hier bist du direkt im Loipennetz des Oberengadins, Ende November öffnet meist zuerst eine kurze, technisch beschneite Runde.",
+      "tip": "Wenn du noch nie auf Langlaufskiern gestanden bist: zuerst klassisch lernen und eine Gruppen- oder Privatstunde vorher reservieren.",
+      "open": {
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          11,
+          12
+        ]
+      },
+      "source": "https://www.graubuenden.ch/de/ausflugsziele/langlaufzentrum-cuntschett",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-youthpalace",
+      "kind": "hotel",
+      "name": "Jugendherberge Davos Youthpalace",
+      "region": "davos",
+      "town": "Davos Dorf",
+      "address": "Horlaubenstrasse 27, 7260 Davos Dorf",
+      "coords": {
+        "lat": 46.80654,
+        "lng": 9.83392
+      },
+      "url": "https://www.youthhostel.ch/de/hostels/davos/",
+      "price": 1,
+      "tags": [
+        "freunde",
+        "familie",
+        "aktiv",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "fast ganzjährig; Saisonpause im Frühling",
+      "text": "Jugendherberge in einem ehemaligen Sanatorium an der Sonnenseite von Davos Dorf, mit Blick über das Tal. Sie liegt direkt am Höhenweg, sodass du ab der Tür losspazieren kannst.",
+      "tip": "Der Weg vom Bahnhof Davos Dorf ist kurz, aber steil – mit schwerem Gepäck lieber den Bus nehmen.",
+      "source": "https://www.youthhostel.ch/en/hostels/davos-youth-hostel",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-waldhotel-davos",
+      "kind": "hotel",
+      "name": "Waldhotel Davos",
+      "region": "davos",
+      "town": "Davos Platz",
+      "address": "Buolstrasse 3, 7270 Davos Platz",
+      "coords": {
+        "lat": 46.80223,
+        "lng": 9.82746
+      },
+      "url": "https://waldhotel-davos.ch",
+      "price": 3,
+      "tags": [
+        "kultur",
+        "wellness",
+        "romantisch",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "Mitte Juni bis Mitte Oktober und Ende November bis Ende März",
+      "text": "Das frühere Waldsanatorium am Hang über Davos Platz, in dem Katia Mann 1912 kurte – Thomas Mann besuchte sie hier und verarbeitete den Ort im «Zauberberg». Heute ist es ein Hotel mit Spa und Blick übers Tal.",
+      "tip": "Die Schatzalpbahn liegt nur ein paar Gehminuten entfernt – ideal für einen frühen Start auf die Schatzalp.",
+      "source": "https://waldhotel-davos.ch/en",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-hotel-schatzalp",
+      "kind": "hotel",
+      "name": "Berghotel Schatzalp",
+      "region": "davos",
+      "town": "Davos",
+      "address": "Bobbahnstrasse 23, 7270 Davos Platz",
+      "coords": {
+        "lat": 46.80126,
+        "lng": 9.81409
+      },
+      "url": "https://www.schatzalp.ch",
+      "price": 3,
+      "tags": [
+        "romantisch",
+        "kultur",
+        "aussicht",
+        "berg"
+      ],
+      "weatherProof": true,
+      "season": "Ende Mai bis Mitte Oktober und Mitte Dezember bis Mitte März",
+      "text": "Jugendstil-Hotel von 1900 auf 1861 Metern über Davos, ursprünglich ein Luxussanatorium für Lungenkranke. Hinauf kommst du nur mit der Standseilbahn, abends ist es hier oben deutlich ruhiger als im Ort.",
+      "tip": "Im Restaurant Belle Epoque werden die Reservationen jeweils am Freitagnachmittag für die folgende Woche geöffnet.",
+      "source": "https://www.schatzalp.ch/en/restaurants",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-strela-alp",
+      "kind": "restaurant",
+      "name": "Bergrestaurant Strela Alp",
+      "region": "davos",
+      "town": "Davos",
+      "address": "Strelaalpstrasse 1, 7270 Davos Platz",
+      "coords": {
+        "lat": 46.80426,
+        "lng": 9.81782
+      },
+      "url": "https://www.schatzalp.ch",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "Mitte Mai bis Ende Oktober und Anfang Dezember bis Mitte März",
+      "hours": "Sommer Di Ruhetag, sonst 9–18 Uhr; Winter 9–17 Uhr",
+      "text": "Bergbeiz auf 1920 Metern, ein kurzer Aufstieg oberhalb der Schatzalp. Die Küche ist regional und saisonal, und von der Terrasse blickst du über Davos bis zum Jakobshorn.",
+      "tip": "Im Sommer ist dienstags Ruhetag – an diesem Tag lieber im Panorama-Restaurant der Schatzalp einkehren.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "2": [],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Davos_%E2%80%93_Restaurant_Strela-Alp_-_panoramio.jpg/1280px-Davos_%E2%80%93_Restaurant_Strela-Alp_-_panoramio.jpg",
+        "alt": "Restaurant Strela-Alp oberhalb von Davos",
+        "credit": "https://commons.wikimedia.org/wiki/File:Davos_%E2%80%93_Restaurant_Strela-Alp_-_panoramio.jpg"
+      },
+      "source": "https://www.schatzalp.ch/en/restaurants",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-gentiana",
+      "kind": "restaurant",
+      "name": "Restaurant Gentiana",
+      "region": "davos",
+      "town": "Davos Platz",
+      "address": "Promenade 53, 7270 Davos Platz",
+      "coords": {
+        "lat": 46.795,
+        "lng": 9.82103
+      },
+      "url": "https://www.gentiana.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "freunde",
+        "romantisch",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo Ruhetag; Di–So 11.30–14 und 17.30–23 Uhr",
+      "text": "Fonduelokal im Art-déco-Stil an der Promenade, mit Käse-, Fleisch- und Schokoladenfondue, Raclette und im Herbst Wild. Ein Ort für einen langen Abend, nicht für den schnellen Znacht.",
+      "tip": "Das «Menu Gentiana» mit Bündnerfleisch, Speck mit Zwetschgen und Käsefondue ist die einfachste Wahl für den ersten Besuch.",
+      "priceInfo": {
+        "from": 59,
+        "unit": "Menü",
+        "note": "Menu Gentiana mit Bündner Teller und Käsefondue"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "17:30",
+              "23:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "17:30",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "17:30",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "17:30",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "17:30",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "17:30",
+              "23:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.gentiana.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-schneiders",
+      "kind": "cafe",
+      "name": "Schneider's Restaurant & Café",
+      "region": "davos",
+      "town": "Davos Platz",
+      "address": "Promenade 68, 7270 Davos Platz",
+      "coords": {
+        "lat": 46.79814,
+        "lng": 9.82333
+      },
+      "url": "https://www.schneiders-davos.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Café-Restaurant der Davoser Bäckerei Schneider an der Promenade, mit Frühstück, frischem Brot und hausgemachtem Gebäck. Mittags und abends gibt es auch Bündner Gerichte, Fondue und Pizza.",
+      "tip": "Nimm vor der Heimfahrt eine Bündner Nusstorte aus der Auslage mit.",
+      "source": "https://www.graubuenden.ch/en/attractions/schneiders-restaurant-cafe",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-chesa-grischuna",
+      "kind": "restaurant",
+      "name": "Restaurant Chesa Grischuna",
+      "region": "davos",
+      "town": "Klosters",
+      "address": "Bahnhofstrasse 12, 7250 Klosters",
+      "coords": null,
+      "url": "https://www.chesagrischuna.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "kultur",
+        "romantisch",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 11.30–17 und 18–21 Uhr",
+      "text": "Restaurant im historischen Holzhotel mitten in Klosters Platz, das zu den Swiss Historic Hotels gehört. Drinnen sitzt du in getäferten Stuben, bei schönem Wetter auf der Terrasse an der Bahnhofstrasse.",
+      "tip": "Die Küche ist nachmittags durchgehend offen – praktisch, wenn du nach der Bahnfahrt erst spät zum Zmittag kommst.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "17:00"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:30",
+              "17:00"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "17:00"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "17:00"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "17:00"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "17:00"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "17:00"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ]
+        }
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Chesa_Grischuna_Klosters_Ans_15099-107-AL.jpg/1280px-Chesa_Grischuna_Klosters_Ans_15099-107-AL.jpg",
+        "alt": "Historische Aufnahme des Hotels Chesa Grischuna in Klosters",
+        "credit": "https://commons.wikimedia.org/wiki/File:Chesa_Grischuna_Klosters_Ans_15099-107-AL.jpg"
+      },
+      "source": "https://en.chesagrischuna.ch/restaurant-bar",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-schatzalp-alpinum",
+      "kind": "aussicht",
+      "name": "Schatzalp mit Botanischem Garten Alpinum",
+      "region": "davos",
+      "town": "Davos",
+      "address": "Talstation Schatzalpbahn, Obere Strasse 28, 7270 Davos Platz",
+      "coords": {
+        "lat": 46.79715,
+        "lng": 9.82151
+      },
+      "url": "https://www.schatzalp.ch",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "Bahn Mai bis Oktober und Ende November bis März; Alpinum Mitte Mai bis Ende Oktober",
+      "hours": "Alpinum täglich 9–18 Uhr",
+      "durationMin": 90,
+      "text": "Die Standseilbahn fährt in vier Minuten von Davos Platz zur Schatzalp, gleich neben dem Hotel liegt der Botanische Garten Alpinum mit Pflanzen aus Gebirgen der ganzen Welt. Im Winter ist hier eine 2,8 Kilometer lange Schlittelbahn mit 18 Kurven nach Davos hinunter offen.",
+      "tip": "Der Eintritt ins Alpinum kostet nur CHF 5; Kinder bis 16 mit Eltern sind gratis.",
+      "priceInfo": {
+        "from": 20,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Schatzalpbahn, Winterpreis 2026/27 (einfach CHF 10); Alpinum zusätzlich CHF 5"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/1/13/Davos-Schatzalp_-_Botanischer_Garten_Alpinum_-_panoramio.jpg",
+        "alt": "Botanischer Garten Alpinum auf der Schatzalp",
+        "credit": "https://commons.wikimedia.org/wiki/File:Davos-Schatzalp_-_Botanischer_Garten_Alpinum_-_panoramio.jpg"
+      },
+      "source": "https://www.schatzalp.ch/en/activities",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-jakobshorn",
+      "kind": "aussicht",
+      "name": "Jakobshorn",
+      "region": "davos",
+      "town": "Davos Platz",
+      "address": "Talstation Jakobshornbahn, Skistrasse, 7270 Davos Platz",
+      "coords": {
+        "lat": 46.78926,
+        "lng": 9.82737
+      },
+      "url": "https://www.davosklostersmountains.ch",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "Mitte Juni bis Mitte Oktober und Anfang Dezember bis Mitte April",
+      "durationMin": 180,
+      "text": "Die Bahn ab Davos Platz führt über die Ischalp auf 2590 Meter, von wo du das ganze Landwassertal überblickst. Im Sommer wanderst du an der Jatzhütte vorbei zum Stadlersee und hinunter zur Ischalp, rund zwei Stunden fast nur bergab.",
+      "tip": "Am Stadlersee gibt es eine Feuerstelle – mit einer Wurst im Rucksack wird die Wanderung zum Picknick.",
+      "priceInfo": {
+        "from": 51,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Davos–Jakobshorn, Winterpreis 2026/27; bis Ischalp CHF 30"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Davos_Jakobshorn-bahn_09.JPG/1280px-Davos_Jakobshorn-bahn_09.JPG",
+        "alt": "Kabine der Jakobshornbahn über Davos",
+        "credit": "https://commons.wikimedia.org/wiki/File:Davos_Jakobshorn-bahn_09.JPG"
+      },
+      "source": "https://www.graubuenden.ch/de/touren/jakobshorn-stadlersee-ischalp",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-davosersee",
+      "kind": "aussicht",
+      "name": "Davosersee-Rundweg",
+      "region": "davos",
+      "town": "Davos Dorf",
+      "address": "Seepromenade Davos Dorf, 7260 Davos Dorf",
+      "coords": {
+        "lat": 46.81977,
+        "lng": 9.85425
+      },
+      "url": "https://www.davos.ch",
+      "price": 1,
+      "tags": [
+        "see",
+        "gratis",
+        "familie",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; je nach Wetter einzelne Abschnitte gesperrt",
+      "durationMin": 75,
+      "text": "Rund fünf Kilometer langer, fast flacher Kiesweg um den See am Ortsende von Davos Dorf, abwechselnd durch Wald und offenes Ufer. Im Sommer kannst du im Strandbad baden, im Winter liegt der See oft gefroren da.",
+      "tip": "Auf halbem Weg liegt das Seecafé des Hotels Seebüel – ein guter Ort für eine Pause mit Blick aufs Wasser.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Lake_Davos_and_Seehorn_1.jpg/1280px-Lake_Davos_and_Seehorn_1.jpg",
+        "alt": "Davosersee mit dem Seehorn",
+        "credit": "https://commons.wikimedia.org/wiki/File:Lake_Davos_and_Seehorn_1.jpg"
+      },
+      "source": "https://www.myswitzerland.com/de-de/erlebnisse/route/davosersee-rundweg/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-kirchner-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kirchner Museum Davos",
+      "region": "davos",
+      "town": "Davos Platz",
+      "address": "Promenade 82, 7270 Davos Platz",
+      "coords": {
+        "lat": 46.80014,
+        "lng": 9.82669
+      },
+      "url": "https://www.kirchnermuseum.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–18 Uhr",
+      "durationMin": 90,
+      "text": "Museum für den Expressionisten Ernst Ludwig Kirchner, der die letzten zwanzig Jahre seines Lebens in Davos verbrachte. Der schlichte Bau aus Glas und Beton zeigt seine Davoser Berg- und Bauernbilder in wechselnden Ausstellungen.",
+      "tip": "Dienstags und sonntags um 16 Uhr gibt es eine öffentliche Führung auf Deutsch.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Kirchner_Museum_Davos_2.jpg/1280px-Kirchner_Museum_Davos_2.jpg",
+        "alt": "Gebäude des Kirchner Museums in Davos",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kirchner_Museum_Davos_2.jpg"
+      },
+      "source": "https://www.kirchnermuseum.ch/en/visit",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-eau-la-la",
+      "kind": "bad",
+      "name": "eau-là-là Wellness- und Erlebnisbad",
+      "region": "davos",
+      "town": "Davos Platz",
+      "address": "Promenade 90, 7270 Davos Platz",
+      "coords": {
+        "lat": 46.80051,
+        "lng": 9.83094
+      },
+      "url": "https://www.eau-la-la.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "familie",
+        "wellness"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Erlebnisbad Mo–Sa 10–21, So 10–18 Uhr (Hochsaison länger); Wellness ab 16 Jahren",
+      "durationMin": 150,
+      "text": "Hallenbad mit Rutschbahn und Erlebnisbecken an der Promenade, dazu ein separater Wellnessbereich für Erwachsene. Bei Regen der Ort, an dem halb Davos landet.",
+      "tip": "Familien mit Kindern müssen den Eingang des Hallenbads nehmen – der Wellness-Eingang ist erst ab 16 Jahren.",
+      "priceInfo": {
+        "from": 10,
+        "to": 30,
+        "unit": "Eintritt Erwachsene",
+        "note": "Bad CHF 10, Wellness CHF 30; Rabatt mit Gästekarte"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "21:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "21:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "21:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "21:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "21:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.davos.ch/en/activities/water-sports/aquatic-centre-eau-la-la",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "dv-madrisa",
+      "kind": "aktivitaet",
+      "name": "Madrisa mit Madrisa-Land",
+      "region": "davos",
+      "town": "Klosters Dorf",
+      "address": "Talstation Madrisabahn, 7252 Klosters Dorf",
+      "coords": {
+        "lat": 46.88443,
+        "lng": 9.87588
+      },
+      "url": "https://www.davosklostersmountains.ch",
+      "price": 2,
+      "tags": [
+        "familie",
+        "berg",
+        "aktiv",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "Mitte Juni bis Mitte Oktober und Mitte Dezember bis Ende März",
+      "hours": "Gondelbahn etwa 8.15–15.45 Uhr (letzte Bergfahrt)",
+      "durationMin": 180,
+      "text": "Die Gondelbahn ab Klosters Dorf bringt dich zur Saaser Alp auf rund 1900 Metern. Oben liegt im Sommer das Madrisa-Land mit Spielplätzen, Wasserspielen und Baumhäusern, für Erwachsene gibt es aussichtsreiche Wanderwege Richtung Rätikon.",
+      "tip": "Die letzte Bergfahrt ist schon gegen 15.45 Uhr – wer nachmittags kommt, sollte zügig hochfahren.",
+      "priceInfo": {
+        "from": 33,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Klosters–Madrisa, Winterpreis 2026/27; Sommertarif separat"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Klosters-Gondola_Madrisa-11.jpg/1280px-Klosters-Gondola_Madrisa-11.jpg",
+        "alt": "Gondeln der Madrisabahn über Klosters",
+        "credit": "https://commons.wikimedia.org/wiki/File:Klosters-Gondola_Madrisa-11.jpg"
+      },
+      "source": "https://www.davos.ch/en/discover/mountains/operating-times",
+      "checked": "2026-11-15"
+    }
+  ],
+  "trips": [
+    {
+      "slug": "engadin-sommer-gletscher-bernina-sils",
+      "title": "Engadin im Sommer: Gletscher, Bernina und Silsersee",
+      "teaser": "Drei Tage zwischen Gletscherzungen, Berninabahn und Seenlandschaft – mit Segantini, Fondue in einer Gondel und Abendlicht auf Muottas Muragl.",
+      "region": "engadin",
+      "days": 3,
+      "moods": [
+        "natur",
+        "aktiv",
+        "kultur",
+        "genuss"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Ende Juni bis Mitte Oktober; Start an einem Freitag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 185
+        },
+        {
+          "from": "Bern",
+          "minutes": 250
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 245
+        }
+      ],
+      "hotelIds": [
+        "en-jugendherberge-pontresina",
+        "en-hotel-steinbock-pontresina"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Freitag) – St. Moritz, Segantini und der Stazersee",
+          "slots": [
+            {
+              "time": "11:30",
+              "placeId": "en-hanselmann",
+              "title": "Ankommen bei Hanselmann",
+              "text": "Erst einmal Zmittag oder ein Stück Nusstorte im alten Kaffeehaus mitten im Dorf.",
+              "travel": "ca. 10–15 Min. zu Fuss vom Bahnhof St. Moritz hinauf ins Dorf"
+            },
+            {
+              "time": "13:15",
+              "placeId": "en-segantini-museum",
+              "title": "Segantinis Alpentriptychon",
+              "text": "Eine Stunde im Kuppelsaal vor den grossen Engadiner Bildern von Giovanni Segantini.",
+              "travel": "ca. 15 Min. zu Fuss Richtung St. Moritz Bad oder 6 Min. Bus bis «Segantini Museum»"
+            },
+            {
+              "time": "14:45",
+              "placeId": "en-lej-da-staz",
+              "title": "Waldweg zum Stazersee",
+              "text": "Durch den Stazerwald zum kleinen Moorsee spazieren und auf der Terrasse des Gasthauses einen Kaffee trinken – Küche und Terrasse sind bis 17 Uhr offen.",
+              "travel": "ca. 45 Min. zu Fuss über St. Moritz Bad und den Stazerwald",
+              "rain": {
+                "placeId": "en-museum-engiadinais",
+                "title": "Museum Engiadinais statt Waldweg",
+                "text": "Bei Regen gehst du die paar Schritte vom Segantini Museum hinüber ins Museum Engiadinais und schaust dir die alten Engadiner Stuben an (freitags bis 17 Uhr)."
+              }
+            },
+            {
+              "time": "19:00",
+              "placeId": "en-gondolezza",
+              "title": "Fondue in der Gondel",
+              "text": "Check-in in Pontresina, dann Gletscher-Fondue in der ausgedienten Diavolezza-Gondel – unbedingt reservieren.",
+              "travel": "vom Stazersee gut 1 Std. auf dem Waldweg nach Pontresina oder zurück nach St. Moritz und 9 Min. mit der Bahn"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Samstag) – Diavolezza, Alp Grüm und Morteratsch",
+          "slots": [
+            {
+              "time": "08:30",
+              "placeId": "en-diavolezza",
+              "title": "Gletscherblick auf der Diavolezza",
+              "text": "Mit einer der ersten Bahnen auf knapp 3000 Meter und von der Terrasse auf Piz Palü und Persgletscher schauen.",
+              "travel": "20 Min. Regionalzug Pontresina–Bernina Diavolezza, Talstation beim Bahnhof",
+              "rain": {
+                "placeId": "en-nationalparkzentrum-zernez",
+                "title": "Nationalparkzentrum statt Gipfel",
+                "text": "Bei tiefen Wolken siehst du oben nichts: Fahr stattdessen in knapp einer Stunde nach Zernez ins Nationalparkzentrum und steig am Mittag in Pontresina wieder in den Bernina-Plan ein."
+              }
+            },
+            {
+              "time": "10:45",
+              "placeId": "en-berninalinie-alp-gruem",
+              "title": "Über den Berninapass",
+              "text": "Mit dem Regionalzug am Lago Bianco und Ospizio Bernina vorbei bis zur Station Alp Grüm.",
+              "travel": "zu Fuss von der Bergbahn zum Bahnhof Bernina Diavolezza, dann ca. 20 Min. Zug",
+              "rain": {
+                "title": "Fahrt trotzdem machen",
+                "text": "Die Bahnfahrt lohnt sich auch bei Wolken; bei Schnee oder Sturm kann es Verspätungen geben, also den Anschluss am Nachmittag im Auge behalten."
+              }
+            },
+            {
+              "time": "11:30",
+              "placeId": "en-alp-gruem",
+              "title": "Pizzoccheri mit Gletscherblick",
+              "text": "Zmittag im Albergo an der Station, mit Blick auf den Palügletscher und hinunter ins Puschlav.",
+              "travel": "direkt beim Bahnhof Alp Grüm"
+            },
+            {
+              "time": "14:45",
+              "placeId": "en-gletscherweg-morteratsch",
+              "title": "Gletscherweg Morteratsch",
+              "text": "In rund 50 Minuten zur Gletscherzunge und zurück; die Tafeln am Weg zeigen, wie weit das Eis früher reichte.",
+              "travel": "30 Min. Zug von Alp Grüm bis Morteratsch",
+              "rain": {
+                "placeId": "en-mineralbad-samedan",
+                "title": "Mineralbad statt Gletscher",
+                "text": "Bei Regen fährst du weiter nach Samedan (gut 20 Min. über Pontresina) und wärmst dich im Mineralbad auf, samstags bis 20.30 Uhr offen."
+              }
+            },
+            {
+              "time": "18:00",
+              "placeId": "en-restaurant-morteratsch",
+              "title": "Znacht am Bahnhof Morteratsch",
+              "text": "Ab 18 Uhr gibt es wieder warme Küche; danach mit der Bahn in 11 Minuten zurück nach Pontresina.",
+              "travel": "am Ende des Gletscherwegs, direkt bei der Station"
+            }
+          ]
+        },
+        {
+          "title": "Tag 3 (Sonntag) – Silsersee, Fextal und Muottas Muragl",
+          "slots": [
+            {
+              "time": "09:30",
+              "placeId": "en-halbinsel-chaste",
+              "title": "Runde über die Halbinsel Chastè",
+              "text": "Gut eine Stunde auf dem Rundweg über die bewaldete Halbinsel, vorbei am Nietzsche-Felsen und an stillen Buchten.",
+              "travel": "ca. 35–50 Min. mit Bahn und Bus via St. Moritz bis Sils Maria, Posta",
+              "rain": {
+                "title": "Runde kürzen",
+                "text": "Bei Regen nur bis zum Ufer bei Sils Baselgia gehen und früher Richtung Fextal aufbrechen – dort sitzt du am Mittag ohnehin drinnen."
+              }
+            },
+            {
+              "time": "12:00",
+              "placeId": "en-hotel-fex-restaurant",
+              "title": "Zmittag im Fextal",
+              "text": "Zu Fuss ins autofreie Fextal wandern und im Hotel Fex einkehren; wer müde Beine hat, nimmt die Pferdekutsche ab Sils Maria.",
+              "travel": "ca. 1 Std. zu Fuss ab Sils Maria"
+            },
+            {
+              "time": "16:00",
+              "placeId": "en-muottas-muragl",
+              "title": "Abendlicht auf Muottas Muragl",
+              "text": "Mit der Standseilbahn hinauf, eine Runde auf dem Philosophenweg und vom Plateau über alle Oberengadiner Seen schauen, bevor es nach Hause geht.",
+              "travel": "ca. 1 Std. zu Fuss zurück nach Sils Maria, dann ca. 40 Min. mit Bus und Bahn bis Punt Muragl",
+              "rain": {
+                "placeId": "en-nietzsche-haus",
+                "title": "Nietzsche-Haus statt Aussicht",
+                "text": "Bei Regen bleibst du in Sils und besuchst das Nietzsche-Haus (sonntags 15–18 Uhr); danach mit Bus und Bahn direkt zur Heimreise."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "engadin-winter-schlitteln-langlauf",
+      "title": "Engadin im Winter: Schlitteln, Langlauf und Gletscherblick",
+      "teaser": "Ein Winterwochenende mit Schlittenfahrt von Muottas Muragl, warmem Mineralwasser, Fondue in einer Gondel und einer ersten Langlaufstunde.",
+      "region": "engadin",
+      "days": 2,
+      "moods": [
+        "aktiv",
+        "genuss",
+        "erholung",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "familie"
+      ],
+      "season": "Ende Dezember bis Mitte März (schneeabhängig); Samstag und Sonntag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 185
+        },
+        {
+          "from": "Bern",
+          "minutes": 250
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 245
+        }
+      ],
+      "hotelIds": [
+        "en-jugendherberge-pontresina",
+        "en-hotel-steinbock-pontresina",
+        "en-romantik-hotel-muottas-muragl"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Samstag) – St. Moritz, Schlittelbahn und Mineralbad",
+          "slots": [
+            {
+              "time": "11:30",
+              "placeId": "en-hanselmann",
+              "title": "Zmittag bei Hanselmann",
+              "text": "Aufwärmen im Kaffeehaus, eine Suppe oder ein Stück Nusstorte.",
+              "travel": "ca. 10–15 Min. zu Fuss vom Bahnhof St. Moritz hinauf ins Dorf"
+            },
+            {
+              "time": "12:45",
+              "placeId": "en-segantini-museum",
+              "title": "Segantini Museum",
+              "text": "Eine knappe Stunde vor Segantinis Alpentriptychon, bevor es hinaus in den Schnee geht.",
+              "travel": "ca. 15 Min. zu Fuss oder 6 Min. Bus bis «Segantini Museum»"
+            },
+            {
+              "time": "14:15",
+              "placeId": "en-muottas-muragl",
+              "title": "Schlitteln ab Muottas Muragl",
+              "text": "Schlitten an der Talstation mieten, mit der Standseilbahn hoch und auf der 4,2 Kilometer langen Bahn mit 20 Kurven zurück nach Punt Muragl – bis 16 Uhr reicht es für zwei Abfahrten.",
+              "travel": "ca. 15–25 Min. mit Bahn oder Bus von St. Moritz bis Punt Muragl",
+              "rain": {
+                "placeId": "en-museum-engiadinais",
+                "title": "Museum Engiadinais statt Schlitteln",
+                "text": "Ist die Schlittelbahn wegen Schneemangels oder Sturm zu, bleibst du in St. Moritz Bad und gehst ins Museum Engiadinais (samstags bis 17 Uhr)."
+              }
+            },
+            {
+              "time": "16:30",
+              "placeId": "en-mineralbad-samedan",
+              "title": "Aufwärmen im Mineralbad",
+              "text": "Kalte Hände ins warme Wasser: zwei Stunden Baderitual im Dorfkern von Samedan.",
+              "travel": "ca. 5 Min. mit Bahn oder Bus von Punt Muragl nach Samedan, dann 5 Min. zu Fuss"
+            },
+            {
+              "time": "19:30",
+              "placeId": "en-gondolezza",
+              "title": "Fondue in der Gondel",
+              "text": "Gletscher-Fondue in der alten Diavolezza-Kabine in Pontresina – reservieren.",
+              "travel": "7 Min. Zug von Samedan nach Pontresina, dann ca. 10 Min. zu Fuss"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Sonntag) – Langlauf, Diavolezza und Morteratsch",
+          "slots": [
+            {
+              "time": "09:00",
+              "placeId": "en-langlaufzentrum-cuntschett",
+              "title": "Erste Langlaufstunde",
+              "text": "Material im Nordic-Shop mieten und eine reservierte Gruppen- oder Privatstunde auf dem Übungsgelände nehmen.",
+              "travel": "ca. 5 Min. zu Fuss vom Bahnhof Pontresina",
+              "rain": {
+                "title": "Später starten",
+                "text": "Bei Schneesturm oder Regen die Stunde verschieben und den Morgen im Hotel geniessen – die Loipen sind bei besserem Wetter ab 17 Uhr auch beleuchtet."
+              }
+            },
+            {
+              "time": "11:45",
+              "placeId": "en-diavolezza",
+              "title": "Diavolezza im Winter",
+              "text": "Mit der Luftseilbahn auf knapp 3000 Meter und das verschneite Berninamassiv vor dir.",
+              "travel": "20 Min. Regionalzug Pontresina–Bernina Diavolezza",
+              "rain": {
+                "title": "Bei Nebel unten bleiben",
+                "text": "Bei dichtem Nebel lohnt die Fahrt nicht – geh dann zurück nach Pontresina und nimm dir Zeit für ein langes Mittagessen im Dorf."
+              }
+            },
+            {
+              "time": "12:30",
+              "placeId": "en-berghaus-diavolezza",
+              "title": "Zmittag im Berghaus",
+              "text": "Warmes Mittagessen an der Bergstation mit Blick auf Piz Palü – warme Küche bis 15.30 Uhr.",
+              "travel": "direkt an der Bergstation"
+            },
+            {
+              "time": "15:00",
+              "placeId": "en-restaurant-morteratsch",
+              "title": "Kaffee in Morteratsch",
+              "text": "Zum Abschluss ein Kaffee mit Blick ins verschneite Val Morteratsch, dann ab dem Bahnhof nebenan nach Hause.",
+              "travel": "Gondel hinunter, dann ca. 10 Min. Zug bis Morteratsch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "davos-klosters-zauberberg-see-madrisa",
+      "title": "Davos Klosters: Zauberberg, Bergsee und Madrisa",
+      "teaser": "Zwei Sommertage zwischen Jugendstil-Sanatorium, Alpenpflanzen, Seerunde, Gipfelwanderung und einem Nachmittag hoch über Klosters.",
+      "region": "davos",
+      "days": 2,
+      "moods": [
+        "natur",
+        "kultur",
+        "genuss",
+        "familie"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "familie"
+      ],
+      "season": "Mitte Juni bis Mitte Oktober; Samstag und Sonntag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 140
+        },
+        {
+          "from": "Bern",
+          "minutes": 205
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 200
+        }
+      ],
+      "hotelIds": [
+        "dv-youthpalace",
+        "dv-waldhotel-davos",
+        "dv-hotel-schatzalp"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Samstag) – Schatzalp und Davosersee",
+          "slots": [
+            {
+              "time": "10:45",
+              "placeId": "dv-schatzalp-alpinum",
+              "title": "Hinauf zur Schatzalp",
+              "text": "Mit der Standseilbahn zum Jugendstil-Hotel und eine Stunde durch den Botanischen Garten Alpinum.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof Davos Platz zur Talstation, dann 4 Min. Bahn",
+              "rain": {
+                "placeId": "dv-kirchner-museum",
+                "title": "Kirchner Museum statt Alpinum",
+                "text": "Bei Regen bleibst du unten an der Promenade und schaust dir im Kirchner Museum die Davoser Bilder von Ernst Ludwig Kirchner an (ab 10 Uhr)."
+              }
+            },
+            {
+              "time": "12:30",
+              "placeId": "dv-strela-alp",
+              "title": "Zmittag auf der Strela Alp",
+              "text": "Kurzer Aufstieg zur Bergbeiz und Mittagessen auf der Terrasse über Davos.",
+              "travel": "ca. 15–20 Min. zu Fuss bergauf ab der Schatzalp"
+            },
+            {
+              "time": "15:00",
+              "placeId": "dv-davosersee",
+              "title": "Runde um den Davosersee",
+              "text": "Gut eine Stunde auf dem flachen Uferweg, im Sommer mit Abstecher ins Strandbad.",
+              "travel": "zu Fuss zurück zur Schatzalp und mit der Bahn ins Tal, dann ca. 10 Min. Bus oder Zug bis Davos Dorf",
+              "rain": {
+                "placeId": "dv-eau-la-la",
+                "title": "eau-là-là statt Seerunde",
+                "text": "Bei Regen gehst du ins Erlebnisbad an der Promenade, samstags bis 21 Uhr offen."
+              }
+            },
+            {
+              "time": "19:00",
+              "placeId": "dv-gentiana",
+              "title": "Fondue im Gentiana",
+              "text": "Käsefondue oder das «Menu Gentiana» im Art-déco-Lokal an der Promenade.",
+              "travel": "ca. 10 Min. mit Bus oder Zug zurück nach Davos Platz"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Sonntag) – Jakobshorn und Klosters",
+          "slots": [
+            {
+              "time": "09:00",
+              "placeId": "dv-jakobshorn",
+              "title": "Jakobshorn und Stadlersee",
+              "text": "Mit der Bahn auf 2590 Meter und dann gut zwei Stunden über die Jatzhütte und den Stadlersee hinunter zur Ischalp, von dort mit der Bahn ins Tal.",
+              "travel": "Talstation wenige Minuten zu Fuss vom Bahnhof Davos Platz",
+              "rain": {
+                "placeId": "dv-schneiders",
+                "title": "Ausgiebiger Zmorge statt Gipfel",
+                "text": "Bei Nebel oder Regen bleibst du im Tal und frühstückst in Ruhe bei Schneider's an der Promenade."
+              }
+            },
+            {
+              "time": "12:45",
+              "placeId": "dv-chesa-grischuna",
+              "title": "Zmittag in der Chesa Grischuna",
+              "text": "Mittagessen im historischen Holzhotel mitten in Klosters, bei Sonne auf der Terrasse.",
+              "travel": "26 Min. Zug von Davos Platz nach Klosters Platz, dann ca. 3 Min. zu Fuss"
+            },
+            {
+              "time": "14:30",
+              "placeId": "dv-madrisa",
+              "title": "Nachmittag auf der Madrisa",
+              "text": "Mit der Gondel zur Saaser Alp, mit Kindern ins Madrisa-Land, ohne Kinder auf einen Spaziergang mit Blick zum Rätikon; danach ab Klosters Dorf in knapp zwei Stunden zurück nach Zürich.",
+              "travel": "3 Min. Zug oder 6 Min. Bus von Klosters Platz bis Klosters Dorf",
+              "rain": {
+                "title": "Früher heimfahren",
+                "text": "Bei Regen lohnt die Gondel nicht – nimm dann einen früheren Zug ab Klosters und hänge lieber eine Stunde in der Chesa an."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

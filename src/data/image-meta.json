@@ -1246,5 +1246,57 @@
  "p/la-cgn-schiff": [
   1200,
   800
+ ],
+ "p/lo-hotel-eden-roc": [
+  1200,
+  1035
+ ],
+ "p/lo-piazza-grande": [
+  1200,
+  800
+ ],
+ "p/lo-madonna-del-sasso": [
+  1200,
+  784
+ ],
+ "p/lo-cardada-cimetta": [
+  1200,
+  675
+ ],
+ "p/lo-ponte-dei-salti": [
+  1200,
+  800
+ ],
+ "p/lo-diga-verzasca": [
+  1200,
+  945
+ ],
+ "p/lo-isole-di-brissago": [
+  1200,
+  675
+ ],
+ "p/lo-ascona-lungolago": [
+  1200,
+  900
+ ],
+ "p/lo-centovalli-bahn": [
+  1200,
+  676
+ ],
+ "p/lo-lido-locarno": [
+  1200,
+  1050
+ ],
+ "p/lo-casa-rusca": [
+  1200,
+  797
+ ],
+ "p/lo-falconeria": [
+  1200,
+  1600
+ ],
+ "p/lo-monte-verita": [
+  1200,
+  802
  ]
 }

@@ -1,0 +1,2221 @@
+{
+  "regions": [
+    {
+      "slug": "engelberg",
+      "name": "Engelberg & Titlis",
+      "station": "Engelberg",
+      "center": {
+        "lat": 46.8195,
+        "lng": 8.4025
+      }
+    },
+    {
+      "slug": "einsiedeln",
+      "name": "Einsiedeln & Sihlsee",
+      "station": "Einsiedeln",
+      "center": {
+        "lat": 47.1268,
+        "lng": 8.7523
+      }
+    },
+    {
+      "slug": "stoos",
+      "name": "Stoos & Fronalpstock",
+      "station": "Schwyz",
+      "center": {
+        "lat": 46.9774,
+        "lng": 8.6666
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "eb-ski-lodge-engelberg",
+      "kind": "hotel",
+      "name": "Ski Lodge Engelberg",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Erlenweg 36, 6390 Engelberg",
+      "coords": {
+        "lat": 46.81904,
+        "lng": 8.40226
+      },
+      "url": "https://www.skilodgeengelberg.com",
+      "price": 2,
+      "tags": [
+        "freunde",
+        "aktiv",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; im Herbst kurze Betriebspause vor dem Winter (2026 Wiedereröffnung am 20. November)",
+      "text": "Kleines Hotel mit skandinavischem Einschlag, ein paar Minuten zu Fuss vom Bahnhof und von der Titlis-Talstation. Im Haus sind die Brasserie Konrad und eine Bar, in der sich abends Skifahrer, Freerider und Wanderer mischen.",
+      "tip": "Die Brasserie Konrad ist im Herbst länger zu (2026 bis 26. November) als das Hotel – wer in dieser Zeit kommt, plant das Znacht im Dorf.",
+      "source": "https://skilodgeengelberg.com/brasserie-konrad-2/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-berghotel-truebsee",
+      "kind": "hotel",
+      "name": "Berghotel Trübsee",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Trübsee, 6390 Engelberg (Bergstation TITLIS Xpress)",
+      "coords": {
+        "lat": 46.79389,
+        "lng": 8.39902
+      },
+      "url": "https://www.titlis.ch/de/unterkuenfte/berghotel-truebsee",
+      "price": 2,
+      "tags": [
+        "berg",
+        "see",
+        "romantisch",
+        "familie",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "Sommer nur Samstagnächte (2026: 20. Juni bis 25. Oktober); Winter täglich (18. Dezember 2026 bis 5. April 2027)",
+      "hours": "Check-in 14–17 Uhr, letzte Bergfahrt ab Engelberg 16.30 Uhr; Abendessen 18.30–20 Uhr",
+      "text": "Berghotel mit 34 Zimmern auf 1800 Metern direkt neben der Gondelstation am Trübsee – erreichbar nur mit der Bahn. Wenn die letzten Tagesgäste weg sind, wird es am See auffallend still; abends gibt es ein Dreigangmenü.",
+      "tip": "Dein Gepäck kannst du an der Talstation abgeben, es wird gratis hochgebracht. Käsefondue servieren sie auf Vorbestellung.",
+      "source": "https://www.titlis.ch/de/unterkuenfte/berghotel-truebsee",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-josephs-restaurant",
+      "kind": "restaurant",
+      "name": "Joseph's Restaurant im TITLIS Tower",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "TITLIS Tower, Gipfelstation Titlis, 6390 Engelberg",
+      "coords": {
+        "lat": 46.77069,
+        "lng": 8.42292
+      },
+      "url": "https://www.titlis.ch/de/restaurants/joseph-s-restaurant",
+      "price": 3,
+      "tags": [
+        "aussicht",
+        "berg",
+        "genuss",
+        "romantisch",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig (seit Juni 2026)",
+      "hours": "täglich 9.30–16.30 Uhr",
+      "text": "Das neue Restaurant im ehemaligen Sendeturm auf 3020 Metern setzt auf gehobene, aber unkomplizierte Küche. Weil die alte Gipfelstation bis 2029 umgebaut wird, ist es derzeit die erste Adresse für ein richtiges Essen oben auf dem Titlis.",
+      "tip": "Ab einer Konsumation von CHF 100 pro Person ist der Zugang zum Horizon Deck inklusive – rechne das gegen das separate Deck-Ticket auf. Tisch vorher reservieren.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:30",
+              "16:30"
+            ]
+          ],
+          "1": [
+            [
+              "09:30",
+              "16:30"
+            ]
+          ],
+          "2": [
+            [
+              "09:30",
+              "16:30"
+            ]
+          ],
+          "3": [
+            [
+              "09:30",
+              "16:30"
+            ]
+          ],
+          "4": [
+            [
+              "09:30",
+              "16:30"
+            ]
+          ],
+          "5": [
+            [
+              "09:30",
+              "16:30"
+            ]
+          ],
+          "6": [
+            [
+              "09:30",
+              "16:30"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.titlis.ch/de/restaurants/joseph-s-restaurant",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-atelier-hess",
+      "kind": "restaurant",
+      "name": "Atelier Hess",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Berghotel Trübsee, 6390 Engelberg",
+      "coords": {
+        "lat": 46.79389,
+        "lng": 8.39902
+      },
+      "url": "https://www.titlis.ch/de/restaurants/atelier-hess",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "berg",
+        "see",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "Herbst 2026 nur Fr–So (18. September bis 1. November); Betriebsferien 2. November bis 2. Dezember 2026; ab 3. Dezember täglich",
+      "hours": "Herbst Fr–So 11–17 Uhr; Wintersaison täglich",
+      "text": "À-la-carte-Restaurant im Berghotel Trübsee, benannt nach dem Engelberger Tourismuspionier Eugen Hess. Die Küche interpretiert Alpines neu, im Herbst mit Wildkarte; draussen gibt es eine grosse Terrasse über dem See.",
+      "tip": "Die Sommerzeiten stehen nicht online – wenn du im Juli oder August hier essen willst, vorher unter 041 639 50 92 nachfragen.",
+      "source": "https://www.titlis.ch/de/restaurants/atelier-hess",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-brunnihuette",
+      "kind": "restaurant",
+      "name": "Brunnihütte SAC",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Brunnihütte, 6390 Engelberg",
+      "coords": {
+        "lat": 46.8409,
+        "lng": 8.41054
+      },
+      "url": "https://brunni.ch/de/Detail/brunnihutte",
+      "price": 2,
+      "tags": [
+        "berg",
+        "aussicht",
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig mit dem Sessellift erreichbar; geschlossen während der Bahnrevisionen (u. a. 23. November bis 4. Dezember 2026)",
+      "hours": "Winter täglich 9–16 Uhr; im November nur Mi–So",
+      "text": "SAC-Hütte auf 1860 Metern gleich bei der Bergstation des Brunni-Sessellifts, mit warmer Küche, Kuchen und grosser Sonnenterrasse gegenüber dem Titlis. Man kann hier auch übernachten, mit Abendessen.",
+      "tip": "Die Hütte ist auch im Winter offen, aber im November nur Mittwoch bis Sonntag – und während der Bahnrevision gar nicht erreichbar.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/00_3420_Brunnih%C3%BCtte_-_Bergh%C3%BCtte_des_Schweizer_Alpen-Club_%28SAC%29.jpg/1280px-00_3420_Brunnih%C3%BCtte_-_Bergh%C3%BCtte_des_Schweizer_Alpen-Club_%28SAC%29.jpg",
+        "alt": "Brunnihütte des SAC auf der Alp Brunni über Engelberg",
+        "credit": "https://commons.wikimedia.org/wiki/File:00_3420_Brunnih%C3%BCtte_-_Bergh%C3%BCtte_des_Schweizer_Alpen-Club_(SAC).jpg"
+      },
+      "source": "https://brunni.ch/de/Detail/brunnihutte",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-chaes-im-kloster",
+      "kind": "cafe",
+      "name": "Chäs im Kloster",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Klosterhof 1, 6390 Engelberg",
+      "coords": {
+        "lat": 46.82021,
+        "lng": 8.41033
+      },
+      "url": "https://chaes-im-kloster.ch",
+      "price": 1,
+      "tags": [
+        "genuss",
+        "kultur",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Fr 9–18, Sa/So und Feiertage 9–17 Uhr",
+      "text": "In der ehemaligen Schaukäserei des Klosters führt die Molki Stans heute einen Käseladen mit Bistro. Du bekommst Käse und Bauernprodukte aus dem Tal, dazu Suppe, Flammkuchen oder ein Apéroplättli.",
+      "tip": "An einzelnen Daten gibt es zweistündige Käsekurse in der Mitmach-Chäsi (CHF 69, zwei Laibe zum Mitnehmen) – frühzeitig buchen.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://chaes-im-kloster.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-alpenclub",
+      "kind": "restaurant",
+      "name": "Restaurant Alpenclub",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Dorfstrasse 5, 6390 Engelberg",
+      "coords": {
+        "lat": 46.82117,
+        "lng": 8.40721
+      },
+      "url": "https://www.alpenclub.ch/gastronomie/restaurant-alpenclub",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo/Di Ruhetag; Mi–Fr ab 17.30, Sa/So ab 12 Uhr durchgehend, Küche bis mindestens 21 Uhr",
+      "text": "Altes Holzhaus an der Dorfstrasse mit Restaurant und Sonnenterrasse, nur ein paar Schritte vom Kloster. Auf der Karte stehen Pizza ebenso wie Rindsfilet vom heissen Stein.",
+      "tip": "Am Wochenende ist die Küche ab Mittag durchgehend offen – praktisch, wenn du spät vom Berg kommst.",
+      "source": "https://www.alpenclub.ch/gastronomie/restaurant-alpenclub",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-gasthaus-gerschnialp",
+      "kind": "restaurant",
+      "name": "Gasthaus Gerschnialp – Café Ritz",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Gerschnialp, 6390 Engelberg",
+      "coords": {
+        "lat": 46.81088,
+        "lng": 8.39265
+      },
+      "url": "https://www.titlis.ch/de/restaurants/gasthaus-gerschnialp-cafe-ritz",
+      "price": 2,
+      "tags": [
+        "berg",
+        "familie",
+        "genuss",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "Betriebsferien im November (2026: 8. November bis 5. Dezember)",
+      "text": "Familiengeführtes Berggasthaus in dritter Generation auf der Gerschnialp. Gekocht wird währschaft und saisonal, im Herbst mit Wild; vor dem Haus gibt es eine Terrasse mit Bergpanorama und einen Spielplatz.",
+      "tip": "Statt mit der Standseilbahn kannst du in rund 40 Minuten ab Engelberg hinaufwandern – oder nach dem Essen zu Fuss ins Dorf zurück.",
+      "source": "https://www.titlis.ch/de/restaurants/gasthaus-gerschnialp-cafe-ritz",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-titlis",
+      "kind": "aussicht",
+      "name": "Titlis mit Cliff Walk, Gletschergrotte und Horizon Deck",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Talstation TITLIS Bergbahnen, Gerschnistrasse, 6390 Engelberg",
+      "coords": {
+        "lat": 46.77069,
+        "lng": 8.42292
+      },
+      "url": "https://www.titlis.ch",
+      "price": 3,
+      "tags": [
+        "berg",
+        "aussicht",
+        "aktiv",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; TITLIS Rotair vom 17. August bis 11. Dezember 2026 in Revision (Ersatz: TITLIS Connect); Gipfelstation bis 2029 im Umbau",
+      "hours": "Bahnen täglich 8.30–17 Uhr; letzte Bergfahrt zum Titlis 15.30 Uhr",
+      "durationMin": 180,
+      "text": "Mit der Gondelbahn TITLIS Xpress fährst du über Trübsee nach Stand und von dort mit der drehenden Rotair (bis 11.12.2026 ersatzweise mit TITLIS Connect) auf gut 3000 Meter, insgesamt rund 30 Minuten. Oben gehst du über die Hängebrücke Cliff Walk, durch die Gletschergrotte und – mit Zusatzticket – auf das Horizon Deck des TITLIS Tower.",
+      "tip": "Weil die alte Gipfelstation bis 2029 umgebaut wird, sind Shops und die meisten Restaurants vorübergehend auf Trübsee umgezogen. Schau morgens die Gipfel-Webcam an: Bei dichtem Nebel lohnt sich die Fahrt kaum.",
+      "priceInfo": {
+        "from": 102,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Engelberg–Titlis online; am Schalter CHF 5 Gebühr; Halbtax, GA und Kinder 6–15 50 %, Kinder bis 5 gratis; Cliff Walk und Gletschergrotte inklusive, Horizon Deck CHF 19 extra"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Titlis_Cliff_Walk.jpg/1280px-Titlis_Cliff_Walk.jpg",
+        "alt": "Hängebrücke Cliff Walk am Titlis über dem Abgrund",
+        "credit": "https://commons.wikimedia.org/wiki/File:Titlis_Cliff_Walk.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.titlis.ch/de/informationen/preise",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-gletscherpark",
+      "kind": "aktivitaet",
+      "name": "Ice Flyer und Gletscherpark",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Titlis, 6390 Engelberg",
+      "coords": {
+        "lat": 46.77655,
+        "lng": 8.4272
+      },
+      "url": "https://www.titlis.ch/de/informationen/fahrplan",
+      "price": 2,
+      "tags": [
+        "berg",
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "Ice Flyer ganzjährig; Gletscherpark nur im Sommer",
+      "hours": "Ice Flyer 9.30–16 Uhr; Gletscherpark (Sommer) bis 15.30 Uhr",
+      "durationMin": 75,
+      "text": "Der Sessellift Ice Flyer schwebt vom Titlis über die Gletscherspalten hinunter zum Gletscherpark. Dort rutschst du im Sommer mit Snowtubes und Schlitten über den Schnee – das Material ist gratis.",
+      "tip": "Der Gletscherpark ist nur über den Ice Flyer erreichbar; Halbtax und GA gelten auf diesem Lift nicht.",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Kinder 6–15 CHF 6; keine Halbtax-Ermässigung; Gletscherpark selbst gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/00_0497_Bergbahnen_Engelberg-Tr%C3%BCbsee-Titlis_-_Gletscher-Sessellift_Ice_Flyer.jpg/1280px-00_0497_Bergbahnen_Engelberg-Tr%C3%BCbsee-Titlis_-_Gletscher-Sessellift_Ice_Flyer.jpg",
+        "alt": "Bergstation des Sessellifts Ice Flyer auf dem Titlis-Gletscher",
+        "credit": "https://commons.wikimedia.org/wiki/File:00_0497_Bergbahnen_Engelberg-Tr%C3%BCbsee-Titlis_-_Gletscher-Sessellift_Ice_Flyer.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:30",
+              "16:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:30",
+              "16:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:30",
+              "16:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:30",
+              "16:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:30",
+              "16:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:30",
+              "16:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:30",
+              "16:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.titlis.ch/de/informationen/preise",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-truebsee",
+      "kind": "aussicht",
+      "name": "Trübsee",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Trübsee, 6390 Engelberg (Mittelstation TITLIS Xpress)",
+      "coords": {
+        "lat": 46.79389,
+        "lng": 8.39902
+      },
+      "url": "https://www.titlis.ch",
+      "price": 1,
+      "tags": [
+        "see",
+        "berg",
+        "familie",
+        "aussicht",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; Bootsverleih, Zipline und Spielangebote nur im Sommer",
+      "hours": "Gondelbahn 8.30–17 Uhr, letzte Bergfahrt ab Engelberg 16.30 Uhr",
+      "durationMin": 120,
+      "text": "Bergsee auf 1800 Metern unter der Titlis-Nordwand, erste Station der Gondelbahn TITLIS Xpress. Im Sommer spazierst du am Ufer entlang, ruderst gratis über den See oder sausest an der Zipline drüber; Kinder suchen auf Schmugglis Schatzsuche nach Hinweisen.",
+      "tip": "Ruderboote, BagJump und Schmugglis Schatzsuche kosten nichts – nur die Zipline und der Sbrinz-Weg sind kostenpflichtig.",
+      "priceInfo": {
+        "from": 38,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Engelberg–Trübsee online; Halbtax, GA und Kinder 6–15 50 %; Zipline CHF 16"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Engelberg-Tr%C3%BCbsee_06.jpg/1280px-Engelberg-Tr%C3%BCbsee_06.jpg",
+        "alt": "Trübsee mit umliegenden Bergen oberhalb von Engelberg",
+        "credit": "https://commons.wikimedia.org/wiki/File:Engelberg-Tr%C3%BCbsee_06.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "08:30",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.titlis.ch/de/informationen/preise",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-gerschnialp",
+      "kind": "aussicht",
+      "name": "Gerschnialp",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Talstation Standseilbahn Gerschnialp, 6390 Engelberg",
+      "coords": {
+        "lat": 46.81268,
+        "lng": 8.39248
+      },
+      "url": "https://www.titlis.ch/de/informationen/fahrplan",
+      "price": 1,
+      "tags": [
+        "berg",
+        "familie",
+        "aussicht",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig ausser November (2026: Revision 2.–13. November, danach Betriebsferien bis 4. Dezember)",
+      "hours": "Standseilbahn 8.30–17.30 Uhr, letzte Bergfahrt 17.10 Uhr",
+      "durationMin": 90,
+      "text": "Sonnige Alp über dem Dorf, in fünf Minuten mit der Standseilbahn ab der Titlis-Talstation erreichbar. Oben spazierst du über die Weiden und schaust auf Engelberg hinunter; mit dem Gasthaus und einem Spielplatz ist sie ein guter Halbtagesausflug.",
+      "tip": "Nimm die Bahn hinauf und geh zu Fuss zurück ins Dorf – das dauert rund 40 Minuten und spart die Talfahrt.",
+      "priceInfo": {
+        "from": 14,
+        "unit": "Retourbillett Erwachsene",
+        "note": "einfach CHF 10; Halbtax, GA und Kinder 6–15 50 %"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/00_0583_Engelbergtal_-_Gerschnialp.jpg/1280px-00_0583_Engelbergtal_-_Gerschnialp.jpg",
+        "alt": "Weiden der Gerschnialp oberhalb von Engelberg",
+        "credit": "https://commons.wikimedia.org/wiki/File:00_0583_Engelbergtal_-_Gerschnialp.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "1": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "2": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "3": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "4": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "5": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "6": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "source": "https://www.titlis.ch/de/informationen/fahrplan",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-brunni-haerzlisee",
+      "kind": "aktivitaet",
+      "name": "Brunni mit Härzlisee und Kitzelpfad",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Talstation Brunni-Bahnen, Wydenstrasse 55, 6390 Engelberg",
+      "coords": {
+        "lat": 46.81882,
+        "lng": 8.41529
+      },
+      "url": "https://brunni.ch",
+      "price": 1,
+      "tags": [
+        "familie",
+        "berg",
+        "see",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "Sommer Mai bis Mitte November; Revision Ende November/Anfang Dezember und April",
+      "hours": "Luftseilbahn ab 8 Uhr alle 20 Min. bis 17 Uhr (Juli/August bis 18 Uhr); Sessellift 8.30–16.30 Uhr",
+      "durationMin": 150,
+      "text": "Auf der Sonnenseite des Tals fährst du mit der Luftseilbahn nach Ristis und mit dem Sessellift weiter zur Brunnihütte. Gleich daneben liegt der kleine Härzlisee mit einem 220 Meter langen Barfussweg rundherum, inklusive Warmwasserbecken für die Füsse und Feuerstellen.",
+      "tip": "Von Mai bis November fahren Kinder unter 16 in Begleitung eines Erwachsenen gratis – das macht Brunni zum günstigsten Familienberg im Tal.",
+      "priceInfo": {
+        "from": 48,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Engelberg–Brunnihütte (Luftseilbahn + Sessellift); mit Halbtax CHF 33, mit GA CHF 15; Kinder unter 16 Mai–Nov. in Begleitung gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Haerzlisee_Engelberg.jpg/1280px-Haerzlisee_Engelberg.jpg",
+        "alt": "Der Härzlisee auf der Alp Brunni bei Engelberg",
+        "credit": "https://commons.wikimedia.org/wiki/File:Haerzlisee_Engelberg.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "08:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "08:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "08:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "08:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "08:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "source": "https://brunni.ch/de/Detail/preise-einzel-und-retourfahrten",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-klettersteig-brunnistoeckli",
+      "kind": "aktivitaet",
+      "name": "Klettersteig Brunnistöckli",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Start bei der Bergstation Sessellift Brunni, 6390 Engelberg",
+      "coords": null,
+      "url": "https://brunni.ch/de/Detail/klettersteige",
+      "price": 2,
+      "tags": [
+        "aktiv",
+        "berg",
+        "familie",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "Sommer, nur bei trockenem und schneefreiem Fels",
+      "durationMin": 90,
+      "text": "Der leichteste der vier Brunni-Klettersteige (Schwierigkeit K2) führt in rund einer Stunde ab der Sessellift-Bergstation aufs Brunnistöckli, zurück sind es etwa 20 Minuten. Er eignet sich als Einstieg und für Kinder ab acht Jahren.",
+      "tip": "Klettersteigset mit Helm und Gurt kannst du für CHF 25 mieten und beim Härzlisee in der Kräuterhütte abholen; Kinder unter 40 kg brauchen zusätzlich ein Seil.",
+      "priceInfo": {
+        "from": 25,
+        "unit": "Miete Klettersteigset",
+        "note": "inkl. Helm und Gurt; Bergbahnticket separat"
+      },
+      "source": "https://brunni.ch/de/Detail/klettersteige",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-kloster-engelberg",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kloster Engelberg mit Klosterführung",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Benediktinerkloster 1, 6390 Engelberg",
+      "coords": {
+        "lat": 46.82021,
+        "lng": 8.41033
+      },
+      "url": "https://kloster-engelberg.ch/erleben/besuchen-entdecken/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Öffentliche Führung Di, Do und Sa um 16 Uhr (nicht an Feiertagen), Einlass ab 15.45 Uhr an der Klosterpforte",
+      "durationMin": 60,
+      "text": "Das Benediktinerkloster prägt das Dorf seit über 900 Jahren. Auf der einstündigen Führung siehst du den Barocksaal, das Gästerefektorium, die Klosterkirche mit der grössten Orgel der Schweiz und alte Handschriften aus der Zeit des Doppelklosters.",
+      "tip": "Pro Führung sind maximal 24 Personen zugelassen – online im Voraus buchen, besonders an Samstagen.",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "Führung; Studierende/Lernende CHF 8, Kinder 12–16 CHF 6, unter 12 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Kloster_Engelberg_vor_Bergpanorama_%282014%29.jpg/1280px-Kloster_Engelberg_vor_Bergpanorama_%282014%29.jpg",
+        "alt": "Kloster Engelberg vor dem Bergpanorama",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kloster_Engelberg_vor_Bergpanorama_(2014).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [
+            [
+              "16:00",
+              "17:00"
+            ]
+          ],
+          "3": [],
+          "4": [
+            [
+              "16:00",
+              "17:00"
+            ]
+          ],
+          "5": [],
+          "6": [
+            [
+              "16:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://kloster-engelberg.ch/erleben/besuchen-entdecken/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eb-talmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Tal Museum Engelberg",
+      "region": "engelberg",
+      "town": "Engelberg",
+      "address": "Dorfstrasse 6, 6390 Engelberg",
+      "coords": {
+        "lat": 46.82143,
+        "lng": 8.40754
+      },
+      "url": "https://www.talmuseum.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "Januar–April, Mitte Mai–Mitte Oktober und 26. Dezember bis erste Januarwoche; sonst auf Anfrage",
+      "hours": "Mi–So 14–17 Uhr (zwischen Weihnachten und Neujahr täglich)",
+      "durationMin": 60,
+      "text": "Das Museum im historischen Wappenhaus an der Dorfstrasse zeigt die Geschichte des Klostertals. Ein ruhiger Programmpunkt für einen grauen Nachmittag, nur ein paar Schritte vom Alpenclub entfernt.",
+      "tip": "Du kannst es gut mit dem Kloster verbinden – beides liegt nur wenige Gehminuten auseinander.",
+      "priceInfo": {
+        "from": 8,
+        "unit": "Eintritt Erwachsene",
+        "note": "mit Gästekarte CHF 6; Museumspass gilt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Engelberg_Talmuseum_Dorfstrasse_6.jpg/1280px-Engelberg_Talmuseum_Dorfstrasse_6.jpg",
+        "alt": "Das Wappenhaus an der Dorfstrasse in Engelberg, Sitz des Tal Museums",
+        "credit": "https://commons.wikimedia.org/wiki/File:Engelberg_Talmuseum_Dorfstrasse_6.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/tal-museum-engelberg-2003.html",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-hotel-drei-koenige",
+      "kind": "hotel",
+      "name": "Hotel Drei Könige",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Paracelsuspark 1, 8840 Einsiedeln",
+      "coords": {
+        "lat": 47.12804,
+        "lng": 8.75002
+      },
+      "url": "https://www.hotel-dreikoenige.ch",
+      "price": 2,
+      "tags": [
+        "kultur",
+        "wellness",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Hotel mit rund 50 Zimmern und Junior Suiten wenige Schritte vom Klosterplatz. Im Haus gibt es ein Restaurant mit bürgerlicher Küche und eine Saunalandschaft mit Blick über die Dächer.",
+      "tip": "Wenn du im Advent kommst: Der Weihnachtsmarkt auf dem Klosterplatz liegt praktisch vor der Tür, früh buchen.",
+      "source": "https://www.hotel-dreikoenige.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-restaurant-drei-koenige",
+      "kind": "restaurant",
+      "name": "Restaurant Drei Könige",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Paracelsuspark 1, 8840 Einsiedeln",
+      "coords": {
+        "lat": 47.12804,
+        "lng": 8.75002
+      },
+      "url": "https://www.hotel-dreikoenige.ch/de/essen/oeffnungszeiten_23",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; am 24. Dezember geschlossen",
+      "hours": "Mo–Sa 7–23.30 Uhr (Küche 11.30–21.30), So/Feiertage 7–21 Uhr (Küche 11.30–20)",
+      "text": "Hotelrestaurant beim Klosterplatz, das frisch und saisonal kocht – bürgerliche Gerichte, dazu eine ordentliche vegetarische Auswahl. Weil die Küche ohne Pause durchläuft, passt es auch für ein frühes Znacht vor der Heimfahrt.",
+      "tip": "Sonntags schliesst die Küche schon um 20 Uhr.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "07:00",
+              "21:00"
+            ]
+          ],
+          "1": [
+            [
+              "07:00",
+              "23:30"
+            ]
+          ],
+          "2": [
+            [
+              "07:00",
+              "23:30"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "23:30"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "23:30"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "23:30"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "23:30"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.hotel-dreikoenige.ch/de/essen/oeffnungszeiten_23",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-milchmanufaktur",
+      "kind": "restaurant",
+      "name": "Milchmanufaktur Einsiedeln",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Alpstrasse 6, 8840 Einsiedeln",
+      "coords": {
+        "lat": 47.13559,
+        "lng": 8.74686
+      },
+      "url": "https://milchmanufaktur.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 8–18 Uhr, Küche bis 17 Uhr",
+      "durationMin": 75,
+      "text": "Schaukäserei mit Restaurant und Laden, rund zehn Minuten zu Fuss vom Bahnhof. Von einer Besucherrampe schaust du direkt in die Produktion, im Restaurant kommen Einsiedler und Schwyzer Gerichte mit dem hauseigenen Käse auf den Tisch.",
+      "tip": "Gekäst wird am Vormittag – wenn du beim Käsen zuschauen willst, komm nicht erst am späten Nachmittag. Sonntags gibt es von 8 bis 11 Uhr ein Buurä-Zmorgä.",
+      "priceInfo": {
+        "from": 22,
+        "unit": "Menü",
+        "note": "Tagesmenü mit Salat oder Suppe; à la carte teurer"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "08:00",
+              "18:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://milchmanufaktur.ch/kulinarik/milchmanufaktur",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-tulipan",
+      "kind": "cafe",
+      "name": "Tulipan",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Hauptstrasse 89, 8840 Einsiedeln",
+      "coords": {
+        "lat": 47.12715,
+        "lng": 8.75002
+      },
+      "url": "https://www.myswitzerland.com/de-ch/erlebnisse/essen-trinken/restaurant/restaurant-tulipan/",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Restaurant, Café und Bäckerei am Klosterplatz, seit über 160 Jahren in Einsiedeln. Hier werden die Einsiedler Schafböcke und gefüllten Biber noch von Hand gemacht; im Restaurant wird mit viel Bio-Gemüse gekocht.",
+      "tip": "Öffnungszeiten vorher prüfen – sie waren online nicht sicher zu bestätigen.",
+      "source": "https://www.myswitzerland.com/en-us/experiences/food-wine/restaurant/restaurant-tulipan/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-kloster-einsiedeln",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kloster Einsiedeln mit Klosterführung",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Kloster 1, 8840 Einsiedeln (Führungen ab Tourist Office, Hauptstrasse 85)",
+      "coords": {
+        "lat": 47.12678,
+        "lng": 8.75234
+      },
+      "url": "https://www.kloster-einsiedeln.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest",
+        "gratis"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Klosterkirche frei zugänglich; Führung Mo–Sa 14 Uhr (ohne Feiertage); Salve Regina täglich um ca. 17 Uhr",
+      "durationMin": 105,
+      "text": "Die barocke Klosterkirche mit der Gnadenkapelle und der Schwarzen Madonna ist seit Jahrhunderten Ziel von Pilgern; die Kirche kannst du jederzeit frei besuchen. Die Führung des Tourist Office bringt dich zusätzlich in die Stiftsbibliothek, wo 2026 eine Ausstellung zu den Umbrüchen von 1526 läuft.",
+      "tip": "Bleib bis etwa 17 Uhr: Nach der Vesper ziehen die Mönche zur Gnadenkapelle und singen das mehrstimmige Salve Regina – das ist gratis und berührt auch Nichtgläubige.",
+      "priceInfo": {
+        "from": 20,
+        "unit": "Eintritt Erwachsene",
+        "note": "Führung (105 Min.); Kinder 6–16 CHF 10; Kirche gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kloster_Einsiedeln_IMG_8267_ShiftN.jpg/1280px-Kloster_Einsiedeln_IMG_8267_ShiftN.jpg",
+        "alt": "Barocke Fassade der Klosterkirche Einsiedeln",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kloster_Einsiedeln_IMG_8267_ShiftN.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "14:00",
+              "15:45"
+            ]
+          ],
+          "2": [
+            [
+              "14:00",
+              "15:45"
+            ]
+          ],
+          "3": [
+            [
+              "14:00",
+              "15:45"
+            ]
+          ],
+          "4": [
+            [
+              "14:00",
+              "15:45"
+            ]
+          ],
+          "5": [
+            [
+              "14:00",
+              "15:45"
+            ]
+          ],
+          "6": [
+            [
+              "14:00",
+              "15:45"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.kloster-einsiedeln.ch/information/besichtigungen-/-fuehrungen/klosterfuehrungen",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-panorama",
+      "kind": "sehenswuerdigkeit",
+      "name": "Panorama Einsiedeln – Kreuzigung Christi",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Benzigerstrasse 36, 8840 Einsiedeln",
+      "coords": {
+        "lat": 47.13162,
+        "lng": 8.74936
+      },
+      "url": "https://panorama-einsiedeln.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "Karfreitag bis Ende Oktober; während des Weihnachtsmarkts 11–16 Uhr",
+      "hours": "Mo–Fr 13–17, Sa/So und Feiertage 10–17 Uhr",
+      "durationMin": 40,
+      "text": "Ein Rundgemälde von 100 Metern Länge und 10 Metern Höhe zeigt Jerusalem am Tag der Kreuzigung, davor liegt eine plastische Landschaft, die nahtlos ins Bild übergeht. Das Gebäude ist nur mit Tageslicht beleuchtet, die Erklärung dauert rund zehn Minuten.",
+      "tip": "Geh an einem hellen Tag hin – weil es kein Kunstlicht gibt, wirkt das Bild bei Sonne viel plastischer.",
+      "priceInfo": {
+        "from": 6,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder CHF 2"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Panorama_Einsiedeln_01.jpg/1280px-Panorama_Einsiedeln_01.jpg",
+        "alt": "Rundbau des Panoramas Kreuzigung Christi in Einsiedeln",
+        "credit": "https://commons.wikimedia.org/wiki/File:Panorama_Einsiedeln_01.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source": "https://panorama-einsiedeln.ch/de/info/informationen-309650",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-diorama",
+      "kind": "sehenswuerdigkeit",
+      "name": "Diorama Bethlehem",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Benzigerstrasse 23, 8840 Einsiedeln",
+      "coords": {
+        "lat": 47.13003,
+        "lng": 8.74913
+      },
+      "url": "https://www.diorama.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "nur in der Advents- und Weihnachtszeit (2026/27: 27. November bis 6. Januar); sonst auf Voranmeldung",
+      "hours": "täglich 11–17 Uhr",
+      "durationMin": 45,
+      "text": "Eine riesige Weihnachtskrippe mit 470 geschnitzten Figuren in der Landschaft von Bethlehem, begleitet von einem Hörspiel. Die Mineraliensammlung, die früher hier war, ist im Oktober 2026 nach Basel umgezogen.",
+      "tip": "Das Gebäude ist ungeheizt – zieh die Jacke nicht aus.",
+      "priceInfo": {
+        "from": 9,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–16 CHF 5; Swiss Travel Pass gilt nicht"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          11,
+          12,
+          1
+        ]
+      },
+      "source": "https://www.diorama.ch/diorama/besuch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-goldapfel",
+      "kind": "sehenswuerdigkeit",
+      "name": "Schafbock- und Lebkuchenmuseum Goldapfel",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Kronenstrasse 1, 8840 Einsiedeln",
+      "coords": {
+        "lat": 47.12731,
+        "lng": 8.74854
+      },
+      "url": "https://www.goldapfel.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "genuss",
+        "gratis",
+        "regenfest",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; am 25./26. Dezember geschlossen",
+      "hours": "Ostersonntag bis Dezember 13.30–18 Uhr, Neujahr bis Ostersamstag 13.30–16.30 Uhr; während des Weihnachtsmarkts länger",
+      "durationMin": 30,
+      "text": "Denkmalgeschützter Laden, 1997 nach dem Vorbild von 1896 restauriert, mit einem kleinen Museum rund um Schafböcke und Lebkuchen, rund 150 Meter vom Klosterplatz. Prunkstück ist eine Sammlung alter Holzmodel, mit denen die Einsiedler Gebäcke geformt wurden.",
+      "tip": "Der Eintritt ist gratis – und die Schafböcke kannst du gleich im Laden kaufen.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "source": "https://www.goldapfel.ch/museum/ueberblick/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-sihlsee-viadukt",
+      "kind": "aussicht",
+      "name": "Sihlsee und Viadukt Willerzell",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Viaduktstrasse, 8840 Einsiedeln/Willerzell",
+      "coords": {
+        "lat": 47.13048,
+        "lng": 8.77931
+      },
+      "url": "https://de.wikipedia.org/wiki/Sihlsee",
+      "price": 1,
+      "tags": [
+        "see",
+        "gratis",
+        "aktiv",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 75,
+      "text": "Der Sihlsee ist flächenmässig der grösste Stausee der Schweiz und liegt gleich östlich des Dorfs. Zu Fuss gehst du durch die Wiesen ans Ufer und über den langen Strassenviadukt nach Willerzell – mit Blick über das Wasser auf die Schwyzer Berge.",
+      "tip": "Von Willerzell, Kirche fährt der Bus 553 in zehn Minuten zurück zum Bahnhof Einsiedeln – du musst den Weg also nur einmal gehen.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Willerzell_Viadukt_%C3%BCber_den_Sihlsee%2C_Einsiedeln_SZ_20180626-jag9889.jpg/1280px-Willerzell_Viadukt_%C3%BCber_den_Sihlsee%2C_Einsiedeln_SZ_20180626-jag9889.jpg",
+        "alt": "Viadukt von Willerzell über den Sihlsee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Willerzell_Viadukt_%C3%BCber_den_Sihlsee,_Einsiedeln_SZ_20180626-jag9889.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://de.wikipedia.org/wiki/Sihlsee",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ei-schanzen",
+      "kind": "aussicht",
+      "name": "Skisprungschanzen Eschbach",
+      "region": "einsiedeln",
+      "town": "Einsiedeln",
+      "address": "Schnabelsbergstrasse 29, 8840 Einsiedeln",
+      "coords": {
+        "lat": 47.13621,
+        "lng": 8.73927
+      },
+      "url": "https://de.wikipedia.org/wiki/Schanzen_Einsiedeln",
+      "price": 1,
+      "tags": [
+        "aktiv",
+        "gratis",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig von aussen zu sehen; Zugang zum Anlauf nur mit Führung",
+      "durationMin": 30,
+      "text": "Vier Sprungschanzen von K-25 bis K-105 liegen am Hang über dem Dorf, die grosse ist nach dem Einsiedler Weltmeister Andreas Küttel benannt. Von unten wirkt vor allem die Andreas-Küttel-Schanze eindrücklich steil.",
+      "tip": "Die Schanzen liegen nur ein paar Minuten von der Milchmanufaktur entfernt – ein guter kurzer Abstecher nach dem Essen.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "source": "https://de.wikipedia.org/wiki/Schanzen_Einsiedeln",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "st-stoosbahn",
+      "kind": "aktivitaet",
+      "name": "Stoosbahn – steilste Standseilbahn der Welt",
+      "region": "stoos",
+      "town": "Schwyz",
+      "address": "Talstation Schlattli, 6430 Schwyz",
+      "coords": {
+        "lat": 46.99135,
+        "lng": 8.67343
+      },
+      "url": "https://www.stoos.ch/de/pages/standseilbahn-schwyz-stoos",
+      "price": 1,
+      "tags": [
+        "berg",
+        "familie",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Revision im Frühling und Herbst (23. November bis 4. Dezember 2026 werktags, 30. März bis 30. April 2027)",
+      "hours": "täglich ab 7.10 Uhr jede halbe Stunde (:10/:40), So–Do bis 22.40, Fr/Sa bis 23.40 Uhr",
+      "durationMin": 10,
+      "text": "Seit 2017 fährt die Bahn mit bis zu 110 Prozent Steigung von Schwyz ins autofreie Bergdorf Stoos. Die runden Kabinen drehen sich während der Fahrt, damit der Boden immer waagrecht bleibt.",
+      "tip": "Stell dich in der Kabine talseitig ans Fenster – so siehst du, wie steil es unter dir abfällt.",
+      "priceInfo": {
+        "from": 23.2,
+        "unit": "Retourbillett Erwachsene",
+        "note": "mit Halbtax CHF 11.60; GA und Swiss Travel Pass gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Stoos_Standseilbahn.jpg/1280px-Stoos_Standseilbahn.jpg",
+        "alt": "Wagen der Stoosbahn auf der steilen Strecke zwischen Schwyz und Stoos",
+        "credit": "https://commons.wikimedia.org/wiki/File:Stoos_Standseilbahn.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "07:10",
+              "22:40"
+            ]
+          ],
+          "1": [
+            [
+              "07:10",
+              "22:40"
+            ]
+          ],
+          "2": [
+            [
+              "07:10",
+              "22:40"
+            ]
+          ],
+          "3": [
+            [
+              "07:10",
+              "22:40"
+            ]
+          ],
+          "4": [
+            [
+              "07:10",
+              "22:40"
+            ]
+          ],
+          "5": [
+            [
+              "07:10",
+              "23:40"
+            ]
+          ],
+          "6": [
+            [
+              "07:10",
+              "23:40"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.stoos.ch/de/pages/standseilbahn-schwyz-stoos",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "st-gratweg",
+      "kind": "aktivitaet",
+      "name": "Gratwanderung Klingenstock–Fronalpstock",
+      "region": "stoos",
+      "town": "Stoos",
+      "address": "Talstation Sesselbahn Klingenstock, 6433 Stoos",
+      "coords": {
+        "lat": 46.95693,
+        "lng": 8.67594
+      },
+      "url": "https://www.stoos.ch/de/pages/sesselbahn-stoos-klingenstock",
+      "price": 2,
+      "tags": [
+        "aktiv",
+        "berg",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "Sommer, Sesselbahn Klingenstock etwa Mitte Juni bis Mitte Oktober täglich, danach bis Anfang November nur am Wochenende – jeweils nur bei schönem Wetter",
+      "hours": "Sesselbahn Klingenstock 9–16 Uhr",
+      "durationMin": 150,
+      "text": "Mit dem Sessellift fährst du auf den Klingenstock und wanderst dann rund zwei Stunden über den Grat zum Fronalpstock, mit Tiefblick auf Vierwaldstättersee und Muotatal. Der Weg ist ein Bergwanderweg mit ein paar ausgesetzten, mit Ketten gesicherten Stellen.",
+      "tip": "Die Sesselbahn Klingenstock läuft nur bei gutem Wetter – schau am Morgen in die Betriebsinfo auf stoos.ch, bevor du losfährst.",
+      "priceInfo": {
+        "from": 58,
+        "unit": "Tageskarte Erwachsene",
+        "note": "Gipfel-Erlebnisticket alle Anlagen, online (Kasse CHF 60); mit Halbtax CHF 46, mit GA/Swiss Travel Pass CHF 36; Kinder CHF 18"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Gratwanderung_Stoos.jpg/1280px-Gratwanderung_Stoos.jpg",
+        "alt": "Wanderweg auf dem Grat zwischen Klingenstock und Fronalpstock",
+        "credit": "https://commons.wikimedia.org/wiki/File:Gratwanderung_Stoos.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "16:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "16:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "16:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "16:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "16:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "16:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "16:00"
+            ]
+          ]
+        },
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source": "https://www.stoos.ch/de/pages/preise-gipfel-erlebnisticket-tageskarte-sommer",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "st-fronalpstock",
+      "kind": "restaurant",
+      "name": "Fronalpstock Hotel | Restaurant",
+      "region": "stoos",
+      "town": "Stoos",
+      "address": "Fronalpstock, 6433 Stoos",
+      "coords": {
+        "lat": 46.96827,
+        "lng": 8.63738
+      },
+      "url": "https://fronalpstock.ch",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "mit den Sesselbahnen erreichbar: Mai bis Anfang November täglich, im Spätherbst nur Wochenende, im Winter ab Mitte Dezember",
+      "hours": "Sesselbahn Fronalpstock im Sommer 9–16 Uhr, bis 17.30 Uhr wenn der Klingenstock-Lift fährt",
+      "text": "Selbstbedienungsrestaurant auf 1922 Metern mit grosser Sonnenterrasse und Blick über den Vierwaldstättersee. Im Sommer laufen neben dem Haus Zwerggeissen herum, und Kinder haben einen Holzspielplatz.",
+      "tip": "Wenn der Klingenstock-Lift fährt, läuft auch die Fronalpstock-Bahn bis 17.30 Uhr – du musst nach dem Essen also nicht hetzen.",
+      "source": "https://www.stoos.ch/de/service-providers/fronalpstock-hotel-restaurant",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "st-sternegg",
+      "kind": "restaurant",
+      "name": "Restaurant Sternegg",
+      "region": "stoos",
+      "town": "Stoos",
+      "address": "Ringstrasse 42, 6433 Stoos",
+      "coords": {
+        "lat": 46.97745,
+        "lng": 8.66628
+      },
+      "url": "https://www.stoos.ch/de/stories/sternegg",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Spätherbst täglich 9–18 Uhr; Winter So–Do 9–18, Fr/Sa 9–21.30 Uhr",
+      "text": "Das gelbe Haus mitten im Dorf liegt rund 100 Meter von der Bergstation der Stoosbahn. Es hat eine grosse Sonnenterrasse und einen Wintergarten, wo du nach der Wanderung noch einen Kaffee trinkst.",
+      "tip": "Ideal für die Wartezeit auf die nächste Bahn ins Tal: Die Stoosbahn fährt zur Minute 10 und 40.",
+      "source": "https://www.stoos.ch/de/stories/sternegg",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "st-bundesbriefmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Bundesbriefmuseum",
+      "region": "stoos",
+      "town": "Schwyz",
+      "address": "Bahnhofstrasse 20, 6430 Schwyz",
+      "coords": {
+        "lat": 47.02211,
+        "lng": 8.6487
+      },
+      "url": "https://www.bundesbrief.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17 Uhr",
+      "durationMin": 60,
+      "text": "Hier liegt der Bundesbrief von 1291, das bekannteste Gründungsdokument der Eidgenossenschaft. Das Museum steht an der Bahnhofstrasse auf dem Weg vom Bahnhof ins Dorfzentrum von Schwyz.",
+      "tip": "Montags ist es geschlossen – plan den Regentag auf Dienstag bis Sonntag.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.bundesbrief.ch/",
+      "checked": "2026-11-15"
+    }
+  ],
+  "trips": [
+    {
+      "slug": "engelberg-titlis-kloster-wochenende",
+      "title": "Engelberg: Kloster am Samstag, Titlis am Sonntag",
+      "teaser": "Ein Wochenende zwischen Barockkloster, Alpweiden und Gletscher – mit Führung durch das Kloster und einem Tag auf über 3000 Metern.",
+      "region": "engelberg",
+      "days": 2,
+      "moods": [
+        "natur",
+        "kultur",
+        "aktiv"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Mitte Juni bis Mitte Oktober (Gletscherpark nur im Sommer, Tal Museum bis Mitte Oktober); Klosterführung nur Di, Do und Sa",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 103
+        },
+        {
+          "from": "Bern",
+          "minutes": 113
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 109
+        }
+      ],
+      "hotelIds": [
+        "eb-ski-lodge-engelberg"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Samstag) – Gerschnialp, Tal Museum und Kloster",
+          "slots": [
+            {
+              "time": "10:15",
+              "placeId": "eb-gerschnialp",
+              "title": "Hinauf auf die Gerschnialp",
+              "text": "Mit der Standseilbahn in fünf Minuten auf die Alp, dort über die Weiden spazieren und aufs Dorf hinunterschauen.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof zur Talstation Titlis, 5 Min. Standseilbahn",
+              "rain": {
+                "placeId": "eb-chaes-im-kloster",
+                "title": "Käse statt Alpweide",
+                "text": "Bei Regen bleibst du im Dorf und gehst ins Bistro von Chäs im Kloster: Kaffee, Käse aus dem Tal und ein Blick in den Laden."
+              }
+            },
+            {
+              "time": "12:00",
+              "placeId": "eb-gasthaus-gerschnialp",
+              "title": "Zmittag im Café Ritz",
+              "text": "Währschafte Küche im Familienbetrieb auf der Alp, bei schönem Wetter auf der Terrasse.",
+              "travel": "wenige Minuten zu Fuss auf der Alp"
+            },
+            {
+              "time": "14:00",
+              "placeId": "eb-talmuseum",
+              "title": "Tal Museum",
+              "text": "Eine Stunde Talgeschichte im alten Wappenhaus an der Dorfstrasse.",
+              "travel": "ca. 40 Min. zu Fuss hinunter ins Dorf (oder 5 Min. Standseilbahn und 10 Min. zu Fuss)"
+            },
+            {
+              "time": "16:00",
+              "placeId": "eb-kloster-engelberg",
+              "title": "Klosterführung",
+              "text": "Eine Stunde durch Barocksaal, Refektorium und Klosterkirche – Einlass ab 15.45 Uhr an der Klosterpforte, vorher online buchen.",
+              "travel": "ca. 5 Min. zu Fuss"
+            },
+            {
+              "time": "18:30",
+              "placeId": "eb-alpenclub",
+              "title": "Znacht im Alpenclub",
+              "text": "Pizza oder Rindsfilet vom heissen Stein im alten Holzhaus an der Dorfstrasse; danach sind es ein paar Minuten zum Hotel.",
+              "travel": "ca. 3 Min. zu Fuss vom Kloster"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Sonntag) – Titlis, Gletscher und Trübsee",
+          "slots": [
+            {
+              "time": "08:45",
+              "placeId": "eb-titlis",
+              "title": "Auf den Titlis",
+              "text": "Früh hinauf, bevor die Gruppen kommen: über den Cliff Walk, durch die Gletschergrotte und mit Zusatzticket aufs Horizon Deck.",
+              "travel": "ca. 10 Min. zu Fuss zur Talstation, rund 30 Min. Fahrt mit TITLIS Xpress und Rotair",
+              "rain": {
+                "title": "Webcam prüfen statt blind hochfahren",
+                "text": "Zeigt die Gipfel-Webcam dichten Nebel, lohnt sich das teure Ticket kaum. Dann lieber ausschlafen, gemütlich frühstücken und am späten Vormittag nur bis Trübsee fahren – oft liegt der Nebel darüber."
+              }
+            },
+            {
+              "time": "10:45",
+              "placeId": "eb-gletscherpark",
+              "title": "Ice Flyer zum Gletscherpark",
+              "text": "Mit dem Sessellift über die Gletscherspalten und unten mit Snowtube oder Schlitten über den Schnee rutschen.",
+              "travel": "direkt bei der Gipfelstation",
+              "rain": {
+                "title": "Länger in der Gletschergrotte",
+                "text": "Bei Sturm oder Schneefall steht der Ice Flyer oft still. Bleib dann in der Gletschergrotte und im Turm und fahr früher zum Essen."
+              }
+            },
+            {
+              "time": "12:15",
+              "placeId": "eb-josephs-restaurant",
+              "title": "Zmittag im TITLIS Tower",
+              "text": "Mittagessen im neuen Restaurant im ehemaligen Sendeturm auf 3020 Metern – Tisch vorher reservieren.",
+              "travel": "wenige Minuten zu Fuss auf dem Gipfelgelände"
+            },
+            {
+              "time": "14:00",
+              "placeId": "eb-truebsee",
+              "title": "Nachmittag am Trübsee",
+              "text": "Am Ufer entlang spazieren, ein Ruderboot nehmen oder über die Zipline sausen; die letzte Talfahrt ist um 17 Uhr.",
+              "travel": "ca. 25 Min. mit Rotair und TITLIS Xpress bis Trübsee",
+              "rain": {
+                "placeId": "eb-atelier-hess",
+                "title": "Atelier Hess statt Seeufer",
+                "text": "Bei Regen setzt du dich ins Restaurant im Berghotel direkt bei der Station und schaust bei Kaffee und Dessert durchs Fenster auf den See."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "engelberg-brunni-familientag",
+      "title": "Brunni mit Kindern: Härzlisee, Klettersteig und Kloster",
+      "teaser": "Ein Samstag auf der Sonnenseite von Engelberg, an dem Kinder unter 16 von Mai bis November gratis Bahn fahren.",
+      "region": "engelberg",
+      "days": 1,
+      "moods": [
+        "familie",
+        "natur",
+        "aktiv"
+      ],
+      "audience": [
+        "familie"
+      ],
+      "season": "Mitte Mai bis Mitte Oktober, idealerweise an einem Samstag (Klosterführung nur Di, Do, Sa; Tal Museum Mi–So)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 103
+        },
+        {
+          "from": "Bern",
+          "minutes": 113
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 109
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Samstag) – Brunni und Kloster",
+          "slots": [
+            {
+              "time": "10:15",
+              "placeId": "eb-brunni-haerzlisee",
+              "title": "Härzlisee und Kitzelpfad",
+              "text": "Mit Luftseilbahn und Sessellift zur Brunnihütte und barfuss rund um den Härzlisee, mit warmem Fussbad im Kitzeltopf.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof zur Talstation Brunni, dann rund 20 Min. Luftseilbahn und Sessellift",
+              "rain": {
+                "placeId": "eb-chaes-im-kloster",
+                "title": "Käse statt Kitzelpfad",
+                "text": "Bei Regen bleibt ihr unten und geht in den Käseladen mit Bistro im Klosterhof – mit etwas Glück läuft gerade ein Käsekurs."
+              }
+            },
+            {
+              "time": "12:00",
+              "placeId": "eb-brunnihuette",
+              "title": "Zmittag in der Brunnihütte",
+              "text": "Warme Küche auf der Sonnenterrasse mit dem Titlis gegenüber; wer mag, grilliert stattdessen an einer Feuerstelle am See.",
+              "travel": "wenige Minuten zu Fuss vom Härzlisee"
+            },
+            {
+              "time": "13:30",
+              "placeId": "eb-klettersteig-brunnistoeckli",
+              "title": "Klettersteig Brunnistöckli",
+              "text": "Für Kinder ab acht Jahren: in rund einer Stunde gesichert auf das Brunnistöckli, zurück in 20 Minuten. Mit Kleineren bleibt ihr am See.",
+              "travel": "Start bei der Sessellift-Bergstation; Set vorab in der Kräuterhütte abholen",
+              "rain": {
+                "placeId": "eb-talmuseum",
+                "title": "Tal Museum statt Fels",
+                "text": "Bei nassem Fels ist der Klettersteig tabu. Fahrt hinunter und geht ab 14 Uhr ins Tal Museum an der Dorfstrasse."
+              }
+            },
+            {
+              "time": "16:00",
+              "placeId": "eb-kloster-engelberg",
+              "title": "Klosterführung",
+              "text": "Eine Stunde durch Barocksaal und Klosterkirche mit der grössten Orgel der Schweiz; Kinder unter 12 sind gratis. Danach sind es zehn Minuten zum Bahnhof.",
+              "travel": "rund 25 Min. Sessellift und Luftseilbahn ins Tal, dann ca. 10 Min. zu Fuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "einsiedeln-kloster-kaese-schafboecke",
+      "title": "Einsiedeln: Kloster, Käse und Schafböcke",
+      "teaser": "Ein Tag im Wallfahrtsort mit Rundgemälde, Spaziergang über den Sihlsee, Schaukäserei und dem Salve Regina der Mönche zum Abschluss.",
+      "region": "einsiedeln",
+      "days": 1,
+      "moods": [
+        "kultur",
+        "genuss",
+        "natur"
+      ],
+      "audience": [
+        "paar",
+        "familie",
+        "allein",
+        "freunde"
+      ],
+      "season": "Ostern bis Ende Oktober (Panorama), am besten an einem Samstag; Klosterführung Mo–Sa",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 46
+        },
+        {
+          "from": "Bern",
+          "minutes": 116
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 111
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Samstag) – Panorama, Sihlsee, Kloster",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "ei-panorama",
+              "title": "Rundgemälde Kreuzigung Christi",
+              "text": "Das 100 Meter lange Panorama mit plastischem Vordergrund, erklärt in rund zehn Minuten – am Samstag ab 10 Uhr offen.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "10:45",
+              "placeId": "ei-sihlsee-viadukt",
+              "title": "Zu Fuss über den Sihlsee",
+              "text": "Durch die Wiesen an den See und über den Viadukt nach Willerzell; um 11.42 Uhr fährt der Bus 553 in zehn Minuten zurück zum Bahnhof.",
+              "travel": "rund 45 Min. zu Fuss bis Willerzell (knapp 3 km)",
+              "rain": {
+                "placeId": "ei-tulipan",
+                "title": "Tulipan statt Seeufer",
+                "text": "Bei Regen gehst du ins Café Tulipan am Klosterplatz, wo die Schafböcke noch von Hand gemacht werden."
+              }
+            },
+            {
+              "time": "12:15",
+              "placeId": "ei-milchmanufaktur",
+              "title": "Zmittag in der Schaukäserei",
+              "text": "Einsiedler Gerichte mit Käse aus dem eigenen Kessi und danach ein Blick von der Besucherrampe in die Käserei.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "14:00",
+              "placeId": "ei-kloster-einsiedeln",
+              "title": "Klosterführung mit Stiftsbibliothek",
+              "text": "105 Minuten durch Klosterkirche, Gnadenkapelle und die barocke Stiftsbibliothek – Tickets und Treffpunkt beim Tourist Office, ohne Voranmeldung.",
+              "travel": "ca. 15 Min. zu Fuss zum Tourist Office an der Hauptstrasse 85"
+            },
+            {
+              "time": "16:00",
+              "placeId": "ei-goldapfel",
+              "title": "Schafböcke im Goldapfel",
+              "text": "Im Nostalgieladen das Gratis-Museum anschauen und Schafböcke für zu Hause kaufen; um ca. 17 Uhr zurück in die Klosterkirche zum Salve Regina der Mönche.",
+              "travel": "ca. 3 Min. zu Fuss vom Klosterplatz"
+            },
+            {
+              "time": "17:45",
+              "placeId": "ei-restaurant-drei-koenige",
+              "title": "Frühes Znacht beim Klosterplatz",
+              "text": "Saisonale, bürgerliche Küche im Hotel Drei Könige, danach sind es zehn Minuten zum Bahnhof.",
+              "travel": "ca. 3 Min. zu Fuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "stoos-gratwanderung",
+      "title": "Stoos: Steilste Bahn, schmaler Grat",
+      "teaser": "Mit der steilsten Standseilbahn der Welt ins autofreie Bergdorf und zwei Stunden über den Grat vom Klingenstock zum Fronalpstock.",
+      "region": "stoos",
+      "days": 1,
+      "moods": [
+        "natur",
+        "aktiv"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Mitte Juni bis Mitte Oktober, nur bei stabilem, schönem Wetter (Sesselbahn Klingenstock fährt sonst nicht)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 56
+        },
+        {
+          "from": "Bern",
+          "minutes": 108
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 117
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Di–So) – Stoosbahn, Grat und Fronalpstock",
+          "slots": [
+            {
+              "time": "09:40",
+              "placeId": "st-stoosbahn",
+              "title": "Mit der Stoosbahn hinauf",
+              "text": "Sieben Minuten in den drehenden Kabinen von Schwyz ins Bergdorf Stoos.",
+              "travel": "ab Bahnhof Schwyz ca. 17 Min. mit Bus 501 bis Schwyz, Stoosbahn"
+            },
+            {
+              "time": "10:15",
+              "placeId": "st-gratweg",
+              "title": "Gratwanderung zum Fronalpstock",
+              "text": "Mit dem Sessellift auf den Klingenstock und rund zwei Stunden über den Grat, mit Tiefblick auf Vierwaldstättersee und Muotatal. Trittsicherheit nötig.",
+              "travel": "ca. 10–15 Min. zu Fuss durchs Dorf zur Talstation Klingenstock",
+              "rain": {
+                "placeId": "st-bundesbriefmuseum",
+                "title": "Bundesbrief statt Grat",
+                "text": "Bei Regen oder Gewitterrisiko bleibst du unten in Schwyz und schaust dir im Bundesbriefmuseum den Bundesbrief von 1291 an (Montag geschlossen)."
+              }
+            },
+            {
+              "time": "12:45",
+              "placeId": "st-fronalpstock",
+              "title": "Zmittag auf dem Fronalpstock",
+              "text": "Selbstbedienung auf der grossen Terrasse auf 1922 Metern, mit Blick zurück auf den Grat.",
+              "travel": "Ende der Gratwanderung, direkt beim Restaurant"
+            },
+            {
+              "time": "14:30",
+              "placeId": "st-sternegg",
+              "title": "Kaffee im Dorf",
+              "text": "Mit den Sesselbahnen hinunter ins Dorf und auf der Sonnenterrasse des Sternegg auf die nächste Stoosbahn warten.",
+              "travel": "ca. 20 Min. Sesselbahn Fronalpstock (2 Sektionen) und kurzer Fussweg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -23,6 +23,8 @@ export function toTripLite(trip: Trip): TripLite {
     slug: trip.slug,
     title: trip.title,
     teaser: trip.teaser,
+    region: trip.region,
+    center: regionInfo(trip.region)?.center,
     regionName: regionName(trip.region),
     days: trip.days,
     moods: trip.moods,

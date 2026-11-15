@@ -12,7 +12,8 @@ import { WD_LONG, timeText, type NightOffer } from "@/lib/nachtski-core";
 import { places, regionInfo } from "@/lib/ausfluege";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import { ColorBar } from "@/components/SkiFinder";
-import SkiTravel from "@/components/SkiTravel";
+import SkiTravel, { type RentShop } from "@/components/SkiTravel";
+import rentData from "@/data/skirent.json";
 import PlaceGrid from "@/components/PlaceGrid";
 
 export const dynamic = "force-dynamic";
@@ -125,6 +126,8 @@ export default async function SkiAreaPage({ params }: Props) {
     breadcrumbJsonLd([{ name: "Start", path: "/" }, { name: "Skigebiete", path: "/skigebiete" }, { name: r.name, path: `/skigebiete/${r.id}` }]),
   ];
 
+  const shops = ((rentData as Record<string, RentShop[]>)[r.id] ?? []);
+  const foodOpen = (food?.items ?? []).filter((i) => i.status === "open").map((i) => bare(i.name).replace(/^./, (c) => c.toUpperCase()));
   const share = k.open != null && k.total ? k.open / k.total : 0;
   const hotelPlace = r.station.split(/[ ,(]/)[0];
 
@@ -189,8 +192,8 @@ export default async function SkiAreaPage({ params }: Props) {
 
         <div className="space-y-6">
           <section className="card p-5 sm:p-6" aria-labelledby="anreise">
-            <h2 id="anreise" className="kicker mb-4">Anreise: Zug oder Auto?</h2>
-            <SkiTravel to={r.coords} station={r.station} name={r.name} hotelPlace={hotelPlace} />
+            <h2 id="anreise" className="kicker mb-4">Dein Skitag in 30 Sekunden</h2>
+            <SkiTravel to={r.coords} station={r.station} name={r.name} hotelPlace={hotelPlace} ticket={r.ticket} ticketUrl={r.url} shops={shops} food={foodOpen} weather={weather?.top} />
             {r.access && <p className="mt-4 text-xs text-cream-faint">{r.access}</p>}
           </section>
         </div>
@@ -202,7 +205,7 @@ export default async function SkiAreaPage({ params }: Props) {
           <ul className="space-y-3">
             {nights.map((o) => (
               <li key={o.id} className="text-sm">
-                <p className="font-bold text-cream">{o.weekdays.length ? o.weekdays.map((w) => WD_LONG[w]).join(", ") : "an Einzeldaten"} · {timeText(o)}{o.ticket ? ` · CHF ${o.ticket.price}` : ""}</p>
+                <p className="font-bold text-cream"><Link href={`/nachtskifahren/${o.id}`} className="hover:underline">{o.weekdays.length ? o.weekdays.map((w) => WD_LONG[w]).join(", ") : "an Einzeldaten"} · {timeText(o)}{o.ticket ? ` · CHF ${o.ticket.price}` : ""}</Link></p>
                 <p className="text-cream-dim">{o.name} – {o.piste}. {o.season.text}</p>
               </li>
             ))}
@@ -222,6 +225,28 @@ export default async function SkiAreaPage({ params }: Props) {
         <section className="card mt-6 p-5 sm:p-6" aria-labelledby="live">
           <h2 id="live" className="kicker mb-4">Live von der Bergbahn: Anlagen, Pisten, Hütten{parking ? ", Parkplätze" : ""}</h2>
           <SkiLiveBoard groups={groups} at={detail?.at} stale={isStale(detail?.at)} />
+        </section>
+      )}
+
+      {shops.length > 0 && (
+        <section className="card mt-6 p-5 sm:p-6" aria-labelledby="miete">
+          <h2 id="miete" className="kicker mb-1">Ski mieten & abholen in {r.station.split(/[,(]/)[0].trim()}</h2>
+          <p className="mb-4 text-sm text-cream-dim">Sportgeschäfte im Umkreis von 3,5 km um die Talstation. Online reserviert ist die Ausrüstung meist günstiger und liegt beim Abholen bereit.</p>
+          <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {shops.map((s) => (
+              <li key={s.name + s.lat} className="rounded-xl bg-ink-800/60 p-4 text-sm">
+                <p className="font-bold text-cream">{s.name}</p>
+                <p className="mt-0.5 text-xs text-cream-faint">{s.rental ? "Vermietung" : "Sportgeschäft"} · {s.km < 0.3 ? "bei der Talstation" : `${String(s.km).replace(".", ",")} km`}</p>
+                {s.hours && s.hours.length < 70 && <p className="mt-1 text-xs text-cream-dim">{s.hours.replace(/"/g, "")}</p>}
+                <p className="mt-2 flex flex-wrap gap-x-3 gap-y-1 font-semibold">
+                  {s.book && <a href={s.book} target="_blank" rel="noopener sponsored" className="text-signal-600 hover:text-signal-500">Online reservieren</a>}
+                  {s.website && <a href={s.website} target="_blank" rel="noopener" className="text-signal-600 hover:text-signal-500">Website</a>}
+                  <a href={`https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lng}`} target="_blank" rel="noopener" className="text-cream-dim hover:text-cream">Karte</a>
+                </p>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-3 text-xs text-cream-faint">Shops aus OpenStreetMap – Öffnungszeiten können in der Saison abweichen.</p>
         </section>
       )}
 

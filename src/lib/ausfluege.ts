@@ -20,6 +20,7 @@ import schaffhausenZug from "@/data/ausfluege/schaffhausen-zug.json";
 import besondersOst from "@/data/ausfluege/besonders-ost.json";
 import besondersZentral from "@/data/ausfluege/besonders-zentral.json";
 import besondersZuerich from "@/data/ausfluege/besonders-zuerich.json";
+import aktivWestSued from "@/data/ausfluege/aktiv-westsued.json";
 import { getPlaceImage } from "@/data/images";
 import { getDestination } from "@/data/destinations";
 import type { Place, Trip } from "@/lib/ausfluege-core";
@@ -40,7 +41,7 @@ interface Bundle {
   trips: Trip[];
 }
 
-const bundles = [soloRap, luzThun, lugBern, zhWinBaden, churUnterland, genfLausanne, baselStGallen, locarnoBz, interlaken, engelberg, engadinDavos, zermattGruyeres, schaffhausenZug, besondersOst, besondersZentral, besondersZuerich] as unknown as Bundle[];
+const bundles = [soloRap, luzThun, lugBern, zhWinBaden, churUnterland, genfLausanne, baselStGallen, locarnoBz, interlaken, engelberg, engadinDavos, zermattGruyeres, schaffhausenZug, besondersOst, besondersZentral, besondersZuerich, aktivWestSued] as unknown as Bundle[];
 
 export const places: Place[] = bundles.flatMap((b) => b.places).map((p) => ({ ...p, img: getPlaceImage(p.id, p.image) }));
 export const trips: Trip[] = bundles.flatMap((b) => b.trips);

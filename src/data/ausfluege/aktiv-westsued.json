@@ -1,0 +1,4221 @@
+{
+ "places": [
+  {
+   "checked": "2026-11-15",
+   "id": "bern-w-aare-muensingen-elfenau",
+   "kind": "aktivitaet",
+   "name": "Aare-Uferweg Münsingen–Belper Giessen–Elfenau",
+   "region": "bern",
+   "town": "Münsingen",
+   "address": "Bahnhof Münsingen, 3110 Münsingen",
+   "coords": {
+    "lat": 46.8728,
+    "lng": 7.5614
+   },
+   "url": "https://www.bern.com/de/aare",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "gratis",
+    "familie",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (schönste Zeit April–Oktober)",
+   "durationMin": 200,
+   "text": "Du läufst flach der Aare entlang flussabwärts bis an den Berner Stadtrand, vorbei an Auenwäldern, Kiesbänken und dem Fähribeizli. Am Schluss stehst du in der Elfenau, von wo der Bus 19 in die Innenstadt fährt – oder du gehst im Sommer gleich weiter zum Marzili.",
+   "tip": "An heissen Tagen Badesachen mitnehmen: Unterwegs gibt es mehrere Kiesbänke, an denen Bernerinnen und Berner in die Aare steigen – nur bei klarem, nicht braunem Wasser.",
+   "hike": {
+    "km": 13.7,
+    "up": 40,
+    "down": 60,
+    "hours": 3.3,
+    "difficulty": "T1",
+    "start": "Münsingen",
+    "end": "Bern, Elfenau",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn/Bus extra: Bern–Münsingen (S-Bahn) und Bus 19 ab Elfenau, Libero-Zonen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://wegwandern.ch/wanderung/aare-uferweg-muensingen-belper-giessen-faehribeizli-bern-elfenau-wandern/"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "bern-w-bantiger-geristein",
+   "kind": "aktivitaet",
+   "name": "Krauchthal–Bantiger–Geristein–Bolligen",
+   "region": "bern",
+   "town": "Bolligen",
+   "address": "Bantiger, 3065 Bolligen",
+   "coords": {
+    "lat": 46.97786,
+    "lng": 7.52773
+   },
+   "url": "https://wegwandern.ch/wanderung/krauchthal-emmental-fluehuesli-bantiger-geristein-bolligen-lutzeren-wandern-wanderung/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "April–November",
+   "durationMin": 170,
+   "text": "Die weniger bekannte Hausberg-Tour der Berner: von Krauchthal über Sandsteinflühe hinauf zum Bantiger mit seinem rot-weissen Sendeturm, dann zur Burgruine Geristein und hinunter nach Bolligen. Vom Bantiger schaust du übers Mittelland bis zu den Berner Alpen.",
+   "tip": "Der Abschnitt bei der Ruine Geristein ist schmal und teils ausgesetzt – mit festen Schuhen gehen und bei Nässe vorsichtig sein.",
+   "hike": {
+    "km": 9,
+    "up": 477,
+    "down": 384,
+    "hours": 2.8,
+    "difficulty": "T2",
+    "start": "Krauchthal, Dorf",
+    "end": "Bolligen",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn/Bus extra: Bus nach Krauchthal, RBS-Bahn ab Bolligen nach Bern"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "source": "https://wegwandern.ch/wanderung/krauchthal-emmental-fluehuesli-bantiger-geristein-bolligen-lutzeren-wandern-wanderung/",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Aussichtsturm_Bantiger.JPG/1280px-Aussichtsturm_Bantiger.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Sendeturm auf dem Bantiger",
+    "credit": "https://commons.wikimedia.org/wiki/File:Aussichtsturm_Bantiger.JPG"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "bern-s-aareschwumm-eichholz-marzili",
+   "kind": "bad",
+   "name": "Aareschwumm Eichholz–Marzili",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Strandweg (Eichholz), 3084 Wabern",
+   "coords": {
+    "lat": 46.93372,
+    "lng": 7.45683
+   },
+   "url": "https://www.bern.com/de/aare",
+   "price": 1,
+   "tags": [
+    "baden",
+    "aktiv",
+    "gratis",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Juni–August (bei Wassertemperatur ab ca. 18 °C)",
+   "durationMin": 90,
+   "text": "Das Berner Sommerritual: Du spazierst vom Marzili flussaufwärts bis zum Eichholz, steigst dort an der flachen Kiesbank ein und lässt dich von der Strömung rund 20 Minuten zurück ins Marzili treiben. Ausstieg über die grossen Treppen beim Bad oder ins Bueberseeli.",
+   "tip": "Kleider kommen in einen wasserdichten Aaresack («Wickelfisch»), den du mitschwimmen lässt. Ist die Aare braun oder sehr hoch, gar nicht erst einsteigen – dann treibt Schwemmholz mit.",
+   "water": {
+    "type": "fluss",
+    "body": "Aare",
+    "heated": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Einstieg Eichholz und Freibad Marzili sind gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8
+    ]
+   },
+   "source": "https://www.freizeit.ch/freizeit/20577/aareschwimmen-die-lieblingsstrecken-der-berner",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bern_Aare_mit_Freibad_Marzili.jpg/1280px-Bern_Aare_mit_Freibad_Marzili.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Aare mit dem Freibad Marzili in Bern",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bern_Aare_mit_Freibad_Marzili.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "bern-s-lorrainebad",
+   "kind": "bad",
+   "name": "Lorrainebad",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Reckweg, 3013 Bern",
+   "coords": {
+    "lat": 46.95909,
+    "lng": 7.44249
+   },
+   "url": "https://www.bern.ch/themen/sport-und-freizeit/baden",
+   "price": 1,
+   "tags": [
+    "baden",
+    "gratis",
+    "freunde",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai–Mitte September",
+   "hours": "öffnet täglich erst um 10 Uhr, schliesst je nach Monat 19–21 Uhr",
+   "durationMin": 150,
+   "text": "Das älteste Flussbad der Stadt liegt in einer Aareschlaufe unterhalb des Lorrainequartiers: Holzkabinen, ein Becken und direkter Einstieg in die Aare. Hier ist es ruhiger und quartierhafter als im Marzili.",
+   "tip": "Für ein kurzes Aareschwümmli steigst du oberhalb beim Altenberg ein und lässt dich bis zum Bad treiben.",
+   "water": {
+    "type": "fluss",
+    "body": "Aare",
+    "heated": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "alle Berner Sommerbäder ausser Ka-We-De sind gratis"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.badi-info.ch/be/bern.html",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Lorrainebad_%28403246562%29.jpg/1280px-Lorrainebad_%28403246562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Lorrainebad an der Aare in Bern",
+    "credit": "https://commons.wikimedia.org/wiki/File:Lorrainebad_(403246562).jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "bern-s-bernaqua",
+   "kind": "bad",
+   "name": "Bernaqua Erlebnisbad",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Riedbachstrasse 98, 3027 Bern",
+   "coords": {
+    "lat": 46.94518,
+    "lng": 7.37305
+   },
+   "url": "https://www.bernaqua.ch",
+   "price": 3,
+   "tags": [
+    "baden",
+    "regenfest",
+    "familie",
+    "wellness"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "durationMin": 180,
+   "text": "Im Westside-Komplex bei Bern-Brünnen findest du Rutschen, Strömungskanal, Aussenbecken und einen grossen Saunabereich unter einem Dach. Gut für einen Regentag oder für Familien im Winter.",
+   "tip": "Vom Bahnhof Bern Brünnen Westside sind es nur wenige Schritte – die S-Bahn hält direkt vor dem Haus.",
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "priceInfo": {
+    "from": 45,
+    "unit": "Eintritt Erwachsene",
+    "note": "Tageskarte Erlebnisbad (Stand April 2026); 2-Stunden-Ticket günstiger"
+   },
+   "source": "https://www.freizeit.ch/freizeit/14776/bernaqua-erlebnisbad"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "th-w-stockhorn-bergseen",
+   "kind": "aktivitaet",
+   "name": "Bergsee-Rundweg am Stockhorn (Hinter- und Oberstockensee)",
+   "region": "thun",
+   "town": "Erlenbach im Simmental",
+   "address": "Mittelstation Chrindi, 3762 Erlenbach im Simmental",
+   "coords": {
+    "lat": 46.68552,
+    "lng": 7.54014
+   },
+   "url": "https://stockhorn.ch",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "berg",
+    "see",
+    "aktiv",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober",
+   "durationMin": 135,
+   "text": "Ab der Mittelstation Chrindi drehst du eine Runde um zwei Bergseen: den Hinterstockensee direkt unter der Stockhorn-Pyramide und den kleineren Oberstockensee, dazwischen Alpweiden und Wald. Zurück am Chrindi nimmst du die Bahn ins Tal oder hängst die Fahrt auf den Gipfel an.",
+   "tip": "Am Hinterstockensee darf man fischen – Patente gibt es an der Talstation. Im Juli blüht es auf den Alpen am schönsten.",
+   "hike": {
+    "km": 6.2,
+    "up": 400,
+    "down": 400,
+    "hours": 2.25,
+    "difficulty": "T2",
+    "start": "Chrindi (Stockhornbahn)",
+    "end": "Chrindi (Stockhornbahn)",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 44,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Stockhornbahn Erlenbach–Chrindi retour laut Ticketshop; Halbtax/Kinder 22"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.thunersee.ch/en/experiences/tour/mountain-lake-paradise-at-stockhorn",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hinterstockensee.jpg/1280px-Hinterstockensee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Hinterstockensee unter dem Stockhorn",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hinterstockensee.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "th-w-sigriswil-panoramabruecke",
+   "kind": "aktivitaet",
+   "name": "Panoramabrücke Sigriswil und Gummischlucht",
+   "region": "thun",
+   "town": "Sigriswil",
+   "address": "Panoramabrücke, 3655 Sigriswil",
+   "coords": {
+    "lat": 46.71839,
+    "lng": 7.70724
+   },
+   "url": "https://www.panoramabruecke.ch",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aussicht",
+    "familie",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 45,
+   "text": "Eine kurze Runde ab Sigriswil Dorf: über die 340 Meter lange Hängebrücke, die rund 180 Meter hoch über der Gummischlucht hängt, und auf dem Themenweg durch die Schlucht zurück. Ideal als Abstecher, wenn du sowieso am Thunersee bist.",
+   "tip": "Wer mehr gehen will, steigt von der Brücke durch die Schlucht nach Gunten am See ab und fährt mit dem Schiff zurück nach Thun.",
+   "hike": {
+    "km": 2.1,
+    "up": 98,
+    "down": 98,
+    "hours": 0.75,
+    "difficulty": "T1",
+    "start": "Sigriswil, Dorf",
+    "end": "Sigriswil, Dorf",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "Brückenbillett; Bus ab Thun extra"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.interlaken.swiss/erlebnisse/tour/sigriswil-panoramabruecke-gumischlucht",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Panoramabr%C3%BCcke_Sigriswil_BE_1.jpg/1280px-Panoramabr%C3%BCcke_Sigriswil_BE_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Hängebrücke über die Gummischlucht bei Sigriswil",
+    "credit": "https://commons.wikimedia.org/wiki/File:Panoramabr%C3%BCcke_Sigriswil_BE_1.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "th-s-strandbad-thun",
+   "kind": "bad",
+   "name": "Strandbad Thun («Strämu»)",
+   "region": "thun",
+   "town": "Thun",
+   "address": "Strandbadweg 10, 3604 Thun",
+   "coords": {
+    "lat": 46.73973,
+    "lng": 7.63039
+   },
+   "url": "https://www.thun.ch/sport/53411",
+   "price": 1,
+   "tags": [
+    "baden",
+    "see",
+    "familie",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Anfang Mai–Mitte September",
+   "hours": "Mai–August 7–20 Uhr, September 7/8–19 Uhr",
+   "durationMin": 180,
+   "text": "Am Ufer des Thunersees mit Blick auf Niesen und Stockhorn: beheizte Becken, Breitrutsche und ein Kiesstrand mit direktem Seezugang. Morgens ab sieben Uhr kannst du hier ruhig deine Längen ziehen.",
+   "tip": "Am Eröffnungswochenende Anfang Mai ist der Eintritt traditionell gratis.",
+   "water": {
+    "type": "see",
+    "body": "Thunersee",
+    "heated": true
+   },
+   "priceInfo": {
+    "from": 7,
+    "unit": "Eintritt Erwachsene",
+    "note": "Saisonabo 90, gilt auch im Flussbad Schwäbis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.badi-info.ch/be/thun-strandbad.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "th-s-flussbad-schwaebis",
+   "kind": "bad",
+   "name": "Flussbad Schwäbis («Schwäber»)",
+   "region": "thun",
+   "town": "Thun",
+   "address": "Grabenstrasse 40A, 3600 Thun",
+   "coords": {
+    "lat": 46.76157,
+    "lng": 7.62402
+   },
+   "url": "https://www.thun.ch/sport/53414",
+   "price": 1,
+   "tags": [
+    "baden",
+    "kultur",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai–Mitte September",
+   "hours": "Mai/September 9–19 Uhr, Juni–August 9–20 Uhr",
+   "durationMin": 120,
+   "text": "Eine denkmalgeschützte Holzbadi von 1869/70 direkt an der Aare, ein paar Gehminuten von der Altstadt. Mit abgegrenzter Schwimmzone im Fluss, kleiner Liegewiese und Uferbeizli – klein und gemütlich.",
+   "tip": "Perfekt für eine Abkühlung nach dem Schlossbesuch: Vom Schloss Thun bist du in zehn Minuten zu Fuss dort.",
+   "water": {
+    "type": "fluss",
+    "body": "Aare",
+    "heated": false
+   },
+   "priceInfo": {
+    "from": 5,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–15 Jahre 2.50"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.badi-info.ch/be/thun-flussbad.html",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flussbad_Schw%C3%A4bis_Steg_%28West%29_%C3%BCber_die_Innere_Aare%2C_Thun_BE_20240526-jag9889.jpg/1280px-Flussbad_Schw%C3%A4bis_Steg_%28West%29_%C3%BCber_die_Innere_Aare%2C_Thun_BE_20240526-jag9889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Steg beim Flussbad Schwäbis über die Aare in Thun",
+    "credit": "https://commons.wikimedia.org/wiki/File:Flussbad_Schw%C3%A4bis_Steg_(West)_%C3%BCber_die_Innere_Aare,_Thun_BE_20240526-jag9889.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "th-s-hallenbad-oberhofen",
+   "kind": "bad",
+   "name": "Hallenbad Oberhofen (Fitnesspark)",
+   "region": "thun",
+   "town": "Oberhofen am Thunersee",
+   "address": "Staatsstrasse 34, 3653 Oberhofen am Thunersee",
+   "coords": {
+    "lat": 46.72812,
+    "lng": 7.67224
+   },
+   "url": "https://www.fitnesspark.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mo/Mi/Fr 6–20.45, Di 8–20.45, Do 9–20.45, Sa/So 8–17.45 Uhr",
+   "durationMin": 120,
+   "text": "Das Hallenbad der Region Thun liegt im Wichterheergut am See: 25-Meter-Becken, Lehrschwimmbecken und eine 55 Meter lange Indoor-Rutsche, im Sommer zusätzlich eine Aussenrutsche. Gut für Familien, wenn es draussen regnet.",
+   "tip": "Für Einzeleintritte brauchst du ein Chip-Armband – es gibt es an der Kasse. Bus 21 ab Thun hält bei «Oberhofen a.T., Wichterheergut».",
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 28
+   },
+   "priceInfo": {
+    "from": 13.5,
+    "unit": "Eintritt Erwachsene",
+    "note": "mit Sauna 30"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "17:45"
+      ]
+     ],
+     "1": [
+      [
+       "06:00",
+       "20:45"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "20:45"
+      ]
+     ],
+     "3": [
+      [
+       "06:00",
+       "20:45"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "20:45"
+      ]
+     ],
+     "5": [
+      [
+       "06:00",
+       "20:45"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "17:45"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.badi-info.ch/be/oberhofen.html",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Wichterheergut.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "alt": "Wichterheergut in Oberhofen am Thunersee",
+    "credit": "https://commons.wikimedia.org/wiki/File:Wichterheergut.jpeg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "il-w-panoramaweg-maennlichen",
+   "kind": "aktivitaet",
+   "name": "Panoramaweg Männlichen–Kleine Scheidegg",
+   "region": "interlaken",
+   "town": "Grindelwald",
+   "address": "Bergstation Männlichen, 3818 Grindelwald",
+   "coords": {
+    "lat": 46.61113,
+    "lng": 7.94361
+   },
+   "url": "https://www.jungfrau.ch",
+   "price": 3,
+   "tags": [
+    "wandern",
+    "berg",
+    "aussicht",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober",
+   "durationMin": 80,
+   "text": "Der Klassiker der Jungfrauregion: meist leicht abwärts von der Männlichen-Bergstation zur Kleinen Scheidegg, die ganze Zeit mit Eiger, Mönch und Jungfrau direkt vor dir. Breiter Weg, auch mit Kindern machbar.",
+   "tip": "Morgens fahren: Dann ist die Eigernordwand noch im Licht und die Wolken hängen meist erst ab Mittag.",
+   "hike": {
+    "km": 4.5,
+    "up": 70,
+    "down": 240,
+    "hours": 1.3,
+    "difficulty": "T1",
+    "start": "Männlichen",
+    "end": "Kleine Scheidegg",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Gondel Grindelwald Terminal–Männlichen und Rückfahrt ab Kleiner Scheidegg (Preise auf jungfrau.ch, Halbtax/Swiss Travel Pass gelten)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.interlaken.swiss/erlebnisse/tour/der-klassiker-im-jungfraugebiet",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Eiger_Moench_Jungfrau_mit_Maennlichen.jpg/1280px-Eiger_Moench_Jungfrau_mit_Maennlichen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Panoramaweg vom Männlichen mit Blick auf Eiger, Mönch und Jungfrau",
+    "credit": "https://commons.wikimedia.org/wiki/File:Eiger_Moench_Jungfrau_mit_Maennlichen.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "il-w-winterwanderweg-maennlichen",
+   "kind": "aktivitaet",
+   "name": "Winterwanderweg Männlichen–Kleine Scheidegg",
+   "region": "interlaken",
+   "town": "Grindelwald",
+   "address": "Bergstation Männlichen, 3818 Grindelwald",
+   "coords": {
+    "lat": 46.61113,
+    "lng": 7.94361
+   },
+   "url": "https://jungfrau.ch/de-ch/winterwandern",
+   "price": 3,
+   "tags": [
+    "wandern",
+    "berg",
+    "aussicht",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–März",
+   "durationMin": 120,
+   "text": "Im Winter führt ein präparierter Weg vom Männlichen über Gummi und Bustiglen zur Kleinen Scheidegg – mit der Eigernordwand als ständige Begleitung. Die Route ist länger als der Sommerweg, weil sie unterhalb der Pisten verläuft.",
+   "tip": "Gute Winterschuhe reichen, Stöcke helfen beim letzten Anstieg zur Scheidegg. Zurück geht es bequem mit der Wengernalpbahn.",
+   "hike": {
+    "km": 5.6,
+    "up": 240,
+    "down": 400,
+    "hours": 2,
+    "difficulty": "T1",
+    "start": "Männlichen",
+    "end": "Kleine Scheidegg",
+    "winter": true
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Gondel Grindelwald Terminal–Männlichen und Wengernalpbahn ab Kleiner Scheidegg (Preise auf jungfrau.ch)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "source": "https://www.interlaken.swiss/erlebnisse/tour/winterwanderung-vom-maennlichen-zur-kleinen-scheidegg",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Mannlichn_Royal_Walk_Winter.jpg/1280px-Mannlichn_Royal_Walk_Winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Männlichen im Winter",
+    "credit": "https://commons.wikimedia.org/wiki/File:Mannlichn_Royal_Walk_Winter.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "il-w-gruetschalp-muerren",
+   "kind": "aktivitaet",
+   "name": "Mountain View Trail Grütschalp–Mürren",
+   "region": "interlaken",
+   "town": "Lauterbrunnen",
+   "address": "Grütschalp, 3822 Lauterbrunnen",
+   "coords": {
+    "lat": 46.59656,
+    "lng": 7.89071
+   },
+   "url": "https://www.muerren.swiss",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "berg",
+    "aussicht",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Oktober",
+   "durationMin": 100,
+   "text": "Weniger überlaufen als die Jungfraujoch-Route: Von der Grütschalp gehst du leicht ansteigend über Alpweiden nach Mürren, gegenüber stehen Eiger, Mönch und Jungfrau. Das autofreie Mürren ist am Ziel ein guter Ort für ein Mittagessen.",
+   "tip": "Die Bahn Grütschalp–Mürren fährt parallel – wer müde wird, steigt an der Station Winteregg zu. Im Winter ist ein Winterwanderweg über Winteregg präpariert.",
+   "hike": {
+    "km": 4.5,
+    "up": 180,
+    "down": 40,
+    "hours": 1.7,
+    "difficulty": "T1",
+    "start": "Grütschalp",
+    "end": "Mürren",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Seilbahn Lauterbrunnen–Grütschalp, Rückfahrt ab Mürren (Swiss Travel Pass gilt)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.interlaken.swiss/erlebnisse/tour/wandern-im-angesicht-von-eiger-moench-und-jungfrau",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bahnhof_Gr%C3%BCtschalp_2018.jpg/1280px-Bahnhof_Gr%C3%BCtschalp_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Bahnstation Grütschalp, Start des Wegs nach Mürren",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bahnhof_Gr%C3%BCtschalp_2018.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "il-s-burgseeli",
+   "kind": "bad",
+   "name": "Naturstrandbad Burgseeli",
+   "region": "interlaken",
+   "town": "Goldswil",
+   "address": "Burgseeli, 3805 Goldswil",
+   "coords": {
+    "lat": 46.69743,
+    "lng": 7.88584
+   },
+   "url": "https://www.ringgenberg-goldswil.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "see",
+    "familie",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai–Mitte September",
+   "hours": "Mai/Sept. 11–19 Uhr, Juni–Aug. 9–20 Uhr (bei gutem Wetter)",
+   "durationMin": 150,
+   "text": "Ein kleiner Moorsee im Naturschutzgebiet oberhalb des Brienzersees, umgeben von Wald und Felsen. Weil er so klein ist, wird das Wasser im Sommer bis etwa 26 Grad warm – deutlich wärmer als die grossen Seen.",
+   "tip": "Bus ab Interlaken Ost bis «Ringgenberg, Anhöhe-Burgseeli». Mit Gästekarte gibt es 20 % Rabatt.",
+   "water": {
+    "type": "see",
+    "body": "Burgseeli",
+    "heated": false
+   },
+   "priceInfo": {
+    "from": 6,
+    "unit": "Eintritt Erwachsene",
+    "note": "20 % Rabatt mit Gästekarte"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.badi-info.ch/be/goldswil.html",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Burgseeli_Goldswil_Ringgenberg_1.jpg/1280px-Burgseeli_Goldswil_Ringgenberg_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Burgseeli bei Ringgenberg",
+    "credit": "https://commons.wikimedia.org/wiki/File:Burgseeli_Goldswil_Ringgenberg_1.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "il-s-hallenbad-grindelwald",
+   "kind": "bad",
+   "name": "Hallenbad Sportzentrum Grindelwald",
+   "region": "interlaken",
+   "town": "Grindelwald",
+   "address": "Dorfstrasse 110, 3818 Grindelwald",
+   "coords": {
+    "lat": 46.623,
+    "lng": 8.03552
+   },
+   "url": "https://www.sportzentrum-grindelwald.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "familie",
+    "wellness"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Revision im November)",
+   "hours": "Mo–Sa 10–20, So 10–18 Uhr",
+   "durationMin": 120,
+   "text": "Im Sportzentrum mitten im Dorf: Schwimmbecken, Kinderbassin, Sprungbrett und eine 70 Meter lange Rutsche, dazu eine Wellness-Oase. Bei Regen in der Jungfrauregion die naheliegendste Alternative.",
+   "tip": "Mit der Gästekarte zahlst du nur die Hälfte. Vom 2. bis 22. November 2026 ist wegen Revision geschlossen.",
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 28
+   },
+   "priceInfo": {
+    "from": 10,
+    "unit": "Eintritt Erwachsene",
+    "note": "50 % mit Gästekarte; Bad + Sauna 30"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.badi-info.ch/be/grindelwald-hallenbad.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "so-w-weissenstein-hasenmatt",
+   "kind": "aktivitaet",
+   "name": "Jurahöhenweg Weissenstein–Hasenmatt–Grenchenberg",
+   "region": "solothurn",
+   "town": "Oberdorf SO",
+   "address": "Weissenstein, 4515 Oberdorf SO",
+   "coords": {
+    "lat": 47.24217,
+    "lng": 7.45098
+   },
+   "url": "https://www.seilbahn-weissenstein.ch",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "berg",
+    "aussicht",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober",
+   "durationMin": 215,
+   "text": "Vom Weissenstein steigst du auf die Hasenmatt, den höchsten Punkt des Kantons Solothurn, und folgst dann dem Grat über die Stallflue zum Grenchenberg. Links das Mittelland mit der Alpenkette, rechts die Jurahöfe.",
+   "tip": "Am Grat zwischen Mürensattel und Stallflue gibt es exponierte Stellen – nur bei trockenem Wetter. Der Bus ab Untergrenchenberg fährt nur saisonal, Fahrplan vorher prüfen.",
+   "hike": {
+    "km": 11.6,
+    "up": 536,
+    "down": 520,
+    "hours": 3.6,
+    "difficulty": "T2",
+    "start": "Weissenstein (Seilbahn)",
+    "end": "Grenchen, Untergrenchenberg",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Gondelbahn Oberdorf SO–Weissenstein (einfach), Bus ab Untergrenchenberg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://wegwandern.ch/wanderung/weissenstein-hasenmatt-stallflue-obergrenchenberg-grenchen-unterer-grenchenberg-jura-hoehenweg/",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hasenmatt_von_der_R%C3%B6ti.jpg/1280px-Hasenmatt_von_der_R%C3%B6ti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Hasenmatt im Solothurner Jura von der Röti aus",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hasenmatt_von_der_R%C3%B6ti.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "so-w-aare-altreu",
+   "kind": "aktivitaet",
+   "name": "Aareweg Solothurn–Altreu (Storchendorf)",
+   "region": "solothurn",
+   "town": "Selzach",
+   "address": "Altreu, 2545 Selzach",
+   "coords": {
+    "lat": 47.19263,
+    "lng": 7.44799
+   },
+   "url": "https://www.solothurn-city.ch",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "familie",
+    "gratis",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (Störche März–August)",
+   "durationMin": 140,
+   "text": "Flach der Aare entlang flussaufwärts, durch Auen und Felder bis nach Altreu, wo seit Jahrzehnten Weissstörche auf Dächern und Masten brüten. Ein ruhiger Spaziergang ohne Steigung, der auch im Winter geht.",
+   "tip": "Zurück nimmst du im Sommer das Kursschiff der Bielersee-Schifffahrt ab Altreu nach Solothurn. Der Bus nach Altreu fährt nur bis etwa 20 Uhr.",
+   "hike": {
+    "km": 9.8,
+    "up": 20,
+    "down": 20,
+    "hours": 2.3,
+    "difficulty": "T1",
+    "start": "Solothurn",
+    "end": "Altreu",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Rückweg extra: Bus ab Altreu oder Schiff (BSG, Sommer)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://unterwegs.sob.ch/en/tour/grenchen-altreu-solothurn",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Altreu_St%C3%B6rche_7683.jpg/1280px-Altreu_St%C3%B6rche_7683.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Störche auf einem Nest in Altreu",
+    "credit": "https://commons.wikimedia.org/wiki/File:Altreu_St%C3%B6rche_7683.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "so-w-verenaschlucht-weissenstein",
+   "kind": "aktivitaet",
+   "name": "Solothurn–Verenaschlucht–Weissenstein",
+   "region": "solothurn",
+   "town": "Rüttenen",
+   "address": "Verenaschlucht, 4522 Rüttenen",
+   "coords": {
+    "lat": 47.22191,
+    "lng": 7.53822
+   },
+   "url": "https://www.solothurn-city.ch",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "berg",
+    "kultur"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober",
+   "durationMin": 275,
+   "text": "Du startest in der Altstadt, gehst durch die schattige Verenaschlucht zur Einsiedelei mit Kapellen im Fels und steigst danach durch Wald und Weiden bis auf den Weissenstein. Oben erwartet dich der Blick über das Mittelland bis zu den Alpen.",
+   "tip": "Wem der ganze Aufstieg zu viel ist: Die Schlucht allein ist eine schöne Stunde – danach zurück nach Solothurn oder mit dem Bus ab Rüttenen.",
+   "hike": {
+    "km": 13.1,
+    "up": 900,
+    "down": 50,
+    "hours": 4.6,
+    "difficulty": "T1",
+    "start": "Solothurn",
+    "end": "Weissenstein (Seilbahn)",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Rückweg extra: Gondelbahn Weissenstein–Oberdorf SO und Bahn nach Solothurn"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://wegwandern.ch/wanderung/solothurn-verenaschlucht-einsiedelei-weissenstein-oberdorf-wanderung-wandern/",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Verenaschlucht_Nov_2015_Fussweg.jpg/1280px-Verenaschlucht_Nov_2015_Fussweg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Fussweg durch die Verenaschlucht",
+    "credit": "https://commons.wikimedia.org/wiki/File:Verenaschlucht_Nov_2015_Fussweg.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "so-s-freibad-solothurn",
+   "kind": "bad",
+   "name": "Fluss- und Freibad Solothurn",
+   "region": "solothurn",
+   "town": "Solothurn",
+   "address": "Römerstrasse 49, 4500 Solothurn",
+   "coords": {
+    "lat": 47.19872,
+    "lng": 7.52626
+   },
+   "url": "https://www.freibad-solothurn.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "familie",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September",
+   "hours": "Mai/Sept. 8–19 Uhr, Juni–Aug. 8–20 Uhr",
+   "durationMin": 180,
+   "text": "Solarbeheizte Becken und direkt daneben die Aare, in der geübte Schwimmer unter Aufsicht schwimmen dürfen – inklusive Floss im Fluss. An einigen Sommerabenden gibt es Nachtschwimmen.",
+   "tip": "Mitte August findet das Solothurner Aareschwimmen statt – dann ist hier besonders viel los.",
+   "water": {
+    "type": "freibad",
+    "body": "Aare",
+    "heated": true
+   },
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 7–16 Jahre 4"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.badi-info.ch/a/solothurn.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "so-s-hallenbad-solothurn",
+   "kind": "bad",
+   "name": "Hallenbad Solothurn",
+   "region": "solothurn",
+   "town": "Solothurn",
+   "address": "Obere Sternengasse 1, 4500 Solothurn",
+   "coords": {
+    "lat": 47.21208,
+    "lng": 7.54451
+   },
+   "url": "https://www.hallenbad-solothurn.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "Ende September–Anfang Mai",
+   "hours": "Schulzeit: Mo/Mi/Fr 14–18, Di/Do 18–21, Sa 9–18, So 9–17 Uhr",
+   "durationMin": 90,
+   "text": "Das städtische Hallenbad gleich ausserhalb der Altstadt für die Wintermonate: einfaches Schwimmbecken mit rund 28 Grad Wasser. Im Sommer ist es geschlossen, dann übernimmt das Freibad an der Aare.",
+   "tip": "Unter der Woche ist tagsüber erst ab 14 Uhr offen – vormittags gehen nur am Wochenende.",
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 28
+   },
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "Saison 2026/27: 22.9.2026–5.5.2027"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "2": [
+      [
+       "18:00",
+       "21:00"
+      ]
+     ],
+     "3": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "18:00",
+       "21:00"
+      ]
+     ],
+     "5": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ]
+    },
+    "months": [
+     9,
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "source": "https://www.badi-info.ch/a/solothurn-hallenbad.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "gr-w-gorges-de-la-jogne",
+   "kind": "aktivitaet",
+   "name": "Gorges de la Jogne (Charmey–Broc)",
+   "region": "gruyeres",
+   "town": "Broc",
+   "address": "Gorges de la Jogne, 1636 Broc",
+   "coords": {
+    "lat": 46.60819,
+    "lng": 7.11943
+   },
+   "url": "https://www.la-gruyere.ch",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "gratis",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober",
+   "durationMin": 150,
+   "text": "Von Charmey wanderst du am Stausee von Montsalvens vorbei und dann durch die rund 1,3 Kilometer lange Schlucht der Jogne mit Stegen, Treppen und bis 110 Meter hohen Felswänden. Ziel ist Broc – direkt bei der Maison Cailler.",
+   "tip": "Den Abschluss bei der Schokoladenfabrik Cailler in Broc-Fabrique einplanen. Nach Unwettern oder bei Eis ist der Schluchtweg gesperrt – vorher bei La Gruyère Tourisme nachfragen.",
+   "hike": {
+    "km": 9,
+    "up": 150,
+    "down": 350,
+    "hours": 2.5,
+    "difficulty": "T2",
+    "start": "Charmey (Gruyère), village",
+    "end": "Broc-Fabrique",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn/Bus extra: Bus nach Charmey, Bahn ab Broc-Fabrique"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://fr.wikipedia.org/wiki/Gorges_de_la_Jogne",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Gorges_de_la_Jogne_%2849424329767%29.jpg/1280px-Gorges_de_la_Jogne_%2849424329767%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Felsschlucht der Jogne bei Broc",
+    "credit": "https://commons.wikimedia.org/wiki/File:Gorges_de_la_Jogne_(49424329767).jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "gr-w-gruyeres-chapelle-des-marches",
+   "kind": "aktivitaet",
+   "name": "Gruyères–Chapelle des Marches–Broc",
+   "region": "gruyeres",
+   "town": "Broc",
+   "address": "Chapelle Notre-Dame des Marches, 1636 Broc",
+   "coords": null,
+   "url": "https://www.la-gruyere.ch",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "kultur",
+    "gratis",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 105,
+   "text": "Ein ruhiger Talweg vom Bahnhof Gruyères hinunter an die Saane und zur Wallfahrtskapelle Notre-Dame des Marches, dann weiter nach Broc. Das Schloss Greyerz siehst du dabei von unten auf seinem Hügel thronen.",
+   "tip": "Lässt sich gut mit der Maison Cailler in Broc verbinden – oder umgekehrt als Verdauungsspaziergang nach der Schokolade.",
+   "hike": {
+    "km": 6,
+    "up": 120,
+    "down": 160,
+    "hours": 1.75,
+    "difficulty": "T1",
+    "start": "Gruyères",
+    "end": "Broc-Fabrique",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Gruyères und Broc-Fabrique liegen an der TPF-Linie ab Bulle"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.la-gruyere.ch",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Notre_Dame_des_Marches_Jul_2011.jpg/1280px-Notre_Dame_des_Marches_Jul_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Kapelle Notre-Dame des Marches bei Broc",
+    "credit": "https://commons.wikimedia.org/wiki/File:Notre_Dame_des_Marches_Jul_2011.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "gr-s-piscine-charmey",
+   "kind": "bad",
+   "name": "Piscine couverte Charmey",
+   "region": "gruyeres",
+   "town": "Charmey",
+   "address": "Riau de la Maula 1, 1637 Charmey",
+   "coords": {
+    "lat": 46.62207,
+    "lng": 7.1582
+   },
+   "url": "https://fribourg.ch/fr/la-gruyere/piscines/piscine-couverte-de-charmey/",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (wechselnde Öffnungszeiten)",
+   "durationMin": 90,
+   "text": "Das Hallenbad im Sport- und Freizeitzentrum von Charmey hat ein 25-Meter-Becken mit 28 Grad warmem Wasser. Die günstige, sportliche Alternative zur Therme Bains de la Gruyère ein paar Schritte weiter.",
+   "tip": "Die Öffnungszeiten wechseln je nach Schulbetrieb – vorher auf der Gemeindeseite von Val-de-Charmey nachsehen.",
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 28
+   },
+   "priceInfo": {
+    "from": 10.5,
+    "unit": "Eintritt Erwachsene",
+    "note": "10er-Karte 95"
+   },
+   "source": "https://www.badi-info.ch/a/charmey.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "zm-w-hoernlihuette",
+   "kind": "aktivitaet",
+   "name": "Schwarzsee–Hörnlihütte (Matterhorn-Basislager)",
+   "region": "zermatt",
+   "town": "Zermatt",
+   "address": "Hörnlihütte, 3920 Zermatt",
+   "coords": {
+    "lat": 45.9822,
+    "lng": 7.67701
+   },
+   "url": "https://www.hoernlihuette.ch",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "berg",
+    "aussicht",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Juli–September",
+   "durationMin": 240,
+   "text": "Ab der Bergstation Schwarzsee steigst du auf dem Hörnligrat bis zur Hütte auf 3260 Metern, wo die Matterhorn-Besteigungen beginnen. Die letzten Abschnitte führen über Treppen und versicherte Stellen direkt an der Matterhornflanke.",
+   "tip": "Nur bei sicherem Wetter und mit Bergschuhen gehen – oben kann es auch im August schneien. Ein Teller Suppe auf der Hüttenterrasse ist das verdiente Ziel.",
+   "hike": {
+    "km": 8,
+    "up": 680,
+    "down": 680,
+    "hours": 4,
+    "difficulty": "T3",
+    "start": "Schwarzsee (Matterhorn Glacier Paradise)",
+    "end": "Schwarzsee (Matterhorn Glacier Paradise)",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Zermatt–Schwarzsee retour (Matterhorn Glacier Paradise, Preise auf matterhornparadise.ch)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://de.wikipedia.org/wiki/Hörnlihütte",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/H%C3%B6rnlih%C3%BCtte_2016.jpg/1280px-H%C3%B6rnlih%C3%BCtte_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Hörnlihütte am Fuss des Matterhorns",
+    "credit": "https://commons.wikimedia.org/wiki/File:H%C3%B6rnlih%C3%BCtte_2016.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "zm-w-zermatt-zmutt-furi",
+   "kind": "aktivitaet",
+   "name": "Zermatt–Zmutt–Furi",
+   "region": "zermatt",
+   "town": "Zermatt",
+   "address": "Zmutt, 3920 Zermatt",
+   "coords": {
+    "lat": 46.00648,
+    "lng": 7.71709
+   },
+   "url": "https://zermatt.swiss",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "kultur",
+    "genuss",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober",
+   "durationMin": 105,
+   "text": "Vom Dorf steigst du durch Lärchenwald zum Weiler Zmutt mit sonnengeschwärzten Stadeln und einer kleinen Kapelle, das Matterhorn immer im Blick. Danach geht es auf einem Höhenweg hinüber nach Furi, von wo die Gondel zurück ins Dorf fährt.",
+   "tip": "In Zmutt gibt es zwei Restaurants mit Terrasse – ideal für eine lange Mittagspause.",
+   "hike": {
+    "km": 5,
+    "up": 330,
+    "down": 70,
+    "hours": 1.75,
+    "difficulty": "T2",
+    "start": "Zermatt",
+    "end": "Furi (Matterhorn Glacier Paradise)",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Rückfahrt Furi–Zermatt mit der Gondel extra – oder zu Fuss in 45 Min. hinunter"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://zermatt.swiss"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "zm-w-winterwanderweg-furi-zmutt",
+   "kind": "aktivitaet",
+   "name": "Winterwanderweg Furi–Zmutt–Zermatt",
+   "region": "zermatt",
+   "town": "Zermatt",
+   "address": "Furi, 3920 Zermatt",
+   "coords": {
+    "lat": 46.00196,
+    "lng": 7.7302
+   },
+   "url": "https://zermatt.swiss",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "berg",
+    "aussicht",
+    "genuss"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–April",
+   "durationMin": 90,
+   "text": "Im Winter fährst du mit der Gondel nach Furi und gehst auf gepfadetem Weg hinüber nach Zmutt und weiter hinunter ins Dorf. Abseits der Pisten, mit dem verschneiten Matterhorn als Kulisse.",
+   "tip": "Bei Lawinengefahr können Teilstücke gesperrt sein – die aktuelle Wegkarte gibt es bei Zermatt Tourismus.",
+   "hike": {
+    "km": 4.5,
+    "up": 80,
+    "down": 340,
+    "hours": 1.5,
+    "difficulty": "T1",
+    "start": "Furi (Matterhorn Glacier Paradise)",
+    "end": "Zermatt",
+    "winter": true
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Gondel Zermatt–Furi (einfach)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3,
+     4
+    ]
+   },
+   "source": "https://zermatt.swiss"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "zm-s-leisee",
+   "kind": "bad",
+   "name": "Leisee bei Sunnegga",
+   "region": "zermatt",
+   "town": "Zermatt",
+   "address": "Leisee, Sunnegga, 3920 Zermatt",
+   "coords": {
+    "lat": 46.01497,
+    "lng": 7.77268
+   },
+   "url": "https://www.matterhornparadise.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "see",
+    "berg",
+    "familie",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "Juli–August",
+   "durationMin": 120,
+   "text": "Ein Bergsee auf rund 2230 Metern gleich unterhalb der Station Sunnegga – mit Kinderplanschbecken, Grillstellen und dem Matterhorn als Spiegelbild. Das Wasser bleibt frisch, aber an warmen Tagen wagen viele den Sprung.",
+   "tip": "Von der Bergstation Sunnegga fährt ein kleiner Schrägaufzug hinunter zum See. Früh am Morgen ist das Spiegelbild des Matterhorns am klarsten.",
+   "water": {
+    "type": "see",
+    "body": "Leisee",
+    "heated": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Sunnegga Express ab Zermatt (Preise auf matterhornparadise.ch)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     7,
+     8
+    ]
+   },
+   "source": "https://www.matterhornparadise.ch"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "zm-s-thermalbad-brigerbad",
+   "kind": "bad",
+   "name": "Thermalbad Brigerbad",
+   "region": "zermatt",
+   "town": "Brigerbad",
+   "address": "Thermalbad 1, 3900 Brigerbad",
+   "coords": {
+    "lat": 46.30266,
+    "lng": 7.93179
+   },
+   "url": "https://thermalbad-wallis.ch",
+   "price": 2,
+   "tags": [
+    "baden",
+    "wellness",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 9–21 Uhr",
+   "durationMin": 180,
+   "text": "Das Thermalbad im Rhonetal zwischen Visp und Brig hat Becken von 28 bis 37 Grad und eine Thermalgrotte mit 40–42 Grad warmem Wasser im Fels. Ein guter Halt auf der An- oder Rückreise nach Zermatt.",
+   "tip": "Die Grotte ist erst ab 16 Jahren. Postauto ab Brig oder Visp bis «Brigerbad, Thermalbad». Das Olympiabecken und die lange Rutsche sind nur im Sommer offen.",
+   "water": {
+    "type": "therme",
+    "heated": true,
+    "tempC": 36
+   },
+   "priceInfo": {
+    "from": 30,
+    "unit": "Eintritt Erwachsene",
+    "note": "3 Stunden Therme; Spa 40; Kinder unter 10 gratis mit Erwachsenen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.badi-info.ch/a/brigerbad.html",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/13/Thermalbad_Brigerbad_und_Grotte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "alt": "Thermalbad Brigerbad mit Grotte",
+    "credit": "https://commons.wikimedia.org/wiki/File:Thermalbad_Brigerbad_und_Grotte.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "ge-w-vallon-allondon",
+   "kind": "aktivitaet",
+   "name": "Vallon de l'Allondon",
+   "region": "genf",
+   "town": "Dardagny",
+   "address": "Route de l'Allondon 150, 1283 Dardagny",
+   "coords": {
+    "lat": 46.21604,
+    "lng": 5.99576
+   },
+   "url": "https://www.ge.ch",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (schönste Zeit April–Juni)",
+   "durationMin": 120,
+   "text": "Das wildeste Stück Natur im Kanton Genf: Die Allondon mäandert durch ein Naturschutz- und Ramsar-Gebiet mit Kiesbänken, Auenwald und Trockenwiesen, früher wurde hier sogar Gold gewaschen. Ein Rundgang ab dem Centre Nature in Malval führt durchs Tal.",
+   "tip": "Das Centre Nature mit Buvette ist Treffpunkt für Führungen von Pro Natura. Baden ist bei niedrigem Wasserstand teils verboten – Schilder beachten.",
+   "hike": {
+    "km": 6,
+    "up": 120,
+    "down": 120,
+    "hours": 2,
+    "difficulty": "T1",
+    "start": "Dardagny, Malval",
+    "end": "Dardagny, Malval",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn/Bus extra: Regionalzug nach Satigny oder La Plaine, Bus nach Dardagny"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://fr.wikipedia.org/wiki/Allondon",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Allondon_%40_Dardagny_%2850894795006%29.jpg/1280px-Allondon_%40_Dardagny_%2850894795006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Die Allondon bei Dardagny",
+    "credit": "https://commons.wikimedia.org/wiki/File:Allondon_@_Dardagny_(50894795006).jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "ge-s-baignade-rhone-jonction",
+   "kind": "bad",
+   "name": "Baden im Rhône – Sentier des Saules / Jonction",
+   "region": "genf",
+   "town": "Genève",
+   "address": "Sentier des Saules, 1205 Genève",
+   "coords": {
+    "lat": 46.20117,
+    "lng": 6.12611
+   },
+   "url": "https://www.geneve.com",
+   "price": 1,
+   "tags": [
+    "baden",
+    "gratis",
+    "freunde",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Juli–August",
+   "durationMin": 90,
+   "text": "Im Hochsommer lassen sich die Genferinnen und Genfer vom Sentier des Saules aus die Rhône hinuntertreiben bis kurz vor die Pointe de la Jonction, wo das trübe Wasser der Arve dazukommt. Am Ufer liegen Leute auf den Betonstufen, abends gibt es Buvettes.",
+   "tip": "Rechtzeitig vor der Jonction aussteigen – die Strömung ist stark und die Arve eiskalt. Nur für sichere Schwimmerinnen und Schwimmer.",
+   "water": {
+    "type": "fluss",
+    "body": "Rhône",
+    "heated": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     7,
+     8
+    ]
+   },
+   "source": "https://www.geneve.com",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Sentier_des_Saules_%40_Rh%C3%B4ne_%40_Gen%C3%A8ve_%2850519949708%29.jpg/1280px-Sentier_des_Saules_%40_Rh%C3%B4ne_%40_Gen%C3%A8ve_%2850519949708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Rhône am Sentier des Saules in Genf",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sentier_des_Saules_@_Rh%C3%B4ne_@_Gen%C3%A8ve_(50519949708).jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "ge-s-geneve-plage",
+   "kind": "bad",
+   "name": "Genève-Plage",
+   "region": "genf",
+   "town": "Cologny",
+   "address": "Quai de Cologny 5, 1223 Cologny",
+   "coords": {
+    "lat": 46.21402,
+    "lng": 6.17302
+   },
+   "url": "https://www.geneve-plage.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "see",
+    "familie",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai–Ende September",
+   "durationMin": 180,
+   "text": "Das grosse Seebad am Port-Noir: 50-Meter-Becken mit Sprungturm, ein bewachter Kiesstrand am Genfersee und viel Wiese. Seit den 1930er-Jahren das Familienbad der Genfer.",
+   "tip": "Bus 2 oder 6 bis «Genève-Plage» – oder vom Jet d’eau zu Fuss der Uferpromenade entlang in rund 30 Minuten.",
+   "water": {
+    "type": "see",
+    "body": "Genfersee",
+    "heated": true
+   },
+   "priceInfo": {
+    "from": 7,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–15 Jahre 3.50; Saison 2026: 14.5.–27.9."
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.geneve-plage.ch",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Gen%C3%A8ve-plage-01.jpg/1280px-Gen%C3%A8ve-plage-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Becken und Seeufer von Genève-Plage",
+    "credit": "https://commons.wikimedia.org/wiki/File:Gen%C3%A8ve-plage-01.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "ge-s-piscine-des-vernets",
+   "kind": "bad",
+   "name": "Piscine des Vernets",
+   "region": "genf",
+   "town": "Genève",
+   "address": "Rue Hans-Wilsdorf 4, 1227 Les Acacias",
+   "coords": {
+    "lat": 46.19524,
+    "lng": 6.13376
+   },
+   "url": "https://www.geneve.ch/fr/piscine-vernets",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "aktiv"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mo 12–22, Di–Do 7–20, Fr 7–22, Sa 7–19, So 9–19 Uhr",
+   "durationMin": 90,
+   "text": "Die grosse städtische Schwimmhalle an der Arve hat ein 50-Meter-Becken – ideal, wenn du im Winter richtig Längen schwimmen willst. Im Sommer kommen Aussenbecken dazu.",
+   "tip": "Die Zeiten ändern sich wegen Vereinstrainings oft – vorher den Monatskalender der Stadt Genf ansehen.",
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "priceInfo": {
+    "from": 7,
+    "unit": "Eintritt Erwachsene",
+    "note": "10er-Karte 63"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "1": [
+      [
+       "12:00",
+       "22:00"
+      ]
+     ],
+     "2": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "07:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "07:00",
+       "22:00"
+      ]
+     ],
+     "6": [
+      [
+       "07:00",
+       "19:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.badi-info.ch/a/les-acacias.html",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Piscine_des_Vernets%2C_Gen%C3%A8ve-01.jpg/1280px-Piscine_des_Vernets%2C_Gen%C3%A8ve-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Piscine des Vernets in Genf",
+    "credit": "https://commons.wikimedia.org/wiki/File:Piscine_des_Vernets,_Gen%C3%A8ve-01.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "la-w-rives-du-lac-morges",
+   "kind": "aktivitaet",
+   "name": "Uferweg Lausanne-Ouchy–Morges",
+   "region": "lausanne",
+   "town": "Lausanne",
+   "address": "Place de la Navigation, 1006 Lausanne",
+   "coords": {
+    "lat": 46.5068,
+    "lng": 6.6269
+   },
+   "url": "https://www.lausanne-tourisme.ch",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "see",
+    "gratis",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 180,
+   "text": "Ein flacher Seeweg von Ouchy über den Park von Vidy mit den römischen Ruinen, vorbei an Stränden und durch Saint-Sulpice bis nach Morges. Rechts der Genfersee, gegenüber die Savoyer Alpen.",
+   "tip": "In Morges lohnt das Schloss und im Frühling das Tulpenfest im Parc de l’Indépendance. Zurück mit dem Zug in 10 Minuten oder im Sommer mit dem CGN-Schiff.",
+   "hike": {
+    "km": 12,
+    "up": 40,
+    "down": 40,
+    "hours": 3,
+    "difficulty": "T1",
+    "start": "Lausanne-Ouchy",
+    "end": "Morges",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Morges–Lausanne"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.lausanne-tourisme.ch",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Sentier_de_la_Roseli%C3%A8re%2C_Saint-Sulpice.jpg/1280px-Sentier_de_la_Roseli%C3%A8re%2C_Saint-Sulpice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Uferweg bei Saint-Sulpice zwischen Lausanne und Morges",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sentier_de_la_Roseli%C3%A8re,_Saint-Sulpice.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "la-w-gorges-du-chauderon",
+   "kind": "aktivitaet",
+   "name": "Gorges du Chauderon (Montreux–Les Avants)",
+   "region": "lausanne",
+   "town": "Montreux",
+   "address": "Gorges du Chauderon, 1820 Montreux",
+   "coords": null,
+   "url": "https://www.montreuxriviera.com",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober",
+   "durationMin": 120,
+   "text": "Über Montreux steigst du durch die schattige Schlucht der Baye de Montreux bergauf, über Brücken und an alten Mühlen vorbei, bis zum Kurort Les Avants. Im Frühling blühen dort oben die Narzissenwiesen.",
+   "tip": "Der Schluchtweg ist nach Steinschlag oder Unwettern manchmal gesperrt – vorher bei Montreux Riviera nachfragen. Zurück mit der MOB-Bahn ab Les Avants.",
+   "hike": {
+    "km": 5,
+    "up": 600,
+    "down": 30,
+    "hours": 2,
+    "difficulty": "T2",
+    "start": "Montreux",
+    "end": "Les Avants",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: MOB Les Avants–Montreux"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.montreuxriviera.com"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "la-s-bellerive-plage",
+   "kind": "bad",
+   "name": "Bellerive-Plage",
+   "region": "lausanne",
+   "town": "Lausanne",
+   "address": "Avenue de Rhodanie 23, 1007 Lausanne",
+   "coords": {
+    "lat": 46.51176,
+    "lng": 6.61663
+   },
+   "url": "https://www.lausanne.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "see",
+    "kultur",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai–Mitte September",
+   "hours": "Mai–Ende August 9.30–20 Uhr, danach bis 19.30 Uhr",
+   "durationMin": 180,
+   "text": "Das Strandbad von 1937 im Stil der Moderne liegt zwischen Ouchy und Vidy: grosses Becken, Sprunganlage und ein 350 Meter langer bewachter Strand am Genfersee. Die Architektur allein ist einen Besuch wert.",
+   "tip": "Ab 17 Uhr kostet der Eintritt nur noch 4.50 – perfekt für einen Abendschwumm nach der Arbeit.",
+   "water": {
+    "type": "see",
+    "body": "Genfersee",
+    "heated": false
+   },
+   "priceInfo": {
+    "from": 6,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 17 Uhr 4.50; Kinder 6–16 Jahre 3; Saison 2026: 14.5.–13.9."
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:30",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:30",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:30",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:30",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:30",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:30",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:30",
+       "20:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.badi-info.ch/a/lausanne-bellerive.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "la-s-piscine-mon-repos",
+   "kind": "bad",
+   "name": "Piscine de Mon-Repos",
+   "region": "lausanne",
+   "town": "Lausanne",
+   "address": "Avenue du Tribunal-Fédéral 4, 1005 Lausanne",
+   "coords": {
+    "lat": 46.51978,
+    "lng": 6.64062
+   },
+   "url": "https://www.lausanne.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mo/Di/Do 7–21.15, Mi 8.30–21.15, Fr 7–17.30, Sa 9–17.30, So 9–18.30 Uhr",
+   "durationMin": 90,
+   "text": "Das Hallenbad beim Park Mon-Repos hat ein 25-Meter-Becken mit 26 Grad, eine Sprunggrube mit 3-Meter-Plattform und ein Nichtschwimmerbecken. Zentral gelegen und günstig.",
+   "tip": "Mittags unter der Woche (11.30–13.30) und ab 17 Uhr ist der Eintritt reduziert.",
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 26
+   },
+   "priceInfo": {
+    "from": 6,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 17 Uhr 4.50"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "18:30"
+      ]
+     ],
+     "1": [
+      [
+       "07:00",
+       "21:15"
+      ]
+     ],
+     "2": [
+      [
+       "07:00",
+       "21:15"
+      ]
+     ],
+     "3": [
+      [
+       "08:30",
+       "21:15"
+      ]
+     ],
+     "4": [
+      [
+       "07:00",
+       "21:15"
+      ]
+     ],
+     "5": [
+      [
+       "07:00",
+       "17:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.badi-info.ch/a/lausanne.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "lug-w-traversata-lema-tamaro",
+   "kind": "aktivitaet",
+   "name": "Gratwanderung Monte Lema–Monte Tamaro",
+   "region": "lugano",
+   "town": "Miglieglia",
+   "address": "Funivia Monte Lema, 6986 Miglieglia",
+   "coords": {
+    "lat": 46.04052,
+    "lng": 8.83284
+   },
+   "url": "https://www.montetamaro.ch",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "berg",
+    "aussicht",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober",
+   "durationMin": 270,
+   "text": "Die klassische Tessiner Kammwanderung: vom Monte Lema über mehrere Gipfel auf der Grenze zu Italien bis zum Monte Tamaro, mit Blick auf Lago Maggiore und Luganersee zugleich. Am Ziel bei Alpe Foppa steht die Kirche Santa Maria degli Angeli von Mario Botta.",
+   "tip": "Früh starten – unterwegs gibt es kaum Schatten und kein Wasser. Die Gondel ab Alpe Foppa fährt nur bis etwa 16.30 Uhr, letzte Fahrt vorher prüfen.",
+   "hike": {
+    "km": 13,
+    "up": 700,
+    "down": 800,
+    "hours": 4.5,
+    "difficulty": "T2",
+    "start": "Miglieglia (Seilbahn Monte Lema)",
+    "end": "Rivera-Bironico (Gondel ab Alpe Foppa)",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahnen extra: Seilbahn Miglieglia–Monte Lema und Gondel Alpe Foppa–Rivera (je einfach; Preise auf montelema.ch / montetamaro.ch)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://de.wikipedia.org/wiki/Monte_Lema"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "lug-w-monte-san-giorgio",
+   "kind": "aktivitaet",
+   "name": "Monte San Giorgio ab Meride",
+   "region": "lugano",
+   "town": "Meride",
+   "address": "Museo dei fossili, 6866 Meride",
+   "coords": {
+    "lat": 45.91376,
+    "lng": 8.94989
+   },
+   "url": "https://www.montesangiorgio.org",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "kultur",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (bei trockenem Wetter)",
+   "durationMin": 180,
+   "text": "Der UNESCO-Welterbe-Berg über dem Luganersee ist berühmt für 240 Millionen Jahre alte Meeressaurier-Fossilien. Vom Dorf Meride mit seinem Fossilienmuseum führt ein Rundweg mit Infotafeln durch Kastanienwald auf den Gipfel und zurück.",
+   "tip": "Vorher oder nachher das Fossilienmuseum in Meride besuchen – der Bau von Mario Botta zeigt die Funde, die auf der Wanderung erklärt werden.",
+   "hike": {
+    "km": 9,
+    "up": 520,
+    "down": 520,
+    "hours": 3,
+    "difficulty": "T2",
+    "start": "Meride, Paese",
+    "end": "Meride, Paese",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn/Bus extra: Bahn bis Mendrisio, Bus nach Meride"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.montesangiorgio.org",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Monte_san_giorgio_da_est.JPG/1280px-Monte_san_giorgio_da_est.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Monte San Giorgio über dem Luganersee",
+    "credit": "https://commons.wikimedia.org/wiki/File:Monte_san_giorgio_da_est.JPG"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "lug-s-lido-riva-caccia",
+   "kind": "bad",
+   "name": "Lido Riva Caccia",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Riva Antonio Caccia, 6900 Lugano",
+   "coords": {
+    "lat": 45.99573,
+    "lng": 8.94713
+   },
+   "url": "https://www.lugano.ch/vivere-lugano/cultura-e-tempo-libero/lidi-e-piscine/lido-riva-caccia.html",
+   "price": 2,
+   "tags": [
+    "baden",
+    "see",
+    "romantisch",
+    "genuss"
+   ],
+   "weatherProof": false,
+   "season": "Ende Mai–Mitte September",
+   "hours": "täglich 9–19.30 Uhr",
+   "durationMin": 150,
+   "text": "Ein Seebad auf schwimmenden Plattformen mitten im Golf von Lugano, nur ein paar Schritte vom Zentrum – die Tradition des «bagno galleggiante» reicht bis 1889 zurück. Du springst vom 1- oder 3-Meter-Brett direkt in den See.",
+   "tip": "Der Liegestuhl ist im Eintritt inbegriffen – früh kommen lohnt sich, die Plattform ist klein.",
+   "water": {
+    "type": "see",
+    "body": "Luganersee",
+    "heated": false
+   },
+   "priceInfo": {
+    "from": 15,
+    "unit": "Eintritt Erwachsene",
+    "note": "inkl. Liegestuhl; Saison 2026: 25.5.–20.9."
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.lugano.ch/vivere-lugano/cultura-e-tempo-libero/lidi-e-piscine/lido-riva-caccia.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "lug-s-lido-di-lugano",
+   "kind": "bad",
+   "name": "Lido di Lugano",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Via Lido, 6906 Lugano",
+   "coords": {
+    "lat": 46.00471,
+    "lng": 8.96332
+   },
+   "url": "https://www.lugano.ch/vivere-lugano/cultura-e-tempo-libero/lidi-e-piscine/lido-lugano.html",
+   "price": 1,
+   "tags": [
+    "baden",
+    "see",
+    "familie",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September",
+   "hours": "Mai/Sept. 9–19 Uhr, Juni–Aug. 9–19.30 Uhr",
+   "durationMin": 180,
+   "text": "Das grosse Strandbad an der Mündung des Cassarate: Sandstrand am Luganersee, beheiztes 50-Meter-Becken und viel Rasen mit Blick auf den Monte Brè. Im Winter wird das Olympiabecken mit einer Traglufthalle («Pallone») überdacht.",
+   "tip": "Ab Mittag gilt ein deutlich günstigerer Tarif. Mit dem Bus 2 bis «Lido» oder zu Fuss über die Seepromenade vom Parco Ciani.",
+   "water": {
+    "type": "see",
+    "body": "Luganersee",
+    "heated": true
+   },
+   "priceInfo": {
+    "from": 11,
+    "unit": "Eintritt Erwachsene",
+    "note": "Mittags-/Abendtarif 5.50; Saison 2026: 1.5.–20.9."
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "19:30"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.badi-info.ch/ti/lugano-lido.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "lug-s-piscina-coperta",
+   "kind": "bad",
+   "name": "Piscina coperta Lugano",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Viale Castagnola 4, 6906 Lugano",
+   "coords": {
+    "lat": 46.00561,
+    "lng": 8.96195
+   },
+   "url": "https://www.lugano.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "wellness"
+   ],
+   "weatherProof": true,
+   "season": "September–Mai",
+   "hours": "Mo–Fr 8.30–21.30, Sa/So 10–19 Uhr",
+   "durationMin": 90,
+   "text": "Das städtische Hallenbad gleich neben dem Lido mit Schwimmbecken und Sauna – die Wahl, wenn es im Tessin auch mal regnet oder im Winter. Von Juni bis August ist es geschlossen.",
+   "tip": "Die Sauna ist an bestimmten Tagen getrennt nach Frauen und Männern – gemischt ist sie mittwochs und sonntags.",
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "priceInfo": {
+    "from": 11,
+    "unit": "Eintritt Erwachsene",
+    "note": "Sauna 2 Std. 10 extra"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:30",
+       "21:30"
+      ]
+     ],
+     "2": [
+      [
+       "08:30",
+       "21:30"
+      ]
+     ],
+     "3": [
+      [
+       "08:30",
+       "21:30"
+      ]
+     ],
+     "4": [
+      [
+       "08:30",
+       "21:30"
+      ]
+     ],
+     "5": [
+      [
+       "08:30",
+       "21:30"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ]
+    },
+    "months": [
+     9,
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "source": "https://www.badi-info.ch/ti/lugano-piscina-coperta.html"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "lo-w-sentierone-verzasca",
+   "kind": "aktivitaet",
+   "name": "Sentierone Valle Verzasca (Sonogno–Lavertezzo)",
+   "region": "locarno",
+   "town": "Sonogno",
+   "address": "Sonogno, 6637 Verzasca",
+   "coords": {
+    "lat": 46.35031,
+    "lng": 8.78633
+   },
+   "url": "https://www.ascona-locarno.com",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "familie",
+    "gratis",
+    "kultur"
+   ],
+   "weatherProof": false,
+   "season": "April–November",
+   "durationMin": 210,
+   "text": "Der alte Talweg folgt der grünen Verzasca flussabwärts, durch Steindörfer wie Frasco, Brione und Gerra bis zur Römerbrücke Ponte dei Salti in Lavertezzo. Leicht abfallend, schattige Abschnitte im Kastanienwald.",
+   "tip": "Jederzeit abkürzbar: Der Postautobus 321 hält in allen Dörfern. Das Wasser sieht verlockend aus, ist aber kalt und hat gefährliche Strömungen – nur an ruhigen Stellen und nie nach Regen hinein.",
+   "hike": {
+    "km": 13,
+    "up": 100,
+    "down": 450,
+    "hours": 3.5,
+    "difficulty": "T2",
+    "start": "Sonogno, Paese",
+    "end": "Lavertezzo, Paese",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra: Postauto 321 Tenero/Locarno–Sonogno"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "source": "https://www.ascona-locarno.com",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Brione%2C_Verzasca_27.JPG/1280px-Brione%2C_Verzasca_27.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Brione im Verzascatal",
+    "credit": "https://commons.wikimedia.org/wiki/File:Brione,_Verzasca_27.JPG"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "lo-s-termali-salini",
+   "kind": "bad",
+   "name": "Termali Salini & Spa Locarno",
+   "region": "locarno",
+   "town": "Locarno",
+   "address": "Via G. Respini 7, 6600 Locarno",
+   "coords": {
+    "lat": 46.1645,
+    "lng": 8.803
+   },
+   "url": "https://www.aquaspa.ch/de/termali-salini-spa-locarno",
+   "price": 3,
+   "tags": [
+    "baden",
+    "wellness",
+    "regenfest",
+    "romantisch",
+    "see"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Sept.–Mai täglich 9–21.30, Juni–Aug. 10–21 Uhr",
+   "durationMin": 180,
+   "text": "Ein Sole-Bad direkt an der Seepromenade beim Lido: salzhaltige Becken innen und ein Aussenpool mit Blick auf den Lago Maggiore, dazu Saunen. Ruhiger als das Erlebnisbad nebenan – Kinder sind erst ab 4 Jahren und nur in Begleitung erlaubt.",
+   "tip": "Ab 19 Uhr gibt es den günstigeren «7 o’clock Wellness»-Eintritt – am schönsten im Aussenbecken, wenn die Lichter am anderen Ufer angehen.",
+   "water": {
+    "type": "therme",
+    "heated": true
+   },
+   "priceInfo": {
+    "from": 39,
+    "to": 46,
+    "unit": "Eintritt Erwachsene",
+    "note": "NaturSolebad 39, mit Sauna 46; ab 19 Uhr 31; Kombi mit Lido Locarno ab 47"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.aquaspa.ch/de/termali-salini-spa-locarno/preise"
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "lo-s-lido-ascona",
+   "kind": "bad",
+   "name": "Lido Ascona",
+   "region": "locarno",
+   "town": "Ascona",
+   "address": "Via Lido 84, 6612 Ascona",
+   "coords": {
+    "lat": 46.15151,
+    "lng": 8.77483
+   },
+   "url": "https://www.seven.ch/de/lidodiascona",
+   "price": 1,
+   "tags": [
+    "baden",
+    "see",
+    "familie",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai–September",
+   "hours": "Strandbad 9.30–18.30 Uhr",
+   "durationMin": 180,
+   "text": "Rund 600 Meter Sandstrand am Lago Maggiore mit Badeaufsicht, Floss, 3-Meter-Turm und Sprungbrett im See. Vom Dorfkern Ascona bist du in wenigen Minuten zu Fuss dort.",
+   "tip": "Online ist der Eintritt einen Franken günstiger als an der Kasse; ab 16.30 Uhr gilt der Sunset-Tarif.",
+   "water": {
+    "type": "see",
+    "body": "Lago Maggiore",
+    "heated": false
+   },
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "online; an der Kasse 9; ab 16.30 Uhr 5"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:30",
+       "18:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:30",
+       "18:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:30",
+       "18:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:30",
+       "18:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:30",
+       "18:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:30",
+       "18:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:30",
+       "18:30"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.badi-info.ch/ti/ascona.html",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/ETH-BIB_Com_L37-0231-0001-0004_Lido_Ascona_scivolo_xx0788.jpg/1280px-ETH-BIB_Com_L37-0231-0001-0004_Lido_Ascona_scivolo_xx0788.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Historische Aufnahme des Lido Ascona mit Rutschbahn",
+    "credit": "https://commons.wikimedia.org/wiki/File:ETH-BIB_Com_L37-0231-0001-0004_Lido_Ascona_scivolo_xx0788.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "bz-w-curzutt-ponte-tibetano",
+   "kind": "aktivitaet",
+   "name": "Curzútt und Ponte Tibetano Carasc",
+   "region": "bellinzona",
+   "town": "Monte Carasso",
+   "address": "Funivia Monte Carasso–Mornera, 6513 Monte Carasso",
+   "coords": {
+    "lat": 46.19478,
+    "lng": 8.97461
+   },
+   "url": "https://www.bellinzonese-altoticino.ch",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aussicht",
+    "aktiv",
+    "kultur"
+   ],
+   "weatherProof": false,
+   "season": "März–November",
+   "durationMin": 150,
+   "text": "Mit der Seilbahn ab Monte Carasso fährst du zum restaurierten Steindorf Curzútt mit der Kirche San Bernardo, gehst dann über die 270 Meter lange Hängebrücke über das Sementina-Tal und steigst nach Sementina ab. Unter dir das Ticinotal mit den Burgen von Bellinzona.",
+   "tip": "Die Fresken in San Bernardo (15. Jh.) unbedingt anschauen. Wer nicht schwindelfrei ist: Die Brücke schwankt spürbar, ist aber gut gesichert.",
+   "hike": {
+    "km": 6,
+    "up": 150,
+    "down": 550,
+    "hours": 2.5,
+    "difficulty": "T2",
+    "start": "Monte Carasso, Funivia",
+    "end": "Sementina, Paese",
+    "winter": false
+   },
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Seilbahn Monte Carasso–Curzútt (Preise auf mornera.ch); Brücke gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "source": "https://www.bellinzonese-altoticino.ch",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ponte_Tibetano_Carasc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "alt": "Ponte Tibetano Carasc über dem Sementina-Tal",
+    "credit": "https://commons.wikimedia.org/wiki/File:Ponte_Tibetano_Carasc.jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "bz-s-bagno-pubblico",
+   "kind": "bad",
+   "name": "Bagno pubblico Bellinzona",
+   "region": "bellinzona",
+   "town": "Bellinzona",
+   "address": "Via Mirasole 20, 6500 Bellinzona",
+   "coords": {
+    "lat": 46.19754,
+    "lng": 9.01919
+   },
+   "url": "https://sport.bellinzona.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "kultur",
+    "familie",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai–Mitte September",
+   "hours": "9–19.30 Uhr, Mitte Juni–Mitte August bis 20 Uhr",
+   "durationMin": 180,
+   "text": "Ein Freibad, das Architekturgeschichte schrieb: Ein langer Betonsteg führt von der Stadt über die Becken bis zum Ticino, die Anlage stammt von Aurelio Galfetti und Kollegen (1970). Dazu ein 50-Meter-Becken und Sprungtürme bis 10 Meter.",
+   "tip": "Für Nicht-Bellinzonesi kostet der Eintritt 11 Franken, ab 17 Uhr gibt es Rabatt. Den Steg einmal ganz bis zum Fluss ablaufen.",
+   "water": {
+    "type": "freibad",
+    "heated": true
+   },
+   "priceInfo": {
+    "from": 11,
+    "unit": "Eintritt Erwachsene",
+    "note": "Auswärtige; Einheimische 7; Rabatt ab 17 Uhr"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.badi-info.ch/ti/bellinzona.html",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bagno_Pubblico_%28Bellinzona%29.jpg/1280px-Bagno_Pubblico_%28Bellinzona%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "alt": "Bagno pubblico Bellinzona mit Betonsteg",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bagno_Pubblico_(Bellinzona).jpg"
+   }
+  },
+  {
+   "checked": "2026-11-15",
+   "id": "bz-s-piscina-coperta",
+   "kind": "bad",
+   "name": "Piscina coperta Bellinzona",
+   "region": "bellinzona",
+   "town": "Bellinzona",
+   "address": "Via Mirasole 20, 6500 Bellinzona",
+   "coords": {
+    "lat": 46.19814,
+    "lng": 9.02006
+   },
+   "url": "https://sport.bellinzona.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "Mitte September–Anfang Mai",
+   "hours": "Mo/Mi/Fr 9–20, Di/Do 9–20 (früh nur Abo), Sa/So 10–18 Uhr",
+   "durationMin": 90,
+   "text": "Gleich neben dem Bagno pubblico liegt das Hallenbad für die kalte Jahreszeit: 25-Meter-Becken mit 27 Grad und ein separates Nichtschwimmerbecken. Schlicht, sportlich und günstig.",
+   "tip": "Dienstag und Donnerstag öffnet es schon um 6.30 Uhr – aber bis 9 Uhr nur für Abonnenten.",
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 27
+   },
+   "priceInfo": {
+    "from": 11,
+    "unit": "Eintritt Erwachsene",
+    "note": "Auswärtige; Einheimische 7; Saison 2026/27: 14.9.2026–7.5.2027"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ]
+    },
+    "months": [
+     9,
+     10,
+     11,
+     12,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "source": "https://www.badi-info.ch/ti/bellinzona.html"
+  }
+ ],
+ "notes": "Recherche West/Süd (bern, thun, interlaken, solothurn, gruyeres, zermatt, genf, lausanne, lugano, locarno, bellinzona), Stand 15.11.2026. Das gemeinsame WebSearch-Kontingent war mitten in der Recherche aufgebraucht; danach nur noch gezielte Abrufe bekannter Seiten (badi-info.ch, offizielle Bad-/Tourismusseiten, Wikipedia) – keine Umgehung über andere Suchmaschinen.\nVERIFIZIERT (Preis/Zeiten/Saison aus Quelle): alle Bäder ausser Leisee und Rhône-Jonction (gratis, Naturbadestelle) sowie Bernaqua (45 CHF laut freizeit.ch April 2026, nicht auf bernaqua.ch geprüft). Wanderdaten verifiziert: Aare Münsingen–Elfenau (13.7 km/3h20, wegwandern), Bantiger (wegwandern), Stockhorn-Bergseen (thunersee.ch), Sigriswil (interlaken.swiss), Männlichen Winter (interlaken.swiss), Grütschalp–Mürren (Distanz/Höhenmeter interlaken.swiss Kurzvariante), Hasenmatt (wegwandern), Solothurn–Altreu (9.8 km/2h20), Verenaschlucht–Weissenstein (13.1 km/4h35, T1).\nGESCHÄTZT / IN SCHWEIZMOBIL NACHPRÜFEN (hike-Werte aus Ortskenntnis, nicht aus Quelle): Männlichen Sommer (up/down), Aare-Uferweg up/down, Verenaschlucht up/down, Gorges de la Jogne, Gruyères–Chapelle des Marches (ganzer Eintrag unsicher, coords null), Hörnlihütte (Distanz; Höhe 2583→3260 m und Saison laut Wikipedia), Zermatt–Zmutt–Furi, Winterwanderweg Furi–Zmutt (Existenz/Präparierung prüfen), Vallon de l’Allondon (Rundweg-Länge), Lausanne–Morges, Gorges du Chauderon (coords null), Lema–Tamaro, Monte San Giorgio, Sentierone Verzasca, Curzútt–Ponte Tibetano. Haltestellennamen wie «Krauchthal, Dorf», «Charmey (Gruyère), village», «Meride, Paese», «Sonogno, Paese», «Monte Carasso, Funivia», «Grenchen, Untergrenchenberg» nicht gegen den SBB-Fahrplan geprüft.\nBERGBAHN-PREISE fehlen (nur Hinweis in priceInfo.note, from 0 «gratis» = Wanderung selbst): Männlichen, Grütschalp, Weissenstein, Schwarzsee/Furi/Sunnegga (Zermatt), Monte Lema/Tamaro, Monte Carasso–Curzútt. Verifiziert nur Stockhorn Erlenbach–Chrindi retour 44 (Ticketshop, undatiert).\nLÜCKEN: gruyeres hat nur 1 Bad (Hallenbad Charmey) – keine verifizierte Badestelle am Lac de la Gruyère gefunden; Les Bains de la Gruyère steht schon im Bestand. genf hat nur 1 Wanderung. locarno und bellinzona je 1 Wanderung. Zermatt: Hallenbad Berghof im Bestand, daher Thermalbad Brigerbad (ca. 1 h ab Zermatt) als Ganzjahres-Option.\nSAISON/WINTER: Hallenbad Grindelwald 2.–22.11.2026 Revision geschlossen. Hallenbäder Solothurn, Lugano (Piscina coperta) und Bellinzona nur Sept.–Mai; Lido di Lugano im Winter mit Traglufthalle («Pallone», Okt.–Anfang April, nicht separat erfasst). Monte Tamaro im Nov./Jan.–März nur am Wochenende in Betrieb. Gorges de la Jogne und Chauderon bei Eis/Unwetter gesperrt.\nMÖGLICHE ÜBERSCHNEIDUNG mit dem parallelen BESONDERS-Auftrag: Panoramabrücke Sigriswil, Ponte Tibetano Carasc, Burgseeli, Bagno pubblico Bellinzona, Lido Riva Caccia – beim Zusammenführen auf Dubletten prüfen.\nBilder: nur Commons; wo kein eindeutig passendes Foto gefunden wurde, fehlt das Feld. Lido Ascona-Bild ist eine historische ETH-Aufnahme.",
+ "trips": []
+}

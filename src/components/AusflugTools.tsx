@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CloudSun, Dices, Gift, MapPinned, MountainSnow, Wand2, Waves, type LucideIcon } from "lucide-react";
+import { CloudSun, Dices, Gift, MapPinned, MountainSnow, Sparkles, Wand2, Waves, type LucideIcon } from "lucide-react";
 
 interface Tool {
   href: string;
@@ -9,6 +9,7 @@ interface Tool {
 }
 
 export const TOOLS: Tool[] = [
+  { href: "/ausfluege/ki", icon: Sparkles, title: "KI-Planer", text: "Sag in eigenen Worten, was ihr wollt – das Programm steht in Sekunden." },
   { href: "/ausfluege/heute", icon: CloudSun, title: "Was machen wir heute?", text: "Drei Ausflüge, die heute klappen – mit Wetter, Zug und offenen Türen." },
   { href: "/ausfluege/planen", icon: Wand2, title: "Selbst zusammenstellen", text: "Dauer, Begleitung, Lust – und das Programm steht in Sekunden." },
   { href: "/ausfluege/ueberraschung", icon: Dices, title: "Überraschungs-Ausflug", text: "Ziel wird ausgelost. Ihr erfahrt nur Gleis, Abfahrt und Packliste." },

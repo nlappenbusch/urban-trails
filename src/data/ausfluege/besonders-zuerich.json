@@ -1,0 +1,3681 @@
+{
+ "places": [
+  {
+   "id": "zh-x-thermalbad-spa",
+   "kind": "bad",
+   "name": "Thermalbad & Spa Zürich (Hürlimannbad)",
+   "region": "zuerich",
+   "town": "Zürich",
+   "address": "Brandschenkestrasse 150, 8002 Zürich",
+   "coords": {
+    "lat": 47.36476,
+    "lng": 8.52505
+   },
+   "url": "https://www.aquaspa.ch",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "wellness",
+    "regenfest",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 9–22 Uhr, Badeschluss 30 Min. vorher; Eintritt ab 16 Jahren",
+   "durationMin": 180,
+   "wow": "Thermalbad in den Steingewölben der alten Hürlimann-Brauerei, Pool auf dem Dach",
+   "text": "Du badest in den alten Gärkellern der Brauerei Hürlimann zwischen Steinbögen und steigst danach aufs Dach, wo der Pool über die Stadt schaut. Plane drei Stunden ein, das Bad ist erst ab 16 Jahren.",
+   "tip": "Abends nach 19 Uhr ist der Dachpool mit Stadtlichtern am stimmungsvollsten – online gibt es oft vergünstigte Tickets.",
+   "source": "https://www.aquaspa.ch/en/hurlimannbad-spa-zurich/Vouchers/bath-admission",
+   "priceInfo": {
+    "from": 43,
+    "unit": "Eintritt Erwachsene",
+    "note": "Thermalbad inkl. Dachpool, ab 16 Jahren; Spa-Ritual kostet extra"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zh-x-dolder-eisbahn",
+   "kind": "aktivitaet",
+   "name": "Dolder Kunsteisbahn",
+   "region": "zuerich",
+   "town": "Zürich",
+   "address": "Kunsteisbahn Dolder, Carl-Wehrli-Weg, Zürich (Adlisberg)",
+   "coords": {
+    "lat": 47.3749,
+    "lng": 8.57823
+   },
+   "url": "https://www.doldersports.com",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "familie",
+    "freunde",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Oktober–Anfang März",
+   "hours": "Saison 2025/26: 18.10.–8.3.; Eisdisco an ausgewählten Abenden",
+   "durationMin": 120,
+   "wow": "Grosses Open-Air-Eisfeld im Wald über der Stadt, Saison Oktober bis März",
+   "text": "Mit der Dolderbahn fährst du vom Römerhof hinauf und läufst dann unter freiem Himmel Schlittschuh, umgeben von Wald. Schlittschuhe kannst du vor Ort mieten, zwei Stunden reichen gut.",
+   "tip": "An Eisdisco-Abenden wird es voll und laut – für ruhiges Laufen lieber unter der Woche am Nachmittag.",
+   "source": "https://www.doldersports.com/en/winter-front-page-en/dolder-sports-advent",
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 20 J.; Jugendliche 6, Kinder 4; Eisdisco 10; Zürich Card 50 % Rabatt"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Adlisberg_-_Dolder_Kunsteisbahn_IMG_0968.JPG/1280px-Adlisberg_-_Dolder_Kunsteisbahn_IMG_0968.JPG",
+    "alt": "Die grosse Eisfläche der Dolder Kunsteisbahn am Waldrand",
+    "credit": "https://commons.wikimedia.org/wiki/File:Adlisberg_-_Dolder_Kunsteisbahn_IMG_0968.JPG"
+   },
+   "open": {
+    "months": [
+     10,
+     11,
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zh-x-moulagenmuseum",
+   "kind": "sehenswuerdigkeit",
+   "name": "Moulagenmuseum der Universität und des Universitätsspitals Zürich",
+   "region": "zuerich",
+   "town": "Zürich",
+   "address": "Haldenbachstrasse 14, 8091 Zürich",
+   "coords": {
+    "lat": 47.380351,
+    "lng": 8.548632
+   },
+   "url": "https://www.moulagen.uzh.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "kultur",
+    "regenfest",
+    "gratis"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mi 14–18, Sa 13–17 Uhr",
+   "durationMin": 60,
+   "wow": "Wachsmodelle echter Hautkrankheiten aus der Ärzteausbildung – Eintritt gratis",
+   "text": "In Vitrinen hängen naturgetreue Wachsabdrücke von Haut- und Geschlechtskrankheiten, mit denen früher Medizinstudenten lernten. Nichts für schwache Nerven, aber eines der eigenwilligsten Museen der Stadt – rechne mit einer Stunde.",
+   "tip": "Nur zwei Nachmittage pro Woche offen – Tram 9 oder 10 bis Haldenbach, dann zwei Minuten zu Fuss.",
+   "source": "https://www.uzh.ch/de/explore/museums/moulagenmuseum.html",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Moulagenmuseum_ETH.jpg/1280px-Moulagenmuseum_ETH.jpg",
+    "alt": "Gebäude des Moulagenmuseums an der Haldenbachstrasse",
+    "credit": "https://commons.wikimedia.org/wiki/File:Moulagenmuseum_ETH.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [],
+     "1": [],
+     "2": [],
+     "3": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "4": [],
+     "5": [],
+     "6": [
+      [
+       "13:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zh-x-sukkulenten-sammlung",
+   "kind": "sehenswuerdigkeit",
+   "name": "Sukkulenten-Sammlung Zürich",
+   "region": "zuerich",
+   "town": "Zürich",
+   "address": "Mythenquai 88, 8002 Zürich",
+   "coords": {
+    "lat": 47.35611,
+    "lng": 8.535
+   },
+   "url": "https://www.stadt-zuerich.ch/sukkulentensammlung",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "regenfest",
+    "gratis",
+    "see",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 9–16.30 Uhr",
+   "durationMin": 60,
+   "wow": "Städtische Kakteen-Gewächshäuser direkt am Mythenquai – Eintritt gratis",
+   "text": "In mehreren Glashäusern wachsen Kakteen, Aloen und Wolfsmilchgewächse aus Trockengebieten der ganzen Welt, viele davon riesig. Ein warmer Rückzugsort im Winter, danach bist du in zwei Minuten am Seeufer.",
+   "tip": "Im Frühling blühen viele Kakteen – dann lohnt sich der Besuch am meisten.",
+   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/sukkulenten-sammlung-zuerich-2444.html",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sukkulentensammlung_-_Mythenquai_Z%C3%BCrich_2011-03-23_14-15-56_ShiftN.jpg/1280px-Sukkulentensammlung_-_Mythenquai_Z%C3%BCrich_2011-03-23_14-15-56_ShiftN.jpg",
+    "alt": "Gewächshäuser der Sukkulenten-Sammlung am Mythenquai",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sukkulentensammlung_-_Mythenquai_Z%C3%BCrich_2011-03-23_14-15-56_ShiftN.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zh-x-wildnispark-langenberg",
+   "kind": "aktivitaet",
+   "name": "Wildnispark Zürich Langenberg",
+   "region": "zuerich",
+   "town": "Langnau am Albis",
+   "address": "Tierpark Langenberg, 8135 Langnau am Albis",
+   "coords": {
+    "lat": 47.2992,
+    "lng": 8.52879
+   },
+   "url": "https://www.wildnispark.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "familie",
+    "gratis",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "Ostteil rund um die Uhr; Westteil Sommer 9–19, Winter 9–16 Uhr",
+   "durationMin": 150,
+   "wow": "Luchse, Wölfe und Bären im Wald vor der Stadt – Eintritt gratis",
+   "text": "Auf Waldwegen kommst du an grossen Gehegen mit einheimischen Wildtieren vorbei, von Wildschweinen über Hirsche bis zu Luchs, Wolf und Bär. Ab Bahnhof Langnau-Gattikon (S4) gehst du rund 20 Minuten hinauf.",
+   "tip": "Früh am Morgen oder bei Nebel sind die Tiere am aktivsten und die Wege fast leer.",
+   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/wildnispark-zuerich-langenberg-2530.html",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Parkplatz kostenpflichtig"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/CH.ZH.Langnau-am-Albis_Langenberg-Wildlife-Park_2022-02-12_7587_16x9-R_5K.jpg/1280px-CH.ZH.Langnau-am-Albis_Langenberg-Wildlife-Park_2022-02-12_7587_16x9-R_5K.jpg",
+    "alt": "Luchs im Wildnispark Langenberg",
+    "credit": "https://commons.wikimedia.org/wiki/File:CH.ZH.Langnau-am-Albis_Langenberg-Wildlife-Park_2022-02-12_7587_16x9-R_5K.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zh-x-flussbad-oberer-letten",
+   "kind": "bad",
+   "name": "Flussbad Oberer Letten",
+   "region": "zuerich",
+   "town": "Zürich",
+   "address": "Lettensteg 10, 8037 Zürich",
+   "coords": {
+    "lat": 47.38457,
+    "lng": 8.53631
+   },
+   "url": "https://www.zuerich.com/de/besuchen/sport/flussbad-oberer-letten",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "aktiv",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September (2026: 9.5.–20.9.)",
+   "hours": "Badesaison Mai–September; nur für geübte Schwimmer, keine Kinder/Nichtschwimmer",
+   "durationMin": 120,
+   "wow": "Mitten in der Stadt im Limmat-Kanal treiben lassen – ohne Eintritt",
+   "text": "Du springst oben in den Kanal, lässt dich von der Strömung tragen und steigst über Leitern wieder aus – dazwischen liegen Holzdecks voller Einheimischer. Nur für sichere Schwimmer, Kinder und Nichtschwimmer haben keinen Zutritt.",
+   "tip": "Unter der Woche am späten Nachmittag ist es entspannter als am Wochenende.",
+   "source": "https://www.badi-info.ch/oberer_letten.html",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Badi_Oberer_Letten_von_Kornhausbr%C3%BCcke.JPG/1280px-Badi_Oberer_Letten_von_Kornhausbr%C3%BCcke.JPG",
+    "alt": "Flussbad Oberer Letten von der Kornhausbrücke aus gesehen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Badi_Oberer_Letten_von_Kornhausbr%C3%BCcke.JPG"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zh-x-zuschauerterrasse-b",
+   "kind": "aussicht",
+   "name": "Zuschauerterrasse B, Flughafen Zürich",
+   "region": "zuerich",
+   "town": "Zürich-Flughafen",
+   "address": "Dock B, Flughafen Zürich, 8058 Zürich-Flughafen",
+   "coords": {
+    "lat": 47.4647,
+    "lng": 8.5492
+   },
+   "url": "https://www.flughafen-zuerich.ch/de/passagiere/erleben/erlebnisse/zuschauerterrassen",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "familie",
+    "aussicht",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "Winter täglich 10–17, Sommer 10–18 Uhr; Sicherheitskontrolle beim Eingang",
+   "durationMin": 90,
+   "wow": "Grossraumjets aus nächster Nähe beim Rollen und Andocken, Eintritt 5 Franken",
+   "text": "Von der Dachterrasse über Dock B siehst du Flugzeuge rollen, andocken und starten, Infotafeln erklären Typen und Abläufe. Mit der S-Bahn bist du in gut zehn Minuten ab Zürich HB dort.",
+   "tip": "Bis Dezember 2026 ist der Eintritt am 15. jedes Monats gratis.",
+   "source": "https://www.flughafen-zuerich.ch/de/passagiere/erleben/erlebnisse/zuschauerterrassen",
+   "priceInfo": {
+    "from": 5,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 16 J.; 10–15 J. 2 Fr., unter 10 gratis; mit Bordkarte gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Zuschauerterrasse_B.jpg/1280px-Zuschauerterrasse_B.jpg",
+    "alt": "Infotafel und Flugzeuge auf der Zuschauerterrasse B",
+    "credit": "https://commons.wikimedia.org/wiki/File:Zuschauerterrasse_B.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zh-x-tram-museum",
+   "kind": "sehenswuerdigkeit",
+   "name": "Tram-Museum Zürich (Depot Burgwies)",
+   "region": "zuerich",
+   "town": "Zürich",
+   "address": "Forchstrasse 260, 8008 Zürich",
+   "coords": {
+    "lat": 47.35767,
+    "lng": 8.57128
+   },
+   "url": "https://www.tram-museum.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "familie",
+    "regenfest",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mo, Mi, Sa, So 13–18 Uhr; Museumslinie 21 am letzten Wochenende im Monat (ausser Dezember)",
+   "durationMin": 90,
+   "wow": "Historische Zürcher Trams im alten Depot – und einmal im Monat fahren sie",
+   "text": "Im Tramdepot von 1902 stehen Wagen aus über hundert Jahren Zürcher Tramgeschichte, in die du teils einsteigen kannst. Mit Tram 11 bis Burgwies fährst du direkt vor die Tür.",
+   "tip": "Am letzten Wochenende im Monat verkehrt die Museumslinie 21 mit Oldtimer-Trams durch die Stadt.",
+   "source": "https://www.tram-museum.ch/museum/preise",
+   "priceInfo": {
+    "from": 14,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–16: 7 Fr.; Familien 28 Fr."
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tramdepot_%28Tram-Museum%29_Burgwies_in_Z%C3%BCrich-Burgwies_2013-06-13_14-02-54.JPG/1280px-Tramdepot_%28Tram-Museum%29_Burgwies_in_Z%C3%BCrich-Burgwies_2013-06-13_14-02-54.JPG",
+    "alt": "Altes Tramdepot Burgwies mit historischen Trams",
+    "credit": "https://commons.wikimedia.org/wiki/File:Tramdepot_(Tram-Museum)_Burgwies_in_Z%C3%BCrich-Burgwies_2013-06-13_14-02-54.JPG"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "1": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "2": [],
+     "3": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ],
+     "4": [],
+     "5": [],
+     "6": [
+      [
+       "13:00",
+       "18:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "wi-x-wildpark-bruderhaus",
+   "kind": "aktivitaet",
+   "name": "Wildpark Bruderhaus",
+   "region": "winterthur",
+   "town": "Winterthur",
+   "address": "Wildpark Bruderhaus, Eschenberg, 8400 Winterthur",
+   "coords": {
+    "lat": 47.47725,
+    "lng": 8.72619
+   },
+   "url": "https://stadt.winterthur.ch/themen/leben-in-winterthur/freizeit-und-sport/ausflugsziele-freiraeume/wildpark-bruderhaus",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "familie",
+    "gratis",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "rund um die Uhr offen; Bus 12 nur Mi, Sa, So und Feiertage",
+   "durationMin": 120,
+   "wow": "Wisente, Wölfe, Luchse und Przewalskipferde im Stadtwald – Tag und Nacht gratis",
+   "text": "Ein Rundweg im Eschenbergwald führt an weitläufigen Gehegen mit Wisenten, Wölfen, Luchsen und Przewalskipferden vorbei. Das Restaurant Bruderhaus liegt gleich daneben, für die Runde brauchst du rund zwei Stunden.",
+   "tip": "Unter der Woche (ausser Mi) fährt Bus 4 bis Breite, dann 30 Minuten zu Fuss durch den Wald – schöner Spaziergang.",
+   "source": "https://stadt.winterthur.ch/themen/leben-in-winterthur/freizeit-und-sport/ausflugsziele-freiraeume/wildpark-bruderhaus",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Parkplatz kostenpflichtig"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Mufflons_im_Wildpark_Bruderhaus_1.jpg/1280px-Mufflons_im_Wildpark_Bruderhaus_1.jpg",
+    "alt": "Mufflons im Wildpark Bruderhaus",
+    "credit": "https://commons.wikimedia.org/wiki/File:Mufflons_im_Wildpark_Bruderhaus_1.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "wi-x-schloss-kyburg",
+   "kind": "sehenswuerdigkeit",
+   "name": "Museum Schloss Kyburg",
+   "region": "winterthur",
+   "town": "Kyburg",
+   "address": "Schloss 1, 8314 Kyburg",
+   "coords": {
+    "lat": 47.458384,
+    "lng": 8.74338
+   },
+   "url": "https://www.schlosskyburg.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "kultur",
+    "familie",
+    "aussicht",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "April–Oktober",
+   "hours": "Di–So 10–17.30 Uhr, 1.4.–31.10.; Winterpause",
+   "durationMin": 120,
+   "wow": "Mittelalterliche Burg hoch über der Töss, Kulturgut von nationaler Bedeutung",
+   "text": "Du gehst durch Rittersaal, Kapelle, Kerker und Wehrgang einer Burg, die auf das Mittelalter zurückgeht, und schaust vom Turm übers Tösstal. Mit dem Bus ab Winterthur oder Effretikon bist du in rund 20–30 Minuten oben.",
+   "tip": "Der Fussweg vom Bahnhof Sennhof-Kyburg durchs Tösstobel hinauf dauert etwa 45 Minuten und ist der schönste Zugang.",
+   "source": "https://www.schlosskyburg.ch",
+   "priceInfo": {
+    "from": 12,
+    "unit": "Eintritt Erwachsene",
+    "note": "Studierende 9, Kinder 5; Museumspass gilt"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Kyburg_-_Schloss_2010-11-01_13-25-20_ShiftN.jpg/1280px-Kyburg_-_Schloss_2010-11-01_13-25-20_ShiftN.jpg",
+    "alt": "Schloss Kyburg auf dem Hügel über dem Tösstal",
+    "credit": "https://commons.wikimedia.org/wiki/File:Kyburg_-_Schloss_2010-11-01_13-25-20_ShiftN.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:30"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "wi-x-dampfbahn-dvzo",
+   "kind": "aktivitaet",
+   "name": "Dampfbahn Bauma–Hinwil (DVZO)",
+   "region": "winterthur",
+   "town": "Bauma",
+   "address": "Bahnhof Bauma, 8494 Bauma",
+   "coords": {
+    "lat": 47.33298,
+    "lng": 8.84234
+   },
+   "url": "https://www.dvzo.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "familie",
+    "kultur",
+    "freunde"
+   ],
+   "weatherProof": true,
+   "season": "Mai–Oktober, nur an Fahrsonntagen",
+   "hours": "Mai–Juli am 1. und 3. Sonntag, September/Oktober jeden Sonntag (2027: z. B. 2./16. Mai, 5.–31. Okt.)",
+   "durationMin": 180,
+   "wow": "Dampfzug über die stillgelegte Uerikon–Bauma-Bahn, nur an Sonntagen",
+   "text": "Ab Bauma zieht eine Dampflok historische Wagen über Viadukte und durch Tunnel des Zürcher Oberlands nach Hinwil und zurück. Mit S26 bist du ab Winterthur in gut 35 Minuten in Bauma.",
+   "tip": "In Neuthal kannst du aussteigen und das Industriemuseum besuchen – der Baumwoll-Express bietet dafür ein Familienbillett.",
+   "source": "https://www.dvzo.ch/oeffentliche-fahrten/",
+   "priceInfo": {
+    "from": 40,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Bauma–Hinwil retour, einfach 20 Fr.; GA und Halbtax gelten NICHT"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/CemeteryBauma-SteamtrainDVZO_RomanDeckert05062022.jpg/1280px-CemeteryBauma-SteamtrainDVZO_RomanDeckert05062022.jpg",
+    "alt": "Dampfzug des DVZO auf einer Brücke bei Bauma",
+    "credit": "https://commons.wikimedia.org/wiki/File:CemeteryBauma-SteamtrainDVZO_RomanDeckert05062022.jpg"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "wi-x-uhrenmuseum",
+   "kind": "sehenswuerdigkeit",
+   "name": "Uhrenmuseum Winterthur (vormals Uhrensammlung Kellenberger)",
+   "region": "winterthur",
+   "town": "Winterthur",
+   "address": "Kirchplatz 14, 8400 Winterthur",
+   "coords": {
+    "lat": 47.49907,
+    "lng": 8.72954
+   },
+   "url": "https://www.uhrenmuseumwinterthur.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "kultur",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "laut MySwitzerland Di–So 10–17, Do bis 20 Uhr – vorher prüfen",
+   "durationMin": 60,
+   "wow": "Sammlung Kellenberger und Taschenuhren von Oscar Schwank, Kinder gratis",
+   "text": "Im Haus am Kirchplatz tickt eine Sammlung mechanischer Uhren, ergänzt 2017 um die Taschenuhrensammlung von Oscar Schwank. Ein kleines Museum für eine Stunde, perfekt bei Regen in der Altstadt.",
+   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/uhrenmuseum-winterthur-2412.html",
+   "priceInfo": {
+    "from": 5,
+    "unit": "Eintritt Erwachsene",
+    "note": "ermässigt 3; Kinder bis 16 gratis; Museumspass gilt"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Winterthur_-_Gewerbemuseum_%28Uhrensammlung_Kellenberger%29%2C_Kirchplatz_14_2011-09-09_15-40-58_ShiftN.jpg/1280px-Winterthur_-_Gewerbemuseum_%28Uhrensammlung_Kellenberger%29%2C_Kirchplatz_14_2011-09-09_15-40-58_ShiftN.jpg",
+    "alt": "Haus am Kirchplatz 14 mit der Uhrensammlung",
+    "credit": "https://commons.wikimedia.org/wiki/File:Winterthur_-_Gewerbemuseum_(Uhrensammlung_Kellenberger),_Kirchplatz_14_2011-09-09_15-40-58_ShiftN.jpg"
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "wi-x-kartause-ittingen",
+   "kind": "sehenswuerdigkeit",
+   "name": "Kartause Ittingen (Ittinger Museum & Kunstmuseum Thurgau)",
+   "region": "winterthur",
+   "town": "Warth",
+   "address": "Kartause Ittingen, 8532 Warth",
+   "coords": {
+    "lat": 47.58338,
+    "lng": 8.86647
+   },
+   "url": "https://www.kartause.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "kultur",
+    "genuss",
+    "regenfest",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (über Weihnachten/Neujahr zu)",
+   "hours": "Museen Mai–Sept. täglich 11–18; Okt.–April Mo–Fr 14–17, Sa/So 11–17 Uhr",
+   "durationMin": 150,
+   "wow": "Kartäuserkloster mit über 900 Jahren Baugeschichte, heute mit zwei Museen",
+   "text": "Im ehemaligen Kartäuserkloster schaust du dir die Zellen der Mönche und die Kirche an, danach Gegenwartskunst im Kunstmuseum Thurgau. Gärten, Hofladen und Restaurant machen daraus einen halben Tag.",
+   "tip": "Im Hofladen gibt es Käse, Wein und Bier aus dem eigenen Gutsbetrieb.",
+   "source": "https://ittingermuseum.tg.ch/public/upload/assets/170305/web_12_2025_KM_Jahresprogramm.pdf?fp=1",
+   "priceInfo": {
+    "from": 10,
+    "unit": "Eintritt Erwachsene",
+    "note": "reduziert 7; Kinder bis 16 gratis; Klosterkirche separat"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Kartause_Ittingen_Dezember_2023_-_04.jpg/1280px-Kartause_Ittingen_Dezember_2023_-_04.jpg",
+    "alt": "Klosteranlage der Kartause Ittingen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Kartause_Ittingen_Dezember_2023_-_04.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "11:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "11:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "wi-x-sternwarte-eschenberg",
+   "kind": "aktivitaet",
+   "name": "Sternwarte Eschenberg",
+   "region": "winterthur",
+   "town": "Winterthur",
+   "address": "Sternwarte Eschenberg, 8400 Winterthur",
+   "coords": {
+    "lat": 47.4747,
+    "lng": 8.74282
+   },
+   "url": "https://www.eschenberg.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "romantisch",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig, wetterabhängig",
+   "hours": "öffentliche Beobachtung Mi ab 19.30 Uhr bei klarem Himmel (Entscheid 18.30 auf der Website)",
+   "durationMin": 90,
+   "wow": "Mittwochs bei klarem Himmel öffentlich durchs Teleskop – Eintritt freiwillig",
+   "text": "Mitten im Eschenbergwald zeigen dir Mitglieder der Astronomischen Gesellschaft Planeten, Sternhaufen und Galaxien. Ob beobachtet wird, steht jeweils ab 18.30 Uhr auf der Website.",
+   "tip": "Warm anziehen – im Wald wird es abends auch im Sommer kühl.",
+   "source": "https://www.eschenberg.ch/",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Eintritt bei öffentlichen Führungen freiwillig"
+   },
+   "open": {
+    "week": {
+     "0": [],
+     "1": [],
+     "2": [],
+     "3": [
+      [
+       "19:30",
+       "22:00"
+      ]
+     ],
+     "4": [],
+     "5": [],
+     "6": []
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ba-x-teufelskeller",
+   "kind": "aktivitaet",
+   "name": "Naturwaldreservat Teufelskeller",
+   "region": "baden",
+   "town": "Baden",
+   "address": "Kreuzliberg, 5400 Baden",
+   "coords": {
+    "lat": 47.46559,
+    "lng": 8.30227
+   },
+   "url": "https://www.dein.baden.ch/en/experience/activities/nature/forest-and-parks/teufelskeller-en",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "aktiv",
+    "gratis",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 120,
+   "wow": "70 ha Urwald mit Nagelfluh-Türmen, seit 1987 ohne Forstnutzung",
+   "text": "Ab Bahnhof Baden folgst du den Wegweisern hinauf in einen Wald, in dem bizarre Felstürme aus Nagelfluh zwischen umgestürzten Bäumen stehen. Die Familienrunde dauert etwa zwei Stunden, gute Schuhe sind Pflicht.",
+   "tip": "Bei Nebel wirkt der Teufelskeller fast unheimlich – genau dann lohnt er sich am meisten.",
+   "source": "https://wald.baden.ch/naturraum/reservate/naturwaldreservat-teufelskeller.html/1293/print/pdf",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ba-x-kindermuseum",
+   "kind": "sehenswuerdigkeit",
+   "name": "Schweizer Kindermuseum",
+   "region": "baden",
+   "town": "Baden",
+   "address": "Ländliweg 7, 5400 Baden",
+   "coords": {
+    "lat": 47.46965,
+    "lng": 8.30776
+   },
+   "url": "https://www.kindermuseum.ch",
+   "price": 1,
+   "tags": [
+    "familie",
+    "regenfest",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di–Sa 14–17, So 10–17 Uhr; Mo zu (ausser Oster-/Pfingstmontag)",
+   "durationMin": 90,
+   "wow": "Ganzes Museum zu Spielzeug und Kindheit – zum Anfassen und Ausprobieren",
+   "text": "Spielzeug, Puppenstuben und Alltagsgegenstände zeigen, wie Kinder früher gespielt und gelebt haben, vieles darfst du selbst ausprobieren. Vom Bahnhof Baden sind es knapp zehn Minuten zu Fuss.",
+   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/schweizer-kindermuseum-1887.html",
+   "priceInfo": {
+    "from": 12,
+    "unit": "Eintritt Erwachsene",
+    "note": "Studierende 9, Kinder 5; Museumspass gilt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ba-x-kloster-koenigsfelden",
+   "kind": "sehenswuerdigkeit",
+   "name": "Kloster Königsfelden",
+   "region": "baden",
+   "town": "Windisch",
+   "address": "Klosterkirche Königsfelden, 5210 Windisch",
+   "coords": {
+    "lat": 47.48033,
+    "lng": 8.21794
+   },
+   "url": "https://www.museumaargau.ch/kloster-koenigsfelden",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "kultur",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "April–Oktober",
+   "hours": "Di–So 10–17 Uhr; Winterpause November–März",
+   "durationMin": 60,
+   "wow": "Leuchtende Glasfenster aus dem 14. Jahrhundert in der Klosterkirche",
+   "text": "Die Habsburger stifteten das Kloster nach dem Mord an König Albrecht; heute staunst du in der Kirche über die farbigen mittelalterlichen Glasfenster im Chor. Ab Bahnhof Brugg sind es rund zehn Minuten zu Fuss.",
+   "tip": "Am späten Vormittag fällt das Licht am schönsten durch die Chorfenster.",
+   "source": "https://www.museumaargau.ch/en/koenigsfelden-abbey/opening-hours-and-entrance-fees",
+   "priceInfo": {
+    "from": 7,
+    "unit": "Eintritt Erwachsene",
+    "note": "Gruppen ab 10: 5 Fr.; Museumspass gilt"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kloster_K%C3%B6nigsfelden.jpg/1280px-Kloster_K%C3%B6nigsfelden.jpg",
+    "alt": "Klosterkirche Königsfelden in Windisch",
+    "credit": "https://commons.wikimedia.org/wiki/File:Kloster_K%C3%B6nigsfelden.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ba-x-schloss-lenzburg",
+   "kind": "sehenswuerdigkeit",
+   "name": "Schloss Lenzburg",
+   "region": "baden",
+   "town": "Lenzburg",
+   "address": "Schloss Lenzburg, 5600 Lenzburg",
+   "coords": {
+    "lat": 47.38727,
+    "lng": 8.18524
+   },
+   "url": "https://www.museumaargau.ch/schloss-lenzburg",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "kultur",
+    "familie",
+    "aussicht"
+   ],
+   "weatherProof": true,
+   "season": "April–Oktober",
+   "hours": "Di–So und Feiertage 10–17 Uhr; Winterpause November–März",
+   "durationMin": 150,
+   "wow": "Burg auf einer Felskuppe direkt über der Altstadt, mit Drachenhöhle für Kinder",
+   "text": "Vom Bahnhof Lenzburg steigst du in 20 Minuten zur Burg hinauf und erkundest Wohnräume, Rittersaal und Garten mit Blick übers Seetal. Familien kommen wegen des Kindermuseums und der Drachengeschichten.",
+   "tip": "Nur Hof, Garten und Bistro kosten 5 Franken – reicht, wenn du bloss die Aussicht willst.",
+   "source": "https://www.museumaargau.ch/en/lenzburg-castle/opening-hours-and-entrance-fees",
+   "priceInfo": {
+    "from": 14,
+    "unit": "Eintritt Erwachsene",
+    "note": "ganzes Schloss inkl. Museum; nur Hof/Garten 5 Fr.; Museumspass gilt"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Schloss_Lenzburg_-_Gesamtansicht1.jpg/1280px-Schloss_Lenzburg_-_Gesamtansicht1.jpg",
+    "alt": "Schloss Lenzburg auf dem Hügel, Ansicht von Südosten",
+    "credit": "https://commons.wikimedia.org/wiki/File:Schloss_Lenzburg_-_Gesamtansicht1.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ba-x-legionaerspfad",
+   "kind": "aktivitaet",
+   "name": "Legionärspfad Vindonissa",
+   "region": "baden",
+   "town": "Windisch",
+   "address": "Königsfelderstrasse 265, 5210 Windisch",
+   "coords": {
+    "lat": 47.4804,
+    "lng": 8.21867
+   },
+   "url": "https://www.legionaerspfad.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "familie",
+    "kultur",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober",
+   "hours": "Saison ab Mitte April (2026: Eröffnung 12.4.); Zeiten auf legionaerspfad.ch",
+   "durationMin": 150,
+   "wow": "Auf den Spuren des einzigen römischen Legionslagers der Schweiz",
+   "text": "Auf einem Rundweg durch Windisch erlebst du an Stationen, wie 6000 Soldaten im Lager Vindonissa lebten – mit rekonstruierten Unterkünften, Tor und Gräben. Kinder können sich an Familiensonntagen zum Legionär ausbilden lassen.",
+   "tip": "Mit dem Kombiticket für das Vindonissa Museum in Brugg lohnt sich ein ganzer Römertag.",
+   "source": "https://www.localcities.ch/de/veranstaltungen/windisch/5317/4770453",
+   "priceInfo": {
+    "from": 14,
+    "unit": "Eintritt Erwachsene",
+    "note": "Angabe aus Veranstaltungskalender 2026; Museumspass gilt"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Nordtor_Legion%C3%A4rspfad_Vidonissa_1.jpg/1280px-Nordtor_Legion%C3%A4rspfad_Vidonissa_1.jpg",
+    "alt": "Mauerreste des Nordtors am Legionärspfad Vindonissa",
+    "credit": "https://commons.wikimedia.org/wiki/File:Nordtor_Legion%C3%A4rspfad_Vidonissa_1.jpg"
+   },
+   "open": {
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ba-x-schloss-habsburg",
+   "kind": "sehenswuerdigkeit",
+   "name": "Schloss Habsburg",
+   "region": "baden",
+   "town": "Habsburg",
+   "address": "Schloss Habsburg, 5245 Habsburg",
+   "coords": {
+    "lat": 47.46256,
+    "lng": 8.1807
+   },
+   "url": "https://www.museumaargau.ch/schloss-habsburg",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "gratis",
+    "kultur",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "Museum April–Oktober",
+   "hours": "Museum Di–So 10–17 Uhr (Ende März–Oktober); im Winter nur zu Restaurantzeiten zugänglich",
+   "durationMin": 90,
+   "wow": "Stammburg der Habsburger – das Museum im Turm kostet keinen Eintritt",
+   "text": "Von hier aus stiegen die Habsburger zu einer der mächtigsten Dynastien Europas auf; im Turm erzählt eine kleine Ausstellung davon, oben blickst du übers Aaretal. Ab Brugg fährt ein Bus Richtung Habsburg, von der Haltestelle sind es wenige Minuten.",
+   "source": "https://www.museumaargau.ch/en/habsburg-castle/opening-hours-and-entrance-fees",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Schloss_Habsburg-3.jpg/1280px-Schloss_Habsburg-3.jpg",
+    "alt": "Innenhof von Schloss Habsburg",
+    "credit": "https://commons.wikimedia.org/wiki/File:Schloss_Habsburg-3.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ba-x-wasserschloss",
+   "kind": "aussicht",
+   "name": "Wasserschloss – Zusammenfluss von Aare, Reuss und Limmat",
+   "region": "baden",
+   "town": "Gebenstorf / Brugg",
+   "address": "Vogelsang, 5412 Gebenstorf",
+   "coords": {
+    "lat": 47.49438,
+    "lng": 8.2404
+   },
+   "url": "https://www.ag.ch/de/themen/umwelt-natur/natur-und-landschaftsschutz/auenschutzpark-aargau/die-auengebiete/aue-wasserschloss",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "aktiv",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 120,
+   "wow": "Aare, Reuss und Limmat fliessen auf rund 1,5 km zusammen – geschützte Auen",
+   "text": "Auf Uferwegen ab Brugg oder Turgi wanderst du durch Auenwald bis zur Stelle, wo drei grosse Flüsse ineinanderfliessen. Die Landschaft ist im Bundesinventar (BLN 1019) geschützt, rechne mit rund zwei Stunden.",
+   "tip": "Beim Limmatspitz hat Pro Natura eine Aue renaturiert – dort siehst du oft Eisvögel und Biber-Spuren.",
+   "source": "https://data.geo.admin.ch/ch.bafu.bundesinventare-bln/objectsheets/2017revision/nr1019.pdf",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Wasserschloss_Aare_Limmat_2014-12-23_03.jpg/1280px-Wasserschloss_Aare_Limmat_2014-12-23_03.jpg",
+    "alt": "Blick auf das Wasserschloss und den Ortsteil Vogelsang",
+    "credit": "https://commons.wikimedia.org/wiki/File:Wasserschloss_Aare_Limmat_2014-12-23_03.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ra-x-hirschpark",
+   "kind": "sehenswuerdigkeit",
+   "name": "Hirschpark auf dem Lindenhof",
+   "region": "rapperswil",
+   "town": "Rapperswil",
+   "address": "Lindenhof, 8640 Rapperswil",
+   "coords": {
+    "lat": 47.22704,
+    "lng": 8.81419
+   },
+   "url": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/schloss-rapperswil",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "familie",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 30,
+   "wow": "Seit 1871 leben Damhirsche im Gehege auf dem Schlosshügel",
+   "text": "Gleich unterhalb des Schlosses grasen Damhirsche – eine Erinnerung an die Gründungssage der Stadt. Im Juni kommen die Jungtiere zur Welt, und vom Lindenhof siehst du über den ganzen See.",
+   "source": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/schloss-rapperswil",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Rapperswil_-_Damhirsche_IMG_3950.JPG/1280px-Rapperswil_-_Damhirsche_IMG_3950.JPG",
+    "alt": "Damhirsche im Gehege beim Schloss Rapperswil",
+    "credit": "https://commons.wikimedia.org/wiki/File:Rapperswil_-_Damhirsche_IMG_3950.JPG"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ra-x-duftrosengarten",
+   "kind": "sehenswuerdigkeit",
+   "name": "Rosengärten und Duftrosengarten Rapperswil",
+   "region": "rapperswil",
+   "town": "Rapperswil",
+   "address": "Rosengarten beim Kapuzinerkloster / Schanz, 8640 Rapperswil",
+   "coords": {
+    "lat": 47.22668,
+    "lng": 8.8133
+   },
+   "url": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/rosenstadt-rapperswil",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "romantisch",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober, Hauptblüte Juni/Juli",
+   "hours": "frei zugänglich",
+   "durationMin": 45,
+   "wow": "Duftrosengarten von 1984 für Blinde – Rosen mit Brailleschrift beschriftet",
+   "text": "In der «Rosenstadt» blühen in mehreren Gärten Rosen, einer davon wurde eigens für Blinde und Sehbehinderte angelegt: Hier riechst und tastest du dich durch die Sorten. Die Gärten liegen alle wenige Minuten vom Hauptplatz entfernt.",
+   "tip": "Ende Juni ist die Blüte am stärksten – morgens duftet es intensiver als am Nachmittag.",
+   "source": "https://maps.adac.de/poi/duftrosengarten-fuer-sehbehinderte-rapperswil-sg",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/CH_Rapperswil-Jona%2C_Rosengarten_001.jpg/1280px-CH_Rapperswil-Jona%2C_Rosengarten_001.jpg",
+    "alt": "Blühende Rosen im Rosengarten Rapperswil",
+    "credit": "https://commons.wikimedia.org/wiki/File:CH_Rapperswil-Jona,_Rosengarten_001.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ra-x-atzmaennig-rodelbahn",
+   "kind": "aktivitaet",
+   "name": "Rodelbahn Atzmännig",
+   "region": "rapperswil",
+   "town": "Goldingen",
+   "address": "Atzmännig, 8638 Goldingen",
+   "coords": {
+    "lat": 47.2852,
+    "lng": 8.9968
+   },
+   "url": "https://www.atzmaennig.ch/aktivitaeten/rodelbahn/",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "familie",
+    "aktiv",
+    "freunde",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "Frühling–Herbst bei trockenem Wetter",
+   "hours": "nur bei trockenem Wetter; in der Nebensaison nur an schönen Wochenenden (Entscheid jeweils Freitagmittag)",
+   "durationMin": 120,
+   "wow": "700 m Rodelbahn, Einzelfahrt inklusive Sesselbahn für 10 Franken",
+   "text": "Mit der Sesselbahn fährst du zur Mittelstation und sausest auf der 700 Meter langen Schienenrodelbahn wieder ins Tal, dazu gibt es einen Rutschturm. Bei Nässe steht die Bahn still – vorher die Website checken.",
+   "source": "https://www.atzmaennig.ch/preise/",
+   "priceInfo": {
+    "from": 10,
+    "unit": "Einzelfahrt Erwachsene",
+    "note": "inkl. Sesselbahn bis Mittelstation; Kinder 6–15: 6.50 Fr."
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Atzm%C3%A4nnig-Sommerrodelbahn.JPG/1280px-Atzm%C3%A4nnig-Sommerrodelbahn.JPG",
+    "alt": "Schienenrodelbahn am Atzmännig",
+    "credit": "https://commons.wikimedia.org/wiki/File:Atzm%C3%A4nnig-Sommerrodelbahn.JPG"
+   },
+   "open": {
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ra-x-alpamare",
+   "kind": "bad",
+   "name": "Alpamare",
+   "region": "rapperswil",
+   "town": "Pfäffikon SZ",
+   "address": "Gwattstrasse 12, 8808 Pfäffikon SZ",
+   "coords": {
+    "lat": 47.1992,
+    "lng": 8.7906
+   },
+   "url": "https://alpamare.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "familie",
+    "regenfest",
+    "freunde"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mo–Do und So 10–21, Fr/Sa 10–22 Uhr",
+   "durationMin": 240,
+   "wow": "12 Rutschen, Wellenbad und drei Aussenbecken unter einem Dach am Zürichsee",
+   "text": "Im grössten Erlebnisbad der Region probierst du Röhren- und Reifenrutschen, legst dich ins Wellenbad und wechselst danach in die Aussenbecken. Ab Rapperswil bist du mit S-Bahn über den Seedamm in rund zehn Minuten in Pfäffikon.",
+   "tip": "Online-Tickets sind bis zu 20 % günstiger als an der Kasse.",
+   "source": "https://alpamare.ch/preise/",
+   "priceInfo": {
+    "from": 46,
+    "to": 49,
+    "unit": "Eintritt Erwachsene",
+    "note": "4 Std. 46 Fr., Tageskarte 49 Fr.; Kinder 6–15: 37/40 Fr."
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Alpamare.jpg/1280px-Alpamare.jpg",
+    "alt": "Alpamare-Erlebnisbad in Pfäffikon SZ",
+    "credit": "https://commons.wikimedia.org/wiki/File:Alpamare.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "21:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "22:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "22:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ra-x-ritterhaus-bubikon",
+   "kind": "sehenswuerdigkeit",
+   "name": "Ritterhaus Bubikon",
+   "region": "rapperswil",
+   "town": "Bubikon",
+   "address": "Ritterhausstrasse 35, 8608 Bubikon",
+   "coords": {
+    "lat": 47.26648,
+    "lng": 8.828
+   },
+   "url": "https://www.ritterhaus.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "kultur",
+    "familie",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "April–Oktober",
+   "hours": "Di–Fr 13–17, Sa/So und Feiertage 10–17 Uhr (1.4.–31.10.)",
+   "durationMin": 90,
+   "wow": "Mittelalterliche Johanniter-Kommende mit Kapelle, Museum und Kräutergarten",
+   "text": "In der alten Ordensniederlassung der Johanniter gehst du durch Kapelle, Rittersaal und Wohnräume und erfährst, wie die Ritter hier lebten. Vom Bahnhof Bubikon (S5/S15 ab Rapperswil) sind es rund 15 Minuten zu Fuss.",
+   "tip": "Ende September findet hier ein grosser Mittelalter-Handwerkermarkt statt.",
+   "source": "https://www.ritterhaus.ch",
+   "priceInfo": {
+    "from": 10,
+    "unit": "Eintritt Erwachsene",
+    "note": "reduziert/Kinder 6–16: 6 Fr.; Familien 25 Fr.; Museumspass gilt"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bubikon_-_Ritterhaus_2011-09-28_11-29-06_ShiftN.jpg/1280px-Bubikon_-_Ritterhaus_2011-09-28_11-29-06_ShiftN.jpg",
+    "alt": "Gebäude des Ritterhauses Bubikon",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bubikon_-_Ritterhaus_2011-09-28_11-29-06_ShiftN.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "13:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "13:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "13:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "13:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ra-x-juckerhof",
+   "kind": "aktivitaet",
+   "name": "Juckerhof Seegräben",
+   "region": "rapperswil",
+   "town": "Seegräben",
+   "address": "Juckerhof, 8607 Seegräben",
+   "coords": {
+    "lat": 47.34386,
+    "lng": 8.77289
+   },
+   "url": "https://www.juckerfarm.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "familie",
+    "genuss",
+    "gratis",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; Kürbisausstellung Mitte September–Oktober",
+   "hours": "ganzjährig geöffnet; Kürbisausstellung 2026: 19.9.–25.10. (Eintritt)",
+   "durationMin": 120,
+   "wow": "Im Herbst türmen sich hier tonnenschwere Kürbis-Skulpturen über dem Pfäffikersee",
+   "text": "Auf dem Erlebnishof über dem Pfäffikersee gibt es Hofladen, Restaurant, Apfellabyrinth und im Herbst eine riesige Kürbisausstellung. Danach lohnt sich der Spaziergang hinunter zum See.",
+   "tip": "Während der Kürbisausstellung kostet der Hofzutritt Eintritt – Tickets online im Voraus kaufen, am Wochenende ist es sehr voll.",
+   "source": "https://www.juckerfarm.ch/",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Hofzugang sonst gratis; Kürbisausstellung kostenpflichtig (laut Blick 2025: 12 Fr. werktags, 15 Fr. am Wochenende)"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jucker_Farm_%28Juckerhof%29_2014-10-31_15-00-13.JPG/1280px-Jucker_Farm_%28Juckerhof%29_2014-10-31_15-00-13.JPG",
+    "alt": "Kürbisausstellung auf dem Juckerhof in Seegräben",
+    "credit": "https://commons.wikimedia.org/wiki/File:Jucker_Farm_(Juckerhof)_2014-10-31_15-00-13.JPG"
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ra-x-bachtelturm",
+   "kind": "aussicht",
+   "name": "Bachtelturm",
+   "region": "rapperswil",
+   "town": "Hinwil / Wald ZH",
+   "address": "Bachtel Kulm, 8340 Hinwil",
+   "coords": {
+    "lat": 47.29472,
+    "lng": 8.88625
+   },
+   "url": "https://www.myswitzerland.com/en/experiences/aussichtspunkt-bachtelturm/",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "aktiv",
+    "gratis",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (bei Schnee/Eis Vorsicht)",
+   "hours": "frei zugänglich",
+   "durationMin": 180,
+   "wow": "75 m hoher Turm, Plattform auf 31 m über dem 1115 m hohen Bachtel",
+   "text": "Von Hinwil, Wald oder Gibswil wanderst du in rund 1–1,5 Stunden auf den Bachtel und steigst dann auf die Plattform des Sendeturms. Oben siehst du vom Zürichsee bis zu den Glarner Alpen, im Gasthaus Bachtel-Kulm gibt es Stärkung.",
+   "source": "https://famigros.migros.ch/de/ausfluege-und-freizeit/ausflugsziele/wandern-bachtel-zuerich",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Aussichtsturm_Bachtel_2021.jpg/1280px-Aussichtsturm_Bachtel_2021.jpg",
+    "alt": "Der Bachtelturm auf dem Bachtel-Gipfel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Aussichtsturm_Bachtel_2021.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eg-x-naturzentrum-thurauen",
+   "kind": "aktivitaet",
+   "name": "Naturzentrum Thurauen",
+   "region": "eglisau",
+   "town": "Flaach",
+   "address": "Steubisallmend 3, 8416 Flaach",
+   "coords": {
+    "lat": 47.57876,
+    "lng": 8.58181
+   },
+   "url": "https://www.naturzentrum-thurauen.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "familie",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober (Ausstellung); Auen ganzjährig",
+   "hours": "3.4.–11.10.2026: Mi–Sa 13–17, So/Feiertage 11–17 Uhr; Auengebiet frei zugänglich",
+   "durationMin": 150,
+   "wow": "Wo die Thur in den Rhein mündet: Auenwald mit Bibern und Erlebnispfad",
+   "text": "Das Naturzentrum erklärt die wilde Flusslandschaft an der Thurmündung, draussen führt ein Erlebnispfad mit Luftsteg durch den Auenwald. Mit etwas Glück siehst du Biberspuren, im Sommer kannst du an der Thur baden.",
+   "tip": "Im Juni gibt es geführte Biber-Abende (40 Fr.) – früh anmelden.",
+   "source": "https://paneco.ch/wp-content/uploads/2026/01/2026_Veranstaltungsprogramm_PanEco_ANSICHT.pdf",
+   "priceInfo": {
+    "from": 7,
+    "unit": "Eintritt Erwachsene",
+    "note": "Ausstellung/Erlebnispfad; Familie 15, reduziert 5; Auengebiet gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/M%C3%BCndung_Thur_Rhein_Air1.JPG/1280px-M%C3%BCndung_Thur_Rhein_Air1.JPG",
+    "alt": "Luftbild der Thurmündung in den Rhein",
+    "credit": "https://commons.wikimedia.org/wiki/File:M%C3%BCndung_Thur_Rhein_Air1.JPG"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "11:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [],
+     "3": [
+      [
+       "13:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "13:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "13:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "13:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eg-x-irchelturm",
+   "kind": "aussicht",
+   "name": "Aussichtsturm Irchel",
+   "region": "eglisau",
+   "town": "Buch am Irchel",
+   "address": "Irchel, 8414 Buch am Irchel",
+   "coords": {
+    "lat": 47.54057,
+    "lng": 8.62047
+   },
+   "url": "https://www.zvv.ch/de/freizeit-und-events/freizeittipps/wandern/wanderung-von-pfungen-um-den-irchel.html",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "aussicht",
+    "aktiv",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 150,
+   "wow": "28 m hoher Metallturm mitten im Wald, Rundsicht übers Weinland bis zum Rhein",
+   "text": "Der Irchel ist ein bewaldeter Hügelzug zwischen Thur und Töss; vom Metallturm schaust du über den Wald bis ins Weinland und zum Rhein. Ab Buch am Irchel oder Teufen ist es eine gemütliche Wanderung.",
+   "tip": "Die ZVV-Route ab Pfungen empfiehlt den Turm am Abend – Sonnenuntergang über dem Wald.",
+   "source": "https://wegwandern.ch/wanderung/buch-am-irchel-irchelturm-irchel-hochwacht-teufen-zh-zuercher-weinland-wandern-wanderung/",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Irchel-Turo_312.jpg/1280px-Irchel-Turo_312.jpg",
+    "alt": "Blick auf den Irchelturm bei Buch am Irchel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Irchel-Turo_312.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eg-x-eisenbahnbruecke",
+   "kind": "aussicht",
+   "name": "Eisenbahnbrücke Eglisau",
+   "region": "eglisau",
+   "town": "Eglisau",
+   "address": "Rheinufer / Förlibuck, 8193 Eglisau",
+   "coords": {
+    "lat": 47.57738,
+    "lng": 8.50994
+   },
+   "url": "https://www.myswitzerland.com/de-ch/reiseziele/eglisau/",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "aussicht",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 45,
+   "wow": "457 m lange Bahnbrücke von 1897, Hauptbogen mit 90 m Spannweite über dem Rhein",
+   "text": "Die Stahl-Steinbrücke spannt sich hoch über den Rhein und das Städtchen; vom Uferweg oder vom Förlibuck siehst du Züge darüber rollen. Ein guter Fotostopp, bevor du durch die Altstadt zur Rhybar gehst.",
+   "tip": "Abends, wenn die Züge mit Licht über die Brücke fahren, entstehen die schönsten Fotos.",
+   "source": "https://structurae.net/de/bauwerke/20008608",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rheinbruecken_Eglisau_03_10.jpg/1280px-Rheinbruecken_Eglisau_03_10.jpg",
+    "alt": "Rheinbrücken von Eglisau vom Förlibuck aus",
+    "credit": "https://commons.wikimedia.org/wiki/File:Rheinbruecken_Eglisau_03_10.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eg-x-kaiserstuhl",
+   "kind": "sehenswuerdigkeit",
+   "name": "Städtchen Kaiserstuhl",
+   "region": "eglisau",
+   "town": "Kaiserstuhl AG",
+   "address": "5466 Kaiserstuhl",
+   "coords": {
+    "lat": 47.56845,
+    "lng": 8.41836
+   },
+   "url": "https://www.myswitzerland.com/de-ch/reiseziele/kaiserstuhl/",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "kultur",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 60,
+   "wow": "Mittelalterstädtchen mit rund 400 Einwohnern, Turm von ca. 1260, Brücke nach DE",
+   "text": "Kaiserstuhl ist ein winziges, steil zum Rhein abfallendes Städtchen mit Stadtmauer und Oberem Turm; über die Rheinbrücke spazierst du nach Hohentengen in Deutschland. Eine Stunde reicht für Gassen, Turm und Ufer.",
+   "tip": "Pass oder ID mitnehmen, wenn du über die Brücke nach Deutschland gehst.",
+   "source": "https://hls-dhs-dss.ch/de/articles/001836/2014-11-26",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Kaiserstuhl_200421_DJI_0786.jpg/1280px-Kaiserstuhl_200421_DJI_0786.jpg",
+    "alt": "Luftbild des Städtchens Kaiserstuhl am Rhein",
+    "credit": "https://commons.wikimedia.org/wiki/File:Kaiserstuhl_200421_DJI_0786.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eg-x-therme-zurzach",
+   "kind": "bad",
+   "name": "Therme Zurzach",
+   "region": "eglisau",
+   "town": "Bad Zurzach",
+   "address": "Therme Zurzach, 5330 Bad Zurzach",
+   "coords": {
+    "lat": 47.58932,
+    "lng": 8.28977
+   },
+   "url": "https://www.thermezurzach.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "wellness",
+    "regenfest",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Öffnungszeiten auf thermezurzach.ch/oeffnungszeiten",
+   "durationMin": 180,
+   "wow": "Thermalwasser mit fast 40 °C und Saunen in einem nachgebauten Bohrturm",
+   "text": "Du badest im natürlich warmen Thermalwasser innen und aussen; wer mag, schwitzt in den Bohrturmsaunen. Ab Eglisau via Bülach und S36 bist du in gut einer halben Stunde da.",
+   "tip": "Das Abendticket ab 19.30 Uhr (26 Fr., Mo–Fr, nur online) schliesst die Bohrturmsauna ein.",
+   "source": "https://www.thermezurzach.ch/preise",
+   "priceInfo": {
+    "from": 28,
+    "to": 33,
+    "unit": "Eintritt Erwachsene",
+    "note": "2 Std.: Mo–Fr 28, Sa 30, So/Feiertag 33 Fr.; Tageskarte 48–53; Sauna +12"
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eg-x-gottfried-keller-zentrum",
+   "kind": "sehenswuerdigkeit",
+   "name": "Gottfried-Keller-Zentrum Glattfelden",
+   "region": "eglisau",
+   "town": "Glattfelden",
+   "address": "Gottfried-Keller-Strasse 8, 8192 Glattfelden",
+   "coords": {
+    "lat": 47.55884,
+    "lng": 8.49952
+   },
+   "url": "https://www.gkz.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "kultur",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig, nur 1. Wochenende im Monat",
+   "hours": "jedes 1. Wochenende im Monat Sa/So 14–16 Uhr, sonst nach Vereinbarung",
+   "durationMin": 60,
+   "wow": "Keller-Museum im Dorf seiner Kindheit – nur am 1. Wochenende im Monat offen",
+   "text": "In fünf Räumen eines Hauses aus dem 16. Jahrhundert erfährst du, wie Glattfelden das Werk von Gottfried Keller prägte. Danach führt ein Weg zu Schauplätzen aus dem «Grünen Heinrich».",
+   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/gottfried-keller-zentrum-4236.html",
+   "priceInfo": {
+    "from": 5,
+    "unit": "Eintritt Erwachsene",
+    "note": "mit Führung 8 Fr."
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Glattfelden_-_Klingelehaus_%28Gottfried-Keller-Zentrum%29%2C_Gottfried-Keller-Strasse_8_2011-09-15_13-51-36.JPG/1280px-Glattfelden_-_Klingelehaus_%28Gottfried-Keller-Zentrum%29%2C_Gottfried-Keller-Strasse_8_2011-09-15_13-51-36.JPG",
+    "alt": "Klingelehaus mit dem Gottfried-Keller-Zentrum in Glattfelden",
+    "credit": "https://commons.wikimedia.org/wiki/File:Glattfelden_-_Klingelehaus_(Gottfried-Keller-Zentrum),_Gottfried-Keller-Strasse_8_2011-09-15_13-51-36.JPG"
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "rb-x-mammutmuseum",
+   "kind": "sehenswuerdigkeit",
+   "name": "Mammutmuseum Niederweningen",
+   "region": "regensberg",
+   "town": "Niederweningen",
+   "address": "Mammutmuseum, 8166 Niederweningen",
+   "coords": {
+    "lat": 47.50535,
+    "lng": 8.37732
+   },
+   "url": "https://www.mammutmuseum.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "familie",
+    "regenfest",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (24.–26.12. und 31.12.–2.1. zu)",
+   "hours": "nur sonntags 14–17 Uhr",
+   "durationMin": 60,
+   "wow": "Mammutknochen aus dem Dorfboden – Museum nur sonntags offen, Eintritt 5 Franken",
+   "text": "In Niederweningen wurden Mammutreste im Boden gefunden; das kleine Museum zeigt Funde, ein Skelett-Nachbau und erklärt die Eiszeit im Wehntal. Mit der S15 bis Niederweningen Dorf, dann fünf Minuten zu Fuss.",
+   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/mammutmuseum-2595.html",
+   "priceInfo": {
+    "from": 5,
+    "unit": "Eintritt Erwachsene",
+    "note": "7–15 J. 2 Fr., bis 6 J. gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mammut_Museum_Niederweningen_20170319_160437.jpg/1280px-Mammut_Museum_Niederweningen_20170319_160437.jpg",
+    "alt": "Ausstellung im Mammutmuseum Niederweningen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Mammut_Museum_Niederweningen_20170319_160437.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "rb-x-neeracherried",
+   "kind": "aktivitaet",
+   "name": "BirdLife-Naturzentrum Neeracherried",
+   "region": "regensberg",
+   "town": "Neerach",
+   "address": "BirdLife-Naturzentrum Neeracherried, 8173 Neerach",
+   "coords": {
+    "lat": 47.50055,
+    "lng": 8.47056
+   },
+   "url": "https://www.birdlife.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "familie",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober (Winter nur 2. Sonntag im Monat)",
+   "hours": "Sommer: Mi 14–20, Sa 10–18, So/Feiertage 8–18 Uhr; Nov–März nur 2. Sonntag im Monat",
+   "durationMin": 120,
+   "wow": "Aus Beobachtungshütten mitten im Flachmoor Brut- und Zugvögel beobachten",
+   "text": "Im Naturzentrum leihst du dir Tipps und manchmal ein Fernrohr, dann beobachtest du aus Holzhütten Reiher, Kiebitze und Enten im Ried. Plattform, Teich und Naturpfade sind auch ausserhalb der Öffnungszeiten zugänglich.",
+   "tip": "Am Sonntag öffnet das Zentrum schon um 8 Uhr – frühmorgens ist am meisten los am Wasser.",
+   "source": "https://www.myswitzerland.com/en-id/experiences/birdlife-naturzentrum-neeracherried/",
+   "priceInfo": {
+    "from": 7,
+    "unit": "Eintritt Erwachsene",
+    "note": "Familien 15, reduziert 3–5; Museumspass gilt"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Neeracherried_19_10_47_545000.jpeg/1280px-Neeracherried_19_10_47_545000.jpeg",
+    "alt": "Riedlandschaft im Neeracherried",
+    "credit": "https://commons.wikimedia.org/wiki/File:Neeracherried_19_10_47_545000.jpeg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ],
+     "1": [],
+     "2": [],
+     "3": [
+      [
+       "14:00",
+       "20:00"
+      ]
+     ],
+     "4": [],
+     "5": [],
+     "6": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "rb-x-kloster-fahr",
+   "kind": "sehenswuerdigkeit",
+   "name": "Kloster Fahr",
+   "region": "regensberg",
+   "town": "Würenlos (Kloster Fahr)",
+   "address": "Kloster Fahr, 8109 Kloster Fahr",
+   "coords": {
+    "lat": 47.40845,
+    "lng": 8.4393
+   },
+   "url": "https://www.kloster-fahr.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "kultur",
+    "genuss",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "Klosterkirche tagsüber offen; Restaurant «Zu den zwei Raben» Mi–Fr 10–14, Sa/So 10–18 Uhr",
+   "durationMin": 120,
+   "wow": "Frauenkloster seit ca. 1130 an der Limmat – ein Stück Aargau im Kanton Zürich",
+   "text": "Von Zürich-Höngg oder Unterengstringen spazierst du der Limmat entlang zum Frauenkloster mit barocker Kirche, Klostergarten und Gartenbeiz. Bei schönem Wetter setzt an Sonntagen eine kleine Fähre über die Limmat.",
+   "tip": "Öffentliche Klosterführungen gibt es am letzten Samstag im Monat um 14 Uhr, ohne Anmeldung, mit Kollekte.",
+   "source": "https://www.freizeit.ch/freizeit/14108/kloster-fahr",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "öffentliche Führung mit Kollekte"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kloster_Fahr%2C_drone_view.jpg/1280px-Kloster_Fahr%2C_drone_view.jpg",
+    "alt": "Luftbild von Kloster Fahr an der Limmat",
+    "credit": "https://commons.wikimedia.org/wiki/File:Kloster_Fahr,_drone_view.jpg"
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "rb-x-strandbad-katzensee",
+   "kind": "bad",
+   "name": "Strandbad Katzensee",
+   "region": "regensberg",
+   "town": "Zürich-Affoltern / Regensdorf",
+   "address": "Katzenseestrasse, 8046 Zürich",
+   "coords": {
+    "lat": 47.43055,
+    "lng": 8.49331
+   },
+   "url": "https://www.badi-info.ch/katzensee.html",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "see",
+    "familie",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September (2026: 9.5.–20.9.)",
+   "hours": "Badesaison mit Personal 9.5.–20.9.; Badeplatz rund um die Uhr",
+   "durationMin": 180,
+   "wow": "Naturbadi mit 80 m Sandstrand am Moorsee – Eintritt gratis",
+   "text": "Am kleinen Moorsee zwischen Zürich und Regensdorf liegst du an einem Sandstrand, schwimmst im warmen Wasser und grillierst an den Feuerstellen. Bus 37 oder 61 bis Mühlacker, dann fünf Minuten zu Fuss.",
+   "tip": "Keine Badeaufsicht – und Gummiboote/SUPs sind auf dem See verboten.",
+   "source": "https://www.badi-info.ch/katzensee.html",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Katzensee_-_Strandbad_2012-06-17_17-20-08_%28P7000%29.JPG/1280px-Katzensee_-_Strandbad_2012-06-17_17-20-08_%28P7000%29.JPG",
+    "alt": "Haubentaucher vor dem Strandbad Katzensee",
+    "credit": "https://commons.wikimedia.org/wiki/File:Katzensee_-_Strandbad_2012-06-17_17-20-08_(P7000).JPG"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "rb-x-pferderennbahn-dielsdorf",
+   "kind": "aktivitaet",
+   "name": "Pferderennbahn Zürich-Dielsdorf",
+   "region": "regensberg",
+   "town": "Dielsdorf",
+   "address": "Neeracherstrasse, 8157 Dielsdorf",
+   "coords": {
+    "lat": 47.48594,
+    "lng": 8.47276
+   },
+   "url": "https://pferderennen-zuerich.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "freunde",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "nur an 4 Renntagen (Mai, Juni, September, Oktober)",
+   "hours": "Renntage 2027: So 2.5., 13.6. (Kids Day), 19.9., 17.10.",
+   "durationMin": 240,
+   "wow": "Galopp- und Hindernisrennen am Fuss der Lägern – nur viermal im Jahr",
+   "text": "An den wenigen Renntagen donnern Vollblüter über Flach- und Hindernisbahn, dazwischen schaust du im Führring zu und tippst am Wettschalter. Mit S15 nach Dielsdorf, dann zehn Minuten zu Fuss.",
+   "tip": "Am Kids Day im Juni gibt es Familienprogramm; Kinder bis 16 haben in Begleitung immer freien Eintritt.",
+   "source": "https://pferderennen-zuerich.ch/english",
+   "priceInfo": {
+    "from": 20,
+    "to": 45,
+    "unit": "Eintritt Erwachsene",
+    "note": "Stehplatz 20 Fr., nummerierter Tribünenplatz 45 Fr.; bis 16 J. gratis"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "rb-x-sternwarte-buelach",
+   "kind": "aktivitaet",
+   "name": "Sternwarte Bülach",
+   "region": "regensberg",
+   "town": "Bülach-Eschenmosen",
+   "address": "Sternwarteweg 7, 8180 Bülach",
+   "coords": {
+    "lat": 47.51962,
+    "lng": 8.57065
+   },
+   "url": "https://www.sternwartebuelach.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "romantisch",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "öffentliche Beobachtung freitags ab 20 Uhr (ausser Feiertage)",
+   "durationMin": 90,
+   "wow": "Zwillingsteleskop mit 85- und 50-cm-Spiegel, freitags gratis für alle",
+   "text": "Auf dem Dach der Sternwarte im Wald über Bülach schaust du mit Vereinsmitgliedern durch grosse Teleskope zu Mond, Planeten und Nebeln. Parkiere beim Eschenmoser-Pass und gehe die letzten Minuten zu Fuss.",
+   "source": "https://www.sternwartebuelach.ch/",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Spende willkommen"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sternwarte_B%C3%BClach_von_Osten.jpg/1280px-Sternwarte_B%C3%BClach_von_Osten.jpg",
+    "alt": "Sternwarte Bülach mit geöffnetem Dach",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sternwarte_B%C3%BClach_von_Osten.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [],
+     "1": [],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [
+      [
+       "20:00",
+       "23:00"
+      ]
+     ],
+     "6": []
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sh-x-rhybadi",
+   "kind": "bad",
+   "name": "Rhybadi Schaffhausen",
+   "region": "schaffhausen",
+   "town": "Schaffhausen",
+   "address": "Rheinuferstrasse, 8200 Schaffhausen",
+   "coords": {
+    "lat": 47.69432,
+    "lng": 8.63806
+   },
+   "url": "https://www.badi-info.ch/zh/schaffhausen-rheinbad.html",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "aktiv",
+    "freunde",
+    "kultur"
+   ],
+   "weatherProof": false,
+   "season": "Ende Mai–September (2026: 23.5.–30.9.)",
+   "hours": "Badesaison Ende Mai bis Ende September; im Winter RhySauna",
+   "durationMin": 120,
+   "wow": "Hölzernes Kastenbad im Rhein unter dem Munot, seit 1870 in Betrieb",
+   "text": "Im Holzbau auf Pfählen badest du direkt im fliessenden Rhein, mit Kabinen und Sonnendecks wie vor 150 Jahren. Vom Bahnhof sind es zehn Minuten zu Fuss durch die Altstadt.",
+   "tip": "Im Winter wird die Rhybadi zur RhySauna – mit Abkühlung im Rhein.",
+   "source": "https://www.badi-info.ch/zh/schaffhausen-rheinbad.html",
+   "priceInfo": {
+    "from": 4,
+    "unit": "Eintritt Erwachsene",
+    "note": "Saisonabo 70 Fr.; Kulturlegi 50 %"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Rhybadi%2C_Rheinbadeanstalt_in_Schaffhausen_-_Spitz.jpg/1280px-Rhybadi%2C_Rheinbadeanstalt_in_Schaffhausen_-_Spitz.jpg",
+    "alt": "Holzkabinen der Rhybadi im Rhein",
+    "credit": "https://commons.wikimedia.org/wiki/File:Rhybadi,_Rheinbadeanstalt_in_Schaffhausen_-_Spitz.jpg"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sh-x-kesslerloch",
+   "kind": "sehenswuerdigkeit",
+   "name": "Kesslerloch",
+   "region": "schaffhausen",
+   "town": "Thayngen",
+   "address": "Kesslerloch, 8240 Thayngen",
+   "coords": {
+    "lat": 47.74529,
+    "lng": 8.69359
+   },
+   "url": "https://hls-dhs-dss.ch/de/articles/012557/",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "kultur",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "Höhle frei zugänglich (Infotafeln)",
+   "durationMin": 45,
+   "wow": "Eiszeit-Höhle der Rentierjäger, Fundort des berühmten «Weidenden Rentiers»",
+   "text": "In der Felshöhle am Waldrand lagerten am Ende der letzten Eiszeit über Jahrtausende Rentierjäger; hier wurde die weltbekannte Gravur eines grasenden Rentiers gefunden. Vom Bahnhof Thayngen bist du in wenigen Minuten dort, der Steinzeitpfad führt weiter.",
+   "tip": "Die Originalfunde siehst du im Museum zu Allerheiligen in Schaffhausen.",
+   "source": "https://www.bergfex.at/sommer/ostschweiz/touren/themenweg/447812,steinzeitpfad-route-kesslerloch-schweizersbild/",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kesslerloch_%282019%29.jpg/1280px-Kesslerloch_%282019%29.jpg",
+    "alt": "Eingang der Höhle Kesslerloch bei Thayngen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Kesslerloch_(2019).jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sh-x-klosterinsel-rheinau",
+   "kind": "sehenswuerdigkeit",
+   "name": "Klosterinsel Rheinau",
+   "region": "schaffhausen",
+   "town": "Rheinau",
+   "address": "Klosterinsel, 8462 Rheinau",
+   "coords": {
+    "lat": 47.64303,
+    "lng": 8.60705
+   },
+   "url": "https://www.myswitzerland.com/en/experiences/klosterkirche-rheinau-monastery-church-rheinau",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "kultur",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "Insel frei zugänglich; Kirche tagsüber, Führungen auf Anfrage",
+   "durationMin": 90,
+   "wow": "Barocke Klosterkirche auf einer Insel in einer Rheinschlaufe",
+   "text": "Über eine kurze Brücke betrittst du die Insel mit der barocken Klosterkirche, deren Deckenfresken das Innere prägen. Rundherum führen stille Uferwege der Rheinschlaufe entlang – ab Rheinfall ein schöner Abstecher.",
+   "source": "https://www.myswitzerland.com/en/experiences/klosterkirche-rheinau-monastery-church-rheinau",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Kloster_Rheinau_ZH_%282019%29.jpg/1280px-Kloster_Rheinau_ZH_%282019%29.jpg",
+    "alt": "Kloster Rheinau auf der Rheininsel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Kloster_Rheinau_ZH_(2019).jpg"
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sh-x-adventure-park-rheinfall",
+   "kind": "aktivitaet",
+   "name": "Adventure Park Rheinfall",
+   "region": "schaffhausen",
+   "town": "Neuhausen am Rheinfall",
+   "address": "Nohlstrasse, 8212 Neuhausen am Rheinfall",
+   "coords": {
+    "lat": 47.67441,
+    "lng": 8.60846
+   },
+   "url": "https://ap-rheinfall.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "familie",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Ende März–Oktober",
+   "hours": "täglich 10–19 Uhr, letzter Einlass 16.30; Juni/Juli werktags 9–18 Uhr; Winterpause bis 25.3.2027",
+   "durationMin": 210,
+   "wow": "14 Kletterparcours im Wald beim Rheinfall, 3 Stunden Klettern für 41 Franken",
+   "text": "Nach einer kurzen Instruktion kletterst du drei Stunden lang über Hängebrücken, Seilrutschen und Plattformen in den Bäumen, je nach Mut auf grünen bis schwarzen Parcours. Vom Bahnhof Neuhausen erreichst du den Park in rund 15 Minuten zu Fuss.",
+   "tip": "Spätestens um 16.30 Uhr dort sein – danach gibt es keinen Einlass mehr.",
+   "source": "https://ap-rheinfall.ch/preise/",
+   "priceInfo": {
+    "from": 41,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 16 J., 3 Std. Material; 14–15 J. 32.50; 10–13 J. 26.50"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "19:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sh-x-iwc-museum",
+   "kind": "sehenswuerdigkeit",
+   "name": "IWC Museum",
+   "region": "schaffhausen",
+   "town": "Schaffhausen",
+   "address": "Baumgartenstrasse 15, 8200 Schaffhausen",
+   "coords": {
+    "lat": 47.69452,
+    "lng": 8.63689
+   },
+   "url": "https://www.iwc.com/ch/de/company/museum.html",
+   "price": 1,
+   "tags": [
+    "kultur",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di–Fr 9–17.30, Sa 9–15.30 Uhr; So/Mo und Feiertage zu; Anmeldung nötig",
+   "durationMin": 60,
+   "wow": "Uhrengeschichte der Manufaktur am Rhein – Kinder bis 16 gratis",
+   "text": "Im Stammhaus der Uhrenmanufaktur IWC zeigt das Museum Taschen-, Flieger- und Taucheruhren aus der Firmengeschichte. Das Haus liegt direkt am Rhein, wenige Schritte von der Rhybadi.",
+   "tip": "Online anmelden – das spart Wartezeit am Eingang.",
+   "source": "https://www.iwc.com/ch/de/company/museum.html",
+   "priceInfo": {
+    "from": 10,
+    "unit": "Eintritt Erwachsene",
+    "note": "reduziert 5; bis 16 J. gratis"
+   },
+   "open": {
+    "week": {
+     "0": [],
+     "1": [],
+     "2": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "15:30"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sh-x-museum-lindwurm",
+   "kind": "sehenswuerdigkeit",
+   "name": "Museum Lindwurm",
+   "region": "schaffhausen",
+   "town": "Stein am Rhein",
+   "address": "Understadt 18, 8260 Stein am Rhein",
+   "coords": {
+    "lat": 47.66057,
+    "lng": 8.85831
+   },
+   "url": "https://www.museum-lindwurm.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "kultur",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Nov–Feb nur Sa/So)",
+   "hours": "März–Okt. Di–So 10–17; Nov.–Feb. Sa/So 10–17 Uhr; 21.12.–8.1. zu",
+   "durationMin": 60,
+   "wow": "Bürgerhaus wie im 19. Jahrhundert – Küche, Stube, Stall, Eintritt frei",
+   "text": "Im Haus «Lindwurm» erlebst du Wohnen und Arbeiten einer Bürgerfamilie im 19. Jahrhundert: von der Herrschaftsstube bis zu Küche, Magdkammer und Stall. Ein leiser Kontrast zum Trubel auf dem Rathausplatz.",
+   "source": "https://www.museum-lindwurm.ch/",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Stein_am_Rhein_Haus_Lindwurm.jpg/1280px-Stein_am_Rhein_Haus_Lindwurm.jpg",
+    "alt": "Fassade des Hauses Lindwurm in Stein am Rhein",
+    "credit": "https://commons.wikimedia.org/wiki/File:Stein_am_Rhein_Haus_Lindwurm.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sh-x-sternwarte-schaffhausen",
+   "kind": "aktivitaet",
+   "name": "Sternwarte Schaffhausen",
+   "region": "schaffhausen",
+   "town": "Schaffhausen",
+   "address": "Weiherweg 1, 8200 Schaffhausen",
+   "coords": {
+    "lat": 47.70562,
+    "lng": 8.60976
+   },
+   "url": "https://www.sternwarte-schaffhausen.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "familie",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "öffentliche Abende laut Programm (u. a. samstags) auf sternwarte-schaffhausen.ch",
+   "durationMin": 90,
+   "wow": "Laut Betreiber grösster öffentlich zugänglicher Teleskop-Cluster der Schweiz",
+   "text": "In der 2012 eröffneten Sternwarte schaust du durch mehrere grosse Teleskope und kannst im Planetarium den Sternenhimmel auch bei Wolken erleben. Für Kinder gibt es die «Sternenjäger»-Abende.",
+   "source": "https://www.freizeit.ch/freizeit/25058/sternwarte-schaffhausen",
+   "priceInfo": {
+    "from": 0,
+    "to": 15,
+    "unit": "Eintritt Erwachsene",
+    "note": "Observatorium gratis, Planetarium 15 Fr. (Kinder bis 16: 5 Fr.)"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Sternwarte_Schaffhausen_2026.jpg/1280px-Sternwarte_Schaffhausen_2026.jpg",
+    "alt": "Gebäude der Sternwarte Schaffhausen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sternwarte_Schaffhausen_2026.jpg"
+   },
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sh-x-siblinger-randenturm",
+   "kind": "aussicht",
+   "name": "Siblinger Randenturm",
+   "region": "schaffhausen",
+   "town": "Siblingen",
+   "address": "Siblinger Randen, 8225 Siblingen",
+   "coords": {
+    "lat": 47.72105,
+    "lng": 8.53395
+   },
+   "url": "https://www.schwarzwaldportal.com/ausflugsziel-siblinger-randenturm.html",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "aussicht",
+    "aktiv",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 120,
+   "wow": "99 Stufen auf die Plattform in 19 m Höhe, Turm steht auf 790 m ü. M.",
+   "text": "Der Holzturm von 2014 steht auf dem Randen über dem Klettgau; nach 99 Stufen siehst du an klaren Tagen vom Schwarzwald bis zu den Alpen. Ab Siblingen ist es eine knappe Stunde Aufstieg.",
+   "source": "https://dewiki.de/Lexikon/Siblinger_Randenturm",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Siblinger_Randenturm_2021.jpg/1280px-Siblinger_Randenturm_2021.jpg",
+    "alt": "Der Siblinger Randenturm im Wald",
+    "credit": "https://commons.wikimedia.org/wiki/File:Siblinger_Randenturm_2021.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "checked": "2026-11-15"
+  }
+ ],
+ "trips": [
+  {
+   "slug": "krasse-runde-baden-zuerich",
+   "title": "Die krasse Runde Baden–Zürich",
+   "teaser": "Urwald mit Felstürmen, Habsburger Glasfenster, drei Flüsse in einem – und abends ins Brauerei-Thermalbad.",
+   "region": "baden",
+   "days": 1,
+   "moods": [
+    "natur",
+    "kultur",
+    "aktiv",
+    "erholung",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "allein"
+   ],
+   "season": "April–Oktober, Dienstag bis Samstag",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 15
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 45
+    },
+    {
+     "from": "Bern",
+     "minutes": 70
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Felsen, Flüsse, Thermalbad",
+     "slots": [
+      {
+       "time": "09:30",
+       "placeId": "ba-x-teufelskeller",
+       "title": "Teufelskeller-Runde",
+       "text": "Ab Bahnhof Baden den Wegweisern zum Teufelskeller folgen und die Nagelfluh-Türme im Naturwald erkunden.",
+       "travel": "ab Bahnhof Baden zu Fuss, ca. 30 Min. bis ins Reservat",
+       "rain": {
+        "placeId": "ba-museum-langmatt",
+        "title": "Museum Langmatt",
+        "text": "Bei Regen statt in den Wald ins Museum Langmatt: französische Impressionisten in einer Villa mitten in Baden."
+       }
+      },
+      {
+       "time": "12:00",
+       "placeId": "ba-roter-turm",
+       "title": "Mittag in der Altstadt",
+       "text": "Zurück in Baden im Restaurant Roter Turm essen.",
+       "travel": "ca. 30 Min. zu Fuss zurück in die Altstadt"
+      },
+      {
+       "time": "13:45",
+       "placeId": "ba-x-kloster-koenigsfelden",
+       "title": "Glasfenster Königsfelden",
+       "text": "Mit dem Zug nach Brugg und in der Klosterkirche die farbigen Chorfenster aus dem 14. Jahrhundert ansehen.",
+       "travel": "10 Min. Zug Baden–Brugg, dann 10 Min. zu Fuss"
+      },
+      {
+       "time": "15:00",
+       "placeId": "ba-x-wasserschloss",
+       "title": "Wasserschloss",
+       "text": "Auf dem Uferweg bis zur Stelle wandern, wo Aare, Reuss und Limmat zusammenfliessen.",
+       "travel": "ca. 30 Min. zu Fuss ab Königsfelden Richtung Vogelsang",
+       "rain": {
+        "placeId": "ba-x-kindermuseum",
+        "title": "Kindermuseum Baden",
+        "text": "Bei Regen zurück nach Baden und durchs Schweizer Kindermuseum stöbern (bis 17 Uhr)."
+       }
+      },
+      {
+       "time": "18:30",
+       "placeId": "zh-x-thermalbad-spa",
+       "title": "Thermalbad in der Brauerei",
+       "text": "In Zürich in die Steingewölbe der alten Hürlimann-Brauerei und zum Schluss in den Dachpool.",
+       "travel": "ab Turgi/Brugg ca. 30 Min. S-Bahn nach Zürich, dann Tram 13 bis Brunaustrasse oder S4 bis Giesshübel"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-winterthur-schaffhausen",
+   "title": "Die krasse Runde Winterthur–Schaffhausen",
+   "teaser": "Ritterburg über der Töss, Uhrenmanufaktur am Rhein und drei Stunden in den Bäumen beim Rheinfall.",
+   "region": "winterthur",
+   "days": 1,
+   "moods": [
+    "aktiv",
+    "kultur",
+    "familie",
+    "krass"
+   ],
+   "audience": [
+    "freunde",
+    "familie",
+    "paar"
+   ],
+   "season": "April–Oktober, Samstag",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 25
+    },
+    {
+     "from": "St. Gallen",
+     "minutes": 40
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 75
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Burg, Uhren, Seilpark",
+     "slots": [
+      {
+       "time": "09:45",
+       "placeId": "wi-x-schloss-kyburg",
+       "title": "Schloss Kyburg",
+       "text": "Rittersaal, Kerker und Turm der Kyburg erkunden und ins Tösstal schauen.",
+       "travel": "ca. 25 Min. Bus ab Winterthur bzw. Effretikon"
+      },
+      {
+       "time": "12:30",
+       "placeId": "sh-falken",
+       "title": "Mittag im Falken",
+       "text": "In Schaffhausen im Restaurant Falken in der Altstadt einkehren.",
+       "travel": "zurück nach Winterthur, dann ca. 30 Min. Zug nach Schaffhausen"
+      },
+      {
+       "time": "13:45",
+       "placeId": "sh-x-iwc-museum",
+       "title": "IWC Museum",
+       "text": "Im Stammhaus der Uhrenmanufaktur die Uhren aus der Firmengeschichte ansehen (Sa bis 15.30 Uhr, vorher online anmelden).",
+       "travel": "8 Min. zu Fuss"
+      },
+      {
+       "time": "15:00",
+       "placeId": "sh-x-adventure-park-rheinfall",
+       "title": "Klettern beim Rheinfall",
+       "text": "Instruktion, dann drei Stunden über Hängebrücken und Seilrutschen – letzter Einlass 16.30 Uhr.",
+       "travel": "ca. 5 Min. Zug nach Neuhausen, dann 15 Min. zu Fuss",
+       "rain": {
+        "placeId": "sh-x-museum-lindwurm",
+        "title": "Museum Lindwurm",
+        "text": "Bei Regen mit dem Zug nach Stein am Rhein und im Lindwurm ein Bürgerhaus des 19. Jahrhunderts erkunden."
+       }
+      },
+      {
+       "time": "18:30",
+       "placeId": "sh-x-rhybadi",
+       "title": "Abkühlen in der Rhybadi",
+       "text": "Im Sommer zum Schluss ins hölzerne Kastenbad im Rhein springen (nur Ende Mai bis September).",
+       "travel": "ca. 20 Min. mit Bus/Zug zurück nach Schaffhausen, dann 10 Min. zu Fuss",
+       "rain": {
+        "placeId": "sh-x-sternwarte-schaffhausen",
+        "title": "Sternwarte statt Rhein",
+        "text": "Bei schlechtem Wetter ins Planetarium der Sternwarte Schaffhausen, falls an diesem Abend Programm ist."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-regensberg-eglisau",
+   "title": "Die krasse Runde Wehntal–Rhein",
+   "teaser": "Vogelhütten im Moor, Mammutknochen, das kleine Kaiserstuhl und Abendlicht an der Eisenbahnbrücke Eglisau.",
+   "region": "regensberg",
+   "days": 1,
+   "moods": [
+    "natur",
+    "kultur",
+    "erholung",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "familie",
+    "allein"
+   ],
+   "season": "April–Oktober, nur Sonntag",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 35
+    },
+    {
+     "from": "Winterthur",
+     "minutes": 45
+    },
+    {
+     "from": "Baden",
+     "minutes": 40
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Moor, Mammut, Rhein",
+     "slots": [
+      {
+       "time": "08:30",
+       "placeId": "rb-x-neeracherried",
+       "title": "Vögel im Neeracherried",
+       "text": "Früh in die Beobachtungshütten – sonntags öffnet das Naturzentrum schon um 8 Uhr.",
+       "travel": "ab Dielsdorf oder Bülach mit dem Bus, ca. 15–20 Min."
+      },
+      {
+       "time": "11:45",
+       "placeId": "rb-krone-regensberg",
+       "title": "Mittag in Regensberg",
+       "text": "Im Hotel Restaurant Krone im mittelalterlichen Städtchen auf der Lägern essen.",
+       "travel": "Bus nach Dielsdorf, dann Bus hinauf nach Regensberg, ca. 30 Min."
+      },
+      {
+       "time": "14:00",
+       "placeId": "rb-x-mammutmuseum",
+       "title": "Mammutmuseum",
+       "text": "Im kleinen Museum Funde und Nachbau der Mammuts aus dem Wehntal ansehen (nur So 14–17 Uhr).",
+       "travel": "Bus nach Dielsdorf, S15 bis Niederweningen Dorf, ca. 25 Min."
+      },
+      {
+       "time": "15:45",
+       "placeId": "eg-x-kaiserstuhl",
+       "title": "Kaiserstuhl",
+       "text": "Durch die steilen Gassen zum Oberen Turm und über die Rheinbrücke nach Hohentengen spazieren.",
+       "travel": "ca. 30–40 Min. mit Bus/Bahn via Bülach oder Niederweningen (Fahrplan prüfen)"
+      },
+      {
+       "time": "17:30",
+       "placeId": "eg-x-eisenbahnbruecke",
+       "title": "Brückenblick Eglisau",
+       "text": "Am Rheinufer in Eglisau die 457 m lange Bahnbrücke im Abendlicht fotografieren.",
+       "travel": "S36 nach Bülach, S9 nach Eglisau, ca. 35 Min.",
+       "rain": {
+        "placeId": "eg-x-therme-zurzach",
+        "title": "Therme Zurzach",
+        "text": "Bei Regen statt Eglisau mit der S36 nach Bad Zurzach ins warme Thermalwasser."
+       }
+      },
+      {
+       "time": "18:30",
+       "placeId": "eg-rhybar",
+       "title": "Apéro an der Rhybar",
+       "text": "Den Tag direkt am Rhein in der Rhybar ausklingen lassen.",
+       "travel": "ca. 10 Min. zu Fuss"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-rapperswil-oberland",
+   "title": "Die krasse Runde Rapperswil–Oberland",
+   "teaser": "Hirsche auf dem Schlosshügel, Johanniter-Ritter, Kürbishof am Pfäffikersee und der Bachtelturm.",
+   "region": "rapperswil",
+   "days": 1,
+   "moods": [
+    "natur",
+    "kultur",
+    "familie",
+    "aktiv",
+    "krass"
+   ],
+   "audience": [
+    "familie",
+    "paar",
+    "freunde"
+   ],
+   "season": "April–Oktober, Wochenende",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 35
+    },
+    {
+     "from": "St. Gallen",
+     "minutes": 60
+    },
+    {
+     "from": "Luzern",
+     "minutes": 75
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Hirsche, Ritter, Kürbis, Turm",
+     "slots": [
+      {
+       "time": "09:00",
+       "placeId": "ra-x-hirschpark",
+       "title": "Hirschpark und Rosen",
+       "text": "Auf dem Lindenhof die Damhirsche besuchen und durch den Duftrosengarten spazieren.",
+       "travel": "5 Min. zu Fuss ab Bahnhof Rapperswil"
+      },
+      {
+       "time": "10:30",
+       "placeId": "ra-x-ritterhaus-bubikon",
+       "title": "Ritterhaus Bubikon",
+       "text": "Kapelle, Rittersaal und Kräutergarten der alten Johanniter-Kommende (Sa/So ab 10 Uhr).",
+       "travel": "S5/S15 nach Bubikon, ca. 10 Min., dann 15 Min. zu Fuss"
+      },
+      {
+       "time": "12:30",
+       "placeId": "ra-x-juckerhof",
+       "title": "Mittag auf dem Juckerhof",
+       "text": "Im Hofrestaurant essen, danach Hofladen und – im Herbst – die Kürbisausstellung.",
+       "travel": "Zug nach Wetzikon/Aathal, dann Bus oder Fussweg, ca. 30 Min."
+      },
+      {
+       "time": "14:45",
+       "placeId": "ra-x-bachtelturm",
+       "title": "Hinauf zum Bachtelturm",
+       "text": "Von Hinwil auf den Bachtel wandern und von der Turmplattform über Zürichsee und Alpen schauen.",
+       "travel": "ca. 20 Min. Bus/Bahn nach Hinwil, dann 1–1,5 Std. Aufstieg",
+       "rain": {
+        "placeId": "ra-x-alpamare",
+        "title": "Alpamare",
+        "text": "Bei Regen nach Pfäffikon SZ ins Alpamare mit Rutschen und Wellenbad."
+       }
+      },
+      {
+       "time": "19:00",
+       "placeId": "ra-jakob",
+       "title": "Znacht im Jakob",
+       "text": "Zurück in Rapperswil im Restaurant Jakob am Hauptplatz essen.",
+       "travel": "ab Hinwil/Wald ca. 30–40 Min. mit S-Bahn"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": "Websuche-Kontingent war am Ende aufgebraucht; einige Angaben stammen daher von seriösen Drittportalen (museums.ch, zuerich.com, myswitzerland, badi-info, freizeit.ch) statt von der Betreiberseite. Unsicher/zu prüfen: Kyburg-Preis 12 Fr. (museums.ch, offizielle Seite nennt keinen Preis); Legionärspfad 14 Fr. (Veranstaltungskalender 2026); Uhrenmuseum Winterthur Öffnungszeiten widersprüchlich; Juckerhof-Kürbisausstellung 2026er Preis nicht auf offizieller Seite (Blick 2025: 12/15 Fr.); Sternwarte Schaffhausen genaue öffentliche Zeiten nicht ermittelt; Adventure Park Rheinfall Preisliste «ab 12.02.2023» – noch gültig laut Website, aber alt. Langenberg: Bären/Wölfe aus eigener Kenntnis, Website nicht abgerufen; Öffnungszeit im open-Feld konservativ 9–16 (Westteil Winter), Ostteil 24 h. Zuschauerterrasse B: Koordinaten = Flughafen-Bezugspunkt (Wikipedia), nicht exakt Dock B. Dolder Kunsteisbahn: keine Hausnummer verifiziert. Kesslerloch: freie Zugänglichkeit nicht explizit offiziell belegt (Wanderroute führt hin, Infotafeln). Saisonbetrieb (Winterpause Nov–März): Kyburg, Königsfelden, Lenzburg, Habsburg-Museum, Legionärspfad, Ritterhaus Bubikon, Thurauen-Ausstellung, Adventure Park, Atzmännig-Rodelbahn, DVZO; Sommer: Oberer Letten, Katzensee, Rhybadi; Winter: Dolder-Eisbahn. Ohne Commons-Bild (nichts Passendes gefunden): Thermalbad Zürich, Sternwarte Eschenberg, Teufelskeller, Kindermuseum, Therme Zurzach, Pferderennbahn Dielsdorf, Adventure Park, IWC Museum. Trips: Krasse Runde Regensberg–Eglisau nur sonntags sinnvoll (Mammutmuseum); ÖV-Verbindung Niederweningen–Kaiserstuhl nicht im Fahrplan geprüft."
+}

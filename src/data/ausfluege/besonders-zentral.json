@@ -1,0 +1,3161 @@
+{
+ "places": [
+  {
+   "id": "lu-x-hammetschwand-lift",
+   "kind": "aussicht",
+   "name": "Hammetschwand-Lift und Felsenweg",
+   "region": "luzern",
+   "town": "Bürgenstock (Obbürgen)",
+   "address": "Bürgenstock, 6363 Obbürgen",
+   "coords": {
+    "lat": 47.00031,
+    "lng": 8.39833
+   },
+   "url": "https://www.buergenstock.ch",
+   "price": 1,
+   "tags": [
+    "aussicht",
+    "berg",
+    "see",
+    "aktiv",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober (ab Karfreitag); im Winter geschlossen",
+   "hours": "täglich 09:30–18:00, bei Regen, Wind oder Eis zu",
+   "durationMin": 120,
+   "wow": "Freistehender Aussenlift: 152,8 m Höhe in rund einer Minute",
+   "text": "Vom Bürgenstock-Resort gehst Du rund 30 Minuten auf dem in den Fels gehauenen Felsenweg hoch über dem See bis zum Hammetschwand-Lift. Der gläserne Lift bringt Dich auf den Aussichtspunkt Hammetschwand, von dort schaust Du über Luzern, den Pilatus und den Vierwaldstättersee.",
+   "tip": "Hin mit dem Schiff nach Kehrsiten und der Bürgenstock-Bahn hoch, zurück gleich – der Felsenweg selbst kostet nichts, nur der Lift.",
+   "priceInfo": {
+    "from": 18,
+    "unit": "Retourbillett Erwachsene",
+    "note": "einfache Fahrt CHF 15; Kinder 6–16 CHF 9 retour; Schiff/Bürgenstock-Bahn nicht inbegriffen; Felsenweg und Plattform gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:30",
+       "18:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:30",
+       "18:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:30",
+       "18:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:30",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:30",
+       "18:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:30",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:30",
+       "18:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://nidwalden.com/en/poi/hammetschwand-lift",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Luzern_B%C3%BCrgenstock_Hammetschwand_lift.jpg/1280px-Luzern_B%C3%BCrgenstock_Hammetschwand_lift.jpg",
+    "alt": "Der Hammetschwand-Lift an der Felswand des Bürgenstocks über dem Vierwaldstättersee",
+    "credit": "https://commons.wikimedia.org/wiki/File:Luzern_B%C3%BCrgenstock_Hammetschwand_lift.jpg"
+   }
+  },
+  {
+   "id": "lu-x-stanserhorn-cabrio",
+   "kind": "aussicht",
+   "name": "Stanserhorn mit der CabriO-Bahn",
+   "region": "luzern",
+   "town": "Stans",
+   "address": "Talstation Stanserhornbahn, Stansstaderstrasse, 6370 Stans",
+   "coords": {
+    "lat": 46.95859,
+    "lng": 8.36348
+   },
+   "url": "https://www.stanserhorn.ch",
+   "price": 3,
+   "tags": [
+    "aussicht",
+    "berg",
+    "besonders",
+    "freunde",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "11. April – 22. November 2026",
+   "hours": "Fahrplanbetrieb; Abendfahrten Do/Fr/Sa",
+   "durationMin": 240,
+   "wow": "Weltweit einzige CabriO-Seilbahn mit offenem Oberdeck (seit 2012)",
+   "text": "Zuerst rumpelst Du mit der historischen Standseilbahn von 1893 den Hang hoch, dann steigst Du in die CabriO um und fährst auf dem offenen Oberdeck der Kabine bis zum Gipfel. Oben läufst Du den kurzen Rundweg mit Blick auf zehn Seen und die Alpenkette.",
+   "tip": "An Abendfahrt-Tagen (Do–Sa) ist oben weniger los als am Vormittag – und das Licht ist besser.",
+   "priceInfo": {
+    "from": 82,
+    "unit": "Retourbillett Erwachsene",
+    "note": "mit Halbtax CHF 41; Kinder 6–15 CHF 20.50; Fahrzeit-Reservation online möglich"
+   },
+   "open": {
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "source": "https://www.stanserhorn.ch/informationen/preise",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Stanserhorn_from_Lake_Lucerne.jpg/1280px-Stanserhorn_from_Lake_Lucerne.jpg",
+    "alt": "Das Stanserhorn vom Vierwaldstättersee aus gesehen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Stanserhorn_from_Lake_Lucerne.jpg"
+   }
+  },
+  {
+   "id": "lu-x-fraekigaudi-rodelbahn",
+   "kind": "aktivitaet",
+   "name": "Rodelbahn Fräkigaudi auf der Fräkmüntegg",
+   "region": "luzern",
+   "town": "Kriens",
+   "address": "Fräkmüntegg, 6010 Kriens",
+   "coords": {
+    "lat": 46.99049,
+    "lng": 8.25144
+   },
+   "url": "https://pilatus.ch/en/discover/fraekigaudi-toboggan-run",
+   "price": 1,
+   "tags": [
+    "aktiv",
+    "familie",
+    "freunde",
+    "berg",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "Ende März – Mitte Oktober, nur bei trockenem Wetter",
+   "hours": "täglich 10:00–16:00 bei trockener Bahn",
+   "durationMin": 60,
+   "wow": "Längste Sommerrodelbahn der Schweiz: 1350 m",
+   "text": "Mit der Pilatus-Gondel ab Kriens fährst Du bis zur Mittelstation Fräkmüntegg, dort startet die Rodelbahn direkt neben dem Seilpark. Auf 1350 m Schiene sausst Du in Kurven und Wellen durch den Wald bergab und lässt Dich danach wieder hochziehen.",
+   "tip": "Nach Regen bleibt die Bahn zu, bis sie trocken ist – an unsicheren Tagen vorher auf der Pilatus-Website schauen.",
+   "priceInfo": {
+    "from": 9,
+    "unit": "Einzelfahrt Erwachsene",
+    "note": "Gondelbahn Kriens–Fräkmüntegg nicht inbegriffen; Kinder bis 5 in Begleitung gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.luzern.com/de/poi/rodelbahn-fraekigaudi",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lu-x-bourbaki-panorama",
+   "kind": "sehenswuerdigkeit",
+   "name": "Bourbaki Panorama",
+   "region": "luzern",
+   "town": "Luzern",
+   "address": "Löwenplatz 11, 6004 Luzern",
+   "coords": {
+    "lat": 47.0569,
+    "lng": 8.31129
+   },
+   "url": "https://www.bourbakipanorama.ch",
+   "price": 1,
+   "tags": [
+    "regenfest",
+    "kultur",
+    "besonders"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "April–Oktober täglich 10–18 Uhr, November–März 10–17 Uhr; 25.12. zu",
+   "durationMin": 60,
+   "wow": "Rundbild von 1881: 113 m lang, 9 m hoch",
+   "text": "Du stehst mitten in einem riesigen Rundgemälde, das den Übertritt von rund 87'000 französischen Soldaten in die Schweiz im Winter 1871 zeigt. Vordergrund mit echten Gegenständen und Bild gehen so nahtlos ineinander über, dass Du kaum merkst, wo die Malerei beginnt.",
+   "tip": "Liegt direkt neben dem Löwendenkmal – beides zusammen dauert kaum mehr als eine Stunde.",
+   "priceInfo": {
+    "from": 15,
+    "unit": "Eintritt Erwachsene",
+    "note": "AHV/Studierende CHF 12; Kinder 6–16 CHF 7; Museumspass gilt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/bourbaki-panorama-luzern-2141.html",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Bourbaki-Panorama_painting-03.jpg/1280px-Bourbaki-Panorama_painting-03.jpg",
+    "alt": "Ausschnitt aus dem Rundgemälde im Bourbaki Panorama Luzern",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bourbaki-Panorama_painting-03.jpg"
+   }
+  },
+  {
+   "id": "lu-x-mineralbad-rigi-kaltbad",
+   "kind": "bad",
+   "name": "Mineralbad & Spa Rigi Kaltbad",
+   "region": "luzern",
+   "town": "Rigi Kaltbad",
+   "address": "Mineralbad & Spa Rigi Kaltbad, 6356 Rigi Kaltbad",
+   "coords": {
+    "lat": 47.04471,
+    "lng": 8.46618
+   },
+   "url": "https://www.aquaspa.ch/en/mineralbad-rigi/",
+   "price": 3,
+   "tags": [
+    "wellness",
+    "berg",
+    "regenfest",
+    "romantisch",
+    "besonders"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Revision 23.–27.11.2026)",
+   "hours": "täglich 10–20 Uhr, Baden bis 19:30",
+   "durationMin": 180,
+   "wow": "Mineralbad von Mario Botta mitten im Bergdorf auf der Rigi",
+   "text": "Du fährst mit der Zahnradbahn ab Vitznau oder der Luftseilbahn ab Weggis nach Rigi Kaltbad und steigst dort ins warme Mineralwasser – mit Blick auf die Berge. Neben dem Bad gibt es Dampfbad und Sauna; das Bad hat der Tessiner Architekt Mario Botta entworfen.",
+   "tip": "Ab 16 Uhr gibt es den günstigeren «4 o'clock»-Eintritt – ideal nach einer Wanderung von Rigi Kulm hinunter.",
+   "priceInfo": {
+    "from": 42,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 7–15 CHF 22; ab 16 Uhr CHF 29; Rigi-Bahn nicht inbegriffen (Kombi «Mineralbad Express» ab CHF 60); GA/Tageskarte gilt auf den Rigi-Bahnen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "20:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.aquaspa.ch/en/mineralbad-rigi/plan-your-visit/prices/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Spa_at_Rigi_Kaltbad_in_winter.jpg/1280px-Spa_at_Rigi_Kaltbad_in_winter.jpg",
+    "alt": "Das Mineralbad in Rigi Kaltbad im Winter",
+    "credit": "https://commons.wikimedia.org/wiki/File:Spa_at_Rigi_Kaltbad_in_winter.jpg"
+   }
+  },
+  {
+   "id": "lu-x-glasi-hergiswil",
+   "kind": "sehenswuerdigkeit",
+   "name": "Glasi Hergiswil",
+   "region": "luzern",
+   "town": "Hergiswil",
+   "address": "Seestrasse 12, 6052 Hergiswil",
+   "coords": {
+    "lat": 46.98195,
+    "lng": 8.31157
+   },
+   "url": "https://www.glasi.ch",
+   "price": 1,
+   "tags": [
+    "regenfest",
+    "familie",
+    "kultur",
+    "see",
+    "geheimtipp"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Glasbläser Mo–Fr 9–17, Sa 9–16 (mit Mittagspause); So geschlossen",
+   "durationMin": 90,
+   "wow": "Glashütte seit 1817: Du schaust den Glasbläsern direkt zu",
+   "text": "In der Glashütte am Seeufer stehst Du auf der Zuschauerplattform und siehst, wie aus glühenden Klumpen Gläser und Vasen werden. Danach gehst Du durchs kleine Glasmuseum oder verirrst Dich im Glaslabyrinth.",
+   "tip": "Unter der Woche am Vormittag kommen, dann wird am meisten gearbeitet; im 2.-Wahl-Laden gibt es Gläser mit kleinen Fehlern günstiger.",
+   "priceInfo": {
+    "from": 0,
+    "to": 7,
+    "unit": "Eintritt Erwachsene",
+    "note": "Glasbläsern zuschauen gratis; Glasmuseum CHF 7 (Kinder bis 10 in Begleitung gratis); Glaslabyrinth kostenpflichtig"
+   },
+   "open": {
+    "week": {
+     "0": [],
+     "1": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.luzern.com/de/poi/glasi-hergiswil",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hergiswil-Glasi.jpg/1280px-Hergiswil-Glasi.jpg",
+    "alt": "Die Glasi Hergiswil am Ufer des Vierwaldstättersees",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hergiswil-Glasi.jpg"
+   }
+  },
+  {
+   "id": "lu-x-museggmauer",
+   "kind": "aussicht",
+   "name": "Museggmauer mit Zytturm",
+   "region": "luzern",
+   "town": "Luzern",
+   "address": "Auf Musegg, 6004 Luzern",
+   "coords": {
+    "lat": 47.05435,
+    "lng": 8.30448
+   },
+   "url": "https://www.luzern.com/de/poi/museggmauer",
+   "price": 1,
+   "tags": [
+    "aussicht",
+    "kultur",
+    "gratis",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "1. April – 1. November",
+   "hours": "täglich 8–19 Uhr, nachts geschlossen",
+   "durationMin": 60,
+   "wow": "Mittelalterliche Stadtmauer gratis begehbar – vier Türme offen",
+   "text": "Du läufst auf dem Wehrgang der alten Stadtmauer und steigst in Männliturm, Zytturm, Wachtturm und Schirmerturm hoch. Von oben siehst Du über die Dächer der Altstadt bis zur Kapellbrücke und zum Pilatus.",
+   "tip": "Im Zytturm siehst Du das alte Uhrwerk – die Uhr darf traditionell eine Minute vor allen anderen Stadtuhren schlagen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.luzern.com/de/poi/museggmauer",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Luzern_-_Museggmauer_mit_Zeitturm_und_Wachturm.jpg/1280px-Luzern_-_Museggmauer_mit_Zeitturm_und_Wachturm.jpg",
+    "alt": "Die Museggmauer in Luzern mit Zytturm und Wachtturm",
+    "credit": "https://commons.wikimedia.org/wiki/File:Luzern_-_Museggmauer_mit_Zeitturm_und_Wachturm.jpg"
+   }
+  },
+  {
+   "id": "zg-x-tierpark-goldau",
+   "kind": "aktivitaet",
+   "name": "Natur- und Tierpark Goldau",
+   "region": "zug",
+   "town": "Goldau",
+   "address": "Parkstrasse 38, 6410 Goldau",
+   "coords": {
+    "lat": 47.05135,
+    "lng": 8.55371
+   },
+   "url": "https://www.tierpark.ch",
+   "price": 2,
+   "tags": [
+    "familie",
+    "aktiv",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "1.4.–31.10. täglich 9–18 Uhr, 1.11.–31.3. täglich 9–17 Uhr",
+   "durationMin": 240,
+   "wow": "Wildpark mitten im Felssturzgebiet des Goldauer Bergsturzes",
+   "text": "Der Park liegt zwischen den riesigen Felsblöcken des Goldauer Bergsturzes; Du gehst auf Wegen durch rund 100 heimische und europäische Wildtierarten. In der Erlebnishalle im Besucherzentrum erfährst Du, wie der Rossberg abbrach.",
+   "tip": "Ab Bahnhof Arth-Goldau sind es nur wenige Gehminuten – das Auto kannst Du stehen lassen.",
+   "priceInfo": {
+    "from": 26,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 20 Jahren; Kinder 4–15 CHF 13; Familienticket CHF 69; Erlebnishalle Goldauer Bergsturz inbegriffen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.tierpark.ch/tierpark-besuch/eintrittspreise/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zg-x-museum-urgeschichte",
+   "kind": "sehenswuerdigkeit",
+   "name": "Museum für Urgeschichte(n) Zug",
+   "region": "zug",
+   "town": "Zug",
+   "address": "Hofstrasse 15, 6300 Zug",
+   "coords": {
+    "lat": 47.15977,
+    "lng": 8.51564
+   },
+   "url": "https://www.urgeschichte-zug.ch",
+   "price": 1,
+   "tags": [
+    "regenfest",
+    "familie",
+    "kultur",
+    "geheimtipp"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di–So 14–17 Uhr, Mo geschlossen (Zeiten je nach Quelle leicht abweichend)",
+   "durationMin": 90,
+   "wow": "Mammutskelett-Nachbau und Funde aus der Zuger Urzeit – Kinder gratis",
+   "text": "Das kleine Museum zeigt mit Nachbauten und Funden, wie Menschen im Raum Zug von der Steinzeit bis ins Mittelalter lebten. Viele Stationen darfst Du anfassen, darum ist es bei Familien beliebt.",
+   "tip": "An Sonn- und Feiertagen ist der Eintritt gratis (laut Museumsprogramm).",
+   "priceInfo": {
+    "from": 5,
+    "unit": "Eintritt Erwachsene",
+    "note": "Jugendliche 16–20 CHF 3; Kinder bis 16 gratis; Museumspass gilt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/museum-fuer-urgeschichte(n)-2456.html",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Museum_f%C3%BCr_Urgeschichte%2C_Zug.jpg/1280px-Museum_f%C3%BCr_Urgeschichte%2C_Zug.jpg",
+    "alt": "Gebäude des Museums für Urgeschichte(n) in Zug",
+    "credit": "https://commons.wikimedia.org/wiki/File:Museum_f%C3%BCr_Urgeschichte%2C_Zug.jpg"
+   }
+  },
+  {
+   "id": "zg-x-lorzentobel-bruecken",
+   "kind": "sehenswuerdigkeit",
+   "name": "Lorzentobel mit den drei Brücken",
+   "region": "zug",
+   "town": "Baar",
+   "address": "Lorzentobel, 6340 Baar",
+   "coords": {
+    "lat": 47.17797,
+    "lng": 8.55765
+   },
+   "url": "https://www.zug-tourismus.ch",
+   "price": 1,
+   "tags": [
+    "gratis",
+    "aktiv",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 90,
+   "wow": "Drei Brücken aus drei Epochen: Holzbrücke 1759, Bogen 1910, Neubau 1985",
+   "text": "Im Tobel der Lorze unterhalb der Höllgrotten spannen sich drei Brücken in verschiedenen Höhen übers Wasser – unten die gedeckte Holzbrücke, darüber die Bogenbrücke von 1910 und die Strassenbrücke. Auf dem Wanderweg durch die Schlucht gehst Du unter allen hindurch.",
+   "tip": "Verbinde es mit den Höllgrotten: vom Höllgrotten-Eingang führt der Weg in rund einer Stunde durchs Tobel.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.komoot.com/highlight/434923",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Lorzentobel_Gedeckte_Holzbr%C3%BCcke_Baar_20170325-jag9889.jpg/1280px-Lorzentobel_Gedeckte_Holzbr%C3%BCcke_Baar_20170325-jag9889.jpg",
+    "alt": "Gedeckte Holzbrücke im Lorzentobel bei Baar",
+    "credit": "https://commons.wikimedia.org/wiki/File:Lorzentobel_Gedeckte_Holzbr%C3%BCcke_Baar_20170325-jag9889.jpg"
+   }
+  },
+  {
+   "id": "zg-x-zugerberg-trotti",
+   "kind": "aktivitaet",
+   "name": "Trottinett-Abfahrt Zugerberg–Zug",
+   "region": "zug",
+   "town": "Zug",
+   "address": "Bergstation Zugerbergbahn, 6300 Zug",
+   "coords": {
+    "lat": 47.14404,
+    "lng": 8.53283
+   },
+   "url": "https://www.rother-events.ch/trotti-buchen/",
+   "price": 2,
+   "tags": [
+    "aktiv",
+    "freunde",
+    "familie",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "bei trockenem Wetter; Saison beim Anbieter erfragen",
+   "hours": "nur mit Online-Buchung",
+   "durationMin": 45,
+   "wow": "8,1 km auf dem Trotti vom Zugerberg bis in die Stadt",
+   "text": "Mit der Zugerbergbahn fährst Du hoch, holst Dein reserviertes Trottinett mit Helm aus der Box und rollst auf Nebenstrassen hinunter bis nach Zug. Die längere Variante führt durchs Lorzentobel und an den Höllgrotten vorbei.",
+   "tip": "Bezahlt wird bar bei der Rückgabe in der Garage am Lauriedhofweg, 6 Minuten vom Bahnhof Zug – Karten gehen nicht.",
+   "priceInfo": {
+    "from": 25,
+    "to": 30,
+    "unit": "Trottimiete ab 15 Jahren",
+    "note": "Kinder 8–14 CHF 20; Variante via Lorzentobel/Höllgrotten CHF 30; Helm inkl.; Zugerbergbahn nicht inbegriffen; Mindestalter 8"
+   },
+   "source": "https://www.rother-events.ch/trotti-buchen/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zg-x-wildspitz",
+   "kind": "aussicht",
+   "name": "Wildspitz – höchster Punkt im Kanton Zug",
+   "region": "zug",
+   "town": "Unterägeri / Steinerberg",
+   "address": "Berggasthaus Wildspitz, Wildspitzstrasse 30, 6416 Steinerberg",
+   "coords": {
+    "lat": 47.0845,
+    "lng": 8.57761
+   },
+   "url": "https://www.luzern.com/de/tour/bergwanderung-wildspitz",
+   "price": 1,
+   "tags": [
+    "aussicht",
+    "berg",
+    "aktiv",
+    "gratis",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; schneefrei meist Mai–Oktober",
+   "hours": "Berggasthaus Mi–Sa 9–22, So 8–17 Uhr, Mo/Di zu",
+   "durationMin": 300,
+   "wow": "Höchster Punkt des Kantons Zug: 1580 m auf dem Rossberg",
+   "text": "Von Sattel oder Unterägeri wanderst Du auf den Wildspitz, den höchsten Gipfel des Rossbergs. Oben siehst Du gleichzeitig auf Zuger- und Ägerisee, den Lauerzersee und die Innerschweizer Alpen – und kehrst im Berggasthaus ein.",
+   "tip": "Als Überschreitung von Sattel nach Arth-Goldau gehst Du über die Abbruchkante des Bergsturzes von 1806.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.freizeit.ch/freizeit/14674/zugs-hochster-berg-wildspitz-sattel",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zg-x-morgarten-denkmal",
+   "kind": "sehenswuerdigkeit",
+   "name": "Morgarten-Denkmal und Morgartenpfad",
+   "region": "zug",
+   "town": "Oberägeri",
+   "address": "Hauptseestrasse, 6315 Oberägeri",
+   "coords": {
+    "lat": 47.10689,
+    "lng": 8.64249
+   },
+   "url": "https://www.zuerich.com/de/besuchen/sport/morgartenpfad",
+   "price": 1,
+   "tags": [
+    "kultur",
+    "see",
+    "gratis",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (Pfad im Winter nur teilweise beschildert)",
+   "hours": "frei zugänglich",
+   "durationMin": 90,
+   "wow": "Am Südende des Ägerisees – Schauplatz der Schlacht am Morgarten 1315",
+   "text": "Das Denkmal steht am Ufer des Ägerisees, vom Bus aus sind es nur ein paar Schritte. Auf dem Morgartenpfad gehst Du weiter zum Letziturm und zur Schlachtkapelle in Schornen und erfährst an Stationen, was 1315 hier passiert sein soll.",
+   "tip": "Mit dem Ägerisee-Schiff anreisen und danach am Ufer baden – im Sommer ist das Wasser hier angenehm warm.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.freizeit.ch/freizeit/morgarten/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zg-x-rigi-scheidegg",
+   "kind": "aussicht",
+   "name": "Rigi Scheidegg mit der Luftseilbahn ab Kräbel",
+   "region": "zug",
+   "town": "Goldau (Kräbel)",
+   "address": "Talstation Kräbel, Chräbelstrasse 46, 6410 Goldau",
+   "coords": {
+    "lat": 47.02744,
+    "lng": 8.51957
+   },
+   "url": "https://www.rigi.ch/en/Media/attraction/Kraebel-Rigi-Scheidegg-aerial-cable-car",
+   "price": 2,
+   "tags": [
+    "aussicht",
+    "berg",
+    "aktiv",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "25. April – 12. Dezember 2026 (Revision 2.–6. und 9.–13.11.2026)",
+   "hours": "Fahrplanbetrieb",
+   "durationMin": 240,
+   "wow": "6 Minuten Seilbahn auf die ruhige Südostseite der Rigi",
+   "text": "In Kräbel, eine Station oberhalb von Arth-Goldau, steigst Du von der Zahnradbahn in die kleine Luftseilbahn auf die Rigi Scheidegg. Von dort gehst Du auf der flachen ehemaligen Bahntrasse zur Rigi Kaltbad – mit Blick auf Lauerzersee und Mythen.",
+   "tip": "Der Höhenweg Scheidegg–Kaltbad ist fast eben und auch mit Kinderwagen machbar.",
+   "priceInfo": {
+    "from": 46,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Halbtax CHF 23; Kinder bis 15 in Begleitung Erwachsener gratis; einfache Fahrt CHF 29"
+   },
+   "open": {
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   "source": "https://www.luzern.com/de/poi/luftseilbahn-kraebel-rigi-scheidegg",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eb-x-fuerenalp",
+   "kind": "aussicht",
+   "name": "Fürenalp mit Abstieg zum Wasserfall",
+   "region": "engelberg",
+   "town": "Engelberg",
+   "address": "Wasserfallstrasse 222, 6390 Engelberg",
+   "coords": {
+    "lat": 46.80134,
+    "lng": 8.46843
+   },
+   "url": "https://www.fuerenalp.ch",
+   "price": 1,
+   "tags": [
+    "aussicht",
+    "berg",
+    "aktiv",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "Sommer und Winter (Winterbetrieb ab 5.12.2026); Betriebsferien 2.11.–4.12.2026",
+   "hours": "Fahrplanbetrieb",
+   "durationMin": 180,
+   "wow": "Kleine Privatbahn – Abstieg endet am 60 m hohen Tätschbachfall",
+   "text": "Hinten im Engelberger Tal fährst Du mit der Fürenalp-Bahn auf die Sonnenterrasse gegenüber dem Titlis. Zurück gehst Du in rund anderthalb Stunden über den Dagenstall hinunter, der Weg endet direkt beim Tätschbachfall.",
+   "tip": "Halbtax und GA gelten hier nicht – mit der Gästekarte Engelberg zahlst Du etwas weniger.",
+   "priceInfo": {
+    "from": 21,
+    "unit": "Retourbillett Erwachsene",
+    "note": "einfache Fahrt CHF 14; Halbtax/GA nicht gültig; mit Gästekarte/Senioren CHF 19; Kinder 6–15 CHF 10.50"
+   },
+   "open": {
+    "months": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     12
+    ]
+   },
+   "source": "https://www.engelberg.ch/en/cable-cars/prices-summer/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eb-x-klettersteig-fuerenwand",
+   "kind": "aktivitaet",
+   "name": "Klettersteig Fürenwand",
+   "region": "engelberg",
+   "town": "Engelberg",
+   "address": "Talstation Fürenalp, Wasserfallstrasse 222, 6390 Engelberg",
+   "coords": null,
+   "url": "https://www.fuerenalp.ch/de/klettersteig",
+   "price": 1,
+   "tags": [
+    "aktiv",
+    "berg",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "Mitte/Ende Mai – Ende Oktober (je nach Verhältnissen)",
+   "hours": "nur bei trockener Wand",
+   "durationMin": 180,
+   "wow": "760 Höhenmeter, Schwierigkeit K4–K5, mit frei hängender Seilleiter",
+   "text": "Der Steig führt durch die steile, stark ausgesetzte Fürenwand direkt bis zur Bergstation; die hängende Seilleiter ist die Schlüsselstelle. Rechne mit rund drei Stunden Aufstieg und fahr dann mit der Bahn hinunter.",
+   "tip": "Nur für sehr erfahrene Klettersteiggeher – sonst mit Bergführer. Ausrüstung kannst Du an der Talstation mieten, besser telefonisch reservieren (041 637 20 94).",
+   "priceInfo": {
+    "from": 14,
+    "unit": "Talfahrt Fürenalp Erwachsene",
+    "note": "Klettersteig selbst gratis; Mietset mit Helm CHF 25, Set ohne Helm CHF 15"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.fuerenalp.ch/de/klettersteig",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eb-x-taetschbachfall",
+   "kind": "sehenswuerdigkeit",
+   "name": "Tätschbachfall",
+   "region": "engelberg",
+   "town": "Engelberg",
+   "address": "Wasserfallstrasse, 6390 Engelberg",
+   "coords": {
+    "lat": 46.80833,
+    "lng": 8.45087
+   },
+   "url": "https://www.luzern.com/de/tour/fuerenalp-dagenstall-wasserfall",
+   "price": 1,
+   "tags": [
+    "gratis",
+    "familie",
+    "aktiv",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; am meisten Wasser während der Schneeschmelze",
+   "hours": "frei zugänglich",
+   "durationMin": 90,
+   "wow": "Höchster Wasserfall von Engelberg: 60 m Fallhöhe",
+   "text": "Vom Dorf gehst Du flach über die Talwiesen Richtung Fürenalp-Talstation, der Fall stürzt direkt hinter dem Restaurant Wasserfall über die Felswand. Hin und zurück sind es gut anderthalb Stunden.",
+   "tip": "Kombiniere es mit der Fürenalp: oben einkehren, über den Dagenstall absteigen und unten am Wasserfall ankommen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.luzern.com/de/tour/fuerenalp-dagenstall-wasserfall",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eb-x-horbis-ende-der-welt",
+   "kind": "sehenswuerdigkeit",
+   "name": "Horbis – «Ende der Welt»",
+   "region": "engelberg",
+   "town": "Engelberg",
+   "address": "Horbisstrasse 124, 6390 Engelberg",
+   "coords": {
+    "lat": 46.83818,
+    "lng": 8.43805
+   },
+   "url": "https://www.luzern.com/de/tour/ueber-die-klostermatte-bis-horbis",
+   "price": 1,
+   "tags": [
+    "gratis",
+    "familie",
+    "geheimtipp",
+    "genuss"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (im Winter Winterwanderweg)",
+   "hours": "frei zugänglich; Restaurant Ende der Welt Mi–So",
+   "durationMin": 120,
+   "wow": "Talkessel, den die Engelberger selbst «Ende der Welt» nennen",
+   "text": "Über die Klostermatte und am Bärenbach entlang gehst Du in rund einer Stunde ins Seitental Horbis, vorbei an Marienkapelle und Lourdesgrotte. Hinten schliessen Felswände den Kessel – dort steht das Restaurant mit dem passenden Namen.",
+   "tip": "Im Herbst ist das Restaurant Ende der Welt für Wildgerichte bekannt; im Sommer fährt ab der Brunni-Talstation ein Gratisbus.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.zentralbahn.ch/en/experience/excursion-and-event-finder/end-of-the-world",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eb-x-bannalp",
+   "kind": "aussicht",
+   "name": "Bannalp mit Bergsee",
+   "region": "engelberg",
+   "town": "Oberrickenbach",
+   "address": "Fell 3, 6387 Oberrickenbach",
+   "coords": {
+    "lat": 46.868,
+    "lng": 8.42978
+   },
+   "url": "https://www.bannalp.ch",
+   "price": 1,
+   "tags": [
+    "see",
+    "berg",
+    "aussicht",
+    "familie",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (ausser Revisionen)",
+   "hours": "alle 30 Min., Sommer 08:30–17:50, Winter 08:30–16:50",
+   "durationMin": 240,
+   "wow": "Blaue 15er-Gondel: in 8 Minuten vom Postauto-Ende auf die Bannalp",
+   "text": "Mit dem Postauto fährst Du ab Wolfenschiessen bis ans Ende der Strasse in Oberrickenbach und schwebst mit der kleinen Luftseilbahn hoch zur Chrüzhütte. Oben spazierst Du zum Bannalpsee und kehrst in einer der Alpbeizen ein.",
+   "tip": "Ab Bannalp führt der Walenpfad in rund 4 Stunden hinüber nach Brunni/Engelberg.",
+   "priceInfo": {
+    "from": 23,
+    "unit": "Retourbillett Erwachsene",
+    "note": "einfache Fahrt CHF 13; Kinder CHF 6.50 / 11.50; Ermässigung für Senioren und Gruppen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:30",
+       "16:50"
+      ]
+     ],
+     "1": [
+      [
+       "08:30",
+       "16:50"
+      ]
+     ],
+     "2": [
+      [
+       "08:30",
+       "16:50"
+      ]
+     ],
+     "3": [
+      [
+       "08:30",
+       "16:50"
+      ]
+     ],
+     "4": [
+      [
+       "08:30",
+       "16:50"
+      ]
+     ],
+     "5": [
+      [
+       "08:30",
+       "16:50"
+      ]
+     ],
+     "6": [
+      [
+       "08:30",
+       "16:50"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.luzern.com/de/poi/luftseilbahn-fell-chruezhuette",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eb-x-engstlensee",
+   "kind": "aussicht",
+   "name": "Engstlensee über den Jochpass",
+   "region": "engelberg",
+   "town": "Engelberg / Engstlenalp",
+   "address": "Jochpass, 6390 Engelberg",
+   "coords": {
+    "lat": 46.77311,
+    "lng": 8.35614
+   },
+   "url": "https://www.titlis.ch",
+   "price": 2,
+   "tags": [
+    "see",
+    "berg",
+    "aussicht",
+    "aktiv",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "20. Juni – 25. Oktober 2026",
+   "hours": "Fahrplanbetrieb der Titlis-Bahnen",
+   "durationMin": 300,
+   "wow": "Mit drei Bahnen über den Jochpass bis an den Bergsee im Kanton Bern",
+   "text": "Mit dem Titlis Xpress fährst Du nach Trübsee, gehst 15 Minuten am See entlang und nimmst den Sessellift auf den Jochpass. Von dort steigst Du zu Fuss oder mit dem zweiten Sessellift ab an den Engstlensee, der im Wasser die Wendenstöcke spiegelt.",
+   "tip": "Wer nicht zurück will: ab Engstlenalp fährt im Sommer das Postauto nach Meiringen.",
+   "priceInfo": {
+    "from": 50,
+    "unit": "Retourbillett Erwachsene Engelberg–Jochpass",
+    "note": "Halbtax 50 %; Sessellift Jochpass–Engstlenalp zusätzlich CHF 18 retour; Kinder 50 %"
+   },
+   "open": {
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.engelberg.ch/en/cable-cars/prices-summer/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ei-x-skywalk-hochstuckli",
+   "kind": "aussicht",
+   "name": "Sattel-Hochstuckli mit Drehgondel und Hängebrücke Skywalk",
+   "region": "einsiedeln",
+   "town": "Sattel",
+   "address": "Talstation Sattel-Hochstuckli, 6417 Sattel",
+   "coords": {
+    "lat": 47.06864,
+    "lng": 8.65378
+   },
+   "url": "https://www.sattel-hochstuckli.ch",
+   "price": 2,
+   "tags": [
+    "aussicht",
+    "familie",
+    "berg",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; Revision 2.–27. November 2026",
+   "hours": "Drehgondelbahn im Winter 08:45–16:30, Sa teils bis 23 Uhr",
+   "durationMin": 180,
+   "wow": "Hängebrücke Skywalk: 374 m lang, bis 58 m über dem Boden",
+   "text": "Die Gondel dreht sich während der Fahrt auf den Mostelberg einmal um die eigene Achse, so siehst Du rundum. Oben gehst Du über den Skywalk, eine 374 m lange Fussgänger-Hängebrücke über ein Tobel, und auf dem Brückenrundweg zurück.",
+   "tip": "Die Hängebrücke ist mit dem Bahnbillett frei; im Winter gibt es Schlitteln und samstags Nachtschlitteln.",
+   "priceInfo": {
+    "from": 30,
+    "unit": "Retourbillett Erwachsene",
+    "note": "einfache Fahrt CHF 22; Kinder 6–15 CHF 15; AHV CHF 25; Tarif Winter 2026/27; Hängebrücke inbegriffen"
+   },
+   "open": {
+    "months": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     12
+    ]
+   },
+   "source": "https://www.sattel-hochstuckli.ch/de/fahrplan-preise/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ei-x-teufelsbruecke",
+   "kind": "sehenswuerdigkeit",
+   "name": "Teufelsbrücke über die Sihl",
+   "region": "einsiedeln",
+   "town": "Egg (Einsiedeln)",
+   "address": "Teufelsbrücke, 8847 Egg",
+   "coords": {
+    "lat": 47.16745,
+    "lng": 8.76727
+   },
+   "url": "https://www.luzern.com/de/tour/sihl-erlebnisweg-4-etappe-einsiedeln-schindellegi",
+   "price": 1,
+   "tags": [
+    "kultur",
+    "gratis",
+    "geheimtipp",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 90,
+   "wow": "Gedeckte Steinbrücke am Pilgerweg – daneben das Paracelsus-Haus",
+   "text": "Die gedeckte Bogenbrücke war der Schlüsselpunkt des alten Pilgerwegs über den Etzel nach Einsiedeln. Über der Brücke erinnert eine Tafel an Paracelsus, der hier geboren sein soll – ob es wirklich sein Geburtshaus ist, ist umstritten.",
+   "tip": "Am schönsten zu Fuss: auf dem Sihl-ErlebnisWeg ab Bahnhof Einsiedeln oder auf dem Jakobsweg vom Etzel herunter.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://data.geo.admin.ch/ch.astra.ivs-nat/PDF/SZ00100012.pdf",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ei-x-hochmoor-rothenthurm",
+   "kind": "aussicht",
+   "name": "Hochmoor Rothenthurm (Moorweg)",
+   "region": "einsiedeln",
+   "town": "Rothenthurm / Biberbrugg",
+   "address": "Bahnhof Rothenthurm, 6418 Rothenthurm",
+   "coords": {
+    "lat": 47.1452,
+    "lng": 8.70112
+   },
+   "url": "https://www.luzern.com/de/tour/moorweg-rothenthurm",
+   "price": 1,
+   "tags": [
+    "gratis",
+    "aktiv",
+    "geheimtipp",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (im Winter Winterwanderweg)",
+   "hours": "frei zugänglich",
+   "durationMin": 160,
+   "wow": "Grösstes zusammenhängendes Hochmoor der Schweiz – über 100 ha",
+   "text": "Auf dem flachen Moorweg gehst Du in rund zweieinhalb Stunden von Rothenthurm nach Biberbrugg, die Biber mäandert neben Dir durch Riedwiesen und Moorwald. Die Landschaft wurde 1987 durch die Rothenthurm-Initiative bekannt, die hier einen Waffenplatz verhinderte.",
+   "tip": "Wem es zu lang ist, biegt beim Bibersteg ab und nimmt in Altmatt den Zug.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://wegwandern.ch/wanderung/hochmoor-von-rothenthurm-moorweg-rothenthurm-biberbrugg-wandern/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ei-x-hoch-ybrig-tri-line",
+   "kind": "aussicht",
+   "name": "Hoch-Ybrig mit der TRI-Line Weglosen–Seebli",
+   "region": "einsiedeln",
+   "town": "Unteriberg",
+   "address": "Waagtalstrasse 127, 8842 Unteriberg",
+   "coords": {
+    "lat": 47.01981,
+    "lng": 8.8088
+   },
+   "url": "https://www.hoch-ybrig.ch",
+   "price": 2,
+   "tags": [
+    "berg",
+    "see",
+    "aussicht",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "Sommer 4. Juli – 18. Oktober 2026 (dazu Winterbetrieb)",
+   "hours": "Sommer: Bahn Weglosen–Seebli täglich 08:30–16:45",
+   "durationMin": 240,
+   "wow": "Weltweit erste TRI-Line-Seilbahn (Doppelmayr), 1,7 km bis Seebli",
+   "text": "Ab Weglosen fährst Du mit der neuen Bahn auf nur zwei Stützen hinauf zum Seebli mit seinem kleinen Bergsee. Oben wanderst Du zwischen Druesberg und Roggenstock oder fährst mit den Sesselbahnen weiter auf Sternen und Spirstock.",
+   "tip": "Am 5., 15. und 25. jedes Monats gilt die Tageskarte für alle Bahnen zum Aktionspreis von CHF 25.",
+   "priceInfo": {
+    "from": 30,
+    "unit": "Retourbillett Erwachsene",
+    "note": "einfache Fahrt CHF 20; Tageskarte alle Bahnen CHF 38; Kinder 6–16 CHF 10; Tarif Sommer/Herbst 2026"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:30",
+       "16:45"
+      ]
+     ],
+     "1": [
+      [
+       "08:30",
+       "16:45"
+      ]
+     ],
+     "2": [
+      [
+       "08:30",
+       "16:45"
+      ]
+     ],
+     "3": [
+      [
+       "08:30",
+       "16:45"
+      ]
+     ],
+     "4": [
+      [
+       "08:30",
+       "16:45"
+      ]
+     ],
+     "5": [
+      [
+       "08:30",
+       "16:45"
+      ]
+     ],
+     "6": [
+      [
+       "08:30",
+       "16:45"
+      ]
+     ]
+    },
+    "months": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.ybrig.ch/wp-content/uploads/FerienRegionYbrig_Sommerprospekt_2026_low.pdf",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ei-x-hirschfluh-schaukel",
+   "kind": "aussicht",
+   "name": "Hirschfluh mit Panoramaschaukel",
+   "region": "einsiedeln",
+   "town": "Unteriberg",
+   "address": "Start bei der Sagenbrücke, 8842 Unteriberg",
+   "coords": null,
+   "url": "https://www.ybrig.ch",
+   "price": 1,
+   "tags": [
+    "aussicht",
+    "gratis",
+    "geheimtipp",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "bei trockenem, schneefreiem Wetter",
+   "hours": "frei zugänglich",
+   "durationMin": 75,
+   "wow": "Schaukel 210 m senkrecht über dem Talboden von Unteriberg",
+   "text": "Von der Sagenbrücke in Unteriberg steigst Du rund 30 Minuten über gesicherte Tritte steil zur Hirschfluh hoch. Oben hängt seit 2025 eine Panoramaschaukel an der Felskante, daneben weht die grosse Schweizerfahne, die man vom Tal aus sieht.",
+   "tip": "Oben gibt es eine Grillstelle mit Schutzhütte – Würste mitnehmen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.ybrig.ch/wp-content/uploads/FerienRegionYbrig_Sommerprospekt_2026_low.pdf",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ei-x-grosser-mythen",
+   "kind": "aktivitaet",
+   "name": "Grosser Mythen ab Holzegg",
+   "region": "einsiedeln",
+   "town": "Alpthal (Brunni)",
+   "address": "Talstation Luftseilbahn Brunni–Holzegg, 8849 Alpthal",
+   "coords": {
+    "lat": 47.02988,
+    "lng": 8.68853
+   },
+   "url": "https://www.mythenregion.ch/sommer/tickets/luftseilbahn-holzegg/",
+   "price": 1,
+   "tags": [
+    "berg",
+    "aktiv",
+    "aussicht",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Oktober (Bahn 1.5.–31.10.2026 im Sommerbetrieb)",
+   "hours": "Bahn Sommer 08:00–12:00 und 12:45–17:15",
+   "durationMin": 240,
+   "wow": "Felszahn auf 1898 m – Zickzackweg vom Sattel Holzegg bis zum Gipfel",
+   "text": "Mit dem Bus ab Einsiedeln fährst Du nach Brunni im Alpthal und mit der Luftseilbahn auf die Holzegg. Von dort führt der steile, gut gesicherte Bergweg in vielen Kehren auf den Gipfel des Grossen Mythen.",
+   "tip": "Nur bei trockenem Fels gehen und früh starten – an schönen Wochenenden ist der schmale Weg sehr voll.",
+   "priceInfo": {
+    "from": 20,
+    "unit": "Retourbillett Erwachsene Brunni–Holzegg",
+    "note": "einfache Fahrt CHF 13; Kinder CHF 10 retour; Halbtax nicht ausgewiesen"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.mythenregion.ch/sommer/info/betriebszeiten/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "st-x-hoelloch",
+   "kind": "aktivitaet",
+   "name": "Hölloch – Höhlenführung im Muotathal",
+   "region": "stoos",
+   "town": "Muotathal",
+   "address": "Hölloch Center, Stalden 14, 6436 Muotathal",
+   "coords": {
+    "lat": 46.97666,
+    "lng": 8.7853
+   },
+   "url": "https://www.trekking.ch/hoelloch",
+   "price": 2,
+   "tags": [
+    "regenfest",
+    "aktiv",
+    "familie",
+    "besonders"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (öffentliche Termine an Wochenenden und in Schulferien)",
+   "hours": "nur mit Reservation; Büro Mo–Sa 8:30–12:15 und 13:15–17:30",
+   "durationMin": 120,
+   "wow": "213 km erforscht – eine der grössten Höhlen der Welt",
+   "text": "Mit Helm und Stirnlampe gehst Du zwei Stunden mit einem Guide in das riesige Höhlensystem unter dem Muotathal, ohne zu kriechen oder zu klettern. Wer mehr will, bucht die Einsteiger- oder Parcours-Tour mit Kletterstellen.",
+   "tip": "Warme Kleidung und Wanderschuhe mitnehmen – Turnschuhe mit glatter Sohle reichen nicht.",
+   "priceInfo": {
+    "from": 39,
+    "unit": "Kurzführung Erwachsene",
+    "note": "öffentliche Tour; Kinder 5–15 CHF 15, 16–19 CHF 25; Helm mit Stirnlampe inbegriffen; Parkplatz extra"
+   },
+   "source": "https://www.trekking.ch/hoelloch/hoelloch-kurzfuehrung",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "st-x-insel-schwanau",
+   "kind": "sehenswuerdigkeit",
+   "name": "Insel Schwanau im Lauerzersee",
+   "region": "stoos",
+   "town": "Lauerz",
+   "address": "Insel Schwanau, 6424 Lauerz",
+   "coords": {
+    "lat": 47.03253,
+    "lng": 8.59794
+   },
+   "url": "https://www.schwanau.ch",
+   "price": 2,
+   "tags": [
+    "see",
+    "genuss",
+    "romantisch",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "April – Dezember (Angebote 2026 laufen bis 20.12.)",
+   "hours": "Überfahrt nur bei Wind unter 15 km/h; Zeiten beim Restaurant erfragen",
+   "durationMin": 150,
+   "wow": "Kleine Insel im Lauerzersee: Restaurant nur per Boot erreichbar",
+   "text": "Ein Boot bringt Dich in wenigen Minuten auf die kleine Naturschutz-Insel mit der alten Burgruine. Im Restaurant gibt es saisonale Schwyzer Küche, im Winter auch Fondue.",
+   "tip": "Vorher reservieren und bei Wind nachfragen, ob das Boot fährt – der Kanton erlaubt die Überfahrt nur bei ruhigem Wasser.",
+   "priceInfo": {
+    "from": 2,
+    "unit": "Bootsüberfahrt retour pro Person",
+    "note": "Kinder bis 14 gratis; Essen separat"
+   },
+   "open": {
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   "source": "https://www.schwanau.ch/kontakt-anreise",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "st-x-rotenflue",
+   "kind": "aussicht",
+   "name": "Rotenflue – Gondel ab Rickenbach",
+   "region": "stoos",
+   "town": "Rickenbach (Schwyz)",
+   "address": "Talstation Rotenfluebahn, 6432 Rickenbach bei Schwyz",
+   "coords": {
+    "lat": 47.02112,
+    "lng": 8.70325
+   },
+   "url": "https://www.mythenregion.ch/sommer/region/rotenflue/",
+   "price": 2,
+   "tags": [
+    "aussicht",
+    "berg",
+    "familie",
+    "aktiv",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "9.5.–25.10.2026 08:30–17:30; ab 26.10. 09:00–16:30",
+   "durationMin": 180,
+   "wow": "Gondel auf 1571 m – Gipfel Rotenflue direkt gegenüber den Mythen",
+   "text": "Vom Dorfrand von Schwyz bringt Dich die Gondel auf die Rotenflue, wo Du über den Talkessel von Schwyz, den Lauerzersee und den Vierwaldstättersee schaust. Oben gibt es den Rotenflue-Rundweg, den Füchslipfad für Kinder und das Gipfelstubli.",
+   "tip": "Über den Mythenweg kommst Du in rund einer Stunde zur Holzegg am Fuss des Grossen Mythen und fährst mit der anderen Bahn nach Brunni hinunter.",
+   "priceInfo": {
+    "from": 28,
+    "unit": "Berg- oder Talfahrt Erwachsene",
+    "note": "Halbtax CHF 14; Kinder 6–16 CHF 14; Retourpreis nicht separat ausgewiesen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "16:30"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.mythenregion.ch/sommer/tickets/rotenfluebahn/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "st-x-swiss-holiday-park",
+   "kind": "bad",
+   "name": "Erlebnisbad im Swiss Holiday Park",
+   "region": "stoos",
+   "town": "Morschach",
+   "address": "Dorfstrasse 10, 6443 Morschach",
+   "coords": {
+    "lat": 46.98096,
+    "lng": 8.61799
+   },
+   "url": "https://swissholidaypark.ch",
+   "price": 2,
+   "tags": [
+    "regenfest",
+    "familie",
+    "wellness",
+    "besonders"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 9–21:30 (Aussenbecken bis 21 Uhr); Sept–Mai max. 3 Std.",
+   "durationMin": 180,
+   "wow": "Wasser ganzjährig 32 °C und 100-m-Rutsche «Rote Mamba»",
+   "text": "Hoch über Brunnen schwimmst Du im 32 Grad warmen Innen- und Aussenbecken mit Wildwasserkanal und Sprudelliegen. Die Kinder rutschen auf der 100 m langen «Rote Mamba» mit Licht- und Soundeffekten.",
+   "tip": "Von der Stoosbahn-Talstation ist Morschach mit dem Bus schnell erreicht – gut als Regenprogramm.",
+   "priceInfo": {
+    "from": 20,
+    "unit": "Eintritt Erwachsene (ab)",
+    "note": "Kinder 7–15 ab CHF 13.50; Kinder bis 6 gratis; Tagespreise im Ticketshop"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ]
+    }
+   },
+   "source": "https://swissholidaypark.ch/aktivitaeten/wasser-wellnesswelt/erlebnisbad",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "st-x-urmiberg",
+   "kind": "aussicht",
+   "name": "Urmiberg – Luftseilbahn ab Brunnen",
+   "region": "stoos",
+   "town": "Brunnen",
+   "address": "Schillerweg 2, 6440 Brunnen",
+   "coords": {
+    "lat": 47.00011,
+    "lng": 8.59194
+   },
+   "url": "https://www.urmiberg.ch",
+   "price": 1,
+   "tags": [
+    "aussicht",
+    "genuss",
+    "geheimtipp",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "Frühling bis 15. November 2026",
+   "hours": "Bahn 09:05–18:05 (zur :05 und :35); Restaurant 9–18 Uhr bei schönem Wetter",
+   "durationMin": 150,
+   "wow": "Private Kleinbahn – GA und Halbtax gelten nicht, Bergbeiz auf 1140 m",
+   "text": "Gleich hinter Brunnen schwebst Du auf den Urmiberg, einen Ausläufer der Rigi, und sitzt auf der Sonnenterrasse über dem See. Bei Kälte wartet drinnen eine Stube mit Cheminée.",
+   "tip": "Bargeld mitnehmen: Bezahlt wird an der Kasse in der Bergstation, Karten gehen derzeit nicht.",
+   "priceInfo": {
+    "from": 22,
+    "unit": "Retourbillett Erwachsene",
+    "note": "einfache Fahrt CHF 13; GA/Halbtax nicht gültig; nur Barzahlung"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:05",
+       "18:05"
+      ]
+     ],
+     "1": [
+      [
+       "09:05",
+       "18:05"
+      ]
+     ],
+     "2": [
+      [
+       "09:05",
+       "18:05"
+      ]
+     ],
+     "3": [
+      [
+       "09:05",
+       "18:05"
+      ]
+     ],
+     "4": [
+      [
+       "09:05",
+       "18:05"
+      ]
+     ],
+     "5": [
+      [
+       "09:05",
+       "18:05"
+      ]
+     ],
+     "6": [
+      [
+       "09:05",
+       "18:05"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "source": "https://www.urmiberg.ch",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "st-x-ruetli",
+   "kind": "sehenswuerdigkeit",
+   "name": "Rütli",
+   "region": "stoos",
+   "town": "Seelisberg",
+   "address": "Rütli, 6377 Seelisberg",
+   "coords": {
+    "lat": 46.96861,
+    "lng": 8.59361
+   },
+   "url": "https://de.wikipedia.org/wiki/R%C3%BCtli",
+   "price": 1,
+   "tags": [
+    "kultur",
+    "see",
+    "gratis",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (Schiffe nach Fahrplan)",
+   "hours": "frei zugänglich",
+   "durationMin": 120,
+   "wow": "Wiese des Rütlischwurs – 10 Minuten per Schiff ab Brunnen",
+   "text": "Das Schiff ab Brunnen setzt Dich nach zehn Minuten am Ufer der Wiese ab, die als Wiege der Schweiz gilt. Du schaust Dich auf der Wiese und beim Rütlihaus um und gehst dann auf dem Weg der Schweiz in rund einer Stunde hinauf nach Seelisberg.",
+   "tip": "Am 1. August ist der Zugang kontrolliert – an jedem anderen Tag hast Du die Wiese fast für Dich.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Schiff Brunnen–Rütli separat"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://de.wikipedia.org/wiki/R%C3%BCtli",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "so-x-verenaschlucht",
+   "kind": "sehenswuerdigkeit",
+   "name": "Verenaschlucht mit Einsiedelei",
+   "region": "solothurn",
+   "town": "Rüttenen",
+   "address": "Verenaschlucht, 4522 Rüttenen",
+   "coords": {
+    "lat": 47.22191,
+    "lng": 7.53822
+   },
+   "url": "https://www.solothurn-city.ch/attraktionen/verenaschlucht-und-die-einsiedelei-6ad6c9a49d",
+   "price": 1,
+   "tags": [
+    "gratis",
+    "romantisch",
+    "familie",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 90,
+   "wow": "In der Einsiedelei lebt bis heute ein Einsiedler",
+   "text": "Vom Stadtrand gehst Du in einer kühlen Waldschlucht dem Bach entlang, vorbei an Grotten, bis zur Verenakapelle und zum Häuschen des Einsiedlers. Der Weg ist 2 km lang, fast flach und auch mit Kinderwagen machbar.",
+   "tip": "In die St.-Martins-Kapelle kannst Du Di–So 10–17 Uhr durch ein kleines Fenster beim Eingang hineinschauen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.solothurn-city.ch/attraktionen/verenaschlucht-und-die-einsiedelei-6ad6c9a49d",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "so-x-altreu-stoerche",
+   "kind": "sehenswuerdigkeit",
+   "name": "Storchendorf Altreu",
+   "region": "solothurn",
+   "town": "Altreu (Selzach)",
+   "address": "Altreu, 2545 Selzach",
+   "coords": {
+    "lat": 47.19263,
+    "lng": 7.44799
+   },
+   "url": "https://de.wikipedia.org/wiki/Altreu",
+   "price": 1,
+   "tags": [
+    "gratis",
+    "familie",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 90,
+   "wow": "Erste Storchensiedlung 1948 – seit 2008 Europäisches Storchendorf",
+   "text": "Im Weiler an der Aare stehen die Storchennester auf Dächern und Bäumen, Du siehst die Vögel aus wenigen Metern Distanz. Rundherum liegt die Auenlandschaft der Selzacherwiti, ideal für einen Spaziergang dem Fluss entlang.",
+   "tip": "Kombiniere den Besuch mit der Aarefahrt Solothurn–Biel und einem Halt im Restaurant zum Grünen Affen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://de.wikipedia.org/wiki/Altreu",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "so-x-attisholz-areal",
+   "kind": "sehenswuerdigkeit",
+   "name": "Attisholz-Areal",
+   "region": "solothurn",
+   "town": "Riedholz",
+   "address": "Attisholzstrasse 10, 4533 Riedholz",
+   "coords": {
+    "lat": 47.22735,
+    "lng": 7.57706
+   },
+   "url": "https://www.solothurn-city.ch/de/solothurn-erleben/kunst-kultur/attisholz-areal",
+   "price": 1,
+   "tags": [
+    "kultur",
+    "freunde",
+    "genuss",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "Areal frei zugänglich; Kantine und Events mit eigenen Zeiten",
+   "durationMin": 120,
+   "wow": "130 Jahre Zellulosefabrik – einst grösste Industriebrache der Schweiz",
+   "text": "Zwischen den Hallen der ehemaligen Zellulosefabrik an der Aare finden heute Konzerte, Kunst und Märkte statt; dazu gibt es Kantinen und einen Spielplatz. Du schlenderst durch Industriekulisse, wie Du sie sonst nur aus Filmen kennst.",
+   "tip": "Für Gruppen gibt es Areal-Führungen ab CHF 250 – für Einzelpersonen lohnt sich der Blick in den Eventkalender.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Areal frei begehbar; Essen und Events separat"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.solothurn-city.ch/de/solothurn-erleben/kunst-kultur/attisholz-areal",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "so-x-enter-technikwelt",
+   "kind": "sehenswuerdigkeit",
+   "name": "Enter Technikwelt Solothurn",
+   "region": "solothurn",
+   "town": "Derendingen",
+   "address": "Gewerbestrasse 4, 4552 Derendingen",
+   "coords": {
+    "lat": 47.197,
+    "lng": 7.59624
+   },
+   "url": "https://www.enter.ch",
+   "price": 2,
+   "tags": [
+    "regenfest",
+    "familie",
+    "kultur",
+    "besonders"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di–So 10–17 Uhr, Mo geschlossen (ausser an Feiertagen)",
+   "durationMin": 180,
+   "wow": "Über 10 Technik-Themenwelten – vom ersten Schweizer Radiostudio bis heute",
+   "text": "Im grossen Technikmuseum gehst Du durch Radio, Computer, Fahrzeuge und Spiele aus über hundert Jahren, vieles darfst Du anfassen und ausprobieren. Im Restaurant im Haus gibt es mittags warme Küche.",
+   "tip": "Mit dem Museumspass ist der Eintritt gratis; nur das Obergeschoss mit Fahrzeugen und Play! gibt es auch günstiger.",
+   "priceInfo": {
+    "from": 32,
+    "unit": "Eintritt Erwachsene",
+    "note": "nur Obergeschoss CHF 15; Kinder 6–15 CHF 15; Familien CHF 75; Museumspass gilt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.enter.ch/de/offnungszeiten-und-preise/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "so-x-seilpark-balmberg",
+   "kind": "aktivitaet",
+   "name": "Seilpark Balmberg",
+   "region": "solothurn",
+   "town": "Balmberg",
+   "address": "Oberbalmberg 25, 4524 Balmberg",
+   "coords": {
+    "lat": 47.26669,
+    "lng": 7.54117
+   },
+   "url": "https://www.seilpark-balmberg.ch",
+   "price": 2,
+   "tags": [
+    "aktiv",
+    "familie",
+    "freunde",
+    "besonders"
+   ],
+   "weatherProof": false,
+   "season": "3. April – 1. November 2026",
+   "hours": "täglich 09:00–17:00 (bei schlechtem Wetter früher zu)",
+   "durationMin": 180,
+   "wow": "12 Parcours, bis 20 m hoch, Seilrutschen bis 174 m",
+   "text": "Im Wald auf dem Balmberg kletterst Du nach einer Einführung selbständig von Plattform zu Plattform, von einfachen Kinderparcours bis zum schwarzen. Maximal drei Stunden bist Du in den Bäumen unterwegs.",
+   "tip": "Bargeld mitnehmen – oben ist der Handyempfang für Twint unzuverlässig.",
+   "priceInfo": {
+    "from": 42,
+    "unit": "Tageskarte Erwachsene",
+    "note": "Kinder 12–16 CHF 33, 8–11 CHF 29, 4–7 CHF 21; Familien etwas günstiger"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.seilpark-balmberg.ch/seilpark/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "so-x-juragarten-weissenstein",
+   "kind": "aussicht",
+   "name": "Juragarten Weissenstein",
+   "region": "solothurn",
+   "town": "Oberdorf SO",
+   "address": "Vorderer Weissenstein 2, 4515 Oberdorf",
+   "coords": {
+    "lat": 47.25145,
+    "lng": 7.50855
+   },
+   "url": "https://pro-weissenstein.ch/juragarten/",
+   "price": 1,
+   "tags": [
+    "gratis",
+    "aussicht",
+    "berg",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; Hauptblüte Juni–Juli",
+   "hours": "frei zugänglich",
+   "durationMin": 45,
+   "wow": "Alpengarten nur mit Jura-Pflanzen, seit 1977 kantonal geschützt",
+   "text": "Gleich unterhalb des Hotels Weissenstein liegen terrassierte Beete mit Pflanzen, die typisch für die Jurahöhen sind. Zwischen den Mäuerchen schaust Du über das Mittelland bis zu den Alpen.",
+   "tip": "Mit der Gondel ab Oberdorf bist Du in wenigen Minuten oben – im Juni und Juli blüht am meisten.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.solothurn-city.ch/attraktionen/juragarten-8227b7479c",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "so-x-bally-park",
+   "kind": "sehenswuerdigkeit",
+   "name": "Bally-Park Schönenwerd",
+   "region": "solothurn",
+   "town": "Schönenwerd",
+   "address": "Bally-Park, 5012 Schönenwerd",
+   "coords": {
+    "lat": 47.36554,
+    "lng": 7.99601
+   },
+   "url": "https://de.wikipedia.org/wiki/Bally-Park",
+   "price": 1,
+   "tags": [
+    "gratis",
+    "romantisch",
+    "kultur",
+    "geheimtipp"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "frei zugänglich",
+   "durationMin": 75,
+   "wow": "Fabrikantenpark mit Pfahlbau-Nachbau und chinesischem Pavillon von 1890",
+   "text": "Die Schuhfabrikanten Bally legten zwischen Aare und Bahnlinie ab 1868 einen Landschaftspark an. Du findest nachgebaute Pfahlbauten, einen Speicher von 1588, eine Grotte, eine Eisenbrücke über den Fabrikkanal und mächtige alte Bäume wie einen Küstenmammutbaum.",
+   "tip": "Vom Bahnhof Schönenwerd bist Du in wenigen Minuten im Park – gut kombinierbar mit einem Spaziergang an der Aare.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://de.wikipedia.org/wiki/Bally-Park",
+   "checked": "2026-11-15"
+  }
+ ],
+ "trips": [
+  {
+   "slug": "krasse-runde-nidwalden-engelberg",
+   "title": "Die krasse Runde: CabriO, Wasserfall und Ende der Welt",
+   "teaser": "Offenes Seilbahndeck am Stanserhorn, danach Fürenalp, 60-m-Wasserfall und Engelbergs «Ende der Welt» an einem Tag.",
+   "region": "engelberg",
+   "days": 1,
+   "moods": [
+    "natur",
+    "aktiv",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "familie"
+   ],
+   "season": "Mai–Oktober (Stanserhorn bis 22.11.)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 70
+    },
+    {
+     "from": "Bern",
+     "minutes": 90
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 95
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Stans und Engelberg",
+     "slots": [
+      {
+       "time": "09:00",
+       "placeId": "lu-x-stanserhorn-cabrio",
+       "title": "Aufs Stanserhorn",
+       "text": "Mit Standseilbahn und CabriO auf den Gipfel, oben den Rundweg gehen und vom offenen Oberdeck zurück.",
+       "travel": "ab Bahnhof Stans 5 Min. zu Fuss",
+       "rain": {
+        "placeId": "lu-x-bourbaki-panorama",
+        "title": "Bourbaki Panorama",
+        "text": "Statt Gipfel das 113 m lange Rundbild in Luzern – 20 Min. mit dem Zug ab Stans."
+       }
+      },
+      {
+       "time": "13:00",
+       "placeId": "eb-alpenclub",
+       "title": "Mittag in Engelberg",
+       "text": "Stärken im Restaurant Alpenclub mitten im Dorf.",
+       "travel": "35 Min. Zug Stans–Engelberg"
+      },
+      {
+       "time": "14:15",
+       "placeId": "eb-x-fuerenalp",
+       "title": "Fürenalp und Abstieg",
+       "text": "Mit der Fürenalp-Bahn hoch, Aussicht auf den Titlis und in rund 1,5 Std. über den Dagenstall absteigen.",
+       "travel": "Bus Richtung Fürenalp-Talstation, ca. 10 Min.",
+       "rain": {
+        "placeId": "eb-kloster-engelberg",
+        "title": "Kloster Engelberg",
+        "text": "Klosterführung durch die Benediktinerabtei statt Bergweg."
+       }
+      },
+      {
+       "time": "16:00",
+       "placeId": "eb-x-taetschbachfall",
+       "title": "Tätschbachfall",
+       "text": "Der Abstieg endet direkt am 60 m hohen Fall – kurz innehalten und die Gischt spüren.",
+       "travel": "Ende des Abstiegs"
+      },
+      {
+       "time": "17:00",
+       "placeId": "eb-x-horbis-ende-der-welt",
+       "title": "Ins «Ende der Welt»",
+       "text": "Über die Klostermatte ins Horbistal und im Restaurant am Talende zu Abend essen.",
+       "travel": "ca. 1 Std. zu Fuss oder Sommerbus ab Brunni-Talstation",
+       "rain": {
+        "placeId": "eb-talmuseum",
+        "title": "Tal Museum Engelberg",
+        "text": "Bei Regen lieber ins Tal Museum im Dorf."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-goldau-sattel-einsiedeln",
+   "title": "Die krasse Runde: Bergsturz, Drehgondel und Klosterdorf",
+   "teaser": "Wildtiere zwischen Bergsturzblöcken, eine 374-m-Hängebrücke und zum Schluss das Kloster Einsiedeln.",
+   "region": "zug",
+   "days": 1,
+   "moods": [
+    "natur",
+    "familie",
+    "kultur",
+    "krass"
+   ],
+   "audience": [
+    "familie",
+    "paar",
+    "freunde"
+   ],
+   "season": "April–Oktober",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 45
+    },
+    {
+     "from": "Bern",
+     "minutes": 100
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 95
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Goldau, Sattel, Einsiedeln",
+     "slots": [
+      {
+       "time": "09:00",
+       "placeId": "zg-x-tierpark-goldau",
+       "title": "Tierpark Goldau",
+       "text": "Rundgang zwischen den Bergsturzblöcken, Hirsche, Bären und Wölfe, danach die Erlebnishalle zum Bergsturz.",
+       "travel": "wenige Min. zu Fuss ab Bahnhof Arth-Goldau",
+       "rain": {
+        "placeId": "zg-hoellgrotten",
+        "title": "Höllgrotten Baar",
+        "text": "Tropfsteinhöhlen bei Baar – trocken und spektakulär."
+       }
+      },
+      {
+       "time": "13:00",
+       "placeId": "ei-x-skywalk-hochstuckli",
+       "title": "Drehgondel und Skywalk",
+       "text": "Mit der drehenden Gondel auf den Mostelberg, über die 374 m lange Hängebrücke und auf dem Brückenrundweg zurück.",
+       "travel": "ca. 20 Min. Zug Arth-Goldau–Sattel-Aegeri, dann 10 Min. zu Fuss",
+       "rain": {
+        "placeId": "ei-panorama",
+        "title": "Panorama Einsiedeln",
+        "text": "Das grosse Rundbild der Kreuzigung in Einsiedeln statt Brücke im Nebel."
+       }
+      },
+      {
+       "time": "16:30",
+       "placeId": "ei-kloster-einsiedeln",
+       "title": "Kloster Einsiedeln",
+       "text": "Durch die Klosterkirche zur Schwarzen Madonna und über den grossen Klosterplatz bummeln.",
+       "travel": "ca. 30 Min. Zug via Biberbrugg"
+      },
+      {
+       "time": "18:30",
+       "placeId": "ei-restaurant-drei-koenige",
+       "title": "Znacht am Klosterplatz",
+       "text": "Abendessen im Restaurant Drei Könige gleich gegenüber dem Kloster.",
+       "travel": "2 Min. zu Fuss"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-schwyz-hoehle-insel",
+   "title": "Die krasse Runde: Riesenhöhle, Inselbeiz und Privatbahn",
+   "teaser": "Ins Hölloch unter dem Muotathal, mit dem Boot zum Inselrestaurant und zum Schluss auf den Urmiberg über Brunnen.",
+   "region": "stoos",
+   "days": 1,
+   "moods": [
+    "aktiv",
+    "genuss",
+    "natur",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "familie"
+   ],
+   "season": "April–November (Hölloch ganzjährig)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 90
+    },
+    {
+     "from": "Bern",
+     "minutes": 140
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 130
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Muotathal, Lauerz, Brunnen",
+     "slots": [
+      {
+       "time": "09:30",
+       "placeId": "st-x-hoelloch",
+       "title": "Hölloch-Kurzführung",
+       "text": "Zwei Stunden mit Helm und Stirnlampe durch die Gänge der riesigen Karsthöhle – öffentliche Termine vorab buchen.",
+       "travel": "Bus ab Schwyz Post ca. 25 Min."
+      },
+      {
+       "time": "12:45",
+       "placeId": "st-x-insel-schwanau",
+       "title": "Mittag auf der Insel",
+       "text": "Mit dem Boot auf die Schwanau und im Inselrestaurant Schwyzer Küche essen.",
+       "travel": "ca. 40 Min. Bus via Schwyz nach Lauerz",
+       "rain": {
+        "placeId": "st-bundesbriefmuseum",
+        "title": "Bundesbriefmuseum",
+        "text": "Bei Wind fährt kein Boot – dann ins Bundesbriefmuseum in Schwyz."
+       }
+      },
+      {
+       "time": "15:30",
+       "placeId": "st-x-urmiberg",
+       "title": "Urmiberg",
+       "text": "Mit der kleinen Privatbahn hoch über Brunnen, auf der Terrasse einkehren und auf den See schauen.",
+       "travel": "ca. 30 Min. Bus via Schwyz nach Brunnen",
+       "rain": {
+        "placeId": "st-x-swiss-holiday-park",
+        "title": "Erlebnisbad Morschach",
+        "text": "Statt Aussicht ins 32 Grad warme Wasser im Swiss Holiday Park."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-solothurn",
+   "title": "Die krasse Runde: Störche, Einsiedler und Fabrikruine",
+   "teaser": "Storchendorf an der Aare, eine Schlucht mit echtem Einsiedler und die Industriekulisse von Attisholz.",
+   "region": "solothurn",
+   "days": 1,
+   "moods": [
+    "natur",
+    "kultur",
+    "erholung",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "familie",
+    "allein"
+   ],
+   "season": "März–Oktober",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 60
+    },
+    {
+     "from": "Bern",
+     "minutes": 40
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 65
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – rund um Solothurn",
+     "slots": [
+      {
+       "time": "09:30",
+       "placeId": "so-x-altreu-stoerche",
+       "title": "Storchendorf Altreu",
+       "text": "Die Nester auf Dächern und Bäumen anschauen und ein Stück der Aare entlang spazieren.",
+       "travel": "Bus/Zug Richtung Selzach, ca. 20 Min., dann zu Fuss",
+       "rain": {
+        "placeId": "so-x-enter-technikwelt",
+        "title": "Enter Technikwelt",
+        "text": "Bei Regen ins Technikmuseum in Derendingen."
+       }
+      },
+      {
+       "time": "11:30",
+       "placeId": "so-x-verenaschlucht",
+       "title": "Verenaschlucht",
+       "text": "Durch die schattige Schlucht bis zur Einsiedelei mit Kapelle und Klause.",
+       "travel": "zurück nach Solothurn, dann ca. 20 Min. zu Fuss ab Altstadt",
+       "rain": {
+        "placeId": "so-kunstmuseum",
+        "title": "Kunstmuseum Solothurn",
+        "text": "Statt Schlucht ins Kunstmuseum in der Stadt."
+       }
+      },
+      {
+       "time": "12:30",
+       "placeId": "so-einsiedelei",
+       "title": "Mittag bei der Einsiedelei",
+       "text": "Im Restaurant Einsiedelei am Schluchtausgang essen.",
+       "travel": "am Ende der Schlucht"
+      },
+      {
+       "time": "14:30",
+       "placeId": "so-x-attisholz-areal",
+       "title": "Attisholz-Areal",
+       "text": "Durch die Hallen der alten Zellulosefabrik an der Aare schlendern, Kunst und Kantinen entdecken.",
+       "travel": "ca. 20 Min. Bus ab Solothurn",
+       "rain": {
+        "placeId": "so-altes-zeughaus",
+        "title": "Museum Altes Zeughaus",
+        "text": "Bei Regen die Rüstungssammlung im Alten Zeughaus."
+       }
+      },
+      {
+       "time": "18:00",
+       "placeId": "so-kreuz",
+       "title": "Znacht im Kreuz",
+       "text": "Zum Abschluss in die Genossenschaft Kreuz an der Aare.",
+       "travel": "ca. 20 Min. Bus zurück nach Solothurn"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": "WebSearch-Budget war nach der Hälfte der Recherche aufgebraucht; danach nur noch direkte Abrufe offizieller Seiten (WebFetch) – alle Preise unten stammen von offiziellen Seiten oder Tourismusportalen, nicht geschätzt. Hammetschwand-Lift: Preis CHF 18 retour von nidwalden.com (ohne Jahresangabe); Saisonende im Herbst nicht genau belegt (months 4–10 angenommen). Stanserhorn: Öffnungsdatum 2027 noch unbekannt; 2026 lief 11.4.–22.11. Fräkigaudi: Preis CHF 9 laut luzern.com; Kinderpreise nur von Drittportalen, daher weggelassen. Bourbaki Panorama: Preis von museums.ch (offizielle Seite zeigte keinen Preis im Abruf); open.week konservativ 10–17 Uhr (Sommer bis 18 Uhr). Glasi Hergiswil: Öffnungszeiten je nach Quelle leicht abweichend; Preis Glaslabyrinth nicht gefunden. Museggmauer: Saison 1.4.–1.11. laut luzern.com, für 2026 nicht separat bestätigt; Zytturm-Uhr-Anekdote nur als Tipp. Museum für Urgeschichte(n): Öffnungszeiten in Quellen uneinheitlich (Di–So 14–17 bzw. So 10–17); Gratis-Sonntag aus Programm 2024/25. Lorzentobel: Brückendaten (1759/1910/1985) nur aus Komoot-Highlight-Beschreibungen, keine amtliche Quelle; url zeigt auf Zug Tourismus allgemein. Zugerberg-Trotti: Saison/Betriebsmonate nicht angegeben, Preis aus Anbieter-PDF und Buchungsseite. Wildspitz: url ist die Tour-Seite von luzern.com (keine eigene Website des Berggasthauses geprüft). Rigi Scheidegg: Preis von luzern.com, Betriebszeiten aus offiziellem Rigi-PDF. Fürenalp: Retour CHF 21 als Sommer- und Winterpreis belegt; Halbtax gilt nicht. Klettersteig Fürenwand ohne Koordinaten (Wand zwischen Tal- und Bergstation). Iglu-Dorf Engelberg bewusst weggelassen: kein bestätigter Betrieb/Preis für 2026/27 gefunden. Engstlensee liegt im Kanton Bern, erreichbar über Engelberg–Jochpass; Preis Engelberg–Jochpass CHF 50 retour (Sommer 2026). Sattel-Hochstuckli: CHF 30 retour ist der Winter-Tarif 2026/27; Sommerpreis nicht separat geprüft. Saison ganzjährig ausser Revision 2.–27.11.2026. Hoch-Ybrig: nur Sommerbetrieb 2026 (4.7.–18.10.) in open.months; Wintertarif/-saison 2026/27 nicht geprüft. Hirschfluh ohne Koordinaten. Grosser Mythen: Höhe 1898 m aus allgemeinem Wissen; Bahnpreise von mythenregion.ch (Sommer). Hölloch: öffentliche Kurzführungen nur an bestimmten Terminen (meist Wochenende/Schulferien) – im Trip ggf. Wochentag beachten. Insel Schwanau: Abfahrtsort des Boots und Öffnungstage des Restaurants nicht auf der Website gefunden; Saison aus Angebotsdaten 2026 abgeleitet. Urmiberg: Saisonstart im Frühling nicht belegt (months 4–11 angenommen), Saison 2026 endet 15.11. Rütli: keine eigene offizielle Website geprüft (Wikipedia als url/source); Koordinaten aus Wikipedia-Gedächtnis (46.9686/8.5936) – bitte gegenprüfen. Altreu: Erreichbarkeit per Aareschiff (Halt Altreu) nicht im Fahrplan geprüft. Attisholz: Areal als frei begehbar angenommen (Kantinen/Spielplatz öffentlich), keine expliziten Öffnungszeiten. Seilpark Balmberg: Sturmschaden 28.8.2026 – blaue Parcours und roter Parcours 2026 voraussichtlich gesperrt, übrige offen. Bally-Park: keine offizielle Website, Fakten aus Wikipedia; Nidlenloch (Höhle am Weissenstein, Schlüssel gegen Depot im Gasthof Hinter Weissenstein laut Wikipedia) mangels Preisbeleg weggelassen. Bilder: Commons-API war durch ein geteiltes Rate-Limit (429) blockiert; nur 8 Orte haben ein Bild (Dateien aus erfolgreicher Commons-Suche, Thumb-URL nach Commons-MD5-Schema gebaut, 4 davon per HTTP 206 bestätigt, 4 wegen 429 nicht prüfbar). Die übrigen 31 Orte brauchen noch ein Bild. Trips: Anreiseminuten grob geschätzt; Trips decken luzern+engelberg, zug+einsiedeln, stoos, solothurn ab."
+}

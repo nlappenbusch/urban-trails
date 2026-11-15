@@ -35,7 +35,7 @@ export const thunSchlossAare: Tour = {
   faq: [
     { question: "Surfen die wirklich das ganze Jahr?", answer: "Ja – die Welle an der Mühleschleuse läuft, solange die Aare genug Wasser führt. Im Winter mit dickem Neopren; zuschauen kostet nichts und fasziniert immer." },
     { question: "Lohnt sich der Schlossturm?", answer: "Der Blick über Dächer, Aare und Alpen ist top; das Museum im Rittersaal nimmt einen kleinen Eintritt." },
-    { question: "Warum ist die Tour gratis?", answer: "Jede Destination hat bei uns eine Gratis-Tour zum Reinschnuppern – in Thun ist es diese." },
+    { question: "Kostet die Tour etwas?", answer: "Nein. Alle Touren sind gratis – mit Audio-Stories, Karte, Navi und Rätseln." },
   ],
   stops: [
     {

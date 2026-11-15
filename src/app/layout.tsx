@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Selbstgeführte Premium-Walking-Touren durch Schweizer Städte: Storytelling-Audioguides, interaktive Karten, Geheimtipps und Routen, die sich deinem Tag anpassen.",
+    "Selbstgeführte Walking-Touren durch Schweizer Städte, kostenlos: Audio-Stories an jedem Stopp, Navi, Rätsel und Geheimtipps mit Adresse.",
   keywords: [
     "Walking Tour Schweiz",
     "Zürich Stadtrundgang",

@@ -56,8 +56,8 @@ export const solothurnElf: Tour = {
         "Weitgehend: Die Altstadt ist flach, teils mit Kopfsteinpflaster. Einzige echte Hürde ist die Freitreppe der Kathedrale mit 33 Stufen – das Finale funktioniert aber auch vom Fuss der Treppe aus.",
     },
     {
-      question: "Warum ist die Tour gratis?",
-      answer: "Jede Destination hat bei uns eine Gratis-Tour zum Reinschnuppern – in Solothurn ist es diese.",
+      question: "Kostet die Tour etwas?",
+      answer: "Nein. Alle Touren sind gratis – mit Audio-Stories, Karte, Navi und Rätseln.",
     },
   ],
   stops: [

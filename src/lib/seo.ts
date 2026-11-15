@@ -41,16 +41,13 @@ export function tourJsonLd(tour: Tour): object[] {
       name: SITE_NAME,
       url: SITE_URL,
     },
-    ...(tour.isPremium && tour.priceChf
-      ? {
-          offers: {
-            "@type": "Offer",
-            price: tour.priceChf,
-            priceCurrency: "CHF",
-            availability: "https://schema.org/InStock",
-          },
-        }
-      : {}),
+    // Alle Touren sind gratis (Entscheid 15.11.2026); isPremium/priceChf bleiben nur im Datenmodell.
+    offers: {
+      "@type": "Offer",
+      price: 0,
+      priceCurrency: "CHF",
+      availability: "https://schema.org/InStock",
+    },
     ...(city
       ? {
           touristDestination: {

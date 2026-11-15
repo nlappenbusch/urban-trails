@@ -28,7 +28,6 @@ export default function DestinationsPage() {
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {live.map((d) => {
           const cityTours = getToursByCity(d.slug);
-          const gratis = cityTours.filter((t) => !t.isPremium).length;
           return (
             <Link
               key={d.slug}
@@ -45,9 +44,7 @@ export default function DestinationsPage() {
                 {d.teaser}
               </p>
               <p className="mt-4 text-xs font-bold text-signal-600">
-                {cityTours.length} {cityTours.length === 1 ? "Tour" : "Touren"}
-                {gratis > 0 && ` · ${gratis} gratis`}
-              </p>
+                {cityTours.length} {cityTours.length === 1 ? "Tour" : "Touren"}              </p>
             </Link>
           );
         })}

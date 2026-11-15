@@ -137,7 +137,8 @@ export default function AudioPlayer({
       setT(audio.currentTime);
       setD(audio.duration || 0);
       const sec = Math.floor(audio.currentTime);
-      if (sec !== lastEmitSec.current) {
+      // Vorladen löst auch «timeupdate» aus – nur melden, was wirklich spielt.
+      if (!audio.paused && sec !== lastEmitSec.current) {
         lastEmitSec.current = sec;
         emit({ stopId, stopName, state: "time", t: audio.currentTime, d: audio.duration || 0 });
       }
@@ -273,7 +274,7 @@ export default function AudioPlayer({
               ) : mode === "error" ? (
                 "Audio gerade nicht erreichbar – nochmal tippen oder unten mitlesen"
               ) : (
-                "Play drücken – Geschichte hören statt lesen"
+                "Geschichte zum Ort hören"
               )}
             </p>
           )}
@@ -282,12 +283,17 @@ export default function AudioPlayer({
           <button
             onClick={() => setAmbienceEnabled(!ambience)}
             aria-pressed={ambience}
+            aria-label="Klangkulisse"
             title={ambience ? "Klangkulisse ausschalten" : "Klangkulisse einschalten"}
-            className={`shrink-0 rounded-full px-2.5 py-1 text-[11px] font-bold transition ${
-              ambience ? "bg-signal-500/15 text-signal-400 ring-1 ring-signal-500/40" : "bg-ink-800 text-cream-faint ring-1 ring-cream/10"
+            className={`grid h-9 w-9 shrink-0 place-items-center rounded-full transition ${
+              ambience ? "bg-signal-500/10 text-signal-600 ring-1 ring-signal-500/40" : "bg-ink-800 text-cream-faint ring-1 ring-cream/10"
             }`}
           >
-            {ambience ? "Kulisse an" : "Kulisse aus"}
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+              <path d="M2 12c2-3 4-3 6 0s4 3 6 0 4-3 6 0" />
+              <path d="M2 17c2-3 4-3 6 0s4 3 6 0 4-3 6 0" opacity=".5" />
+              {!ambience && <path d="M4 4l16 16" />}
+            </svg>
           </button>
         )}
       </div>

@@ -31,6 +31,15 @@ function mapsLink(stop: Stop): string {
   return `https://www.google.com/maps/dir/?api=1&destination=${stop.coords.lat},${stop.coords.lng}&travelmode=walking`;
 }
 
+const NEARBY_LABEL: Record<string, string> = {
+  cafe: "Café",
+  bar: "Bar",
+  restaurant: "Restaurant",
+  shop: "Laden",
+  kino: "Kino",
+  club: "Club",
+};
+
 function StopCard({
   stop,
   index,
@@ -66,134 +75,33 @@ function StopCard({
         </p>
       )}
 
-      <div
-        className={`card overflow-hidden p-4 transition sm:p-8 ${done ? "opacity-75" : ""}`}
-      >
+      <div className={`card overflow-hidden p-4 transition sm:p-8 ${done ? "opacity-75" : ""}`}>
         {image && (
-          <div className="relative -mx-4 -mt-4 mb-5 sm:-mx-8 sm:-mt-8">
+          <div className="relative -mx-4 -mt-4 mb-4 sm:-mx-8 sm:-mt-8 sm:mb-5">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={image.url}
-              alt={image.alt}
-              loading="lazy"
-              className="h-44 w-full object-cover sm:h-72"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-ink-900/60 to-transparent" />
+            <img src={image.url} alt={image.alt} loading="lazy" className="h-40 w-full object-cover sm:h-72" />
             <a
               href={image.credit}
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute bottom-2 right-3 rounded-full bg-black/50 px-2 py-0.5 text-[10px] text-white/60 backdrop-blur transition hover:text-white"
+              className="absolute bottom-2 right-3 rounded-full bg-black/50 px-2 py-0.5 text-[10px] text-white/70 transition hover:text-white"
             >
               © Wikimedia Commons
             </a>
           </div>
         )}
-        <div className="flex flex-wrap items-start justify-between gap-3">
-          <div>
-            <h3 className="font-display text-2xl font-extrabold tracking-tight text-cream">
-              {stop.name}
-              {stop.isHiddenGem && (
-                <span className="ml-2 align-middle text-sm" title="Geheimtipp">
-                  💎
-                </span>
-              )}
-            </h3>
-            <p className="mt-1 text-sm text-cream-dim">{stop.teaser}</p>
-          </div>
-          <span className="chip shrink-0">~{stop.stayMinutes} Min. Aufenthalt</span>
-        </div>
 
-        <div className="mt-5 space-y-4 text-sm leading-relaxed text-cream-dim">
-          <p>
-            <span className="font-semibold text-cream">Warum hierhin? </span>
-            {stop.why}
-          </p>
-          <p>{stop.story}</p>
-        </div>
-
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
-          <div className="rounded-lg border-l-4 border-cream/20 bg-ink-800 p-4 text-sm">
-            <span className="stamp">Fun Fact</span>
-            <p className="mt-3 leading-relaxed text-cream-dim">{stop.funFact}</p>
-          </div>
-          <div className="rounded-lg border-l-4 border-signal-500 bg-ink-800 p-4 text-sm">
-            <span className="stamp-orange">Insider</span>
-            <p className="mt-3 leading-relaxed text-cream-dim">
-              {stop.insiderTip}
-            </p>
-          </div>
-          {stop.photoSpot && (
-            <div className="rounded-lg border-l-4 border-cream/20 bg-ink-800 p-4 text-sm sm:col-span-2">
-              <p className="kicker">Fotospot</p>
-              <p className="mt-2 leading-relaxed text-cream-dim">
-                {stop.photoSpot}
-              </p>
-            </div>
+        <h3 className="font-display text-xl font-extrabold tracking-tight text-cream sm:text-2xl">
+          {stop.name}
+          {stop.isHiddenGem && (
+            <span className="ml-2 align-middle text-xs font-bold uppercase tracking-wide text-signal-600">Geheimtipp</span>
           )}
-        </div>
+        </h3>
+        <p className="mt-1 text-sm text-cream-dim">
+          {stop.teaser} <span className="whitespace-nowrap text-cream-faint">· ca. {stop.stayMinutes} Min.</span>
+        </p>
 
-        {stop.social && (
-          <div className="mt-4 rounded-lg bg-ink-800 p-4 text-sm ring-1 ring-cream/10">
-            <span className="stamp">Social-Check</span>
-            <div className="mt-3 grid gap-x-6 gap-y-2 sm:grid-cols-2">
-              <p className="text-cream-dim">
-                <span className="font-bold text-signal-600">Alleine ok? </span>
-                {stop.social.alleinOk}
-              </p>
-              <p className="text-cream-dim">
-                <span className="font-bold text-signal-600">Gespräch? </span>
-                {stop.social.gespraech}
-              </p>
-              <p className="text-cream-dim">
-                <span className="font-bold text-signal-600">Publikum: </span>
-                {stop.social.publikum}
-              </p>
-              <p className="text-cream-dim">
-                <span className="font-bold text-signal-600">Beste Zeit: </span>
-                {stop.social.besteZeit}
-              </p>
-            </div>
-          </div>
-        )}
-
-        {stop.nearby && stop.nearby.length > 0 && (
-          <div className="mt-4 rounded-lg bg-ink-800 p-4 ring-1 ring-cream/10">
-            <span className="stamp-orange">In der Nähe</span>
-            <div className="mt-3 space-y-3">
-              {stop.nearby.map((n) => (
-                <div key={n.name} className="text-sm">
-                  <p className="font-bold text-cream">
-                    {n.name}
-                    <span className="ml-2 font-normal uppercase tracking-widest text-cream-faint">
-                      {n.type === "cafe" && "Café"}
-                      {n.type === "bar" && "Bar"}
-                      {n.type === "restaurant" && "Restaurant"}
-                      {n.type === "shop" && "Laden"}
-                      {n.type === "kino" && "Kino"}
-                      {n.type === "club" && "Club"}
-                    </span>
-                  </p>
-                  <p className="mt-0.5 leading-relaxed text-cream-dim">
-                    {n.note}
-                  </p>
-                  {n.address && (
-                    <a
-                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(n.address)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-0.5 inline-block text-xs font-bold text-signal-400 hover:text-signal-500"
-                    >
-                      📍 {n.address}
-                    </a>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        <div className="mt-6 flex flex-wrap items-center gap-3 border-t border-cream/10 pt-5">
+        <div className="mt-4">
           <AudioPlayer
             citySlug={tour.citySlug}
             tourSlug={tour.slug}
@@ -203,23 +111,26 @@ function StopCard({
             audioFile={stop.audioFile}
             scene={sceneFor(stop)}
           />
+        </div>
+
+        <div className="mt-4 flex flex-wrap items-center gap-2">
           <a
             href={mapsLink(stop)}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-cream/20 bg-ink-900 px-4 py-2 text-sm font-semibold text-cream transition hover:bg-white/10"
+            className="inline-flex items-center gap-2 rounded-full border border-cream/20 bg-ink-900 px-4 py-2 text-sm font-semibold text-cream transition hover:bg-ink-800"
           >
-            🧭 Navigation
+            Navigation
           </a>
           <button
             onClick={onToggle}
             className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition active:scale-[0.97] ${
               done
                 ? "bg-emerald-100 text-emerald-700 hover:bg-emerald-200"
-                : "border border-white/15 bg-white/5 text-cream hover:bg-white/10"
+                : "border border-cream/20 bg-ink-900 text-cream hover:bg-ink-800"
             }`}
           >
-            {done ? "✓ Erledigt" : "Stop abhaken"}
+            {done ? "✓ Erledigt" : "Abhaken"}
           </button>
         </div>
 
@@ -229,13 +140,78 @@ function StopCard({
           </div>
         )}
 
-        <details className="mt-3 text-sm text-cream-dim">
-          <summary className="cursor-pointer font-medium text-cream-dim hover:text-cream">
-            Audiotext mitlesen
+        <details className="group mt-5 border-t border-cream/10 pt-4">
+          <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-bold text-cream hover:text-signal-600 [&::-webkit-details-marker]:hidden">
+            Mehr zum Ort
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" className="transition group-open:rotate-180" aria-hidden="true">
+              <path d="M3 5l4 4 4-4" />
+            </svg>
           </summary>
-          <p className="mt-3 whitespace-pre-line rounded-2xl bg-black/30 p-4 leading-relaxed">
-            {stop.audioScript}
-          </p>
+          <div className="mt-4 space-y-4 text-sm leading-relaxed text-cream-dim">
+            <p>
+              <strong className="text-cream">Warum hierhin? </strong>
+              {stop.why}
+            </p>
+            <p>{stop.story}</p>
+            <p>
+              <strong className="text-cream">Fun Fact: </strong>
+              {stop.funFact}
+            </p>
+            <p>
+              <strong className="text-cream">Insider: </strong>
+              {stop.insiderTip}
+            </p>
+            {stop.photoSpot && (
+              <p>
+                <strong className="text-cream">Fotospot: </strong>
+                {stop.photoSpot}
+              </p>
+            )}
+
+            {stop.nearby && stop.nearby.length > 0 && (
+              <div>
+                <p className="font-bold text-cream">In der Nähe</p>
+                <ul className="mt-2 space-y-3">
+                  {stop.nearby.map((n) => (
+                    <li key={n.name}>
+                      <p>
+                        <span className="font-semibold text-cream">{n.name}</span>
+                        {NEARBY_LABEL[n.type] && <span className="text-cream-faint"> · {NEARBY_LABEL[n.type]}</span>}
+                      </p>
+                      <p className="mt-0.5">{n.note}</p>
+                      {n.address && (
+                        <a
+                          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(n.address)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-0.5 inline-block text-xs font-bold text-signal-600 hover:text-signal-500"
+                        >
+                          {n.address}
+                        </a>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {stop.social && (
+              <div>
+                <p className="font-bold text-cream">Allein unterwegs?</p>
+                <dl className="mt-2 grid gap-x-6 gap-y-1.5 sm:grid-cols-2">
+                  <div><dt className="inline font-semibold text-cream">Alleine ok? </dt><dd className="inline">{stop.social.alleinOk}</dd></div>
+                  <div><dt className="inline font-semibold text-cream">Gespräch? </dt><dd className="inline">{stop.social.gespraech}</dd></div>
+                  <div><dt className="inline font-semibold text-cream">Publikum: </dt><dd className="inline">{stop.social.publikum}</dd></div>
+                  <div><dt className="inline font-semibold text-cream">Beste Zeit: </dt><dd className="inline">{stop.social.besteZeit}</dd></div>
+                </dl>
+              </div>
+            )}
+
+            <details>
+              <summary className="cursor-pointer font-semibold text-cream-dim hover:text-cream">Audiotext mitlesen</summary>
+              <p className="mt-3 whitespace-pre-line rounded-xl bg-ink-800 p-4">{stop.audioScript}</p>
+            </details>
+          </div>
         </details>
       </div>
     </li>
@@ -258,6 +234,28 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
   } | null>(null);
   const [mapOpen, setMapOpen] = useState(false);
   const [naviOpen, setNaviOpen] = useState(false);
+  const listRef = useRef<HTMLOListElement | null>(null);
+  const [inStops, setInStops] = useState(false);
+
+  // Leiste nur zeigen, solange die Stopp-Liste unter ihr liegt – nicht über Kopf, FAQ, Footer.
+  useEffect(() => {
+    function measure() {
+      const el = listRef.current;
+      if (!el) return;
+      const r = el.getBoundingClientRect();
+      const h = window.innerHeight;
+      setInStops(r.top < h - 120 && r.bottom > h - 40); // React ignoriert gleiche Werte
+    }
+    measure();
+    window.addEventListener("scroll", measure, { passive: true });
+    window.addEventListener("resize", measure);
+    document.body.dataset.tourbar = "1";
+    return () => {
+      window.removeEventListener("scroll", measure);
+      window.removeEventListener("resize", measure);
+      delete document.body.dataset.tourbar;
+    };
+  }, []);
 
   // Direkt-Link «#navi» (z.B. Button oben in der Tour) öffnet das Navi
   useEffect(() => {
@@ -290,6 +288,11 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
           p && p.stopId === det.stopId
             ? { ...p, t: det.t ?? p.t, d: det.d ?? p.d, paused: true }
             : p
+        );
+      } else if (det.state === "time") {
+        // Zeit-Updates nur für das, was wirklich läuft – Vorladen löst auch «timeupdate» aus.
+        setNowPlaying((p) =>
+          p && p.stopId === det.stopId ? { ...p, t: det.t ?? p.t, d: det.d ?? p.d } : p
         );
       } else {
         setNowPlaying({
@@ -416,9 +419,9 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
     ? "🎉 Tour geschafft!"
     : atStop
       ? `📍 Du bist hier: ${atStop.index + 1}. ${atStop.stop.name}`
-      : `${completed}/${total} Stops`;
+      : `${completed}/${total} Stopps`;
   const statusSub = allDone
-    ? "Alle Stops besucht – Zeit für ein Abschluss-Getränk."
+    ? "Alle Stopps besucht – Zeit für ein Abschluss-Getränk."
     : atStop
       ? `${completed}/${total} abgehakt${nextStop && nextStop.id !== atStop.stop.id ? ` · dann: ${nextStop.name}` : ""}`
       : nextStop
@@ -427,10 +430,11 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
 
   const audioPct =
     nowPlaying && nowPlaying.d > 0 ? (nowPlaying.t / nowPlaying.d) * 100 : 0;
+  const barVisible = inStops || Boolean(nowPlaying && !nowPlaying.paused);
 
   return (
     <>
-      <ol className="relative space-y-10 pb-40 before:absolute before:bottom-44 before:left-[17px] before:top-4 sm:before:left-6 before:w-0 before:border-l-2 before:border-dashed before:border-signal-500/40">
+      <ol ref={listRef} className="relative space-y-10 pb-6 before:absolute before:bottom-10 before:left-[17px] before:top-4 sm:before:left-6 before:w-0 before:border-l-2 before:border-dashed before:border-signal-500/40">
         {tour.stops.map((stop, i) => (
           <StopCard
             key={stop.id}
@@ -444,20 +448,27 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
         ))}
       </ol>
 
-      {/* ───── Tour-Modus-Leiste (unten, mobile-first) ───── */}
-      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-cream/10 bg-ink-900/95 pb-[env(safe-area-inset-bottom)] shadow-[0_-2px_12px_rgba(0,0,0,0.08)] backdrop-blur-md">
-        <div
-          className="h-1 bg-gradient-to-r from-signal-400 to-signal-600 transition-all duration-500"
-          style={{ width: `${(completed / total) * 100}%` }}
-        />
-        <div className="container-page py-2.5">
-          {/* Mini-Player: was läuft + wo in der Spur */}
-          {nowPlaying && (
-            <div className="mb-2 flex items-center gap-2.5 border-b border-cream/10 pb-2">
+      {/* ───── Tour-Leiste: nur sichtbar, solange die Stopps unter ihr liegen (oder Audio läuft) ───── */}
+      <div
+        aria-hidden={!barVisible}
+        className={`fixed inset-x-0 bottom-0 z-40 border-t border-cream/10 bg-ink-900 pb-[env(safe-area-inset-bottom)] shadow-[0_-2px_12px_rgba(0,0,0,0.08)] transition-transform duration-300 ${
+          barVisible ? "translate-y-0" : "pointer-events-none translate-y-[110%]"
+        }`}
+      >
+        <div className="h-1 bg-ink-700">
+          <div
+            className="h-full bg-signal-500 transition-all duration-500"
+            style={{ width: `${(completed / total) * 100}%` }}
+          />
+        </div>
+        <div className="container-page flex h-16 items-center gap-2">
+          {nowPlaying ? (
+            <>
               <button
                 onClick={toggleAudio}
+                tabIndex={barVisible ? 0 : -1}
                 aria-label={nowPlaying.paused ? "Weiter abspielen" : "Pause"}
-                className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-signal-500 text-white transition hover:bg-signal-600 active:scale-95"
+                className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-signal-500 text-white transition hover:bg-signal-600 active:scale-95"
               >
                 {nowPlaying.paused ? (
                   <svg width="12" height="12" viewBox="0 0 14 14" fill="currentColor"><path d="M3 1.5v11a1 1 0 0 0 1.5.87l9-5.5a1 1 0 0 0 0-1.74l-9-5.5A1 1 0 0 0 3 1.5z"/></svg>
@@ -465,76 +476,65 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
                   <svg width="12" height="12" viewBox="0 0 14 14" fill="currentColor"><rect x="1" y="1" width="4" height="12" rx="1"/><rect x="9" y="1" width="4" height="12" rx="1"/></svg>
                 )}
               </button>
-              <div className="min-w-0 flex-1">
-                <a
-                  href={`#${nowPlaying.stopId}`}
-                  className="block truncate text-xs font-bold text-cream hover:text-signal-600"
-                >
-                  ♪ {nowPlaying.stopName}
-                  {nowPlaying.paused && (
-                    <span className="ml-1.5 font-normal text-cream-faint">pausiert</span>
-                  )}
-                </a>
-                {nowPlaying.d > 0 && (
-                  <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-ink-700">
-                    <div
-                      className="h-full rounded-full bg-signal-500 transition-[width] duration-300"
-                      style={{ width: `${audioPct}%` }}
-                    />
-                  </div>
-                )}
-              </div>
-              {nowPlaying.d > 0 && (
-                <span className="shrink-0 font-mono text-[11px] tabular-nums text-cream-faint">
-                  {fmtTime(nowPlaying.t)} / {fmtTime(nowPlaying.d)}
+              <a href={`#${nowPlaying.stopId}`} tabIndex={barVisible ? 0 : -1} className="min-w-0 flex-1">
+                <span className="block truncate text-sm font-bold text-cream">{nowPlaying.stopName}</span>
+                <span className="block truncate font-mono text-[11px] tabular-nums text-cream-faint">
+                  {nowPlaying.paused ? "pausiert · " : ""}
+                  {nowPlaying.d > 0 ? `${fmtTime(nowPlaying.t)} / ${fmtTime(nowPlaying.d)}` : "lädt …"}
                 </span>
-              )}
-            </div>
-          )}
-
-          {/* Status + Aktionen */}
-          <div className="flex items-center justify-between gap-2">
+              </a>
+            </>
+          ) : (
             <div className="min-w-0 flex-1">
               <p className="truncate text-sm font-bold text-cream">{statusMain}</p>
               <p className="truncate text-xs text-cream-dim">{statusSub}</p>
             </div>
-            <div className="flex shrink-0 items-center gap-1.5">
-              <button
-                onClick={toggleGeo}
-                aria-label="Standort verfolgen"
-                title="Standort verfolgen (Distanz + «du bist hier»)"
-                className={`grid h-10 w-10 place-items-center rounded-full text-sm font-semibold transition ${
-                  geoState === "on"
-                    ? "bg-signal-500 text-white"
-                    : "border border-cream/20 bg-ink-900 text-cream-dim hover:bg-ink-800"
-                }`}
-              >
-                {geoState === "loading" ? "⏳" : "📍"}
-              </button>
-              <button
-                aria-label="Karte öffnen"
-                onClick={() => setMapOpen(true)}
-                className="inline-flex h-10 items-center gap-1.5 rounded-full border border-cream/20 bg-ink-900 px-3.5 text-sm font-bold text-cream transition hover:bg-ink-800"
-              >
-                🗺 <span className="hidden sm:inline">Karte</span>
-              </button>
-              {allDone ? (
-                <button
-                  onClick={() => setDone(new Set())}
-                  className="h-10 rounded-full border border-cream/20 bg-ink-900 px-3.5 text-sm font-semibold text-cream transition hover:bg-ink-800"
-                >
-                  Reset
-                </button>
+          )}
+          <div className="flex shrink-0 items-center gap-1.5">
+            <button
+              onClick={toggleGeo}
+              tabIndex={barVisible ? 0 : -1}
+              aria-label="Standort verfolgen"
+              aria-pressed={geoState === "on"}
+              title="Standort verfolgen (Distanz + «du bist hier»)"
+              className={`grid h-10 w-10 place-items-center rounded-full transition ${
+                geoState === "on"
+                  ? "bg-signal-500 text-white"
+                  : "border border-cream/20 bg-ink-900 text-cream-dim hover:bg-ink-800"
+              }`}
+            >
+              {geoState === "loading" ? (
+                <span className="h-4 w-4 animate-spin rounded-full border-2 border-current border-t-transparent" />
               ) : (
-                <button
-                  onClick={openNavi}
-                  className="inline-flex h-10 items-center gap-1.5 rounded-full bg-signal-500 px-4 text-sm font-extrabold text-white shadow-md transition hover:bg-signal-600 active:scale-95"
-                >
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 L20 21 L12 16.5 L4 21 Z" /></svg>
-                  Navi
-                </button>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v3M12 19v3M2 12h3M19 12h3" /></svg>
               )}
-            </div>
+            </button>
+            <button
+              aria-label="Karte öffnen"
+              tabIndex={barVisible ? 0 : -1}
+              onClick={() => setMapOpen(true)}
+              className="grid h-10 w-10 place-items-center rounded-full border border-cream/20 bg-ink-900 text-cream transition hover:bg-ink-800"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z" /><path d="M9 4v14M15 6v14" /></svg>
+            </button>
+            {allDone ? (
+              <button
+                onClick={() => setDone(new Set())}
+                tabIndex={barVisible ? 0 : -1}
+                className="h-10 rounded-full border border-cream/20 bg-ink-900 px-3.5 text-sm font-semibold text-cream transition hover:bg-ink-800"
+              >
+                Reset
+              </button>
+            ) : (
+              <button
+                onClick={openNavi}
+                tabIndex={barVisible ? 0 : -1}
+                className="inline-flex h-10 items-center gap-1.5 rounded-full bg-signal-500 px-4 text-sm font-extrabold text-white transition hover:bg-signal-600 active:scale-95"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 L20 21 L12 16.5 L4 21 Z" /></svg>
+                Navi
+              </button>
+            )}
           </div>
         </div>
       </div>

@@ -47,7 +47,6 @@ const config: Config = {
       animation: {
         "fade-up": "fadeUp 0.7s ease-out both",
         "fade-in": "fadeIn 1s ease-out both",
-        "ticker": "ticker 28s linear infinite",
       },
       keyframes: {
         fadeUp: {
@@ -57,10 +56,6 @@ const config: Config = {
         fadeIn: {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
-        },
-        ticker: {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-50%)" },
         },
       },
     },

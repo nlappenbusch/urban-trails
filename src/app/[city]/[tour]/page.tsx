@@ -71,9 +71,9 @@ export default async function TourPage({ params }: Props) {
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-ink-950/90 via-ink-950/40 to-ink-950/20" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(255,255,255,0.1),transparent_50%)]" />
-        <div className="container-page relative py-20">
+        <div className="container-page relative py-8 sm:py-14">
           {/* Breadcrumb */}
-          <nav className="mb-4 flex flex-wrap items-center gap-1.5 text-sm font-semibold text-white/70">
+          <nav className="mb-3 flex flex-wrap items-center gap-1.5 text-sm font-semibold text-white/70">
             <Link href="/destinationen" className="hover:text-white">
               Destinationen
             </Link>
@@ -93,53 +93,41 @@ export default async function TourPage({ params }: Props) {
               </>
             )}
           </nav>
-          <div className="flex flex-wrap gap-2">
-            {tour.isPremium ? (
-              <span className="stamp-orange">
-                Premium · CHF {tour.priceChf?.toFixed(2)}
-              </span>
-            ) : (
-              <span className="stamp">Gratis-Tour</span>
-            )}
-            {tour.moods.map((m) => (
-              <span key={m} className="chip border-white/40 bg-black/40 text-white backdrop-blur">
-                {moodLabels[m]}
-              </span>
-            ))}
-          </div>
-          <h1 className="headline mt-5 max-w-3xl text-4xl text-white sm:text-6xl">
+          <h1 className="headline max-w-3xl text-4xl text-white sm:text-6xl">
             {tour.name}
           </h1>
-          <p className="mt-4 max-w-2xl text-lg italic text-white/80">
+          <p className="mt-3 max-w-2xl text-base italic text-white/80 sm:text-lg">
             «{tour.claim}»
           </p>
 
-          <div className="mt-6 flex flex-wrap gap-3"><a href="#navi" className="btn-primary">Navi starten</a><a href="#tourstart" className="btn-secondary">Stops ansehen</a><Link href={`/unterwegs/${tour.citySlug}/${tour.slug}`} className="btn-secondary">Offline & GPS</Link></div>
-          <dl className="mt-10 grid max-w-3xl grid-cols-2 gap-4 sm:grid-cols-4">
+          <dl className="mt-5 flex flex-wrap gap-x-5 gap-y-1 text-sm text-white">
             {[
               { label: "Dauer", value: formatDuration(tour.durationMinutes) },
               { label: "Distanz", value: `${tour.distanceKm} km` },
-              { label: "Stops", value: String(tour.stops.length) },
-              {
-                label: "Gehzeit",
-                value: formatDuration(totalWalkMinutes(tour)),
-              },
+              { label: "Stopps", value: String(tour.stops.length) },
+              { label: "Gehzeit", value: formatDuration(totalWalkMinutes(tour)) },
             ].map((s) => (
-              <div
-                key={s.label}
-                className="rounded-xl bg-black/30 p-4 backdrop-blur"
-              >
-                <dt className="kicker text-white/60">{s.label}</dt>
-                <dd className="mt-1 font-display text-xl text-white">
-                  {s.value}
-                </dd>
+              <div key={s.label} className="flex items-baseline gap-1.5">
+                <dt className="text-white/60">{s.label}</dt>
+                <dd className="font-bold">{s.value}</dd>
               </div>
             ))}
           </dl>
+          {tour.moods.length > 0 && (
+            <p className="mt-2 text-sm text-white/70">
+              {tour.moods.map((m) => moodLabels[m]).join(" · ")}
+            </p>
+          )}
+
+          <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
+            <a href="#navi" className="btn-primary">Navi starten</a>
+            <a href="#tourstart" className="text-sm font-bold text-white underline-offset-4 hover:underline">Stopps ansehen</a>
+            <Link href={`/unterwegs/${tour.citySlug}/${tour.slug}`} className="text-sm font-bold text-white underline-offset-4 hover:underline">Offline & GPS</Link>
+          </div>
         </div>
       </section>
 
-      <div className="container-page pb-24 pt-14">
+      <div className="container-page pb-16 pt-10 sm:pt-14">
         <div className="grid gap-10 lg:grid-cols-[1fr_320px]">
           <div>
             <p className="text-lg leading-relaxed text-cream-dim">
@@ -209,13 +197,13 @@ export default async function TourPage({ params }: Props) {
 
         <section id="tourstart" className="mt-16">
           <h2 className="headline text-3xl text-cream sm:text-4xl">
-            Stop für <em>Stop</em>
+            Stopp für <em>Stopp</em>
           </h2>
           <p className="mt-2 max-w-xl text-sm text-cream-dim">
-            Mit Gehzeiten, Wegbeschreibung, Stories und Audioguide – lies vor
-            Ort oder hör einfach zu.
+            Hör dir die Story an, lös das Rätsel, hak den Stopp ab. Alles
+            Weitere zum Ort steht unter «Mehr zum Ort».
           </p>
-          <div className="mt-10">
+          <div className="mt-8">
             <StopTimeline tour={tour} riddles={riddlesByTour[`${tour.citySlug}/${tour.slug}`] ?? {}} />
           </div>
         </section>

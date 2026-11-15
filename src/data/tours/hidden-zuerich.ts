@@ -47,9 +47,9 @@ export const hiddenZuerich: Tour = {
         "Gerade für Zürcher: Viele kennen die Orte einzeln, aber nicht ihre Geschichten – vom Bierkartell bis zur Hausbesetzer-Geschichte des Lettens.",
     },
     {
-      question: "Warum ist die Tour Premium?",
+      question: "Kostet die Tour etwas?",
       answer:
-        "Sie enthält recherchierte Geschichten und Insider-Spots, die in keinem Reiseführer stehen, plus voll ausgearbeitete Audioguide-Skripte. Vorschau auf alle Stops ist gratis.",
+        "Nein. Alle Touren sind gratis – mit Audio-Stories, Karte, Navi und Rätseln. Kosten können nur unterwegs anfallen, etwa für Getränke oder Eintritte.",
     },
     {
       question: "Kann ich im Oberen Letten wirklich schwimmen?",

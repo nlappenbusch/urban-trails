@@ -57,9 +57,9 @@ export const solothurnVerenaschlucht: Tour = {
         "Das Schloss ist ein Museum mit saisonalen Öffnungszeiten – prüf sie vorab auf der offiziellen Website. Allee und Aussenanlagen machen das Finale aber auch ohne Museumsbesuch lohnend.",
     },
     {
-      question: "Warum ist die Tour Premium?",
+      question: "Kostet die Tour etwas?",
       answer:
-        "Sie enthält recherchierte Geschichten zu Einsiedelei, Kreuzweg und der Familie Besenval sowie voll ausgearbeitete Audio-Skripte. Die Altstadt-Tour «Solothurn – die Stadt der Elf» ist gratis.",
+        "Nein. Alle Touren sind gratis – mit Audio-Stories, Karte, Navi und Rätseln. Wer danach noch Zeit hat: Die Altstadt-Tour «Solothurn – die Stadt der Elf» startet gleich um die Ecke.",
     },
   ],
   stops: [

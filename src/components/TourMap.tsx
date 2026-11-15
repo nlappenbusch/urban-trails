@@ -321,32 +321,26 @@ export default function TourMap({
                 <p>{selected.story}</p>
               </div>
 
-              <div className="mt-5 grid gap-3">
-                <div className="rounded-lg border-l-4 border-cream/20 bg-ink-800 p-4 text-sm">
-                  <span className="stamp">Fun Fact</span>
-                  <p className="mt-3 leading-relaxed text-cream-dim">
-                    {selected.funFact}
-                  </p>
-                </div>
-                <div className="rounded-lg border-l-4 border-signal-500 bg-ink-800 p-4 text-sm">
-                  <span className="stamp-orange">Insider</span>
-                  <p className="mt-3 leading-relaxed text-cream-dim">
-                    {selected.insiderTip}
-                  </p>
-                </div>
+              <div className="mt-3 space-y-3 text-sm leading-relaxed text-cream-dim">
+                <p>
+                  <strong className="text-cream">Fun Fact: </strong>
+                  {selected.funFact}
+                </p>
+                <p>
+                  <strong className="text-cream">Insider: </strong>
+                  {selected.insiderTip}
+                </p>
                 {selected.photoSpot && (
-                  <div className="rounded-lg border-l-4 border-cream/20 bg-ink-800 p-4 text-sm">
-                    <p className="kicker">Fotospot</p>
-                    <p className="mt-2 leading-relaxed text-cream-dim">
-                      {selected.photoSpot}
-                    </p>
-                  </div>
+                  <p>
+                    <strong className="text-cream">Fotospot: </strong>
+                    {selected.photoSpot}
+                  </p>
                 )}
               </div>
 
               {selected.nearby && selected.nearby.length > 0 && (
-                <div className="mt-3 rounded-lg bg-ink-800 p-4 ring-1 ring-cream/10">
-                  <span className="stamp-orange">In der Nähe</span>
+                <div className="mt-4">
+                  <p className="text-sm font-bold text-cream">In der Nähe</p>
                   <div className="mt-3 space-y-2.5">
                     {selected.nearby.map((n) => (
                       <p key={n.name} className="text-sm text-cream-dim">

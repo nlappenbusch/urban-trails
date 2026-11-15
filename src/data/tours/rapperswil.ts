@@ -30,7 +30,7 @@ export const rapperswil: Tour = {
   },
   faq: [
     { question: "Wie lange dauert die Tour?", answer: "Mit Pausen rund 1 bis 2 Stunden – reine Gehzeit deutlich weniger. Du kannst jederzeit abkürzen oder verlängern." },
-    { question: "Ist die Tour kostenpflichtig?", answer: "Ja – als Premium-Tour mit Studio-Audio, allen Geheimtipps und KI-Guide für CHF 4.90." },
+    { question: "Kostet die Tour etwas?", answer: "Nein. Alle Touren sind gratis – mit Audio-Stories, Karte, Navi und Rätseln." },
     { question: "Wie komme ich hin?", answer: "Mit dem ÖV bequem erreichbar – Start ist beim ersten Stop, Verbindungen findest du in der SBB-App." },
   ],
   stops: [

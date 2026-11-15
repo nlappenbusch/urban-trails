@@ -40,7 +40,7 @@ export default function RiddleCard({ tourKey, stopId, riddle, compact = false }:
   const earned = riddlePoints(max, result);
 
   return (
-    <div className={`rounded-2xl border-2 border-dashed border-signal-500/40 bg-signal-500/[0.04] ${compact ? "p-3.5" : "p-5"}`}>
+    <div className={`rounded-2xl border border-signal-500/30 bg-signal-500/[0.04] ${compact ? "p-3.5" : "p-4 sm:p-5"}`}>
       <div className="flex items-center justify-between gap-3">
         <p className="kicker text-signal-600">Rätsel · {KIND[riddle.kind]}</p>
         <p className="shrink-0 rounded-full bg-ink-900 px-2.5 py-0.5 font-display text-xs font-extrabold tabular-nums text-cream ring-1 ring-cream/10">
@@ -49,7 +49,7 @@ export default function RiddleCard({ tourKey, stopId, riddle, compact = false }:
       </div>
       <p className={`mt-2 font-display font-extrabold leading-snug text-cream ${compact ? "text-base" : "text-lg"}`}>{riddle.question}</p>
 
-      <div className="mt-3 grid gap-2">
+      <div className="mt-3 grid gap-1.5">
         {riddle.options.map((o, i) => {
           const isAnswer = i === riddle.answer;
           const state = result ? (isAnswer ? "right" : picked === i || wrong.includes(i) ? "wrong" : "off") : wrong.includes(i) ? "wrong" : "open";
@@ -58,7 +58,7 @@ export default function RiddleCard({ tourKey, stopId, riddle, compact = false }:
               key={i}
               onClick={() => choose(i)}
               disabled={Boolean(result) || wrong.includes(i)}
-              className={`flex items-center gap-3 rounded-xl border px-3.5 py-3 text-left text-sm font-semibold transition ${
+              className={`flex min-h-[44px] items-center gap-3 rounded-xl border px-3.5 py-2 text-left text-sm font-semibold transition ${
                 state === "right"
                   ? "border-emerald-500 bg-emerald-50 text-emerald-800"
                   : state === "wrong"

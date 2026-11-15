@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CloudSun, Wand2, type LucideIcon } from "lucide-react";
+import { CloudSun, Dices, Gift, MapPinned, Wand2, type LucideIcon } from "lucide-react";
 
 interface Tool {
   href: string;
@@ -11,12 +11,15 @@ interface Tool {
 export const TOOLS: Tool[] = [
   { href: "/ausfluege/heute", icon: CloudSun, title: "Was machen wir heute?", text: "Drei Ausflüge, die heute klappen – mit Wetter, Zug und offenen Türen." },
   { href: "/ausfluege/planen", icon: Wand2, title: "Selbst zusammenstellen", text: "Dauer, Begleitung, Lust – und das Programm steht in Sekunden." },
+  { href: "/ausfluege/ueberraschung", icon: Dices, title: "Überraschungs-Ausflug", text: "Ziel wird ausgelost. Ihr erfahrt nur Gleis, Abfahrt und Packliste." },
+  { href: "/ausflugsziele", icon: MapPinned, title: "Alle Ausflugsziele", text: "Jeder Ort geprüft: Preis, Öffnungszeiten, Foto – nach Region und Thema." },
+  { href: "/geschenk", icon: Gift, title: "Ausflug verschenken", text: "Karte mit eigenem Text und QR-Code zum Programm. Gratis." },
 ];
 
 /** Einstiege in die Werkzeuge rund um Ausflüge. */
 export default function AusflugTools({ exclude }: { exclude?: string }) {
   return (
-    <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {TOOLS.filter((t) => t.href !== exclude).map(({ href, icon: Icon, title, text }) => (
         <li key={href}>
           <Link href={href} className="card group flex h-full gap-3 p-4 transition hover:border-cream/30">

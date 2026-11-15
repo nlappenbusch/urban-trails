@@ -3,7 +3,8 @@ import { tours } from "@/lib/tours";
 import { destinations } from "@/data/destinations";
 import { SITE_URL } from "@/lib/seo";
 import { categories } from "@/lib/categories";
-import { trips } from "@/lib/ausfluege";
+import { allRegions, trips } from "@/lib/ausfluege";
+import { regionPlaces, themaPages } from "@/lib/themen";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -20,7 +21,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/ausfluege`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/ausfluege/planen`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/ausfluege/heute`, changeFrequency: "daily", priority: 0.8 },
+    { url: `${SITE_URL}/ausfluege/ueberraschung`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${SITE_URL}/geschenk`, changeFrequency: "monthly", priority: 0.6 },
     ...trips.map((t) => ({ url: `${SITE_URL}/ausfluege/${t.slug}`, changeFrequency: "monthly" as const, priority: 0.8 })),
+    { url: `${SITE_URL}/ausflugsziele`, changeFrequency: "weekly", priority: 0.9 },
+    ...allRegions()
+      .filter((r) => regionPlaces(r.slug).length >= 4)
+      .map((r) => ({ url: `${SITE_URL}/ausflugsziele/${r.slug}`, changeFrequency: "weekly" as const, priority: 0.8 })),
+    ...themaPages().map((x) => ({ url: `${SITE_URL}/ausflugsziele/${x.region}/${x.thema}`, changeFrequency: "weekly" as const, priority: 0.7 })),
     {
       url: `${SITE_URL}/ueberrasche-mich`,
       changeFrequency: "monthly",

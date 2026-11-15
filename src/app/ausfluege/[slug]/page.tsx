@@ -186,6 +186,8 @@ export default async function TripPage({ params }: Props) {
         </section>
         <p className="mt-8 text-sm text-cream-dim">
           Anders gewünscht? <Link href={`/ausfluege/planen?region=${trip.region}&tage=${trip.days}`} className="font-semibold text-signal-600 hover:text-signal-500">Programm für {region} selbst zusammenstellen</Link>
+          {" · "}<Link href={`/ausflugsziele/${trip.region}`} className="font-semibold text-signal-600 hover:text-signal-500">alle Ausflugsziele in {region}</Link>
+          {" · "}<Link href={`/geschenk?trip=${trip.slug}`} className="font-semibold text-signal-600 hover:text-signal-500">diesen Ausflug verschenken</Link>
         </p>
       </div>
     </>

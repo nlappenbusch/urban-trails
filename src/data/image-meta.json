@@ -1166,5 +1166,85 @@
  "p/rb-rundturm-schloss": [
   1200,
   800
+ ],
+ "p/rb-laegerngrat": [
+  1200,
+  800
+ ],
+ "p/ge-hotel-les-armures": [
+  1200,
+  1200
+ ],
+ "p/ge-buvette-des-bains": [
+  1200,
+  800
+ ],
+ "p/ge-la-clemence": [
+  1200,
+  900
+ ],
+ "p/ge-palais-des-nations": [
+  1200,
+  780
+ ],
+ "p/ge-rotkreuzmuseum": [
+  1200,
+  800
+ ],
+ "p/ge-patek-philippe-museum": [
+  768,
+  1024
+ ],
+ "p/ge-mah": [
+  1200,
+  800
+ ],
+ "p/ge-mouettes": [
+  1200,
+  900
+ ],
+ "p/ge-saleve": [
+  1200,
+  913
+ ],
+ "p/ge-bains-des-paquis": [
+  1200,
+  900
+ ],
+ "p/la-hotel-angleterre": [
+  1200,
+  800
+ ],
+ "p/la-cafe-du-grutli": [
+  1200,
+  1800
+ ],
+ "p/la-auberge-de-londe": [
+  1200,
+  800
+ ],
+ "p/la-lavaux-vinorama": [
+  1200,
+  800
+ ],
+ "p/la-musee-olympique": [
+  1200,
+  800
+ ],
+ "p/la-mcba": [
+  1200,
+  800
+ ],
+ "p/la-chateau-chillon": [
+  1200,
+  801
+ ],
+ "p/la-lavaux-wanderung": [
+  1200,
+  800
+ ],
+ "p/la-cgn-schiff": [
+  1200,
+  800
  ]
 }

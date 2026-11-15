@@ -39,7 +39,12 @@
     "source": "https://www.corvatsch-diavolezza.ch/en/current-news/events/detail/corvatsch-snow-night",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Laut Betreiber die längste beleuchtete Nachtpiste der Schweiz: 4,2 km von Murtèl hinunter nach Surlej, Betrieb bis 1 Uhr nachts."
+    "text": "Laut Betreiber die längste beleuchtete Nachtpiste der Schweiz: 4,2 km von Murtèl hinunter nach Surlej, Betrieb bis 1 Uhr nachts.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Silvaplana_-_Corvatschbahn_mit_Champfer_von_der_Station_Murtel.jpg/1280px-Silvaplana_-_Corvatschbahn_mit_Champfer_von_der_Station_Murtel.jpg",
+      "alt": "Verschneite Piste bei der Mittelstation Murtèl mit Sesselbahn, Blick ins Oberengadin",
+      "credit": "https://commons.wikimedia.org/wiki/File:Silvaplana_-_Corvatschbahn_mit_Champfer_von_der_Station_Murtel.jpg"
+    }
   },
   {
     "id": "lenzerheide-snownights",
@@ -86,7 +91,12 @@
     "source": "https://arosalenzerheide.swiss/de/Lenzerheide/Winter/Bergerlebnisse/Nachtskifahren",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "3,5 km frisch präparierte Flutlichtpiste im Gebiet Stätz; Start beim Parkplatz Skilift Proschieri, danach Fondue oder Raclette auf Alp Stätz."
+    "text": "3,5 km frisch präparierte Flutlichtpiste im Gebiet Stätz; Start beim Parkplatz Skilift Proschieri, danach Fondue oder Raclette auf Alp Stätz.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/LH_Nacht_Wi_SL23.jpg/1280px-LH_Nacht_Wi_SL23.jpg",
+      "alt": "Verschneites Lenzerheide bei Nacht mit beleuchteten Häusern",
+      "credit": "https://commons.wikimedia.org/wiki/File:LH_Nacht_Wi_SL23.jpg"
+    }
   },
   {
     "id": "soerenberg-rossweid",
@@ -128,7 +138,12 @@
     "source": "https://www.luzern.com/de/blog/skifahren-unter-dem-sternenhimmel-in-soerenberg",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Die rote, nicht allzu steile Rossweid-Abfahrt ist am Freitagabend beleuchtet; letzte Bergfahrt mit der Gondel um 21:30."
+    "text": "Die rote, nicht allzu steile Rossweid-Abfahrt ist am Freitagabend beleuchtet; letzte Bergfahrt mit der Gondel um 21:30.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Entlebuch_in_snow.jpg/1280px-Entlebuch_in_snow.jpg",
+      "alt": "Verschneite Tannen und Felswände bei Sörenberg im Entlebuch",
+      "credit": "https://commons.wikimedia.org/wiki/File:Entlebuch_in_snow.jpg"
+    }
   },
   {
     "id": "atzmaennig-brustenegg",
@@ -172,7 +187,12 @@
     "source": "https://www.atzmaennig.ch/aktivitaeten/schneesport/nachtskifahren/",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Drei Abende pro Woche am Skilift Brustenegg im Zürcher Oberland, danach Fondue in der Brustenegg-Hütte; auch als Kombiticket mit Fondue."
+    "text": "Drei Abende pro Woche am Skilift Brustenegg im Zürcher Oberland, danach Fondue in der Brustenegg-Hütte; auch als Kombiticket mit Fondue.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Goldingen_-_Laupen_IMG_9470.JPG/1280px-Goldingen_-_Laupen_IMG_9470.JPG",
+      "alt": "Winterlandschaft bei Hintergoldingen im Zürcher Oberland",
+      "credit": "https://commons.wikimedia.org/wiki/File:Goldingen_-_Laupen_IMG_9470.JPG"
+    }
   },
   {
     "id": "flumserberg-galaxie",
@@ -213,7 +233,12 @@
     "source": "https://www.flumserberg.ch/en/Experience-winter/Flumserberg-ski-resort/Nightride",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Ab Winter 2026/27 als «Galaxie» mit Lichtinstallationen auf und neben der Chrüz-Piste; Nightride im Flumserberg-Saisonabo und Meilenweiss-Pass inbegriffen."
+    "text": "Ab Winter 2026/27 als «Galaxie» mit Lichtinstallationen auf und neben der Chrüz-Piste; Nightride im Flumserberg-Saisonabo und Meilenweiss-Pass inbegriffen.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tannenbodenalp_-_panoramio.jpg/1280px-Tannenbodenalp_-_panoramio.jpg",
+      "alt": "Pisten und Übungsgelände auf der Tannenbodenalp am Flumserberg, dahinter die Churfirsten",
+      "credit": "https://commons.wikimedia.org/wiki/File:Tannenbodenalp_-_panoramio.jpg"
+    }
   },
   {
     "id": "flumserberg-nachtschlitteln",
@@ -256,7 +281,12 @@
     "source": "https://www.flumserberg.ch/en/Experience-winter/Flumserberg-ski-resort/Nightride",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Flutlicht-Schlittelpiste von der Prodalp nach Tannenheim, Aufstieg mit dem Prodalp-Express; samstags und an fünf Donnerstagen im Februar/März."
+    "text": "Flutlicht-Schlittelpiste von der Prodalp nach Tannenheim, Aufstieg mit dem Prodalp-Express; samstags und an fünf Donnerstagen im Februar/März.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Pan%C3%BC%C3%B6l-Prodalp_Winter_hiking_trail_-_panoramio.jpg/1280px-Pan%C3%BC%C3%B6l-Prodalp_Winter_hiking_trail_-_panoramio.jpg",
+      "alt": "Verschneite Hügellandschaft zwischen Panüöl und Prodalp am Flumserberg",
+      "credit": "https://commons.wikimedia.org/wiki/File:Pan%C3%BC%C3%B6l-Prodalp_Winter_hiking_trail_-_panoramio.jpg"
+    }
   },
   {
     "id": "klewenalp-ergglen",
@@ -295,7 +325,12 @@
     "source": "https://www.luzern.com/de/event/nachtskifahren-klewenalp",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Nur an drei Freitagen pro Winter, darunter Neujahr; findet nur bei guten Schnee- und Wetterverhältnissen statt."
+    "text": "Nur an drei Freitagen pro Winter, darunter Neujahr; findet nur bei guten Schnee- und Wetterverhältnissen statt.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Lake_Lucerne_from_top_of_ski-lift_%22Junior_II%22_-_panoramio.jpg/1280px-Lake_Lucerne_from_top_of_ski-lift_%22Junior_II%22_-_panoramio.jpg",
+      "alt": "Skipiste auf der Klewenalp mit Blick auf den Vierwaldstättersee",
+      "credit": "https://commons.wikimedia.org/wiki/File:Lake_Lucerne_from_top_of_ski-lift_%22Junior_II%22_-_panoramio.jpg"
+    }
   },
   {
     "id": "stockhuette-twaeregg",
@@ -332,7 +367,12 @@
     "source": "https://www.luzern.com/de/event/nachtskifahren-stockhuette",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Samstagabends am Skilift Twäregg; Entscheid jeweils bis Mittwoch – fällt das Nachtskifahren aus, fährt auch die Abendgondel nicht."
+    "text": "Samstagabends am Skilift Twäregg; Entscheid jeweils bis Mittwoch – fällt das Nachtskifahren aus, fährt auch die Abendgondel nicht.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Stockh%C3%BCtte_above_foggy_Lake_Lucerne.jpg/1280px-Stockh%C3%BCtte_above_foggy_Lake_Lucerne.jpg",
+      "alt": "Skigebiet Stockhütte ob Emmetten über dem Nebelmeer",
+      "credit": "https://commons.wikimedia.org/wiki/File:Stockh%C3%BCtte_above_foggy_Lake_Lucerne.jpg"
+    }
   },
   {
     "id": "wiriehorn-nachtskifahren",
@@ -373,7 +413,12 @@
     "source": "https://www.wiriehorn.ch/de/erleben/abend-specials/",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Freitagabends zwei beleuchtete Pisten im Naturpark Diemtigtal; wer nicht fährt, schlittelt mit Stirnlampe ins Tal."
+    "text": "Freitagabends zwei beleuchtete Pisten im Naturpark Diemtigtal; wer nicht fährt, schlittelt mit Stirnlampe ins Tal.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Mountain_view_-_panoramio_%284%29.jpg/1280px-Mountain_view_-_panoramio_%284%29.jpg",
+      "alt": "Verschneite Gipfel im Diemtigtal mit Heissluftballon am blauen Himmel",
+      "credit": "https://commons.wikimedia.org/wiki/File:Mountain_view_-_panoramio_(4).jpg"
+    }
   },
   {
     "id": "grindelwald-bodmi",
@@ -414,7 +459,12 @@
     "source": "https://outdoor.ch/en/outdoor-activities/night-skiing-bodmi",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Kurzer Abendbetrieb am Tellerlift im Dorf-Übungsgelände – eher Anfängerhang als Nachtpiste, dafür ohne Bergbahnfahrt erreichbar."
+    "text": "Kurzer Abendbetrieb am Tellerlift im Dorf-Übungsgelände – eher Anfängerhang als Nachtpiste, dafür ohne Bergbahnfahrt erreichbar.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Bodmi_%28301033322%29.jpg/1280px-Bodmi_%28301033322%29.jpg",
+      "alt": "Übungshang Bodmi in Grindelwald mit Skifahrern, dahinter Berge in Wolken",
+      "credit": "https://commons.wikimedia.org/wiki/File:Bodmi_(301033322).jpg"
+    }
   },
   {
     "id": "hasliberg-maegisalp-reuti",
@@ -464,7 +514,12 @@
     "source": "https://www.meiringen-hasliberg.ch/183/nachtangebote",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Zwei beleuchtete blaue Pisten von der Mägisalp nach Reuti, dazu Hüttenabend auf der Mägisalp und Schlitteln mit Stirnlampe."
+    "text": "Zwei beleuchtete blaue Pisten von der Mägisalp nach Reuti, dazu Hüttenabend auf der Mägisalp und Schlitteln mit Stirnlampe.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bergstation_M%C3%A4gisalp%2C_Hasliberg-Reuti_%281412%29.jpg/1280px-Bergstation_M%C3%A4gisalp%2C_Hasliberg-Reuti_%281412%29.jpg",
+      "alt": "Bergstation Mägisalp mit verschneiten Pisten, aus der Gondel gesehen",
+      "credit": "https://commons.wikimedia.org/wiki/File:Bergstation_M%C3%A4gisalp,_Hasliberg-Reuti_(1412).jpg"
+    }
   },
   {
     "id": "les-diablerets-willy-favre",
@@ -505,7 +560,12 @@
     "source": "https://www.vaud.ch/en/tourism/activites/night-skiing-in-les-diablerets/",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Die 2018 verbreiterte Willy-Favre-Piste wird donnerstags beleuchtet; letzte Bergfahrt 21 Uhr, Schlitteln auf eigener Bahn möglich."
+    "text": "Die 2018 verbreiterte Willy-Favre-Piste wird donnerstags beleuchtet; letzte Bergfahrt 21 Uhr, Schlitteln auf eigener Bahn möglich.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Les_Diablerets_matin_d%27hiver.jpg/1280px-Les_Diablerets_matin_d%27hiver.jpg",
+      "alt": "Les Diablerets an einem Wintermorgen mit verschneiten Dächern und Pistenschneisen im Wald",
+      "credit": "https://commons.wikimedia.org/wiki/File:Les_Diablerets_matin_d%27hiver.jpg"
+    }
   },
   {
     "id": "zermatt-mondscheinabfahrt",
@@ -562,7 +622,12 @@
     "source": "https://www.matterhornparadise.ch/ZBAG/17-PDF/flyer/flyer-winter/2026-2027/mondscheinabfahrt.pdf",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Treffpunkt 18:30 an der Talstation Sunnegga, Abfahrt 19 Uhr in Begleitung des Pistendienstes; Ende nicht angegeben, Fondue im Anschluss."
+    "text": "Treffpunkt 18:30 an der Talstation Sunnegga, Abfahrt 19 Uhr in Begleitung des Pistendienstes; Ende nicht angegeben, Fondue im Anschluss.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Switzerland_2012-02-11_%286853082424%29.jpg/1280px-Switzerland_2012-02-11_%286853082424%29.jpg",
+      "alt": "Piste bei Sunnegga mit Blick aufs Matterhorn",
+      "credit": "https://commons.wikimedia.org/wiki/File:Switzerland_2012-02-11_(6853082424).jpg"
+    }
   },
   {
     "id": "savognin-nachtspektakel",
@@ -619,7 +684,12 @@
     "source": "https://www.graubuenden.ch/de/veranstaltungen/nachtspektakel-savognin",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Kein wöchentliches Angebot, sondern drei Eventabende mit beleuchteter Talabfahrt, Show oberhalb von Tigignas und Verlosung von Pistenbully-Fahrten."
+    "text": "Kein wöchentliches Angebot, sondern drei Eventabende mit beleuchteter Talabfahrt, Show oberhalb von Tigignas und Verlosung von Pistenbully-Fahrten.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Chairlift_Savognin%2C_valley_station.JPG/1280px-Chairlift_Savognin%2C_valley_station.JPG",
+      "alt": "Talstation der Sesselbahn in Savognin mit präparierter Piste",
+      "credit": "https://commons.wikimedia.org/wiki/File:Chairlift_Savognin,_valley_station.JPG"
+    }
   },
   {
     "id": "obersaxen-chummenbuehl",
@@ -657,7 +727,12 @@
     "source": "https://www.graubuenden.ch/en/events/nachtskifahren-obersaxen-chummenbuhl",
     "checked": "2026-11-16",
     "confidence": "mittel",
-    "text": "Kostenloses Flutlicht-Skifahren am Dorflift und im Kinderland; ob es stattfindet, steht jeweils auf obersaxen-mundaun.ch."
+    "text": "Kostenloses Flutlicht-Skifahren am Dorflift und im Kinderland; ob es stattfindet, steht jeweils auf obersaxen-mundaun.ch.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Obersaxen_Febr._2015.JPG/1280px-Obersaxen_Febr._2015.JPG",
+      "alt": "Obersaxen im Februar mit verschneiten Hängen über der Surselva",
+      "credit": "https://commons.wikimedia.org/wiki/File:Obersaxen_Febr._2015.JPG"
+    }
   },
   {
     "id": "berguen-tect",
@@ -693,7 +768,12 @@
     "source": "https://www.graubuenden.ch/de/aktivitaeten/winter/skifahren/skigebiete/berguen-filisur",
     "checked": "2026-11-16",
     "confidence": "mittel",
-    "text": "Kleiner Familienlift am Dorfrand von Bergün mit eigenem Nachttarif; Saison- und Tageskarten gelten am Abend nicht."
+    "text": "Kleiner Familienlift am Dorfrand von Bergün mit eigenem Nachttarif; Saison- und Tageskarten gelten am Abend nicht.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Berg%C3%BCn_im_Winter.jpg/1280px-Berg%C3%BCn_im_Winter.jpg",
+      "alt": "Bergün im verschneiten Albulatal",
+      "credit": "https://commons.wikimedia.org/wiki/File:Berg%C3%BCn_im_Winter.jpg"
+    }
   },
   {
     "id": "diavolezza-gluena-plaina",
@@ -735,7 +815,12 @@
     "source": "https://www.corvatsch-diavolezza.ch/en/current-news/events/detail/gluena-plaina-skiing-under-the-light-of-the-full-moon",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Die Diavolezzabahn fährt in der Vollmondnacht; gefahren wird ohne Flutlicht im Mondschein, nur bei gutem Wetter."
+    "text": "Die Diavolezzabahn fährt in der Vollmondnacht; gefahren wird ohne Flutlicht im Mondschein, nur bei gutem Wetter.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lago_Bianco_from_Diavolezza.jpg/1280px-Lago_Bianco_from_Diavolezza.jpg",
+      "alt": "Blick von der Diavolezzabahn auf den Lago Bianco und die verschneite Berninaregion",
+      "credit": "https://commons.wikimedia.org/wiki/File:Lago_Bianco_from_Diavolezza.jpg"
+    }
   },
   {
     "id": "laax-night-skiing",
@@ -785,7 +870,12 @@
     "source": "https://www.laax.com/en/night",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Falera fährt 18–20:30, Laax 19–21:30 Uhr; an zwei weiteren Februar-Freitagen ist der Snowpark mit Pipe am Abend offen."
+    "text": "Falera fährt 18–20:30, Laax 19–21:30 Uhr; an zwei weiteren Februar-Freitagen ist der Snowpark mit Pipe am Abend offen.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Falera_Curnius.jpg/1280px-Falera_Curnius.jpg",
+      "alt": "Gondelstation Curnius ob Falera mit Skifahrern im Schnee",
+      "credit": "https://commons.wikimedia.org/wiki/File:Falera_Curnius.jpg"
+    }
   },
   {
     "id": "aletsch-arena-nachtskifahren",
@@ -822,7 +912,12 @@
     "source": "https://partner.aletscharena.ch/hubfs/Nachtskifahren%202025-26.pdf",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Dienstagabends Flutlicht auf beiden Seiten der autofreien Aletsch Arena, Treffpunkt ist die Bar bei der Mittelstation Blausee."
+    "text": "Dienstagabends Flutlicht auf beiden Seiten der autofreien Aletsch Arena, Treffpunkt ist die Bar bei der Mittelstation Blausee.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bettmeralp_Skibetrieb%2C_2023.jpg/1280px-Bettmeralp_Skibetrieb%2C_2023.jpg",
+      "alt": "Skibetrieb auf der Bettmeralp mit verschneiten Chalets und Pisten",
+      "credit": "https://commons.wikimedia.org/wiki/File:Bettmeralp_Skibetrieb,_2023.jpg"
+    }
   },
   {
     "id": "leukerbad-sportarena",
@@ -864,7 +959,12 @@
     "source": "https://www.guidle.com/fr/evenements/dans-la-station-de-ski/leukerbad/ski-nocturne_ATRyqu8",
     "checked": "2026-11-16",
     "confidence": "mittel",
-    "text": "Günstiges Abendskifahren im Anfänger-Snowpark mitten im Thermalort; Treffpunkt ist die Kasse der Sportarena."
+    "text": "Günstiges Abendskifahren im Anfänger-Snowpark mitten im Thermalort; Treffpunkt ist die Kasse der Sportarena.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Loeche-les-bains_02.jpg/1280px-Loeche-les-bains_02.jpg",
+      "alt": "Verschneites Leukerbad mit Chalets und Blick talauswärts",
+      "credit": "https://commons.wikimedia.org/wiki/File:Loeche-les-bains_02.jpg"
+    }
   },
   {
     "id": "pizol-nachtskifahren",
@@ -902,7 +1002,12 @@
     "source": "https://pizol.com/wp-content/uploads/2025/11/Wintersprospekt_2025_web.pdf",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Freitags sind die Piste «Dreieck» und der Schlittelweg gleichzeitig beleuchtet – gut für gemischte Gruppen aus Skifahrern und Schlittlern."
+    "text": "Freitags sind die Piste «Dreieck» und der Schlittelweg gleichzeitig beleuchtet – gut für gemischte Gruppen aus Skifahrern und Schlittlern.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Skigebiet_Pizol_-_panoramio.jpg/1280px-Skigebiet_Pizol_-_panoramio.jpg",
+      "alt": "Piste und Skilift am Pizol mit Blick ins Rheintal",
+      "credit": "https://commons.wikimedia.org/wiki/File:Skigebiet_Pizol_-_panoramio.jpg"
+    }
   },
   {
     "id": "pizol-nachtschlitteln",
@@ -939,7 +1044,12 @@
     "source": "https://pizol.com/en/erlebnisse/nachtschlitteln",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "3,5 km beleuchteter Schlittelweg von der Furt zur Mittelstation Maienberg, von dort mit der Gondel ins Tal."
+    "text": "3,5 km beleuchteter Schlittelweg von der Furt zur Mittelstation Maienberg, von dort mit der Gondel ins Tal.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Furt_-_panoramio.jpg/1280px-Furt_-_panoramio.jpg",
+      "alt": "Schlittler auf der Furt am Pizol vor verschneiten Berghäusern",
+      "credit": "https://commons.wikimedia.org/wiki/File:Furt_-_panoramio.jpg"
+    }
   },
   {
     "id": "elm-abendschlitteln",
@@ -982,7 +1092,12 @@
     "source": "https://sportbahnenelm.ch/de/winter/aktivitaeten/schlitteln-abendschlitteln.html",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "4 km und rund 460 Höhenmeter vom Ämpächli ins Dorf, neue Beleuchtung; dreimal pro Woche."
+    "text": "4 km und rund 460 Höhenmeter vom Ämpächli ins Dorf, neue Beleuchtung; dreimal pro Woche.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/CH.GL.Elm_2024-01-04_munggae-huettae.jpg/1280px-CH.GL.Elm_2024-01-04_munggae-huettae.jpg",
+      "alt": "Tief verschneite Munggä-Hütte bei der Station Ämpächli in Elm",
+      "credit": "https://commons.wikimedia.org/wiki/File:CH.GL.Elm_2024-01-04_munggae-huettae.jpg"
+    }
   },
   {
     "id": "st-cergue-ski-nocturne",
@@ -1024,7 +1139,12 @@
     "source": "https://www.vaud.ch/en/tourism/activites/illuminated-slopes-st-cergue",
     "checked": "2026-11-16",
     "confidence": "mittel",
-    "text": "Jura-Dorflifte direkt beim Bahnhof der Nyon–St-Cergue-Bahn, drei Abende pro Woche beleuchtet."
+    "text": "Jura-Dorflifte direkt beim Bahnhof der Nyon–St-Cergue-Bahn, drei Abende pro Woche beleuchtet.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/The_view_on_St-Cergue.jpg/1280px-The_view_on_St-Cergue.jpg",
+      "alt": "Verschneite Wiese und Tannen in St-Cergue im Waadtländer Jura",
+      "credit": "https://commons.wikimedia.org/wiki/File:The_view_on_St-Cergue.jpg"
+    }
   },
   {
     "id": "schwarzsee-riggisalp",
@@ -1065,7 +1185,12 @@
     "source": "https://fribourg.ch/en/schwarzsee/outdoor-sport/skiing-by-night-from-the-riggisalp/",
     "checked": "2026-11-16",
     "confidence": "mittel",
-    "text": "Vier Kilometer Flutlichtabfahrt von der Riggisalp zum Schwarzsee, zweimal pro Woche."
+    "text": "Vier Kilometer Flutlichtabfahrt von der Riggisalp zum Schwarzsee, zweimal pro Woche.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Kaiseregg_im_Winter.jpg/1280px-Kaiseregg_im_Winter.jpg",
+      "alt": "Verschneite Kaiseregg, vom Restaurant Riggisalp aus gesehen",
+      "credit": "https://commons.wikimedia.org/wiki/File:Kaiseregg_im_Winter.jpg"
+    }
   },
   {
     "id": "melchsee-frutt-nachtschlitteln",
@@ -1104,7 +1229,12 @@
     "source": "https://frutt.ch/entdecken/nachtschlitteln",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Laut Betreiber der längste beleuchtete Schlittelweg der Schweiz: rund 45 Minuten Abfahrt bis zur Stöckalp."
+    "text": "Laut Betreiber der längste beleuchtete Schlittelweg der Schweiz: rund 45 Minuten Abfahrt bis zur Stöckalp.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/00_0463_Melchsee-Frutt_-_Wintersportort.jpg/1280px-00_0463_Melchsee-Frutt_-_Wintersportort.jpg",
+      "alt": "Wintersportort Melchsee-Frutt mit verschneiten Pisten und Liften",
+      "credit": "https://commons.wikimedia.org/wiki/File:00_0463_Melchsee-Frutt_-_Wintersportort.jpg"
+    }
   },
   {
     "id": "engelberg-klostermatte",
@@ -1148,7 +1278,12 @@
     "source": "https://brunni.ch/121/de/nachtskifahren",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Flacher Übungshang am Dorfrand, von den Brunni-Bahnen mit LED-Licht betrieben – ideal für Kinder und Nachtkurse."
+    "text": "Flacher Übungshang am Dorfrand, von den Brunni-Bahnen mit LED-Licht betrieben – ideal für Kinder und Nachtkurse.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Engelberg_Kloster_084.jpg/1280px-Engelberg_Kloster_084.jpg",
+      "alt": "Kloster Engelberg im Winter mit verschneitem Weg und Bergen im Hintergrund",
+      "credit": "https://commons.wikimedia.org/wiki/File:Engelberg_Kloster_084.jpg"
+    }
   },
   {
     "id": "davos-rinerhorn",
@@ -1183,7 +1318,12 @@
     "source": "https://davos.ch/en/activities/snowsports/winter-sports-at-night",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Zweimal pro Woche bis 22:30 Uhr – eines der späteren Nachtangebote in Graubünden, direkt beim Bahnhof Davos Glaris."
+    "text": "Zweimal pro Woche bis 22:30 Uhr – eines der späteren Nachtangebote in Graubünden, direkt beim Bahnhof Davos Glaris.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Alplihorn_and_Rinerhorn_from_Schatzalp.jpg/1280px-Alplihorn_and_Rinerhorn_from_Schatzalp.jpg",
+      "alt": "Verschneites Rinerhorn und Alplihorn bei Davos, von der Schatzalp aus gesehen",
+      "credit": "https://commons.wikimedia.org/wiki/File:Alplihorn_and_Rinerhorn_from_Schatzalp.jpg"
+    }
   },
   {
     "id": "klosters-selfranga",
@@ -1218,7 +1358,12 @@
     "source": "https://davos.ch/en/activities/snowsports/winter-sports-at-night",
     "checked": "2026-11-16",
     "confidence": "mittel",
-    "text": "Kleiner Flutlichthang in Klosters; Dienstag ab 19 Uhr, Freitag ab 19:30 Uhr."
+    "text": "Kleiner Flutlichthang in Klosters; Dienstag ab 19 Uhr, Freitag ab 19:30 Uhr.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Selfrangalift.JPG/1280px-Selfrangalift.JPG",
+      "alt": "Skilift Selfranga in Klosters mit präparierter Piste",
+      "credit": "https://commons.wikimedia.org/wiki/File:Selfrangalift.JPG"
+    }
   },
   {
     "id": "adelboden-chuenis-bi-nacht",
@@ -1257,7 +1402,12 @@
     "source": "https://adelboden-lenk-kandersteg.ch/en/activities/year-round/event/detail/chuenis-by-night",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Abends auf der Weltcuppiste des Chuenisbärgli; Durchführung wird drei Tage vorher entschieden."
+    "text": "Abends auf der Weltcuppiste des Chuenisbärgli; Durchführung wird drei Tage vorher entschieden.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Skiweltcup_Slalom_in_Adelboden.jpg/1280px-Skiweltcup_Slalom_in_Adelboden.jpg",
+      "alt": "Weltcuppiste Chuenisbärgli in Adelboden mit Zielgelände",
+      "credit": "https://commons.wikimedia.org/wiki/File:Skiweltcup_Slalom_in_Adelboden.jpg"
+    }
   },
   {
     "id": "unterbaech-dorflift",
@@ -1297,7 +1447,12 @@
     "source": "https://unterbaech.ch/en/sports-lifts/winter-timetable/",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Früher Abendbetrieb am Kinderlift mitten im Dorf, für 5 Franken – eher für Familien als für lange Nächte."
+    "text": "Früher Abendbetrieb am Kinderlift mitten im Dorf, für 5 Franken – eher für Familien als für lange Nächte.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Unterb%C3%A4ch_Hang.jpg/1280px-Unterb%C3%A4ch_Hang.jpg",
+      "alt": "Unterbäch im Winter, vom verschneiten Hang oberhalb des Dorfs gesehen",
+      "credit": "https://commons.wikimedia.org/wiki/File:Unterb%C3%A4ch_Hang.jpg"
+    }
   },
   {
     "id": "lorient-vallee-de-joux",
@@ -1337,7 +1492,12 @@
     "source": "https://www.vaud.ch/en/tourism/activites/night-skiing-in-lorient",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Jura-Dorflift mit Flutlicht und beleuchtetem Railpark, drei Abende pro Woche bis 22 Uhr."
+    "text": "Jura-Dorflift mit Flutlicht und beleuchtetem Railpark, drei Abende pro Woche bis 22 Uhr.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Paysage_de_Neige_3.jpg/1280px-Paysage_de_Neige_3.jpg",
+      "alt": "Verschneite Landschaft im Vallée de Joux",
+      "credit": "https://commons.wikimedia.org/wiki/File:Paysage_de_Neige_3.jpg"
+    }
   },
   {
     "id": "gstaad-eggli-night-vibes",
@@ -1379,7 +1539,12 @@
     "source": "https://partner.gstaad.ch/en/dc/detail/Event/eggli-night-vibes-ski-fondue-party-1",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Donnerstags Flutlichtpiste, Fondue und Lounge-Party am Eggli; Schlitten sind am Abend nicht erlaubt."
+    "text": "Donnerstags Flutlichtpiste, Fondue und Lounge-Party am Eggli; Schlitten sind am Abend nicht erlaubt.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gstaad_-_panoramio_%2858%29.jpg/1280px-Gstaad_-_panoramio_%2858%29.jpg",
+      "alt": "Blick über das verschneite Saanenland bei Gstaad",
+      "credit": "https://commons.wikimedia.org/wiki/File:Gstaad_-_panoramio_(58).jpg"
+    }
   },
   {
     "id": "sattel-hochstuckli-nachtschlitteln",
@@ -1420,6 +1585,11 @@
     "source": "https://www.sattel-hochstuckli.ch/cms/upload/dokumente/20250919_SH_winterprospekt-2025-26_web.pdf",
     "checked": "2026-11-16",
     "confidence": "hoch",
-    "text": "Samstagabends Schlitteln ins Tal, Aufstieg mit der Drehgondel; der Laternenweg ist am selben Abend offen."
+    "text": "Samstagabends Schlitteln ins Tal, Aufstieg mit der Drehgondel; der Laternenweg ist am selben Abend offen.",
+    "image": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Aegerisee_Winter_Mostelberg.jpg/1280px-Aegerisee_Winter_Mostelberg.jpg",
+      "alt": "Blick vom Mostelberg auf den Ägerisee im Winter",
+      "credit": "https://commons.wikimedia.org/wiki/File:Aegerisee_Winter_Mostelberg.jpg"
+    }
   }
 ]

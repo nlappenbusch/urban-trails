@@ -14,6 +14,8 @@ import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import { ColorBar } from "@/components/SkiFinder";
 import SkiTravel, { type RentShop } from "@/components/SkiTravel";
 import rentData from "@/data/skirent.json";
+import SunPlanner from "@/components/SunPlanner";
+import { aspectShare, bestRuns, sunDay, type SunRun } from "@/lib/sonne-core";
 import PlaceGrid from "@/components/PlaceGrid";
 
 export const dynamic = "force-dynamic";
@@ -67,7 +69,11 @@ function isStale(at?: string) {
 export default async function SkiAreaPage({ params }: Props) {
   const r = await skiRow((await params).id);
   if (!r) notFound();
-  const [detail, weather] = await Promise.all([skiDetail(r).catch(() => null), mountainWeather(r).catch(() => null)]);
+  const [detail, weather, sun] = await Promise.all([
+    skiDetail(r).catch(() => null),
+    mountainWeather(r).catch(() => null),
+    import(`@/data/sonne/${r.id}.json`).then((m) => (m.default as { runs: SunRun[] }).runs).catch(() => [] as SunRun[]),
+  ]);
   const groups = detail ? mergeGroups(detail.groups) : [];
   const liveItems = groups.filter((g) => g.key === "lifts" || g.key === "slopes").flatMap((g) => g.items);
   const openNames = [...new Set(liveItems.filter((i) => i.status === "open").map((i) => bare(i.name)))];
@@ -95,6 +101,14 @@ export default async function SkiAreaPage({ params }: Props) {
       ? `${r.name} ist heute (${today}) offen: ${k.approx ? "rund " : ""}${k.open ?? 0} von ${k.total} km Piste${r.live.lifts ? ` und ${r.live.lifts.open} von ${r.live.lifts.total} Anlagen` : ""} sind in Betrieb.`
       : `${r.name} ist heute (${today}) geschlossen${r.season ? ` – Saison: ${r.season}` : ""}.`;
 
+  // Sonne: für die FAQ-Antwort (GEO) mit dem heutigen Tag gerechnet
+  const sunIso = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Zurich" });
+  const sunToday = sun.length ? sunDay(sun, sunIso, r.coords) : null;
+  const sunAm = sunToday ? bestRuns(sun, sunToday, "09:00", "11:00", 3).map((x) => x.name) : [];
+  const sunPm = sunToday ? bestRuns(sun, sunToday, "13:30", "16:00", 3).map((x) => x.name) : [];
+  const rose = aspectShare(sun);
+  const southShare = Math.round(((rose[3] + rose[4] + rose[5]) / (rose.reduce((a, b) => a + b, 0) || 1)) * 100);
+
   const faq = [
     { q: `Ist ${r.name} heute offen?`, a: statusSentence },
     pisteTotal && { q: `Wie viele Pistenkilometer hat ${r.name}?`, a: `${r.name} hat rund ${pisteTotal} km Pisten${r.pistes?.blue || r.pistes?.red || r.pistes?.black ? ` – ${[r.pistes?.blue && `${Math.round(r.pistes.blue)} km blau`, r.pistes?.red && `${Math.round(r.pistes.red)} km rot`, r.pistes?.black && `${Math.round(r.pistes.black)} km schwarz`].filter(Boolean).join(", ")}` : ""}${r.lifts ? ` und ${r.lifts} Anlagen` : ""}.` },
@@ -102,6 +116,7 @@ export default async function SkiAreaPage({ params }: Props) {
     { q: `Wie komme ich mit dem Zug nach ${r.name}?`, a: `Mit dem ÖV bis ${r.station}.${r.access ? ` ${r.access.replace(/\.?\s*$/, ".")}` : ""} Die genaue Verbindung ab deinem Ort zeigt der Rechner auf dieser Seite.` },
     r.snow && { q: `Wie viel Schnee liegt in ${r.name}?`, a: `An der SLF-Messstation ${r.snow.station} (${r.snow.elevation} m ü. M.) lagen am ${new Date(r.snow.date).toLocaleDateString("de-CH")} ${r.snow.cm} cm Schnee${r.snow.fresh ? `, davon ${r.snow.fresh} cm Neuschnee in 24 Stunden` : ""}.` },
     food && food.total > 0 && { q: `Welche Restaurants und Hütten sind in ${r.name} offen?`, a: food.open ? `Laut Bergbahn haben ${food.open} von ${food.total} offen: ${food.items.filter((i) => i.status === "open").slice(0, 8).map((i) => bare(i.name).replace(/^./, (c) => c.toUpperCase())).join(", ")}.` : `Gerade meldet die Bergbahn keine der ${food.total} Gastronomiebetriebe als offen.` },
+    sunToday && (sunAm.length || sunPm.length) && { q: `Welche Pisten in ${r.name} haben Sonne – morgens und nachmittags?`, a: `${sunAm.length ? `Morgens (9–11 Uhr) liegen vor allem ${sunAm.join(", ")} in der Sonne.` : ""}${sunPm.length ? ` Am Nachmittag (13.30–16 Uhr): ${sunPm.join(", ")}.` : ""} Rund ${southShare} % der Pisten fallen nach Süden ab. Gerechnet aus Hangausrichtung und Sonnenstand am ${new Date().toLocaleDateString("de-CH", { day: "numeric", month: "long", timeZone: "Europe/Zurich" })}.`.trim() },
     parking && parking.items.some((i) => i.status !== "unknown") && { q: `Wo kann ich in ${r.name} parkieren?`, a: `Parkplätze laut Bergbahn: ${parking.items.map((i) => `${i.name} (${i.status === "open" ? "offen" : i.status === "closed" ? "zu" : "ohne Meldung"})`).join(", ")}.` },
   ].filter(Boolean) as { q: string; a: string }[];
 
@@ -225,6 +240,14 @@ export default async function SkiAreaPage({ params }: Props) {
         <section className="card mt-6 p-5 sm:p-6" aria-labelledby="live">
           <h2 id="live" className="kicker mb-4">Live von der Bergbahn: Anlagen, Pisten, Hütten{parking ? ", Parkplätze" : ""}</h2>
           <SkiLiveBoard groups={groups} at={detail?.at} stale={isStale(detail?.at)} />
+        </section>
+      )}
+
+      {sun.length > 0 && (
+        <section className="card mt-6 p-5 sm:p-6" aria-labelledby="sonne">
+          <h2 id="sonne" className="kicker mb-1">Sonne auf der Piste: wann welche Hänge Sonne haben</h2>
+          <p className="mb-5 text-sm text-cream-dim">Morgens Osthänge, mittags Süd, am Nachmittag West – hier für jede Piste in {r.name} gerechnet.</p>
+          <SunPlanner runs={sun} center={r.coords} name={r.name} />
         </section>
       )}
 

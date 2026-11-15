@@ -89,7 +89,7 @@ export const winterthur: Tour = {
       why: "Ein griechischer Tempel für die Demokratie – vom Architekten der Dresdner Oper.",
       story: "Das Stadthaus ist Winterthurs kühnstes Statement: ein monumentaler Bau wie ein griechischer Tempel, entworfen von Gottfried Semper , dem Star-Architekten des 19. Jahrhunderts (Dresdner Semperoper, Wiener Burgtheater, ETH-Hauptgebäude). Das reiche Industrie-Bürgertum leistete sich den Prachtbau 1865–69 als Rathaus und Konzertsaal – Selbstbewusstsein in Sandstein. Bis heute tagt hier das Stadtparlament, und im grossen Saal spielt das Musikkollegium – eines der ältesten Orchester Europas (gegr. 1629).",
       funFact: "Semper lehrte damals an der ETH in Zürich – Winterthur holte sich den berühmtesten Architekten der Epoche.",
-      insiderTip: "Im Fries prangt die Inschrift «Dem Gemeinwohl» – Bürgerstolz statt Fürstenwappen.",
+      insiderTip: "Schau zum Giebel hinauf: Semper setzte dort Figuren ins Dreieck – ein Tempel für die Bürger, nicht für einen Fürsten.",
       audioScript: "Sieht aus wie ein griechischer Tempel, oder? Ist aber ein Rathaus. Und die Geschichte dahinter erzählt viel über diese Stadt. Mitte des neunzehnten Jahrhunderts war Winterthur dank Maschinenindustrie und Handel so reich und selbstbewusst, dass man sich den berühmtesten Architekten der Epoche leistete: Gottfried Semper, den Mann hinter der Dresdner Oper und dem Wiener Burgtheater. Er baute den Winterthurern diesen Tempel – nicht für einen Gott, nicht für einen Fürsten, sondern für die Bürger. Schau hinauf zu den Figuren oben im Giebel. Drinnen tagt bis heute das Stadtparlament, und abends spielt eines der ältesten Orchester Europas. Demokratie mit Säulen – sehr Winterthur.",
     },
     {

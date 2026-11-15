@@ -90,14 +90,14 @@ export const badenAltstadt: Tour = {
       stayMinutes: 10,
       why: "Eines der schönsten Stadttore der Schweiz – und das Selfie-Motiv von Baden.",
       story:
-        "Der Stadtturm von 1445 war Wehrturm, Stadttor, Gefängnis und Uhrenträger in einem. Sein spätgotischer Helm mit den vier Ecktürmchen und die bemalte Fassade machen ihn zum meistfotografierten Bauwerk der Region. Durch sein Tor lief jahrhundertelang der gesamte Verkehr zwischen Zürich und dem Westen – wer nach Baden wollte, kam an diesem Turm nicht vorbei. Wörtlich.",
+        "Der Stadtturm von 1445 war Wehrturm, Stadttor, Gefängnis und Uhrenträger in einem. Sein spätgotischer Helm, die vier Eckerker am obersten Stockwerk und die bemalte Fassade machen ihn zum meistfotografierten Bauwerk der Region. Durch sein Tor lief jahrhundertelang der gesamte Verkehr zwischen Zürich und dem Westen – wer nach Baden wollte, kam an diesem Turm nicht vorbei. Wörtlich.",
       funFact:
         "Im Turm sassen einst Gefangene direkt über dem Tor – sie konnten dem Stadtleben unter sich zuhören, ohne teilzunehmen. Raffinierte mittelalterliche Strafverschärfung.",
       insiderTip:
         "Durch das Tor und sofort umdrehen: Die bemalte Innenseite mit Wappen übersehen die meisten.",
       photoSpot: "Von der Badstrasse frontal auf Turm und Gasse – klassischer geht's nicht.",
       audioScript:
-        "Da steht es, das Postkartenmotiv: der Stadtturm, seit 1445 der Türsteher von Baden. Sechsundfünfzig Meter Sandstein, ein spätgotischer Helm mit vier Ecktürmchen, astronomische Uhr, bemalte Fassade – dieser Turm wollte nie nur nützlich sein, er wollte beeindrucken. Und musste er auch: Durch sein Tor lief der komplette Verkehr zwischen Zürich und dem Westen der Eidgenossenschaft. Jeder Kaufmann, jeder Gesandte, jeder Kurgast – alle mussten hier durch, und alle sollten beim Durchreiten spüren: Baden ist wohlhabend, Baden ist wichtig. Der Turm war übrigens auch Gefängnis, und zwar mit psychologischem Feinschliff: Die Zellen lagen direkt über dem Tor. Die Gefangenen hörten das Markttreiben, das Lachen, die Musik – nur eben von oben, ausgeschlossen. Geh jetzt durchs Tor und dreh dich gleich um: Die bemalte Innenseite verpassen fast alle. Dahinter beginnt die Altstadt – und die ist ein einziges Freilichtmuseum mit Beizen.",
+        "Da steht es, das Postkartenmotiv: der Stadtturm, seit 1445 der Türsteher von Baden. Sechsundfünfzig Meter Sandstein, ein spätgotischer Helm, vier Eckerker ganz oben, astronomische Uhr, bemalte Fassade – dieser Turm wollte nie nur nützlich sein, er wollte beeindrucken. Und musste er auch: Durch sein Tor lief der komplette Verkehr zwischen Zürich und dem Westen der Eidgenossenschaft. Jeder Kaufmann, jeder Gesandte, jeder Kurgast – alle mussten hier durch, und alle sollten beim Durchreiten spüren: Baden ist wohlhabend, Baden ist wichtig. Der Turm war übrigens auch Gefängnis, und zwar mit psychologischem Feinschliff: Die Zellen lagen direkt über dem Tor. Die Gefangenen hörten das Markttreiben, das Lachen, die Musik – nur eben von oben, ausgeschlossen. Geh jetzt durchs Tor und dreh dich gleich um: Die bemalte Innenseite verpassen fast alle. Dahinter beginnt die Altstadt – und die ist ein einziges Freilichtmuseum mit Beizen.",
       nearby: [
         {
           name: "Cafés in der Weiten Gasse",

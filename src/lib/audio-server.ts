@@ -53,8 +53,13 @@ export function isAudioAdmin(req: Request) {
 }
 
 /** Aufnahmen vom Juni 2026 (Dateiname ohne Hash). Gültig, solange der Text
- *  seither unverändert ist – geändert wurde nur dieser eine Stopp. */
-const LEGACY_STALE = new Set(["zuerich-zuerich-klassiker-landesmuseum"]);
+ *  seither unverändert ist – geändert wurden nur diese Stopps. */
+const LEGACY_STALE = new Set([
+  "zuerich-zuerich-klassiker-landesmuseum",
+  "eglisau-eglisau-reformierte-kirche",
+  "winterthur-winterthur-stadthaus-von-gottfried-semper",
+  "baden-baden-altstadt-baden-stadtturm",
+]);
 
 export async function readAudio(tour: Tour, stop: Stop) {
   const id = audioIdentity(tour, stop);

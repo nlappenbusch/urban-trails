@@ -945,3 +945,8 @@ export function getTourHeroImage(tourSlug: string): StopImage | undefined {
 export function getPlaceImage(placeId: string, img?: StopImageSource): StopImage | undefined {
   return local(`p/${placeId}`, img);
 }
+
+/** Fotos der Nachtski-Angebote: Quelle in src/data/nachtski.json, Kopie unter public/img/n/. */
+export function getNightImage(offerId: string, img?: StopImageSource): StopImage | undefined {
+  return local(`n/${offerId}`, img);
+}

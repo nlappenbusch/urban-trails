@@ -28,6 +28,10 @@ for (const f of readdirSync(tripDir).filter((x) => x.endsWith(".json"))) {
     if (p.image?.source?.startsWith("https://upload.wikimedia.org/")) entries.push({ key: `p/${p.id}`, url: p.image.source });
   }
 }
+// n/ = Nachtski-Angebote (src/data/nachtski.json → image.source)
+for (const o of JSON.parse(readFileSync(join(root, "src/data/nachtski.json"), "utf8"))) {
+  if (o.image?.source?.startsWith("https://upload.wikimedia.org/")) entries.push({ key: `n/${o.id}`, url: o.image.source });
+}
 console.log(`${entries.length} Bilder in images.ts`);
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

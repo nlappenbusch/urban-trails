@@ -6,6 +6,7 @@ import { categories } from "@/lib/categories";
 import { allRegions, trips } from "@/lib/ausfluege";
 import { regionPlaces, themaPages } from "@/lib/themen";
 import { skiAreas } from "@/lib/ski";
+import { offers as nightOffers } from "@/lib/nachtski";
 import { riverTemps } from "@/lib/wasser";
 import { LAKES, lakeSlug } from "@/lib/wasser-core";
 
@@ -38,6 +39,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/nachtskifahren`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/ausfluege/ki`, changeFrequency: "monthly", priority: 0.8 },
     ...skiAreas.map((a) => ({ url: `${SITE_URL}/skigebiete/${a.id}`, changeFrequency: "daily" as const, priority: 0.7 })),
+    ...nightOffers.map((o) => ({ url: `${SITE_URL}/nachtskifahren/${o.id}`, changeFrequency: "daily" as const, priority: 0.7 })),
     ...trips.map((t) => ({ url: `${SITE_URL}/ausfluege/${t.slug}`, changeFrequency: "monthly" as const, priority: 0.8 })),
     { url: `${SITE_URL}/ausflugsziele`, changeFrequency: "weekly", priority: 0.9 },
     ...allRegions()

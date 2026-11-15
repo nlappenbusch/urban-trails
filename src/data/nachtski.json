@@ -53,6 +53,7 @@
       "lng": 9.5521
     },
     "station": "Proschieri, Vaz/Obervaz",
+    "oev": "Parpan, Post",
     "piste": "Skilift Proschieri und Sesselbahn Stätzertäli, 3,5 km beleuchtet",
     "km": 3.5,
     "weekdays": [
@@ -1270,6 +1271,7 @@
       "lng": 7.7999
     },
     "station": "Unterbäch VS",
+    "oev": "Unterbäch (Bergstation)",
     "piste": "Beleuchteter Übungslift im Dorf",
     "km": null,
     "weekdays": [

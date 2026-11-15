@@ -76,7 +76,7 @@ export default function NightCalendar({ offers, today }: { offers: NightOffer[];
           <ul className="mt-3 flex flex-wrap gap-2">
             {tonight.map(({ o, travel }) => (
               <li key={o.id}>
-                <a href={`#${o.id}`} className="inline-flex min-h-[40px] items-center gap-2 rounded-full bg-ink-800 px-3.5 text-sm font-semibold text-cream hover:bg-ink-700">
+                <a href={`/nachtskifahren/${o.id}`} className="inline-flex min-h-[40px] items-center gap-2 rounded-full bg-ink-800 px-3.5 text-sm font-semibold text-cream hover:bg-ink-700">
                   {o.name.replace(/^Nacht(ski|schlitteln)\w* /i, "")} <span className="text-cream-faint">{timeText(o)}{travel ? ` · ${fmtMin(travel)}` : ""}</span>
                 </a>
               </li>
@@ -126,7 +126,7 @@ export default function NightCalendar({ offers, today }: { offers: NightOffer[];
                       const ev = eventOn(o, d);
                       return (
                         <li key={o.id}>
-                          <a href={`#${o.id}`} title={st === "voraussichtlich" ? "Wochentag belegt, Saisondaten noch nicht publiziert" : undefined} className={`block rounded-lg px-2 py-1.5 text-xs leading-tight transition hover:bg-ink-800 ${st === "fix" ? "bg-ink-800/70" : "border border-dashed border-cream/20"} ${ev ? "ring-1 ring-signal-500/50" : ""}`}>
+                          <a href={`/nachtskifahren/${o.id}`} title={st === "voraussichtlich" ? "Wochentag belegt, Saisondaten noch nicht publiziert" : undefined} className={`block rounded-lg px-2 py-1.5 text-xs leading-tight transition hover:bg-ink-800 ${st === "fix" ? "bg-ink-800/70" : "border border-dashed border-cream/20"} ${ev ? "ring-1 ring-signal-500/50" : ""}`}>
                             <span className="block font-semibold text-cream">{o.place}</span>
                             <span className="block text-cream-faint">{timeText(o)}{o.type === "schlitteln" ? " · Schlitteln" : ""}</span>
                             {ev && <span className="mt-0.5 block font-semibold text-signal-600">{ev}</span>}
@@ -158,7 +158,7 @@ export default function NightCalendar({ offers, today }: { offers: NightOffer[];
               {list.map(({ o, travel }) => (
                 <tr key={o.id} className="border-t border-cream/10">
                   <th scope="row" className="py-2 pr-3 text-left font-normal">
-                    <a href={`#${o.id}`} className="font-semibold text-cream hover:underline">{o.place}</a>
+                    <a href={`/nachtskifahren/${o.id}`} className="font-semibold text-cream hover:underline">{o.place}</a>
                     <span className="block text-xs text-cream-faint">{o.canton}{o.type === "schlitteln" ? " · Schlitteln" : ""}{travel ? ` · ${fmtMin(travel)}` : ""}</span>
                   </th>
                   {[1, 2, 3, 4, 5, 6, 0].map((w) => (
@@ -182,7 +182,7 @@ export default function NightCalendar({ offers, today }: { offers: NightOffer[];
                 <li key={`${x.o.id}-${x.date}`} className="card flex flex-wrap items-baseline gap-x-4 gap-y-1 p-4">
                   <span className="w-44 shrink-0 font-display font-extrabold text-cream">{long(x.date)}</span>
                   <span className="min-w-0 flex-1">
-                    <a href={`#${x.o.id}`} className="font-semibold text-cream hover:underline">{x.title}</a>
+                    <a href={`/nachtskifahren/${x.o.id}`} className="font-semibold text-cream hover:underline">{x.title}</a>
                     <span className="block text-sm text-cream-dim">{x.o.name} · {x.o.place} · {timeText(x.o)}</span>
                   </span>
                 </li>
@@ -204,7 +204,7 @@ export default function NightCalendar({ offers, today }: { offers: NightOffer[];
                 <span>· {o.place}, {o.canton}</span>
                 {travel !== undefined && <span className="inline-flex items-center gap-1">· <TrainFront size={12} aria-hidden /> ca. {fmtMin(travel)} ({Math.round(d!)} km)</span>}
               </p>
-              <h3 className="mt-1 font-display text-xl font-extrabold leading-tight tracking-tight text-cream">{o.name}</h3>
+              <h3 className="mt-1 font-display text-xl font-extrabold leading-tight tracking-tight text-cream"><Link href={`/nachtskifahren/${o.id}`} className="decoration-2 underline-offset-4 hover:underline">{o.name}</Link></h3>
               <p className="mt-2 flex flex-wrap items-center gap-1.5">
                 {[1, 2, 3, 4, 5, 6, 0].map((w) => (
                   <span key={w} className={`grid h-8 w-8 place-items-center rounded-full text-xs font-bold ${o.weekdays.includes(w) ? "bg-signal-500 text-white" : "bg-ink-800 text-cream-faint"}`}>{WD[w]}</span>
@@ -225,6 +225,7 @@ export default function NightCalendar({ offers, today }: { offers: NightOffer[];
                   </p>
                 ) : <span />}
                 <p className="flex flex-wrap gap-x-3 gap-y-1 text-sm font-semibold">
+                  <Link href={`/nachtskifahren/${o.id}`} className="text-signal-600 hover:text-signal-500">Pistenplan, Wetter & Heimweg</Link>
                   {o.skiAreaId && <Link href={`/skigebiete/${o.skiAreaId}`} className="text-signal-600 hover:text-signal-500">Pisten & Wetter</Link>}
                   {start?.name && <a href={`https://www.sbb.ch/de?von=${encodeURIComponent(start.name)}&nach=${encodeURIComponent(o.station)}&zeit=${o.from}`} target="_blank" rel="noopener" className="text-signal-600 hover:text-signal-500">Fahrplan</a>}
                   <a href={o.url} target="_blank" rel="noopener" className="inline-flex items-center gap-1 text-cream-dim hover:text-cream"><ExternalLink size={14} aria-hidden /> Bergbahn</a>

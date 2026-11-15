@@ -41,7 +41,7 @@ export default function NachtskiPage() {
           "@type": "Event",
           name: o.name,
           description: o.text,
-          url: `${SITE_URL}/nachtskifahren#${o.id}`,
+          url: `${SITE_URL}/nachtskifahren/${o.id}`,
           eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
           eventStatus: "https://schema.org/EventScheduled",
           ...(o.season.from ? { startDate: `${o.season.from}T${o.from}` } : o.events[0] ? { startDate: `${o.events[0].date}T${o.from}` } : {}),

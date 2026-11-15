@@ -61,5 +61,5 @@ export const planTours = (): PlanTour[] => tours.map((t) => ({ slug: t.slug, nam
 
 export const plannerRegions = () =>
   [...new Set(places.map((p) => p.region))]
-    .map((slug) => ({ slug, name: regionName(slug), station: regionInfo(slug)?.station ?? regionName(slug), hotels: places.some((p) => p.region === slug && p.kind === "hotel") }))
+    .map((slug) => ({ slug, name: regionName(slug), station: regionInfo(slug)?.station ?? regionName(slug), center: regionInfo(slug)?.center, hotels: places.some((p) => p.region === slug && p.kind === "hotel") }))
     .sort((a, b) => a.name.localeCompare(b.name, "de"));

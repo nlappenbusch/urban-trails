@@ -3,20 +3,21 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { Link2, Shuffle } from "lucide-react";
+import { Link2, Shuffle, Sparkles } from "lucide-react";
 import { AUDIENCE, MOODS, daysLabel, tripBudget, type Place } from "@/lib/ausfluege-core";
 import { composePlan, type PlanInput, type PlanTour } from "@/lib/compose";
 import TripTimeline, { type TimelineTour } from "@/components/TripTimeline";
 import TripMap from "@/components/TripMap";
 import TripBudget from "@/components/TripBudget";
 import TripPlanPanel from "@/components/TripPlanPanel";
+import PlannerInspiration from "@/components/PlannerInspiration";
 
 const chip = (on: boolean) =>
   `min-h-[40px] rounded-full border px-4 py-1.5 text-sm font-semibold transition ${on ? "border-signal-500 bg-signal-500 text-white" : "border-cream/20 bg-ink-900 text-cream-dim hover:border-cream/40"}`;
 const BUDGET = ["", "Günstig", "Mittel", "Gehoben", "Egal"];
 
 export default function Planner({ regions, places, tours }: {
-  regions: { slug: string; name: string; station: string; hotels: boolean }[];
+  regions: { slug: string; name: string; station: string; hotels: boolean; center?: { lat: number; lng: number } }[];
   places: Place[];
   tours: PlanTour[];
 }) {
@@ -85,6 +86,9 @@ export default function Planner({ regions, places, tours }: {
     <div className="grid gap-10 lg:grid-cols-[320px_1fr]">
       <div className="space-y-6 lg:sticky lg:top-24 lg:h-fit">
         <Group label="Wohin?">
+          <button type="button" aria-pressed={!input.region} onClick={() => set({ region: null })} className={chip(!input.region)}>
+            <span className="inline-flex items-center gap-1.5"><Sparkles size={14} aria-hidden /> Inspirier mich</span>
+          </button>
           {regions.map((r) => (
             <button key={r.slug} type="button" aria-pressed={input.region === r.slug} onClick={() => set({ region: r.slug })} className={chip(input.region === r.slug)}>{r.name}</button>
           ))}
@@ -120,10 +124,7 @@ export default function Planner({ regions, places, tours }: {
 
       <div className="min-w-0">
         {!plan || !region ? (
-          <div className="card p-6 sm:p-8">
-            <p className="font-display text-2xl font-extrabold tracking-tight text-cream">Wähl links ein Ziel.</p>
-            <p className="mt-2 text-cream-dim">Der Rest ist schon voreingestellt – du siehst dein Programm sofort und kannst es mit jedem Klick umbauen.</p>
-          </div>
+          <PlannerInspiration regions={regions} places={places} input={{ ...input, days: input.days }} onPick={(slug) => set({ region: slug })} />
         ) : (
           <div>
             <div className="flex flex-wrap items-end justify-between gap-3">

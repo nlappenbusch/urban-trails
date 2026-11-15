@@ -1,0 +1,2475 @@
+{
+  "regions": [
+    {
+      "slug": "locarno",
+      "name": "Locarno, Ascona & Täler",
+      "station": "Locarno",
+      "center": {
+        "lat": 46.17,
+        "lng": 8.795
+      }
+    },
+    {
+      "slug": "bellinzona",
+      "name": "Bellinzona",
+      "station": "Bellinzona",
+      "center": {
+        "lat": 46.1925,
+        "lng": 9.0235
+      }
+    }
+  ],
+  "places": [
+    {
+      "checked": "2026-11-15",
+      "id": "lo-jugendherberge-locarno",
+      "kind": "hotel",
+      "name": "Jugendherberge Locarno «Palagiovani»",
+      "region": "locarno",
+      "town": "Locarno",
+      "address": "Via B. Varenna 18, 6600 Locarno",
+      "coords": {
+        "lat": 46.16793,
+        "lng": 8.78801
+      },
+      "url": "https://www.youthhostel.ch/de/hostels/locarno/",
+      "price": 1,
+      "tags": [
+        "familie",
+        "freunde",
+        "aktiv"
+      ],
+      "weatherProof": true,
+      "season": "Saisonbetrieb, Winterpause bis Anfang März",
+      "text": "Grosse Jugendherberge in einer Villa am Rand der Altstadt, mit knapp 200 Betten, Garten, Spielplatz drinnen und draussen und Veloraum. Einige Zimmer haben eine eigene Terrasse, und in die Piazza Grande gehst du zu Fuss.",
+      "tip": "Frag beim Buchen nach einem Zimmer mit Terrasse, und lass dir beim Check-in das Ticino Ticket geben: Damit fährst du im ganzen Kanton gratis Bus und Bahn.",
+      "source": "https://www.youthhostel.ch/en/hostels/locarno-youth-hostel"
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-hotel-belvedere",
+      "kind": "hotel",
+      "name": "Hotel Belvedere Locarno",
+      "region": "locarno",
+      "town": "Locarno",
+      "address": "Via ai Monti della Trinità 44, 6600 Locarno",
+      "coords": {
+        "lat": 46.17299,
+        "lng": 8.79559
+      },
+      "url": "https://www.belvedere-locarno.com/",
+      "price": 3,
+      "tags": [
+        "aussicht",
+        "see",
+        "wellness",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Viersternhaus am Hang direkt über der Altstadt, mit Blick über den Lago Maggiore, Spa, Restaurant La Fontana und einem eigenen Grotto. Bis zur Piazza Grande sind es nur ein paar Minuten zu Fuss bergab.",
+      "tip": "Nimm ein Zimmer auf der Seeseite – genau dafür bezahlst du hier den Aufpreis gegenüber einem Hotel unten in der Stadt.",
+      "source": "https://www.belvedere-locarno.com/"
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-hotel-eden-roc",
+      "kind": "hotel",
+      "name": "Hotel Eden Roc Ascona",
+      "region": "locarno",
+      "town": "Ascona",
+      "address": "Via Albarelle 16, 6612 Ascona",
+      "coords": {
+        "lat": 46.15067,
+        "lng": 8.7729
+      },
+      "url": "https://tschuggencollection.ch/de/hotel/hotel-eden-roc",
+      "price": 4,
+      "tags": [
+        "romantisch",
+        "see",
+        "wellness",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "Ende März bis Ende Oktober; im Winter ist nur das kleine Schwesterhaus Eden Roc Marina offen",
+      "text": "Luxushotel direkt am Seeufer von Ascona mit Spa, Wassersport und mehreren Restaurants, darunter das mit zwei Michelin-Sternen ausgezeichnete La Brezza. Wer sich ein Wochenende lang verwöhnen lassen will, ist hier richtig – zur Piazza von Ascona spazierst du in wenigen Minuten.",
+      "tip": "Wenn du im Winter kommst: Dann ist nur das Eden Roc Marina mit 16 Zimmern geöffnet, das Haupthaus macht Pause.",
+      "source": "https://tschuggencollection.ch/de/hotel/hotel-eden-roc",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Hotel_Eden_Roc_-_panoramio.jpg",
+        "alt": "Hotel Eden Roc am Seeufer von Ascona",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_Eden_Roc_-_panoramio.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "bz-hotel-internazionale",
+      "kind": "hotel",
+      "name": "Hotel & SPA Internazionale",
+      "region": "bellinzona",
+      "town": "Bellinzona",
+      "address": "Viale Stazione 35, 6500 Bellinzona",
+      "coords": {
+        "lat": 46.19522,
+        "lng": 9.02825
+      },
+      "url": "https://www.hotel-internazionale.ch/",
+      "price": 2,
+      "tags": [
+        "wellness",
+        "kultur",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Stadthotel genau gegenüber dem Bahnhof Bellinzona, mit kleinem Spa und Restaurant mit Terrasse. Vom Zimmer auf der Ostseite schaust du direkt auf die Burgen, in die Altstadt sind es nur ein paar Schritte.",
+      "tip": "Wünsch dir beim Buchen ein Zimmer auf der Ostseite, dann hast du abends die beleuchteten Burgen im Fenster.",
+      "source": "https://www.hotel-internazionale.ch/",
+      "priceInfo": {
+        "from": 170,
+        "unit": "Doppelzimmer pro Nacht",
+        "note": "ab-Preis Queen-Doppelzimmer laut Hotelwebsite; Standard-Doppelzimmer ab CHF 240"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-ristorante-cittadella",
+      "kind": "restaurant",
+      "name": "Ristorante Cittadella",
+      "region": "locarno",
+      "town": "Locarno",
+      "address": "Via Cittadella 18, 6600 Locarno",
+      "coords": {
+        "lat": 46.16969,
+        "lng": 8.79358
+      },
+      "url": "https://www.cittadella.ch/",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Terrasse ca. Mitte Mai bis Mitte September",
+      "hours": "Mo Ruhetag; Di–So 8–14 und 18.30–23.45 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "23:45"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "08:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "23:45"
+            ]
+          ],
+          "3": [
+            [
+              "08:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "23:45"
+            ]
+          ],
+          "4": [
+            [
+              "08:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "23:45"
+            ]
+          ],
+          "5": [
+            [
+              "08:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "23:45"
+            ]
+          ],
+          "6": [
+            [
+              "08:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "23:45"
+            ]
+          ]
+        }
+      },
+      "text": "Restaurant in einer Altstadtgasse ein paar Schritte oberhalb der Piazza Grande, bekannt für Fisch und Meeresfrüchte, dazu Pizza aus dem Ofen. Die Weinkarte ist mit rund 300 Positionen deutlich länger, als man es hier erwarten würde.",
+      "tip": "Mittags reicht eine Pizza, am Abend lohnt sich der Fisch – und im Sommer ein Tisch auf der Terrasse.",
+      "source": "https://www.cittadella.ch/"
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-osteria-nostrana",
+      "kind": "restaurant",
+      "name": "Osteria Nostrana",
+      "region": "locarno",
+      "town": "Ascona",
+      "address": "Piazza G. Motta, 6612 Ascona",
+      "coords": {
+        "lat": 46.15337,
+        "lng": 8.77011
+      },
+      "url": "https://www.ristoranti-ff.ch/it/osteria-nostrana-ascona",
+      "price": 2,
+      "tags": [
+        "see",
+        "genuss",
+        "familie",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 9–23.45 Uhr, Küche 12–23 Uhr (nachmittags kleinere Karte)",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "23:45"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "23:45"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "23:45"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "23:45"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "23:45"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "23:45"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "23:45"
+            ]
+          ]
+        }
+      },
+      "text": "Traditionslokal direkt an der Seepromenade von Ascona, innen vollgehängt mit alten Bildern und Fundstücken, draussen eine Terrasse mit Blick aufs Wasser. Es gibt Pizza, Pasta und Tessiner Klassiker wie Ossobuco mit Safranrisotto.",
+      "tip": "An schönen Abenden ist die Terrasse schnell voll – wer nur auf eine Pizza vorbeikommt, hat am frühen Nachmittag die besten Chancen.",
+      "source": "https://www.ristoranti-ff.ch/it/osteria-nostrana-ascona",
+      "priceInfo": {
+        "from": 17,
+        "to": 58,
+        "unit": "Hauptgang",
+        "note": "Pizza 17–29.80, Pasta/Risotto 14–34, Fleisch und Fisch 39.80–58 (Karte Herbst 2026)"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-osteria-vittoria",
+      "kind": "restaurant",
+      "name": "Osteria Vittoria",
+      "region": "locarno",
+      "town": "Lavertezzo",
+      "address": "Lavertezzo Paese, 6633 Lavertezzo",
+      "coords": {
+        "lat": 46.25772,
+        "lng": 8.84026
+      },
+      "url": "https://www.osteriavittoria.ch/",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, im Winter vorher anfragen",
+      "text": "Gasthaus mit Restaurant und einigen Zimmern im Dorfkern von Lavertezzo, nur wenige Schritte vom Ponte dei Salti. Ideal für ein einfaches Mittagessen mit Tessiner und italienischen Gerichten, bevor du weiter am Fluss entlang spazierst.",
+      "tip": "Die eigene Website wird gerade umgebaut – ruf vorher an (091 746 11 11), ob die Küche an deinem Tag offen ist.",
+      "source": "https://www.osteriavittoria.ch/"
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-grotto-america",
+      "kind": "restaurant",
+      "name": "Grotto America",
+      "region": "locarno",
+      "town": "Ponte Brolla",
+      "address": "Via ai Grotti 71, 6652 Ponte Brolla (Tegna)",
+      "coords": {
+        "lat": 46.18925,
+        "lng": 8.75481
+      },
+      "url": "https://www.grottoamerica.ch/",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "romantisch",
+        "freunde"
+      ],
+      "weatherProof": false,
+      "season": "April–Oktober",
+      "hours": "Mo Ruhetag; Di–So 12–24 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "text": "Altes Grotto im Grünen direkt über der Maggia in Ponte Brolla, mit grosser Terrasse und Blick auf den Fluss. Den Namen hat es von einer Auswandererfamilie, die aus Amerika zurückkam; serviert wird Tessiner Küche aus regionalen Produkten.",
+      "tip": "Bei kühlem Wetter sitzt du im Saal mit Cheminée – und im alten Keller lagern Salami und Alpkäse, die du als Vorspeise bestellen solltest.",
+      "source": "https://www.ascona-locarno.com/en/restaurants/details/Grotto-America/76347"
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-grotto-valmaggese",
+      "kind": "restaurant",
+      "name": "Grotto Valmaggese",
+      "region": "locarno",
+      "town": "Avegno",
+      "address": "Via Vallemaggia 72, 6670 Avegno",
+      "coords": {
+        "lat": 46.2137,
+        "lng": 8.74566
+      },
+      "url": "https://www.grottovalmaggese.ch/",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig, mit Betriebsferien (z. B. Anfang/Mitte November)",
+      "hours": "Mo/Di Ruhetag; Mi–Sa 11.30–22.30, So 11.30–15 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "15:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "11:30",
+              "22:30"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "22:30"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "22:30"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "22:30"
+            ]
+          ]
+        }
+      },
+      "text": "Grotto auf den Felsen von Avegno am Eingang des Maggiatals, mit Garten zwischen Blumen und Palmen und Skulpturen eines Künstlers aus dem Tal. Die Küche ist etwas feiner als im klassischen Grotto: hausgemachte Pasta, Brasato mit Polenta, im Herbst Wild.",
+      "tip": "Reservieren geht nur per Telefon (091 796 23 08) – am Wochenende unbedingt machen.",
+      "source": "https://guide.michelin.com/ch/it/ticino/avegno/ristorante/grotto-valmaggese",
+      "priceInfo": {
+        "from": 42,
+        "to": 56,
+        "unit": "Hauptgang",
+        "note": "Herbstkarte 2026: Brasato mit Polenta 42, Hirsch 48–49, Rindsfilet 56; Pasta 22–31"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-grotto-broggini",
+      "kind": "restaurant",
+      "name": "Grotto Broggini",
+      "region": "locarno",
+      "town": "Losone",
+      "address": "Via San Materno 18, 6616 Losone",
+      "coords": {
+        "lat": 46.16251,
+        "lng": 8.7647
+      },
+      "url": "https://www.grotto-broggini.ch/",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Winter: Mo/Di Ruhetag, Mi–So Küche 11.30–14 und 18–21.30 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "21:30"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "21:30"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "21:30"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "21:30"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "21:30"
+            ]
+          ]
+        }
+      },
+      "text": "Grosses Grotto in Losone mit Garten unter alten Bäumen, Spielplatz und rustikalen Stuben – hier essen Einheimische und Feriengäste nebeneinander. Berühmt sind das Güggeli vom Holzfeuer-Spiess und das Steinpilzrisotto.",
+      "tip": "Bestell das halbe Güggeli mit Steinpilzrisotto, dann hast du beide Hausklassiker auf einem Teller.",
+      "source": "https://www.ristoranti-ff.ch/de/grotto-broggini-losone",
+      "priceInfo": {
+        "from": 23.8,
+        "to": 58,
+        "unit": "Hauptgang",
+        "note": "halbes Güggeli 23.80 (mit Beilage 31.80, mit Steinpilzrisotto 37.80); Pasta 14–26"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-villa-emden",
+      "kind": "restaurant",
+      "name": "Ristorante Villa Emden (Isole di Brissago)",
+      "region": "locarno",
+      "town": "Brissago",
+      "address": "Isola di San Pancrazio, 6614 Brissago",
+      "coords": {
+        "lat": 46.13206,
+        "lng": 8.73518
+      },
+      "url": "https://www.isoledibrissago.ti.ch/it/visitare/hotel-ristorante",
+      "price": 2,
+      "tags": [
+        "see",
+        "romantisch",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "nur während der Inselsaison (ca. Mitte März bis Anfang November)",
+      "hours": "in der Saison täglich 9.30–17.45 Uhr; abends nur mit Reservation",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:30",
+              "17:45"
+            ]
+          ],
+          "1": [
+            [
+              "09:30",
+              "17:45"
+            ]
+          ],
+          "2": [
+            [
+              "09:30",
+              "17:45"
+            ]
+          ],
+          "3": [
+            [
+              "09:30",
+              "17:45"
+            ]
+          ],
+          "4": [
+            [
+              "09:30",
+              "17:45"
+            ]
+          ],
+          "5": [
+            [
+              "09:30",
+              "17:45"
+            ]
+          ],
+          "6": [
+            [
+              "09:30",
+              "17:45"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "text": "Das Restaurant in der Villa auf der grossen Brissago-Insel ist der einzige Ort, an dem du dort essen kannst. Nach dem Rundgang durch den botanischen Park sitzt du hier mitten im Grünen mit Blick auf den See.",
+      "tip": "Wer abends auf der Insel essen will, muss reservieren – dann bist du nach dem letzten Schiff fast allein im Park.",
+      "source": "https://www.isoledibrissago.ti.ch/it/visitare/hotel-ristorante"
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-piazza-grande",
+      "kind": "sehenswuerdigkeit",
+      "name": "Piazza Grande und Altstadt",
+      "region": "locarno",
+      "town": "Locarno",
+      "address": "Piazza Grande, 6600 Locarno",
+      "coords": {
+        "lat": 46.16922,
+        "lng": 8.79497
+      },
+      "url": null,
+      "price": 1,
+      "tags": [
+        "kultur",
+        "gratis",
+        "familie",
+        "freunde"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 60,
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "text": "Der lange, mit Flusskieseln gepflasterte Platz unter Arkaden ist das Wohnzimmer von Locarno – im August läuft hier das Filmfestival unter freiem Himmel. Hinter den Arkaden steigen schmale Gassen zur Altstadt mit Casa Rusca und Castello Visconteo hinauf.",
+      "tip": "Setz dich unter die Arkaden auf der Nordseite: Dort hast du Schatten und den ganzen Platz im Blick.",
+      "source": "https://www.ascona-locarno.com/en/What-s-on/inspirations/piazza-grande-locarno",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Piazza_Grande%2C_Locarno.jpg/1280px-Piazza_Grande%2C_Locarno.jpg",
+        "alt": "Piazza Grande in Locarno mit Arkaden und Pflaster",
+        "credit": "https://commons.wikimedia.org/wiki/File:Piazza_Grande,_Locarno.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-madonna-del-sasso",
+      "kind": "sehenswuerdigkeit",
+      "name": "Madonna del Sasso mit Standseilbahn",
+      "region": "locarno",
+      "town": "Orselina",
+      "address": "Via Santuario 2, 6644 Orselina",
+      "coords": {
+        "lat": 46.17519,
+        "lng": 8.79397
+      },
+      "url": "https://www.funicolarelocarno.ch/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "aussicht",
+        "regenfest",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Standseilbahn im November ca. drei Wochen in Revision",
+      "hours": "Kirche täglich 7–18.30 Uhr; Bahn im Sommer alle 15, im Winter alle 30 Minuten",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "1": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "2": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ]
+        }
+      },
+      "durationMin": 60,
+      "text": "Die Wallfahrtskirche klebt auf einem Felsen hoch über Locarno; drinnen hängen Werke von Bramantino und Antonio Ciseri. Von Locarno fährt die Standseilbahn in wenigen Minuten hinauf, du kannst aber auch über den Kreuzweg zu Fuss gehen.",
+      "tip": "Fahr bis Orselina hinauf und geh die paar Minuten zur Kirche hinunter – so kommst du gleich an der Seilbahn nach Cardada vorbei.",
+      "source": "https://www.funicolarelocarno.ch/orari-e-tariffe",
+      "priceInfo": {
+        "from": 8,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Locarno–Orselina; einfach CHF 5.40, Kinder 6–16 CHF 4 retour; Kirche gratis; Halbtax-Tarif auf der Website nicht angegeben"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Santuario_della_Madonna_del_Sasso_Orselina_%28Locarno%29_-_Svizzera.jpg/1280px-Santuario_della_Madonna_del_Sasso_Orselina_%28Locarno%29_-_Svizzera.jpg",
+        "alt": "Wallfahrtskirche Madonna del Sasso auf dem Felsen über Locarno",
+        "credit": "https://commons.wikimedia.org/wiki/File:Santuario_della_Madonna_del_Sasso_Orselina_(Locarno)_-_Svizzera.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-cardada-cimetta",
+      "kind": "aussicht",
+      "name": "Cardada und Cimetta (Seilbahn und Sessellift)",
+      "region": "locarno",
+      "town": "Orselina",
+      "address": "Talstation Funivia Orselina–Cardada, 6644 Orselina",
+      "coords": {
+        "lat": 46.17576,
+        "lng": 8.79212
+      },
+      "url": "https://www.cardada.ch/",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig ausser Revisionspause ca. Mitte November bis Mitte Dezember",
+      "hours": "Seilbahn alle 30 Min., ca. 8.45–18.15 Uhr (Sa/So ab 8.15); Sessellift zur Cimetta mit Mittagspause",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:15",
+              "19:15"
+            ]
+          ],
+          "1": [
+            [
+              "08:45",
+              "18:15"
+            ]
+          ],
+          "2": [
+            [
+              "08:45",
+              "18:15"
+            ]
+          ],
+          "3": [
+            [
+              "08:45",
+              "18:15"
+            ]
+          ],
+          "4": [
+            [
+              "08:45",
+              "18:15"
+            ]
+          ],
+          "5": [
+            [
+              "08:45",
+              "18:15"
+            ]
+          ],
+          "6": [
+            [
+              "08:15",
+              "19:15"
+            ]
+          ]
+        }
+      },
+      "durationMin": 180,
+      "text": "Die Seilbahn bringt dich von Orselina auf Cardada, wo ein Panoramasteg über den Hang hinausragt und du auf das Maggiadelta und Ascona hinunterschaust. Mit dem Sessellift geht es weiter auf die Cimetta, von wo du bei klarer Sicht vom höchsten zum tiefsten Punkt der Schweiz siehst.",
+      "tip": "Der Sessellift zur Cimetta macht über Mittag Pause und fährt am Nachmittag nur bis etwa 16.45 Uhr – plan den Gipfel deshalb nicht zu spät ein.",
+      "source": "https://www.cardada.ch/en/timetable-fares/timetable",
+      "priceInfo": {
+        "from": 39,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Orselina–Cardada–Cimetta; nur Cardada CHF 32; mit Halbtax/GA CHF 31 bzw. 25.50; Kinder 6–15 CHF 19.50; Tarif bis 8.11.2026"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Ascona_and_Lago_Maggiore_from_Cardada%2C_Locarno%2C_Ticino.jpg/1280px-Ascona_and_Lago_Maggiore_from_Cardada%2C_Locarno%2C_Ticino.jpg",
+        "alt": "Blick vom Panoramasteg auf Cardada auf Ascona und den Lago Maggiore",
+        "credit": "https://commons.wikimedia.org/wiki/File:Ascona_and_Lago_Maggiore_from_Cardada,_Locarno,_Ticino.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-ponte-dei-salti",
+      "kind": "sehenswuerdigkeit",
+      "name": "Ponte dei Salti, Lavertezzo",
+      "region": "locarno",
+      "town": "Lavertezzo",
+      "address": "6633 Lavertezzo",
+      "coords": {
+        "lat": 46.26012,
+        "lng": 8.83617
+      },
+      "url": "https://www.ticino.ch/en/commons/details/Ponte-dei-salti/2707.html",
+      "price": 1,
+      "tags": [
+        "gratis",
+        "aktiv",
+        "romantisch",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; zum Baden Juli–August",
+      "durationMin": 120,
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "text": "Die doppelte Steinbogenbrücke über die smaragdgrüne Verzasca ist das bekannteste Fotomotiv des Tals; sie stammt aus dem Mittelalter, wurde 1868 vom Hochwasser teilweise zerstört und 1960 wieder aufgebaut. Darunter liegen glatt geschliffene Felsen und tiefe Becken, an denen du im Sommer den ganzen Nachmittag verbringen kannst.",
+      "tip": "Das Wasser ist auch im August kalt und die Strömung tückisch – spring nur dort, wo du Einheimische springen siehst, und nie nach Regen.",
+      "source": "https://www.ticino.ch/en/commons/details/Ponte-dei-salti/2707.html",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Ponte_dei_Salti_Lavertezzo_%28TI%29.jpg/1280px-Ponte_dei_Salti_Lavertezzo_%28TI%29.jpg",
+        "alt": "Doppelbogenbrücke Ponte dei Salti über die Verzasca in Lavertezzo",
+        "credit": "https://commons.wikimedia.org/wiki/File:Ponte_dei_Salti_Lavertezzo_(TI).jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-diga-verzasca",
+      "kind": "aussicht",
+      "name": "Verzasca-Staumauer (Diga di Contra)",
+      "region": "locarno",
+      "town": "Tenero-Contra",
+      "address": "Diga Verzasca, 6646 Contra",
+      "coords": {
+        "lat": 46.19625,
+        "lng": 8.84701
+      },
+      "url": null,
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "gratis",
+        "aktiv",
+        "freunde"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; Bungy-Sprünge ca. Ostern bis Ende Oktober",
+      "durationMin": 45,
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "text": "Die 220 Meter hohe Staumauer am Eingang des Verzascatals wurde mit dem Bungy-Sprung im James-Bond-Film GoldenEye weltberühmt. Du läufst über die Mauerkrone und schaust auf der einen Seite in die Tiefe, auf der anderen über den Vogorno-Stausee.",
+      "tip": "An Wochenenden zwischen Ostern und Oktober springen nachmittags Leute in die Tiefe – zuschauen kostet nichts, springen nur mit Reservation und für deutlich über 200 Franken.",
+      "source": "https://007bungy.ch/en/location",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis",
+        "note": "Besichtigung gratis; Bungy-Sprung kostenpflichtig mit Reservation"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Contra-Staumauer.jpg/1280px-Contra-Staumauer.jpg",
+        "alt": "Staumauer von Contra am Eingang des Verzascatals",
+        "credit": "https://commons.wikimedia.org/wiki/File:Contra-Staumauer.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-isole-di-brissago",
+      "kind": "aktivitaet",
+      "name": "Brissago-Inseln (Botanischer Park)",
+      "region": "locarno",
+      "town": "Brissago",
+      "address": "Isole di Brissago, 6614 Brissago",
+      "coords": {
+        "lat": 46.13206,
+        "lng": 8.73518
+      },
+      "url": "https://www.isoledibrissago.ti.ch/",
+      "price": 1,
+      "tags": [
+        "see",
+        "romantisch",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": false,
+      "season": "ca. Mitte März bis Anfang November (2026: 18.3.–8.11.), dazu einzelne Wintertage im Dezember/Januar",
+      "hours": "nur per Kursschiff erreichbar, Zeiten gemäss Schiffsfahrplan",
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 150,
+      "text": "Auf der grösseren der beiden Inseln wächst ein botanischer Garten mit Pflanzen aus dem Mittelmeerraum, Asien, Südafrika und Amerika, die hier dank des milden Klimas überleben. Du erreichst sie nur mit dem Schiff, zum Beispiel ab Ascona, Locarno oder Porto Ronco.",
+      "tip": "Am Wochenende ist eine kurze botanische Führung im Eintritt inbegriffen – frag beim Ankommen nach der nächsten Startzeit.",
+      "source": "https://www.isoledibrissago.ti.ch/it/visitare/prezzi-dentrata",
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder bis 16 gratis; Schiff separat (Fahrplan lakelocarno.com); Wintertage CHF 5"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Isole_di_Brissago-1.jpg/1280px-Isole_di_Brissago-1.jpg",
+        "alt": "Die beiden Brissago-Inseln im Lago Maggiore",
+        "credit": "https://commons.wikimedia.org/wiki/File:Isole_di_Brissago-1.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-ascona-lungolago",
+      "kind": "sehenswuerdigkeit",
+      "name": "Seepromenade Ascona (Lungolago)",
+      "region": "locarno",
+      "town": "Ascona",
+      "address": "Piazza Giuseppe Motta, 6612 Ascona",
+      "coords": {
+        "lat": 46.15326,
+        "lng": 8.77008
+      },
+      "url": null,
+      "price": 1,
+      "tags": [
+        "see",
+        "gratis",
+        "romantisch",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 45,
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "text": "Die Uferpromenade an der Piazza Motta mit ihren farbigen Häusern, Cafés und der Schiffsanlegestelle ist das Postkartenbild von Ascona. Dahinter liegen enge Altstadtgassen, durch die du in ein paar Minuten zur Kirche San Pietro e Paolo kommst.",
+      "tip": "Geh am frühen Morgen oder nach 18 Uhr – tagsüber schiebt sich im Sommer viel Betrieb über die Promenade.",
+      "source": "https://www.ticino.ch/en/restaurants/details/Osteria-Nostrana/74001.html",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Lungolago_Ascona%2C_vista_lago.jpg/1280px-Lungolago_Ascona%2C_vista_lago.jpg",
+        "alt": "Seepromenade von Ascona mit Blick auf den See",
+        "credit": "https://commons.wikimedia.org/wiki/File:Lungolago_Ascona,_vista_lago.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-centovalli-bahn",
+      "kind": "aktivitaet",
+      "name": "Centovalli-Bahn (Locarno–Domodossola)",
+      "region": "locarno",
+      "town": "Locarno",
+      "address": "Bahnhof Locarno (unterirdische FART-Station), 6600 Locarno",
+      "coords": {
+        "lat": 46.17242,
+        "lng": 8.80136
+      },
+      "url": "https://www.vigezzinacentovalli.com/",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "aussicht",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "durationMin": 120,
+      "text": "Die Schmalspurbahn fährt von Locarno durch das Centovalli über Brücken und Viadukte nach Domodossola in Italien. Für einen halben Tag reicht die Fahrt bis Intragna oder Camedo und zurück – auch bei Regen ein schönes Programm, weil du die Schluchten trocken vom Fenster aus siehst.",
+      "tip": "Mit dem Ticino Ticket aus dem Hotel fährst du bis Camedo an der Grenze gratis; nur ab dort nach Domodossola zahlst du.",
+      "source": "https://www.myswitzerland.com/it/pianificazione/offerte/biglietto-ferroviario-centovalli-tra-domodossola-e-locarno/",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Viadotto_Valle_Ingiustria.jpg/1280px-Viadotto_Valle_Ingiustria.jpg",
+        "alt": "Viadukt der Centovalli-Bahn über ein Seitental",
+        "credit": "https://commons.wikimedia.org/wiki/File:Viadotto_Valle_Ingiustria.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-lido-locarno",
+      "kind": "bad",
+      "name": "Lido Locarno",
+      "region": "locarno",
+      "town": "Locarno",
+      "address": "Via Respini 11, 6600 Locarno",
+      "coords": {
+        "lat": 46.162,
+        "lng": 8.8038
+      },
+      "url": "https://www.lidolocarno.ch/",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "familie",
+        "aktiv",
+        "see"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig (Hallenbad); Aussenbecken und Seestrand im Sommer",
+      "hours": "Hallenbad täglich 8.30–20 Uhr, Di/Do ab 7.30 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:30",
+              "20:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:30",
+              "20:00"
+            ]
+          ],
+          "2": [
+            [
+              "07:30",
+              "20:00"
+            ]
+          ],
+          "3": [
+            [
+              "08:30",
+              "20:00"
+            ]
+          ],
+          "4": [
+            [
+              "07:30",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "08:30",
+              "20:00"
+            ]
+          ],
+          "6": [
+            [
+              "08:30",
+              "20:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 150,
+      "text": "Grosses Bad direkt am See mit Hallenbad, Thermalbecken und Rutschbahnen; im Sommer kommen Aussenbecken und ein Seestrand dazu. Für Familien der sichere Regentag-Plan, für alle anderen die beste Erholung nach einer Wanderung.",
+      "tip": "Das Rutschbahn-Ticket kostet fünf Franken mehr – für Kinder lohnt es sich, für Erwachsene, die nur schwimmen wollen, nicht.",
+      "source": "https://www.lidolocarno.ch/it/orari-prezzi",
+      "priceInfo": {
+        "from": 13,
+        "to": 18,
+        "unit": "Eintritt Erwachsene",
+        "note": "Bäder CHF 13, mit Rutschbahnen CHF 18; Kinder bis 15 CHF 7 bzw. 11; unter 3 gratis; Thermalbad-Spa separat"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Lido_Locarno_-_panoramio.jpg/1280px-Lido_Locarno_-_panoramio.jpg",
+        "alt": "Anlage des Lido Locarno am Seeufer",
+        "credit": "https://commons.wikimedia.org/wiki/File:Lido_Locarno_-_panoramio.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-casa-rusca",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museo Casa Rusca",
+      "region": "locarno",
+      "town": "Locarno",
+      "address": "Piazza Sant'Antonio, 6600 Locarno",
+      "coords": {
+        "lat": 46.16952,
+        "lng": 8.79127
+      },
+      "url": null,
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, zwischen zwei Ausstellungen geschlossen",
+      "hours": "Mo geschlossen; Di–So 10–16.30 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "16:30"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "16:30"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "16:30"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "16:30"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "16:30"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "16:30"
+            ]
+          ]
+        }
+      },
+      "durationMin": 75,
+      "text": "Die städtische Kunstsammlung in einem Patrizierhaus aus dem 18. Jahrhundert mit Arkadenhof zeigt wechselnde Ausstellungen zu Schweizer und internationaler Kunst des 20. Jahrhunderts. Überschaubar gross, gut für eine Stunde, wenn es draussen regnet.",
+      "tip": "Schau vor dem Besuch nach, ob gerade eine Ausstellung läuft – zwischen zwei Schauen bleibt das Haus zu.",
+      "source": "https://www.ticino.ch/it/commons/details/Museo-Casa-Rusca/2743.html",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder/Jugendliche bis 16 gratis, Studierende CHF 8; Kombiticket mit Casorella und Castello CHF 18"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Casa_Rusca_%28Locarno%29.jpg/1280px-Casa_Rusca_%28Locarno%29.jpg",
+        "alt": "Innenhof und Fassade der Casa Rusca in Locarno",
+        "credit": "https://commons.wikimedia.org/wiki/File:Casa_Rusca_(Locarno).jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-falconeria",
+      "kind": "aktivitaet",
+      "name": "Falconeria Locarno",
+      "region": "locarno",
+      "town": "Locarno",
+      "address": "Via delle Scuole 12, 6600 Locarno",
+      "coords": {
+        "lat": 46.16197,
+        "lng": 8.79218
+      },
+      "url": "https://www.falconeria.ch/",
+      "price": 2,
+      "tags": [
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": false,
+      "season": "April–Oktober; im November nur an Wochenenden",
+      "hours": "Mo geschlossen; Di–So 10–17 Uhr, Flugshows 11 und 15 Uhr (Ende Oktober nur 11 Uhr)",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 150,
+      "text": "Greifvogelpark mit Adlern, Eulen und Falken, deren Flugshow rund eine Stunde dauert und bei der die Vögel knapp über die Köpfe der Zuschauer segeln. Dazu gibt es ein Bistro und für kleinere Kinder bei schönem Wetter eine Mitmach-Show am Mittag.",
+      "tip": "Komm eine halbe Stunde vor der Show und setz dich in die vorderen Reihen – dort fliegen die Vögel am nächsten vorbei.",
+      "source": "https://falconeria.ch/orari/",
+      "priceInfo": {
+        "from": 34,
+        "unit": "Eintritt Erwachsene",
+        "note": "inkl. Flugshow; Kinder 3–15 CHF 24; Familie 2+1 CHF 85, 2+2 CHF 105, 2+3 CHF 125"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Eule_in_Falconeria_Locarno_CH.jpg/1280px-Eule_in_Falconeria_Locarno_CH.jpg",
+        "alt": "Eule in der Falconeria Locarno",
+        "credit": "https://commons.wikimedia.org/wiki/File:Eule_in_Falconeria_Locarno_CH.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-monte-verita",
+      "kind": "sehenswuerdigkeit",
+      "name": "Monte Verità – Museum Casa Anatta",
+      "region": "locarno",
+      "town": "Ascona",
+      "address": "Strada Collina 84, 6612 Ascona",
+      "coords": {
+        "lat": 46.15801,
+        "lng": 8.76312
+      },
+      "url": "https://www.monteverita.org/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "ca. Mitte März bis Anfang November",
+      "hours": "Mo/Di geschlossen; Mi–Sa 14–18, So 10–13 und 14–18 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "13:00"
+            ],
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 90,
+      "text": "Auf dem Hügel über Ascona gründeten Aussteiger um 1900 eine Kolonie mit Rohkost, Luftbädern und Ausdruckstanz – später kamen Künstler wie Hermann Hesse vorbei. Das Holzhaus Casa Anatta erzählt diese schräge Geschichte, rundherum liegt ein Park mit Teehaus.",
+      "tip": "Nimm das Kombiticket mit dem Elisarion-Pavillon: Dort hängt das riesige Rundgemälde, das zur Geschichte des Hügels gehört.",
+      "source": "https://www.ticino.ch/it/commons/details/Museo-Casa-Anatta/145482.html",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kombi mit Padiglione Elisarion CHF 15; unter 16 gratis; Museumspass gilt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ascona_Monte_Verit%C3%A0_Casa_Anatta_1K4A3756_%28cropped%29.jpg/1280px-Ascona_Monte_Verit%C3%A0_Casa_Anatta_1K4A3756_%28cropped%29.jpg",
+        "alt": "Holzhaus Casa Anatta auf dem Monte Verità in Ascona",
+        "credit": "https://commons.wikimedia.org/wiki/File:Ascona_Monte_Verit%C3%A0_Casa_Anatta_1K4A3756_(cropped).jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "lo-castello-visconteo",
+      "kind": "sehenswuerdigkeit",
+      "name": "Castello Visconteo (Museo civico e archeologico)",
+      "region": "locarno",
+      "town": "Locarno",
+      "address": "Via Bartolomeo Rusca 5, 6600 Locarno",
+      "coords": {
+        "lat": 46.16789,
+        "lng": 8.79375
+      },
+      "url": null,
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "April–Oktober",
+      "hours": "in der Saison Mo geschlossen, sonst ca. 10–16.30 Uhr",
+      "durationMin": 60,
+      "text": "Die mittelalterliche Burg der Mailänder Visconti am Rand der Altstadt beherbergt das Stadtmuseum mit römischen Glasfunden aus Gräbern der Region. Spannend ist auch die Bastion, die Leonardo da Vinci zugeschrieben wird.",
+      "tip": "Wenn du auch die Casa Rusca besuchst, lohnt das Kombiticket der städtischen Museen.",
+      "source": "https://www.ticino.ch/it/commons/details/Castello-Visconteo/2773.html"
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "bz-castelgrande",
+      "kind": "sehenswuerdigkeit",
+      "name": "Castelgrande",
+      "region": "bellinzona",
+      "town": "Bellinzona",
+      "address": "Salita al Castelgrande, 6500 Bellinzona",
+      "coords": {
+        "lat": 46.1929,
+        "lng": 9.02175
+      },
+      "url": "https://www.fortezzabellinzona.ch/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "aussicht",
+        "regenfest",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Ende März bis Anfang November täglich 10–18 Uhr, im Winter 10.30–16 Uhr (letzter Einlass 30 Min. vorher)",
+      "durationMin": 90,
+      "text": "Die grösste der drei Burgen thront auf einem Felssporn mitten in der Stadt und gehört mit Montebello, Sasso Corbaro und der Stadtmauer Murata zum UNESCO-Welterbe. Oben erwarten dich ein weiter Burghof, die zwei Türme Torre Nera und Torre Bianca und ein Museum zur Geschichte der Festung.",
+      "tip": "Nimm den Lift ab der Piazzetta della Valle hinauf und geh danach zu Fuss über die Salita in die Altstadt hinunter.",
+      "source": "https://www.fortezzabellinzona.ch/visitare/",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "Museum; Fortezza Pass für alle drei Burgen CHF 28 (Ende März bis Anfang Nov.); ermässigt inkl. 6–16 Jahre CHF 8, Familie CHF 35"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Castelgrande%2C_Torre_Nera_and_Torre_Bianca%2C_Bellinzona%2C_Ticino.jpg/1280px-Castelgrande%2C_Torre_Nera_and_Torre_Bianca%2C_Bellinzona%2C_Ticino.jpg",
+        "alt": "Torre Nera und Torre Bianca des Castelgrande in Bellinzona",
+        "credit": "https://commons.wikimedia.org/wiki/File:Castelgrande,_Torre_Nera_and_Torre_Bianca,_Bellinzona,_Ticino.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "bz-montebello",
+      "kind": "sehenswuerdigkeit",
+      "name": "Castello di Montebello",
+      "region": "bellinzona",
+      "town": "Bellinzona",
+      "address": "Salita Castello Montebello, 6500 Bellinzona",
+      "coords": {
+        "lat": 46.19129,
+        "lng": 9.02657
+      },
+      "url": "https://www.fortezzabellinzona.ch/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "aussicht",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "Ende März bis Anfang November; im Winter nur die Höfe zugänglich",
+      "hours": "in der Saison täglich 10–18 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 60,
+      "text": "Die mittlere Burg über der Altstadt ist die mit dem schönsten Rundgang: Du läufst über Zugbrücke und Wehrgänge und schaust auf die Dächer und hinüber zum Castelgrande. Im Turm zeigt ein kleines archäologisches Museum Funde aus der Region.",
+      "tip": "Vom Wehrgang auf der Westseite hast du das beste Foto vom Castelgrande mit der Murata dahinter.",
+      "source": "https://www.fortezzabellinzona.ch/visitare/",
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt inkl. 6–16 Jahre CHF 5; im Fortezza Pass (CHF 28) enthalten"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Castello_di_Montebello_and_vinyards%2C_Bellinzona%2C_Ticino.jpg/1280px-Castello_di_Montebello_and_vinyards%2C_Bellinzona%2C_Ticino.jpg",
+        "alt": "Castello di Montebello über den Reben von Bellinzona",
+        "credit": "https://commons.wikimedia.org/wiki/File:Castello_di_Montebello_and_vinyards,_Bellinzona,_Ticino.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "bz-sasso-corbaro",
+      "kind": "aussicht",
+      "name": "Castello di Sasso Corbaro",
+      "region": "bellinzona",
+      "town": "Bellinzona",
+      "address": "Via Sasso Corbaro 44, 6500 Bellinzona",
+      "coords": {
+        "lat": 46.18812,
+        "lng": 9.03013
+      },
+      "url": "https://www.fortezzabellinzona.ch/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "aussicht",
+        "berg"
+      ],
+      "weatherProof": false,
+      "season": "Ende März bis Anfang November; im Winter nur die Höfe zugänglich",
+      "hours": "in der Saison täglich 10–18 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 60,
+      "text": "Die höchste und abgelegenste der drei Burgen steht allein im Wald über der Stadt und wurde 1479 in nur wenigen Monaten hochgezogen. Von hier oben überblickst du das ganze Tessintal bis zum Lago Maggiore, im Inneren gibt es wechselnde Ausstellungen.",
+      "tip": "Der Aufstieg ist steil – wer müde Beine hat, nimmt in der Saison das Trenino Artù ab der Altstadt.",
+      "source": "https://www.fortezzabellinzona.ch/visitare/",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt inkl. 6–16 Jahre CHF 8; im Fortezza Pass (CHF 28) enthalten"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Bellinzona_Castello_di_Sasso_Corbaro_aussen.jpg/1280px-Bellinzona_Castello_di_Sasso_Corbaro_aussen.jpg",
+        "alt": "Castello di Sasso Corbaro von aussen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Bellinzona_Castello_di_Sasso_Corbaro_aussen.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "bz-samstagsmarkt",
+      "kind": "aktivitaet",
+      "name": "Samstagsmarkt in der Altstadt",
+      "region": "bellinzona",
+      "town": "Bellinzona",
+      "address": "Piazza Collegiata und Altstadtgassen, 6500 Bellinzona",
+      "coords": {
+        "lat": 46.19174,
+        "lng": 9.02336
+      },
+      "url": null,
+      "price": 1,
+      "tags": [
+        "genuss",
+        "gratis",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig jeden Samstag (an Feiertagen fällt er aus)",
+      "hours": "Sa 7.30–13 Uhr; Mi kleinerer Markt 10–17 Uhr (saisonal)",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "6": [
+            [
+              "07:30",
+              "13:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 90,
+      "text": "Jeden Samstagmorgen füllen Stände mit Tessiner Gemüse, Salami nach Hausrezept, kleinen Bergkäsen, Blumen und Handwerk die Gassen rund um die Piazza Collegiata. Viele Bars und Restaurants bieten an diesem Tag ein günstiges Marktmenü an.",
+      "tip": "Kauf dir Käse, Brot und Salami für ein Picknick auf den Burgmauern – oder frag in den Lokalen nach dem «Menu del mercato».",
+      "source": "https://www.ticino.ch/it/commons/details/Il-mercato-di-Bellinzona/2895.html",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/PiazzaCollegiata.JPG/1280px-PiazzaCollegiata.JPG",
+        "alt": "Piazza Collegiata mit der Stiftskirche in der Altstadt von Bellinzona",
+        "credit": "https://commons.wikimedia.org/wiki/File:PiazzaCollegiata.JPG"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "bz-villa-dei-cedri",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museo Villa dei Cedri",
+      "region": "bellinzona",
+      "town": "Bellinzona",
+      "address": "Via San Biagio 9, 6500 Bellinzona",
+      "coords": {
+        "lat": 46.18463,
+        "lng": 9.02046
+      },
+      "url": "https://www.museovilladeicedri.ch/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "regenfest",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig während Ausstellungen; Park täglich offen",
+      "hours": "Mo/Di geschlossen; Mi/Do 14–18, Fr–So 10–18 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 75,
+      "text": "Städtisches Kunstmuseum in einer Villa aus dem 19. Jahrhundert, umgeben von einem Park mit alten Zedern und einem eigenen kleinen Weinberg. Gezeigt werden Wechselausstellungen, bis Ende Januar 2027 zur Künstlerin Pierrette Bloch.",
+      "tip": "Auch wenn du nicht ins Museum gehst: Der Park ist frei zugänglich und eine ruhige Pause zwischen Altstadt und Bahnhof.",
+      "source": "https://www.museovilladeicedri.ch/Orari-e-tariffe-28875800",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "bis 16 Jahre gratis, ermässigt CHF 8"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Villa_dei_Cedri_%28Bellinzona%29_01.jpg/1280px-Villa_dei_Cedri_%28Bellinzona%29_01.jpg",
+        "alt": "Villa dei Cedri in Bellinzona von aussen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Villa_dei_Cedri_(Bellinzona)_01.jpg"
+      }
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "bz-grotto-san-michele",
+      "kind": "restaurant",
+      "name": "Grotto San Michele (Castelgrande)",
+      "region": "bellinzona",
+      "town": "Bellinzona",
+      "address": "Salita al Castelgrande 18, 6500 Bellinzona",
+      "coords": {
+        "lat": 46.19235,
+        "lng": 9.0222
+      },
+      "url": "https://castelgrande.ch/",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "aussicht",
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo Ruhetag (Juli/August täglich); Di–Sa 10.30–24 Uhr, So nur mittags",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "15:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:30",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:30",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:30",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:30",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:30",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "text": "Grotto im Burgareal des Castelgrande mit Panoramaterrasse unter einer Pergola und einem Gewölbesaal für Regentage. Gekocht wird mit Tessiner Zutaten, einige Gerichte gehen auf ein Kochbuch aus dem 15. Jahrhundert zurück; geführt wird es von der Hotelfachschule Bellinzona.",
+      "tip": "Bestell den Merlot vom Haus: Die Trauben wachsen direkt an den Burgmauern.",
+      "source": "https://www.ticino.ch/it/restaurants/details/Grotto-San-Michele/127933.html"
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "bz-locanda-orico",
+      "kind": "restaurant",
+      "name": "Locanda Orico",
+      "region": "bellinzona",
+      "town": "Bellinzona",
+      "address": "Via Orico 13, 6500 Bellinzona",
+      "coords": {
+        "lat": 46.19214,
+        "lng": 9.01905
+      },
+      "url": "https://www.locandaorico.ch/",
+      "price": 4,
+      "tags": [
+        "genuss",
+        "romantisch",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, Sommerferien Mitte Juli bis Mitte August",
+      "hours": "So/Mo Ruhetag; Di–Sa 11.45–14 und 18.45–24 Uhr",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:45",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:45",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:45",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:45",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:45",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "text": "Restaurant mit einem Michelin-Stern in der Altstadt, nur ein paar Schritte vom Castelgrande entfernt. Der richtige Ort, wenn du einen Tessin-Tag mit einem besonderen Abendessen abschliessen willst.",
+      "tip": "Reservier früh und beachte die Sommerpause von Mitte Juli bis Mitte August.",
+      "source": "https://www.locandaorico.ch/"
+    },
+    {
+      "checked": "2026-11-15",
+      "id": "bz-osteria-sasso-corbaro",
+      "kind": "restaurant",
+      "name": "Osteria Sasso Corbaro",
+      "region": "bellinzona",
+      "town": "Bellinzona",
+      "address": "Via Sasso Corbaro 44, 6500 Bellinzona",
+      "coords": {
+        "lat": 46.1882,
+        "lng": 9.03008
+      },
+      "url": null,
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "genuss",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "vor allem während der Burgsaison; Öffnungszeiten vorher erfragen",
+      "text": "Osteria im Hof der höchsten Burg, mit Steintischen unter Bäumen und einem gewölbten Saal für kühle Tage. Nach dem Aufstieg genau der richtige Ort für einen Teller Tessiner Küche oder ein Glas Merlot mit Blick übers Tal.",
+      "tip": "Ruf vorher an (091 825 55 32) – die Angaben zu den Öffnungszeiten widersprechen sich je nach Quelle.",
+      "source": "https://www.myswitzerland.com/en-ch/experiences/food-wine/restaurant/osteria-sasso-corbaro/"
+    }
+  ],
+  "trips": [
+    {
+      "slug": "locarno-ascona-verzasca-wochenende",
+      "title": "Locarno, Ascona und Verzasca",
+      "teaser": "Drei Tage zwischen Piazza Grande, grünem Bergfluss, Grotto-Abenden und einer Insel voller Palmen.",
+      "region": "locarno",
+      "days": 3,
+      "moods": [
+        "natur",
+        "genuss",
+        "kultur",
+        "erholung"
+      ],
+      "audience": [
+        "paar",
+        "freunde"
+      ],
+      "season": "April–Oktober, Freitag bis Sonntag (Grotti, Monte Verità und Brissago-Inseln haben dann offen)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 130
+        },
+        {
+          "from": "Bern",
+          "minutes": 195
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 190
+        }
+      ],
+      "hotelIds": [
+        "lo-jugendherberge-locarno",
+        "lo-hotel-belvedere",
+        "lo-hotel-eden-roc"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Freitag) – Altstadt, Madonna del Sasso und Cardada",
+          "slots": [
+            {
+              "time": "11:30",
+              "placeId": "lo-hotel-belvedere",
+              "title": "Ankommen und Gepäck abgeben",
+              "text": "Vom Bahnhof Locarno hinauf zum Hotel, das Gepäck abstellen und gleich wieder los – das Zimmer gibt es meist erst am Nachmittag.",
+              "travel": "ca. 10 Min. zu Fuss bergauf vom Bahnhof"
+            },
+            {
+              "time": "12:00",
+              "placeId": "lo-ristorante-cittadella",
+              "title": "Zmittag in der Altstadt",
+              "text": "Eine Pizza oder ein Teller Pasta im Cittadella, ein paar Gassen oberhalb der Piazza Grande.",
+              "travel": "ca. 10 Min. zu Fuss bergab"
+            },
+            {
+              "time": "13:15",
+              "placeId": "lo-piazza-grande",
+              "title": "Piazza Grande und Altstadtgassen",
+              "text": "Unter den Arkaden über die Piazza bummeln und danach durch die steilen Gassen bis zum Castello hinaufschlendern.",
+              "travel": "2 Min. zu Fuss",
+              "rain": {
+                "placeId": "lo-casa-rusca",
+                "title": "Museo Casa Rusca",
+                "text": "Bei Regen statt Gassenbummel in die Casa Rusca mit ihrer Kunstausstellung, gleich bei der Piazza Sant'Antonio."
+              }
+            },
+            {
+              "time": "14:30",
+              "placeId": "lo-madonna-del-sasso",
+              "title": "Mit der Standseilbahn zur Madonna del Sasso",
+              "text": "Mit der Bahn hinauf nach Orselina, in der Wallfahrtskirche die Gemälde anschauen und von der Terrasse über den See blicken.",
+              "travel": "ca. 10 Min. zu Fuss zur Talstation, dann wenige Minuten Bahnfahrt"
+            },
+            {
+              "time": "15:30",
+              "placeId": "lo-cardada-cimetta",
+              "title": "Cardada und Cimetta",
+              "text": "Mit der Seilbahn auf Cardada, über den Panoramasteg spazieren und mit dem Sessellift weiter auf die Cimetta. Den letzten Sessellift hinunter nicht verpassen (ca. 16.45 Uhr).",
+              "travel": "ca. 5 Min. zu Fuss von der Bergstation Orselina zur Seilbahn",
+              "rain": {
+                "placeId": "lo-castello-visconteo",
+                "title": "Castello Visconteo",
+                "text": "Bei tiefen Wolken bringt der Berg nichts – dann lieber zurück in die Stadt ins Castello Visconteo mit dem Museum (montags zu, ausserhalb April–Oktober geschlossen)."
+              }
+            },
+            {
+              "time": "19:30",
+              "placeId": "lo-grotto-broggini",
+              "title": "Znacht im Grotto Broggini",
+              "text": "Güggeli vom Holzfeuer und Steinpilzrisotto unter den alten Bäumen in Losone. Am Wochenende reservieren.",
+              "travel": "ca. 20 Min. mit Bus 7 bis Losone, Posta und kurzer Fussweg"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Samstag) – Verzascatal und Grotto-Abend",
+          "slots": [
+            {
+              "time": "09:15",
+              "placeId": "lo-diga-verzasca",
+              "title": "Über die GoldenEye-Staumauer",
+              "text": "Mit dem Postauto ins Verzascatal, an der Staumauer aussteigen und über die Mauerkrone gehen – auf der einen Seite 220 Meter Tiefe, auf der anderen der Stausee.",
+              "travel": "ca. 35 Min. mit Bus 321 Richtung Sonogno (je nach Fahrplan Umsteigen in Tenero), Haltestelle «Diga Verzasca»",
+              "rain": {
+                "placeId": "lo-centovalli-bahn",
+                "title": "Centovalli-Bahn",
+                "text": "Bei Regen statt ins Verzascatal mit der Centovalli-Bahn bis Intragna oder Camedo und zurück – die Schluchten siehst du trocken vom Zugfenster aus."
+              }
+            },
+            {
+              "time": "10:45",
+              "placeId": "lo-ponte-dei-salti",
+              "title": "Ponte dei Salti in Lavertezzo",
+              "text": "Über die Doppelbogenbrücke gehen, auf den glatten Felsen am Fluss sitzen und ein Stück dem Wanderweg flussaufwärts folgen.",
+              "travel": "ca. 16 Min. mit Bus 321 bis Lavertezzo, Paese, dann 5 Min. zu Fuss",
+              "rain": {
+                "title": "Nur kurz zur Brücke",
+                "text": "Bei Regen nur für ein Foto zur Brücke und nicht ans Wasser: Die Verzasca steigt nach Regen schnell an. Danach direkt ins Gasthaus zum Aufwärmen."
+              }
+            },
+            {
+              "time": "12:30",
+              "placeId": "lo-osteria-vittoria",
+              "title": "Zmittag in Lavertezzo",
+              "text": "Einfaches Mittagessen im Dorfgasthaus, ein paar Schritte von der Brücke. Vorher kurz anrufen, ob die Küche offen ist.",
+              "travel": "ca. 5 Min. zu Fuss"
+            },
+            {
+              "time": "15:00",
+              "placeId": "lo-lido-locarno",
+              "title": "Baden im Lido",
+              "text": "Nach dem Tag am kalten Fluss ins warme Thermalbecken oder im Sommer an den Seestrand des Lido.",
+              "travel": "ca. 45 Min. mit Bus 321 und Bus 1 zurück nach Locarno, dann ca. 15 Min. zu Fuss"
+            },
+            {
+              "time": "19:00",
+              "placeId": "lo-grotto-america",
+              "title": "Grotto-Abend über der Maggia",
+              "text": "Auf der Terrasse des Grotto America über dem Fluss Tessiner Küche essen, zum Start Salami und Alpkäse aus dem Keller. Reservieren lohnt sich.",
+              "travel": "ca. 15 Min. mit Bus 315 bis Ponte Brolla; zurück mit Bus oder Centovalli-Bahn (letzte Verbindung vorher prüfen)",
+              "rain": {
+                "title": "Drinnen am Cheminée",
+                "text": "Bei Regen oder kühlem Wetter beim Reservieren einen Tisch im Saal mit Cheminée verlangen – das Grotto bleibt trotzdem der richtige Ort für den Abend."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Tag 3 (Sonntag) – Monte Verità, Ascona und Brissago-Inseln",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "lo-monte-verita",
+              "title": "Monte Verità",
+              "text": "Nach dem Auschecken auf den Hügel der Aussteiger: Casa Anatta, Park und Teehaus. Sonntags ist schon ab 10 Uhr offen.",
+              "travel": "ca. 15 Min. mit Bus 1 bis Ascona, dann ca. 15 Min. zu Fuss bergauf"
+            },
+            {
+              "time": "11:45",
+              "placeId": "lo-ascona-lungolago",
+              "title": "Seepromenade von Ascona",
+              "text": "Hinunter an die Piazza Motta, ein Stück der Promenade entlang und zum Schiffsteg.",
+              "travel": "ca. 15 Min. zu Fuss bergab",
+              "rain": {
+                "title": "Durch die Altstadtgassen",
+                "text": "Bei Regen statt Promenade durch die engen Gassen hinter der Piazza zur Kirche San Pietro e Paolo und direkt zum Schiffsteg."
+              }
+            },
+            {
+              "time": "12:15",
+              "placeId": "lo-isole-di-brissago",
+              "title": "Botanischer Park auf den Brissago-Inseln",
+              "text": "Mit dem Kursschiff hinüber und durch den Garten mit Palmen, Bambus und Pflanzen aus aller Welt spazieren.",
+              "travel": "Schiff ab Ascona, Fahrplan auf lakelocarno.com",
+              "rain": {
+                "title": "Insel auslassen",
+                "text": "Bei Dauerregen lohnt die Überfahrt kaum. Bleib dann in Ascona und iss früher an der Piazza – oder fahr mit Bus 1 zurück nach Locarno und nimm einen früheren Zug."
+              }
+            },
+            {
+              "time": "13:15",
+              "placeId": "lo-villa-emden",
+              "title": "Zmittag in der Villa Emden",
+              "text": "Mittagessen im Restaurant der Inselvilla, danach noch eine Runde durch den Park bis zum Schiff zurück.",
+              "travel": "auf der Insel, wenige Minuten zu Fuss"
+            },
+            {
+              "time": "16:00",
+              "placeId": "lo-osteria-nostrana",
+              "title": "Gelato oder Apéro an der Piazza Motta",
+              "text": "Zurück in Ascona noch ein Glas oder ein Dessert auf der Terrasse der Osteria Nostrana, dann mit Bus 1 zum Bahnhof Locarno.",
+              "travel": "Schiff zurück nach Ascona; danach ca. 16 Min. Bus 1 zum Bahnhof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "locarno-mit-kindern",
+      "title": "Locarno mit Kindern: Greifvögel, Seilbahn, Rutschbahn",
+      "teaser": "Ein Tag mit Adlern im Tiefflug, einer Seilbahnfahrt über den See und zum Schluss Rutschbahnen im Lido.",
+      "region": "locarno",
+      "days": 1,
+      "moods": [
+        "familie",
+        "natur"
+      ],
+      "audience": [
+        "familie"
+      ],
+      "season": "April–Oktober, Dienstag bis Sonntag (Falconeria montags geschlossen)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 130
+        },
+        {
+          "from": "Bern",
+          "minutes": 195
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 190
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Dienstag bis Sonntag) – Falconeria, Cardada und Lido",
+          "slots": [
+            {
+              "time": "10:30",
+              "placeId": "lo-falconeria",
+              "title": "Flugshow in der Falconeria",
+              "text": "Rechtzeitig vor der 11-Uhr-Show einen Platz vorne suchen, danach die Vögel im Park anschauen und im Bistro der Falconeria zu Mittag essen.",
+              "travel": "ca. 20 Min. zu Fuss vom Bahnhof Locarno oder Bus 316 bis «Bivio V. Nessi»",
+              "rain": {
+                "placeId": "lo-casa-rusca",
+                "title": "Museo Casa Rusca",
+                "text": "Bei Regen fällt die Flugshow ins Wasser – dann in die Casa Rusca, Kinder bis 16 haben gratis Eintritt."
+              }
+            },
+            {
+              "time": "13:30",
+              "placeId": "lo-madonna-del-sasso",
+              "title": "Standseilbahn nach Orselina",
+              "text": "Mit der kleinen Standseilbahn hinauf, kurz in die Wallfahrtskirche auf dem Felsen schauen.",
+              "travel": "ca. 20 Min. zu Fuss zur Talstation in Locarno"
+            },
+            {
+              "time": "14:15",
+              "placeId": "lo-cardada-cimetta",
+              "title": "Seilbahn auf Cardada",
+              "text": "Mit der Gondel auf Cardada, über den Panoramasteg hinausgehen und mit dem Sessellift weiter auf die Cimetta.",
+              "travel": "ca. 5 Min. zu Fuss zur Seilbahn",
+              "rain": {
+                "placeId": "lo-castello-visconteo",
+                "title": "Castello Visconteo",
+                "text": "Bei Wolken lieber in die Burg in der Altstadt: Römische Glasfunde und dicke Mauern gefallen auch Kindern."
+              }
+            },
+            {
+              "time": "16:45",
+              "placeId": "lo-lido-locarno",
+              "title": "Rutschbahnen im Lido",
+              "text": "Zum Abschluss ins Lido: Rutschbahnen, warme Becken und im Sommer der Strand am See. Danach zu Fuss zum Bahnhof.",
+              "travel": "ca. 30 Min. mit Seilbahn und Standseilbahn hinunter, dann ca. 15 Min. zu Fuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bellinzona-markt-und-burgen",
+      "title": "Bellinzona: Markt am Morgen, drei Burgen am Nachmittag",
+      "teaser": "Ein Samstag mit Tessiner Käse vom Markt, Mittagessen im Burghof und dem Aufstieg zu allen drei UNESCO-Burgen.",
+      "region": "bellinzona",
+      "days": 1,
+      "moods": [
+        "kultur",
+        "genuss",
+        "aktiv"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "familie",
+        "allein"
+      ],
+      "season": "Ende März bis Anfang November, an einem Samstag (dann sind alle drei Burgen offen)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 97
+        },
+        {
+          "from": "Bern",
+          "minutes": 156
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 152
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Samstag) – Markt, Castelgrande, Montebello und Sasso Corbaro",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "bz-samstagsmarkt",
+              "title": "Samstagsmarkt in der Altstadt",
+              "text": "Zwischen den Ständen rund um die Piazza Collegiata Käse, Salami und Brot probieren und einen Kaffee in einer der Bars an der Piazza trinken.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof",
+              "rain": {
+                "title": "Unter die Arkaden",
+                "text": "Der Markt findet auch bei Regen statt – halte dich an die Stände unter den Arkaden und wärm dich in einer Bar an der Piazza Collegiata auf."
+              }
+            },
+            {
+              "time": "11:30",
+              "placeId": "bz-castelgrande",
+              "title": "Castelgrande",
+              "text": "Mit dem Lift hinauf in den Burghof, das Museum anschauen und von der Mauer über die Stadt blicken. Am besten gleich den Fortezza Pass für alle drei Burgen kaufen.",
+              "travel": "ca. 5 Min. zu Fuss zum Lift an der Piazzetta della Valle"
+            },
+            {
+              "time": "12:45",
+              "placeId": "bz-grotto-san-michele",
+              "title": "Zmittag im Burg-Grotto",
+              "text": "Auf der Terrasse unter der Pergola Tessiner Küche essen, dazu ein Glas Merlot von den Burgmauern.",
+              "travel": "2 Min. zu Fuss im Burgareal"
+            },
+            {
+              "time": "14:15",
+              "placeId": "bz-montebello",
+              "title": "Castello di Montebello",
+              "text": "Über die Zugbrücke in die mittlere Burg, auf den Wehrgängen einmal rundherum und hinüber zum Castelgrande schauen.",
+              "travel": "ca. 20 Min. zu Fuss hinunter in die Altstadt und den Burgweg hinauf",
+              "rain": {
+                "placeId": "bz-villa-dei-cedri",
+                "title": "Museo Villa dei Cedri",
+                "text": "Bei Regen statt auf die Wehrgänge in die Villa dei Cedri mit ihrer Kunstausstellung (samstags 10–18 Uhr)."
+              }
+            },
+            {
+              "time": "15:45",
+              "placeId": "bz-sasso-corbaro",
+              "title": "Sasso Corbaro",
+              "text": "Hinauf zur höchsten Burg, die Ausstellung im Inneren anschauen und den Blick übers Tessintal geniessen.",
+              "travel": "ca. 25 Min. zu Fuss steil bergauf (in der Saison auch mit dem Trenino Artù)",
+              "rain": {
+                "title": "Mit dem Trenino hinauf",
+                "text": "Bei Regen den steilen Waldweg auslassen und mit dem Trenino Artù hinauffahren, dann direkt in die Ausstellungsräume der Burg."
+              }
+            },
+            {
+              "time": "19:00",
+              "placeId": "bz-locanda-orico",
+              "title": "Zum Abschluss: Sterneküche",
+              "text": "Wer den Tag gross beenden will, isst in der Locanda Orico am Fuss des Castelgrande – unbedingt reservieren. Zum Bahnhof sind es danach nur ein paar Minuten.",
+              "travel": "ca. 35 Min. zu Fuss hinunter in die Altstadt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

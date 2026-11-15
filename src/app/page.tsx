@@ -4,8 +4,10 @@ import { destinations } from "@/data/destinations";
 import { toTourLite } from "@/lib/tour-lite";
 import HomeTours, { type CityChip } from "@/components/HomeTours";
 import AudioPlayer from "@/components/AudioPlayer";
+import GuideTeaser from "@/components/GuideTeaser";
 import { sceneFor } from "@/lib/scene";
 import { getStopImage, getTourHeroImage } from "@/data/images";
+import { imgAttrs } from "@/lib/img";
 import { siteJsonLd, socialMeta } from "@/lib/seo";
 import type { Metadata } from "next";
 
@@ -53,6 +55,9 @@ export default function HomePage() {
 
       <section className="container-page pb-16" aria-label="Touren">
         <HomeTours tours={lite} cities={cities} featured={featured} />
+        <div className="mt-10">
+          <GuideTeaser href="/fuehrung" />
+        </div>
       </section>
 
       {sampleTour && sample && (
@@ -72,7 +77,7 @@ export default function HomePage() {
             <div className="card overflow-hidden">
               {sampleImg && (
                 /* eslint-disable-next-line @next/next/no-img-element */
-                <img src={sampleImg.url} alt={sampleImg.alt} loading="lazy" className="h-40 w-full object-cover sm:h-48" />
+                <img {...imgAttrs(sampleImg, "(min-width: 768px) 50vw, 100vw")} loading="lazy" decoding="async" className="h-40 w-full object-cover sm:h-48" />
               )}
               <div className="p-5">
                 <p className="font-display text-xl font-extrabold tracking-tight text-cream">{sample.name}</p>

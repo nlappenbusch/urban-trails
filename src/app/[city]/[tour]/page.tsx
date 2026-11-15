@@ -6,7 +6,9 @@ import TourMap from "@/components/TourMap";
 import StopTimeline from "@/components/StopTimeline";
 import GuideChat from "@/components/GuideChat";
 import TourFacts from "@/components/TourFacts";
+import GuideTeaser from "@/components/GuideTeaser";
 import { getTourHeroImage } from "@/data/images";
+import { imgAttrs } from "@/lib/img";
 import { getDestination } from "@/data/destinations";
 import { getCategory } from "@/lib/categories";
 import Link from "next/link";
@@ -68,8 +70,8 @@ export default async function TourPage({ params }: Props) {
         {hero && (
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
-            src={hero.url}
-            alt={hero.alt}
+            {...imgAttrs(hero, "100vw")}
+            fetchPriority="high"
             className="absolute inset-0 h-full w-full object-cover opacity-40"
           />
         )}
@@ -185,7 +187,11 @@ export default async function TourPage({ params }: Props) {
           </div>
         </section>
 
-        <section className="mt-20">
+        <section className="mt-16">
+          <GuideTeaser href={`/fuehrung?tour=${tour.slug}#anfrage`} />
+        </section>
+
+        <section className="mt-16">
           <h2 className="headline text-3xl text-cream sm:text-4xl">Häufige Fragen</h2>
           <div className="mt-6 space-y-3">
             {tour.faq.map((f) => (

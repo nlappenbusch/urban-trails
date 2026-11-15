@@ -5,6 +5,7 @@ import { Navigation, X } from "lucide-react";
 import type { GeoPoint, Stop, Tour } from "@/lib/types";
 import AudioPlayer from "@/components/AudioPlayer";
 import { getStopImage } from "@/data/images";
+import { imgAttrs } from "@/lib/img";
 import TourMap from "@/components/TourMap";
 import NaviMode, { requestCompass } from "@/components/NaviMode";
 import { sceneFor } from "@/lib/scene";
@@ -80,7 +81,7 @@ function StopCard({
         {image && (
           <div className="relative -mx-4 -mt-4 mb-4 sm:-mx-8 sm:-mt-8 sm:mb-5">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={image.url} alt={image.alt} loading="lazy" className="h-40 w-full object-cover sm:h-72" />
+            <img {...imgAttrs(image)} loading="lazy" decoding="async" className="h-40 w-full object-cover sm:h-72" />
             <a
               href={image.credit}
               target="_blank"

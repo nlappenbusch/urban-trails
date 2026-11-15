@@ -68,10 +68,21 @@ export interface FaqItem {
   answer: string;
 }
 
-export interface StopImage {
-  url: string;
+/** Eintrag in src/data/images.ts – `source` wird nur von scripts/fetch-images.mjs geladen. */
+export interface StopImageSource {
+  source: string;
   alt: string;
   /** Link zur Quell-/Lizenzseite (z.B. Wikimedia Commons) */
+  credit: string;
+}
+
+/** Selbst ausgeliefertes Foto unter /img (WebP, 1200 und 480 px breit). */
+export interface StopImage {
+  url: string;
+  small: string;
+  width: number;
+  height: number;
+  alt: string;
   credit: string;
 }
 

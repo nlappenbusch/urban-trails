@@ -449,7 +449,7 @@ export default function NaviMode({
               <div className="flex items-center gap-3">
                 {image && (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={image.url} alt={image.alt} className="h-16 w-16 shrink-0 rounded-2xl object-cover" />
+                  <img src={image.small} alt={image.alt} width={64} height={64} className="h-16 w-16 shrink-0 rounded-2xl object-cover" />
                 )}
                 <div className="min-w-0">
                   <p className="text-xs font-bold uppercase tracking-wider text-emerald-400">Du bist da</p>

@@ -6,6 +6,7 @@ import { getToursByCity } from "@/lib/tours";
 import { getTourHeroImage } from "@/data/images";
 import { cityJsonLd, socialMeta } from "@/lib/seo";
 import TourCard from "@/components/TourCard";
+import GuideTeaser from "@/components/GuideTeaser";
 
 interface Props {
   params: Promise<{ city: string }>;
@@ -62,6 +63,10 @@ export default async function CityPage({ params }: Props) {
         {cityTours.map((t) => (
           <TourCard key={t.slug} tour={t} />
         ))}
+      </div>
+
+      <div className="mt-10">
+        <GuideTeaser href={`/fuehrung?stadt=${dest.slug}#anfrage`} place={dest.name} />
       </div>
 
       <section className="mt-16 max-w-3xl">

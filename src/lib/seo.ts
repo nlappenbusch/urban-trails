@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import type { Destination, Tour } from "@/lib/types";
+import type { Destination, StopImage, Tour } from "@/lib/types";
 import { getDestination } from "@/data/destinations";
 import { getTourHeroImage } from "@/data/images";
 
@@ -7,13 +7,17 @@ export const SITE_NAME = "Urban Trails Switzerland";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
+const absUrl = (u: string) => (u.startsWith("http") ? u : `${SITE_URL}${u}`);
+
 export function tourUrl(tour: Tour): string {
   return `${SITE_URL}/${tour.citySlug}/${tour.slug}`;
 }
 
 /** Open-Graph- und Twitter-Angaben mit Vorschaubild (Next ersetzt openGraph je Seite komplett). */
-export function socialMeta(opts: { title: string; description: string; path: string; image?: { url: string; alt: string }; type?: "website" | "article" }): Pick<Metadata, "openGraph" | "twitter"> {
-  const images = opts.image ? [{ url: opts.image.url, alt: opts.image.alt, width: 1280 }] : undefined;
+export function socialMeta(opts: { title: string; description: string; path: string; image?: StopImage; type?: "website" | "article" }): Pick<Metadata, "openGraph" | "twitter"> {
+  const images = opts.image
+    ? [{ url: absUrl(opts.image.url), alt: opts.image.alt, width: opts.image.width, height: opts.image.height }]
+    : undefined;
   return {
     openGraph: {
       title: opts.title,
@@ -96,7 +100,7 @@ export function tourJsonLd(tour: Tour): object[] {
     description: tour.seo.metaDescription,
     url: tourUrl(tour),
     inLanguage: "de-CH",
-    ...(hero ? { image: hero.url } : {}),
+    ...(hero ? { image: absUrl(hero.url) } : {}),
     touristType: tour.audience,
     itinerary: {
       "@type": "ItemList",

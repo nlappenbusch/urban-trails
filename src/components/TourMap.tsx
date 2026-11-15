@@ -6,6 +6,7 @@ import { Navigation, Pause, Play } from "lucide-react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import type { Stop } from "@/lib/types";
 import { getStopImage } from "@/data/images";
+import { imgAttrs } from "@/lib/img";
 
 interface TourMapProps {
   stops: Stop[];
@@ -268,8 +269,7 @@ export default function TourMap({
               {selImage && (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
-                  src={selImage.url}
-                  alt={selImage.alt}
+                  {...imgAttrs(selImage, "(min-width: 640px) 400px, 100vw")}
                   className="h-full w-full object-cover"
                 />
               )}

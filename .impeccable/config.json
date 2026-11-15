@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "src/components/NaviMode.tsx"
+        ],
+        "createdAt": "2026-11-15T18:18:44.780Z",
+        "reason": "Claude: CSS-Dreieck (border-Trick) für den Blickrichtungs-Kegel am GPS-Punkt, keine Karte"
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "src/components/StopTimeline.tsx"
+        ],
+        "createdAt": "2026-11-15T19:43:47.363Z",
+        "reason": "Claude: src kommt per Spread aus imgAttrs() (lokales WebP mit srcset), der statische Check sieht es nicht"
+      }
+    ]
+  }
+}

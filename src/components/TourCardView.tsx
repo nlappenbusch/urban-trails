@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight, Clock, Footprints, Gem, MapPin } from "lucide-react";
 import type { TourLite } from "@/lib/tour-lite";
 import CategoryIcon from "@/components/CategoryIcon";
+import { imgAttrs } from "@/lib/img";
 
 function fmtDur(minutes: number): string {
   const h = Math.floor(minutes / 60);
@@ -22,12 +23,12 @@ export default function TourCardView({ t }: { t: TourLite }) {
         className="relative h-48 w-full overflow-hidden sm:h-56"
         style={{ background: `linear-gradient(135deg, ${t.gradient[0]}, ${t.gradient[1]})` }}
       >
-        {t.heroUrl && (
+        {t.hero && (
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
-            src={t.heroUrl}
-            alt={t.heroAlt ?? ""}
+            {...imgAttrs(t.hero, "(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw")}
             loading="lazy"
+            decoding="async"
             className="absolute inset-0 h-full w-full object-cover"
           />
         )}

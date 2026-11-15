@@ -11,6 +11,7 @@ const links = [
   { href: "/touren", label: "Touren" },
   { href: "/destinationen", label: "Destinationen" },
   { href: "/kategorien", label: "Kategorien" },
+  { href: "/fuehrung", label: "Mit Guide" },
 ];
 
 export default function Header({ catalog }: { catalog: Catalog }) {

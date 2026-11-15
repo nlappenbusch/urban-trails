@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.7,
     })),
+    { url: `${SITE_URL}/fuehrung`, changeFrequency: "monthly", priority: 0.8 },
     {
       url: `${SITE_URL}/ueberrasche-mich`,
       changeFrequency: "monthly",

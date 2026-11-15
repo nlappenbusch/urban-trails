@@ -2,6 +2,7 @@ import type { Tour } from "@/lib/types";
 import { getDestination } from "@/data/destinations";
 import { getCategory } from "@/lib/categories";
 import { getTourHeroImage } from "@/data/images";
+import type { StopImage } from "@/lib/types";
 
 /** Schlanke Tourdaten für Karten in Client-Komponenten (ohne Stopp-Texte). */
 export interface TourLite {
@@ -17,8 +18,7 @@ export interface TourLite {
   gems: number;
   category?: string;
   categoryName?: string;
-  heroUrl?: string;
-  heroAlt?: string;
+  hero?: StopImage;
 }
 
 export function toTourLite(t: Tour): TourLite {
@@ -37,7 +37,6 @@ export function toTourLite(t: Tour): TourLite {
     gems: t.stops.filter((s) => s.isHiddenGem).length,
     category: t.category,
     categoryName: cat?.name,
-    heroUrl: hero?.url,
-    heroAlt: hero?.alt,
+    hero,
   };
 }

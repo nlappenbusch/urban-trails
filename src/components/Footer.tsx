@@ -91,6 +91,14 @@ export default function Footer() {
                 Überrasch mich
               </Link>
             </li>
+            <li>
+              <Link
+                href="/fuehrung"
+                className="font-bold text-cream-dim hover:text-cream"
+              >
+                Führung mit Guide
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

@@ -15,6 +15,9 @@ services:
       - "8083:3000"
     env_file:
       - .env
+    # Mailcow intern erreichen (öffentliche IP ist aus dem Container nicht erreichbar)
+    extra_hosts:
+      - "mail.nerdag.ch:192.168.50.106"
     volumes:
       - audio-cache:/app/.audio-cache
       # Konten & Spielstände (accounts.json, Sitzungsschlüssel)

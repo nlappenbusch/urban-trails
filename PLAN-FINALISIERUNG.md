@@ -1,7 +1,8 @@
 # Urban Trails – Plan «vom Prototyp zum fertigen Produkt»
 
 Stand: 15.11.2026, Commit `1ff25ab` (live auf https://urban-trails.ch).
-Dieser Plan ist die Übergabe an die Umsetzung. Es wurde noch nichts davon gebaut.
+
+**Fortschritt:** Pakete 1–3 live (Commit `bc3b54c`), Paket 4 live (`2341f1a`), SEO-Grundlagen live (`6c60572`: Vorschaubilder, JSON-LD, Stadtseiten mit Sehenswürdigkeiten). Offen: Pakete 5–7, Google Search Console (braucht Nils' Google-Konto; DNS-TXT kann per `serv1_dns_ensure` gesetzt werden).
 
 ## Rahmen für die Umsetzung
 

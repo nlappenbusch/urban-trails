@@ -928,9 +928,8 @@ const sizes = meta as unknown as Record<string, [number, number]>;
 
 function local(key: string, img: StopImageSource | undefined): StopImage | undefined {
   const dims = sizes[key];
-  if (!img) return undefined;
-  // Übergang: noch nicht geladene Fotos kommen weiter von Wikimedia (scripts/fetch-images.mjs nachlaufen lassen)
-  if (!dims) return { url: img.source, small: img.source, width: 1280, height: 853, alt: img.alt, credit: img.credit };
+  // Ohne eigene Kopie lieber Farbverlauf als Fremdabruf – neue Bilder: node scripts/fetch-images.mjs
+  if (!img || !dims) return undefined;
   return { url: `/img/${key}-1200.webp`, small: `/img/${key}-480.webp`, width: dims[0], height: dims[1], alt: img.alt, credit: img.credit };
 }
 

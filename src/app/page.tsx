@@ -5,6 +5,8 @@ import { toTourLite } from "@/lib/tour-lite";
 import HomeTours, { type CityChip } from "@/components/HomeTours";
 import AudioPlayer from "@/components/AudioPlayer";
 import GuideTeaser from "@/components/GuideTeaser";
+import { trips, daysLabel } from "@/lib/ausfluege";
+import { toTripLite } from "@/lib/ausfluege-view";
 import { sceneFor } from "@/lib/scene";
 import { getStopImage, getTourHeroImage } from "@/data/images";
 import { imgAttrs } from "@/lib/img";
@@ -24,6 +26,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const lite = tours.map(toTourLite);
+  const tripsLite = trips.map(toTripLite);
 
   const cities: CityChip[] = destinations
     .filter((d) => !d.comingSoon)
@@ -55,10 +58,33 @@ export default function HomePage() {
 
       <section className="container-page pb-16" aria-label="Touren">
         <HomeTours tours={lite} cities={cities} featured={featured} />
-        <div className="mt-10">
-          <GuideTeaser href="/fuehrung" />
-        </div>
       </section>
+
+      {tripsLite.length > 0 && (
+        <section className="container-page pb-16" aria-labelledby="ausfluege-titel">
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <h2 id="ausfluege-titel" className="font-display text-3xl font-extrabold tracking-tight text-cream sm:text-4xl">Ausflüge, fertig geplant</h2>
+              <p className="mt-2 max-w-xl text-cream-dim">Tagesausflug oder Wochenende – mit Uhrzeit, Restaurant, Hotel und Plan B für Regen.</p>
+            </div>
+            <Link href="/ausfluege" className="text-sm font-bold text-signal-600 hover:text-signal-500">Alle Ausflüge →</Link>
+          </div>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {tripsLite.slice(0, 6).map((t) => (
+              <li key={t.slug}>
+                <Link href={`/ausfluege/${t.slug}`} className="card group flex h-full flex-col p-5 transition hover:border-cream/30">
+                  <span className="kicker">{t.regionName} · {daysLabel(t.days)}</span>
+                  <span className="mt-2 font-display text-lg font-extrabold leading-tight tracking-tight text-cream decoration-2 underline-offset-4 group-hover:underline">{t.title}</span>
+                  <span className="mt-1.5 text-sm leading-relaxed text-cream-dim">{t.teaser}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-10">
+            <GuideTeaser href="/fuehrung" />
+          </div>
+        </section>
+      )}
 
       {sampleTour && sample && (
         <section className="border-t border-cream/10 bg-ink-900/60">
@@ -77,7 +103,7 @@ export default function HomePage() {
             <div className="card overflow-hidden">
               {sampleImg && (
                 /* eslint-disable-next-line @next/next/no-img-element */
-                <img {...imgAttrs(sampleImg, "(min-width: 768px) 50vw, 100vw")} loading="lazy" decoding="async" className="h-40 w-full object-cover sm:h-48" />
+                <img src={sampleImg.url} {...imgAttrs(sampleImg, "(min-width: 768px) 50vw, 100vw")} loading="lazy" decoding="async" className="h-40 w-full object-cover sm:h-48" />
               )}
               <div className="p-5">
                 <p className="font-display text-xl font-extrabold tracking-tight text-cream">{sample.name}</p>

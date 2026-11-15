@@ -274,5 +274,461 @@
  "s/letten-finale-social": [
   1200,
   900
+ ],
+ "s/limmatplatz": [
+  1200,
+  800
+ ],
+ "s/lindenhof": [
+  1200,
+  801
+ ],
+ "s/lindenhof-abend": [
+  1200,
+  801
+ ],
+ "s/lindenhof-express": [
+  1200,
+  801
+ ],
+ "s/loewendenkmal": [
+  1200,
+  797
+ ],
+ "s/lokstadt-und-lagerplatz": [
+  1200,
+  800
+ ],
+ "s/lungolago": [
+  1200,
+  900
+ ],
+ "s/marktgasse-und-altstadt": [
+  1200,
+  800
+ ],
+ "s/markthalle-foodtour": [
+  1200,
+  803
+ ],
+ "s/markthalle-gemeinschaftstisch": [
+  1200,
+  803
+ ],
+ "s/marktplatz-rathaus": [
+  1200,
+  802
+ ],
+ "s/mittlere-bruecke": [
+  1200,
+  576
+ ],
+ "s/muehleschleuse-surfer": [
+  1200,
+  874
+ ],
+ "s/muenster": [
+  1200,
+  900
+ ],
+ "s/muenster-pfalz": [
+  1200,
+  800
+ ],
+ "s/muensterbruecke": [
+  1200,
+  623
+ ],
+ "s/muensterbruecke-grossmuenster-express": [
+  1200,
+  1800
+ ],
+ "s/museggmauer": [
+  1200,
+  750
+ ],
+ "s/nationalquai": [
+  1200,
+  800
+ ],
+ "s/negrellisteg": [
+  1200,
+  1600
+ ],
+ "s/niederdorf": [
+  1200,
+  532
+ ],
+ "s/oberburg-das-staedtli": [
+  1200,
+  781
+ ],
+ "s/obere-gasse": [
+  1200,
+  1699
+ ],
+ "s/obere-hauptgasse": [
+  1200,
+  1800
+ ],
+ "s/oberer-letten": [
+  1200,
+  900
+ ],
+ "s/obertor": [
+  1200,
+  1213
+ ],
+ "s/odeon": [
+  1200,
+  800
+ ],
+ "s/opernhaus": [
+  1200,
+  795
+ ],
+ "s/ouchy-olympia": [
+  1200,
+  900
+ ],
+ "s/paradeplatz-spruengli": [
+  1200,
+  900
+ ],
+ "s/parc-des-bastions": [
+  1200,
+  900
+ ],
+ "s/parco-ciani": [
+  1200,
+  797
+ ],
+ "s/piazza-cella": [
+  1200,
+  1600
+ ],
+ "s/piazza-riforma": [
+  1200,
+  900
+ ],
+ "s/place-de-la-palud": [
+  1200,
+  1600
+ ],
+ "s/planetenweg": [
+  1200,
+  800
+ ],
+ "s/platzspitz-letten-weg": [
+  1200,
+  900
+ ],
+ "s/polyterrasse": [
+  1200,
+  801
+ ],
+ "s/quai-ouchy": [
+  1200,
+  1800
+ ],
+ "s/reformierte-kirche": [
+  1200,
+  900
+ ],
+ "s/rentenwiese-seebad": [
+  1200,
+  795
+ ],
+ "s/rheinbruecke": [
+  1200,
+  800
+ ],
+ "s/rheingasse-kleinbasel": [
+  1200,
+  900
+ ],
+ "s/roentgenplatz": [
+  1200,
+  900
+ ],
+ "s/rosengaerten": [
+  1200,
+  900
+ ],
+ "s/rosengarten": [
+  1200,
+  797
+ ],
+ "s/rote-fabrik": [
+  1200,
+  1600
+ ],
+ "s/rundturm": [
+  1200,
+  800
+ ],
+ "s/saffa-insel": [
+  1200,
+  800
+ ],
+ "s/santa-maria-angioli": [
+  1200,
+  867
+ ],
+ "s/schadaupark": [
+  1200,
+  800
+ ],
+ "s/schiffbau": [
+  1200,
+  677
+ ],
+ "s/schipfe": [
+  1200,
+  800
+ ],
+ "s/schipfe-express": [
+  1200,
+  800
+ ],
+ "s/schloss-rapperswil": [
+  1200,
+  800
+ ],
+ "s/schloss-regensberg": [
+  1200,
+  800
+ ],
+ "s/schloss-thun": [
+  1200,
+  1372
+ ],
+ "s/schwarzenbach": [
+  1200,
+  1800
+ ],
+ "s/seepromenade": [
+  1200,
+  801
+ ],
+ "s/shopville": [
+  1200,
+  800
+ ],
+ "s/spheres-buchbar": [
+  1200,
+  805
+ ],
+ "s/spreuerbruecke": [
+  1200,
+  675
+ ],
+ "s/st-peter": [
+  1200,
+  1500
+ ],
+ "s/stadthaus-von-gottfried-semper": [
+  1200,
+  800
+ ],
+ "s/stadtkirche": [
+  1200,
+  1200
+ ],
+ "s/stadtlounge": [
+  1200,
+  750
+ ],
+ "s/stiftsbezirk-kathedrale": [
+  1200,
+  1000
+ ],
+ "s/stiftsbibliothek": [
+  1200,
+  1865
+ ],
+ "s/sulzerareal-und-kesselhaus": [
+  1200,
+  1500
+ ],
+ "s/uetliberg-bahn": [
+  1200,
+  1762
+ ],
+ "s/unterburg-und-aufstieg": [
+  1200,
+  781
+ ],
+ "s/unterer-rheinweg": [
+  1200,
+  729
+ ],
+ "s/untergass-das-staedtli": [
+  1200,
+  1600
+ ],
+ "s/via-nassa": [
+  1200,
+  1309
+ ],
+ "s/weinmarkt": [
+  1200,
+  901
+ ],
+ "s/zytglogge": [
+  1200,
+  800
+ ],
+ "s/so-krummturm": [
+  1200,
+  902
+ ],
+ "s/so-wengibruecke-landhausquai": [
+  1200,
+  800
+ ],
+ "s/so-zytglogge": [
+  1200,
+  901
+ ],
+ "s/so-jesuitenkirche": [
+  1200,
+  900
+ ],
+ "s/so-rathaus": [
+  1200,
+  800
+ ],
+ "s/so-baseltor": [
+  1200,
+  901
+ ],
+ "s/so-st-ursen": [
+  1200,
+  796
+ ],
+ "s/so-roetibruecke": [
+  1200,
+  900
+ ],
+ "s/so-riedholzturm": [
+  1200,
+  697
+ ],
+ "s/so-einsiedelei": [
+  1200,
+  800
+ ],
+ "s/so-schluchteingang": [
+  1200,
+  900
+ ],
+ "s/so-verenaschlucht": [
+  1200,
+  800
+ ],
+ "s/so-kreuzen": [
+  1200,
+  1012
+ ],
+ "s/so-schloss-waldegg": [
+  1200,
+  803
+ ],
+ "t/baden-altstadt": [
+  1200,
+  1800
+ ],
+ "t/basel-rhein": [
+  1200,
+  800
+ ],
+ "t/bern-altstadt": [
+  1200,
+  797
+ ],
+ "t/chreis-cheib": [
+  1200,
+  900
+ ],
+ "t/chur-aelteste-stadt": [
+  1200,
+  824
+ ],
+ "t/eglisau": [
+  903,
+  600
+ ],
+ "t/genf-jet-deau": [
+  1200,
+  1600
+ ],
+ "t/hidden-zuerich": [
+  1200,
+  848
+ ],
+ "t/ich-muss-mal-raus": [
+  1200,
+  800
+ ],
+ "t/lausanne-hoch-tief": [
+  1200,
+  1800
+ ],
+ "t/lugano-dolce-vita": [
+  1200,
+  900
+ ],
+ "t/luzern-klassiker": [
+  1200,
+  675
+ ],
+ "t/new-people-route": [
+  1200,
+  800
+ ],
+ "t/rapperswil": [
+  1200,
+  800
+ ],
+ "t/regensberg": [
+  1200,
+  781
+ ],
+ "t/st-gallen-stiftsbezirk": [
+  1200,
+  1865
+ ],
+ "t/thun-schloss-aare": [
+  1200,
+  1372
+ ],
+ "t/urban-sunset-walk": [
+  1200,
+  797
+ ],
+ "t/winterthur": [
+  1200,
+  800
+ ],
+ "t/zuerich-60-minuten": [
+  1200,
+  1800
+ ],
+ "t/zuerich-foodies": [
+  1200,
+  800
+ ],
+ "t/zuerich-klassiker": [
+  1200,
+  623
+ ],
+ "t/solothurn-elf": [
+  1200,
+  506
+ ],
+ "t/solothurn-verenaschlucht": [
+  1200,
+  900
  ]
 }

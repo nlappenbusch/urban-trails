@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "node --test tests/travel.test.cjs",
+    "test": "node --test tests/travel.test.cjs tests/ausfluege.test.cjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

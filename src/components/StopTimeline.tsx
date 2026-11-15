@@ -81,7 +81,7 @@ function StopCard({
         {image && (
           <div className="relative -mx-4 -mt-4 mb-4 sm:-mx-8 sm:-mt-8 sm:mb-5">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img {...imgAttrs(image)} loading="lazy" decoding="async" className="h-40 w-full object-cover sm:h-72" />
+            <img src={image.url} {...imgAttrs(image)} loading="lazy" decoding="async" className="h-40 w-full object-cover sm:h-72" />
             <a
               href={image.credit}
               target="_blank"

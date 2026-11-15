@@ -70,7 +70,7 @@ export default async function TourPage({ params }: Props) {
         {hero && (
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
-            {...imgAttrs(hero, "100vw")}
+            src={hero.url} {...imgAttrs(hero, "100vw")}
             fetchPriority="high"
             className="absolute inset-0 h-full w-full object-cover opacity-40"
           />

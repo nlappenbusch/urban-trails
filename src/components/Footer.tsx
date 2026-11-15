@@ -93,6 +93,14 @@ export default function Footer() {
             </li>
             <li>
               <Link
+                href="/ausfluege"
+                className="font-bold text-cream-dim hover:text-cream"
+              >
+                Ausflüge & Wochenenden
+              </Link>
+            </li>
+            <li>
+              <Link
                 href="/fuehrung"
                 className="font-bold text-cream-dim hover:text-cream"
               >

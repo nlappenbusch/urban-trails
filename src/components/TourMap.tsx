@@ -269,7 +269,7 @@ export default function TourMap({
               {selImage && (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
-                  {...imgAttrs(selImage, "(min-width: 640px) 400px, 100vw")}
+                  src={selImage.url} {...imgAttrs(selImage, "(min-width: 640px) 400px, 100vw")}
                   className="h-full w-full object-cover"
                 />
               )}

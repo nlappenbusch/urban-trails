@@ -1,0 +1,1179 @@
+{
+ "places": [
+  {
+   "id": "lug-hotel-pestalozzi",
+   "kind": "hotel",
+   "name": "Hotel Pestalozzi Lugano",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Piazza Indipendenza 9, 6901 Lugano",
+   "coords": {
+    "lat": 46.00571,
+    "lng": 8.95506
+   },
+   "url": "https://www.pestalozzi-lugano.ch/",
+   "price": 2,
+   "tags": [
+    "see",
+    "freunde",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "text": "Familiengeführtes Stadthotel an einem ruhigen Platz, rund 150 Meter vom See und vom Parco Ciani entfernt. Von hier gehst du alles im Zentrum zu Fuss ab, und das hauseigene Restaurant schaut auf den See.",
+   "tip": "Frag beim Buchen nach einem Zimmer auf der Seeseite, die Lage am Platz ist sonst eher städtisch.",
+   "source": "https://www.pestalozzi-lugano.ch/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-hotel-villa-castagnola",
+   "kind": "hotel",
+   "name": "Grand Hotel Villa Castagnola",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Viale Castagnola 31, 6900 Lugano",
+   "coords": {
+    "lat": 46.00633,
+    "lng": 8.9699
+   },
+   "url": "https://www.villacastagnola.com/",
+   "price": 4,
+   "tags": [
+    "romantisch",
+    "see",
+    "wellness",
+    "genuss"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "text": "Ehemalige Adelsvilla aus dem 19. Jahrhundert in einem grossen Park in Cassarate, mit eigenem Lido am See, Spa und mehreren Restaurants. Ideal, wenn du dir für ein besonderes Wochenende etwas gönnen willst und den Monte Brè und den Olivenweg quasi vor der Haustür hast.",
+   "tip": "Die Talstation der Monte-Brè-Bahn und der Startpunkt zum Sentiero dell'olivo liegen von hier aus viel näher als vom Zentrum.",
+   "source": "https://www.villacastagnola.com/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-grotto-morchino",
+   "kind": "restaurant",
+   "name": "Grotto Morchino",
+   "region": "lugano",
+   "town": "Lugano-Pazzallo",
+   "address": "Via Carona 1, 6912 Lugano-Pazzallo",
+   "coords": {
+    "lat": 45.98527,
+    "lng": 8.94367
+   },
+   "url": "https://www.grottomorchino.ch/",
+   "price": 2,
+   "tags": [
+    "genuss",
+    "freunde",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "Di–Sa 12–14 und 18.30–22 Uhr, So/Mo Ruhetag",
+   "text": "Klassisches Tessiner Grotto am Hang über Lugano, wo du unter Bäumen sitzt und Hausmannskost wie Ossobuco oder Brasato bekommst. Genau der Ort, an dem ein Sommerabend im Tessin lang werden darf.",
+   "tip": "Am Wochenende unbedingt reservieren und für den Rückweg ins Zentrum ein Taxi einplanen.",
+   "source": "http://www.grottomorchino.ch/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-osteria-trani",
+   "kind": "restaurant",
+   "name": "Osteria Trani",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Via Cattedrale 12, 6900 Lugano",
+   "coords": {
+    "lat": 46.00521,
+    "lng": 8.949
+   },
+   "url": "https://www.trani.ch/",
+   "price": 3,
+   "tags": [
+    "genuss",
+    "romantisch",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mo–Fr 11.45–14 und 18.30–22 Uhr, Sa nur abends, So geschlossen",
+   "text": "Osteria mit Backsteingewölbe direkt unterhalb der Kathedrale San Lorenzo, mit italienisch-mediterraner Küche und einer sehr grossen Weinkarte. Pasta liegt etwa bei 26 bis 36 Franken, Hauptgänge darüber.",
+   "tip": "Lass dich bei der Weinauswahl beraten, die Karte ist dick genug, um sich darin zu verlieren.",
+   "source": "https://www.trani.ch/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-vanini-piazza-riforma",
+   "kind": "cafe",
+   "name": "Vanini 1871 Dolce e Caffè",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Piazza Riforma 1, 6900 Lugano",
+   "coords": {
+    "lat": 46.00404,
+    "lng": 8.95129
+   },
+   "url": "https://www.vanini.swiss/",
+   "price": 2,
+   "tags": [
+    "genuss",
+    "familie",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "text": "Traditionscafé an der Piazza della Riforma, seit 1939 am selben Platz, mit Frühstück, Snacks und hausgemachter Glace. Von den Tischen draussen hast du das Treiben auf dem grössten Platz der Stadt im Blick.",
+   "tip": "Glace gibt es auch zum Mitnehmen, perfekt für den Spaziergang an die Seepromenade.",
+   "source": "https://www.luganoregion.com/en/commons/details/Vanini-1871-Dolce-e-caffè-/150402.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-bottegone-del-vino",
+   "kind": "bar",
+   "name": "Bottegone del Vino",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Via Magatti 3, 6900 Lugano",
+   "coords": {
+    "lat": 46.00435,
+    "lng": 8.95186
+   },
+   "url": null,
+   "price": 2,
+   "tags": [
+    "genuss",
+    "freunde",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "So geschlossen",
+   "text": "Kleine Weinbar mit rund 40 Plätzen gleich neben der Piazza Riforma, viele Tessiner Weine gibt es offen im Glas. Dazu kommen Käse, Salumi und eine einfache Tageskarte.",
+   "tip": "Frag nach einem Merlot aus dem Sottoceneri, den du zuhause kaum im Regal findest.",
+   "source": "https://www.luganoregion.com/en/restaurants/details/Ristorante-Bottegone-del-Vino/75375.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-manora-lugano",
+   "kind": "restaurant",
+   "name": "Manora Lugano (Manor Restaurant)",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Piazza Dante 2, 6900 Lugano",
+   "coords": {
+    "lat": 46.005,
+    "lng": 8.95045
+   },
+   "url": "https://www.manor.ch/",
+   "price": 1,
+   "tags": [
+    "familie",
+    "regenfest",
+    "freunde"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "text": "Selbstbedienungsrestaurant im Manor an der Piazza Dante mit Stationen für Pizza, Pasta und Salate, du zahlst nur, was auf dem Teller liegt. Die günstigste Art, im teuren Lugano mittags satt zu werden.",
+   "tip": "Draussen gibt es auch Sitzplätze, an schönen Tagen lohnt sich ein Tisch im Freien.",
+   "source": "https://www.luganoregion.com/en/commons/details/Manor/150380.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-monte-bre",
+   "kind": "aussicht",
+   "name": "Monte Brè mit Standseilbahn ab Cassarate",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Talstation Cassarate, 6900 Lugano",
+   "coords": {
+    "lat": 46.00908,
+    "lng": 8.98741
+   },
+   "url": "https://www.montebre.ch/",
+   "price": 2,
+   "tags": [
+    "aussicht",
+    "berg",
+    "see",
+    "aktiv",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig, Revisionspause im Januar/Februar",
+   "durationMin": 150,
+   "text": "Die Standseilbahn von 1908 bringt dich mit Umsteigen in Suvigliana auf knapp 1000 Meter, oben schaust du über den ganzen Luganersee bis zu den Walliser Alpen. Lohnend ist der kurze Spaziergang hinüber ins alte Dorf Brè mit seinen Kunstwerken an den Hausmauern.",
+   "tip": "Wer gut zu Fuss ist, fährt nur hoch und wandert über Brè Paese und Aldesago zurück ins Tal.",
+   "source": "https://www.montebre.ch/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-monte-san-salvatore",
+   "kind": "aussicht",
+   "name": "Monte San Salvatore (Standseilbahn ab Paradiso)",
+   "region": "lugano",
+   "town": "Lugano-Paradiso",
+   "address": "Via delle Scuole 7, 6900 Paradiso",
+   "coords": {
+    "lat": 45.99035,
+    "lng": 8.94539
+   },
+   "url": "https://www.montesansalvatore.ch/",
+   "price": 2,
+   "tags": [
+    "aussicht",
+    "berg",
+    "see",
+    "familie",
+    "kultur"
+   ],
+   "weatherProof": false,
+   "season": "Mitte März bis Anfang November",
+   "durationMin": 120,
+   "text": "Der Zuckerhut von Lugano: Die Standseilbahn fährt von Paradiso in zwei Abschnitten auf den Gipfel, wo eine Kirche mit Dachterrasse und ein kleines Museum warten. Von oben siehst du direkt auf Stadt, See und die Halbinsel von Morcote.",
+   "tip": "Steig auf das Dach der Gipfelkirche, von dort ist die Rundsicht noch freier als von der Restaurantterrasse.",
+   "source": "https://www.montesansalvatore.ch/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-sentiero-olivo-gandria",
+   "kind": "aktivitaet",
+   "name": "Sentiero dell'olivo Castagnola–Gandria",
+   "region": "lugano",
+   "town": "Lugano-Castagnola / Gandria",
+   "address": "Start beim alten Gemeindehaus Castagnola oder oberhalb von Gandria, 6978 Gandria",
+   "coords": {
+    "lat": 46.00574,
+    "lng": 9.00278
+   },
+   "url": "https://www.luganoregion.com/en/theme-trail/details/The-Olive-Grove-Trail/58645146.html",
+   "price": 1,
+   "tags": [
+    "see",
+    "aktiv",
+    "gratis",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig begehbar, am schönsten April–Oktober",
+   "durationMin": 75,
+   "text": "Rund 3,5 Kilometer langer, leichter Uferweg durch Olivenhaine und Trockenmauern, mit Infotafeln zur Geschichte des Olivenanbaus am Ceresio. Am Ende stehst du im Fischerdorf Gandria, dessen Häuser direkt aus dem See zu wachsen scheinen.",
+   "tip": "Geh von Castagnola nach Gandria und nimm zurück das Schiff, so hast du den schönsten Blick aufs Dorf vom Wasser aus.",
+   "source": "https://www.luganoregion.com/en/theme-trail/details/58645146",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-schiff-snl",
+   "kind": "aktivitaet",
+   "name": "Schiff auf dem Luganersee (Società Navigazione del Lago di Lugano)",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Schiffstation Lugano Centrale, Riva Vincenzo Vela, 6900 Lugano",
+   "coords": null,
+   "url": "https://www.lakelugano.ch/",
+   "price": 2,
+   "tags": [
+    "see",
+    "familie",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Hauptsaison April–Oktober, im Winter nur wenige Kurse",
+   "durationMin": 30,
+   "text": "Die Kursschiffe verbinden Lugano mit Gandria, Morcote und weiteren Dörfern am See. Für die kurze Strecke zwischen Gandria und dem Zentrum ist das Schiff die gemütlichste Art, zurückzukommen.",
+   "tip": "Setz dich auf dem Rückweg aufs Oberdeck auf die rechte Seite, dann hast du den Monte San Salvatore direkt vor dir.",
+   "source": "https://www.lakelugano.ch/it",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-lac-masi",
+   "kind": "sehenswuerdigkeit",
+   "name": "LAC Lugano Arte e Cultura / MASI Lugano",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Piazza Bernardino Luini 6, 6900 Lugano",
+   "coords": {
+    "lat": 45.99948,
+    "lng": 8.94808
+   },
+   "url": "https://www.luganolac.ch/",
+   "price": 2,
+   "tags": [
+    "kultur",
+    "regenfest",
+    "see"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "MASI: Mo geschlossen; Di/Mi/Fr 11–18, Do 11–20, Sa/So 10–18 Uhr",
+   "durationMin": 90,
+   "text": "Das Kulturzentrum am See beherbergt das Kunstmuseum der italienischen Schweiz (MASI) mit wechselnden Ausstellungen und einer Sammlung zur Tessiner Kunst. Allein die grosse Glashalle mit Blick auf den See lohnt den Abstecher.",
+   "tip": "Donnerstags ist bis 20 Uhr offen, ideal für einen ruhigeren Museumsbesuch vor dem Abendessen.",
+   "source": "https://www.luganolac.ch/en/lac/Visita/orari",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-santa-maria-angioli",
+   "kind": "sehenswuerdigkeit",
+   "name": "Chiesa di Santa Maria degli Angioli",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Piazza Bernardino Luini 1, 6900 Lugano",
+   "coords": {
+    "lat": 45.99998,
+    "lng": 8.94904
+   },
+   "url": null,
+   "price": 1,
+   "tags": [
+    "kultur",
+    "regenfest",
+    "gratis"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "durationMin": 20,
+   "text": "Unscheinbare Kirche neben dem LAC, in der eines der bedeutendsten Renaissance-Fresken der Schweiz hängt: Bernardino Luinis Passion und Kreuzigung von 1529, gemalt auf die Trennwand im Kirchenschiff. Dazu kommt ein Abendmahl desselben Malers aus dem ehemaligen Klosterrefektorium.",
+   "tip": "Nimm dir ein paar Minuten und such im riesigen Wandbild die vielen kleinen Nebenszenen, es erzählt die ganze Passionsgeschichte.",
+   "source": "https://www.ticino.ch/fr/commons/details/Eglise-de-S-Maria-degli-Angioli-Lugano/2682.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-musec",
+   "kind": "sehenswuerdigkeit",
+   "name": "MUSEC – Museo delle Culture (Villa Malpensata)",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Riva Antonio Caccia 5, 6900 Lugano",
+   "coords": {
+    "lat": 45.99638,
+    "lng": 8.94654
+   },
+   "url": "https://www.musec.ch/",
+   "price": 2,
+   "tags": [
+    "kultur",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di geschlossen, sonst ca. 11–18 Uhr, Sa/So ab 10 Uhr",
+   "durationMin": 75,
+   "text": "Museum für aussereuropäische Kulturen in einer Villa direkt an der Uferpromenade Richtung Paradiso. Die Ausstellungen zu Kunst und Design aus Afrika, Asien und Ozeanien sind überschaubar und gut gemacht.",
+   "tip": "Nimm den Eingang über den Garten an der Riva Caccia, so kommst du direkt von der Seepromenade hinein.",
+   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/musec-museo-delle-culture-2140.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-parco-ciani",
+   "kind": "sehenswuerdigkeit",
+   "name": "Parco Ciani",
+   "region": "lugano",
+   "town": "Lugano",
+   "address": "Parco Civico Villa Ciani, 6900 Lugano",
+   "coords": {
+    "lat": 46.00392,
+    "lng": 8.95993
+   },
+   "url": "https://www.lugano.ch/en/vivere-lugano/cultura-e-tempo-libero/parchi-aree-gioco/parco-ciani/",
+   "price": 1,
+   "tags": [
+    "see",
+    "gratis",
+    "familie",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 45,
+   "text": "Der Stadtpark am See mit alten Bäumen, Blumenbeeten und der Villa Ciani in der Mitte. Hier machst du Pause auf einer Bank am Wasser oder lässt die Kinder auf dem Spielplatz toben.",
+   "tip": "Im Winter findet abends im Park ein Lichterweg statt, der Park wird dann zur Bühne.",
+   "source": "https://www.luganoregion.com/en/commons/details/85874",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lug-swissminiatur",
+   "kind": "aktivitaet",
+   "name": "Swissminiatur",
+   "region": "lugano",
+   "town": "Melide",
+   "address": "Via Cantonale, 6815 Melide",
+   "coords": {
+    "lat": 45.95362,
+    "lng": 8.95075
+   },
+   "url": "https://www.swissminiatur.ch/",
+   "price": 2,
+   "tags": [
+    "familie",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "Mitte März bis Anfang November",
+   "durationMin": 120,
+   "text": "Freiluftpark direkt am See in Melide mit über hundert Schweizer Bauwerken im Massstab 1:25 und Modelleisenbahnen, die zwischen ihnen durchfahren. Für Kinder ist es die schnellste Schweizreise überhaupt.",
+   "tip": "Geh früh am Morgen, bevor die Reisegruppen kommen, und such zusammen mit den Kindern zuerst euren eigenen Wohnort.",
+   "source": "https://www.freizeit.ch/freizeit/swissminiatur/",
+   "checked": "2026-11-15",
+   "hours": "täglich 9–18 Uhr"
+  },
+  {
+   "id": "bern-altes-tramdepot",
+   "kind": "restaurant",
+   "name": "Altes Tramdepot Brauerei & Restaurant",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Grosser Muristalden 6, 3006 Bern",
+   "coords": {
+    "lat": 46.94751,
+    "lng": 7.45965
+   },
+   "url": "https://www.altestramdepot.ch/",
+   "price": 2,
+   "tags": [
+    "genuss",
+    "freunde",
+    "familie",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich ab 11 Uhr",
+   "text": "Hausbrauerei in einem ehemaligen Tramdepot gleich neben dem Bärenpark, mit eigenem Bier vom Kessel im Saal und deftiger Küche. Von der Terrasse siehst du über die Nydeggbrücke auf die Altstadt.",
+   "tip": "Bestell das Degustationsbrett mit kleinen Gläsern, dann probierst du gleich mehrere der saisonalen Biere.",
+   "source": "https://www.bern.com/en/detail/altes-tramdepot-bi",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-restaurant-rosengarten",
+   "kind": "restaurant",
+   "name": "Restaurant Rosengarten",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Alter Aargauerstalden 31b, 3006 Bern",
+   "coords": {
+    "lat": 46.95093,
+    "lng": 7.46056
+   },
+   "url": "https://www.rosengarten.be/",
+   "price": 2,
+   "tags": [
+    "aussicht",
+    "genuss",
+    "romantisch",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig; Fondue-Veranda ca. Mitte Oktober bis Ende Februar",
+   "hours": "täglich, ca. 9–23.30 Uhr",
+   "text": "Restaurant mitten im Rosengarten mit dem bekanntesten Blick auf die Berner Altstadt, die Aareschlaufe und das Münster. Im Winter wird auf der verglasten Veranda Fondue serviert.",
+   "tip": "Für einen Fensterplatz bei Sonnenuntergang lohnt sich eine Reservation.",
+   "source": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/restaurant-rosengarten-fondue-veranda/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-kornhauskeller",
+   "kind": "restaurant",
+   "name": "Kornhauskeller",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Kornhausplatz 18, 3011 Bern",
+   "coords": {
+    "lat": 46.94885,
+    "lng": 7.44711
+   },
+   "url": "https://bindella.ch/en/restaurants/kornhauskeller",
+   "price": 3,
+   "tags": [
+    "genuss",
+    "kultur",
+    "regenfest",
+    "freunde"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mo–Fr ab 17, Sa/So ab 14 Uhr",
+   "text": "Ehemaliger Kornspeicher mit einem gewaltigen Gewölbekeller, in dem heute Schweizer und Berner Gerichte mit mediterranem Einschlag serviert werden. Oben auf der Galerie gibt es eine Bar für den Apéro.",
+   "tip": "Auch wenn du nicht hier isst: Wirf einen Blick in den Keller hinunter, der Raum allein ist ein Erlebnis.",
+   "source": "https://bindella.ch/en/restaurants/kornhauskeller",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-adrianos",
+   "kind": "cafe",
+   "name": "Adriano's Bar & Café",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Theaterplatz 2, 3011 Bern",
+   "coords": {
+    "lat": 46.94786,
+    "lng": 7.44731
+   },
+   "url": "https://www.adrianos.ch/",
+   "price": 1,
+   "tags": [
+    "genuss",
+    "regenfest",
+    "freunde"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "text": "Kaffeebar ein paar Schritte vom Zytglogge, die ihren Kaffee in einer eigenen Rösterei brennt. Morgens Espresso und Gipfeli, mittags Panini, abends Apéro.",
+   "tip": "Stell dich an die Bar statt an ein Tischchen, so bekommst du am schnellsten deinen Kaffee und den besten Blick auf die Gasse.",
+   "source": "https://bern.com/en/explore/food-drink/cafes/adrianos-bar-cafe",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-gurten",
+   "kind": "aussicht",
+   "name": "Gurten – Park im Grünen (Gurtenbahn)",
+   "region": "bern",
+   "town": "Wabern bei Bern",
+   "address": "Talstation Gurtenbahn, 3084 Wabern",
+   "coords": {
+    "lat": 46.91932,
+    "lng": 7.43855
+   },
+   "url": "https://www.gurtenpark.ch/",
+   "price": 1,
+   "tags": [
+    "aussicht",
+    "berg",
+    "familie",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig, Bahn bis ca. 23.45 Uhr",
+   "durationMin": 120,
+   "text": "Der Hausberg der Berner: Die 2024 erneuerte Standseilbahn bringt dich in rund drei Minuten von Wabern auf den Gurten. Oben erwarten dich weite Wiesen, ein Aussichtsturm und bei klarem Wetter die ganze Alpenkette von Eiger bis Blüemlisalp.",
+   "tip": "Plan den Gurten am späten Nachmittag ein, dann leuchtet die Altstadt unter dir im Abendlicht.",
+   "source": "https://bahnonline.ch/wp-content/uploads/2024/05/Factsheet-neue_Gurtenbahn-Bern_5-24.pdf",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-rosengarten",
+   "kind": "aussicht",
+   "name": "Rosengarten",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Alter Aargauerstalden, 3006 Bern",
+   "coords": {
+    "lat": 46.95197,
+    "lng": 7.4603
+   },
+   "url": null,
+   "price": 1,
+   "tags": [
+    "aussicht",
+    "gratis",
+    "romantisch",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; Rosenblüte ca. Juni–Juli",
+   "durationMin": 45,
+   "text": "Ehemaliger Friedhof, heute ein Park mit hunderten Rosen- und Iris-Sorten und einem Seerosenteich, hoch über der Aareschlaufe. Von der Kante siehst du die Dächer der Altstadt wie auf einem Modell.",
+   "tip": "Steig vom Bärenpark über den steilen Fussweg Alter Aargauerstalden hoch, das sind nur rund zehn Minuten.",
+   "source": "https://www.myswitzerland.com/en-us/experiences/rose-garden/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-zentrum-paul-klee",
+   "kind": "sehenswuerdigkeit",
+   "name": "Zentrum Paul Klee",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Monument im Fruchtland 3, 3006 Bern",
+   "coords": {
+    "lat": 46.94902,
+    "lng": 7.47439
+   },
+   "url": "https://www.zpk.org/",
+   "price": 2,
+   "tags": [
+    "kultur",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di–So 10–17 Uhr, Mo geschlossen (ausser einzelne Feiertage)",
+   "durationMin": 120,
+   "text": "Museum für Paul Klee in einem wellenförmigen Bau von Renzo Piano am Stadtrand, mit der weltweit grössten Klee-Sammlung und wechselnden Ausstellungen. Das Gebäude selbst mit den drei Hügeln ist schon einen Besuch wert.",
+   "tip": "Draussen im Fruchtland und auf dem Skulpturenweg hinter dem Museum kannst du nach dem Besuch noch eine Runde spazieren.",
+   "source": "https://www.zpk.org/en/tickets",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-einstein-haus",
+   "kind": "sehenswuerdigkeit",
+   "name": "Einstein-Haus",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Kramgasse 49, 3011 Bern",
+   "coords": {
+    "lat": 46.94767,
+    "lng": 7.44997
+   },
+   "url": "https://www.einstein-bern.ch/",
+   "price": 1,
+   "tags": [
+    "kultur",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "Februar bis Mitte Dezember",
+   "hours": "täglich 10–17 Uhr, letzter Einlass 16.45 Uhr",
+   "durationMin": 45,
+   "text": "In dieser Wohnung an der Kramgasse lebte Albert Einstein, als er 1905 die spezielle Relativitätstheorie entwickelte. Du siehst die eingerichtete Stube und darüber eine kleine Ausstellung zu seinem Leben, Eintritt 8 Franken.",
+   "tip": "Die Wohnung ist eng, geh am besten gleich um 10 Uhr oder kurz vor Schluss.",
+   "source": "https://www.einstein-bern.ch/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-bundeshaus",
+   "kind": "sehenswuerdigkeit",
+   "name": "Bundeshaus – Führung durchs Parlamentsgebäude",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Bundesplatz 3, 3003 Bern",
+   "coords": {
+    "lat": 46.94649,
+    "lng": 7.44433
+   },
+   "url": "https://www.parlament.ch/de/services/besuch-im-bundeshaus/fuehrungen-durchs-bundeshaus",
+   "price": 1,
+   "tags": [
+    "kultur",
+    "regenfest",
+    "gratis"
+   ],
+   "weatherProof": true,
+   "season": "ausserhalb der Sessionen",
+   "hours": "Führungen Di–Sa, nur mit Reservation über parlament.ch",
+   "durationMin": 60,
+   "text": "Gratis-Führung durch das Parlamentsgebäude mit Kuppelhalle, National- und Ständeratssaal. Ab 16 Jahren brauchst du einen amtlichen Ausweis, weil am Eingang kontrolliert wird.",
+   "tip": "Reservier früh, beliebte Termine sind schnell weg, und schau vorher nach, ob gerade Session ist.",
+   "source": "https://www.parlament.ch/de/services/besuch-im-bundeshaus/fuehrungen-durchs-bundeshaus",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-baerenpark",
+   "kind": "sehenswuerdigkeit",
+   "name": "BärenPark",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Grosser Muristalden, 3006 Bern",
+   "coords": {
+    "lat": 46.94768,
+    "lng": 7.45918
+   },
+   "url": "https://tierpark-bern.ch/en/bearpark/opening-hours/",
+   "price": 1,
+   "tags": [
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig, frei zugänglich",
+   "durationMin": 30,
+   "text": "Am Hang zwischen Nydeggbrücke und Aare leben die Berner Bären in einem grossen, naturnahen Gehege. Du schaust von oben auf die Anlage und mit etwas Glück auf einen Bären beim Baden.",
+   "tip": "Im Winter halten die Bären teilweise Winterruhe, dann siehst du sie seltener.",
+   "source": "https://tierpark-bern.ch/en/bearpark/opening-hours/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-tierpark-daehlhoelzli",
+   "kind": "aktivitaet",
+   "name": "Tierpark Dählhölzli",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Tierparkweg, 3005 Bern",
+   "coords": {
+    "lat": 46.93361,
+    "lng": 7.44824
+   },
+   "url": "https://tierpark-bern.ch/",
+   "price": 2,
+   "tags": [
+    "familie",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Sommer 9–18, Winter 9–17 Uhr",
+   "durationMin": 150,
+   "text": "Zoo am Aareufer mit europäischen Wildtieren in grossen Gehegen, einem Kinderzoo und dem Vivarium mit Aquarien und Terrarien. Das Vivarium ist dein Plan B, wenn es regnet.",
+   "tip": "Der Weg der Aare entlang vom Tierpark zum Bärenpark dauert rund eine halbe Stunde und ist mit Kindern gut machbar.",
+   "source": "https://tierpark-bern.ch/en/visiting-the-zoo/opening-hours/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-marzilibad",
+   "kind": "bad",
+   "name": "Freibad Marzili",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Marzilistrasse 29, 3005 Bern",
+   "coords": {
+    "lat": 46.94191,
+    "lng": 7.44403
+   },
+   "url": null,
+   "price": 1,
+   "tags": [
+    "aktiv",
+    "gratis",
+    "familie",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai bis Mitte September",
+   "durationMin": 120,
+   "text": "Das Gratisbad direkt unter dem Bundeshaus, von dem aus die Berner in die Aare steigen. Klassisch ist, weiter oben einzusteigen und sich bis zum Marzili treiben zu lassen.",
+   "tip": "Aareschwimmen nur, wenn du sicher schwimmst: Die Strömung ist stark, merk dir die Ausstiegsstellen vorher.",
+   "source": "https://www.badi-info.ch/be/marzili.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-muensterturm",
+   "kind": "aussicht",
+   "name": "Berner Münster und Münsterturm",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Münsterplatz 1, 3011 Bern",
+   "coords": {
+    "lat": 46.94724,
+    "lng": 7.45158
+   },
+   "url": "https://www.bernermuenster.ch/",
+   "price": 1,
+   "tags": [
+    "kultur",
+    "aussicht",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; Turm mit Sommer- und Winterzeiten",
+   "hours": "Turm Sommer: Mo–Sa 10–16.30, So 11.30–16.30 Uhr; im Winter kürzer (Mo–Fr ab 12 Uhr)",
+   "durationMin": 45,
+   "text": "Der höchste Kirchturm der Schweiz: Über gut 300 Stufen steigst du auf die Plattform und schaust über die Altstadtdächer bis in die Alpen. Unten lohnt das Hauptportal mit dem Jüngsten Gericht einen genauen Blick.",
+   "tip": "Unter der Woche im Winter öffnet der Turm erst mittags, plan den Aufstieg dann am Nachmittag ein.",
+   "source": "https://www.bernermuenster.ch/besuchen/oeffnungszeiten",
+   "checked": "2026-11-15"
+  }
+ ],
+ "trips": [
+  {
+   "slug": "lugano-dolce-vita-wochenende",
+   "title": "Lugano – Dolce Vita im Tessin",
+   "teaser": "Zwei Tage zwischen Piazza, Olivenweg, Grotto-Abend und zwei Hausbergen über dem Luganersee.",
+   "region": "lugano",
+   "days": 2,
+   "moods": [
+    "genuss",
+    "natur",
+    "romantik",
+    "kultur"
+   ],
+   "audience": [
+    "paar",
+    "freunde"
+   ],
+   "season": "April–Oktober (Schiffe im Sommerfahrplan, San Salvatore ca. Mitte März bis Anfang November)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 115
+    },
+    {
+     "from": "Bern",
+     "minutes": 175
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 175
+    }
+   ],
+   "hotelIds": [
+    "lug-hotel-pestalozzi",
+    "lug-hotel-villa-castagnola"
+   ],
+   "dayPlans": [
+    {
+     "title": "Tag 1 (Samstag) – Altstadt, Olivenweg und Grotto",
+     "slots": [
+      {
+       "time": "10:00",
+       "placeId": "lug-hotel-pestalozzi",
+       "title": "Ankommen und Gepäck abgeben",
+       "text": "Vom Bahnhof Lugano mit der kleinen Standseilbahn hinunter in die Stadt und das Gepäck im Hotel lassen, das Zimmer gibt es erst am Nachmittag.",
+       "travel": "ca. 10 Min. mit der Standseilbahn Stazione–Città und zu Fuss"
+      },
+      {
+       "time": "10:30",
+       "tourSlug": "lugano-dolce-vita",
+       "title": "Urban-Trails-Tour: Lugano – Dolce Vita",
+       "text": "Mit dem Audio-Rundgang durch die Gassen der Altstadt, über die Piazza della Riforma und der Seepromenade entlang, rund zwei Stunden.",
+       "travel": "Start im Zentrum, wenige Minuten zu Fuss"
+      },
+      {
+       "time": "12:45",
+       "placeId": "lug-manora-lugano",
+       "title": "Schneller Zmittag im Manora",
+       "text": "Pasta oder Pizza an der Selbstbedienungstheke, günstig und ohne Wartezeit, damit genug Zeit für den Nachmittag bleibt.",
+       "travel": "ca. 5 Min. zu Fuss zur Piazza Dante"
+      },
+      {
+       "time": "14:00",
+       "placeId": "lug-sentiero-olivo-gandria",
+       "title": "Sentiero dell'olivo nach Gandria",
+       "text": "Am See entlang durch den Parco Ciani nach Castagnola und von dort auf dem Olivenweg nach Gandria, das Teilstück selbst dauert gut eine Stunde.",
+       "travel": "ca. 35 Min. zu Fuss am See entlang bis zum Startpunkt in Castagnola",
+       "rain": {
+        "placeId": "lug-musec",
+        "title": "Museo delle Culture",
+        "text": "Bei Regen statt Olivenweg ins MUSEC in der Villa Malpensata an der Uferpromenade (dienstags geschlossen)."
+       }
+      },
+      {
+       "time": "16:15",
+       "placeId": "lug-schiff-snl",
+       "title": "Mit dem Schiff zurück",
+       "text": "Ab der Schiffstation Gandria zurück nach Lugano, mit Blick auf das Dorf und den San Salvatore. Fahrplan vorher prüfen, ausserhalb der Saison fahren nur wenige Kurse; sonst Bus 490.",
+       "travel": "ca. 30 Min. Schiff bis Lugano Centrale"
+      },
+      {
+       "time": "17:45",
+       "placeId": "lug-bottegone-del-vino",
+       "title": "Apéro mit Tessiner Wein",
+       "text": "Ein Glas Merlot und etwas Käse im Bottegone del Vino gleich hinter der Piazza Riforma.",
+       "travel": "ca. 5 Min. zu Fuss von der Schiffstation"
+      },
+      {
+       "time": "19:15",
+       "placeId": "lug-grotto-morchino",
+       "title": "Znacht im Grotto Morchino",
+       "text": "Tessiner Klassiker wie Ossobuco oder Brasato unter Bäumen am Hang über der Stadt. Reservation nötig.",
+       "travel": "ca. 15 Min. mit dem Taxi nach Pazzallo"
+      }
+     ]
+    },
+    {
+     "title": "Tag 2 (Sonntag) – Zwei Gipfel und ein Fresko",
+     "slots": [
+      {
+       "time": "09:30",
+       "placeId": "lug-monte-bre",
+       "title": "Mit der Standseilbahn auf den Monte Brè",
+       "text": "Nach dem Auschecken mit der Bahn ab Cassarate hinauf, oben Aussicht geniessen und hinüber ins Künstlerdorf Brè spazieren.",
+       "travel": "ca. 30 Min. zu Fuss am See oder kurz mit dem Stadtbus bis Cassarate",
+       "rain": {
+        "placeId": "lug-lac-masi",
+        "title": "LAC und MASI",
+        "text": "Bei tiefen Wolken bringt der Gipfel nichts, dann lieber ins MASI im LAC, sonntags ab 10 Uhr offen."
+       }
+      },
+      {
+       "time": "12:30",
+       "placeId": "lug-vanini-piazza-riforma",
+       "title": "Panino und Gelato an der Piazza",
+       "text": "Zurück im Zentrum ein Imbiss bei Vanini und danach eine Glace für den Weg zum Seeufer.",
+       "travel": "ca. 30 Min. mit Bahn und Bus zurück ins Zentrum"
+      },
+      {
+       "time": "14:00",
+       "placeId": "lug-monte-san-salvatore",
+       "title": "Monte San Salvatore",
+       "text": "Mit der Standseilbahn ab Paradiso auf den Zuckerhut von Lugano, oben aufs Kirchendach steigen und auf die Morcote-Halbinsel schauen.",
+       "travel": "ca. 20 Min. zu Fuss der Uferpromenade entlang nach Paradiso",
+       "rain": {
+        "title": "Unter den Arkaden der Via Nassa",
+        "text": "Statt auf den Berg durch die überdachten Lauben der Via Nassa und der Altstadtgassen bummeln – trocken von Laden zu Laden bis zur Kirche Santa Maria degli Angioli."
+       }
+      },
+      {
+       "time": "16:30",
+       "placeId": "lug-santa-maria-angioli",
+       "title": "Luinis Passionsfresko",
+       "text": "Zum Abschluss ein kurzer Halt in Santa Maria degli Angioli beim berühmten Renaissance-Fresko, danach mit der Standseilbahn hoch zum Bahnhof.",
+       "travel": "ca. 15 Min. zu Fuss zurück ins Zentrum; danach ca. 10 Min. zum Bahnhof"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "lugano-familientag",
+   "title": "Lugano mit Kindern: Mini-Schweiz und Zuckerhut",
+   "teaser": "Ein Tag mit der ganzen Schweiz im Massstab 1:25, einer Bergbahn und Glace an der Piazza.",
+   "region": "lugano",
+   "days": 1,
+   "moods": [
+    "familie",
+    "natur"
+   ],
+   "audience": [
+    "familie"
+   ],
+   "season": "Mitte März bis Anfang November (Swissminiatur und San Salvatore nur in dieser Zeit offen)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 115
+    },
+    {
+     "from": "Bern",
+     "minutes": 175
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 175
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Melide, San Salvatore und Parco Ciani",
+     "slots": [
+      {
+       "time": "10:30",
+       "placeId": "lug-swissminiatur",
+       "title": "Swissminiatur in Melide",
+       "text": "Durch die Schweiz im Kleinformat spazieren, Modellzüge beobachten und den eigenen Wohnort suchen.",
+       "travel": "ca. 10 Min. mit der S-Bahn von Lugano nach Melide, dann wenige Minuten zu Fuss",
+       "rain": {
+        "placeId": "lug-lac-masi",
+        "title": "LAC Lugano",
+        "text": "Bei Regen bleibt ihr in Lugano und geht ins LAC; die grosse Halle am See und die Ausstellungen sind auch für Kinder spannend."
+       }
+      },
+      {
+       "time": "13:00",
+       "placeId": "lug-manora-lugano",
+       "title": "Zmittag im Manora",
+       "text": "Jedes Kind holt sich selbst, was es mag, an der Pizza- oder Pastastation, bezahlt wird nur, was auf dem Tablett liegt.",
+       "travel": "ca. 10 Min. S-Bahn zurück, dann Standseilbahn und 5 Min. zu Fuss"
+      },
+      {
+       "time": "14:30",
+       "placeId": "lug-monte-san-salvatore",
+       "title": "Bergbahnfahrt auf den San Salvatore",
+       "text": "Mit der Standseilbahn in zwei Etappen auf den Gipfel und vom Kirchendach aus Schiffe auf dem See zählen.",
+       "travel": "ca. 20 Min. zu Fuss der Promenade entlang nach Paradiso",
+       "rain": {
+        "placeId": "lug-musec",
+        "title": "Museo delle Culture",
+        "text": "Bei Regen ins MUSEC an der Promenade, das Haus ist überschaubar und gut mit Kindern machbar."
+       }
+      },
+      {
+       "time": "16:45",
+       "placeId": "lug-vanini-piazza-riforma",
+       "title": "Glace an der Piazza",
+       "text": "Hausgemachte Glace bei Vanini als Belohnung, zum Mitnehmen an den See.",
+       "travel": "ca. 20 Min. zu Fuss zurück ins Zentrum"
+      },
+      {
+       "time": "17:15",
+       "placeId": "lug-parco-ciani",
+       "title": "Austoben im Parco Ciani",
+       "text": "Zum Schluss Spielplatz und Seeufer im Stadtpark, bevor es zurück zum Bahnhof geht.",
+       "travel": "ca. 10 Min. zu Fuss",
+       "rain": {
+        "placeId": "lug-santa-maria-angioli",
+        "title": "Santa Maria degli Angioli",
+        "text": "Bei Regen ein kurzer Blick auf das riesige Wandbild in der Kirche beim LAC, danach direkt zum Bahnhof."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "bern-bundesstadt-tag",
+   "title": "Bern – ein Tag in der Bundesstadt",
+   "teaser": "Lauben, Bären, Rosen und Klee: die Bundesstadt an einem Tag, mit Abendblick vom Gurten.",
+   "region": "bern",
+   "days": 1,
+   "moods": [
+    "kultur",
+    "genuss",
+    "natur"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "allein"
+   ],
+   "season": "April–Oktober am schönsten; ganzjährig machbar (Zentrum Paul Klee montags zu, Einstein-Haus Mitte Dezember bis Ende Januar zu)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 60
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 60
+    },
+    {
+     "from": "Luzern",
+     "minutes": 65
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 (Dienstag bis Samstag) – Altstadt, Rosengarten, Klee und Gurten",
+     "slots": [
+      {
+       "time": "09:45",
+       "placeId": "bern-adrianos",
+       "title": "Kaffee beim Zytglogge",
+       "text": "Starte mit einem Espresso aus der hauseigenen Rösterei bei Adriano's am Theaterplatz.",
+       "travel": "ca. 8 Min. zu Fuss vom Bahnhof durch die Spitalgasse"
+      },
+      {
+       "time": "10:15",
+       "tourSlug": "bern-altstadt",
+       "title": "Urban-Trails-Tour: Berner Altstadt",
+       "text": "Mit dem Audio-Rundgang durch die Lauben, vorbei an Zytglogge und Münster bis hinunter zum Bärenpark, rund zweieinhalb Stunden.",
+       "travel": "Start in der Altstadt, wenige Schritte",
+       "rain": {
+        "placeId": "bern-einstein-haus",
+        "title": "Einstein-Haus",
+        "text": "Bei Regen machst du die Tour unter den Lauben in kürzerer Form und gehst dazwischen ins Einstein-Haus an der Kramgasse."
+       }
+      },
+      {
+       "time": "12:45",
+       "placeId": "bern-altes-tramdepot",
+       "title": "Zmittag im Alten Tramdepot",
+       "text": "Hausgebrautes Bier und eine Rösti oder ein Flammkuchen direkt neben dem Bärenpark.",
+       "travel": "Tour endet beim Bärenpark, 1 Min. zu Fuss"
+      },
+      {
+       "time": "14:00",
+       "placeId": "bern-rosengarten",
+       "title": "Blick vom Rosengarten",
+       "text": "Den steilen Fussweg hoch und von der Kante aus die Aareschlaufe mit der Altstadt fotografieren.",
+       "travel": "ca. 10 Min. zu Fuss bergauf",
+       "rain": {
+        "placeId": "bern-restaurant-rosengarten",
+        "title": "Kaffee in der Rosengarten-Veranda",
+        "text": "Bei Regen den Blick durch die Fenster des Restaurants Rosengarten geniessen, bei einem Kaffee im Trockenen."
+       }
+      },
+      {
+       "time": "15:00",
+       "placeId": "bern-zentrum-paul-klee",
+       "title": "Zentrum Paul Klee",
+       "text": "Mit dem Bus hinaus zu Renzo Pianos Wellenbau und durch die Klee-Sammlung, Schluss ist um 17 Uhr.",
+       "travel": "ca. 15 Min. mit Bus 12 ab Bärenpark bis Zentrum Paul Klee"
+      },
+      {
+       "time": "17:30",
+       "placeId": "bern-gurten",
+       "title": "Abendstimmung auf dem Gurten",
+       "text": "Mit Tram und Gurtenbahn auf den Hausberg und bei klarer Sicht die Alpenkette im Abendlicht anschauen.",
+       "travel": "ca. 35 Min. mit Bus 12 zurück ins Zentrum, Tram 9 nach Wabern und Gurtenbahn",
+       "rain": {
+        "title": "Unter den Lauben bummeln",
+        "text": "Statt auf den Gurten durch die Berner Lauben: Kilometerweise Arkaden mit Läden und Kellerlokalen, du bleibst trocken bis zum Znacht im Kornhauskeller."
+       }
+      },
+      {
+       "time": "19:45",
+       "placeId": "bern-kornhauskeller",
+       "title": "Znacht im Kornhauskeller",
+       "text": "Berner Küche im gewaltigen Gewölbekeller des alten Kornhauses, am besten mit Reservation.",
+       "travel": "ca. 25 Min. mit Gurtenbahn und Tram 9 bis Zytglogge, dann 3 Min. zu Fuss"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "bern-familientag-baeren-und-berge",
+   "title": "Bern mit Kindern: Bären, Zoo und Hausberg",
+   "teaser": "Ein Familientag an der Aare, vom Tierpark zum Bärenpark und hinauf auf den Gurten.",
+   "region": "bern",
+   "days": 1,
+   "moods": [
+    "familie",
+    "natur"
+   ],
+   "audience": [
+    "familie"
+   ],
+   "season": "ganzjährig; im Sommer (Ende Mai bis Mitte September) lässt sich ein Abstecher ins Marzili anhängen",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 60
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 60
+    },
+    {
+     "from": "Luzern",
+     "minutes": 65
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Aare, Tiere und Aussicht",
+     "slots": [
+      {
+       "time": "10:00",
+       "placeId": "bern-tierpark-daehlhoelzli",
+       "title": "Tierpark Dählhölzli",
+       "text": "Wisente, Elche und Luchse in den Aussengehegen, danach Kinderzoo und das Vivarium mit Aquarien.",
+       "travel": "ca. 15 Min. mit dem Bus ab Bahnhof bis Tierpark"
+      },
+      {
+       "time": "12:45",
+       "placeId": "bern-baerenpark",
+       "title": "Der Aare entlang zum Bärenpark",
+       "text": "Am Fluss entlang zu Fuss Richtung Altstadt und im Bärenpark nach den Berner Bären Ausschau halten.",
+       "travel": "ca. 30 Min. zu Fuss am Aareufer",
+       "rain": {
+        "placeId": "bern-tierpark-daehlhoelzli",
+        "title": "Länger im Vivarium",
+        "text": "Bei Regen bleibt ihr länger im Vivarium des Tierparks und fahrt danach mit dem Bus direkt in die Stadt."
+       }
+      },
+      {
+       "time": "13:15",
+       "placeId": "bern-altes-tramdepot",
+       "title": "Zmittag im Alten Tramdepot",
+       "text": "Gleich neben dem Bärenpark gibt es währschafte Teller und für die Grossen ein hausgebrautes Bier.",
+       "travel": "1 Min. zu Fuss"
+      },
+      {
+       "time": "14:30",
+       "placeId": "bern-einstein-haus",
+       "title": "Durch die Altstadt zum Einstein-Haus",
+       "text": "Über die Nydeggbrücke und unter den Lauben die Kramgasse hoch, kurzer Besuch in Einsteins Wohnung (Kinder ab 8 zahlen 5 Franken).",
+       "travel": "ca. 10 Min. zu Fuss"
+      },
+      {
+       "time": "15:45",
+       "placeId": "bern-gurten",
+       "title": "Auf den Gurten",
+       "text": "Mit Tram 9 nach Wabern und der Standseilbahn hoch, oben auf den Wiesen rennen und auf die Stadt hinunterschauen.",
+       "travel": "ca. 25 Min. mit Tram 9 ab Zytglogge und Gurtenbahn",
+       "rain": {
+        "placeId": "bern-zentrum-paul-klee",
+        "title": "Zentrum Paul Klee",
+        "text": "Bei Regen fahrt ihr mit Bus 12 zum Zentrum Paul Klee (bis 17 Uhr, montags zu)."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

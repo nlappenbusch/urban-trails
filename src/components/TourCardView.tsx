@@ -26,7 +26,7 @@ export default function TourCardView({ t }: { t: TourLite }) {
         {t.hero && (
           /* eslint-disable-next-line @next/next/no-img-element */
           <img
-            {...imgAttrs(t.hero, "(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw")}
+            src={t.hero.url} {...imgAttrs(t.hero, "(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw")}
             loading="lazy"
             decoding="async"
             className="absolute inset-0 h-full w-full object-cover"

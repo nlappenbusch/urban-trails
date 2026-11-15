@@ -3,6 +3,7 @@ import { tours } from "@/lib/tours";
 import { destinations } from "@/data/destinations";
 import { SITE_URL } from "@/lib/seo";
 import { categories } from "@/lib/categories";
+import { trips } from "@/lib/ausfluege";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
@@ -16,6 +17,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     })),
     { url: `${SITE_URL}/fuehrung`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/ausfluege`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/ausfluege/planen`, changeFrequency: "monthly", priority: 0.7 },
+    ...trips.map((t) => ({ url: `${SITE_URL}/ausfluege/${t.slug}`, changeFrequency: "monthly" as const, priority: 0.8 })),
     {
       url: `${SITE_URL}/ueberrasche-mich`,
       changeFrequency: "monthly",

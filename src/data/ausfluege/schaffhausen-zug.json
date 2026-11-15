@@ -1,0 +1,2528 @@
+{
+  "regions": [
+    {
+      "slug": "schaffhausen",
+      "name": "Schaffhausen & Rheinfall",
+      "station": "Schaffhausen",
+      "center": {
+        "lat": 47.6965,
+        "lng": 8.6339
+      }
+    },
+    {
+      "slug": "zug",
+      "name": "Zug & Zugersee",
+      "station": "Zug",
+      "center": {
+        "lat": 47.1662,
+        "lng": 8.5155
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "sh-hotel-kronenhof",
+      "kind": "hotel",
+      "name": "Hotel Kronenhof",
+      "region": "schaffhausen",
+      "town": "Schaffhausen",
+      "address": "Kirchhofplatz 7, 8200 Schaffhausen",
+      "coords": {
+        "lat": 47.69665,
+        "lng": 8.63564
+      },
+      "url": "https://www.kronenhof.ch",
+      "price": 2,
+      "tags": [
+        "kultur",
+        "familie",
+        "wellness"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Drei-Sterne-Haus mit 42 Zimmern an einem ruhigen Platz mitten in der Altstadt. Es gibt Familienzimmer mit separatem Schlafraum und einen kleinen Wellnessbereich mit Saunen und Dampfbad.",
+      "tip": "Vom Kirchhofplatz bist du in wenigen Minuten zu Fuss am Bahnhof, an der Schifflände und am Munot – ein Auto brauchst du für dieses Wochenende nicht.",
+      "source": "https://www.kronenhof.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-hotel-rheinfels",
+      "kind": "hotel",
+      "name": "Hotel Restaurant Rheinfels",
+      "region": "schaffhausen",
+      "town": "Stein am Rhein",
+      "address": "Rhigass 8, 8260 Stein am Rhein",
+      "coords": {
+        "lat": 47.65874,
+        "lng": 8.85917
+      },
+      "url": "https://www.rheinfels.ch",
+      "price": 2,
+      "tags": [
+        "romantisch",
+        "genuss",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Restaurant täglich 8–21 Uhr; im September Mi, ab Oktober Mi und Do geschlossen",
+      "text": "Haus aus dem 14. Jahrhundert direkt am Brückenkopf auf der Altstadtseite, die Zimmer schauen auf den Rhein. Im Restaurant gibt es regionale und französische Küche, bekannt ist das Haus vor allem für Fisch.",
+      "tip": "Auch ohne Übernachtung lohnt sich ein Fischteller auf der Terrasse am Wasser – aber prüf vorher den Ruhetag, der im Herbst auf Mittwoch und Donnerstag fällt.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Rheinfels_Stein_am_Rhein_P1030304.jpg/1280px-Rheinfels_Stein_am_Rhein_P1030304.jpg",
+        "alt": "Haus Rheinfels am Rheinufer in Stein am Rhein",
+        "credit": "https://commons.wikimedia.org/wiki/File:Rheinfels_Stein_am_Rhein_P1030304.jpg"
+      },
+      "source": "https://www.rheinfels.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-gueterhof",
+      "kind": "restaurant",
+      "name": "Güterhof",
+      "region": "schaffhausen",
+      "town": "Schaffhausen",
+      "address": "Freier Platz 10, 8200 Schaffhausen",
+      "coords": {
+        "lat": 47.69552,
+        "lng": 8.64126
+      },
+      "url": "https://www.gueterhof.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "freunde",
+        "romantisch",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich; Mai–Sept. Mo–Fr 11.30–23, Sa 9–23, So 9–21 Uhr; Okt.–April Mo–Do bis 22, So 9–18 Uhr",
+      "text": "Das einstige Lagerhaus an der Schifflände ist heute Restaurant, Bar und Lounge mit einer Terrasse direkt am Rhein. Auf der Karte stehen Schweizer Gerichte und internationale Teller, im Winter gibt es im Innenhof Fondue.",
+      "tip": "Sonntags schliesst der Güterhof im Winterhalbjahr schon um 18 Uhr – für ein Abendessen am Sonntag ist er dann keine Option.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/G%C3%BCterhof_in_Schaffhausen_%28Nov._2021%29.jpg/1280px-G%C3%BCterhof_in_Schaffhausen_%28Nov._2021%29.jpg",
+        "alt": "Der Güterhof am Freien Platz in Schaffhausen",
+        "credit": "https://commons.wikimedia.org/wiki/File:G%C3%BCterhof_in_Schaffhausen_(Nov._2021).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:30",
+              "22:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "22:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "22:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "22:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.gueterhof.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-falken",
+      "kind": "restaurant",
+      "name": "Restaurant Falken",
+      "region": "schaffhausen",
+      "town": "Schaffhausen",
+      "address": "Vorstadt 5, 8200 Schaffhausen",
+      "coords": {
+        "lat": 47.69771,
+        "lng": 8.63368
+      },
+      "url": "https://www.falken-schaffhausen.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Do 8–22.30, Fr/Sa 8–24, So 9–22 Uhr",
+      "text": "Grosse Bierbeiz in der Fussgängerzone, in der seit 1799 Bier gezapft wird – an den Wänden hängen noch alte Plakate der Brauerei Falken. Gekocht wird gutbürgerlich: Cordon bleu, Wiener Schnitzel, Wurstsalat und Flammkuchen.",
+      "tip": "Weil die Küche früh öffnet und der Laden gross ist, findest du hier auch ohne Reservation und mit Kindern meistens einen Tisch.",
+      "priceInfo": {
+        "from": 18.9,
+        "to": 32.9,
+        "unit": "Hauptgang",
+        "note": "laut Brauereikarte; Snacks wie Flammkuchen ab CHF 12.50"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "22:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:00",
+              "22:30"
+            ]
+          ],
+          "2": [
+            [
+              "08:00",
+              "22:30"
+            ]
+          ],
+          "3": [
+            [
+              "08:00",
+              "22:30"
+            ]
+          ],
+          "4": [
+            [
+              "08:00",
+              "22:30"
+            ]
+          ],
+          "5": [
+            [
+              "08:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "08:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.falken-schaffhausen.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-cafe-reber",
+      "kind": "cafe",
+      "name": "Café Reber (Schaffhauserzungen)",
+      "region": "schaffhausen",
+      "town": "Schaffhausen",
+      "address": "Vordergasse 21, 8200 Schaffhausen",
+      "coords": {
+        "lat": 47.69594,
+        "lng": 8.63706
+      },
+      "url": "https://www.schaffhauserzungen.ch",
+      "price": 1,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So geschlossen; Mo–Fr 7–18.30, Sa 7–16.30 Uhr",
+      "text": "Konditorei mit Café und Tea Room an der Vordergasse, die seit 1896 die Schaffhauserzungen herstellt – längliches Mandelgebäck, das hier als Stadtspezialität gilt. Im Café sitzt du gleich bei den bemalten Häusern der Altstadt.",
+      "tip": "Eine Schachtel Zungen kostet ab rund CHF 19 und hält gut – ideal als Mitbringsel für die Heimfahrt.",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "2": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "16:30"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.schaffhauserzungen.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-restaurant-schloss-laufen",
+      "kind": "restaurant",
+      "name": "Restaurant Schloss Laufen am Rheinfall",
+      "region": "schaffhausen",
+      "town": "Laufen-Uhwiesen",
+      "address": "Schloss Laufen am Rheinfall, 8447 Dachsen",
+      "coords": {
+        "lat": 47.67643,
+        "lng": 8.61493
+      },
+      "url": "https://schlosslaufen.ch",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "familie",
+        "genuss",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Selbstbedienung täglich 10–17 Uhr; Restaurant Mo/Di geschlossen, Mi/Do/So 11.30–18, Fr/Sa 11.30–23.30 Uhr",
+      "text": "Im Schloss hoch über dem Rheinfall gibt es zwei Möglichkeiten: ein Selbstbedienungsrestaurant für den schnellen Zmittag und ein bedientes Restaurant mit Terrasse über dem tosenden Wasser.",
+      "tip": "Mit Kindern ist das Selbstbedienungsrestaurant die entspanntere Wahl – es ist jeden Tag offen, auch montags und dienstags, wenn das Restaurant Ruhetag hat.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "23:30"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "23:30"
+            ]
+          ]
+        }
+      },
+      "source": "https://schlosslaufen.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-burg-hohenklingen",
+      "kind": "restaurant",
+      "name": "Burg Hohenklingen",
+      "region": "schaffhausen",
+      "town": "Stein am Rhein",
+      "address": "Hohenklingenstrasse 1, 8260 Stein am Rhein",
+      "coords": {
+        "lat": 47.66684,
+        "lng": 8.85807
+      },
+      "url": "https://www.burghohenklingen.com",
+      "price": 3,
+      "tags": [
+        "aussicht",
+        "kultur",
+        "romantisch",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Weihnachtsferien und Betriebsferien im Februar",
+      "hours": "Restaurant Mo/Di geschlossen; Mi–Sa 10–23, So 10–21.30 Uhr",
+      "durationMin": 90,
+      "text": "Mittelalterliche Burg rund 200 Höhenmeter über Stein am Rhein, in der heute ein Restaurant mit französisch geprägter Küche steckt. Von der Anlage und vom Turm schaust du über die Altstadt, den Rhein und den Untersee.",
+      "tip": "Zu Fuss bist du von der Altstadt in etwa einer halben Stunde oben – der Weg ist steil, aber gut machbar; gute Schuhe lohnen sich.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Stein_am_Rhein_Hohenklingen_Castle_from_below.jpg/1280px-Stein_am_Rhein_Hohenklingen_Castle_from_below.jpg",
+        "alt": "Burg Hohenklingen auf dem bewaldeten Hügel über Stein am Rhein",
+        "credit": "https://commons.wikimedia.org/wiki/File:Stein_am_Rhein_Hohenklingen_Castle_from_below.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "21:30"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://burghohenklingen.com/kontakt/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-rheinfall-neuhausen",
+      "kind": "aussicht",
+      "name": "Rheinfall – Ufer Neuhausen",
+      "region": "schaffhausen",
+      "town": "Neuhausen am Rheinfall",
+      "address": "Rheinfallquai, 8212 Neuhausen am Rheinfall",
+      "coords": {
+        "lat": 47.67836,
+        "lng": 8.61487
+      },
+      "url": "https://rheinfall.ch",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "gratis",
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; am meisten Wasser im Frühsommer",
+      "durationMin": 60,
+      "text": "Auf der Neuhauser Seite spazierst du kostenlos am Becken unterhalb des grössten Wasserfalls Europas entlang, vorbei am Schlössli Wörth. Über den Fussweg an der Eisenbahnbrücke, der rund um die Uhr offen ist, wechselst du ans andere Ufer zum Schloss Laufen.",
+      "tip": "Vom Steg an der Eisenbahnbrücke hast du den Fall von oben im Blick – der Fussweg ist gratis und ein guter Übergang zur Zürcher Seite.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Neuhausen_Rhine_Falls_from_the_bridge_2.jpg/1280px-Neuhausen_Rhine_Falls_from_the_bridge_2.jpg",
+        "alt": "Der Rheinfall vom Steg an der Eisenbahnbrücke aus gesehen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Neuhausen_Rhine_Falls_from_the_bridge_2.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://rheinfall.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-schloss-laufen",
+      "kind": "sehenswuerdigkeit",
+      "name": "Schloss Laufen – Belvedere-Weg und Historama",
+      "region": "schaffhausen",
+      "town": "Laufen-Uhwiesen",
+      "address": "Schloss Laufen am Rheinfall, 8447 Dachsen",
+      "coords": {
+        "lat": 47.6768,
+        "lng": 8.61485
+      },
+      "url": "https://schlosslaufen.ch",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "hours": "täglich; Ticketschalter 9–17 Uhr, Online-Tickets gelten bis 16 Uhr",
+      "durationMin": 75,
+      "text": "Vom Schloss auf der Zürcher Seite führt der Belvedere-Weg in Stufen hinunter zu Plattformen, die fast im Wasser stehen – hier spürst du die Gischt im Gesicht. Im Ticket inbegriffen sind das Historama zur Geschichte des Rheinfalls und der Panoramalift für den Rückweg.",
+      "tip": "Nimm den Panoramalift nach oben und spar dir die Treppen für den Abstieg; mit Kinderwagen gibt es die Tickets nur im Besucherzentrum.",
+      "priceInfo": {
+        "from": 5,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–15 CHF 3; inklusive Historama, Plattformen und Panoramalift"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Schloss_Laufen_am_Rheinfall_%282023%29.jpg/1280px-Schloss_Laufen_am_Rheinfall_%282023%29.jpg",
+        "alt": "Schloss Laufen über dem Rheinfall mit der Eisenbahnbrücke",
+        "credit": "https://commons.wikimedia.org/wiki/File:Schloss_Laufen_am_Rheinfall_(2023).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://shop.e-guma.ch/schlosslaufen-am-rheinfall/en/tickets/rheinfall-ticket-3670826",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-felsenfahrt",
+      "kind": "aktivitaet",
+      "name": "Felsenfahrt zum Rheinfallfelsen (Rhyfall Mändli)",
+      "region": "schaffhausen",
+      "town": "Neuhausen am Rheinfall",
+      "address": "Anlegestelle Schlössli Wörth, Rheinfallquai 30, 8212 Neuhausen am Rheinfall",
+      "coords": {
+        "lat": 47.67754,
+        "lng": 8.61132
+      },
+      "url": "https://rhyfall-maendli.ch",
+      "price": 2,
+      "tags": [
+        "familie",
+        "aktiv",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "April–Oktober täglich; im November nur Sa/So eingeschränkt",
+      "hours": "Mai–Sept. 9.30–18.30 Uhr, April und Oktober kürzer (je nach Datum 10.30/11–17 Uhr)",
+      "durationMin": 45,
+      "text": "Ein kleines Boot bringt dich vom Schlössli Wörth durch die Gischt zum Mittelfelsen mitten im Rheinfall. Dort steigst du über eine Treppe auf die Spitze und stehst rund 20 Minuten zwischen den Wassermassen.",
+      "tip": "Im Sommer bilden sich lange Schlangen – buch online einen Zeitpunkt und sei zehn Minuten vorher an der Landestelle. Startest du beim Schloss Laufen, nimmst du zuerst die Überfahrt und steigst beim Schlössli Wörth um.",
+      "priceInfo": {
+        "from": 22.5,
+        "unit": "Felsenfahrt pro Person",
+        "note": "Kinder unter 6 ohne eigenen Sitzplatz gratis; einen separaten Kinderpreis nennt die Website nicht"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Rheinfall_Mittelfelsen_Boote_Zug.jpg/1280px-Rheinfall_Mittelfelsen_Boote_Zug.jpg",
+        "alt": "Boote am Mittelfelsen im Rheinfall, dahinter die Eisenbahnbrücke",
+        "credit": "https://commons.wikimedia.org/wiki/File:Rheinfall_Mittelfelsen_Boote_Zug.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:30",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:30",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:30",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:30",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:30",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:30",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:30",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source": "https://rhyfall-maendli.ch/oeffnungszeiten/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-smilestones",
+      "kind": "aktivitaet",
+      "name": "Smilestones Miniaturwelt",
+      "region": "schaffhausen",
+      "town": "Neuhausen am Rheinfall",
+      "address": "Im Rhytech 4, 8212 Neuhausen am Rheinfall",
+      "coords": {
+        "lat": 47.68247,
+        "lng": 8.61416
+      },
+      "url": "https://smilestones.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Nov.–März: Mo/Di geschlossen, Mi–Fr 11–17.30, Sa/So 10–17.30 Uhr; Sommerzeiten auf der Website",
+      "durationMin": 90,
+      "text": "Grosse Modellbau-Ausstellung ein paar Gehminuten vom Rheinfall, in der Züge, Autos und Schiffe durch nachgebaute Schweizer Landschaften fahren – inklusive Mini-Rheinfall und Munot. Viele Szenen kannst du per Knopfdruck selbst in Bewegung setzen.",
+      "tip": "Plan mindestens anderthalb Stunden ein – Kinder wollen jede versteckte Szene finden, und die meisten Details sieht man erst beim zweiten Hinschauen.",
+      "priceInfo": {
+        "from": 22,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder ab 6 CHF 12, ermässigt CHF 20"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Smilestones_Rheinfall.jpg/1280px-Smilestones_Rheinfall.jpg",
+        "alt": "Nachgebauter Rheinfall in der Miniaturwelt Smilestones",
+        "credit": "https://commons.wikimedia.org/wiki/File:Smilestones_Rheinfall.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:30"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "11:00",
+              "17:30"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "17:30"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "17:30"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:30"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.smilestones.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-munot",
+      "kind": "sehenswuerdigkeit",
+      "name": "Munot",
+      "region": "schaffhausen",
+      "town": "Schaffhausen",
+      "address": "Munotstieg, 8200 Schaffhausen",
+      "coords": {
+        "lat": 47.69689,
+        "lng": 8.63989
+      },
+      "url": "https://www.munot.ch",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "kultur",
+        "gratis",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "hours": "Mai–Sept. täglich 8–20 Uhr, Okt.–April 9–17 Uhr",
+      "durationMin": 60,
+      "text": "Die runde Festung aus dem 16. Jahrhundert thront über den Rebbergen am Altstadtrand. Durch die gewölbte Kasematte und über eine Wendelrampe ohne Stufen gelangst du auf die Zinne, von der du über die Dächer und den Rhein schaust.",
+      "tip": "Abends läutet der Munotwächter das Munotglöggli – wer im Sommer bleibt, hört es von der Zinne aus.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Schaffhausen_-_Munot_01.jpg/1280px-Schaffhausen_-_Munot_01.jpg",
+        "alt": "Die runde Festung Munot über Schaffhausen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Schaffhausen_-_Munot_01.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.munot.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-altstadt-schaffhausen",
+      "kind": "sehenswuerdigkeit",
+      "name": "Altstadt Schaffhausen mit Vordergasse",
+      "region": "schaffhausen",
+      "town": "Schaffhausen",
+      "address": "Vordergasse / Fronwagplatz, 8200 Schaffhausen",
+      "coords": {
+        "lat": 47.69594,
+        "lng": 8.63706
+      },
+      "url": "https://schaffhauserland.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "gratis",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 60,
+      "text": "Die autofreie Altstadt ist bekannt für ihre über hundert Erker und bemalten Fassaden. Das auffälligste Haus ist das Haus zum Ritter an der Vordergasse, dessen ganze Front mit Renaissance-Malereien bedeckt ist.",
+      "tip": "Schau beim Gehen nach oben: Die schönsten Erker hängen im ersten und zweiten Stock, unten siehst du vor allem Schaufenster.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Schaffhausen_-_Haus_zum_Ritter_03.jpg/1280px-Schaffhausen_-_Haus_zum_Ritter_03.jpg",
+        "alt": "Bemalte Fassade des Hauses zum Ritter an der Vordergasse",
+        "credit": "https://commons.wikimedia.org/wiki/File:Schaffhausen_-_Haus_zum_Ritter_03.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://de.wikipedia.org/wiki/Haus_zum_Ritter",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-allerheiligen",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museum zu Allerheiligen",
+      "region": "schaffhausen",
+      "town": "Schaffhausen",
+      "address": "Klosterstrasse 16, 8200 Schaffhausen",
+      "coords": {
+        "lat": 47.69494,
+        "lng": 8.63547
+      },
+      "url": "https://allerheiligen.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 11–17 Uhr, letzter Do im Monat bis 20 Uhr",
+      "durationMin": 120,
+      "text": "Das Museum steckt im ehemaligen Benediktinerkloster neben dem Münster und zeigt Archäologie, Stadtgeschichte, Kunst und Naturkunde unter einem Dach. Zum Rundgang gehören der grosse Kreuzgang und der Kräutergarten.",
+      "tip": "Am ersten Samstag im Monat ist der Eintritt frei, und unter 20 zahlst du nie – das Museumscafé im Eingang kannst du auch ohne Ticket besuchen.",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 9, unter 20 gratis, jeden ersten Samstag im Monat gratis, Museumspass und Swiss Travel Pass gelten"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Kreuzgang_des_M%C3%BCnsters_im_Kloster_Allerheiligen_in_Schaffhausen_%282015%29.jpg/1280px-Kreuzgang_des_M%C3%BCnsters_im_Kloster_Allerheiligen_in_Schaffhausen_%282015%29.jpg",
+        "alt": "Kreuzgang des Klosters Allerheiligen in Schaffhausen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kreuzgang_des_M%C3%BCnsters_im_Kloster_Allerheiligen_in_Schaffhausen_(2015).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://allerheiligen.ch/besuchen/besuch-planen/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-altstadt-stein-am-rhein",
+      "kind": "sehenswuerdigkeit",
+      "name": "Altstadt Stein am Rhein",
+      "region": "schaffhausen",
+      "town": "Stein am Rhein",
+      "address": "Rathausplatz, 8260 Stein am Rhein",
+      "coords": {
+        "lat": 47.65938,
+        "lng": 8.85958
+      },
+      "url": "https://schaffhauserland.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "gratis",
+        "romantisch",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 60,
+      "text": "Rund um den Rathausplatz stehen Fachwerk- und Bürgerhäuser, deren Fassaden fast vollständig mit Bildern bemalt sind. Die Altstadt ist klein genug, um sie in einer Stunde zu umrunden, und endet direkt am Rheinufer bei der Schiffländi.",
+      "tip": "Komm vor elf Uhr: Später am Tag füllen Reisegruppen den Rathausplatz, morgens hast du die bemalten Fassaden fast für dich.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Erker_und_Fassadenmalereien_in_Stein_am_Rhein.jpg/1280px-Erker_und_Fassadenmalereien_in_Stein_am_Rhein.jpg",
+        "alt": "Bemalte Fassaden und Erker in der Altstadt von Stein am Rhein",
+        "credit": "https://commons.wikimedia.org/wiki/File:Erker_und_Fassadenmalereien_in_Stein_am_Rhein.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://de.wikipedia.org/wiki/Stein_am_Rhein",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-kloster-st-georgen",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museum Kloster Sankt Georgen",
+      "region": "schaffhausen",
+      "town": "Stein am Rhein",
+      "address": "Fischmarkt 3, 8260 Stein am Rhein",
+      "coords": {
+        "lat": 47.65847,
+        "lng": 8.86024
+      },
+      "url": "https://www.klostersanktgeorgen.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "Ende März bis Ende Oktober; Winterpause",
+      "hours": "Mo geschlossen; Di–So 11–18 Uhr (Saison)",
+      "durationMin": 60,
+      "text": "Das ehemalige Benediktinerkloster am Rheinufer gehört dem Bund und gilt als eine der besterhaltenen mittelalterlichen Klosteranlagen der Schweiz. Du gehst durch Kreuzgang, Mönchszellen und den Festsaal mit Wandmalereien aus dem 16. Jahrhundert.",
+      "tip": "Der Festsaal mit den Renaissance-Malereien ist das Highlight – heb ihn dir nicht für die letzten zehn Minuten auf.",
+      "priceInfo": {
+        "from": 5,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder und Jugendliche bis 16 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Kloster_Sankt_Georgen_in_Stein_am_Rhein_0107.JPG/1280px-Kloster_Sankt_Georgen_in_Stein_am_Rhein_0107.JPG",
+        "alt": "Gebäude des Klosters Sankt Georgen in Stein am Rhein",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kloster_Sankt_Georgen_in_Stein_am_Rhein_0107.JPG"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/museum-kloster-sankt-georgen-2339.html",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sh-urh-schiff",
+      "kind": "aktivitaet",
+      "name": "Rheinschiff Schaffhausen–Stein am Rhein (URh)",
+      "region": "schaffhausen",
+      "town": "Schaffhausen",
+      "address": "Schifflände, Fischerhäuserstrasse, 8200 Schaffhausen",
+      "coords": {
+        "lat": 47.69536,
+        "lng": 8.64053
+      },
+      "url": "https://www.urh.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "romantisch",
+        "familie",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "Ende März bis Anfang November; Frühling nur Do–So, ab Mai täglich",
+      "hours": "Abfahrtszeiten im aktuellen Fahrplan auf urh.ch",
+      "durationMin": 75,
+      "text": "Die Kursschiffe der URh fahren den Hochrhein hinauf bis an den Untersee, vorbei an Diessenhofen und Büsingen. Flussabwärts von Stein am Rhein nach Schaffhausen dauert die Fahrt etwa eineinviertel Stunden, flussaufwärts rund zwei.",
+      "tip": "Fahr die Strecke flussabwärts – das geht schneller, und die Hinfahrt nach Stein machst du in 24 Minuten mit der S-Bahn. Bei Niedrig- oder Hochwasser können einzelne Kurse ausfallen.",
+      "priceInfo": {
+        "from": 30.2,
+        "unit": "einfache Fahrt Erwachsene Schaffhausen–Stein am Rhein",
+        "note": "Vollpreis; Retour = 2× einfach, die URh-Tageskarte (CHF 49.50) ist dann günstiger; mit Halbtax halber Preis, Tageskarte CHF 31; GA gilt; Kinder unter 6 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Schaffhausen_mit_Munot%2C_Rhein_%26_MS_Munot_20150419-IMG_0194.JPG/1280px-Schaffhausen_mit_Munot%2C_Rhein_%26_MS_Munot_20150419-IMG_0194.JPG",
+        "alt": "Kursschiff MS Munot auf dem Rhein vor Schaffhausen mit dem Munot",
+        "credit": "https://commons.wikimedia.org/wiki/File:Schaffhausen_mit_Munot,_Rhein_%26_MS_Munot_20150419-IMG_0194.JPG"
+      },
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source": "https://www.urh.ch/preise",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-hotel-ochsen",
+      "kind": "hotel",
+      "name": "City-Hotel Ochsen",
+      "region": "zug",
+      "town": "Zug",
+      "address": "Kolinplatz 11, 6300 Zug",
+      "coords": {
+        "lat": 47.16605,
+        "lng": 8.51606
+      },
+      "url": "https://www.ochsen-zug.ch",
+      "price": 3,
+      "tags": [
+        "kultur",
+        "genuss",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Vier-Sterne-Hotel am Kolinplatz, direkt neben dem Zytturm, das seit 1543 Reisende beherbergt und heute in dritter Generation von der Familie Hegglin geführt wird. Im Haus gibt es das Restaurant au premier und die Bar du Boeuf.",
+      "tip": "Vom Hotel bist du in fünf Minuten am Seeufer – ideal, um den Tag mit dem Sonnenuntergang über dem Zugersee abzuschliessen.",
+      "source": "https://www.ochsen-zug.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-treichler",
+      "kind": "cafe",
+      "name": "Treichler – Erfinderhaus der Zuger Kirschtorte",
+      "region": "zug",
+      "town": "Zug",
+      "address": "Bundesplatz 3, 6300 Zug",
+      "coords": {
+        "lat": 47.17077,
+        "lng": 8.5155
+      },
+      "url": "https://www.treichler-zuger-kirschtorte.ch",
+      "price": 1,
+      "tags": [
+        "genuss",
+        "familie",
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Fr 7–18.30, Sa 7–17, So und Feiertage 9–17 Uhr",
+      "text": "Hier hat Heiri Höhn 1915 die erste Zuger Kirschtorte verkauft; seit 1943 führt die Familie Treichler das Haus mit Konditorei und Kaffeehaus. Im kleinen Kirschtorten-Museum siehst du gratis über 200 Objekte aus hundert Jahren – darunter ein Seidenkleid von Audrey Hepburn, die hier Stammkundin war.",
+      "tip": "Das Museum ist während der Ladenöffnungszeiten frei zugänglich – schau es dir an, bevor du dich mit einem Stück Torte ins Kaffeehaus setzt.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "2": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.zug-tourismus.ch/en/kirschtorten-museum/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-confiserie-speck",
+      "kind": "cafe",
+      "name": "Confiserie Speck",
+      "region": "zug",
+      "town": "Zug",
+      "address": "Alpenstrasse 12, 6300 Zug",
+      "coords": {
+        "lat": 47.17248,
+        "lng": 8.5149
+      },
+      "url": "https://www.speck.ch",
+      "price": 1,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Café-Bar Mo–Fr 6.30–19, Sa 7.30–17.30, So 8–12 Uhr",
+      "text": "Die zweite grosse Kirschtorten-Adresse der Stadt, ein paar Schritte vom Bahnhof, mit Café-Bar im Erdgeschoss und Tea Room im ersten Stock. Die Confiserie hält den Guinness-Rekord für die grösste Zuger Kirschtorte.",
+      "tip": "Praktisch, wenn du direkt aus dem Zug kommst: Hier holst du dir zum Start einen Kaffee und ein Stück Torte, bevor es in die Altstadt geht. Sonntags nur bis Mittag offen.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:00",
+              "12:00"
+            ]
+          ],
+          "1": [
+            [
+              "06:30",
+              "19:00"
+            ]
+          ],
+          "2": [
+            [
+              "06:30",
+              "19:00"
+            ]
+          ],
+          "3": [
+            [
+              "06:30",
+              "19:00"
+            ]
+          ],
+          "4": [
+            [
+              "06:30",
+              "19:00"
+            ]
+          ],
+          "5": [
+            [
+              "06:30",
+              "19:00"
+            ]
+          ],
+          "6": [
+            [
+              "07:30",
+              "17:30"
+            ]
+          ]
+        }
+      },
+      "source": "https://speck.ch/oeffnungszeiten/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-rathauskeller",
+      "kind": "restaurant",
+      "name": "Gasthaus Rathauskeller",
+      "region": "zug",
+      "town": "Zug",
+      "address": "Ober Altstadt 1, 6300 Zug",
+      "coords": {
+        "lat": 47.16597,
+        "lng": 8.51497
+      },
+      "url": "https://rathauskeller.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "kultur",
+        "romantisch",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So/Mo geschlossen; Di–Sa 11–15 und 18–23.30 Uhr",
+      "text": "Traditionshaus in der Altstadt, in dem Küchenchef Stefan Meier seit 1982 Schweizer Klassiker mit französischem Einschlag kocht. Du isst wahlweise im lockeren Bistro oder in der historischen Zunftstube – die Gerichte kommen aus derselben Küche.",
+      "tip": "Im Bistro gibt es viele Klassiker auch als kleine Portion – so bleibt Platz für ein Stück Kirschtorte danach.",
+      "priceInfo": {
+        "from": 30,
+        "to": 58,
+        "unit": "Hauptgang",
+        "note": "laut Klassikerkarte; mehrere Gerichte als kleine Portion ab CHF 21"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [
+            [
+              "11:00",
+              "15:00"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "15:00"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "15:00"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "15:00"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "15:00"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ]
+        }
+      },
+      "source": "https://rathauskeller.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-restaurant-zugerberg",
+      "kind": "restaurant",
+      "name": "Restaurant Zugerberg",
+      "region": "zug",
+      "town": "Zugerberg",
+      "address": "Station Zugerberg 1, 6300 Zugerberg",
+      "coords": {
+        "lat": 47.14391,
+        "lng": 8.53284
+      },
+      "url": "https://www.zugerberg-restaurant.ch",
+      "price": 2,
+      "tags": [
+        "berg",
+        "aussicht",
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Betriebsferien im Sommer",
+      "text": "Restaurant direkt bei der Bergstation der Zugerbergbahn, mit Sonnenterrasse. Spezialität sind Käse- und Fleischfondue, die du mindestens einen Tag vorher reservieren musst.",
+      "tip": "Fondue gibt es nur mit Reservation 24 Stunden im Voraus – ruf am Vortag an, wenn du oben essen willst.",
+      "priceInfo": {
+        "from": 34,
+        "unit": "Käsefondue pro Person",
+        "note": "Fleischfondue CHF 42; nur mit Reservation"
+      },
+      "source": "https://www.zugerberg-restaurant.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-restaurant-hoellgrotten",
+      "kind": "restaurant",
+      "name": "Restaurant Höllgrotten",
+      "region": "zug",
+      "town": "Baar",
+      "address": "Höllgrotten, 6340 Baar",
+      "coords": null,
+      "url": "https://www.restaurant-hoellgrotten.ch",
+      "price": 2,
+      "tags": [
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "Mitte März bis Ende Oktober",
+      "hours": "Mo Ruhetag; Di–Sa 9–23, So 9–18 Uhr",
+      "text": "Historisches Ausflugsrestaurant im Lorzentobel, rund zehn Minuten vom Grotteneingang. Hausspezialitäten sind Forelle mit Salzkartoffeln und Kalbsgeschnetzeltes mit Rösti, dazu hausgemachte Kuchen.",
+      "tip": "Wenn das Wetter passt, kannst du auch picknicken: Entlang der Lorze gibt es mehrere Grill- und Badeplätze.",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "09:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "23:00"
+            ]
+          ]
+        },
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source": "https://www.hoellgrotten.ch/de/metamenu/restaurant.html",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-altstadt",
+      "kind": "sehenswuerdigkeit",
+      "name": "Altstadt Zug und Seeufer",
+      "region": "zug",
+      "town": "Zug",
+      "address": "Kolinplatz / Unter Altstadt, 6300 Zug",
+      "coords": {
+        "lat": 47.16611,
+        "lng": 8.51515
+      },
+      "url": "https://www.zug-tourismus.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "gratis",
+        "see",
+        "romantisch",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 75,
+      "text": "Die kleine Altstadt liegt zwischen Zytturm und See: Vom Kolinplatz gehst du durch die Gassen der Ober- und Unteraltstadt hinunter zum Ufer, wo die Häuserzeilen direkt am Wasser stehen. Am Zytturm zeigen mehrere Zifferblätter neben der Zeit auch Mondphase und Wochentag.",
+      "tip": "Bleib bis zum Abend: Zug ist für seine Sonnenuntergänge bekannt, weil die Sonne über dem Westufer des Sees verschwindet – am besten siehst du sie vom Seeufer bei der Altstadt.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Altstadt_Zug_ZG_-_Zytturm_und_Zollhaus_%282022%29.jpg/1280px-Altstadt_Zug_ZG_-_Zytturm_und_Zollhaus_%282022%29.jpg",
+        "alt": "Zytturm, Zollhaus und Kolinplatz in der Zuger Altstadt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Altstadt_Zug_ZG_-_Zytturm_und_Zollhaus_(2022).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://de.wikipedia.org/wiki/Zytturm_(Zug)",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-zugerberg",
+      "kind": "aussicht",
+      "name": "Zugerberg mit Zugerbergbahn",
+      "region": "zug",
+      "town": "Zug",
+      "address": "Talstation Schönegg, 6300 Zug; Bergstation Zugerberg",
+      "coords": {
+        "lat": 47.14404,
+        "lng": 8.53283
+      },
+      "url": "https://www.zbb.ch",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; Bahn fährt im Halbstundentakt",
+      "durationMin": 150,
+      "text": "Mit dem Bus ab Bahnhof Zug zur Talstation Schönegg und mit der Standseilbahn in acht Minuten auf den Hausberg. Oben wanderst du über Wiesen und durch Wald, mit Blick über den Zugersee bis zur Rigi; für Familien gibt es den Zugiblubbi-Erlebnisweg, eine rund 5,5 km lange Schatzsuche mit Spielposten.",
+      "tip": "Kauf ab Zug gleich die Tageskarte Zug–Zugerberg für CHF 16 – sie deckt Bus und Bahn ab und ist günstiger als zwei Einzelbillette. Der Zugiblubbi-Weg ist kinderwagentauglich, dauert dann aber etwa eine halbe Stunde länger.",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Tageskarte Schönegg–Zugerberg (einfach CHF 6); ab Zug inkl. Bus CHF 16; Halbtax und Kinder 6–16 ermässigt (CHF 7.20 bzw. 8), unter 6 gratis, GA gilt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Zugerbergbahn.jpeg/1280px-Zugerbergbahn.jpeg",
+        "alt": "Wagen der Zugerbergbahn auf der Strecke zum Zugerberg",
+        "credit": "https://commons.wikimedia.org/wiki/File:Zugerbergbahn.jpeg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.zbb.ch/fahrplan-aktuelles/tarife/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-hoellgrotten",
+      "kind": "aktivitaet",
+      "name": "Höllgrotten Baar",
+      "region": "zug",
+      "town": "Baar",
+      "address": "Höllgrotten, 6340 Baar (Navi: Lorzendamm 28, Baar)",
+      "coords": {
+        "lat": 47.18892,
+        "lng": 8.55789
+      },
+      "url": "https://www.hoellgrotten.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": true,
+      "season": "Ende März bis Ende Oktober; im Winter geschlossen",
+      "hours": "täglich 9–17 Uhr (Saison)",
+      "durationMin": 60,
+      "text": "Tropfsteinhöhlen im Lorzentobel, die du ohne Führung auf einem gut 45 Minuten langen Rundgang durchläufst – mit Stalaktiten, Sinterbecken und einem unterirdischen See. Drinnen ist es das ganze Jahr um die 10 Grad, und es tropft von der Decke.",
+      "tip": "Nimm eine Jacke mit, auch im Hochsommer. Tickets gibt es nur vor Ort am Kiosk; ab Bushaltestelle Tobelbrücke-Höllgrotten sind es rund 30 Minuten zu Fuss der Lorze entlang.",
+      "priceInfo": {
+        "from": 14,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–15 CHF 7, unter 6 gratis, Studierende CHF 12; nur vor Ort bezahlbar"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/H%C3%B6llgrotten_Baar_lower_cave_20201015.jpg/1280px-H%C3%B6llgrotten_Baar_lower_cave_20201015.jpg",
+        "alt": "Beleuchteter unterirdischer See in den Höllgrotten bei Baar",
+        "credit": "https://commons.wikimedia.org/wiki/File:H%C3%B6llgrotten_Baar_lower_cave_20201015.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source": "https://www.hoellgrotten.ch/de/besucher.html",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-aegerisee-schiff",
+      "kind": "aktivitaet",
+      "name": "Ägerisee-Rundfahrt mit dem E-Schiff",
+      "region": "zug",
+      "town": "Unterägeri",
+      "address": "Schiffsteg Unterägeri, 6314 Unterägeri",
+      "coords": {
+        "lat": 47.12005,
+        "lng": 8.62125
+      },
+      "url": "https://www.aegerisee-schifffahrt.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "familie",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "Ende April bis Anfang Oktober",
+      "hours": "Kursfahrten täglich ab Unterägeri 11.15, 13.15, 15.15 Uhr (Saison 2026)",
+      "durationMin": 90,
+      "text": "Ein leises Elektroschiff dreht seine Runden auf dem Ägerisee zwischen Unter- und Oberägeri, Morgarten und Eierhals. Der See liegt höher und ruhiger als der Zugersee, die Ufer sind kaum verbaut.",
+      "tip": "Das Billett kaufst du direkt an Bord; in Oberägeri legt das Schiff eine Ladepause ein – wer will, steigt dort aus und spaziert dem Ufer entlang zurück.",
+      "priceInfo": {
+        "from": 26.4,
+        "unit": "grosse Rundfahrt Erwachsene",
+        "note": "Halbtax und Kinder 6–16 CHF 13.20, Tageskarte CHF 30; Kinder unter 6 gratis, GA gilt; Tarife 2026"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Aegerisee_9419.jpg/1280px-Aegerisee_9419.jpg",
+        "alt": "Blick über den Ägerisee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Aegerisee_9419.jpg"
+      },
+      "open": {
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "source": "https://www.zugersee-schifffahrt.ch/fileadmin/Files/AeS/PDF/Brosch%C3%BCren/AeS_Fahrplan_Tarife_2026_DE.pdf",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-zugersee-schiff",
+      "kind": "aktivitaet",
+      "name": "Zugersee-Rundfahrt (SGZ)",
+      "region": "zug",
+      "town": "Zug",
+      "address": "Schiffstation Zug Bahnhofsteg, 6300 Zug",
+      "coords": {
+        "lat": 47.17007,
+        "lng": 8.51337
+      },
+      "url": "https://www.zugersee-schifffahrt.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "familie",
+        "romantisch",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "Mitte April bis Ende Oktober",
+      "hours": "Rundfahrten ab Zug Bahnhofsteg, Mo–Sa z. B. 9.45, 12.15, 15.15 Uhr; im Detail laut Fahrplan",
+      "durationMin": 150,
+      "text": "Vom Bahnhofsteg fahren die Kursschiffe Richtung Süden bis Arth am Fuss der Rigi und zurück. Je nach Kurs bist du gut zwei bis knapp drei Stunden unterwegs und siehst die Rigi und den Zugerberg vom Wasser aus.",
+      "tip": "Der Bahnhofsteg liegt nur ein paar Minuten vom Bahnhof – du kannst direkt vom Zug aufs Schiff.",
+      "priceInfo": {
+        "from": 43.2,
+        "unit": "grosse Rundfahrt Erwachsene",
+        "note": "Halbtax und Kinder 6–16 CHF 21.60, unter 6 gratis, GA gilt im Kursbetrieb"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Das_Schiff_%22Zug%22_auf_dem_Zugersee.jpg/1280px-Das_Schiff_%22Zug%22_auf_dem_Zugersee.jpg",
+        "alt": "Kursschiff «Zug» auf dem Zugersee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Das_Schiff_%22Zug%22_auf_dem_Zugersee.jpg"
+      },
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source": "https://www.zugersee-schifffahrt.ch/fahrplan-tarife/tarife/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-kunsthaus",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kunsthaus Zug",
+      "region": "zug",
+      "town": "Zug",
+      "address": "Dorfstrasse 27, 6300 Zug",
+      "coords": {
+        "lat": 47.16493,
+        "lng": 8.51738
+      },
+      "url": "https://www.kunsthauszug.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–Fr 12–18, Sa/So 10–17 Uhr",
+      "durationMin": 90,
+      "text": "Kleines, gut kuratiertes Museum am Rand der Altstadt mit Schwerpunkt auf Wiener Moderne und Schweizer Surrealismus. Daneben zeigt das Haus wechselnde Ausstellungen zeitgenössischer Kunst.",
+      "tip": "Unter der Woche öffnet das Kunsthaus erst um 12 Uhr – plan es für den Nachmittag oder fürs Wochenende ein.",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 12; bei Sonderausstellungen CHF 18 bzw. 15"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Zug_Kunsthaus_Zug_1.jpg/1280px-Zug_Kunsthaus_Zug_1.jpg",
+        "alt": "Gebäude des Kunsthauses Zug an der Dorfstrasse",
+        "credit": "https://commons.wikimedia.org/wiki/File:Zug_Kunsthaus_Zug_1.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "12:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "12:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "12:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.zuerich.com/de/besuchen/kultur/kunsthaus-zug-von-der-wiener-moderne-bis-zum-schweizer-surrealismus",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zg-burg",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museum Burg Zug",
+      "region": "zug",
+      "town": "Zug",
+      "address": "Kirchenstrasse 11, 6300 Zug",
+      "coords": {
+        "lat": 47.16507,
+        "lng": 8.51677
+      },
+      "url": "https://www.burgzug.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–Fr 14–17, Sa/So 10–17 Uhr",
+      "durationMin": 90,
+      "text": "Das kulturgeschichtliche Museum steckt in einer mittelalterlichen Burg am oberen Rand der Altstadt. Durch alte Mauern, Holzstuben und Dachgeschosse erzählt es die Geschichte von Stadt und Kanton.",
+      "tip": "Kinder bis 16 zahlen nichts, und am ersten Mittwoch im Monat ist der Eintritt für alle frei.",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder bis 16 gratis; erster Mittwoch im Monat gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Zug_Burg_Zug_und_Museum_2.jpg/1280px-Zug_Burg_Zug_und_Museum_2.jpg",
+        "alt": "Die Burg Zug mit dem Museum",
+        "credit": "https://commons.wikimedia.org/wiki/File:Zug_Burg_Zug_und_Museum_2.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "source": "https://www.burgzug.ch",
+      "checked": "2026-11-15"
+    }
+  ],
+  "trips": [
+    {
+      "slug": "rheinfall-munot-stein-am-rhein",
+      "title": "Rheinfall, Munot und Stein am Rhein",
+      "teaser": "Zwei Tage am Hochrhein: mit dem Boot auf den Rheinfallfelsen, durch zwei bemalte Altstädte und mit dem Kursschiff von Stein am Rhein zurück nach Schaffhausen.",
+      "region": "schaffhausen",
+      "days": 2,
+      "moods": [
+        "kultur",
+        "natur",
+        "genuss",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "April–Oktober (Felsenfahrt, Kursschiff und Kloster nur dann); ideal Freitag und Samstag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 38
+        },
+        {
+          "from": "Bern",
+          "minutes": 101
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 96
+        }
+      ],
+      "hotelIds": [
+        "sh-hotel-kronenhof"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Freitag) – Rheinfall und Altstadt Schaffhausen",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "sh-hotel-kronenhof",
+              "title": "Gepäck abgeben",
+              "text": "Vom Bahnhof durch die Altstadt zum Kirchhofplatz und die Taschen im Hotel lassen.",
+              "travel": "ca. 6 Min. zu Fuss vom Bahnhof Schaffhausen"
+            },
+            {
+              "time": "10:45",
+              "placeId": "sh-rheinfall-neuhausen",
+              "title": "Am Rheinfall entlang",
+              "text": "Auf der Neuhauser Seite dem Becken entlang bis zum Schlössli Wörth spazieren und den Fall zum ersten Mal von unten sehen.",
+              "travel": "ca. 15 Min. mit Bus 1 bis Neuhausen und kurzer Fussweg",
+              "rain": {
+                "placeId": "sh-smilestones",
+                "title": "Miniaturwelt statt Ufer",
+                "text": "Bei Dauerregen gehst du zuerst in die Smilestones gleich beim Bahnhof Neuhausen und schaust dir den Rheinfall im Kleinformat an (unter der Woche im Winterhalbjahr erst ab 11 Uhr)."
+              }
+            },
+            {
+              "time": "11:45",
+              "placeId": "sh-felsenfahrt",
+              "title": "Mit dem Boot auf den Felsen",
+              "text": "Vom Schlössli Wörth durch die Gischt zum Mittelfelsen und die Treppe hinauf bis zur Spitze.",
+              "travel": "Landestelle direkt beim Schlössli Wörth",
+              "rain": {
+                "title": "Regenjacke statt Absage",
+                "text": "Die Boote fahren auch bei Regen – nass wirst du am Felsen ohnehin. Nur bei Hochwasser oder Gewitter fällt die Fahrt aus; dann gehst du direkt über den Steg zum Schloss Laufen."
+              }
+            },
+            {
+              "time": "12:45",
+              "placeId": "sh-restaurant-schloss-laufen",
+              "title": "Zmittag im Schloss",
+              "text": "Über den Fussweg an der Eisenbahnbrücke auf die Zürcher Seite und im Schloss essen – mit Blick auf das Wasser.",
+              "travel": "ca. 15 Min. zu Fuss über den Steg an der Eisenbahnbrücke"
+            },
+            {
+              "time": "14:00",
+              "placeId": "sh-schloss-laufen",
+              "title": "Belvedere-Weg bis ans Wasser",
+              "text": "Über Treppen hinunter zu den Plattformen am Fuss des Falls, dann mit dem Panoramalift zurück und kurz ins Historama.",
+              "travel": "direkt beim Restaurant",
+              "rain": {
+                "title": "Kurz und nass",
+                "text": "Bei Starkregen lässt du die unterste Plattform aus, schaust dir das Historama im Schloss an und fährst früher zurück nach Schaffhausen."
+              }
+            },
+            {
+              "time": "15:30",
+              "placeId": "sh-allerheiligen",
+              "title": "Museum zu Allerheiligen",
+              "text": "Durch Kreuzgang und Kräutergarten des alten Klosters und eine Stunde Stadt- und Regionalgeschichte.",
+              "travel": "5 Min. S-Bahn ab Bahnhof Schloss Laufen am Rheinfall bis Schaffhausen, dann ca. 8 Min. zu Fuss"
+            },
+            {
+              "time": "17:15",
+              "placeId": "sh-altstadt-schaffhausen",
+              "title": "Erker und Fassaden",
+              "text": "Über die Vordergasse zum Haus zum Ritter und durch die Gassen rund um den Fronwagplatz.",
+              "travel": "ca. 5 Min. zu Fuss",
+              "rain": {
+                "placeId": "sh-falken",
+                "title": "Ein Bier im Falken",
+                "text": "Bei Regen verkürzt du den Bummel und setzt dich in die alte Bierbeiz an der Vorstadt."
+              }
+            },
+            {
+              "time": "18:45",
+              "placeId": "sh-gueterhof",
+              "title": "Znacht am Rhein",
+              "text": "Im ehemaligen Lagerhaus an der Schifflände essen, im Sommer draussen auf der Terrasse am Fluss.",
+              "travel": "ca. 7 Min. zu Fuss"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Samstag) – Stein am Rhein und Schiff zurück",
+          "slots": [
+            {
+              "time": "08:45",
+              "placeId": "sh-cafe-reber",
+              "title": "Kaffee und Schaffhauserzungen",
+              "text": "Zum Start einen Kaffee im Café Reber und eine Schachtel Zungen für die Heimfahrt.",
+              "travel": "ca. 4 Min. zu Fuss vom Hotel"
+            },
+            {
+              "time": "10:15",
+              "placeId": "sh-altstadt-stein-am-rhein",
+              "title": "Rathausplatz von Stein am Rhein",
+              "text": "Über die Rheinbrücke in die Altstadt und die bemalten Häuser am Rathausplatz anschauen, solange es noch ruhig ist.",
+              "travel": "24 Min. S-Bahn ab Schaffhausen, dann ca. 10 Min. zu Fuss über die Brücke",
+              "rain": {
+                "title": "Unter Dach bleiben",
+                "text": "Bei Regen verkürzt du den Rundgang auf den Rathausplatz und gehst direkt weiter ins Kloster nebenan, das um 11 Uhr öffnet."
+              }
+            },
+            {
+              "time": "11:00",
+              "placeId": "sh-kloster-st-georgen",
+              "title": "Kloster Sankt Georgen",
+              "text": "Kreuzgang, Mönchszellen und der bemalte Festsaal im ehemaligen Kloster direkt am Rhein.",
+              "travel": "ca. 3 Min. zu Fuss"
+            },
+            {
+              "time": "12:00",
+              "placeId": "sh-hotel-rheinfels",
+              "title": "Fisch am Brückenkopf",
+              "text": "Im Rheinfels direkt am Wasser essen – das Haus ist für seine Fischgerichte bekannt. Wer mag, steigt danach statt aufs Schiff zur Burg Hohenklingen hinauf und nimmt später die S-Bahn.",
+              "travel": "ca. 3 Min. zu Fuss vom Kloster"
+            },
+            {
+              "time": "13:30",
+              "placeId": "sh-urh-schiff",
+              "title": "Mit dem Kursschiff nach Schaffhausen",
+              "text": "Rund eineinviertel Stunden flussabwärts an Diessenhofen vorbei zurück nach Schaffhausen; Abfahrtszeit vorher im aktuellen URh-Fahrplan prüfen.",
+              "travel": "ca. 3 Min. zu Fuss zur Schiffländi",
+              "rain": {
+                "title": "Drinnen sitzen oder Zug nehmen",
+                "text": "Die Schiffe haben einen geschlossenen Salon. Fällt der Kurs wegen Hoch- oder Niedrigwasser aus, fährst du mit der S-Bahn in 24 Minuten zurück."
+              }
+            },
+            {
+              "time": "15:00",
+              "placeId": "sh-munot",
+              "title": "Zum Schluss auf den Munot",
+              "text": "Von der Schifflände durch die Reben hinauf zur Festung und von der Zinne auf Stadt und Rhein schauen.",
+              "travel": "ca. 10 Min. zu Fuss über den Munotstieg",
+              "rain": {
+                "title": "In der Kasematte bleiben",
+                "text": "Die gewölbte Kasematte ist überdacht – bei Regen schaust du dir vor allem sie an und nimmst die Zinne nur kurz mit."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rheinfall-familientag",
+      "title": "Familientag am Rheinfall",
+      "teaser": "Gischt auf den Plattformen, eine Bootsfahrt auf den Felsen mitten im Fall, eine Miniaturwelt zum Knöpfchendrücken und zum Abschluss die Festung Munot.",
+      "region": "schaffhausen",
+      "days": 1,
+      "moods": [
+        "familie",
+        "natur",
+        "aktiv"
+      ],
+      "audience": [
+        "familie"
+      ],
+      "season": "April–Oktober (Felsenfahrt); Mi–So, weil die Smilestones Mo/Di geschlossen sind",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 50
+        },
+        {
+          "from": "Bern",
+          "minutes": 109
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 104
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Ein Tag am Rheinfall (Mittwoch bis Sonntag)",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "sh-schloss-laufen",
+              "title": "Runter zu den Plattformen",
+              "text": "Vom Bahnhof Schloss Laufen am Rheinfall direkt ins Schloss, dann über den Belvedere-Weg hinunter, bis die Gischt ins Gesicht spritzt; zurück mit dem Panoramalift.",
+              "travel": "S-Bahn bis Schloss Laufen am Rheinfall, Eingang gleich beim Bahnhof",
+              "rain": {
+                "title": "Regenjacken an",
+                "text": "Unten wirst du sowieso nass. Bei Starkregen bleibt ihr länger im Historama im Schloss und lasst die unterste Plattform aus."
+              }
+            },
+            {
+              "time": "11:30",
+              "placeId": "sh-restaurant-schloss-laufen",
+              "title": "Früher Zmittag",
+              "text": "Im Selbstbedienungsrestaurant essen, bevor es um Mittag voll wird.",
+              "travel": "im Schloss"
+            },
+            {
+              "time": "12:30",
+              "placeId": "sh-felsenfahrt",
+              "title": "Bootsfahrt auf den Felsen",
+              "text": "Mit der Überfahrt zum Schlössli Wörth und von dort mit dem Felsenboot auf den Mittelfelsen – Kinder unter 6 fahren ohne eigenen Sitzplatz gratis.",
+              "travel": "Abfahrt an der Landestelle unterhalb des Schlosses",
+              "rain": {
+                "title": "Nur bei Hochwasser fällt sie aus",
+                "text": "Bei normalem Regen fahren die Boote. Ist die Felsenfahrt eingestellt, nehmt ihr die Rheinüberfahrt oder den Steg an der Eisenbahnbrücke auf die andere Seite."
+              }
+            },
+            {
+              "time": "13:30",
+              "placeId": "sh-rheinfall-neuhausen",
+              "title": "Am Ufer entlang",
+              "text": "Auf der Neuhauser Seite am Becken entlang bummeln und den Fall noch einmal von vorne sehen.",
+              "travel": "Landestelle Schlössli Wörth",
+              "rain": {
+                "title": "Abkürzen",
+                "text": "Bei Regen geht ihr direkt die paar Minuten hinauf zur Miniaturwelt."
+              }
+            },
+            {
+              "time": "14:30",
+              "placeId": "sh-smilestones",
+              "title": "Miniaturwelt Smilestones",
+              "text": "Züge, Schiffe und kleine Szenen per Knopfdruck in Bewegung setzen – mit Mini-Rheinfall und Mini-Munot.",
+              "travel": "ca. 10 Min. zu Fuss bergauf Richtung Bahnhof Neuhausen"
+            },
+            {
+              "time": "16:15",
+              "placeId": "sh-munot",
+              "title": "Hinauf auf den Munot",
+              "text": "Mit dem Bus nach Schaffhausen und über die Wendelrampe ohne Stufen auf die Zinne – Kinder rennen hier gern hinauf. Von Oktober bis April schliesst der Munot um 17 Uhr.",
+              "travel": "ca. 10 Min. Bus 1 nach Schaffhausen, dann ca. 12 Min. zu Fuss",
+              "rain": {
+                "title": "Kasematte statt Zinne",
+                "text": "Bei Regen bleibt ihr in der überdachten Kasematte und schaut nur kurz von oben."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "zug-zugerberg-altstadt-kirschtorte",
+      "title": "Zug: Zugerberg, Altstadt und Kirschtorte",
+      "teaser": "Ein Samstag in Zug mit Standseilbahn auf den Hausberg, Mittagessen im Rathauskeller, Gassen bis ans Seeufer und Kirschtorte im Erfinderhaus.",
+      "region": "zug",
+      "days": 1,
+      "moods": [
+        "genuss",
+        "kultur",
+        "natur"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "ganzjährig; Dienstag bis Samstag (Rathauskeller So/Mo geschlossen), ideal Samstag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 21
+        },
+        {
+          "from": "Bern",
+          "minutes": 87
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 82
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Samstag in Zug",
+          "slots": [
+            {
+              "time": "09:45",
+              "placeId": "zg-zugerberg",
+              "title": "Auf den Zugerberg",
+              "text": "Mit Bus und Standseilbahn hinauf, dann eine gute Stunde über Wiesen und durch den Wald mit Blick auf See und Rigi.",
+              "travel": "ca. 30 Min. ab Bahnhof Zug mit Bus bis Schönegg und Zugerbergbahn",
+              "rain": {
+                "placeId": "zg-kunsthaus",
+                "title": "Kunsthaus statt Berg",
+                "text": "Bei Nebel und Regen siehst du oben nichts – geh stattdessen ins Kunsthaus Zug, das samstags um 10 Uhr öffnet."
+              }
+            },
+            {
+              "time": "12:15",
+              "placeId": "zg-rathauskeller",
+              "title": "Zmittag im Rathauskeller",
+              "text": "Im Bistro Schweizer Klassiker essen, gern als kleine Portion.",
+              "travel": "ca. 30 Min. mit Bahn und Bus zurück in die Altstadt"
+            },
+            {
+              "time": "13:45",
+              "placeId": "zg-altstadt",
+              "title": "Gassen bis zum See",
+              "text": "Vom Zytturm am Kolinplatz durch Ober- und Unteraltstadt hinunter ans Ufer.",
+              "travel": "ca. 2 Min. zu Fuss",
+              "rain": {
+                "placeId": "zg-burg",
+                "title": "Museum Burg Zug",
+                "text": "Bei Regen gehst du statt durch die Gassen in die Burg am oberen Altstadtrand und erfährst dort, wie Zug gewachsen ist."
+              }
+            },
+            {
+              "time": "15:15",
+              "placeId": "zg-treichler",
+              "title": "Kirschtorte im Erfinderhaus",
+              "text": "Kurz durchs kleine Kirschtorten-Museum und danach ein Stück Torte im Kaffeehaus.",
+              "travel": "ca. 10 Min. zu Fuss Richtung Bahnhof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "zug-familientag-hoellgrotten-aegerisee",
+      "title": "Familientag: Höllgrotten und Ägerisee",
+      "teaser": "Tropfsteinhöhlen im Lorzentobel, Zmittag im Ausflugsrestaurant, eine Runde mit dem Elektroschiff auf dem Ägerisee und zum Schluss Kirschtorte in Zug.",
+      "region": "zug",
+      "days": 1,
+      "moods": [
+        "familie",
+        "natur",
+        "aktiv"
+      ],
+      "audience": [
+        "familie"
+      ],
+      "season": "Ende April bis Anfang Oktober (Ägerisee-Schiff); Dienstag bis Sonntag (Restaurant Höllgrotten Mo geschlossen)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 21
+        },
+        {
+          "from": "Bern",
+          "minutes": 87
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 82
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Höhle, Tobel und See (Dienstag bis Sonntag)",
+          "slots": [
+            {
+              "time": "09:45",
+              "placeId": "zg-hoellgrotten",
+              "title": "In die Höllgrotten",
+              "text": "Durch die beleuchteten Tropfsteinhöhlen bis zum unterirdischen See – Jacke nicht vergessen.",
+              "travel": "8 Min. Bus 602 ab Bahnhof Zug bis Tobelbrücke-Höllgrotten, dann ca. 30 Min. zu Fuss der Lorze entlang"
+            },
+            {
+              "time": "11:15",
+              "placeId": "zg-restaurant-hoellgrotten",
+              "title": "Zmittag im Tobel",
+              "text": "Forelle, Rösti oder einfach Kuchen im historischen Ausflugsrestaurant.",
+              "travel": "ca. 10 Min. zu Fuss vom Grotteneingang"
+            },
+            {
+              "time": "13:15",
+              "placeId": "zg-aegerisee-schiff",
+              "title": "Runde auf dem Ägerisee",
+              "text": "Ab Unterägeri mit dem Elektroschiff über den See; das Billett gibt es an Bord.",
+              "travel": "ca. 30 Min. zu Fuss zurück zur Tobelbrücke, dann ca. 20 Min. Bus 601 nach Unterägeri und zu Fuss zum Schiffsteg",
+              "rain": {
+                "placeId": "zg-burg",
+                "title": "Museum Burg Zug",
+                "text": "Bei Regen fährst du mit dem Bus zurück nach Zug und gehst ins Museum Burg Zug – Kinder bis 16 zahlen nichts (Di–Fr erst ab 14 Uhr)."
+              }
+            },
+            {
+              "time": "15:30",
+              "placeId": "zg-treichler",
+              "title": "Kirschtorte zum Abschluss",
+              "text": "Zurück in Zug ein Stück Kirschtorte im Erfinderhaus und kurz ins kleine Museum mit dem Kleid von Audrey Hepburn.",
+              "travel": "ca. 25 Min. Bus 601 von Unterägeri nach Zug, dann wenige Minuten zu Fuss"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

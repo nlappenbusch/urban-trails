@@ -4,9 +4,9 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Link2, Shuffle, Sparkles } from "lucide-react";
-import { AUDIENCE, MOODS, daysLabel, tripBudget, type Place } from "@/lib/ausfluege-core";
+import { AUDIENCE, MOODS, daysLabel, openState, tripBudget, type Place } from "@/lib/ausfluege-core";
 import { composePlan, type PlanInput, type PlanTour } from "@/lib/compose";
-import TripTimeline, { type TimelineTour } from "@/components/TripTimeline";
+import TripTimeline, { type SwapApi, type TimelineTour } from "@/components/TripTimeline";
 import TripMap from "@/components/TripMap";
 import TripBudget from "@/components/TripBudget";
 import TripPlanPanel from "@/components/TripPlanPanel";
@@ -34,6 +34,8 @@ export default function Planner({ regions, places, tours }: {
     rain: sp.get("wetter") === "regen",
     budget: Math.min(4, Math.max(1, Number(sp.get("budget")) || 2)),
     date: /^\d{4}-\d{2}-\d{2}$/.test(sp.get("datum") ?? "") ? sp.get("datum")! : undefined,
+    exclude: (sp.get("ohne") ?? "").split(",").filter(Boolean),
+    prefer: (sp.get("lieber") ?? "").split(",").filter(Boolean),
   };
   const region = regions.find((r) => r.slug === input.region);
   const days = region && !region.hotels ? 1 : input.days;
@@ -52,9 +54,30 @@ export default function Planner({ regions, places, tours }: {
   const budget = useMemo(() => (plan ? tripBudget(plan.days, placeMap, plan.hotel, input.rain) : null),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [plan, placeMap]);
-  const tourMap = useMemo(() => Object.fromEntries(tours.map((t) => [t.slug, { name: t.name, citySlug: t.citySlug } satisfies TimelineTour])), [tours]);
+  const tourMap = useMemo(() => Object.fromEntries(tours.map((t) => [t.slug, { name: t.name, citySlug: t.citySlug, durationMinutes: t.durationMinutes } satisfies TimelineTour])), [tours]);
 
   useEffect(() => setCopied(false), [sp]);
+
+  // Tauschen: gleiche Art (Essen ↔ Essen, Erlebnis ↔ Erlebnis), nicht schon im Programm, bei Regen mit Dach
+  const swap: SwapApi | undefined = useMemo(() => {
+    if (!plan) return undefined;
+    const used = new Set(plan.days.flatMap((d) => d.slots.map((s) => s.placeId)).filter(Boolean) as string[]);
+    const group = (k: Place["kind"]) => (["restaurant", "cafe", "bar", "hotel"].includes(k) ? k : "erlebnis");
+    return {
+      alternatives: (p) =>
+        places
+          .filter((a) => a.region === p.region && a.id !== p.id && !used.has(a.id) && !input.exclude?.includes(a.id) && group(a.kind) === group(p.kind))
+          .filter((a) => !input.rain || a.weatherProof || ["restaurant", "cafe", "bar"].includes(a.kind))
+          .filter((a) => !input.date || openState(a, input.date) !== "zu")
+          .sort((a, b) => Number(Boolean(b.img)) - Number(Boolean(a.img)) || b.tags.length - a.tags.length),
+      replace: (from, to) => {
+        const ohne = [...new Set([...(input.exclude ?? []), from.id])].filter((x) => x !== to?.id);
+        const lieber = [...new Set([...(input.prefer ?? []).filter((x) => x !== from.id), ...(to ? [to.id] : [])])];
+        set({ ohne: ohne.join(",") || null, lieber: lieber.join(",") || null });
+      },
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [plan, places, sp.toString()]);
 
   // Datum + Wetter aus dem Panel: Programm neu bauen (Öffnungszeiten, Regen)
   useEffect(() => {
@@ -157,7 +180,13 @@ export default function Planner({ regions, places, tours }: {
               <TripMap key={sp.toString()} days={plan.days} places={placeMap} hotel={plan.hotel} />
             </div>
             <div className="mt-8">
-              <TripTimeline title={`Ausflug ${region.name}`} days={plan.days} places={placeMap} tours={tourMap} hotel={plan.hotel} allowRainToggle={false} />
+              <TripTimeline title={`Ausflug ${region.name}`} days={plan.days} places={placeMap} tours={tourMap} hotel={plan.hotel} allowRainToggle={false} swap={swap} />
+              {(input.exclude?.length ?? 0) > 0 && (
+                <p className="mt-4 text-sm text-cream-dim">
+                  {input.exclude!.length} {input.exclude!.length === 1 ? "Ort" : "Orte"} ausgeblendet ({input.exclude!.map((id) => places.find((p) => p.id === id)?.name).filter(Boolean).join(", ")}).{" "}
+                  <button type="button" onClick={() => set({ ohne: null, lieber: null })} className="font-semibold text-signal-600 hover:text-signal-500">Wieder zeigen</button>
+                </p>
+              )}
             </div>
             <p className="mt-10 text-sm text-cream-dim">
               Soll jemand mitkommen, der die Gegend kennt?{" "}

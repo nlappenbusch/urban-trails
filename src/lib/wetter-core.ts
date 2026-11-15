@@ -27,6 +27,9 @@ export interface DayWeatherLite {
   rainProb: number;
   rainMm: number;
   hourly?: number[];
+  hourlyTemp?: number[];
+  hourlyCode?: number[];
+  sunset?: string;
 }
 
 export const rainyDay = (w: Pick<DayWeatherLite, "rainProb" | "rainMm">) => w.rainProb >= 60 && w.rainMm >= 2;

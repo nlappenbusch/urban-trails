@@ -12,6 +12,10 @@ export interface PlanInput {
   date?: string;
   /** Regen nur an einzelnen Tagen (Index → Regen ja/nein), überschreibt `rain` */
   rainByDay?: boolean[];
+  /** Orte, die nicht vorkommen sollen («schon dort gewesen», getauscht) */
+  exclude?: string[];
+  /** Orte, die bevorzugt eingeplant werden (Tausch-Wahl) */
+  prefer?: string[];
 }
 
 export interface PlanTour {
@@ -51,7 +55,9 @@ const ACTIVITY: Place["kind"][] = ["aktivitaet", "sehenswuerdigkeit", "aussicht"
  * nichts wird erfunden. Bewertung: passende Stimmung/Begleitung, Wetter, Budget.
  */
 export function composePlan(input: PlanInput, all: Place[], tours: PlanTour[]): Plan {
-  const pool = all.filter((p) => p.region === input.region);
+  const skip = new Set(input.exclude ?? []);
+  const prefer = new Set(input.prefer ?? []);
+  const pool = all.filter((p) => p.region === input.region && !skip.has(p.id));
   const wanted = new Set([...input.moods.flatMap((m) => MOOD_TAGS[m] ?? []), ...(AUDIENCE_TAGS[input.audience] ?? [])]);
   const used = new Set<string>();
   const notes: string[] = [];
@@ -65,14 +71,14 @@ export function composePlan(input: PlanInput, all: Place[], tours: PlanTour[]): 
   };
 
   const score = (p: Place) => {
-    let s = p.tags.filter((t) => wanted.has(t)).length * 3;
+    let s = p.tags.filter((t) => wanted.has(t)).length * 3 + (prefer.has(p.id) ? 100 : 0);
     if (at.rain) s += p.weatherProof ? 4 : OUTDOOR.includes(p.kind) ? -50 : 0;
     if (input.audience === "familie" && p.kind === "bar") s -= 50;
     if (p.price && p.price > input.budget) s -= 8;
     if (p.price && p.price === input.budget) s += 1;
     if (at.date && p.kind !== "hotel") {
       const st = openState(p, at.date, at.time, at.time ? endOf(at.time, p) : undefined);
-      if (st === "zu") s -= 100;
+      if (st === "zu") s -= 300;
       else if (st === "offen") s += 1;
     }
     return s;
@@ -80,7 +86,7 @@ export function composePlan(input: PlanInput, all: Place[], tours: PlanTour[]): 
 
   const pick = (kinds: Place["kind"][], extra?: (p: Place) => boolean) => {
     const best = pool
-      .filter((p) => kinds.includes(p.kind) && !used.has(p.id) && (!extra || extra(p)))
+      .filter((p) => kinds.includes(p.kind) && !used.has(p.id) && (!extra || extra(p)) && !(at.rain && OUTDOOR.includes(p.kind) && !p.weatherProof))
       .map((p) => ({ p, s: score(p) }))
       .filter((x) => x.s > -40)
       .sort((a, b) => b.s - a.s)[0]?.p;
@@ -106,7 +112,19 @@ export function composePlan(input: PlanInput, all: Place[], tours: PlanTour[]): 
     const rainToday = input.rainByDay?.[d] ?? input.rain;
     at = { date: input.date ? addDays(input.date, d) : undefined, rain: rainToday };
     if (d === 0) {
-      if (tour) slots.push({ time: "10:30", tourSlug: tour.slug, title: `Audio-Tour: ${tour.name}`, text: `Ankommen und die Stadt zu Fuss kennenlernen – rund ${Math.round(tour.durationMinutes / 30) / 2} Stunden mit Audio-Story an jedem Stopp.${rainToday ? " Bei Regen: Schirm mit, die meisten Stopps haben ein Dach in der Nähe." : ""}` });
+      if (tour) {
+        // Bis zum Mittag bleibt Zeit für rund zweieinhalb Stunden; den Rest gibt's später – der Fortschritt bleibt gespeichert
+        const long = tour.durationMinutes > 150;
+        slots.push({
+          time: "10:30",
+          tourSlug: tour.slug,
+          durationMin: Math.min(tour.durationMinutes, 150),
+          title: `Audio-Tour: ${tour.name}${long ? " (erster Teil)" : ""}`,
+          text: long
+            ? `Ankommen und die Stadt zu Fuss kennenlernen. Die ganze Tour dauert rund ${Math.round(tour.durationMinutes / 30) / 2} Stunden – bis zum Mittag schaffst du gut die Hälfte, den Rest später oder beim nächsten Mal. Dein Fortschritt bleibt auf dem Handy gespeichert.${rainToday ? " Bei Regen: Schirm mit, die meisten Stopps haben ein Dach in der Nähe." : ""}`
+            : `Ankommen und die Stadt zu Fuss kennenlernen – rund ${Math.round(tour.durationMinutes / 30) / 2} Stunden mit Audio-Story an jedem Stopp.${rainToday ? " Bei Regen: Schirm mit, die meisten Stopps haben ein Dach in der Nähe." : ""}`,
+        });
+      }
       else slots.push(slot("10:30", pickAt("10:30", ACTIVITY), "Zum Ankommen"));
       slots.push(slot("13:00", pickAt("13:00", ["restaurant", "cafe"]), "Mittagessen"));
       slots.push(slot("14:30", pickAt("14:30", ACTIVITY), "Am Nachmittag"));

@@ -13,6 +13,11 @@ export interface DayWeather {
   rainMm: number;
   /** stündlich 0–23: Regenwahrscheinlichkeit in % */
   hourly: number[];
+  /** stündlich 0–23: Temperatur (°C, gerundet) und Wettercode */
+  hourlyTemp: number[];
+  hourlyCode: number[];
+  /** Sonnenuntergang HH:MM */
+  sunset?: string;
 }
 
 const cache = memo<DayWeather[]>(30 * 60_000);
@@ -23,8 +28,8 @@ export function forecast(lat: number, lng: number) {
     const q = new URLSearchParams({
       latitude: lat.toFixed(3),
       longitude: lng.toFixed(3),
-      daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum",
-      hourly: "precipitation_probability",
+      daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,sunset",
+      hourly: "precipitation_probability,temperature_2m,weather_code",
       timezone: "Europe/Zurich",
       forecast_days: "7",
     });
@@ -39,6 +44,9 @@ export function forecast(lat: number, lng: number) {
       rainProb: d.daily.precipitation_probability_max[i] ?? 0,
       rainMm: d.daily.precipitation_sum[i] ?? 0,
       hourly: (d.hourly.precipitation_probability as number[]).slice(i * 24, i * 24 + 24).map((x) => x ?? 0),
+      hourlyTemp: (d.hourly.temperature_2m as number[]).slice(i * 24, i * 24 + 24).map((x) => Math.round(x ?? 0)),
+      hourlyCode: (d.hourly.weather_code as number[]).slice(i * 24, i * 24 + 24).map((x) => x ?? 0),
+      sunset: typeof d.daily.sunset?.[i] === "string" ? (d.daily.sunset[i] as string).slice(11, 16) : undefined,
     }));
   });
 }

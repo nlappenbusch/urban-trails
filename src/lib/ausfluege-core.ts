@@ -102,6 +102,8 @@ export interface TripSlot {
   text: string;
   travel?: string;
   rain?: TripAlt;
+  /** eigene Dauer (sonst aus Ort bzw. Tour) */
+  durationMin?: number;
 }
 
 export interface TripDay {
@@ -168,13 +170,89 @@ export function priceText(pi?: PriceInfo) {
 /** Programmpunkt bei Regen: Plan B, falls vorhanden. */
 export function effectiveSlot(s: TripSlot, rain: boolean): TripSlot & { swapped?: boolean } {
   if (!rain || !s.rain) return s;
-  return { ...s, placeId: s.rain.placeId, tourSlug: undefined, title: s.rain.title, text: s.rain.text, swapped: true };
+  return { ...s, placeId: s.rain.placeId, tourSlug: undefined, title: s.rain.title, text: s.rain.text, durationMin: undefined, swapped: true };
 }
 
 export function fmtMin(m: number) {
   if (m < 60) return `${m} Min.`;
   const h = Math.floor(m / 60), r = m % 60;
   return r ? `${h} h ${r} Min.` : `${h} h`;
+}
+
+export const hmToMin = (t: string) => {
+  const [h, m] = t.split(":").map(Number);
+  return h * 60 + (m || 0);
+};
+export const minToHm = (m: number) => {
+  const x = Math.max(0, Math.min(m, 24 * 60 - 1));
+  return `${String(Math.floor(x / 60)).padStart(2, "0")}:${String(x % 60).padStart(2, "0")}`;
+};
+
+/** Übliche Dauer je Ortsart, falls der Ort keine eigene hat. */
+function defaultDuration(kind: PlaceKind | undefined, start: number) {
+  switch (kind) {
+    case "restaurant": return start >= 17 * 60 ? 90 : 75;
+    case "cafe": return 45;
+    case "bar": return 60;
+    case "aussicht": return 75;
+    case "bad": return 120;
+    case "hotel": return 30;
+    case "aktivitaet":
+    case "sehenswuerdigkeit": return 90;
+    default: return 30;
+  }
+}
+
+export interface Leg {
+  mode: "fuss" | "oev";
+  min: number;
+  km: number;
+}
+
+/** Weg zwischen zwei Orten grob schätzen: unter 1.3 km zu Fuss, sonst ÖV (Wartezeit inklusive). */
+export function estimateLeg(a?: { lat: number; lng: number } | null, b?: { lat: number; lng: number } | null): Leg | undefined {
+  if (!a || !b) return undefined;
+  const dLat = ((b.lat - a.lat) * Math.PI) / 180, dLng = ((b.lng - a.lng) * Math.PI) / 180;
+  const x = Math.sin(dLat / 2) ** 2 + Math.cos((a.lat * Math.PI) / 180) * Math.cos((b.lat * Math.PI) / 180) * Math.sin(dLng / 2) ** 2;
+  const km = 12742 * Math.asin(Math.sqrt(x));
+  if (km < 0.08) return undefined; // gleicher Ort
+  if (km < 1.3) return { mode: "fuss", km, min: Math.max(2, Math.round((km * 1.3 * 1000) / 75)) };
+  return { mode: "oev", km, min: Math.ceil((8 + km * 2.2) / 5) * 5 };
+}
+
+export interface SlotLayout {
+  slot: TripSlot & { swapped?: boolean };
+  place?: Place;
+  start: number;
+  end: number;
+  /** Weg zum nächsten Programmpunkt */
+  leg?: Leg;
+  /** Minuten, die bis zum nächsten Punkt fehlen (Dauer + Weg zu lang) */
+  tight?: number;
+}
+
+/**
+ * Tagesablauf rechnen: Beginn, Ende, Weg zum nächsten Punkt und ob es knapp wird.
+ * Ändert die Uhrzeiten nicht – zeigt nur, was realistisch ist.
+ */
+export function layoutDay(day: TripDay, places: Record<string, Place>, rain: boolean, tourMinutes: (slug: string) => number | undefined = () => undefined): SlotLayout[] {
+  const rows = day.slots.map((raw) => {
+    const slot = effectiveSlot(raw, rain);
+    const place = slot.placeId ? places[slot.placeId] : undefined;
+    const start = hmToMin(slot.time);
+    const dur = slot.durationMin ?? (slot.tourSlug ? tourMinutes(slot.tourSlug) : undefined) ?? place?.durationMin ?? defaultDuration(place?.kind, start);
+    return { slot, place, start, end: start + Math.min(dur, 8 * 60) } as SlotLayout;
+  });
+  rows.forEach((r, i) => {
+    const next = rows[i + 1];
+    if (!next) return;
+    r.leg = estimateLeg(r.place?.coords, next.place?.coords);
+    const free = next.start - r.end - (r.leg?.min ?? 0);
+    if (free < -10) r.tight = -free;
+    // passt nicht: Ende auf den nächsten Beginn kürzen, damit die Zeitleiste lesbar bleibt
+    if (r.end > next.start) r.end = Math.max(r.start + 30, next.start - (r.leg?.min ?? 0));
+  });
+  return rows;
 }
 
 const PAYS: PlaceKind[] = ["restaurant", "cafe", "bar", "aktivitaet", "bad"];

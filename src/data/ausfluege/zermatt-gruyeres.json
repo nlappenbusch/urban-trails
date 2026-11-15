@@ -1,0 +1,2018 @@
+{
+  "regions": [
+    {
+      "slug": "zermatt",
+      "name": "Zermatt & Matterhorn",
+      "station": "Zermatt",
+      "center": {
+        "lat": 46.0203,
+        "lng": 7.7486
+      }
+    },
+    {
+      "slug": "gruyeres",
+      "name": "Greyerzerland (Gruyère)",
+      "station": "Gruyères",
+      "center": {
+        "lat": 46.5836,
+        "lng": 7.0819
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "zm-jugendherberge",
+      "kind": "hotel",
+      "name": "Jugendherberge Zermatt",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Staldenweg 5, 3920 Zermatt",
+      "coords": {
+        "lat": 46.01599,
+        "lng": 7.74859
+      },
+      "url": "https://www.youthhostel.ch/de/hostels/zermatt/",
+      "price": 1,
+      "tags": [
+        "familie",
+        "freunde",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Die Jugendherberge liegt ruhig am Hang auf der Ostseite der Vispa, rund 15 Minuten zu Fuss vom Bahnhof. Neben Mehrbettzimmern gibt es Doppel- und Familienzimmer, ein Restaurant im Haus und von vielen Fenstern freien Blick aufs Matterhorn.",
+      "tip": "In Zermatt ist das die günstigste Art, nahe am Dorf zu übernachten – in der Hochsaison und über Feiertage früh buchen.",
+      "source": "https://www.youthhostel.ch/de/hostels/zermatt/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-hotel-daniela",
+      "kind": "hotel",
+      "name": "Hotel Daniela",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Steinmattstrasse 39, 3920 Zermatt",
+      "coords": {
+        "lat": 46.01934,
+        "lng": 7.7495
+      },
+      "url": "https://sisterszermatt.ch/",
+      "price": 3,
+      "tags": [
+        "wellness",
+        "romantisch",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Vier-Sterne-Haus mit 22 Zimmern an der Steinmattstrasse, ein paar Minuten abseits der Bahnhofstrasse. Es gibt Frühstücksbuffet, einen kleinen Wellnessbereich mit Sauna, Dampfbad und Whirlpool und Zimmer mit Matterhorn-Sicht.",
+      "tip": "Für Zermatter Verhältnisse ist das die mittlere Preisklasse – wer günstiger will, landet in der Jugendherberge oder bei einer Ferienwohnung.",
+      "source": "https://www.zermatt.swiss/fr/p/hotel-daniela-zermatt-ag-01tVj000004t68zIAA",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-kulmhotel-gornergrat",
+      "kind": "hotel",
+      "name": "3100 Kulmhotel Gornergrat",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Gornergrat, 3920 Zermatt",
+      "coords": {
+        "lat": 45.98345,
+        "lng": 7.78358
+      },
+      "url": "https://www.gornergrat-kulm.ch",
+      "price": 4,
+      "tags": [
+        "aussicht",
+        "berg",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "Sommer- und Wintersaison",
+      "text": "Das Drei-Sterne-Hotel mit 22 Zimmern steht auf 3100 Metern direkt bei der Endstation der Gornergrat Bahn. Hier oben erlebst du Sonnenuntergang und -aufgang über Matterhorn und Monte Rosa, wenn die Tagesgäste längst unten sind.",
+      "tip": "Die Anreise geht nur mit der Gornergrat Bahn – plane das Billett zusätzlich zum Zimmerpreis ein und nimm warme Kleidung mit, auch im Sommer.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Kulmhotel_am_Gornergrat.jpg/1280px-Kulmhotel_am_Gornergrat.jpg",
+        "alt": "Kulmhotel auf dem Gornergrat",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kulmhotel_am_Gornergrat.jpg"
+      },
+      "source": "https://zermatt.swiss/p/3100-kulmhotel-gornergrat-01tVj000004t9RpIAI",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-whymper-stube",
+      "kind": "restaurant",
+      "name": "Whymper-Stube",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Bahnhofstrasse 80, 3920 Zermatt",
+      "coords": {
+        "lat": 46.02033,
+        "lng": 7.74623
+      },
+      "url": "https://www.monterosazermatt.ch/en/restaurants-bars/whymper-stube/",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "kultur",
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 12–21.30 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "12:00",
+              "21:30"
+            ]
+          ],
+          "1": [
+            [
+              "12:00",
+              "21:30"
+            ]
+          ],
+          "2": [
+            [
+              "12:00",
+              "21:30"
+            ]
+          ],
+          "3": [
+            [
+              "12:00",
+              "21:30"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "21:30"
+            ]
+          ],
+          "5": [
+            [
+              "12:00",
+              "21:30"
+            ]
+          ],
+          "6": [
+            [
+              "12:00",
+              "21:30"
+            ]
+          ]
+        }
+      },
+      "text": "Kleine Holzstube beim Hotel Monte Rosa, benannt nach Edward Whymper, der 1865 als Erster auf dem Matterhorn stand. Auf den Tisch kommen Käsefondue und Raclette mit Käse aus der Region, dazu Walliser Weine.",
+      "tip": "Die Stube ist eng und abends oft voll – reserviere, besonders in der Hochsaison.",
+      "source": "https://www.monterosazermatt.ch/en/restaurants-bars/whymper-stube/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-chez-vrony",
+      "kind": "restaurant",
+      "name": "Chez Vrony",
+      "region": "zermatt",
+      "town": "Findeln (Zermatt)",
+      "address": "Findeln, 3920 Zermatt",
+      "coords": {
+        "lat": 46.01176,
+        "lng": 7.76751
+      },
+      "url": "https://www.chezvrony.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "aussicht",
+        "berg",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "Sommer ca. Anfang Juli bis Mitte Oktober, Winter ca. Ende November bis Mitte April",
+      "hours": "in der Saison täglich 11.30–16 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "16:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:30",
+              "16:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "16:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "16:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "16:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "16:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "16:00"
+            ]
+          ]
+        },
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "text": "Bergrestaurant im Weiler Findeln oberhalb von Zermatt, das auch im Guide Michelin steht. Von der Terrasse schaust du zwischen alten Lärchenholzhütten direkt aufs Matterhorn; die Karte reicht von regionalen Gerichten bis zu vegetarischen und veganen Tellern.",
+      "tip": "Nur mittags offen – am Wochenende unbedingt reservieren, sonst bleibt nur die Bank am Wegrand.",
+      "source": "https://zermatt.swiss/en/p/chez-vrony-01tVj000005DnTCIA0",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-grampis",
+      "kind": "restaurant",
+      "name": "Ristorante Pizzeria Grampi's",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Bahnhofstrasse 70, 3920 Zermatt",
+      "coords": {
+        "lat": 46.02064,
+        "lng": 7.74632
+      },
+      "url": "https://zermatt.swiss/en/p/ristorante-pizzeria-grampis-01tVj000005DoQmIAK",
+      "price": 2,
+      "tags": [
+        "freunde",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich ab 18 Uhr, Küche bis spät",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "02:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "02:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "02:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "02:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "02:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "02:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "02:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "text": "Familiengeführte Pizzeria an der Bahnhofstrasse mit offener Küche, Pizza und Pasta. Eine der wenigen Adressen im Dorf, wo du auch nach 22 Uhr noch warm essen kannst.",
+      "tip": "Gut für den Abend nach einer langen Tour, wenn du keine Lust auf Reservationen hast.",
+      "source": "https://zermatt.swiss/en/p/ristorante-pizzeria-grampis-01tVj000005DoQmIAK",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-baeckerei-fuchs",
+      "kind": "cafe",
+      "name": "Bäckerei Fuchs (Bistro Bahnhofstrasse)",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Bahnhofstrasse 28, 3920 Zermatt",
+      "coords": {
+        "lat": 46.02219,
+        "lng": 7.74709
+      },
+      "url": "https://zermatt.swiss/en/p/baeckerei-fuchs-bahnhofstr-28-01tVj000005Dn6cIAC",
+      "price": 1,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich ca. 7–18.30 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "1": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "2": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ]
+        }
+      },
+      "text": "Die Zermatter Familienbäckerei backt seit rund 60 Jahren im Dorf und hat inzwischen vier Filialen. An der Bahnhofstrasse sitzt du im Bistro bei Frühstück, Sandwiches und Gebäck – für Zermatt vergleichsweise günstig.",
+      "tip": "Hier holst du dir am Morgen den Proviant für den Berg; Bergrestaurants sind deutlich teurer.",
+      "source": "https://zermatt.swiss/en/zermatt-tourism-meets/baeckerei-fuchs",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-schaeferstube",
+      "kind": "restaurant",
+      "name": "Schäferstube (Tradition Julen Hotel)",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Riedstrasse 2, 3920 Zermatt",
+      "coords": {
+        "lat": 46.01838,
+        "lng": 7.74881
+      },
+      "url": "https://www.julen.ch/en/restaurant-schaeferstube/",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "romantisch",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 18–22.30 Uhr, zwei Tischzeiten (ab 18.30 und ab 20.45 Uhr)",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "18:00",
+              "22:30"
+            ]
+          ],
+          "1": [
+            [
+              "18:00",
+              "22:30"
+            ]
+          ],
+          "2": [
+            [
+              "18:00",
+              "22:30"
+            ]
+          ],
+          "3": [
+            [
+              "18:00",
+              "22:30"
+            ]
+          ],
+          "4": [
+            [
+              "18:00",
+              "22:30"
+            ]
+          ],
+          "5": [
+            [
+              "18:00",
+              "22:30"
+            ]
+          ],
+          "6": [
+            [
+              "18:00",
+              "22:30"
+            ]
+          ]
+        }
+      },
+      "text": "Grillstube im Hotel Julen, in der Lamm vom Holzfeuergrill im Zentrum steht – das Fleisch stammt aus der eigenen Zucht der Familie Julen, die eine Herde Walliser Schwarznasenschafe hält. Daneben gibt es Raclette sowie Käse- und Fleischfondue.",
+      "tip": "Es gibt nur zwei Tischzeiten am Abend; die zweite ab 20.45 Uhr ist entspannter, wenn du lange auf dem Berg warst.",
+      "source": "https://www.julen.ch/en/restaurant-schaeferstube/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-brown-cow",
+      "kind": "bar",
+      "name": "Brown Cow Pub",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Bahnhofstrasse 41, 3920 Zermatt",
+      "coords": {
+        "lat": 46.02065,
+        "lng": 7.74647
+      },
+      "url": "https://zermatt.swiss/en/p/brown-cow-pub-01tVj000005DqR2IAK",
+      "price": 2,
+      "tags": [
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich ab 9 Uhr bis spät in die Nacht",
+      "text": "Pub im Hotel Post mitten im Dorf mit hausgemachten Burgern, Pommes, Suppen und vielen Bieren vom Fass. Reservationen nimmt man hier keine – du setzt dich hin, wo Platz ist.",
+      "tip": "Praktisch, wenn ihr als Gruppe spontan essen wollt und überall sonst ausgebucht ist.",
+      "source": "https://zermatt.swiss/en/p/brown-cow-pub-01tVj000005DqR2IAK",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-zum-see",
+      "kind": "restaurant",
+      "name": "Restaurant Zum See",
+      "region": "zermatt",
+      "town": "Zum See (Zermatt)",
+      "address": "Zum See, 3920 Zermatt",
+      "coords": {
+        "lat": 46.00656,
+        "lng": 7.73191
+      },
+      "url": "https://zermatt.swiss/en/Media/Restaurants-bars-clubs/mountain-restaurant-Zermatt-Zum-See",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "berg",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "Sommer ab etwa Mitte Juni, Winter ab Anfang Dezember; Saisonende vorher prüfen",
+      "hours": "in der Saison täglich 12–17 Uhr",
+      "text": "Bergrestaurant im gleichnamigen Weiler unterhalb von Furi, geführt von der Familie Mennig. Die alten Holzhäuser und der Garten machen es zu einem beliebten Halt auf dem Weg zurück ins Tal.",
+      "tip": "Kombinier es mit dem Matterhorn Glacier Paradise: Auf dem Rückweg in Furi aussteigen und zu Fuss hinunterlaufen.",
+      "source": "https://www.myswitzerland.com/de-ch/erlebnisse/essen-trinken/restaurant/restaurant-zum-see/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-gornergrat-bahn",
+      "kind": "aussicht",
+      "name": "Gornergrat Bahn",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Talstation gegenüber dem Bahnhof Zermatt; Bergstation Gornergrat (3089 m)",
+      "coords": {
+        "lat": 45.98331,
+        "lng": 7.78463
+      },
+      "url": "https://www.gornergrat.ch",
+      "price": 4,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig, Anfang November rund zwei Wochen Revision",
+      "hours": "erste Bergfahrt im Sommer 7 Uhr, tagsüber alle 24 Minuten",
+      "durationMin": 180,
+      "text": "Die Zahnradbahn fährt in 33 Minuten von Zermatt auf über 3000 Meter. Oben stehst du einer Wand aus 29 Viertausendern gegenüber, mit Gornergletscher, Monte Rosa und Matterhorn auf einen Blick.",
+      "tip": "Setz dich bergwärts auf die rechte Seite, dann hast du das Matterhorn während der Fahrt im Fenster. Bei Wolken lohnt sich ein Blick auf die Webcam, bevor du das teure Billett kaufst.",
+      "priceInfo": {
+        "from": 132,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Mai–Oktober; Nov.–April CHF 102. Halbtax/GA/Swiss Travel Pass 50 %, Kinder mit Junior-Karte gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/GGB_Bhe_2-4_Gornergrat.jpg/1280px-GGB_Bhe_2-4_Gornergrat.jpg",
+        "alt": "Zug der Gornergrat Bahn an der Bergstation Gornergrat",
+        "credit": "https://commons.wikimedia.org/wiki/File:GGB_Bhe_2-4_Gornergrat.jpg"
+      },
+      "source": "https://www.gornergrat.ch/de/pages/preise-gornergrat-bahn",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-riffelsee",
+      "kind": "aussicht",
+      "name": "Riffelsee",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "beim Halt Rotenboden der Gornergrat Bahn (2815 m)",
+      "coords": {
+        "lat": 45.98336,
+        "lng": 7.76205
+      },
+      "url": "https://zermatt.swiss/Media/Attraktionen/Riffelsee",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "berg",
+        "romantisch",
+        "see",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "Wanderweg schneefrei etwa Juli bis Oktober",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        },
+        "months": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 60,
+      "text": "Kleiner Bergsee unterhalb des Gornergrats, in dem sich an windstillen Tagen das Matterhorn spiegelt. Vom Gornergrat läufst du rund 40 Minuten bergab bis zum See, von der Station Rotenboden sind es nur 10 Minuten.",
+      "tip": "Die Spiegelung klappt am besten früh am Morgen, bevor der Wind aufkommt. Mit dem Retourbillett auf den Gornergrat kannst du für die Talfahrt in Rotenboden zusteigen.",
+      "priceInfo": {
+        "from": 114,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Zermatt–Rotenboden Mai–Oktober; Halbtax 50 %"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Matterhorn_reflection_in_the_Riffelsee_at_sunrise.jpg/1280px-Matterhorn_reflection_in_the_Riffelsee_at_sunrise.jpg",
+        "alt": "Matterhorn spiegelt sich bei Sonnenaufgang im Riffelsee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Matterhorn_reflection_in_the_Riffelsee_at_sunrise.jpg"
+      },
+      "source": "https://wegwandern.ch/wanderung/wanderung-gornergrat-zermatt-rotenboden-riffelsee-riffelberg-wandern/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-matterhorn-glacier-paradise",
+      "kind": "aussicht",
+      "name": "Matterhorn Glacier Paradise",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Talstation Matterhorn Express, Schluhmattstrasse, 3920 Zermatt; Bergstation Klein Matterhorn (3883 m)",
+      "coords": {
+        "lat": 45.93836,
+        "lng": 7.72934
+      },
+      "url": "https://www.matterhornparadise.ch",
+      "price": 4,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; Teilstrecke Trockener Steg–Gipfel im Frühling und Herbst wegen Revision mit Ersatzbahn",
+      "hours": "Gletscher-Palast und Aussichtsplattform etwa 9.15–16 Uhr",
+      "durationMin": 240,
+      "text": "Mit Gondel- und Pendelbahnen schwebst du in rund 45 Minuten über Furi und Trockener Steg auf den Klein Matterhorn, die höchste Bergbahnstation Europas. Oben gibt es eine Aussichtsplattform mit Blick bis zum Mont Blanc und den Gletscher-Palast, einen begehbaren Gang mit Eisskulpturen im Gletscher.",
+      "tip": "Auf 3883 Metern ist die Luft dünn – langsam gehen, viel trinken. Der Gletscher-Palast ist im Billett schon drin.",
+      "priceInfo": {
+        "from": 104,
+        "to": 132,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Mai/Juni und Sept./Okt. CHF 120, Juli/Aug. 132, Nov.–April 104; inkl. Gletscher-Palast; Halbtax 50 %, Kinder bis 8.99 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Klein_Matterhorn_Bergstation.jpg/1280px-Klein_Matterhorn_Bergstation.jpg",
+        "alt": "Bergstation Matterhorn Glacier Paradise auf dem Klein Matterhorn",
+        "credit": "https://commons.wikimedia.org/wiki/File:Klein_Matterhorn_Bergstation.jpg"
+      },
+      "source": "https://www.matterhornparadise.ch/ZBAG/13-trade/01-downloads/03-prospekte-broschueren/singleandreturntickets_2026.pdf",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-5-seenweg",
+      "kind": "aktivitaet",
+      "name": "5-Seenweg (Blauherd–Sunnegga)",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Start Bergstation Blauherd, Ziel Sunnegga; Talstation Standseilbahn Sunnegga am Vispa-Ufer",
+      "coords": {
+        "lat": 46.01688,
+        "lng": 7.77092
+      },
+      "url": "https://www.zermatt.swiss/p/5-seenweg-nr-11-01tVj000005Ett8IAC",
+      "price": 2,
+      "tags": [
+        "aktiv",
+        "see",
+        "berg",
+        "aussicht",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "Mitte Juni bis Mitte Oktober (Betrieb Bahn Sunnegga–Blauherd)",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        },
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 210,
+      "text": "Von Blauherd wanderst du in etwa dreieinhalb Stunden an Stellisee, Grindjisee, Grünsee, Moosjisee und Leisee vorbei zurück nach Sunnegga. Im Stellisee und im Grindjisee spiegelt sich bei ruhigem Wetter das Matterhorn.",
+      "tip": "Mit Kindern reicht die kurze Variante: von Sunnegga mit dem Leisee-Shuttle hinunter zum Leisee, wo im Sommer gebadet und gegrillt wird.",
+      "priceInfo": {
+        "from": 48,
+        "to": 53,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Kombiticket Zermatt–Blauherd / Sunnegga–Zermatt; Juli/Aug. CHF 53; nur bis Sunnegga retour CHF 30; Halbtax 50 %"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Stellisee_mit_Matterhorn_im_Hintergrund.jpg/1280px-Stellisee_mit_Matterhorn_im_Hintergrund.jpg",
+        "alt": "Stellisee am 5-Seenweg mit dem Matterhorn im Hintergrund",
+        "credit": "https://commons.wikimedia.org/wiki/File:Stellisee_mit_Matterhorn_im_Hintergrund.jpg"
+      },
+      "source": "https://www.matterhornparadise.ch/ZBAG/13-trade/01-downloads/03-prospekte-broschueren/singleandreturntickets_2026.pdf",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-gornerschlucht",
+      "kind": "aktivitaet",
+      "name": "Gornerschlucht",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "beim Bergrestaurant Blatten, 3920 Zermatt",
+      "coords": {
+        "lat": 46.00842,
+        "lng": 7.73851
+      },
+      "url": "https://zermatt.swiss/Media/Attraktionen/Gornerschlucht",
+      "price": 1,
+      "tags": [
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "Juni bis Mitte Oktober",
+      "open": {
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 60,
+      "text": "Auf Holzstegen und Treppen gehst du durch die enge Schlucht, die die Gornervispa in grünen Serpentinfels gefräst hat. Der Eingang liegt eine Viertelstunde zu Fuss vom südlichen Dorfende, und Besucher kommen hier schon seit 1887 durch.",
+      "tip": "Im Herbst am Nachmittag zwischen 15 und 16 Uhr kommen, dann leuchtet das Wasser im Gegenlicht türkis.",
+      "priceInfo": {
+        "from": 5.5,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–15 CHF 3, unter 6 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Steg_in_der_Gornerschlucht_bei_Zermatt_-_panoramio.jpg/1280px-Steg_in_der_Gornerschlucht_bei_Zermatt_-_panoramio.jpg",
+        "alt": "Holzsteg in der engen Gornerschlucht bei Zermatt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Steg_in_der_Gornerschlucht_bei_Zermatt_-_panoramio.jpg"
+      },
+      "source": "https://zermatt.swiss/Media/Attraktionen/Gornerschlucht",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-matterhorn-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Matterhorn Museum – Zermatlantis",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Kirchplatz, 3920 Zermatt",
+      "coords": {
+        "lat": 46.01977,
+        "lng": 7.74646
+      },
+      "url": "https://zermatt.swiss/en/Media/Attractions/Matterhorn-Museum-Zermatlantis",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, im November rund drei Wochen geschlossen",
+      "hours": "Juni–Sept. täglich 14–18 Uhr, sonst 15–18 Uhr; Ende Nov. bis Mitte Dez. nur Fr–So",
+      "open": {
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "durationMin": 75,
+      "text": "Das Museum liegt unter dem Kirchplatz und zeigt in nachgebauten Häusern, wie aus dem Bergbauerndorf ein Ferienort wurde. Höhepunkt ist das Seil der Erstbesteigung von 1865, das beim Abstieg riss und vier Männer in den Tod stürzen liess.",
+      "tip": "Ideal bei schlechtem Wetter – aber erst ab dem Nachmittag offen, plane den Vormittag anders.",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder bis 9 Jahre in Begleitung gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/MATTERHORN_MUSEUM_ZERMATLANTIS_Eingang.jpg/1280px-MATTERHORN_MUSEUM_ZERMATLANTIS_Eingang.jpg",
+        "alt": "Eingang des Matterhorn Museums Zermatlantis am Kirchplatz",
+        "credit": "https://commons.wikimedia.org/wiki/File:MATTERHORN_MUSEUM_ZERMATLANTIS_Eingang.jpg"
+      },
+      "source": "https://zermatt.swiss/en/Media/Attractions/Matterhorn-Museum-Zermatlantis",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-hinterdorf",
+      "kind": "sehenswuerdigkeit",
+      "name": "Hinterdorf (alter Dorfteil)",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Hinterdorfstrasse, 3920 Zermatt",
+      "coords": {
+        "lat": 46.02085,
+        "lng": 7.74761
+      },
+      "url": "https://zermatt.swiss/Media/Attraktionen/Photopoint-Alter-Dorfteil",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "gratis",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 30,
+      "text": "Ein paar Schritte hinter der Bahnhofstrasse stehen im Hinterdorf dicht gedrängt sonnengeschwärzte Stadel und Speicher aus Lärchenholz auf Steinplatten, die Mäuse fernhalten sollten. Manche dienen noch als Lager, andere sind zu Ferienwohnungen umgebaut.",
+      "tip": "Die Stadel hatten eine Tür für das Heu, die Speicher oft vier – eine pro Familie, die darin ihre Vorräte lagerte.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "source": "https://zermatt.swiss/Media/Attraktionen/Photopoint-Alter-Dorfteil",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-kirche-bergsteigerfriedhof",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kirche St. Mauritius und Bergsteigerfriedhof",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Kirchplatz, 3920 Zermatt",
+      "coords": {
+        "lat": 46.01949,
+        "lng": 7.74653
+      },
+      "url": "https://zermatt.swiss/p/bergsteigerfriedhof-01tVj000005Dpl5IAC",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "gratis"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 30,
+      "text": "Durch den Garten der katholischen Pfarrkirche von 1913 gelangst du zum Bergsteigerfriedhof mit rund 50 Grabsteinen von Menschen, die an den Bergen um Zermatt verunglückt sind. Hier liegen auch Opfer der Matterhorn-Erstbesteigung und das Grab eines unbekannten Bergsteigers.",
+      "tip": "Direkt neben dem Matterhorn Museum – die beiden Besuche passen gut hintereinander.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pfarrkirche_St_Mauritius_Zermatt_20110605.jpg/1280px-Pfarrkirche_St_Mauritius_Zermatt_20110605.jpg",
+        "alt": "Pfarrkirche St. Mauritius in Zermatt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Pfarrkirche_St_Mauritius_Zermatt_20110605.jpg"
+      },
+      "source": "https://zermatt.swiss/p/bergsteigerfriedhof-01tVj000005Dpl5IAC",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zm-hallenbad-berghof",
+      "kind": "bad",
+      "name": "Hallenbad im Hotel Berghof",
+      "region": "zermatt",
+      "town": "Zermatt",
+      "address": "Winkelmattenweg 18, 3920 Zermatt",
+      "coords": {
+        "lat": 46.01472,
+        "lng": 7.74335
+      },
+      "url": "https://zermatt.swiss/p/hallenbaeder-im-hotel-berghof-01tVj000005DnWMIA0",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "familie",
+        "wellness"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "für externe Gäste täglich 9–14 Uhr, nach Anmeldung",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "14:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "14:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "14:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "14:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "14:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "14:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "14:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 60,
+      "text": "Das Hotel Berghof im Ortsteil Winkelmatten lässt am Vormittag auch Gäste von aussen in sein Hallenbad. Für ein Zermatter Schlechtwetterprogramm ist das eine der günstigsten Optionen.",
+      "tip": "Ruf vorher an (+41 27 966 69 00) – Badeeintritte für Externe gibt es nur auf Anfrage, Kinder nur mit Erwachsenen.",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder CHF 10"
+      },
+      "source": "https://zermatt.swiss/p/hallenbaeder-im-hotel-berghof-01tVj000005DnWMIA0",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-hotel-de-gruyeres",
+      "kind": "hotel",
+      "name": "Hôtel de Gruyères",
+      "region": "gruyeres",
+      "town": "Greyerz (Gruyères)",
+      "address": "Ruelle des Chevaliers 7, 1663 Gruyères",
+      "coords": {
+        "lat": 46.5818,
+        "lng": 7.08101
+      },
+      "url": "https://www.gruyereshotels.ch/fr/hotel-de-gruyeres",
+      "price": 3,
+      "tags": [
+        "wellness",
+        "romantisch",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Hotel am Rand des autofreien Städtchens, je nach Zimmer mit Blick auf den Moléson, das Schloss oder ins Grüne. Zum Haus gehören Sauna, Hammam und Fitnessraum, zum Frühstück kommen Produkte aus der Gegend.",
+      "tip": "Mit dem Auto gibt es ein paar Gratisplätze direkt am Hotel; sonst sind die öffentlichen Parkplätze von 18 bis 8 Uhr gratis.",
+      "source": "https://www.gruyereshotels.ch/fr/hotel-de-gruyeres",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-le-saint-georges",
+      "kind": "hotel",
+      "name": "Le Saint Georges Hôtel & Restaurant",
+      "region": "gruyeres",
+      "town": "Greyerz (Gruyères)",
+      "address": "Rue du Bourg 22, 1663 Gruyères",
+      "coords": {
+        "lat": 46.58344,
+        "lng": 7.08145
+      },
+      "url": "https://www.lesaintgeorges.ch",
+      "price": 2,
+      "tags": [
+        "familie",
+        "kultur",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Kleines Hotel mit 14 Zimmern mitten an der Hauptgasse, ein paar Schritte unterhalb des Schlosses. Gefrühstückt wird in einer Veranda mit Blick auf die Voralpen; im Haus gibt es auch ein Restaurant und Pizza aus dem Holzofen.",
+      "tip": "Wer abends bleibt, erlebt das Städtchen ohne Tagesausflügler – dann wird die Rue du Bourg erstaunlich still.",
+      "priceInfo": {
+        "from": 140,
+        "unit": "Doppelzimmer pro Nacht",
+        "note": "Familienzimmer ab CHF 170"
+      },
+      "source": "https://fribourg.ch/de/la-gruyere/hotels/le-saint-georges-gruyeres-hotel-restaurant",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-chalet-de-gruyeres",
+      "kind": "restaurant",
+      "name": "Le Chalet de Gruyères",
+      "region": "gruyeres",
+      "town": "Greyerz (Gruyères)",
+      "address": "Rue du Bourg 53, 1663 Gruyères",
+      "coords": {
+        "lat": 46.58411,
+        "lng": 7.08197
+      },
+      "url": "https://www.gruyereshotels.ch/fr/chalet-de-gruyeres",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 12–23 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "12:00",
+              "23:00"
+            ]
+          ],
+          "1": [
+            [
+              "12:00",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "12:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "12:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "12:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "12:00",
+              "23:00"
+            ]
+          ]
+        }
+      },
+      "text": "Holzchalet an der Hauptgasse, in dem es vor allem um Käse geht: Fondue mit Gruyère AOP, Raclette, Käseschnitten. Zum Dessert gibt es die Greyerzer Meringue mit Doppelrahm.",
+      "tip": "Das Fondue ist mit 230 g Käse pro Person grosszügig – lass trotzdem Platz für die Meringue.",
+      "priceInfo": {
+        "from": 29.5,
+        "unit": "Hauptgang",
+        "note": "Fondue oder Raclette je CHF 29.50 p. P., Meringue mit Doppelrahm CHF 13, Gedeck CHF 3"
+      },
+      "source": "https://www.gruyereshotels.ch/fr/chalet-de-gruyeres",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-restaurant-maison-du-gruyere",
+      "kind": "restaurant",
+      "name": "Le Restaurant de la Maison du Gruyère",
+      "region": "gruyeres",
+      "town": "Pringy (Greyerz)",
+      "address": "Place de la Gare 3, 1663 Pringy-Gruyères",
+      "coords": {
+        "lat": 46.58244,
+        "lng": 7.07279
+      },
+      "url": "https://www.lamaisondugruyere.ch/restaurant/le-restaurant-de-la-maison-du-gruyere/",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Sa ab 7.30, So ab 8 Uhr bis 18.30 (Juni–Sept. 19) Uhr; warme Küche durchgehend ab 11.30 Uhr",
+      "text": "Grosses Restaurant mit Terrasse in der Schaukäserei direkt beim Bahnhof Gruyères. Es gibt Greyerzer Gerichte und ein Tagesmenü, und weil die Küche durchgehend offen ist, klappt auch ein später Zmittag.",
+      "tip": "Gut als Treffpunkt bei der Ankunft – im Laden nebenan gibt es den Käse, den du gerade hast entstehen sehen.",
+      "source": "https://www.lamaisondugruyere.ch/restaurant/le-restaurant-de-la-maison-du-gruyere/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-hr-giger-bar",
+      "kind": "bar",
+      "name": "HR Giger Bar",
+      "region": "gruyeres",
+      "town": "Greyerz (Gruyères)",
+      "address": "Château St-Germain, Rue du Château 3, 1663 Gruyères",
+      "coords": {
+        "lat": 46.58419,
+        "lng": 7.08228
+      },
+      "url": "https://fribourg.ch/en/la-gruyere/bars-and-clubs/hr-giger-bar-in-gruyeres/",
+      "price": 2,
+      "tags": [
+        "kultur",
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "April–Okt. täglich 10–20.30 Uhr; Nov.–März Mo geschlossen, Di–Sa 11–20.30, So 10–20.30 Uhr",
+      "text": "Die Bar gegenüber dem Museum ist vom Boden bis zur Decke von HR Giger gestaltet: Gewölbebögen wie Wirbelsäulen, Stühle mit knochenartigen Lehnen. Du sitzt quasi im Inneren eines Alien-Skeletts und trinkst dazu Kaffee oder Bier.",
+      "tip": "Auch ohne Museumsbesuch lohnt ein Drink – im Winter montags aber geschlossen.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/HR_Giger_Museum_Bar_Gruyeres_01.jpg/1280px-HR_Giger_Museum_Bar_Gruyeres_01.jpg",
+        "alt": "In der HR Giger Bar in Greyerz",
+        "credit": "https://commons.wikimedia.org/wiki/File:HR_Giger_Museum_Bar_Gruyeres_01.jpg"
+      },
+      "source": "https://fribourg.ch/en/la-gruyere/bars-and-clubs/hr-giger-bar-in-gruyeres/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-plan-francey",
+      "kind": "restaurant",
+      "name": "Restaurant Plan-Francey",
+      "region": "gruyeres",
+      "town": "Moléson-sur-Gruyères",
+      "address": "Plan-Francey, 1663 Moléson-sur-Gruyères",
+      "coords": {
+        "lat": 46.55666,
+        "lng": 7.02397
+      },
+      "url": "https://fribourg.ch/fr/la-gruyere/restaurants/restaurant-gite-de-montagne-de-plan-francey/",
+      "price": 2,
+      "tags": [
+        "familie",
+        "aussicht",
+        "berg"
+      ],
+      "weatherProof": true,
+      "season": "während des Bahnbetriebs am Moléson",
+      "text": "Bergrestaurant auf 1520 Metern bei der Bergstation der Standseilbahn und der Talstation der Luftseilbahn auf den Moléson. Von der Terrasse schaust du über das Greyerzerland; am Sonntag gibt es von Mai bis November einen Brunch.",
+      "tip": "Am Wochenende reservieren (+41 26 921 10 42) – ganze Familien und Wandergruppen machen hier gern Halt.",
+      "source": "https://fribourg.ch/fr/la-gruyere/restaurants/restaurant-gite-de-montagne-de-plan-francey/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-schloss-greyerz",
+      "kind": "sehenswuerdigkeit",
+      "name": "Schloss Greyerz (Château de Gruyères)",
+      "region": "gruyeres",
+      "town": "Greyerz (Gruyères)",
+      "address": "Rue du Château 8, 1663 Gruyères",
+      "coords": {
+        "lat": 46.5848,
+        "lng": 7.08405
+      },
+      "url": "https://www.chateau-gruyeres.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, täglich",
+      "hours": "April–Okt. 9–18 Uhr, Nov.–März 10–17 Uhr; letzter Einlass 45 Min. vor Schluss",
+      "durationMin": 90,
+      "text": "Das Schloss thront am oberen Ende des Städtchens und war über Jahrhunderte Sitz der Grafen von Greyerz. Drinnen gehst du durch Rittersaal, Wohnräume und Ausstellungen zur Geschichte der Grafen; draussen liegt ein Garten mit Blick in die Voralpen.",
+      "tip": "Mit Kombibillett sparst du: Schloss plus Maison du Gruyère CHF 17, Schloss plus HR Giger Museum CHF 20.",
+      "priceInfo": {
+        "from": 13,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–15 CHF 5, Familie CHF 29, AHV/Studierende CHF 9"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/12_Chateau_de_Gruy%C3%A8res_Photo_by_Giles_Laurent.jpg/1280px-12_Chateau_de_Gruy%C3%A8res_Photo_by_Giles_Laurent.jpg",
+        "alt": "Schloss Greyerz auf seinem Hügel",
+        "credit": "https://commons.wikimedia.org/wiki/File:12_Chateau_de_Gruy%C3%A8res_Photo_by_Giles_Laurent.jpg"
+      },
+      "source": "https://www.chateau-gruyeres.ch/informations-pratiques/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-hr-giger-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "HR Giger Museum",
+      "region": "gruyeres",
+      "town": "Greyerz (Gruyères)",
+      "address": "Château St-Germain, Rue du Château 2, 1663 Gruyères",
+      "coords": {
+        "lat": 46.58411,
+        "lng": 7.08242
+      },
+      "url": "https://www.hrgigermuseum.com",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Nov. bis Anfang April Mo–Fr 12–17, Sa/So 10–18 Uhr; Sommer Mo–Fr 10–18, Sa/So 10–18.30 Uhr",
+      "durationMin": 60,
+      "text": "Im Château St-Germain zeigt das Museum die grösste Sammlung des Churer Künstlers HR Giger, der für die Gestaltung des Alien-Monsters einen Oscar bekam. Zu sehen sind Gemälde, Skulpturen, Möbel und Filmentwürfe in dunkler, biomechanischer Ästhetik.",
+      "tip": "Viele Bilder sind düster und explizit – für kleine Kinder ist das nichts.",
+      "priceInfo": {
+        "from": 12.5,
+        "unit": "Eintritt Erwachsene",
+        "note": "AHV/Studierende CHF 8.50, Kinder CHF 4; Kombi mit Schloss CHF 20"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/HR_Giger_Museum_%28Ank_Infosys_Limited%29_02.jpg/1280px-HR_Giger_Museum_%28Ank_Infosys_Limited%29_02.jpg",
+        "alt": "Im HR Giger Museum in Greyerz",
+        "credit": "https://commons.wikimedia.org/wiki/File:HR_Giger_Museum_%28Ank_Infosys_Limited%29_02.jpg"
+      },
+      "source": "https://fribourg.ch/en/la-gruyere/museums/hr-giger-museum",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-maison-du-gruyere",
+      "kind": "aktivitaet",
+      "name": "La Maison du Gruyère (Schaukäserei)",
+      "region": "gruyeres",
+      "town": "Pringy (Greyerz)",
+      "address": "Place de la Gare 3, 1663 Pringy-Gruyères",
+      "coords": {
+        "lat": 46.58226,
+        "lng": 7.07285
+      },
+      "url": "https://www.lamaisondugruyere.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "genuss",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, täglich",
+      "hours": "Juni–Sept. 9–18.30 Uhr; Okt.–Mai Mo–Fr 9–17, Sa/So 9–18 Uhr; gekäst wird 2–4-mal zwischen 9 und 12.30 Uhr",
+      "durationMin": 75,
+      "text": "Gleich gegenüber dem Bahnhof Gruyères siehst du von einer Galerie aus, wie aus Milch Laibe Gruyère AOP werden. Eine Ausstellung erklärt den Weg von der Alp bis in den Keller.",
+      "tip": "Komm am Vormittag – nur dann wird gekäst. Plan rund 20 Minuten Ausstellung ein, bevor du an der Käsereigalerie ankommst.",
+      "priceInfo": {
+        "from": 8,
+        "unit": "Eintritt Erwachsene",
+        "note": "AHV/Studierende CHF 6, Familie CHF 12, Kombi mit Schloss CHF 17"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Maison_du_Gruy%C3%A8re_-_01.jpg/1280px-Maison_du_Gruy%C3%A8re_-_01.jpg",
+        "alt": "La Maison du Gruyère in Pringy",
+        "credit": "https://commons.wikimedia.org/wiki/File:Maison_du_Gruy%C3%A8re_-_01.jpg"
+      },
+      "source": "https://www.lamaisondugruyere.ch/informations-pratiques/horaires-douverture/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-maison-cailler",
+      "kind": "aktivitaet",
+      "name": "Maison Cailler",
+      "region": "gruyeres",
+      "town": "Broc",
+      "address": "Rue Jules-Bellet 7, 1636 Broc",
+      "coords": {
+        "lat": 46.60693,
+        "lng": 7.10874
+      },
+      "url": "https://www.cailler.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; 25. Dezember und 1. Januar geschlossen",
+      "hours": "April–Okt. täglich 10–18 Uhr, Nov.–März 10–17 Uhr; letzter Einlass 1 Std. vor Schluss",
+      "durationMin": 90,
+      "text": "In der Schokoladenfabrik in Broc führt dich ein Rundgang durch die Geschichte von Cailler und gibt einen Blick auf die Produktion frei. Am Ende darfst du dich durch die Pralinés probieren, bevor es in den Laden geht.",
+      "tip": "Online ein Zeitfenster buchen, sonst wartest du an Wochenenden und in den Ferien. Der Bahnhof Broc-Fabrique liegt gleich vor der Tür, mit direkten Zügen ab Bern.",
+      "priceInfo": {
+        "from": 17,
+        "unit": "Eintritt Erwachsene",
+        "note": "AHV/Studierende CHF 14, Kinder 6–15 CHF 7, bis 5 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Broc_Chocolaterie_Maison_Cailler-004.jpg/1280px-Broc_Chocolaterie_Maison_Cailler-004.jpg",
+        "alt": "Maison Cailler, die Schokoladenfabrik in Broc",
+        "credit": "https://commons.wikimedia.org/wiki/File:Broc_Chocolaterie_Maison_Cailler-004.jpg"
+      },
+      "source": "https://fribourg.ch/de/la-gruyere/museen/maison-cailler-schweizer-schokoladenfabrik",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-moleson",
+      "kind": "aussicht",
+      "name": "Moléson (Standseilbahn und Luftseilbahn)",
+      "region": "gruyeres",
+      "town": "Moléson-sur-Gruyères",
+      "address": "Place de l'Aigle 6, 1663 Moléson-sur-Gruyères",
+      "coords": {
+        "lat": 46.56019,
+        "lng": 7.03859
+      },
+      "url": "https://www.moleson.ch",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "Sommerbetrieb etwa April bis Anfang November, im Spätherbst nur am Wochenende, Winterbetrieb ab Mitte Dezember",
+      "hours": "Bahnen alle 20 Minuten, ca. 9–17.50 Uhr (Winter bis 16.30 Uhr)",
+      "open": {
+        "months": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "durationMin": 150,
+      "text": "Mit der Standseilbahn nach Plan-Francey und weiter mit der Luftseilbahn auf den 2002 Meter hohen Moléson, den Hausberg des Greyerzerlands. Oben überblickst du das ganze Greyerzerland mit dem Städtchen, dem Greyerzersee und den Freiburger Voralpen.",
+      "tip": "Den Wetterbericht ernst nehmen: Der Moléson steckt oft als Erster im Nebel. Velos dürfen in die Standseilbahn, aber nicht in die Luftseilbahn auf den Gipfel.",
+      "priceInfo": {
+        "from": 35,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Sommertarif Dorf–Gipfel retour (4 Sektionen); Kinder 6–15 CHF 19.60, 16–24 CHF 25.10, unter 6 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Moleson_from_north-east.jpg/1280px-Moleson_from_north-east.jpg",
+        "alt": "Der Moléson von Nordosten gesehen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Moleson_from_north-east.jpg"
+      },
+      "source": "https://fribourg.ch/fr/la-gruyere/remontees-mecaniques/remontees-mecaniques-moleson",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-staedtchen",
+      "kind": "sehenswuerdigkeit",
+      "name": "Städtchen Greyerz (Rue du Bourg)",
+      "region": "gruyeres",
+      "town": "Greyerz (Gruyères)",
+      "address": "Rue du Bourg, 1663 Gruyères",
+      "coords": {
+        "lat": 46.5836,
+        "lng": 7.0819
+      },
+      "url": "https://fribourg.ch/fr/la-gruyere/architecture-et-monuments/cite-de-gruyeres/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "gratis",
+        "romantisch",
+        "familie",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 45,
+      "text": "Das mittelalterliche Städtchen auf seinem Hügel ist komplett autofrei; die breite Hauptgasse Rue du Bourg steigt zwischen alten Häusern, Brunnen und Restaurants zum Schloss an. Von den Mauern siehst du über Weiden zum Moléson.",
+      "tip": "Am Vormittag oder ab dem späteren Nachmittag ist es ruhiger – um die Mittagszeit kommen die Reisecars.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Rue_du_Bourg_in_Gruy%C3%A8res_FR_%26_Mol%C3%A9son_%282014%29.jpg/1280px-Rue_du_Bourg_in_Gruy%C3%A8res_FR_%26_Mol%C3%A9son_%282014%29.jpg",
+        "alt": "Rue du Bourg in Greyerz mit dem Moléson im Hintergrund",
+        "credit": "https://commons.wikimedia.org/wiki/File:Rue_du_Bourg_in_Gruy%C3%A8res_FR_%26_Mol%C3%A9son_%282014%29.jpg"
+      },
+      "source": "https://fribourg.ch/fr/la-gruyere/architecture-et-monuments/cite-de-gruyeres/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-tibet-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Tibet Museum – Fondation Alain Bordier",
+      "region": "gruyeres",
+      "town": "Greyerz (Gruyères)",
+      "address": "Rue du Château 4, 1663 Gruyères",
+      "coords": {
+        "lat": 46.5842,
+        "lng": 7.08262
+      },
+      "url": "https://fribourg.ch/fr/la-gruyere/musees/tibet-museum-fondation-alain-bordier/",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "April–Okt. täglich 11–18 Uhr; Nov. bis Anfang April Mo geschlossen, Di–Fr 13–17, Sa/So 11–18 Uhr",
+      "durationMin": 60,
+      "text": "Kleines Museum für buddhistische Kunst aus Tibet und dem Himalaya, gleich unterhalb des Schlosses. Statuen, Rollbilder und Ritualgegenstände aus der Sammlung von Alain Bordier sind ruhig und übersichtlich präsentiert.",
+      "tip": "Ein guter Kontrast zum Giger-Museum zwei Häuser weiter – und meist deutlich weniger los.",
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "AHV/Studierende CHF 8, Kinder 6–16 CHF 5; Kombi mit Schloss CHF 18"
+      },
+      "source": "https://fribourg.ch/fr/la-gruyere/musees/tibet-museum-fondation-alain-bordier/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "gr-bains-de-la-gruyere",
+      "kind": "bad",
+      "name": "Les Bains de la Gruyère",
+      "region": "gruyeres",
+      "town": "Charmey",
+      "address": "Gros-Plan 30, 1637 Charmey",
+      "coords": {
+        "lat": 46.62114,
+        "lng": 7.16193
+      },
+      "url": "https://www.bainsdelagruyere.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "wellness",
+        "familie",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So–Do 9–21 Uhr, Fr/Sa 9–22 Uhr; letzter Einlass 1 Std. vor Schluss",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "22:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "22:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 180,
+      "text": "Bad in Charmey mit zwei Innenbecken und einem 400 Quadratmeter grossen Aussenbecken mit Blick auf die Berge des Jauntals. Dazu kommen Saunas, Hammams und Ruheräume.",
+      "tip": "Ab Greyerz fährt der Bus 260 in rund 25 Minuten nach Charmey – eine gute Schlechtwetter-Ergänzung zum Städtchen.",
+      "priceInfo": {
+        "from": 30,
+        "to": 34,
+        "unit": "Eintritt Erwachsene",
+        "note": "3 Stunden; Mo–Fr CHF 30, Wochenende/Feiertage CHF 34; Kinder unter 5 gratis"
+      },
+      "source": "https://fribourg.ch/fr/la-gruyere/bains-thermaux/les-bains-de-la-gruyere/",
+      "checked": "2026-11-15"
+    }
+  ],
+  "trips": [
+    {
+      "slug": "zermatt-matterhorn-wochenende",
+      "title": "Zermatt – zwei Tage unter dem Matterhorn",
+      "teaser": "Schlucht, Hinterdorf und Bergsteigergeschichte am ersten Tag, am zweiten früh auf den Gornergrat, zum Riffelsee und zu den Seen von Sunnegga – mit ehrlichen Preisen.",
+      "region": "zermatt",
+      "days": 2,
+      "moods": [
+        "natur",
+        "aktiv",
+        "kultur",
+        "genuss"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Juli bis Mitte Oktober (Chez Vrony ab Anfang Juli, Gornerschlucht bis Mitte Oktober)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 195
+        },
+        {
+          "from": "Bern",
+          "minutes": 130
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 199
+        }
+      ],
+      "hotelIds": [
+        "zm-jugendherberge",
+        "zm-hotel-daniela",
+        "zm-kulmhotel-gornergrat"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (z. B. Samstag) – Schlucht, Hinterdorf und Bergsteigergeschichte",
+          "slots": [
+            {
+              "time": "11:30",
+              "placeId": "zm-hotel-daniela",
+              "title": "Gepäck abgeben",
+              "text": "Vom Bahnhof durch die Bahnhofstrasse in die Steinmatte und die Taschen im Hotel lassen.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "12:00",
+              "placeId": "zm-baeckerei-fuchs",
+              "title": "Zmittag in der Bäckerei",
+              "text": "Sandwich oder Quiche im Bistro und gleich etwas Proviant für morgen einpacken.",
+              "travel": "ca. 8 Min. zu Fuss"
+            },
+            {
+              "time": "13:00",
+              "placeId": "zm-gornerschlucht",
+              "title": "Durch die Gornerschlucht",
+              "text": "Über das südliche Dorfende zum Eingang bei Blatten und auf den Holzstegen durch die Schlucht.",
+              "travel": "ca. 30 Min. zu Fuss, leicht ansteigend",
+              "rain": {
+                "placeId": "zm-hallenbad-berghof",
+                "title": "Hallenbad statt Schlucht",
+                "text": "Bei Dauerregen sind die Stege nass und rutschig – geh stattdessen eine Stunde ins Hallenbad im Hotel Berghof (Externe bis 14 Uhr, vorher anrufen)."
+              }
+            },
+            {
+              "time": "14:45",
+              "placeId": "zm-hinterdorf",
+              "title": "Stadel im Hinterdorf",
+              "text": "Zurück im Dorf durch die Gassen mit den alten Lärchenholz-Speichern auf ihren Steinplatten.",
+              "travel": "ca. 25 Min. zu Fuss zurück ins Dorf",
+              "rain": {
+                "title": "Kurz unter dem Schirm",
+                "text": "Die Stadel siehst du auch bei Regen in 15 Minuten – danach direkt weiter ins Museum."
+              }
+            },
+            {
+              "time": "15:30",
+              "placeId": "zm-matterhorn-museum",
+              "title": "Matterhorn Museum",
+              "text": "Unter dem Kirchplatz die Geschichte des Dorfs und das gerissene Seil von 1865 anschauen.",
+              "travel": "ca. 3 Min. zu Fuss"
+            },
+            {
+              "time": "16:45",
+              "placeId": "zm-kirche-bergsteigerfriedhof",
+              "title": "Bergsteigerfriedhof",
+              "text": "Durch den Kirchgarten zu den Gräbern der am Matterhorn Verunglückten – nach dem Museum versteht man sie besser.",
+              "travel": "1 Min. zu Fuss",
+              "rain": {
+                "title": "Nur die Kirche",
+                "text": "Bei starkem Regen schaust du nur kurz in die Pfarrkirche St. Mauritius und gehst dann zurück ins Hotel."
+              }
+            },
+            {
+              "time": "19:00",
+              "placeId": "zm-whymper-stube",
+              "title": "Fondue in der Whymper-Stube",
+              "text": "Käsefondue oder Raclette in der Holzstube beim Hotel Monte Rosa – vorher reservieren.",
+              "travel": "ca. 3 Min. zu Fuss"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (z. B. Sonntag) – Gornergrat, Riffelsee und Seen bei Sunnegga",
+          "slots": [
+            {
+              "time": "08:00",
+              "placeId": "zm-gornergrat-bahn",
+              "title": "Früh auf den Gornergrat",
+              "text": "Mit einem der ersten Züge hinauf, solange die Luft klar und der Andrang klein ist; oben eine gute Stunde schauen.",
+              "travel": "ca. 10 Min. zu Fuss zur Talstation gegenüber dem Bahnhof, 33 Min. Fahrt",
+              "rain": {
+                "title": "Erst die Webcam prüfen",
+                "text": "Hängen die Wolken tief, lohnt sich das teure Billett nicht – lieber ausschlafen, später frühstücken und die Bergfahrt auf einen klaren Moment verschieben."
+              }
+            },
+            {
+              "time": "09:45",
+              "placeId": "zm-riffelsee",
+              "title": "Zu Fuss zum Riffelsee",
+              "text": "Vom Gornergrat bergab zum Riffelsee und auf die Spiegelung des Matterhorns warten, danach die paar Minuten zur Station Rotenboden.",
+              "travel": "ca. 40 Min. zu Fuss bergab",
+              "rain": {
+                "title": "Direkt mit der Bahn hinunter",
+                "text": "Bei Regen oder Schnee den Weg auslassen und vom Gornergrat direkt ins Dorf zurückfahren."
+              }
+            },
+            {
+              "time": "11:30",
+              "placeId": "zm-5-seenweg",
+              "title": "Leisee und Moosjisee",
+              "text": "Mit der Standseilbahn nach Sunnegga, zum Leisee hinunter und auf dem 5-Seenweg weiter zum Moosjisee – die kurze Variante des Seenwegs.",
+              "travel": "ab Rotenboden ca. 25 Min. Bahn ins Dorf, 10 Min. zu Fuss zur Sunnegga-Bahn",
+              "rain": {
+                "title": "Ohne Seen nach Findeln",
+                "text": "Bei Regen von Sunnegga auf dem breiten Weg direkt nach Findeln zum Mittagessen laufen."
+              }
+            },
+            {
+              "time": "13:00",
+              "placeId": "zm-chez-vrony",
+              "title": "Zmittag mit Matterhornblick",
+              "text": "Auf der Terrasse im Weiler Findeln essen und danach in rund einer Stunde über Winkelmatten ins Dorf und zum Zug hinunterwandern.",
+              "travel": "vom Moosjisee je nach Weg 20–30 Min. zu Fuss",
+              "rain": {
+                "title": "Drinnen essen, mit der Bahn zurück",
+                "text": "Bei Regen in der Stube statt auf der Terrasse essen und für den Rückweg zurück nach Sunnegga und mit der Standseilbahn ins Dorf fahren statt den nassen Weg hinunterzulaufen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "greyerz-kaese-schloss-giger",
+      "title": "Greyerz – Käse, Schloss und Giger",
+      "teaser": "Ein Tag im Greyerzerland: am Morgen Käsen schauen, mittags Fondue mit Meringue, nachmittags Ritterschloss und Alien-Bar.",
+      "region": "gruyeres",
+      "days": 1,
+      "moods": [
+        "genuss",
+        "kultur"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "ganzjährig; am besten Samstag oder Sonntag (im Winter Giger-Bar montags zu, Tibet Museum unter der Woche erst ab 13 Uhr)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 146
+        },
+        {
+          "from": "Bern",
+          "minutes": 79
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 147
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Samstag oder Sonntag – vom Käsekessi bis zur Giger-Bar",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "gr-maison-du-gruyere",
+              "title": "Schaukäserei",
+              "text": "In der Maison du Gruyère zuschauen, wie aus Milch Gruyère AOP wird – gekäst wird nur am Vormittag.",
+              "travel": "2 Min. zu Fuss vom Bahnhof Gruyères"
+            },
+            {
+              "time": "11:30",
+              "placeId": "gr-staedtchen",
+              "title": "Hinauf ins Städtchen",
+              "text": "Durch das Tor in die autofreie Rue du Bourg, an Brunnen und alten Häusern vorbei bis unters Schloss.",
+              "travel": "ca. 20 Min. zu Fuss bergauf oder 3 Min. Bus 260 bis Gruyères, ville",
+              "rain": {
+                "placeId": "gr-tibet-museum",
+                "title": "Tibet Museum statt Bummel",
+                "text": "Bei Regen gleich ins Tibet Museum an der Rue du Château, das am Wochenende ab 11 Uhr offen ist."
+              }
+            },
+            {
+              "time": "12:30",
+              "placeId": "gr-chalet-de-gruyeres",
+              "title": "Fondue und Meringue",
+              "text": "Käsefondue mit Gruyère AOP und zum Dessert Meringue mit Doppelrahm.",
+              "travel": "ca. 3 Min. zu Fuss"
+            },
+            {
+              "time": "14:15",
+              "placeId": "gr-schloss-greyerz",
+              "title": "Schloss Greyerz",
+              "text": "Rittersaal, Wohnräume der Grafen und der Garten mit Blick auf die Voralpen.",
+              "travel": "ca. 5 Min. zu Fuss bergauf"
+            },
+            {
+              "time": "15:45",
+              "placeId": "gr-hr-giger-museum",
+              "title": "HR Giger Museum",
+              "text": "Eine Stunde in der düsteren Bildwelt des Alien-Schöpfers – der grösste denkbare Kontrast zum Schloss.",
+              "travel": "ca. 2 Min. zu Fuss"
+            },
+            {
+              "time": "17:00",
+              "placeId": "gr-hr-giger-bar",
+              "title": "Drink im Alien-Skelett",
+              "text": "Zum Abschluss ein Kaffee oder Bier unter den Wirbelbögen der Giger-Bar, dann zurück zum Bahnhof.",
+              "travel": "gegenüber dem Museum; zum Bahnhof 3 Min. Bus oder 20 Min. zu Fuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "greyerz-familientag-moleson-cailler",
+      "title": "Greyerzerland mit Kindern – Moléson und Schokolade",
+      "teaser": "Am Vormittag mit Standseilbahn und Gondel auf den Moléson, Zmittag auf der Alp, am Nachmittag Schokolade probieren bei Cailler in Broc.",
+      "region": "gruyeres",
+      "days": 1,
+      "moods": [
+        "familie",
+        "natur",
+        "genuss"
+      ],
+      "audience": [
+        "familie"
+      ],
+      "season": "April bis Oktober (täglicher Sommerbetrieb der Moléson-Bahnen)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 146
+        },
+        {
+          "from": "Bern",
+          "minutes": 79
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 147
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Familientag – vom Moléson nach Broc",
+          "slots": [
+            {
+              "time": "10:45",
+              "placeId": "gr-moleson",
+              "title": "Auf den Moléson",
+              "text": "Mit der Standseilbahn nach Plan-Francey und mit der Luftseilbahn auf den Gipfel; oben in Ruhe den Rundblick übers Greyerzerland geniessen.",
+              "travel": "Bus 263 ab Bahnhof Gruyères, 11 Min. (stündlich, z. B. 10.33 Uhr)",
+              "rain": {
+                "placeId": "gr-maison-du-gruyere",
+                "title": "Käsen schauen statt Gipfel",
+                "text": "Wenn der Moléson im Nebel steckt, bleibst du unten in der Schaukäserei beim Bahnhof Gruyères – am Vormittag wird dort gekäst."
+              }
+            },
+            {
+              "time": "12:30",
+              "placeId": "gr-plan-francey",
+              "title": "Zmittag auf Plan-Francey",
+              "text": "Bei der Mittelstation auf der Terrasse essen und danach mit der Standseilbahn ins Dorf hinunter.",
+              "travel": "mit der Luftseilbahn zurück zur Mittelstation"
+            },
+            {
+              "time": "15:05",
+              "placeId": "gr-maison-cailler",
+              "title": "Schokolade bei Cailler",
+              "text": "Rundgang durch die Schokoladenfabrik mit Degustation am Schluss – Zeitfenster vorher online buchen.",
+              "travel": "Bus 263 bis Gruyères (10 Min., z. B. 14.18 Uhr), dann Bus 260 nach Broc (ca. 20 Min.)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

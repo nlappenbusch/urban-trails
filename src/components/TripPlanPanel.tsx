@@ -20,6 +20,8 @@ interface Conn {
 export interface TripDateEvent {
   date: string;
   rainByDay: boolean[];
+  /** Wetter je Programmtag (null = noch keine Prognose) */
+  weather?: (DayWeatherLite | null)[];
 }
 
 const hm = (iso: string) => new Date(iso).toLocaleTimeString("de-CH", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Zurich" });
@@ -68,7 +70,7 @@ export default function TripPlanPanel({ region, station, days }: { region: strin
   // Wetter → Regen-Schalter im Programm, Datum → Kalender-Export
   useEffect(() => {
     if (!date) return;
-    const detail: TripDateEvent = { date, rainByDay: tripWeather.map((w) => (w ? rainyDay(w) : false)) };
+    const detail: TripDateEvent = { date, rainByDay: tripWeather.map((w) => (w ? rainyDay(w) : false)), weather: tripWeather.map((w) => w ?? null) };
     window.dispatchEvent(new CustomEvent("ut-trip-date", { detail }));
   }, [date, tripWeather]);
 

@@ -54,7 +54,7 @@ export function timelineData(days: TripDay[], extra: (string | undefined)[] = []
   const tourMap: Record<string, TimelineTour> = {};
   for (const slug of tourSlugs) {
     const t = tours.find((x) => x.slug === slug);
-    if (t) tourMap[slug] = { name: t.name, citySlug: t.citySlug };
+    if (t) tourMap[slug] = { name: t.name, citySlug: t.citySlug, durationMinutes: t.durationMinutes };
   }
   return { places: placeMap, tours: tourMap };
 }

@@ -124,6 +124,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kunsthalle_Basel_2008-03-30.jpg/1280px-Kunsthalle_Basel_2008-03-30.jpg",
         "alt": "Gebäude der Kunsthalle Basel am Steinenberg, in dem das Restaurant liegt",
         "credit": "https://commons.wikimedia.org/wiki/File:Kunsthalle_Basel_2008-03-30.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -156,6 +197,66 @@
         "to": 58,
         "unit": "Hauptgang",
         "note": "Abendkarte; Steak frites 54 CHF"
+      },
+      "open": {
+        "week": {
+          "1": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "22:00"
+            ]
+          ],
+          "2": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "22:00"
+            ]
+          ],
+          "3": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "22:00"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "22:00"
+            ]
+          ],
+          "5": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "22:00"
+            ]
+          ],
+          "6": [
+            [
+              "18:00",
+              "22:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -187,6 +288,72 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Basel_Goldener_Sternen.jpg/1280px-Basel_Goldener_Sternen.jpg",
         "alt": "Gasthof zum Goldenen Sternen von der Rheinseite aus gesehen",
         "credit": "https://commons.wikimedia.org/wiki/File:Basel_Goldener_Sternen.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "22:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -322,6 +489,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Basel_-_2017_-_Kunstmuseum_Basel_-_Altbau.jpg/1280px-Basel_-_2017_-_Kunstmuseum_Basel_-_Altbau.jpg",
         "alt": "Hauptbau des Kunstmuseums Basel am St. Alban-Graben",
         "credit": "https://commons.wikimedia.org/wiki/File:Basel_-_2017_-_Kunstmuseum_Basel_-_Altbau.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -354,6 +562,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Riehen_BS_Fondation_Beyeler.jpg/1280px-Riehen_BS_Fondation_Beyeler.jpg",
         "alt": "Museumsbau der Fondation Beyeler mit Wasserbecken in Riehen",
         "credit": "https://commons.wikimedia.org/wiki/File:Riehen_BS_Fondation_Beyeler.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -391,6 +645,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Basel_Museum_Tinguely_02.jpg/1280px-Basel_Museum_Tinguely_02.jpg",
         "alt": "Museum Tinguely vom gegenüberliegenden Rheinufer aus",
         "credit": "https://commons.wikimedia.org/wiki/File:Basel_Museum_Tinguely_02.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -502,6 +797,14 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Basel_Rheinschwimmer.JPG/1280px-Basel_Rheinschwimmer.JPG",
         "alt": "Rheinschwimmer mit Schwimmsäcken im Rhein in Basel",
         "credit": "https://commons.wikimedia.org/wiki/File:Basel_Rheinschwimmer.JPG"
+      },
+      "open": {
+        "months": [
+          6,
+          7,
+          8,
+          9
+        ]
       }
     },
     {
@@ -534,6 +837,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Basler_Papierm%C3%BChle_-_Flickr_-_Alexandre_Prevot.jpg/1280px-Basler_Papierm%C3%BChle_-_Flickr_-_Alexandre_Prevot.jpg",
         "alt": "Basler Papiermühle am Gewerbekanal im St. Alban-Tal",
         "credit": "https://commons.wikimedia.org/wiki/File:Basler_Papierm%C3%BChle_-_Flickr_-_Alexandre_Prevot.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -613,7 +957,48 @@
       "text": "Am traditionellen Gemperli-Stand in der Altstadt gibt es die St. Galler Bratwurst vom Grill mit einem Bürli auf die Hand. Seit 2021 stehen daneben auch Poke Bowls auf der Tafel.",
       "tip": "Bestell die Bratwurst ohne Senf – in St. Gallen ist das Ehrensache.",
       "source": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/bratwurst-bowls/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "11:00",
+              "18:30"
+            ]
+          ],
+          "2": [
+            [
+              "11:00",
+              "18:30"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "18:30"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "18:30"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "18:30"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "sg-zum-goldenen-schaefli",
@@ -644,6 +1029,71 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Goldenes_Sch%C3%A4fli_St._Gallen_02.jpg/1280px-Goldenes_Sch%C3%A4fli_St._Gallen_02.jpg",
         "alt": "Wirtshausschild des Goldenen Schäfli an der Metzgergasse",
         "credit": "https://commons.wikimedia.org/wiki/File:Goldenes_Sch%C3%A4fli_St._Gallen_02.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "14:00"
+            ],
+            [
+              "18:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -675,6 +1125,71 @@
         "from": 42,
         "to": 59,
         "unit": "Hauptgang"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "16:30",
+              "20:30"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "17:30",
+              "21:30"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "17:30",
+              "21:30"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "17:30",
+              "21:30"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "17:30",
+              "21:30"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "17:30",
+              "21:30"
+            ]
+          ]
+        }
       }
     },
     {
@@ -706,6 +1221,47 @@
         "to": 58,
         "unit": "Hauptgang",
         "note": "Kinderfest-Bratwurst 20 CHF"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "17:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -732,7 +1288,48 @@
       "text": "Stammhaus der St. Galler Confiserie mit Tea Room an der Multergasse. Hier bekommst du Klosterbiber, Schoggi-«Pflastersteine» und Pralinen, die in der Altstadt von Hand hergestellt werden.",
       "tip": "Am Sonntag ist das Stammhaus zu – dann hat die Filiale beim Bahnhof (Poststrasse 30) bis 19 Uhr offen.",
       "source": "https://www.roggwiller.ch/kontakt/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "09:30",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "sg-restaurant-schwaegalp",
@@ -794,6 +1391,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Barocksaal_der_Stiftsbibliothek_St._Gallen.jpg/1280px-Barocksaal_der_Stiftsbibliothek_St._Gallen.jpg",
         "alt": "Barocksaal der Stiftsbibliothek St. Gallen mit Bücherschränken und Deckenmalerei",
         "credit": "https://commons.wikimedia.org/wiki/File:Barocksaal_der_Stiftsbibliothek_St._Gallen.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -830,6 +1473,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/St.Gallen_Textilmuseum.jpg/1280px-St.Gallen_Textilmuseum.jpg",
         "alt": "Gebäude des Textilmuseums an der Vadianstrasse in St. Gallen",
         "credit": "https://commons.wikimedia.org/wiki/File:St.Gallen_Textilmuseum.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -866,6 +1550,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/St.Gallen_Dreiweieren_Mannenweiher_01.jpg/1280px-St.Gallen_Dreiweieren_Mannenweiher_01.jpg",
         "alt": "Mannenweiher der Drei Weieren oberhalb von St. Gallen",
         "credit": "https://commons.wikimedia.org/wiki/File:St.Gallen_Dreiweieren_Mannenweiher_01.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -940,6 +1670,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Appenzell_Landsgemeindeplatz_20210528.jpg/1280px-Appenzell_Landsgemeindeplatz_20210528.jpg",
         "alt": "Bemalte Häuser am Landsgemeindeplatz in Appenzell",
         "credit": "https://commons.wikimedia.org/wiki/File:Appenzell_Landsgemeindeplatz_20210528.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -972,6 +1748,72 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Appenzell_Hauptgasse4.JPG/1280px-Appenzell_Hauptgasse4.JPG",
         "alt": "Bemaltes Haus Buherre Hanisefs an der Hauptgasse 4 in Appenzell",
         "credit": "https://commons.wikimedia.org/wiki/File:Appenzell_Hauptgasse4.JPG"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "12:00"
+            ],
+            [
+              "13:30",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "12:00"
+            ],
+            [
+              "13:30",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "12:00"
+            ],
+            [
+              "13:30",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "12:00"
+            ],
+            [
+              "13:30",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "12:00"
+            ],
+            [
+              "13:30",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -1008,6 +1850,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Art_Museum_St_Gallen_May_2011.jpg/1280px-Art_Museum_St_Gallen_May_2011.jpg",
         "alt": "Museumsbau von 1877 an der Museumstrasse im St. Galler Stadtpark",
         "credit": "https://commons.wikimedia.org/wiki/File:Art_Museum_St_Gallen_May_2011.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -1045,6 +1928,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Neues_Naturmuseum_St._Gallen%2C_Ost-_und_S%C3%BCdfassade.jpg/1280px-Neues_Naturmuseum_St._Gallen%2C_Ost-_und_S%C3%BCdfassade.jpg",
         "alt": "Neubau des Naturmuseums St. Gallen von Osten",
         "credit": "https://commons.wikimedia.org/wiki/File:Neues_Naturmuseum_St._Gallen,_Ost-_und_S%C3%BCdfassade.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     }
   ],

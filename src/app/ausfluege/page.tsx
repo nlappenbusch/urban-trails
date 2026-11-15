@@ -6,6 +6,7 @@ import { toTripLite } from "@/lib/ausfluege-view";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import { getTourHeroImage } from "@/data/images";
 import TripExplorer from "@/components/TripExplorer";
+import AusflugTools from "@/components/AusflugTools";
 
 const TITLE = "Ausflüge in der Schweiz – fertig geplante Tagesausflüge und Wochenenden";
 const DESC =
@@ -44,7 +45,11 @@ export default function AusfluegePage() {
         einer Audio-Tour durch die Stadt – und einem Plan B, falls es regnet. Ein Klick, und alles steht in deinem Kalender.
       </p>
 
-      <div className="mt-10">
+      <div className="mt-8">
+        <AusflugTools />
+      </div>
+
+      <div className="mt-12">
         <TripExplorer trips={lite} />
       </div>
 

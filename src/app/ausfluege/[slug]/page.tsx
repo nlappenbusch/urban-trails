@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CalendarDays, Clock, TrainFront, Users } from "lucide-react";
-import { AUDIENCE, MOODS, daysLabel, fmtMin, getPlace, getTrip, priceText, tripBudget, trips } from "@/lib/ausfluege";
+import { AUDIENCE, MOODS, daysLabel, fmtMin, getPlace, getTrip, priceText, regionInfo, tripBudget, trips } from "@/lib/ausfluege";
 import { mainTour, regionName, timelineData } from "@/lib/ausfluege-view";
 import { getTourHeroImage } from "@/data/images";
 import { imgAttrs } from "@/lib/img";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import TripTimeline from "@/components/TripTimeline";
 import TripMap from "@/components/TripMap";
+import TripPlanPanel from "@/components/TripPlanPanel";
 import TripBudget from "@/components/TripBudget";
 import GuideTeaser from "@/components/GuideTeaser";
 
@@ -145,7 +146,11 @@ export default async function TripPage({ params }: Props) {
             )}
           </div>
 
-          <aside className="h-fit space-y-6 lg:sticky lg:top-24">
+          <aside className="h-fit space-y-6">
+            <div className="card p-6">
+              <p className="kicker mb-4">Dein Ausflug</p>
+              <TripPlanPanel region={trip.region} station={regionInfo(trip.region)?.station ?? region} days={trip.dayPlans} />
+            </div>
             <div className="card space-y-4 p-6 text-sm">
               {facts.map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex gap-3">

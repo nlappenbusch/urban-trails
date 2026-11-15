@@ -1,12 +1,11 @@
-import { getDestination } from "@/data/destinations";
 import { getTourHeroImage } from "@/data/images";
 import { tours } from "@/lib/tours";
-import { getPlace, places, tripBudget, type Place, type Trip, type TripDay } from "@/lib/ausfluege";
+import { getPlace, places, regionInfo, tripBudget, type Place, type Trip, type TripDay } from "@/lib/ausfluege";
 import type { TripLite } from "@/components/TripExplorer";
 import type { TimelineTour } from "@/components/TripTimeline";
 import type { PlanTour } from "@/lib/compose";
 
-export const regionName = (slug: string) => getDestination(slug)?.name ?? slug;
+export const regionName = (slug: string) => regionInfo(slug)?.name ?? slug;
 
 /** Erste Urban-Trails-Tour im Programm, sonst die erste Tour der Region. */
 export function mainTour(trip: Trip) {
@@ -61,4 +60,6 @@ export function timelineData(days: TripDay[], extra: (string | undefined)[] = []
 export const planTours = (): PlanTour[] => tours.map((t) => ({ slug: t.slug, name: t.name, citySlug: t.citySlug, durationMinutes: t.durationMinutes }));
 
 export const plannerRegions = () =>
-  [...new Set(places.map((p) => p.region))].map((slug) => ({ slug, name: regionName(slug), hotels: places.some((p) => p.region === slug && p.kind === "hotel") }));
+  [...new Set(places.map((p) => p.region))]
+    .map((slug) => ({ slug, name: regionName(slug), station: regionInfo(slug)?.station ?? regionName(slug), hotels: places.some((p) => p.region === slug && p.kind === "hotel") }))
+    .sort((a, b) => a.name.localeCompare(b.name, "de"));

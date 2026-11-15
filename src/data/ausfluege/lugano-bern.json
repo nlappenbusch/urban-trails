@@ -86,6 +86,62 @@
         "to": 35,
         "unit": "Hauptgang",
         "note": "Polenta-Gerichte, z. B. Brasato 31, Ossobuco 35"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "3": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "5": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "6": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -118,6 +174,61 @@
         "to": 53,
         "unit": "Hauptgang",
         "note": "Secondi 37–53; Pasta und Risotto 26–36"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:45",
+              "14:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -169,7 +280,12 @@
       "text": "Kleine Weinbar mit rund 40 Plätzen gleich neben der Piazza Riforma, viele Tessiner Weine gibt es offen im Glas. Dazu kommen Käse, Salumi und eine einfache Tageskarte.",
       "tip": "Frag nach einem Merlot aus dem Sottoceneri, den du zuhause kaum im Regal findest.",
       "source": "https://www.luganoregion.com/en/restaurants/details/Ristorante-Bottegone-del-Vino/75375.html",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": []
+        }
+      }
     },
     {
       "id": "lug-manora-lugano",
@@ -232,6 +348,20 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Funicolare_Monte_Br%C3%A8_-_panoramio.jpg/1280px-Funicolare_Monte_Br%C3%A8_-_panoramio.jpg",
         "alt": "Standseilbahn auf den Monte Brè",
         "credit": "https://commons.wikimedia.org/wiki/File:Funicolare_Monte_Br%C3%A8_-_panoramio.jpg"
+      },
+      "open": {
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
       }
     },
     {
@@ -270,6 +400,18 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Monte_San_Salvatore_funicular_02.jpg/1280px-Monte_San_Salvatore_funicular_02.jpg",
         "alt": "Wagen der Standseilbahn auf den Monte San Salvatore",
         "credit": "https://commons.wikimedia.org/wiki/File:Monte_San_Salvatore_funicular_02.jpg"
+      },
+      "open": {
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       }
     },
     {
@@ -306,6 +448,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gandria_am_Lago_di_Lugano_%282013%29.jpg/1280px-Gandria_am_Lago_di_Lugano_%282013%29.jpg",
         "alt": "Das Dorf Gandria am Luganersee, Ziel des Olivenwegs",
         "credit": "https://commons.wikimedia.org/wiki/File:Gandria_am_Lago_di_Lugano_(2013).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -361,6 +549,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/LAC-Lugano.jpg/1280px-LAC-Lugano.jpg",
         "alt": "Kulturzentrum LAC Lugano Arte e Cultura am Seeufer",
         "credit": "https://commons.wikimedia.org/wiki/File:LAC-Lugano.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -427,6 +656,47 @@
         "from": 15,
         "unit": "Eintritt Erwachsene",
         "note": "ab 16 Jahren; ermässigt CHF 10; montags CHF 10"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "2": [],
+          "3": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -463,6 +733,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Parco_Ciani_am_Lago_di_Lugano_in_Lugano_%282013%29.jpg/1280px-Parco_Ciani_am_Lago_di_Lugano_in_Lugano_%282013%29.jpg",
         "alt": "Parco Ciani am Ufer des Luganersees",
         "credit": "https://commons.wikimedia.org/wiki/File:Parco_Ciani_am_Lago_di_Lugano_in_Lugano_(2013).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -494,6 +810,62 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Swissminiatur_2025.jpg/1280px-Swissminiatur_2025.jpg",
         "alt": "Modelllandschaft im Swissminiatur in Melide",
         "credit": "https://commons.wikimedia.org/wiki/File:Swissminiatur_2025.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       }
     },
     {
@@ -559,7 +931,53 @@
       "text": "Restaurant mitten im Rosengarten mit dem bekanntesten Blick auf die Berner Altstadt, die Aareschlaufe und das Münster. Im Winter wird auf der verglasten Veranda Fondue serviert.",
       "tip": "Für einen Fensterplatz bei Sonnenuntergang lohnt sich eine Reservation.",
       "source": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/restaurant-rosengarten-fondue-veranda/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "23:30"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "23:30"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "23:30"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "23:30"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "23:30"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "23:30"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "23:30"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "bern-kornhauskeller",
@@ -654,6 +1072,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gurtenbahn_passing_loop.jpg/1280px-Gurtenbahn_passing_loop.jpg",
         "alt": "Kreuzungsstelle der Gurtenbahn am Gurten",
         "credit": "https://commons.wikimedia.org/wiki/File:Gurtenbahn_passing_loop.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -690,6 +1154,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bern_Rosengarten_Brunnen_20211007.jpg/1280px-Bern_Rosengarten_Brunnen_20211007.jpg",
         "alt": "Zierbrunnen mit Skulpturen im Rosengarten Bern",
         "credit": "https://commons.wikimedia.org/wiki/File:Bern_Rosengarten_Brunnen_20211007.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -727,6 +1237,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Le_centre_Paul_Klee_%28Berne%2C_Suisse%29_%2828648115807%29.jpg/1280px-Le_centre_Paul_Klee_%28Berne%2C_Suisse%29_%2828648115807%29.jpg",
         "alt": "Wellenförmige Fassade des Zentrums Paul Klee von Renzo Piano",
         "credit": "https://commons.wikimedia.org/wiki/File:Le_centre_Paul_Klee_(Berne,_Suisse)_(28648115807).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -762,6 +1313,65 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Einsteinhausberne.jpg/1280px-Einsteinhausberne.jpg",
         "alt": "Wohnstube von Albert Einstein im Einstein-Haus an der Kramgasse",
         "credit": "https://commons.wikimedia.org/wiki/File:Einsteinhausberne.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
       }
     },
     {
@@ -799,6 +1409,12 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Bundeshaus_in_Bern_2022.jpg/1280px-Bundeshaus_in_Bern_2022.jpg",
         "alt": "Bundeshaus in Bern über der Aare, von Südosten",
         "credit": "https://commons.wikimedia.org/wiki/File:Bundeshaus_in_Bern_2022.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": []
+        }
       }
     },
     {
@@ -833,6 +1449,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Bern_-_Swimming_Bear_-_B%C3%A4renPark.jpg/1280px-Bern_-_Swimming_Bear_-_B%C3%A4renPark.jpg",
         "alt": "Schwimmender Bär im BärenPark Bern",
         "credit": "https://commons.wikimedia.org/wiki/File:Bern_-_Swimming_Bear_-_B%C3%A4renPark.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -905,6 +1567,15 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Marzilibad_Bern.jpg/1280px-Marzilibad_Bern.jpg",
         "alt": "Freibad Marzili an der Aare in Bern",
         "credit": "https://commons.wikimedia.org/wiki/File:Marzilibad_Bern.jpg"
+      },
+      "open": {
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
       }
     },
     {

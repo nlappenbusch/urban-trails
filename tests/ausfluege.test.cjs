@@ -18,7 +18,7 @@ const KINDS = ['hotel', 'restaurant', 'cafe', 'bar', 'aktivitaet', 'sehenswuerdi
 function load(file) {
   const out = ts.transpileModule(fs.readFileSync(path.join(root, file), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
   const module = { exports: {} };
-  new Function('require', 'module', 'exports', out)((n) => require(n), module, module.exports);
+  new Function('require', 'module', 'exports', out)((n) => (n.startsWith('@/') ? load(`src/${n.slice(2)}.ts`) : require(n)), module, module.exports);
   return module.exports;
 }
 
@@ -40,6 +40,40 @@ test('Orte: eindeutig, vollständig, mit Quelle', () => {
       assert.match(p.image.source, /^https:\/\/upload\.wikimedia\.org\//, `${p.id}: Bild nicht von Commons`);
       assert.match(p.image.credit, /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/, `${p.id}: Bildnachweis`);
       assert.ok(p.image.alt, `${p.id}: Bild ohne alt`);
+    }
+  }
+});
+
+test('Öffnungszeiten: Format stimmt, Abfrage nach Tag, Uhrzeit und Monat', () => {
+  for (const p of places) {
+    if (!p.open) continue;
+    for (const [d, wins] of Object.entries(p.open.week ?? {})) {
+      assert.match(d, /^[0-6]$/, `${p.id}: Wochentag ${d}`);
+      for (const [a, b] of wins) assert.ok(/^\d{2}:\d{2}$/.test(a) && /^\d{2}:\d{2}$/.test(b) && a < b, `${p.id}: Zeit ${a}–${b}`);
+    }
+    for (const m of p.open.months ?? []) assert.ok(m >= 1 && m <= 12, `${p.id}: Monat ${m}`);
+  }
+  const { openState } = load('src/lib/ausfluege-core.ts');
+  const museum = { open: { week: { 1: [], 2: [['10:00', '17:00']] }, months: [4, 5, 6, 7, 8, 9, 10] } };
+  assert.equal(openState(museum, '2026-06-01'), 'zu'); // Montag
+  assert.equal(openState(museum, '2026-06-02', '11:00', '12:00'), 'offen');
+  assert.equal(openState(museum, '2026-06-02', '17:30', '18:00'), 'zu');
+  assert.equal(openState(museum, '2026-06-03'), 'offen'); // Mittwoch unbekannt, aber Saison
+  assert.equal(openState(museum, '2026-12-01'), 'zu'); // ausser Saison
+  assert.equal(openState({}, '2026-06-01'), 'unbekannt');
+});
+
+test('Planer mit Datum meidet geschlossene Orte', () => {
+  const { composePlan } = load('src/lib/compose.ts');
+  const tours = [...tourSlugs].map((slug) => ({ slug, name: slug, citySlug: '', durationMinutes: 120 }));
+  const { openState } = load('src/lib/ausfluege-core.ts');
+  for (const region of new Set(places.map((p) => p.region))) {
+    for (const date of ['2026-11-16', '2026-11-22', '2027-07-05']) {
+      const plan = composePlan({ region, days: 1, audience: 'paar', moods: [], rain: false, budget: 3, date }, places, tours);
+      for (const s of plan.days[0].slots) {
+        if (!s.placeId) continue;
+        assert.notEqual(openState(ids.get(s.placeId), date), 'zu', `${region} ${date}: ${s.placeId} hat zu`);
+      }
     }
   }
 });

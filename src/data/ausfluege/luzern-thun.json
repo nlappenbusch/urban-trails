@@ -140,6 +140,12 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/20110111_Restaurant_Galliker_Luzern.jpg/1280px-20110111_Restaurant_Galliker_Luzern.jpg",
         "alt": "Fassade des Restaurants Galliker in Luzern",
         "credit": "https://commons.wikimedia.org/wiki/File:20110111_Restaurant_Galliker_Luzern.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": []
+        }
       }
     },
     {
@@ -171,6 +177,62 @@
         "to": 69,
         "unit": "Hauptgang",
         "note": "vegetarisch ab 39, Fleisch 51–66, Fisch 66–69"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [
+            [
+              "11:30",
+              "14:30"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "14:30"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "14:30"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "14:30"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "14:30"
+            ],
+            [
+              "18:00",
+              "23:30"
+            ]
+          ]
+        }
       }
     },
     {
@@ -260,6 +322,42 @@
         "from": 22,
         "unit": "Hauptgang",
         "note": "Mittagsmenü Di–Fr (mit Suppe oder Salat CHF 24); abends 5-Gang-Menü"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:30",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -632,6 +730,47 @@
         "to": 12.2,
         "unit": "Kaffee & Kuchen",
         "note": "Kaffee crème CHF 4.70 plus Kuchen CHF 6–7.50 (Menükarte September 2026)"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -663,6 +802,52 @@
         "from": 17,
         "unit": "Cocktail",
         "note": "Signature-Cocktails CHF 17, alkoholfreie CHF 14"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "16:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "16:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "16:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "16:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "16:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "16:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "16:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -685,7 +870,12 @@
       "text": "Unkompliziertes Tageslokal auf dem Bälliz, der Aareinsel mitten in Thun. Gut für einen schnellen, bezahlbaren Zmittag oder Kaffee und Kuchen zwischendurch.",
       "tip": "Mittwochs und samstags ist auf dem Bälliz Markt – kombiniere das Mittagessen mit einem Bummel über die Stände.",
       "source": "https://www.kaffeemuehle-thun.ch",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": []
+        }
+      }
     },
     {
       "id": "th-schloss-thun",
@@ -756,6 +946,21 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Saint_Beatus_Caves_-_2023-07-19_16-19-19_2427.jpg/1280px-Saint_Beatus_Caves_-_2023-07-19_16-19-19_2427.jpg",
         "alt": "Beleuchtete Tropfsteine in den St. Beatus-Höhlen",
         "credit": "https://commons.wikimedia.org/wiki/File:Saint_Beatus_Caves_-_2023-07-19_16-19-19_2427.jpg"
+      },
+      "open": {
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
       }
     },
     {
@@ -831,6 +1036,16 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Niesenbahn_Standseilbahn.jpg/1280px-Niesenbahn_Standseilbahn.jpg",
         "alt": "Standseilbahn der Niesenbahn",
         "credit": "https://commons.wikimedia.org/wiki/File:Niesenbahn_Standseilbahn.jpg"
+      },
+      "open": {
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       }
     },
     {
@@ -899,6 +1114,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Thun_Hofstettenstrasse_14.jpg/1280px-Thun_Hofstettenstrasse_14.jpg",
         "alt": "Thunerhof an der Hofstettenstrasse, Sitz des Kunstmuseums Thun",
         "credit": "https://commons.wikimedia.org/wiki/File:Thun_Hofstettenstrasse_14.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "19:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     }
   ],

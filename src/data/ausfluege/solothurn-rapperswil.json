@@ -78,7 +78,71 @@
       "text": "Mediterrane Slow-Food-Küche mit orientalischem Einschlag, mit Zutaten aus der Region und 13 GaultMillau-Punkten. Die Küche verwertet ganze Tiere von Nose to Tail, deshalb wechselt die Karte oft.",
       "tip": "Sonntags gibt es nur Abendservice – für ein Sonntagsmittagessen musst du ausweichen.",
       "source": "https://baseltor.ch/oeffnungszeiten/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "1": [
+            [
+              "09:00",
+              "14:00"
+            ],
+            [
+              "17:45",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "14:00"
+            ],
+            [
+              "17:45",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "14:00"
+            ],
+            [
+              "17:45",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "14:00"
+            ],
+            [
+              "17:45",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "14:00"
+            ],
+            [
+              "17:45",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "14:00"
+            ],
+            [
+              "17:45",
+              "23:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "so-kreuz",
@@ -115,6 +179,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Solothurn_Kreuz.jpg/1280px-Solothurn_Kreuz.jpg",
         "alt": "Gebäude der Genossenschaft Kreuz in Solothurn",
         "credit": "https://commons.wikimedia.org/wiki/File:Solothurn_Kreuz.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "11:30",
+              "21:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "21:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "21:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "21:30"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "21:30"
+            ]
+          ]
+        }
       }
     },
     {
@@ -141,7 +246,53 @@
       "text": "Café der Confiserie Suteria am Kronenplatz, mit Frühstück, Mittagessen und natürlich der Solothurner Torte aus Haselnussbiskuit, Japonais und Buttercreme. Im Sommer sitzt du auf der grossen Terrasse mit Blick auf die Kathedrale.",
       "tip": "Die kleine Chocolaterie an der Schmiedengasse 20 ist das Geburtshaus der Solothurner Torte – ein kurzer Abstecher lohnt sich (unter der Woche nur mit Mittagspause offen).",
       "source": "https://www.suteria.ch/de/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "2": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "18:30"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "so-solheure",
@@ -167,7 +318,53 @@
       "text": "Bar, Lounge und Restaurant direkt am Aareufer, mit Drinks und Apéroplättli am Abend und wechselnden Mittagsmenüs, auch vegetarisch und vegan. Von den Plätzen am Wasser schaust du auf die Altstadt.",
       "tip": "Gleich daneben führt das «Stägli» in die Aare – im Sommer ein beliebter Einstieg für einen kurzen Schwumm vor dem Apéro.",
       "source": "https://solheure.ch/oeffnungszeiten/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "17:00",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "24:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "so-einsiedelei",
@@ -260,6 +457,16 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/20170711_Solothurn_0719_%2836539205330%29.jpg/1280px-20170711_Solothurn_0719_%2836539205330%29.jpg",
         "alt": "Kursschiff «Stadt Solothurn» auf der Aare, davor die Eisenbahnbrücke",
         "credit": "https://commons.wikimedia.org/wiki/File:20170711_Solothurn_0719_(36539205330).jpg"
+      },
+      "open": {
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       }
     },
     {
@@ -333,6 +540,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kunstmuseum_Solothurn.jpg/1280px-Kunstmuseum_Solothurn.jpg",
         "alt": "Gebäude des Kunstmuseums Solothurn",
         "credit": "https://commons.wikimedia.org/wiki/File:Kunstmuseum_Solothurn.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -370,6 +618,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Altes_Zeughaus_in_Solothurn.jpg/1280px-Altes_Zeughaus_in_Solothurn.jpg",
         "alt": "Museum Altes Zeughaus am Riedholzplatz in Solothurn",
         "credit": "https://commons.wikimedia.org/wiki/File:Altes_Zeughaus_in_Solothurn.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -406,6 +695,51 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Schloss_Waldegg.jpg/1280px-Schloss_Waldegg.jpg",
         "alt": "Schloss Waldegg im Herbst mit Barockgarten auf der Südseite",
         "credit": "https://commons.wikimedia.org/wiki/File:Schloss_Waldegg.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "5": [],
+          "6": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       }
     },
     {
@@ -438,6 +772,47 @@
         "to": 59.5,
         "unit": "Hauptgang",
         "note": "Winterkarte 2026: Pasta ab 30, Fleisch/Fisch 47–59.50; Cocktails 16–17.50"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "22:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:00",
+              "24:00"
+            ]
+          ],
+          "2": [],
+          "3": [
+            [
+              "11:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -490,7 +865,53 @@
       "text": "Kleines Café in einer Altstadtgasse mit hausgemachtem Gebäck, Suppen, Salaten und Sandwiches. Es liegen Zeitungen und Magazine auf, bei schönem Wetter sitzt du draussen in der Gasse.",
       "tip": "Guter Startpunkt vor dem Rundgang – bis zum Hauptplatz sind es nur ein paar Schritte.",
       "source": "https://www.zuerich.com/de/besuchen/restaurants/cafe-hintergass",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "07:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "07:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "18:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ra-inselwirtschaft-ufnau",
@@ -516,7 +937,62 @@
       "text": "Gartenwirtschaft unter Platanen auf der Klosterinsel, mit Gemüse, Fleisch und Brot aus der Region und Fischgerichten. Erreichbar ist sie nur übers Wasser.",
       "tip": "Bei unsicherem Wetter vorher anrufen (055 410 12 25) – bei Regen bleibt die Wirtschaft auch mal zu.",
       "source": "https://www.zuerich.com/de/besuchen/restaurants/inselwirtschaft-ufnau",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "21:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:00",
+              "21:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:00",
+              "21:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "21:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "21:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "21:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
     },
     {
       "id": "ra-holzsteg",
@@ -552,6 +1028,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Fussg%C3%A4nger-Holzsteg_%282001%29_%C3%BCber_den_Obersee%2C_Hurden_SZ_%E2%80%93_Rapperswil_SG_20240320-jag9889.jpg/1280px-Fussg%C3%A4nger-Holzsteg_%282001%29_%C3%BCber_den_Obersee%2C_Hurden_SZ_%E2%80%93_Rapperswil_SG_20240320-jag9889.jpg",
         "alt": "Fussgänger-Holzsteg über den Obersee zwischen Hurden und Rapperswil",
         "credit": "https://commons.wikimedia.org/wiki/File:Fussg%C3%A4nger-Holzsteg_(2001)_%C3%BCber_den_Obersee,_Hurden_SZ_%E2%80%93_Rapperswil_SG_20240320-jag9889.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -588,6 +1110,17 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ufenau_Kirchen.jpg/1280px-Ufenau_Kirchen.jpg",
         "alt": "Insel Ufnau mit der Kirche St. Peter und Paul und der Kapelle St. Martin",
         "credit": "https://commons.wikimedia.org/wiki/File:Ufenau_Kirchen.jpg"
+      },
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       }
     },
     {
@@ -624,6 +1157,62 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Knies_Kinderzoo_IMG_3835.JPG/1280px-Knies_Kinderzoo_IMG_3835.JPG",
         "alt": "Im Knies Kinderzoo in Rapperswil",
         "credit": "https://commons.wikimedia.org/wiki/File:Knies_Kinderzoo_IMG_3835.JPG"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        },
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       }
     },
     {
@@ -660,6 +1249,42 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/KunstZeughaus_Rapperswil_2020.jpg/1280px-KunstZeughaus_Rapperswil_2020.jpg",
         "alt": "Museumsgebäude Kunst(Zeug)Haus in Rapperswil",
         "credit": "https://commons.wikimedia.org/wiki/File:KunstZeughaus_Rapperswil_2020.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "14:00",
+              "20:00"
+            ]
+          ],
+          "4": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -697,6 +1322,42 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Rapperswil_-_Bubikerhaus_-_Breny-Turm.jpg/1280px-Rapperswil_-_Bubikerhaus_-_Breny-Turm.jpg",
         "alt": "Breny-Haus und Breny-Turm des Stadtmuseums Rapperswil-Jona",
         "credit": "https://commons.wikimedia.org/wiki/File:Rapperswil_-_Bubikerhaus_-_Breny-Turm.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     }
   ],

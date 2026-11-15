@@ -110,6 +110,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Bains_des_P%C3%A2quis_le_soir.JPG/1280px-Bains_des_P%C3%A2quis_le_soir.JPG",
         "alt": "Die Mole der Bains des Pâquis am Abend mit Blick über das Seebecken",
         "credit": "https://commons.wikimedia.org/wiki/File:Bains_des_P%C3%A2quis_le_soir.JPG"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "07:00",
+              "23:00"
+            ]
+          ],
+          "1": [
+            [
+              "07:00",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "07:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "23:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -166,7 +212,53 @@
       "text": "Hier gibt es im Grunde ein Gericht: Poulet vom Spiess mit provenzalischen Kartoffeln und Salat. Das Lokal liegt direkt am Bourg-de-Four, dem ältesten Platz der Stadt.",
       "tip": "Reservieren geht nicht – die Schlange bewegt sich aber schnell, und vor 12 Uhr wartest du kaum.",
       "source": "https://www.chezmacousine.ch",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "22:30"
+            ]
+          ],
+          "1": [
+            [
+              "11:00",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "23:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ge-la-clemence",
@@ -227,7 +319,72 @@
       "text": "Bistro an einer Ecke im alten Carouge, das sich an den Lyoner Bouchons orientiert: Schnecken, Froschschenkel und die Entrecôte carougeoise. Dazu kommt ein Keller mit über hundert Weinen, viele aus der Region.",
       "tip": "Komm etwas früher und schlendere durch die niedrigen sardischen Häuserzeilen von Carouge – das Städtchen sieht ganz anders aus als Genf.",
       "source": "https://www.negociants.ch/fr/restaurant/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "19:00",
+              "22:00"
+            ]
+          ],
+          "2": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "19:00",
+              "22:00"
+            ]
+          ],
+          "3": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "19:00",
+              "22:00"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "19:00",
+              "22:00"
+            ]
+          ],
+          "5": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "19:00",
+              "22:00"
+            ]
+          ],
+          "6": [
+            [
+              "12:00",
+              "14:00"
+            ],
+            [
+              "19:00",
+              "22:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ge-du-rhone-chocolatier",
@@ -252,7 +409,48 @@
       "text": "Chocolatier, der seit 1875 an der Rue du Rhône Pralinés von Hand herstellt. Die Boutique liegt wenige Minuten vom Jardin Anglais – ideal für eine süsse Tüte vor dem Seespaziergang.",
       "tip": "Frag nach dem «Choco Pass», einem kleinen Teller mit sechs Sorten zum Probieren.",
       "source": "https://www.geneve.com/en/restaurants/du-rhone-chocolatier",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ge-palais-des-nations",
@@ -288,6 +486,12 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Palace_of_Nations_Geneva_20102014_02.jpg/1280px-Palace_of_Nations_Geneva_20102014_02.jpg",
         "alt": "Palais des Nations in Genf mit der Fahnenallee",
         "credit": "https://commons.wikimedia.org/wiki/File:Palace_of_Nations_Geneva_20102014_02.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "6": []
+        }
       }
     },
     {
@@ -324,6 +528,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/International_Red_Cross_and_Red_Crescent_Museum_2010-07-01.jpg/1280px-International_Red_Cross_and_Red_Crescent_Museum_2010-07-01.jpg",
         "alt": "Eingangsbereich des Internationalen Rotkreuz- und Rothalbmondmuseums in Genf",
         "credit": "https://commons.wikimedia.org/wiki/File:International_Red_Cross_and_Red_Crescent_Museum_2010-07-01.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -360,6 +605,42 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Patek_Philippe_Museum.JPG",
         "alt": "Gebäude des Patek Philippe Museum in Genf",
         "credit": "https://commons.wikimedia.org/wiki/File:Patek_Philippe_Museum.JPG"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "4": [],
+          "5": [
+            [
+              "14:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -397,6 +678,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Mus%C3%A9e_d%27Art_et_d%27Histoire_de_Gen%C3%A8ve.JPG/1280px-Mus%C3%A9e_d%27Art_et_d%27Histoire_de_Gen%C3%A8ve.JPG",
         "alt": "Fassade des Musée d'art et d'histoire an der Rue Charles-Galland in Genf",
         "credit": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_d%27Art_et_d%27Histoire_de_Gen%C3%A8ve.JPG"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -465,6 +787,21 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/T%C3%A9l%C3%A9ph%C3%A9rique_du_Sal%C3%A8ve.jpg/1280px-T%C3%A9l%C3%A9ph%C3%A9rique_du_Sal%C3%A8ve.jpg",
         "alt": "Kabine der Salève-Seilbahn an der Bergstation auf rund 1100 Metern",
         "credit": "https://commons.wikimedia.org/wiki/File:T%C3%A9l%C3%A9ph%C3%A9rique_du_Sal%C3%A8ve.jpg"
+      },
+      "open": {
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
       }
     },
     {
@@ -497,7 +834,48 @@
       "text": "Das Besucherzentrum des Forschungszentrums CERN zeigt in mehreren Ausstellungen, wie Teilchenphysik funktioniert – mit vielen Experimenten zum Selbermachen. Das Gebäude von Renzo Piano spannt sich als Brücke über die Route de Meyrin.",
       "tip": "Schau vorab auf der Website, ob für deinen Tag eine Anmeldung nötig ist, und plan eine Pause im Big Bang Café im Haus ein.",
       "source": "https://sciencegateway.cern/hours",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ge-bains-des-paquis",
@@ -535,6 +913,59 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Bains_des_P%C3%A2quis_-_JeP_2022_-_Jet%C3%A9e.jpg/1280px-Bains_des_P%C3%A2quis_-_JeP_2022_-_Jet%C3%A9e.jpg",
         "alt": "Steg der Bains des Pâquis mit Badeplattformen im Genfersee",
         "credit": "https://commons.wikimedia.org/wiki/File:Bains_des_P%C3%A2quis_-_JeP_2022_-_Jet%C3%A9e.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "20:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "20:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "20:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "20:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "20:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "20:00"
+            ]
+          ]
+        },
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
       }
     },
     {
@@ -615,7 +1046,81 @@
       "text": "Historische Brasserie an der Place Saint-François, deren Einrichtung von 1951 mit Buffet, Vitrinen und Bildern weitgehend erhalten ist. Auf der Karte stehen Papet vaudois, Fondue moitié-moitié und Malakoffs, dazu Waadtländer Wein.",
       "tip": "Probier die Malakoffs, frittierte Käsekugeln aus der Waadt – und reservier telefonisch, die Küche ist nur zu den Essenszeiten offen.",
       "source": "https://www.cafe-romand.ch",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "15:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:30",
+              "14:15"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "14:15"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "14:15"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "14:15"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "14:15"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "15:00"
+            ],
+            [
+              "18:30",
+              "22:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "la-cafe-du-grutli",
@@ -646,6 +1151,11 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Caf%C3%A9_du_Gr%C3%BCtli%2C_Lausanne.jpg/1280px-Caf%C3%A9_du_Gr%C3%BCtli%2C_Lausanne.jpg",
         "alt": "Café du Grütli am unteren Ende der Rue de la Mercerie in Lausanne",
         "credit": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_du_Gr%C3%BCtli,_Lausanne.jpg"
+      },
+      "open": {
+        "week": {
+          "0": []
+        }
       }
     },
     {
@@ -672,7 +1182,12 @@
       "text": "Kleines Café an der gedeckten Holztreppe zwischen Marktplatz und Kathedrale. Berühmt ist die heisse Schokolade «Marta», so dick, dass du sie fast löffeln kannst.",
       "tip": "Die Marta mit hausgemachtem Schlagrahm bestellen – und danach die letzten Stufen zur Kathedrale nehmen.",
       "source": "https://www.lausanne-tourisme.ch/fr/decouvrir/le-barbare/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "1": []
+        }
+      }
     },
     {
       "id": "la-auberge-de-londe",
@@ -703,6 +1218,42 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Auberge_de_l%27Onde_%281750%29%2C_St-Saphorin_VD.jpg/1280px-Auberge_de_l%27Onde_%281750%29%2C_St-Saphorin_VD.jpg",
         "alt": "Die Auberge de l'Onde aus dem 18. Jahrhundert im Weindorf St-Saphorin",
         "credit": "https://commons.wikimedia.org/wiki/File:Auberge_de_l%27Onde_(1750),_St-Saphorin_VD.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -729,7 +1280,46 @@
       "text": "Im Weinkeller am Seeufer schenken rund zehn Winzer aus dem Lavaux abwechselnd selbst aus, insgesamt gut dreissig Weine. Du sitzt nicht bei einem Weingut, sondern probierst dich quer durch das Gebiet.",
       "tip": "Frag, wer an diesem Abend Dienst hat, und lass dir erklären, wie sich Chasselas aus Epesses von dem aus Villette unterscheidet.",
       "source": "https://montreuxriviera.com/en/P830",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "17:00",
+              "21:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [
+            [
+              "17:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "17:00",
+              "21:00"
+            ]
+          ],
+          "6": [
+            [
+              "17:00",
+              "21:00"
+            ]
+          ]
+        },
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
     },
     {
       "id": "la-lavaux-vinorama",
@@ -764,6 +1354,65 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Rivaz%2C_Switzerland_-_panoramio.jpg/1280px-Rivaz%2C_Switzerland_-_panoramio.jpg",
         "alt": "Gebäude des Lavaux Vinorama in Rivaz zwischen Strasse und Reben",
         "credit": "https://commons.wikimedia.org/wiki/File:Rivaz,_Switzerland_-_panoramio.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:30",
+              "19:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:30",
+              "20:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:30",
+              "20:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:30",
+              "20:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:30",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:30",
+              "20:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:30",
+              "20:00"
+            ]
+          ]
+        },
+        "months": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
       }
     },
     {
@@ -802,6 +1451,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Lee_Mus%C3%A9e_Olympique_07.jpg/1280px-Lee_Mus%C3%A9e_Olympique_07.jpg",
         "alt": "Olympisches Museum in Lausanne-Ouchy",
         "credit": "https://commons.wikimedia.org/wiki/File:Lee_Mus%C3%A9e_Olympique_07.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -839,6 +1529,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Mus%C3%A9e_cantonal_des_Beaux-Arts_de_Lausanne_%28Plateforme_10%29.jpg/1280px-Mus%C3%A9e_cantonal_des_Beaux-Arts_de_Lausanne_%28Plateforme_10%29.jpg",
         "alt": "Neubau des Musée cantonal des Beaux-Arts auf der Plateforme 10 in Lausanne",
         "credit": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_cantonal_des_Beaux-Arts_de_Lausanne_(Plateforme_10).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -878,6 +1609,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg/1280px-001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg",
         "alt": "Schloss Chillon am Genfersee in der Abenddämmerung, dahinter die Dents du Midi",
         "credit": "https://commons.wikimedia.org/wiki/File:001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "19:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "19:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "19:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "19:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "19:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "19:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "19:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -915,6 +1692,61 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lavaux_vignobles_en_terrasses_au_bord_du_L%C3%A9man_%282015%29.jpg/1280px-Lavaux_vignobles_en_terrasses_au_bord_du_L%C3%A9man_%282015%29.jpg",
         "alt": "Rebterrassen des Lavaux über dem Genfersee mit dem Dorf St-Saphorin",
         "credit": "https://commons.wikimedia.org/wiki/File:Lavaux_vignobles_en_terrasses_au_bord_du_L%C3%A9man_(2015).jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       }
     },
     {

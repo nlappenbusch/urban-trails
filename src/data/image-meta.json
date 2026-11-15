@@ -782,5 +782,389 @@
  "p/bern-zentrum-paul-klee": [
   1200,
   676
+ ],
+ "p/bern-einstein-haus": [
+  1200,
+  900
+ ],
+ "p/bern-bundeshaus": [
+  1200,
+  742
+ ],
+ "p/bern-baerenpark": [
+  1200,
+  755
+ ],
+ "p/bern-tierpark-daehlhoelzli": [
+  1200,
+  800
+ ],
+ "p/bern-marzilibad": [
+  1200,
+  898
+ ],
+ "p/bern-muensterturm": [
+  1200,
+  900
+ ],
+ "p/lu-altstadthotel-krone": [
+  1200,
+  1600
+ ],
+ "p/lu-art-deco-hotel-montana": [
+  1200,
+  900
+ ],
+ "p/lu-rathaus-brauerei": [
+  1200,
+  1364
+ ],
+ "p/lu-wirtshaus-galliker": [
+  1200,
+  838
+ ],
+ "p/lu-verkehrshaus": [
+  1200,
+  900
+ ],
+ "p/lu-gletschergarten": [
+  1200,
+  900
+ ],
+ "p/lu-rigi-vitznau": [
+  1200,
+  800
+ ],
+ "p/lu-pilatus": [
+  1200,
+  798
+ ],
+ "p/lu-sgv-dampfschiff": [
+  1200,
+  822
+ ],
+ "p/th-hotel-krone-thun": [
+  1200,
+  800
+ ],
+ "p/th-hotel-aare-thun": [
+  1200,
+  750
+ ],
+ "p/th-ristorante-waisenhaus": [
+  1200,
+  675
+ ],
+ "p/th-schloss-schadau-restaurant": [
+  1200,
+  800
+ ],
+ "p/th-schloss-thun": [
+  1200,
+  900
+ ],
+ "p/th-st-beatus-hoehlen": [
+  1200,
+  675
+ ],
+ "p/th-schloss-oberhofen": [
+  1200,
+  800
+ ],
+ "p/th-niesen": [
+  1200,
+  782
+ ],
+ "p/th-bls-schiff-thunersee": [
+  1200,
+  900
+ ],
+ "p/th-kunstmuseum-thun": [
+  1200,
+  481
+ ],
+ "p/so-hotel-la-couronne": [
+  1200,
+  800
+ ],
+ "p/so-kreuz": [
+  1200,
+  900
+ ],
+ "p/so-weissenstein": [
+  1200,
+  900
+ ],
+ "p/so-aareschiff": [
+  1200,
+  800
+ ],
+ "p/so-kathedrale": [
+  1200,
+  900
+ ],
+ "p/so-kunstmuseum": [
+  1200,
+  803
+ ],
+ "p/so-altes-zeughaus": [
+  1200,
+  961
+ ],
+ "p/so-schloss-waldegg": [
+  1200,
+  803
+ ],
+ "p/ra-holzsteg": [
+  1200,
+  900
+ ],
+ "p/ra-insel-ufnau": [
+  1200,
+  800
+ ],
+ "p/ra-knies-kinderzoo": [
+  1200,
+  800
+ ],
+ "p/ra-kunstzeughaus": [
+  1200,
+  732
+ ],
+ "p/ra-stadtmuseum": [
+  1200,
+  900
+ ],
+ "p/zh-zeughauskeller": [
+  1200,
+  800
+ ],
+ "p/zh-kronenhalle": [
+  1200,
+  857
+ ],
+ "p/zh-jules-verne-bar": [
+  1200,
+  800
+ ],
+ "p/zh-frau-gerolds-garten": [
+  1200,
+  800
+ ],
+ "p/zh-uto-kulm": [
+  1200,
+  800
+ ],
+ "p/zh-landesmuseum": [
+  1200,
+  900
+ ],
+ "p/zh-kunsthaus": [
+  1200,
+  799
+ ],
+ "p/zh-fifa-museum": [
+  1200,
+  900
+ ],
+ "p/zh-zoo-masoala": [
+  1200,
+  797
+ ],
+ "p/zh-uetliberg": [
+  1200,
+  800
+ ],
+ "p/zh-grossmuenster-karlsturm": [
+  1200,
+  801
+ ],
+ "p/zh-lindenhof": [
+  1200,
+  796
+ ],
+ "p/wi-wirtshaus-krone": [
+  1200,
+  1800
+ ],
+ "p/wi-technorama": [
+  1200,
+  800
+ ],
+ "p/wi-roemerholz": [
+  1200,
+  798
+ ],
+ "p/wi-kmw-reinhart-am-stadtgarten": [
+  1200,
+  801
+ ],
+ "p/ba-fortyseven": [
+  1200,
+  900
+ ],
+ "p/ba-ruine-stein": [
+  1200,
+  801
+ ],
+ "p/ba-historisches-museum": [
+  1200,
+  801
+ ],
+ "p/ba-museum-langmatt": [
+  1200,
+  900
+ ],
+ "p/bs-jugendherberge-basel": [
+  1200,
+  800
+ ],
+ "p/bs-hotel-krafft": [
+  1200,
+  800
+ ],
+ "p/bs-les-trois-rois": [
+  1200,
+  803
+ ],
+ "p/bs-restaurant-kunsthalle": [
+  1200,
+  900
+ ],
+ "p/bs-goldener-sternen": [
+  1200,
+  1600
+ ],
+ "p/bs-fischerstube": [
+  1200,
+  1070
+ ],
+ "p/bs-unternehmen-mitte": [
+  1200,
+  900
+ ],
+ "p/bs-markthalle": [
+  1200,
+  800
+ ],
+ "p/bs-kunstmuseum": [
+  1200,
+  890
+ ],
+ "p/bs-fondation-beyeler": [
+  1200,
+  800
+ ],
+ "p/bs-museum-tinguely": [
+  1200,
+  900
+ ],
+ "p/bs-zoo-basel": [
+  1200,
+  675
+ ],
+ "p/bs-muensterfaehre-leu": [
+  1200,
+  799
+ ],
+ "p/bs-rheinschwimmen": [
+  1200,
+  900
+ ],
+ "p/bs-basler-papiermuehle": [
+  1200,
+  800
+ ],
+ "p/sg-hotel-einstein": [
+  1200,
+  798
+ ],
+ "p/sg-zum-goldenen-schaefli": [
+  1200,
+  800
+ ],
+ "p/sg-stiftsbibliothek": [
+  1200,
+  791
+ ],
+ "p/sg-textilmuseum": [
+  1200,
+  1628
+ ],
+ "p/sg-drei-weieren": [
+  1200,
+  798
+ ],
+ "p/sg-saentis": [
+  1200,
+  784
+ ],
+ "p/sg-appenzell-dorf": [
+  1200,
+  814
+ ],
+ "p/sg-museum-appenzell": [
+  1200,
+  1600
+ ],
+ "p/sg-kunstmuseum": [
+  1200,
+  763
+ ],
+ "p/sg-naturmuseum": [
+  1200,
+  675
+ ],
+ "p/chur-ambiente-hotel-freieck": [
+  1200,
+  1600
+ ],
+ "p/chur-gasthaus-gansplatz": [
+  1200,
+  1600
+ ],
+ "p/chur-zunfthaus-rebleuten": [
+  1200,
+  1600
+ ],
+ "p/chur-giger-bar": [
+  1200,
+  1601
+ ],
+ "p/chur-raetisches-museum": [
+  1200,
+  900
+ ],
+ "p/chur-buendner-kunstmuseum": [
+  1200,
+  800
+ ],
+ "p/chur-buendner-naturmuseum": [
+  1200,
+  800
+ ],
+ "p/chur-kathedrale-domschatz": [
+  1200,
+  900
+ ],
+ "p/chur-brambrueesch": [
+  1200,
+  900
+ ],
+ "p/chur-rhb-arosalinie": [
+  1200,
+  741
+ ],
+ "p/eg-szr-kursschiff": [
+  1200,
+  800
+ ],
+ "p/eg-ortsmuseum-weierbachhus": [
+  1200,
+  900
+ ],
+ "p/rb-rundturm-schloss": [
+  1200,
+  800
  ]
 }

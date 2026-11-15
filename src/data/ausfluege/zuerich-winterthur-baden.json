@@ -105,7 +105,53 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Zeughauskeller.jpg"
       },
       "source": "https://www.zeughauskeller.ch/en/history",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:30",
+              "23:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-haus-hiltl",
@@ -132,7 +178,53 @@
       "text": "Vegetarisches Restaurant, das seit 1898 an der Sihlstrasse kocht. Am grossen Buffet schöpfst du selbst und bezahlst nach Gewicht, daneben gibt es eine Karte mit Currys und Saisongerichten.",
       "tip": "Am Buffet gehen die Teller schnell ins Geld – lieber zweimal wenig schöpfen als einmal randvoll.",
       "source": "https://hiltl.ch/de/standorte/hiltl-a-la-carte-restaurant/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "22:00"
+            ]
+          ],
+          "1": [
+            [
+              "11:00",
+              "22:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:00",
+              "22:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:00",
+              "22:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "23:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-kronenhalle",
@@ -164,7 +256,53 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Switzerland-Kronenhalle-Zurich-01.jpg"
       },
       "source": "https://www.kronenhalle.com/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "12:00",
+              "24:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-le-dezaley",
@@ -191,7 +329,12 @@
       "text": "Altstadtlokal zwischen Grossmünster und Niederdorf, das sich auf Westschweizer Küche spezialisiert hat. Bestell hier Fondue oder Fondue chinoise und dazu einen Waadtländer Weisswein.",
       "tip": "In der kalten Jahreszeit ist es abends schnell ausgebucht – am besten schon beim Buchen des Hotels einen Tisch reservieren.",
       "source": "https://www.zuerich.com/de/besuchen/restaurants/le-dezaley",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": []
+        }
+      }
     },
     {
       "id": "zh-spruengli-paradeplatz",
@@ -217,7 +360,53 @@
       "text": "Das Stammhaus der Confiserie am Paradeplatz, mit Laden im Erdgeschoss und Café im ersten Stock. Hier frühstückst du zwischen Bankenviertel und Bahnhofstrasse und probierst die Luxemburgerli, die kleinen Mandelgebäcke des Hauses.",
       "tip": "Reservieren kannst du nur oben im Café; das Boulevard-Café im Erdgeschoss ist ohne Reservation.",
       "source": "https://www.zuerich.com/en/visit/restaurants/cafe-restaurant-confiserie-sprungli-paradeplatz",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:30",
+              "18:30"
+            ]
+          ],
+          "2": [
+            [
+              "08:30",
+              "18:30"
+            ]
+          ],
+          "3": [
+            [
+              "08:30",
+              "18:30"
+            ]
+          ],
+          "4": [
+            [
+              "08:30",
+              "18:30"
+            ]
+          ],
+          "5": [
+            [
+              "08:30",
+              "18:30"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:30"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-jules-verne-bar",
@@ -250,7 +439,43 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_-_Bahnhof-Uraniastrasse_-_Urania_Sternwarte_IMG_7456.JPG"
       },
       "source": "https://www.zuerich.com/de/besuchen/bars-lounges/jules-verne-panorama-bar",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [
+            [
+              "17:30",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "17:30",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "17:30",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "17:30",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "14:00",
+              "24:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-frau-gerolds-garten",
@@ -348,7 +573,48 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Landesmuseum_Z%C3%BCrich_courtyard_02.jpg"
       },
       "source": "https://www.zuerich.com/de/besuchen/kultur/landesmuseum-zuerich",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "19:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-kunsthaus",
@@ -384,7 +650,48 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Kunsthaus_Z%C3%BCrich_-_Heimplatz_2011-08-06_17-38-22_ShiftN2.jpg"
       },
       "source": "https://www.kunsthaus.ch/besuch-planen/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-fifa-museum",
@@ -421,7 +728,48 @@
         "credit": "https://commons.wikimedia.org/wiki/File:FIFA_Football_Museum_in_2023.jpg"
       },
       "source": "https://www.myswitzerland.com/en/experiences/fifa-world-football-museum",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "18:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-lindt-home-of-chocolate",
@@ -454,7 +802,53 @@
         "note": "Kinder 8–15 CHF 10, bis 7 gratis"
       },
       "source": "https://www.lindt-home-of-chocolate.com/de/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "19:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "19:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "19:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "19:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "19:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "19:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "19:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-zoo-masoala",
@@ -486,7 +880,53 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Masoala_Halle_Zoo_Z%C3%BCrich_2010-12-21_13-28-22.JPG"
       },
       "source": "https://zoo.ch/zoobesuch/oeffnungszeiten",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-uetliberg",
@@ -519,7 +959,53 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Uetliberg_Uto_Kulm_-_Uetlibergturm_IMG_1594.JPG"
       },
       "source": "https://www.zvv.ch/de/freizeit-und-events/freizeittipps/entdecken-und-erleben/mit-der-luftseilbahn-auf-die-felsenegg.html",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-grossmuenster-karlsturm",
@@ -556,7 +1042,15 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Grossm%C3%BCnster_and_Limmat_River%2C_Zurich%2C_20250330_1239_7931.jpg"
       },
       "source": "https://reformiert-zuerich.ch/kirchgemeinde/kirchen/grossmuenster/besuch/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": []
+        }
+      }
     },
     {
       "id": "zh-lindenhof",
@@ -592,7 +1086,53 @@
         "credit": "https://commons.wikimedia.org/wiki/File:View_from_the_Lindenhof_Hill_in_Zurich%2C_20250330_1225_7911.jpg"
       },
       "source": "https://de.wikipedia.org/wiki/Lindenhof_(Z%C3%BCrich)",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "zh-zsg-kleine-seerundfahrt",
@@ -675,7 +1215,43 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Marktgasse_49_%28%22Hotel_Restaurant_Krone%22%29_in_Winterthur_%282014%29.jpg"
       },
       "source": "https://www.kronewinterthur.ch",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [
+            [
+              "07:00",
+              "22:00"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "22:00"
+            ]
+          ],
+          "4": [
+            [
+              "07:00",
+              "22:00"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "22:00"
+            ]
+          ],
+          "6": [
+            [
+              "07:00",
+              "22:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "wi-restaurant-zur-sonne",
@@ -728,7 +1304,48 @@
       "text": "Café im Volkart-Haus gleich beim Bahnhof, betrieben von der Volkart Stiftung. Nebenan liegt das Labor, ein Ausstellungs- und Begegnungsraum mit wechselndem Programm.",
       "tip": "Gut für die letzte Stunde vor dem Zug – vom Café sind es nur wenige Schritte zu den Perrons.",
       "source": "https://www.coalmine.ch/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "16:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "16:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "wi-technorama",
@@ -766,7 +1383,53 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Technorama_Winterthur_%28Ank_kumar%2C_INFOSYS_Limited%29_01.jpg"
       },
       "source": "https://www.technorama.ch/llms.txt",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "wi-roemerholz",
@@ -803,7 +1466,48 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Sammlung_Oskar_Reinhart_am_R%C3%B6merholz.JPG"
       },
       "source": "https://www.roemerholz.ch/regulaere-offnungszeiten",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "wi-kmw-reinhart-am-stadtgarten",
@@ -839,7 +1543,48 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Museum_Oskar_Reinhart_am_Stadtgarten_in_Winterthur_%282016%29.jpg"
       },
       "source": "https://www.kmw.ch/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "wi-rosengarten",
@@ -869,7 +1614,53 @@
         "unit": "gratis"
       },
       "source": "https://www.myswitzerland.com/en/experiences/rosengarten-rose-garden/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ba-hotel-blume",
@@ -921,7 +1712,48 @@
       "text": "Restaurant mitten in der Altstadt mit traditioneller Küche und internationalen Einflüssen. Drinnen sitzt du im Speisesaal oder im zwölf Meter hohen Innenhof, im Sommer draussen auf dem Kirchplatz.",
       "tip": "Im Sommer einen Platz auf dem Kirchplatz verlangen – dort ist es ruhiger als in den Gassen.",
       "source": "https://roterturm-baden.ch/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:30",
+              "23:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ba-dory-und-du",
@@ -947,7 +1779,43 @@
       "text": "Restaurant und Bar an der Limmatpromenade im Bäderquartier, von GaultMillau mit 13 Punkten bewertet. Im Sommer isst du auf der Terrasse am Fluss, nur ein paar Schritte vom Thermalbad.",
       "tip": "Reservier einen Tisch auf der Terrasse und geh vorher kurz zu den heissen Brunnen an der Limmat.",
       "source": "https://www.myswitzerland.com/en-ch/experiences/food-wine/restaurant/restaurant-dory-du",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [],
+          "2": [
+            [
+              "17:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "17:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "17:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "17:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "17:00",
+              "23:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ba-fortyseven",
@@ -986,7 +1854,53 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Thermalbad_Fortyseven_Baden_AG.jpg"
       },
       "source": "https://www.fortyseven.ch/preise",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:00",
+              "22:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:00",
+              "22:00"
+            ]
+          ],
+          "2": [
+            [
+              "08:00",
+              "22:00"
+            ]
+          ],
+          "3": [
+            [
+              "08:00",
+              "22:00"
+            ]
+          ],
+          "4": [
+            [
+              "08:00",
+              "22:00"
+            ]
+          ],
+          "5": [
+            [
+              "08:00",
+              "22:00"
+            ]
+          ],
+          "6": [
+            [
+              "08:00",
+              "22:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ba-heisse-brunnen",
@@ -1015,7 +1929,53 @@
         "unit": "gratis"
       },
       "source": "https://www.srf.ch/news/schweiz/eroeffnung-therme-baden-die-baederstadt-baden-hat-wieder-ein-bad",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ba-ruine-stein",
@@ -1051,7 +2011,53 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Baden_AG_-_Ruine_Stein_Bild_1_2018.jpg"
       },
       "source": "https://www.myswitzerland.com/en/experiences/stein-castle-ruin/",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ba-historisches-museum",
@@ -1088,7 +2094,48 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Baden_AG_-_Landvogteischloss_-_Bild_2.jpg"
       },
       "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/historisches-museum-baden-1884.html",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "12:00",
+              "19:00"
+            ]
+          ],
+          "5": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "13:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "ba-museum-langmatt",
@@ -1125,7 +2172,48 @@
         "credit": "https://commons.wikimedia.org/wiki/File:Baden_Museum_Langmatt.jpg"
       },
       "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/museum-langmatt-1888.html",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "14:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "11:00",
+              "17:00"
+            ]
+          ]
+        }
+      }
     }
   ],
   "trips": [

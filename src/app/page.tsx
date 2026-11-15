@@ -5,6 +5,7 @@ import { toTourLite } from "@/lib/tour-lite";
 import HomeTours, { type CityChip } from "@/components/HomeTours";
 import AudioPlayer from "@/components/AudioPlayer";
 import GuideTeaser from "@/components/GuideTeaser";
+import AusflugTools from "@/components/AusflugTools";
 import { trips, daysLabel } from "@/lib/ausfluege";
 import { toTripLite } from "@/lib/ausfluege-view";
 import { sceneFor } from "@/lib/scene";
@@ -68,6 +69,9 @@ export default function HomePage() {
               <p className="mt-2 max-w-xl text-cream-dim">Tagesausflug oder Wochenende – mit Uhrzeit, Restaurant, Hotel und Plan B für Regen.</p>
             </div>
             <Link href="/ausfluege" className="text-sm font-bold text-signal-600 hover:text-signal-500">Alle Ausflüge →</Link>
+          </div>
+          <div className="mt-6">
+            <AusflugTools />
           </div>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {tripsLite.slice(0, 6).map((t) => (

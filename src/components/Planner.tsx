@@ -9,13 +9,14 @@ import { composePlan, type PlanInput, type PlanTour } from "@/lib/compose";
 import TripTimeline, { type TimelineTour } from "@/components/TripTimeline";
 import TripMap from "@/components/TripMap";
 import TripBudget from "@/components/TripBudget";
+import TripPlanPanel from "@/components/TripPlanPanel";
 
 const chip = (on: boolean) =>
   `min-h-[40px] rounded-full border px-4 py-1.5 text-sm font-semibold transition ${on ? "border-signal-500 bg-signal-500 text-white" : "border-cream/20 bg-ink-900 text-cream-dim hover:border-cream/40"}`;
 const BUDGET = ["", "Günstig", "Mittel", "Gehoben", "Egal"];
 
 export default function Planner({ regions, places, tours }: {
-  regions: { slug: string; name: string; hotels: boolean }[];
+  regions: { slug: string; name: string; station: string; hotels: boolean }[];
   places: Place[];
   tours: PlanTour[];
 }) {
@@ -31,6 +32,7 @@ export default function Planner({ regions, places, tours }: {
     moods: (sp.get("stimmung") ?? "").split(",").filter((m) => MOODS[m]),
     rain: sp.get("wetter") === "regen",
     budget: Math.min(4, Math.max(1, Number(sp.get("budget")) || 2)),
+    date: /^\d{4}-\d{2}-\d{2}$/.test(sp.get("datum") ?? "") ? sp.get("datum")! : undefined,
   };
   const region = regions.find((r) => r.slug === input.region);
   const days = region && !region.hotels ? 1 : input.days;
@@ -52,6 +54,18 @@ export default function Planner({ regions, places, tours }: {
   const tourMap = useMemo(() => Object.fromEntries(tours.map((t) => [t.slug, { name: t.name, citySlug: t.citySlug } satisfies TimelineTour])), [tours]);
 
   useEffect(() => setCopied(false), [sp]);
+
+  // Datum + Wetter aus dem Panel: Programm neu bauen (Öffnungszeiten, Regen)
+  useEffect(() => {
+    function onDate(e: Event) {
+      const d = (e as CustomEvent<{ date: string; rainByDay: boolean[] }>).detail;
+      const wetter = d.rainByDay.some(Boolean) ? "regen" : null;
+      if (d.date !== sp.get("datum") || (d.rainByDay.length > 0 && wetter !== sp.get("wetter"))) set({ datum: d.date, ...(d.rainByDay.length ? { wetter } : {}) });
+    }
+    window.addEventListener("ut-trip-date", onDate);
+    return () => window.removeEventListener("ut-trip-date", onDate);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sp]);
 
   async function share() {
     try {
@@ -127,11 +141,17 @@ export default function Planner({ regions, places, tours }: {
               </div>
             </div>
             {plan.notes.length > 0 && <ul className="mt-4 space-y-1 text-sm text-cream-dim">{plan.notes.map((n) => <li key={n}>{n}</li>)}</ul>}
-            {budget && budget.high > 0 && (
-              <div className="card mt-6 p-5 text-sm">
-                <TripBudget budget={budget} />
+            <div className="mt-6 grid gap-4 xl:grid-cols-2">
+              <div className="card p-5">
+                <p className="kicker mb-4">Dein Ausflug</p>
+                <TripPlanPanel key={region.slug} region={region.slug} station={region.station} days={plan.days} />
               </div>
-            )}
+              {budget && budget.high > 0 && (
+                <div className="card h-fit p-5 text-sm">
+                  <TripBudget budget={budget} />
+                </div>
+              )}
+            </div>
             <div className="mt-6">
               <TripMap key={sp.toString()} days={plan.days} places={placeMap} hotel={plan.hotel} />
             </div>

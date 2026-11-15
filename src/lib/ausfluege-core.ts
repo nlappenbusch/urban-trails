@@ -19,6 +19,49 @@ export interface PlaceImageSource {
   credit: string;
 }
 
+/** Öffnungszeiten maschinenlesbar: week 0=So … 6=Sa ([] = zu, fehlender Tag = unbekannt), months = Betriebsmonate. */
+export interface OpenHours {
+  week?: Record<string, [string, string][]>;
+  months?: number[];
+}
+
+export type OpenState = "offen" | "zu" | "unbekannt";
+
+/** Hat der Ort an diesem Datum (YYYY-MM-DD) – optional im Zeitfenster from–to – offen? */
+export function openState(p: Pick<Place, "open">, date: string, from?: string, to?: string): OpenState {
+  const o = p.open;
+  if (!o) return "unbekannt";
+  const d = new Date(`${date}T12:00:00Z`);
+  if (o.months?.length && !o.months.includes(d.getUTCMonth() + 1)) return "zu";
+  const day = o.week?.[String(d.getUTCDay())];
+  if (!day) return o.months?.length ? "offen" : "unbekannt";
+  if (day.length === 0) return "zu";
+  if (!from) return "offen";
+  const end = to ?? from;
+  return day.some(([a, b]) => a <= end && b > from) ? "offen" : "zu";
+}
+
+const toMin = (t: string) => {
+  const [h, m] = t.split(":").map(Number);
+  return h * 60 + m;
+};
+const toHm = (m: number) => `${String(Math.floor(Math.min(m, 1439) / 60)).padStart(2, "0")}:${String(Math.min(m, 1439) % 60).padStart(2, "0")}`;
+
+/** Tagesprogramm so verschieben, dass es frühestens um `earliest` beginnt (z. B. Ankunft + 15 Min.). */
+export function shiftDay(day: TripDay, earliest: string): TripDay {
+  const first = day.slots[0]?.time;
+  if (!first || toMin(first) >= toMin(earliest)) return day;
+  const delta = Math.ceil((toMin(earliest) - toMin(first)) / 15) * 15; // auf Viertelstunden
+  return { ...day, slots: day.slots.map((s) => ({ ...s, time: toHm(toMin(s.time) + delta) })) };
+}
+
+/** Datum + n Tage als YYYY-MM-DD. */
+export function addDays(date: string, n: number) {
+  const d = new Date(`${date}T12:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
 export interface Place {
   id: string;
   kind: PlaceKind;
@@ -31,6 +74,7 @@ export interface Place {
   price?: number;
   priceInfo?: PriceInfo;
   image?: PlaceImageSource;
+  open?: OpenHours;
   /** eigene Kopie des Fotos (vom Server ergänzt) */
   img?: StopImage;
   tags: string[];
@@ -143,6 +187,40 @@ export interface Budget {
   nights: number;
   /** Hotel, dessen Preis eingerechnet ist */
   hotel?: string;
+  /** Einzelposten (pro Person) für den persönlichen Rechner */
+  items: { name: string; kind: PlaceKind; unit: string; from: number; to: number }[];
+  hotelPrice?: { from: number; to: number; perRoom: boolean };
+}
+
+export interface Party {
+  adults: number;
+  kids: number; // 6–15 Jahre
+  halbtax: boolean;
+}
+
+const TRANSPORT = /billett|bahn|fahrt|schiff|retour|seilbahn/i;
+
+/**
+ * Kosten für eine konkrete Gruppe – bewusst als Schätzung:
+ * Halbtax halbiert Bahnen/Schiffe für Erwachsene, Kinder zahlen dort und beim Eintritt die Hälfte,
+ * beim Essen rechnen wir Kinderteller mit 60 %. Zimmer: Doppelzimmer pro zwei Erwachsene, Kinder im Zimmer der Eltern.
+ */
+export function partyCost(b: Budget, p: Party) {
+  let low = 0, high = 0;
+  for (const it of b.items) {
+    const transport = TRANSPORT.test(it.unit) && it.kind !== "restaurant";
+    const food = ["restaurant", "cafe", "bar"].includes(it.kind);
+    const adult = transport && p.halbtax ? 0.5 : 1;
+    const kid = it.kind === "bar" ? 0 : food ? 0.6 : 0.5;
+    low += it.from * (p.adults * adult + p.kids * kid);
+    high += it.to * (p.adults * adult + p.kids * kid);
+  }
+  if (b.hotelPrice && b.nights) {
+    const rooms = b.hotelPrice.perRoom ? Math.max(1, Math.ceil(p.adults / 2)) : p.adults;
+    low += b.hotelPrice.from * rooms * b.nights;
+    high += b.hotelPrice.to * rooms * b.nights;
+  }
+  return { low: Math.floor(low / 10) * 10, high: Math.ceil(high / 10) * 10 };
 }
 
 /**
@@ -152,6 +230,7 @@ export interface Budget {
 export function tripBudget(days: TripDay[], places: Record<string, Place>, hotel?: Place, rain = false): Budget {
   let low = 0, high = 0;
   const missing: string[] = [];
+  const items: Budget["items"] = [];
   let prev: string | undefined;
   for (const raw of days.flatMap((d) => d.slots)) {
     const s = effectiveSlot(raw, rain);
@@ -166,6 +245,7 @@ export function tripBudget(days: TripDay[], places: Record<string, Place>, hotel
     }
     low += pi.from;
     high += pi.to ?? pi.from;
+    items.push({ name: p.name, kind: p.kind, unit: pi.unit, from: pi.from, to: pi.to ?? pi.from });
   }
   const nights = Math.max(0, days.length - 1);
   if (nights && hotel?.priceInfo) {
@@ -174,5 +254,14 @@ export function tripBudget(days: TripDay[], places: Record<string, Place>, hotel
     high += ((hotel.priceInfo.to ?? hotel.priceInfo.from) / share) * nights;
   } else if (nights && hotel) missing.push(hotel.name);
   const hotelIncluded = Boolean(nights && hotel?.priceInfo);
-  return { low: Math.floor(low / 10) * 10, high: Math.ceil(high / 10) * 10, missing, nights, hotel: hotelIncluded ? hotel!.name : undefined };
+  const hp = hotelIncluded ? hotel!.priceInfo! : undefined;
+  return {
+    low: Math.floor(low / 10) * 10,
+    high: Math.ceil(high / 10) * 10,
+    missing,
+    nights,
+    hotel: hotelIncluded ? hotel!.name : undefined,
+    items,
+    hotelPrice: hp ? { from: hp.from, to: hp.to ?? hp.from, perRoom: /doppel|zimmer/i.test(hp.unit) } : undefined,
+  };
 }

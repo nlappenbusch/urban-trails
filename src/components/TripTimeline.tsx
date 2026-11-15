@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import {
   Bed, CalendarPlus, CloudRain, Coffee, ExternalLink, Footprints, Headphones, Landmark, MapPin, Mountain, Sparkles, Sun, UtensilsCrossed, Waves, Wine,
@@ -46,6 +46,18 @@ export default function TripTimeline({
   const hasRain = useMemo(() => days.some((d) => d.slots.some((s) => s.rain)), [days]);
   const [start, setStart] = useState("");
   const today = useMemo(() => new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10), []);
+
+  // Datum/Wetter aus dem Planungs-Panel übernehmen; ?wetter=regen (z. B. aus der Erinnerungs-Mail) schaltet Plan B
+  useEffect(() => {
+    if (allowRainToggle && new URLSearchParams(location.search).get("wetter") === "regen") setRain(true);
+    function onDate(e: Event) {
+      const d = (e as CustomEvent<{ date: string; rainByDay: boolean[] }>).detail;
+      setStart(d.date);
+      if (allowRainToggle && d.rainByDay.length) setRain(d.rainByDay.some(Boolean));
+    }
+    window.addEventListener("ut-trip-date", onDate);
+    return () => window.removeEventListener("ut-trip-date", onDate);
+  }, [allowRainToggle]);
 
   function exportIcs() {
     if (!start) return;

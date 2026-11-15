@@ -89,6 +89,12 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Gasthaus_Gansplatz_Goldgasse_Chur.jpg/1280px-Gasthaus_Gansplatz_Goldgasse_Chur.jpg",
         "alt": "Fassade des Gasthauses Gansplatz in der Goldgasse",
         "credit": "https://commons.wikimedia.org/wiki/File:Gasthaus_Gansplatz_Goldgasse_Chur.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [],
+          "1": []
+        }
       }
     },
     {
@@ -158,6 +164,11 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Chur_Pfisterplatz_Zunfthaus.jpg/1280px-Chur_Pfisterplatz_Zunfthaus.jpg",
         "alt": "Das Zunfthaus zur Rebleuten am Pfisterplatz",
         "credit": "https://commons.wikimedia.org/wiki/File:Chur_Pfisterplatz_Zunfthaus.jpg"
+      },
+      "open": {
+        "week": {
+          "2": []
+        }
       }
     },
     {
@@ -189,6 +200,11 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gigerbar.jpg/1280px-Gigerbar.jpg",
         "alt": "Eingang der von H. R. Giger gestalteten Bar in Chur",
         "credit": "https://commons.wikimedia.org/wiki/File:Gigerbar.jpg"
+      },
+      "open": {
+        "week": {
+          "0": []
+        }
       }
     },
     {
@@ -251,6 +267,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Chur_R%C3%A4tisches_Museum.jpg/1280px-Chur_R%C3%A4tisches_Museum.jpg",
         "alt": "Das Rätische Museum im historischen Haus Buol in Chur",
         "credit": "https://commons.wikimedia.org/wiki/File:Chur_R%C3%A4tisches_Museum.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -287,6 +344,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Villa_Planta_und_Sulserbau.jpg/1280px-Villa_Planta_und_Sulserbau.jpg",
         "alt": "Villa Planta und Sulserbau des Bündner Kunstmuseums",
         "credit": "https://commons.wikimedia.org/wiki/File:Villa_Planta_und_Sulserbau.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -324,6 +422,47 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Naturmuseum_Chur.jpg/1280px-Naturmuseum_Chur.jpg",
         "alt": "Gebäude des Bündner Naturmuseums in Chur",
         "credit": "https://commons.wikimedia.org/wiki/File:Naturmuseum_Chur.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -484,7 +623,12 @@
       "text": "Konditorei und Café am Eingang der Untergass, gleich beim Brückenkopf. Neben Kuchen gibt es mittags einfache warme Gerichte, im Sommer sitzt du im Garten mit Blick Richtung Rhein.",
       "tip": "Ein guter Ort, wenn du nach dem Rundgang ohne Reservation schnell etwas essen willst.",
       "source": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/cafe-konditorei-nachtwaechter",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "3": []
+        }
+      }
     },
     {
       "id": "eg-restaurant-toessegg",
@@ -509,7 +653,20 @@
       "text": "Gartenwirtschaft dort, wo die Töss in den Rhein mündet, mit Schweizer Küche, Spielplatz und Terrasse über dem Wasser. Fähre und Kursschiff legen gleich unterhalb an.",
       "tip": "Die Öffnungszeiten stehen nicht online – ruf vor allem in der Vor- und Nachsaison kurz an.",
       "source": "https://www.toessegg.ch",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "months": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
     },
     {
       "id": "eg-szr-kursschiff",
@@ -537,6 +694,17 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/T%C3%B6ssegg_-_Rhein_2011-09-21_14-10-36.jpg/1280px-T%C3%B6ssegg_-_Rhein_2011-09-21_14-10-36.jpg",
         "alt": "Der Rhein bei der Tössegg mit bewaldeten Ufern",
         "credit": "https://commons.wikimedia.org/wiki/File:T%C3%B6ssegg_-_Rhein_2011-09-21_14-10-36.jpg"
+      },
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
       }
     },
     {
@@ -569,6 +737,52 @@
         "from": 0,
         "unit": "gratis",
         "note": "Fähre Buchberg–Tössegg CHF 5 pro Person, Kinder 6–13 CHF 2.50"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -605,6 +819,16 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Eglisau_Weierbachhaus.JPG/1280px-Eglisau_Weierbachhaus.JPG",
         "alt": "Das Weierbachhus in Eglisau, Sitz des Ortsmuseums",
         "credit": "https://commons.wikimedia.org/wiki/File:Eglisau_Weierbachhaus.JPG"
+      },
+      "open": {
+        "week": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "6": []
+        }
       }
     },
     {
@@ -632,7 +856,43 @@
       "text": "Ausflugsbeiz beim Aussichtspunkt Hochwacht auf dem Lägerngrat, nur zu Fuss oder mit dem Velo erreichbar. Von der Gartenwirtschaft schaust du über das Zürcher Unterland bis zu den Alpen.",
       "tip": "Nach der Hochwacht gibt es bis Baden keine Einkehr mehr – füll hier deine Flasche auf.",
       "source": "https://www.laegern-hochwacht.ch",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:30",
+              "18:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ]
+        }
+      }
     },
     {
       "id": "rb-krone-regensberg",
@@ -658,7 +918,13 @@
       "text": "Gourmetrestaurant mit neun Gästezimmern im mittelalterlichen Oberdorf, gleich beim Schloss. Die Küche ist modern und setzt auf Produkte aus der Region; der Guide Michelin führt das Haus.",
       "tip": "Reservier früh und frag nach den Zimmern – dann musst du nach dem Essen nicht auf den letzten Bus nach Dielsdorf achten.",
       "source": "https://guide.michelin.com/ch/de/zurich-region/regensberg/restaurant/krone498722",
-      "checked": "2026-11-15"
+      "checked": "2026-11-15",
+      "open": {
+        "week": {
+          "0": [],
+          "1": []
+        }
+      }
     },
     {
       "id": "rb-rundturm-schloss",
@@ -695,6 +961,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Regensberg_-_Schloss_20100524_18-42-36_ShiftN.jpg/1280px-Regensberg_-_Schloss_20100524_18-42-36_ShiftN.jpg",
         "alt": "Schlosshof Regensberg mit dem Rundturm am linken Bildrand",
         "credit": "https://commons.wikimedia.org/wiki/File:Regensberg_-_Schloss_20100524_18-42-36_ShiftN.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "08:00",
+              "20:00"
+            ]
+          ],
+          "2": [
+            [
+              "08:00",
+              "20:00"
+            ]
+          ],
+          "3": [
+            [
+              "08:00",
+              "20:00"
+            ]
+          ],
+          "4": [
+            [
+              "08:00",
+              "20:00"
+            ]
+          ],
+          "5": [
+            [
+              "08:00",
+              "20:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ]
+        }
       }
     },
     {
@@ -731,6 +1043,52 @@
         "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/L%C3%A4gerngrat_4242.jpg/1280px-L%C3%A4gerngrat_4242.jpg",
         "alt": "Waldweg auf dem Lägerngrat",
         "credit": "https://commons.wikimedia.org/wiki/File:L%C3%A4gerngrat_4242.jpg"
+      },
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
       }
     }
   ],

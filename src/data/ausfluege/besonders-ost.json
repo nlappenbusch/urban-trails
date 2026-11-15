@@ -1,0 +1,2951 @@
+{
+ "places": [
+  {
+   "id": "bs-x-augusta-raurica",
+   "kind": "sehenswuerdigkeit",
+   "name": "Augusta Raurica – Römerstadt mit Theater",
+   "region": "basel",
+   "town": "Augst",
+   "address": "Giebenacherstrasse 17, 4302 Augst",
+   "coords": {
+    "lat": 47.5328,
+    "lng": 7.7218
+   },
+   "url": "https://www.augustaraurica.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "kultur",
+    "familie",
+    "gratis",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "Museum & Römerhaus: März–Okt. täglich 10–17 Uhr, Nov.–Feb. Di–So 10–15 Uhr; Freigelände immer offen",
+   "durationMin": 180,
+   "wow": "Besterhaltenes antikes Theater nördlich der Alpen, für rund 10 000 Leute",
+   "text": "Du läufst zwischen Theater, Amphitheater, Tempel und einem unterirdischen Brunnenhaus durch eine echte Römerstadt – das Freigelände kostet nichts. Im Museum mit nachgebautem Römerhaus liegt zusätzlich der Silberschatz von Kaiseraugst.",
+   "tip": "Zuerst ins Theater hochsteigen und den Blick über die Ränge geniessen, danach den Römer-Tierpark mit Nutztieren gleich nebenan mitnehmen.",
+   "priceInfo": {
+    "from": 0,
+    "to": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "Freigelände, Monumente und Tierpark gratis; Museum inkl. Römerhaus CHF 8, reduziert CHF 6"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Augusta_Raurica_Theater.jpg/1280px-Augusta_Raurica_Theater.jpg",
+    "alt": "Römisches Theater von Augusta Raurica mit steinernen Rängen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Augusta_Raurica_Theater.jpg"
+   },
+   "source": "https://www.augustaraurica.ch/service/oeffnungszeiten-preise",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bs-x-goetheanum",
+   "kind": "sehenswuerdigkeit",
+   "name": "Goetheanum",
+   "region": "basel",
+   "town": "Dornach",
+   "address": "Rüttiweg 45, 4143 Dornach",
+   "coords": {
+    "lat": 47.486,
+    "lng": 7.6203
+   },
+   "url": "https://goetheanum.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "kultur",
+    "regenfest",
+    "aussicht"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Haus täglich 9–20 Uhr; öffentliche Führung Sa 14 Uhr (Anmeldung bis 11.30 Uhr)",
+   "durationMin": 90,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ]
+    }
+   },
+   "wow": "Kantiger Monumentalbau von 1928 nach Rudolf Steiner, Saal mit 1000 Plätzen",
+   "text": "Auf dem Hügel über Dornach steht der wuchtige, kantige Bau, den Rudolf Steiner entworfen hat; eingeweiht wurde er 1928. Das Haus ist täglich offen, die 80-minütige Samstagsführung zeigt dir auch den grossen Saal.",
+   "tip": "Die Führung am Samstag bis 11.30 Uhr am Empfang anmelden, sonst kommst du nicht in den grossen Saal.",
+   "priceInfo": {
+    "from": 25,
+    "unit": "Führung Erwachsene",
+    "note": "Öffentliche Führung Sa 14 Uhr, ca. 80 Min., reduziert CHF 20, Kinder bis 10 gratis; ob der Hausbesuch ohne Führung etwas kostet, steht nicht auf der Website"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Goetheanum_Dornach.jpg/1280px-Goetheanum_Dornach.jpg",
+    "alt": "Das Goetheanum in Dornach auf seinem Hügel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Goetheanum_Dornach.jpg"
+   },
+   "source": "https://goetheanum.ch/de/campus/fuehrungen",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bs-x-tierpark-lange-erlen",
+   "kind": "aktivitaet",
+   "name": "Tierpark Lange Erlen",
+   "region": "basel",
+   "town": "Basel",
+   "address": "Erlenparkweg 110, 4058 Basel",
+   "coords": {
+    "lat": 47.5742,
+    "lng": 7.6085
+   },
+   "url": "https://www.erlen-verein.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "täglich, März–Okt. 8–18 Uhr, Nov.–Feb. 8–17 Uhr",
+   "durationMin": 90,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "wow": "Seit der Gründung 1871 gratis – getragen von einem Verein, nicht vom Staat",
+   "text": "Am Rand von Kleinbasel siehst du Luchse, Wisente, Wildkatzen und Gämsen in grossen Gehegen, ganz ohne Kasse. Danach spazierst du durch das Naherholungsgebiet Lange Erlen.",
+   "tip": "Unter der Woche am Vormittag ist es am ruhigsten; danach lohnt ein Spaziergang durch die Langen Erlen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Spenden an den Erlen-Verein willkommen"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Tierpark_Lange_Erlen.jpg/1280px-Tierpark_Lange_Erlen.jpg",
+    "alt": "Gehege und Weiher im Tierpark Lange Erlen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Tierpark_Lange_Erlen.jpg"
+   },
+   "source": "https://familienausflug.info/Media/Default/Documents/218009/TierparkLangeErlen-BroschreVomAusflugsziel-1.pdf",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bs-x-anatomisches-museum",
+   "kind": "sehenswuerdigkeit",
+   "name": "Anatomisches Museum Basel",
+   "region": "basel",
+   "town": "Basel",
+   "address": "Pestalozzistrasse 20, 4056 Basel",
+   "coords": {
+    "lat": 47.5649,
+    "lng": 7.5796
+   },
+   "url": "https://anatomie.unibas.ch/museum/",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "besonders",
+    "regenfest",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mo–Fr 14–17 Uhr, So 10–16 Uhr, Sa geschlossen",
+   "durationMin": 75,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "1": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "14:00",
+       "17:00"
+      ]
+     ],
+     "6": []
+    }
+   },
+   "wow": "Echte menschliche Präparate statt Plastikmodelle – Sammlung der Uni Basel",
+   "text": "Hier stehen Originalpräparate menschlicher Organe und Körperteile in Vitrinen, dazu historische Stücke aus der Basler Anatomie. Nichts für schwache Nerven, aber sachlich erklärt.",
+   "tip": "Nur nachmittags offen (Sonntag schon ab 10 Uhr) – plane es nicht für den Samstag ein.",
+   "priceInfo": {
+    "from": 10,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder bis 11 und Studierende gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Anatomisches_Museum_Basel_ehemals_Anatomische_Anstalt_Basel.jpg/1280px-Anatomisches_Museum_Basel_ehemals_Anatomische_Anstalt_Basel.jpg",
+    "alt": "Gebäude des Anatomischen Museums Basel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Anatomisches_Museum_Basel_ehemals_Anatomische_Anstalt_Basel.jpg"
+   },
+   "source": "https://anatomie.unibas.ch/museum/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bs-x-pharmaziemuseum",
+   "kind": "sehenswuerdigkeit",
+   "name": "Pharmaziemuseum der Universität Basel (Haus zum Sessel)",
+   "region": "basel",
+   "town": "Basel",
+   "address": "Totengässlein 3, 4051 Basel",
+   "coords": {
+    "lat": 47.5585,
+    "lng": 7.5863
+   },
+   "url": "https://pharmaziemuseum.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "regenfest",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di–So 10–17 Uhr, Mo und Feiertage geschlossen",
+   "durationMin": 60,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "wow": "Im selben Haus wohnten Erasmus (1514–16) und Paracelsus (1526–27)",
+   "text": "Zwischen Marktplatz und Peterskirche zeigt das Museum alte Apothekeneinrichtungen, Arzneien und Laborgeräte – in einem Haus, in dem schon Buchdrucker, Holbein und Paracelsus ein und aus gingen.",
+   "tip": "Den Weg übers steile Totengässlein vom Marktplatz her nehmen, dann stehst du direkt vor dem Eingang.",
+   "priceInfo": {
+    "from": 10,
+    "unit": "Eintritt Erwachsene",
+    "note": "reduziert CHF 7"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Toteng%C3%A4sslein_Basel_Haus_Zum_Sessel.jpg/1280px-Toteng%C3%A4sslein_Basel_Haus_Zum_Sessel.jpg",
+    "alt": "Das Totengässlein mit dem Haus zum Sessel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Toteng%C3%A4sslein_Basel_Haus_Zum_Sessel.jpg"
+   },
+   "source": "https://pharmaziemuseum.ch/de/besuch/offnungszeiten-preise",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bs-x-ermitage-arlesheim",
+   "kind": "aussicht",
+   "name": "Ermitage Arlesheim",
+   "region": "basel",
+   "town": "Arlesheim",
+   "address": "Ermitage, 4144 Arlesheim",
+   "coords": {
+    "lat": 47.4916,
+    "lng": 7.6287
+   },
+   "url": "https://www.ermitage-arlesheim.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "romantisch",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "Garten immer zugänglich; Schloss Birseck Ostern–Okt. Mi+So 14–17 Uhr",
+   "durationMin": 120,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "wow": "40-Hektar-Landschaftsgarten mit Grotten und Burg, gratis ab Tram 10",
+   "text": "Ein verwunschener Garten aus dem 18. Jahrhundert: Weiher, Felsgrotten, eine Einsiedlerklause und oben die Burg Birseck. Du gehst auf schmalen Wegen durch den Wald und stehst plötzlich vor der nächsten Höhle.",
+   "tip": "An Sonntagnachmittagen (Ostern bis Oktober) ist auch die Waldbruderklause offen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ermitage_Arlesheim.jpg/1280px-Ermitage_Arlesheim.jpg",
+    "alt": "Weiher und Wald im Landschaftsgarten Ermitage Arlesheim",
+    "credit": "https://commons.wikimedia.org/wiki/File:Ermitage_Arlesheim.jpg"
+   },
+   "source": "https://www.ermitage-arlesheim.ch/de/aktuelle-oeffnungszeiten",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sg-x-ebenalp-bahn",
+   "kind": "aussicht",
+   "name": "Ebenalp mit der Luftseilbahn ab Wasserauen",
+   "region": "st-gallen",
+   "town": "Wasserauen",
+   "address": "Talstation Luftseilbahn, 9057 Wasserauen",
+   "coords": {
+    "lat": 47.2857,
+    "lng": 9.4201
+   },
+   "url": "https://www.ebenalp.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "berg",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "25. April–1. November und 25. Dezember–Anfang April (Revision im April und Nov./Dez.)",
+   "hours": "2026: Sommer ab 7.30 Uhr bis 17.30–19 Uhr, Winter 8.45–17 Uhr; Fahrten alle 15 Min.",
+   "durationMin": 180,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:45",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:45",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:45",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:45",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:45",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:45",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:45",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "In den Höhlen des Wildkirchli lebten von 1658 bis 1853 Einsiedler",
+   "text": "Die Bahn bringt dich von Wasserauen auf die Ebenalp, von dort führt ein kurzer Abstieg durch die Wildkirchli-Höhlen hinunter zum Berggasthaus Aescher. Oben weite Alpweiden, unten der Blick auf den Seealpsee.",
+   "tip": "Früh hochfahren (im Sommer ab 7.30 Uhr) – ab dem späten Vormittag stauen sich die Leute am Weg zum Aescher.",
+   "priceInfo": {
+    "from": 36,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Einfach CHF 24; mit Halbtax/GA retour CHF 18; Kinder 6–15 retour CHF 15"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ebenalpbahn_Appenzell_20210528.jpg/1280px-Ebenalpbahn_Appenzell_20210528.jpg",
+    "alt": "Die Luftseilbahn zur Ebenalp im Alpstein",
+    "credit": "https://commons.wikimedia.org/wiki/File:Ebenalpbahn_Appenzell_20210528.jpg"
+   },
+   "source": "https://tickets.ebenalp.ch/en/information",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sg-x-aescher",
+   "kind": "restaurant",
+   "name": "Berggasthaus Aescher-Wildkirchli",
+   "region": "st-gallen",
+   "town": "Schwende",
+   "address": "Aescher, 9057 Weissbad",
+   "coords": {
+    "lat": 47.2834,
+    "lng": 9.4145
+   },
+   "url": "https://aescher.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "genuss",
+    "aussicht",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "Mai–1. November",
+   "hours": "täglich ab 7.30 Uhr, warme Küche 11–20 Uhr; Mai, Juni, Sept. sonntags ab 18 Uhr zu",
+   "open": {
+    "week": {
+     "0": [
+      [
+       "07:30",
+       "18:00"
+      ]
+     ],
+     "1": [
+      [
+       "07:30",
+       "18:00"
+      ]
+     ],
+     "2": [
+      [
+       "07:30",
+       "18:00"
+      ]
+     ],
+     "3": [
+      [
+       "07:30",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "07:30",
+       "18:00"
+      ]
+     ],
+     "5": [
+      [
+       "07:30",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "07:30",
+       "18:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "Gasthaus seit 1860 unter der Felswand – ohne Strasse und ohne eigene Warenbahn",
+   "text": "Das Holzhaus klebt auf 1454 m direkt an der Felswand, die Terrasse hängt über dem Abgrund. Auf der Karte stehen Appenzeller Klassiker wie Siedwurst, Käsefladen und Fleischkäse; die Rösti gibt es seit dem Pächterwechsel nicht mehr.",
+   "tip": "Wer hier übernachten will (Felsenzimmer), muss früh reservieren – die Buchung für 2027 öffnet am 1. März 2027.",
+   "priceInfo": {
+    "from": 22.5,
+    "to": 24.5,
+    "unit": "Hauptgang",
+    "note": "Siedwurst CHF 22.50, Fleischkäse/Biertreber-Gehacktes CHF 24.50 (Karte Herbst 2026)"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Aescher-Wildkirchli_20210528_01.jpg/1280px-Aescher-Wildkirchli_20210528_01.jpg",
+    "alt": "Berggasthaus Aescher an der Felswand unter der Ebenalp",
+    "credit": "https://commons.wikimedia.org/wiki/File:Aescher-Wildkirchli_20210528_01.jpg"
+   },
+   "source": "https://aescher.ch",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sg-x-seealpsee",
+   "kind": "sehenswuerdigkeit",
+   "name": "Seealpsee",
+   "region": "st-gallen",
+   "town": "Schwende",
+   "address": "Seealpsee, 9057 Wasserauen",
+   "coords": {
+    "lat": 47.2689,
+    "lng": 9.4
+   },
+   "url": "https://www.appenzell.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "see",
+    "berg",
+    "gratis",
+    "aktiv",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig, am schönsten Mai–Oktober",
+   "durationMin": 150,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "wow": "Bergsee auf 1142 m, bis 15 m tief, eine Stunde zu Fuss ab Bahnhof",
+   "text": "Vom Bahnhof Wasserauen läufst du gut eine Stunde auf einem meist geteerten, teils steilen Weg zum See unter den Alpstein-Wänden. Am Ufer stehen zwei Berggasthäuser, an heissen Tagen kannst du baden.",
+   "tip": "Den steilen Pfad direkt zwischen See und Aescher nur mit Bergerfahrung und guten Schuhen gehen – dort sind schon mehrere Menschen tödlich verunglückt.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Seealpsee_and_S%C3%A4ntis.jpg/1280px-Seealpsee_and_S%C3%A4ntis.jpg",
+    "alt": "Der Seealpsee mit dem Säntis im Hintergrund",
+    "credit": "https://commons.wikimedia.org/wiki/File:Seealpsee_and_S%C3%A4ntis.jpg"
+   },
+   "source": "https://de.wikipedia.org/wiki/Seealpsee_(Appenzeller_Alpen)",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sg-x-hoher-kasten",
+   "kind": "aussicht",
+   "name": "Hoher Kasten mit Drehrestaurant",
+   "region": "st-gallen",
+   "town": "Brülisau",
+   "address": "Dorf 22, 9058 Brülisau",
+   "coords": {
+    "lat": 47.284,
+    "lng": 9.4847
+   },
+   "url": "https://www.hoherkasten.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "berg",
+    "genuss",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig, Revision im März",
+   "hours": "Fahrten alle 20 Min., je nach Saison ca. 8–17.20 Uhr",
+   "durationMin": 150,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "16:40"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "16:40"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "16:40"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "16:40"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "16:40"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "16:40"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "16:40"
+      ]
+     ]
+    },
+    "months": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   "wow": "Einziges Drehrestaurant der Ostschweiz: eine Umdrehung pro Stunde auf 1794 m",
+   "text": "In acht Minuten schwebst du von Brülisau auf 1794 m. Oben drehst du dich beim Essen einmal pro Stunde um die eigene Achse – mit 360-Grad-Blick ins Rheintal und in den Alpstein.",
+   "tip": "Kinder bis 15 fahren gratis; das Gratisbillett gibt es an der Kasse.",
+   "priceInfo": {
+    "from": 40,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Einfach CHF 28; Kinder bis 15 gratis; Halbtax-Preis auf der offiziellen Seite nicht ausgewiesen"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/HoherKastenRestaurant.jpg/1280px-HoherKastenRestaurant.jpg",
+    "alt": "Das runde Drehrestaurant auf dem Gipfel des Hohen Kastens",
+    "credit": "https://commons.wikimedia.org/wiki/File:HoherKastenRestaurant.jpg"
+   },
+   "source": "https://www.hoherkasten.ch/en/explore/cableways/hoher-kasten-cableway/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sg-x-kristallhoehle-kobelwald",
+   "kind": "aktivitaet",
+   "name": "Kristallhöhle Kobelwald",
+   "region": "st-gallen",
+   "town": "Oberriet",
+   "address": "Kristallhöhle, 9463 Oberriet (Kobelwald)",
+   "coords": {
+    "lat": 47.3228,
+    "lng": 9.5342
+   },
+   "url": "https://www.kristallhoehle.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "familie",
+    "regenfest",
+    "besonders"
+   ],
+   "weatherProof": true,
+   "season": "Ostersonntag–erster Sonntag im November",
+   "hours": "So + Feiertage 10–16.30 Uhr; in den St. Galler Sommerferien täglich; werktags nur auf Anmeldung",
+   "durationMin": 60,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "16:30"
+      ]
+     ],
+     "1": [],
+     "2": [],
+     "3": [],
+     "4": [],
+     "5": [],
+     "6": []
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "Kristallhöhle nur mit Führer zugänglich – Rundgang rund 25 Minuten",
+   "text": "Ein Höhlenführer bringt dich in rund 25 Minuten durch die Kristallhöhle oberhalb von Kobelwald im Rheintal. Ein kurzer, aber echter Ausflug ins Innere des Bergs – auch bei Regen.",
+   "tip": "Unter der Woche öffnet der Höhlenwart für Kleingruppen auf Voranmeldung (Mindestpauschale CHF 120).",
+   "priceInfo": {
+    "from": 11,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–16 CHF 5.50; inkl. Führung"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Oberriet-Crystalcave_Kobelwald-01ASD.jpg/1280px-Oberriet-Crystalcave_Kobelwald-01ASD.jpg",
+    "alt": "Felsgang in der Kristallhöhle Kobelwald",
+    "credit": "https://commons.wikimedia.org/wiki/File:Oberriet-Crystalcave_Kobelwald-01ASD.jpg"
+   },
+   "source": "https://www.kristallhoehle.ch/besucherinfo-und-kontakt/oeffnungszeiten/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sg-x-schaukaeserei-stein",
+   "kind": "aktivitaet",
+   "name": "Appenzeller Schaukäserei",
+   "region": "st-gallen",
+   "town": "Stein AR",
+   "address": "Dorf 711, 9063 Stein AR",
+   "coords": {
+    "lat": 47.3734,
+    "lng": 9.3447
+   },
+   "url": "https://www.schaukaeserei.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "genuss",
+    "familie",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (364 Tage)",
+   "hours": "Mai–Okt. 9–18.30 Uhr, Nov.–April 9–17.30 Uhr; Käseherstellung täglich bis ca. 15 Uhr",
+   "durationMin": 75,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:30"
+      ]
+     ]
+    }
+   },
+   "wow": "Appenzeller wird hier täglich vor Publikum hergestellt",
+   "text": "Auf dem Rundgang schaust du den Käsern zu, wie aus Rohmilch Appenzeller entsteht, und erfährst auf dem Erlebnisrundgang, wie der würzige Käse entsteht. Ein Restaurant gehört dazu.",
+   "tip": "Vor 15 Uhr da sein, sonst ist die Produktion für den Tag vorbei. Mit ÖV-Billett gibt es 20 % Rabatt auf den Eintritt.",
+   "priceInfo": {
+    "from": 13,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–16 CHF 8, Familien CHF 32; Kombi mit Chocolarium CHF 23"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Stein_Schauk%C3%A4serei.jpg",
+    "alt": "Gebäude der Appenzeller Schaukäserei in Stein AR",
+    "credit": "https://commons.wikimedia.org/wiki/File:Stein_Schauk%C3%A4serei.jpg"
+   },
+   "source": "https://www.schaukaeserei.ch/de/schaukaeserei/erlebnisausstellung/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "chur-x-viamala",
+   "kind": "aktivitaet",
+   "name": "Viamala-Schlucht",
+   "region": "chur",
+   "town": "Thusis / Zillis",
+   "address": "Viamala-Schlucht, 7440 Andeer (Besucherzentrum an der Kantonsstrasse)",
+   "coords": {
+    "lat": 46.6659,
+    "lng": 9.4491
+   },
+   "url": "https://www.viamala-schlucht.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "26. März–1. November (Winter geschlossen)",
+   "hours": "März/April und Okt. 9–18 Uhr, Mai–Sept. 8–19 Uhr; Einlass bis 30 Min. vor Schluss",
+   "durationMin": 60,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "359 Treppenstufen hinunter zwischen bis zu 300 m hohe Felswände",
+   "text": "Vom Besucherzentrum steigst du über 359 Stufen in die Schlucht hinunter und stehst neben Strudeltöpfen und dem tosenden Hinterrhein. Auf und ab dauert 30–45 Minuten.",
+   "tip": "Kombiticket mit dem Mineralbad Andeer (CHF 28) lohnt sich, wenn du danach baden willst.",
+   "priceInfo": {
+    "from": 10,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–16 CHF 6; Kombi mit Mineralbad Andeer CHF 28 (bis 25.10.2026)"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/CH_Viamala_Gorge_descent.jpg/1280px-CH_Viamala_Gorge_descent.jpg",
+    "alt": "Treppe hinunter in die enge Viamala-Schlucht",
+    "credit": "https://commons.wikimedia.org/wiki/File:CH_Viamala_Gorge_descent.jpg"
+   },
+   "source": "https://viamala.ch/erleben/ausflugsziele/viamala-schlucht.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "chur-x-caumasee",
+   "kind": "bad",
+   "name": "Caumasee mit Seebad Bogn La Cauma",
+   "region": "chur",
+   "town": "Flims",
+   "address": "Caumasee, 7018 Flims Waldhaus",
+   "coords": {
+    "lat": 46.8202,
+    "lng": 9.2963
+   },
+   "url": "https://www.flimslaax.com/seen-schweiz/caumasee",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "see",
+    "familie",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Badesaison ca. Mitte Mai–Ende August (2026: 16.5.–30.8.)",
+   "hours": "Badeaufsicht 8.30–17 Uhr",
+   "durationMin": 180,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   "wow": "Türkiser Waldsee im Flimser Bergsturzgebiet, Lift hinunter ans Ufer",
+   "text": "Mitten im Wald liegt ein See in Karibikfarben, im Sommer 17–24 °C warm. Ein Gratis-Lift bringt dich vom Wald zum Strandbad, wo du schwimmst oder ein Boot mietest.",
+   "tip": "Ausserhalb der Badesaison ist der Zugang gratis und das Ufer fast leer – fürs Foto im Oktober hingehen.",
+   "priceInfo": {
+    "from": 18,
+    "unit": "Eintritt Erwachsene",
+    "note": "Tageseintritt Badesaison 2026; mit Gästekarte CHF 9, Kinder 6–17 CHF 9; ausserhalb der Saison gratis. Preis von badi-info.ch/freizeit.ch, nicht auf flimslaax.com"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Caumasee_from_above_20210614.jpg/1280px-Caumasee_from_above_20210614.jpg",
+    "alt": "Der türkisfarbene Caumasee von oben, umgeben von Wald",
+    "credit": "https://commons.wikimedia.org/wiki/File:Caumasee_from_above_20210614.jpg"
+   },
+   "source": "https://www.badi-info.ch/a/flims-caumasee.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "chur-x-il-spir",
+   "kind": "aussicht",
+   "name": "Aussichtsplattform Il Spir (Rheinschlucht)",
+   "region": "chur",
+   "town": "Flims",
+   "address": "Via Conn, 7019 Flims",
+   "coords": {
+    "lat": 46.8127,
+    "lng": 9.3198
+   },
+   "url": "https://www.flimslaax.com/naturerlebnisse/rheinschlucht",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "gratis",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Oktober (Wanderweg)",
+   "durationMin": 120,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "Plattform von 2006 über der bis 400 m tiefen Ruinaulta-Rheinschlucht",
+   "text": "Von Flims Waldhaus wanderst du über Conn zur Plattform, die wie ein Vogelnest über dem Abgrund hängt. Unter dir windet sich der Rhein durch die weissen Felsen des Bergsturzes von vor rund 10 000 Jahren.",
+   "tip": "Mit Caumasee und Crestasee zu einer Rundwanderung verbinden – das Restaurant Conn liegt am Weg.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Il_Spir_panorama_20210614.jpg/1280px-Il_Spir_panorama_20210614.jpg",
+    "alt": "Blick von der Plattform Il Spir hinunter in die Rheinschlucht",
+    "credit": "https://commons.wikimedia.org/wiki/File:Il_Spir_panorama_20210614.jpg"
+   },
+   "source": "https://de.wikipedia.org/wiki/Ruinaulta",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "chur-x-crestasee",
+   "kind": "bad",
+   "name": "Naturbad Crestasee",
+   "region": "chur",
+   "town": "Flims / Trin",
+   "address": "Crestasee, 7017 Flims",
+   "coords": {
+    "lat": 46.8313,
+    "lng": 9.321
+   },
+   "url": "https://www.crestasee.com",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "see",
+    "familie",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Ostern–ca. 25. Oktober",
+   "hours": "Kiosk/Badeaufsicht je nach Monat ca. 9–17.30 Uhr (April/Mai, Sept./Okt. kürzer)",
+   "durationMin": 150,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:30",
+       "16:30"
+      ]
+     ],
+     "1": [
+      [
+       "10:30",
+       "16:30"
+      ]
+     ],
+     "2": [
+      [
+       "10:30",
+       "16:30"
+      ]
+     ],
+     "3": [
+      [
+       "10:30",
+       "16:30"
+      ]
+     ],
+     "4": [
+      [
+       "10:30",
+       "16:30"
+      ]
+     ],
+     "5": [
+      [
+       "10:30",
+       "16:30"
+      ]
+     ],
+     "6": [
+      [
+       "10:30",
+       "16:30"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "Kleiner Bruder des Caumasees: gleiches Türkis, Eintritt CHF 7",
+   "text": "Der Crestasee liegt im Wald zwischen Flims und Trin, mit Insel, Floss und Holzsteg. Viel ruhiger als der Caumasee und deutlich günstiger.",
+   "tip": "Mit dem Postauto bis Haltestelle «Crestasee» fahren, dann sind es nur wenige Minuten zu Fuss.",
+   "priceInfo": {
+    "from": 7,
+    "unit": "Eintritt Erwachsene",
+    "note": "mit Gästekarte CHF 5, Kinder 6–16 CHF 3"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Crestasee_island_20210614.jpg/1280px-Crestasee_island_20210614.jpg",
+    "alt": "Der Crestasee mit kleiner bewaldeter Insel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Crestasee_island_20210614.jpg"
+   },
+   "source": "https://www.flimslaax.com/seen-schweiz/crestasee",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "chur-x-taminaschlucht",
+   "kind": "aktivitaet",
+   "name": "Taminaschlucht und Altes Bad Pfäfers",
+   "region": "chur",
+   "town": "Pfäfers",
+   "address": "Altes Bad Pfäfers, 7312 Pfäfers",
+   "coords": {
+    "lat": 46.9739,
+    "lng": 9.4879
+   },
+   "url": "https://www.altes-bad-pfaefers.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "kultur",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "2. Mai–25. Oktober 2026",
+   "hours": "Schlucht bis 30.8. 10–17.15 Uhr, danach 10–16.15 Uhr; Museum/Restaurant ab 9.30 Uhr",
+   "durationMin": 120,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "16:15"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "16:15"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "16:15"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "16:15"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "16:15"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "16:15"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "16:15"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "Thermalquelle mit 36,6 °C tief in einer 70 m tiefen Felsspalte",
+   "text": "Ein Steg führt dich durch die enge, dunkle Schlucht bis zur Quelle, aus der warmes Thermalwasser strömt. Davor steht das älteste erhaltene Barockbad der Schweiz mit kleinem Museum.",
+   "tip": "Regenschutz mitnehmen – in der Schlucht tropft es auch bei Sonnenschein. Zufahrt nur mit Postauto oder zu Fuss ab Bad Ragaz.",
+   "priceInfo": {
+    "from": 5,
+    "unit": "Eintritt Erwachsene",
+    "note": "Schluchteintritt am Automaten; Altes Bad und Museum gratis; Führung CHF 25; Schluchtenbus ab Bad Ragaz retour CHF 11. Schluchtpreis von graubuenden.ch, nicht auf der Betreiberseite"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Taminaschlucht_Mai13.JPG/1280px-Taminaschlucht_Mai13.JPG",
+    "alt": "Steg in der engen Taminaschlucht",
+    "credit": "https://commons.wikimedia.org/wiki/File:Taminaschlucht_Mai13.JPG"
+   },
+   "source": "https://www.altes-bad-pfaefers.ch/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "chur-x-arosa-baerenland",
+   "kind": "aktivitaet",
+   "name": "Arosa Bärenland",
+   "region": "chur",
+   "town": "Arosa",
+   "address": "Mittelstation Weisshorn, 7050 Arosa",
+   "coords": {
+    "lat": 46.7868,
+    "lng": 9.6645
+   },
+   "url": "https://arosabaerenland.swiss",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "familie",
+    "berg",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "Sommer 12. Juni–17. Oktober (2027); Winter nur Do-Nachmittag",
+   "hours": "Sommer täglich 9–17.20 Uhr; Winter Do 13–16 Uhr",
+   "durationMin": 120,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:20"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "17:20"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "17:20"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:20"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:20"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:20"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:20"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "Gerettete Zirkus- und Zoobären leben hier auf 2000 m in einem 2,8-ha-Gehege",
+   "text": "Mit der Weisshornbahn fährst du zur Mittelstation und schaust von Stegen in ein grosses Berggehege, in dem Braunbären aus schlechter Haltung leben. Ein Projekt von Vier Pfoten, seit 2018.",
+   "tip": "Im Winter ist das Bärenland nur am Donnerstagnachmittag offen – plane den Besuch für den Sommer.",
+   "priceInfo": {
+    "from": 23,
+    "unit": "Eintritt Erwachsene",
+    "note": "Sommer inkl. Bahn bis Mittelstation retour; mit Arosa Card Bahn gratis; Kinder 6–15 CHF 12; Winter Eintritt ohne Bahn CHF 5"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Arosa_B%C3%A4renland_Ostansicht.jpg/1280px-Arosa_B%C3%A4renland_Ostansicht.jpg",
+    "alt": "Das Berggehege des Arosa Bärenlands am Hang",
+    "credit": "https://commons.wikimedia.org/wiki/File:Arosa_B%C3%A4renland_Ostansicht.jpg"
+   },
+   "source": "https://arosabaerenland.swiss/de/Dein-Besuch/Tickets-und-Preise",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "dv-x-landwasserviadukt-acatos",
+   "kind": "aussicht",
+   "name": "Landwasserviadukt – Aussichtsplattform Acatos",
+   "region": "davos",
+   "town": "Filisur",
+   "address": "Via Visura, 7477 Filisur",
+   "coords": {
+    "lat": 46.6792,
+    "lng": 9.6761
+   },
+   "url": "https://www.graubuenden.ch/en/tours/landwasser-viaduct-viewing-platform-acatos",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "gratis",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Oktober (Wanderweg)",
+   "durationMin": 90,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "65 m hohe Bogenbrücke, über die der Zug direkt in einen Felstunnel fährt",
+   "text": "Vom Bahnhof Filisur gehst du in rund 25 Minuten zur Plattform und wartest, bis ein roter RhB-Zug über das Viadukt in die Felswand fährt. Der Weg ist kurz, aber am Ende steil.",
+   "tip": "Vorher im RhB-Fahrplan nachschauen, wann der nächste Zug kommt – so stehst du rechtzeitig für dein Foto bereit.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Landwasserviadukt_bei_Filisur.JPG/1280px-Landwasserviadukt_bei_Filisur.JPG",
+    "alt": "Der Landwasserviadukt bei Filisur mit Bögen über dem Tal",
+    "credit": "https://commons.wikimedia.org/wiki/File:Landwasserviadukt_bei_Filisur.JPG"
+   },
+   "source": "https://www.graubuenden.ch/de/touren/bahnhof-filisur-viaduktplatz-via-aussichtsplattform-acatos",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "dv-x-wiesener-viadukt-skywalk",
+   "kind": "aussicht",
+   "name": "Sky Walk Wiesener Viadukt",
+   "region": "davos",
+   "town": "Davos Wiesen",
+   "address": "Bahnhof Davos Wiesen, 7494 Davos Wiesen",
+   "coords": {
+    "lat": 46.6946,
+    "lng": 9.7132
+   },
+   "url": "https://www.landwasserwelt.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "besonders",
+    "aussicht",
+    "gratis",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Oktober (Gratis-Führungen Juli–Sept.)",
+   "hours": "Führung 2.7.–24.9.2026 jeden Do 14.15 Uhr ab Bahnhof Davos Wiesen",
+   "durationMin": 60,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "Zu Fuss über das höchste RhB-Viadukt, 89 m über dem Landwasser",
+   "text": "300 Meter vom Bahnhof Davos Wiesen beginnt ein Fussweg, der direkt neben den Gleisen über das Viadukt führt. Wenn ein Zug kommt, rauscht er nur ein paar Meter neben dir vorbei.",
+   "tip": "Weiter nach Filisur wandern (ca. 2¾ h über Schönboden) und dort den Landwasserviadukt anhängen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "auch die Donnerstags-Führungen sind gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Fussweg_am_Wiesener_Viadukt.jpg/1280px-Fussweg_am_Wiesener_Viadukt.jpg",
+    "alt": "Fussweg neben den Gleisen am Wiesener Viadukt",
+    "credit": "https://commons.wikimedia.org/wiki/File:Fussweg_am_Wiesener_Viadukt.jpg"
+   },
+   "source": "https://web.cdf0de6f5e041a9e4ec4d35807fe0545.customer.alturos.com/en/pages/sky-walk-wiesnerviadukt",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "dv-x-bahnmuseum-albula",
+   "kind": "sehenswuerdigkeit",
+   "name": "Bahnmuseum Albula",
+   "region": "davos",
+   "town": "Bergün",
+   "address": "Veja Stazion 11, 7482 Bergün",
+   "coords": {
+    "lat": 46.6309,
+    "lng": 9.7466
+   },
+   "url": "https://www.bahnmuseum-albula.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "regenfest",
+    "familie",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Betriebsferien 23.11.–10.12.2026)",
+   "hours": "Museum täglich 10–17 Uhr; Shop und Büfèt 9–17.30 Uhr",
+   "durationMin": 120,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "wow": "Museum direkt an der UNESCO-Albulastrecke, mit Modellbahn-Werkstatt in Betrieb",
+   "text": "Gleich neben dem Bahnhof Bergün erzählt das Museum, wie die Albulabahn mit Kehrtunnels und Viadukten in den Fels gebaut wurde. Nachmittags arbeitet ein Modellbauer live an seiner Anlage.",
+   "tip": "Die Modellbahn-Vorführung läuft Di–So ab 15 Uhr; das Büfèt im Museum taugt gut fürs Mittagessen.",
+   "priceInfo": {
+    "from": 15,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–16 CHF 11, Familien CHF 47; montags AHV CHF 10"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Albula.Railway.Museum.JPG/1280px-Albula.Railway.Museum.JPG",
+    "alt": "Das Bahnmuseum Albula neben dem Bahnhof Bergün",
+    "credit": "https://commons.wikimedia.org/wiki/File:Albula.Railway.Museum.JPG"
+   },
+   "source": "https://www.bahnmuseum-albula.ch/de/informationen/preise",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "dv-x-schlittelbahn-preda-berguen",
+   "kind": "aktivitaet",
+   "name": "Schlittelbahn Preda–Bergün",
+   "region": "davos",
+   "town": "Bergün",
+   "address": "Bahnhof Preda, 7482 Preda",
+   "coords": {
+    "lat": 46.5883,
+    "lng": 9.7774
+   },
+   "url": "https://www.berguen-filisur.graubuenden.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "freunde",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "19. Dezember 2026–14. März 2027",
+   "hours": "Mo 9.30–17 Uhr, Di–So 9.30–23 Uhr (Nachtschlitteln)",
+   "durationMin": 240,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:30",
+       "23:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:30",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:30",
+       "23:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:30",
+       "23:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:30",
+       "23:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:30",
+       "23:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:30",
+       "23:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "wow": "6 km Schlittelbahn, Rückfahrt mit dem Zug durch die Kehrtunnels",
+   "text": "Du fährst mit der RhB nach Preda und schlittelst 6 km hinunter nach Bergün – dann wieder in den Zug und nochmals. Dienstag bis Sonntag ist die Bahn bis 23 Uhr beleuchtet.",
+   "tip": "Schlitten in Preda oder Bergün mieten; wer es wilder mag, nimmt die 4,5 km lange Darlux-Bahn (im gleichen Ticket).",
+   "priceInfo": {
+    "from": 44,
+    "unit": "Tageskarte Erwachsene",
+    "note": "inkl. Zugfahrten Bergün–Preda und Darlux; mit Halbtax CHF 32; Schlitten nicht inbegriffen"
+   },
+   "source": "https://www.berguen-filisur.graubuenden.ch/en/aktivitaten-erlebnisse/sledging",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "dv-x-sertig-wasserfall",
+   "kind": "aussicht",
+   "name": "Sertig Dörfli und Wasserfall",
+   "region": "davos",
+   "town": "Davos Sertig",
+   "address": "Sertig Dörfli, 7272 Davos Clavadel",
+   "coords": {
+    "lat": 46.7258,
+    "lng": 9.8479
+   },
+   "url": "https://www.graubuenden.ch/en/tours/sertig-dorfli-waterfall",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "familie",
+    "berg",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober (Wanderweg)",
+   "durationMin": 150,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "Weiler mit Kirchlein am Talende – Wasserfall eine Stunde ab Bushalt",
+   "text": "Mit dem Bus fährst du von Davos Platz ins stille Sertigtal bis zum Weiler mit Holzhäusern und Kirche. Vom Gasthaus aus gehst du rund eine Stunde (3,8 km) bis zum Wasserfall am Talende.",
+   "tip": "Bis kurz vor den Wasserfall ist der Weg kinderwagentauglich; zurück lohnt eine Pause im Gasthaus beim Bus.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "nur Busbillett Davos–Sertig"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Sertig_D%C3%B6rfli.jpg/1280px-Sertig_D%C3%B6rfli.jpg",
+    "alt": "Der Weiler Sertig Dörfli mit Kirche vor den Bergen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sertig_D%C3%B6rfli.jpg"
+   },
+   "source": "https://www.graubuenden.ch/en/tours/sertig-dorfli-waterfall",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "dv-x-monsteiner-brauerei",
+   "kind": "aktivitaet",
+   "name": "Brauerei BierVision Monstein",
+   "region": "davos",
+   "town": "Davos Monstein",
+   "address": "Hauptstrasse 36, 7278 Davos Monstein",
+   "coords": {
+    "lat": 46.7117,
+    "lng": 9.7712
+   },
+   "url": "https://monsteiner.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "genuss",
+    "freunde"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig, nur mit Anmeldung",
+   "durationMin": 60,
+   "wow": "Brauerei in der alten Dorfsennerei auf 1620 m, seit 2001",
+   "text": "In Monstein, einem Walserdorf auf einer Sonnenterrasse über dem Landwassertal, braut eine kleine Brauerei mit Bündner Gerste. Beim «Bier-ABC» erklären dir die Brauer eine Stunde lang ihr Handwerk.",
+   "tip": "Mit Brauerplatte (CHF 40) wird daraus ein Zvieri; Besichtigung vorher per Telefon oder Website anmelden.",
+   "priceInfo": {
+    "from": 20,
+    "to": 40,
+    "unit": "Führung Erwachsene",
+    "note": "Bier-ABC CHF 20, mit Brauerplatte CHF 40; Kleingruppen unter 10 Pers. pauschal CHF 200. Preis von freizeit.ch (undatiert), nicht auf monsteiner.ch"
+   },
+   "source": "https://www.freizeit.ch/freizeit/15968/biervision-ag-davos-monstein",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-x-olympia-bobrun",
+   "kind": "aktivitaet",
+   "name": "Olympia Bob Run St. Moritz–Celerina (Gästebob)",
+   "region": "engadin",
+   "town": "St. Moritz",
+   "address": "Via Foppas, 7500 St. Moritz",
+   "coords": {
+    "lat": 46.5014,
+    "lng": 9.8479
+   },
+   "url": "https://olympia-bobrun.ch",
+   "price": 4,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "ca. Ende Dezember–Anfang März (Saisonstart 22.12.2026)",
+   "durationMin": 120,
+   "open": {
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "wow": "1722 m Natureisbahn: im Viererbob mit bis 135 km/h in 75 Sekunden",
+   "text": "Zwischen Pilot und Bremser sitzt du im Viererbob und spürst in den Kurven bis zu 5 g. Die Natureisbahn nennt der Betreiber die längste Eisskulptur der Welt; Zuschauen an der Strecke kostet nichts.",
+   "tip": "Gästefahrten sind seit 1. Juli buchbar – früh reservieren; wer nicht fährt, schaut gratis an der Strecke zu.",
+   "priceInfo": {
+    "from": 269,
+    "unit": "Gästebobfahrt pro Person",
+    "note": "inkl. Helm, Shuttle zum Start, Souvenir und Glas Champagner; Zuschauen gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bobrun_Celerina1.JPG/1280px-Bobrun_Celerina1.JPG",
+    "alt": "Eiskanal des Olympia Bob Runs bei Celerina",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bobrun_Celerina1.JPG"
+   },
+   "source": "https://olympia-bobrun.ch/portfolio-item/gaestebobfahrten/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-x-corvatsch",
+   "kind": "aussicht",
+   "name": "Corvatsch 3303",
+   "region": "engadin",
+   "town": "Silvaplana-Surlej",
+   "address": "Via dal Corvatsch 73, 7513 Silvaplana-Surlej",
+   "coords": {
+    "lat": 46.4549,
+    "lng": 9.8144
+   },
+   "url": "https://www.corvatsch-diavolezza.ch",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "Sommer ca. 19. Juni–22. Oktober, Winter ca. 21. November–25. April",
+   "hours": "Fahrten alle 20 Min., ca. 8.20–16 Uhr (letzte Bergfahrt, Winter) bzw. bis 16.45 Uhr (Sommer)",
+   "durationMin": 150,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:30",
+       "16:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:30",
+       "16:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:30",
+       "16:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:30",
+       "16:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:30",
+       "16:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:30",
+       "16:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:30",
+       "16:00"
+      ]
+     ]
+    },
+    "months": [
+     1,
+     2,
+     3,
+     4,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   "wow": "Bergstation auf 3303 m – die höchste in Graubünden",
+   "text": "Zwei Seilbahnen bringen dich von Surlej auf 3303 m, von wo du über die Oberengadiner Seen bis zur Bernina schaust. Oben gibt es das Restaurant 3303 mit Panoramafenstern.",
+   "tip": "An klaren Morgen früh hoch: Die Seen liegen dann noch spiegelglatt unter dir.",
+   "priceInfo": {
+    "from": 64,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Sommer 2026, Surlej–Corvatsch; Jugendliche 13–17 CHF 42.70, Kinder 6–12 CHF 21.30; Halbtax-Preis nicht separat ausgewiesen"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Veduta_dal_Piz_Corvatsch_%28DOI_24718%29.jpg/1280px-Veduta_dal_Piz_Corvatsch_%28DOI_24718%29.jpg",
+    "alt": "Aussicht vom Piz Corvatsch auf die Engadiner Berge",
+    "credit": "https://commons.wikimedia.org/wiki/File:Veduta_dal_Piz_Corvatsch_%28DOI_24718%29.jpg"
+   },
+   "source": "https://www.corvatsch-diavolezza.ch/en/operating-hours-fares/winter-summer-prices/tickets-for-walkers-summer",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-x-mili-weber-haus",
+   "kind": "sehenswuerdigkeit",
+   "name": "Mili Weber Haus",
+   "region": "engadin",
+   "town": "St. Moritz",
+   "address": "Via Dimlej 35, 7500 St. Moritz",
+   "coords": {
+    "lat": 46.4975,
+    "lng": 9.856
+   },
+   "url": "https://www.miliweber.ch",
+   "price": 2,
+   "tags": [
+    "geheimtipp",
+    "kultur",
+    "regenfest",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig, nur mit Führung",
+   "hours": "Führungen 14.15 und/oder 15.45 Uhr: Hauptsaison Mi–So, Zwischensaison Mi+Fr",
+   "durationMin": 70,
+   "open": {
+    "week": {
+     "0": [],
+     "1": [],
+     "2": [],
+     "3": [
+      [
+       "14:15",
+       "17:00"
+      ]
+     ],
+     "4": [],
+     "5": [
+      [
+       "14:15",
+       "17:00"
+      ]
+     ],
+     "6": []
+    }
+   },
+   "wow": "Malerinnenhaus mit bemalter Decke, Hausorgel und raumfüllendem Puppenschloss",
+   "text": "Die Malerin Mili Weber lebte von 1917 bis 1978 in diesem Haus über dem St. Moritzersee und gestaltete es innen selbst – vom Schlosszimmer mit bemalter Decke bis zur Hausorgel. Du siehst es nur bei einer persönlichen Führung in kleinen Gruppen.",
+   "tip": "Vorher anmelden – es gibt nur ein bis zwei Führungen pro Tag; 24./25. Dezember geschlossen.",
+   "priceInfo": {
+    "from": 20,
+    "unit": "Eintritt Erwachsene",
+    "note": "inkl. Führung (ca. 70 Min.); Kinder 6–15 CHF 5"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Mili-Weber-Haus.jpg/1280px-Mili-Weber-Haus.jpg",
+    "alt": "Das Mili-Weber-Haus am Waldrand über St. Moritz",
+    "credit": "https://commons.wikimedia.org/wiki/File:Mili-Weber-Haus.jpg"
+   },
+   "source": "https://www.miliweber.ch/oeffnungszeiten",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-x-val-roseg-kutsche",
+   "kind": "aktivitaet",
+   "name": "Pferdeomnibus ins Val Roseg",
+   "region": "engadin",
+   "town": "Pontresina",
+   "address": "Bahnhof Pontresina, Via da la Staziun, 7504 Pontresina",
+   "coords": {
+    "lat": 46.4907,
+    "lng": 9.8964
+   },
+   "url": "https://pontresina.ch/en/activities/other-leisure-activities/horse-carriages/",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "romantisch",
+    "familie",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "Sommer 13. Juni–18. Oktober; Winter ab ca. 8. Dezember bis Anfang April",
+   "hours": "Sommer ab Bahnhof Pontresina 10.10–15.10 Uhr, zurück ab Roseg Gletscher 11.45–16.45 Uhr; einzelne Kurse nur mit Reservation",
+   "durationMin": 240,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     1,
+     2,
+     3,
+     6,
+     7,
+     8,
+     9,
+     10,
+     12
+    ]
+   },
+   "wow": "Mit Pferdegespann ab Bahnhof bis zum Hotel am Ende des Gletschertals",
+   "text": "Vom Bahnhof Pontresina zieht ein Pferdegespann dich durchs Val Roseg bis zum Hotel Roseg Gletscher am Talende. Im Winter fährt statt der Kutsche ein Pferdeschlitten.",
+   "tip": "Hin mit der Kutsche, zurück zu Fuss talauswärts – so siehst du den Gletscher die ganze Zeit vor dir.",
+   "priceInfo": {
+    "from": 37,
+    "unit": "Retourfahrt Erwachsene",
+    "note": "Einfach CHF 25; Kinder 4–12 retour CHF 18.50; Gepäck über 10 kg oder grosse Hunde CHF 5"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Val_Roseg_view.jpg/1280px-Val_Roseg_view.jpg",
+    "alt": "Blick ins Val Roseg mit Gletscher im Hintergrund",
+    "credit": "https://commons.wikimedia.org/wiki/File:Val_Roseg_view.jpg"
+   },
+   "source": "https://pontresina.ch/en/activities/other-leisure-activities/horse-carriages/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-x-hotel-roseg-gletscher",
+   "kind": "restaurant",
+   "name": "Hotel Restaurant Roseg Gletscher",
+   "region": "engadin",
+   "town": "Pontresina (Val Roseg)",
+   "address": "Val Roseg, 7504 Pontresina",
+   "coords": {
+    "lat": 46.4378,
+    "lng": 9.8692
+   },
+   "url": "https://www.roseg-gletscher.ch",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "genuss",
+    "berg",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "Winter 5. Dezember 2026–29. März 2027, Sommer 11. Juni–17. Oktober 2027",
+   "open": {
+    "months": [
+     1,
+     2,
+     3,
+     6,
+     7,
+     8,
+     9,
+     10,
+     12
+    ]
+   },
+   "wow": "Gasthaus auf 1999 m am Ende des Val Roseg, bekannt fürs Dessertbuffet",
+   "text": "Am Ende des autofreien Val Roseg steht das Hotel mit Wintergarten, in dem du Bündner Klassiker wie Capuns und Pizzoccheri isst. Danach holst du dir Kuchen und Crèmes vom grossen Dessertbuffet.",
+   "tip": "Unbedingt Platz fürs Dessertbuffet lassen – und an schönen Tagen draussen auf der Sonnenterrasse sitzen.",
+   "priceInfo": {
+    "from": 23.5,
+    "to": 54.5,
+    "unit": "Hauptgang",
+    "note": "z. B. Capuns CHF 28.50, Hirschpfeffer CHF 48.50; Preis Dessertbuffet nicht auf der Karte ausgewiesen"
+   },
+   "source": "https://www.roseg-gletscher.ch/en/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-x-gletschertoepfe-maloja",
+   "kind": "sehenswuerdigkeit",
+   "name": "Gletschertöpfe Maloja",
+   "region": "engadin",
+   "town": "Maloja",
+   "address": "Naturschutzgebiet beim Belvedere-Turm, 7516 Maloja",
+   "coords": {
+    "lat": 46.4021,
+    "lng": 9.691
+   },
+   "url": "https://de.wikipedia.org/wiki/Maloja",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "familie",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober (Rundweg)",
+   "durationMin": 60,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "So viele Gletschertöpfe wie sonst nirgends in Europa",
+   "text": "Beim Belvedere-Turm führt ein Rundweg durch ein Naturschutzgebiet zu tiefen, runden Töpfen im Fels, die Schmelzwasser der Eiszeit ausgeschliffen hat. Im Turm erklärt eine Ausstellung von Pro Natura die Landschaft.",
+   "tip": "Im Belvedere-Turm zuerst die Pro-Natura-Ausstellung anschauen – dann verstehst du, was du draussen siehst.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Gletschert%C3%B6pfe_in_Maloja.jpg/1280px-Gletschert%C3%B6pfe_in_Maloja.jpg",
+    "alt": "Ein runder Gletschertopf im Fels bei Maloja",
+    "credit": "https://commons.wikimedia.org/wiki/File:Gletschert%C3%B6pfe_in_Maloja.jpg"
+   },
+   "source": "https://de.wikipedia.org/wiki/Maloja",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-x-schiefer-turm",
+   "kind": "sehenswuerdigkeit",
+   "name": "Schiefer Turm von St. Moritz",
+   "region": "engadin",
+   "town": "St. Moritz",
+   "address": "St. Moritz Dorf, 7500 St. Moritz",
+   "coords": {
+    "lat": 46.4998,
+    "lng": 9.8413
+   },
+   "url": "https://www.stmoritz.com",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "gratis",
+    "kultur"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 20,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "wow": "Rund 5,5° Neigung – schiefer als der Turm von Pisa",
+   "text": "Der 33 m hohe Glockenturm ist alles, was von der 1893 abgerissenen Mauritiuskirche übrig blieb. Er hängt so stark, dass er mehrmals angehoben und neu fundiert werden musste.",
+   "tip": "Kurzer Abstecher vom Dorfzentrum – stell dich auf die Talseite, dann wirkt die Neigung am stärksten.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Schiefer_Turm_Sankt_Moritz_2022-09-25_01.jpg/1280px-Schiefer_Turm_Sankt_Moritz_2022-09-25_01.jpg",
+    "alt": "Der schiefe Glockenturm von St. Moritz",
+    "credit": "https://commons.wikimedia.org/wiki/File:Schiefer_Turm_Sankt_Moritz_2022-09-25_01.jpg"
+   },
+   "source": "https://de.wikipedia.org/wiki/Schiefer_Turm_von_St._Moritz",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-x-val-trupchun",
+   "kind": "aktivitaet",
+   "name": "Val Trupchun im Schweizerischen Nationalpark",
+   "region": "engadin",
+   "town": "S-chanf",
+   "address": "Prasüras, 7525 S-chanf",
+   "coords": {
+    "lat": 46.6043,
+    "lng": 10.0554
+   },
+   "url": "https://www.nationalpark.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "aktiv",
+    "berg",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober, Hirschbrunft im September/Oktober",
+   "durationMin": 300,
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "wow": "Im Herbst röhren die Hirsche – Wildbeobachtung im Nationalpark",
+   "text": "Von S-chanf wanderst du ins Val Trupchun, eines der Täler des Nationalparks, und suchst mit dem Feldstecher die Hänge nach Hirschen und anderem Wild ab. Im Herbst hallt das Röhren der Hirsche durchs Tal.",
+   "tip": "Feldstecher mitnehmen und auf den Wegen bleiben – im Nationalpark ist das Verlassen der Wege verboten.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bergtocht_van_Pras%C3%BCras%2Cdoor_het_Val_Trupchun_naar_Alp_Purcher_18-09-2019._%28d.j.b%29_04.jpg/1280px-Bergtocht_van_Pras%C3%BCras%2Cdoor_het_Val_Trupchun_naar_Alp_Purcher_18-09-2019._%28d.j.b%29_04.jpg",
+    "alt": "Wanderweg durch das herbstliche Val Trupchun",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bergtocht_van_Pras%C3%BCras%2Cdoor_het_Val_Trupchun_naar_Alp_Purcher_18-09-2019._%28d.j.b%29_04.jpg"
+   },
+   "source": "https://de.wikipedia.org/wiki/Val_Trupchun",
+   "checked": "2026-11-15"
+  }
+ ],
+ "trips": [
+  {
+   "slug": "krasse-runde-basel",
+   "title": "Die krasse Runde Basel: Grotten, Beton und echte Präparate",
+   "teaser": "Ein Tag zwischen Zaubergarten, Steiner-Monument und den schrägsten Museen der Stadt – am besten Dienstag bis Freitag.",
+   "region": "basel",
+   "days": 1,
+   "moods": [
+    "kultur",
+    "natur",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "allein"
+   ],
+   "season": "ganzjährig, Di–Fr (Anatomie Sa zu, Pharmazie Mo zu)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 55
+    },
+    {
+     "from": "Bern",
+     "minutes": 55
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 0
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Von der Ermitage bis ins Totengässlein",
+     "slots": [
+      {
+       "time": "09:30",
+       "placeId": "bs-x-ermitage-arlesheim",
+       "title": "Ermitage Arlesheim",
+       "text": "Durch den Landschaftsgarten zu Weihern, Grotten und hinauf zur Burg Birseck.",
+       "travel": "ca. 20 Min. Tram 10 ab Basel SBB bis Arlesheim Dorf",
+       "rain": {
+        "placeId": "bs-x-goetheanum",
+        "title": "Länger im Goetheanum",
+        "text": "Statt Garten direkt ins Goetheanum und die Innenräume anschauen."
+       }
+      },
+      {
+       "time": "11:30",
+       "placeId": "bs-x-goetheanum",
+       "title": "Goetheanum",
+       "text": "Den Betonbau von aussen umrunden, dann hinein in Foyer und Treppenhäuser.",
+       "travel": "ca. 20 Min. Tram 10 bis Dornach und zu Fuss den Hügel hinauf"
+      },
+      {
+       "time": "13:00",
+       "placeId": "bs-markthalle",
+       "title": "Mittag in der Markthalle",
+       "text": "Zurück in die Stadt und an einem der Essensstände in der Markthalle essen.",
+       "travel": "ca. 30 Min. Tram 10 zurück bis Basel SBB"
+      },
+      {
+       "time": "14:30",
+       "placeId": "bs-x-anatomisches-museum",
+       "title": "Anatomisches Museum",
+       "text": "Echte Präparate menschlicher Organe – rund eine Stunde einplanen.",
+       "travel": "ca. 15 Min. Tram"
+      },
+      {
+       "time": "16:00",
+       "placeId": "bs-x-pharmaziemuseum",
+       "title": "Pharmaziemuseum",
+       "text": "Alte Apotheken und Laborgeräte im Haus, in dem Paracelsus wohnte.",
+       "travel": "ca. 15 Min. zu Fuss durch die Altstadt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-alpstein",
+   "title": "Die krasse Runde Alpstein: Höhlen, Felswand und Bergsee",
+   "teaser": "Mit der Bahn auf die Ebenalp, durch die Eremitenhöhlen zum Aescher und hinunter an den Seealpsee.",
+   "region": "st-gallen",
+   "days": 1,
+   "moods": [
+    "natur",
+    "aktiv",
+    "genuss",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "familie"
+   ],
+   "season": "Mai–Oktober",
+   "arrival": [
+    {
+     "from": "St. Gallen",
+     "minutes": 60
+    },
+    {
+     "from": "Zürich HB",
+     "minutes": 125
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Ebenalp, Aescher, Seealpsee",
+     "slots": [
+      {
+       "time": "09:00",
+       "placeId": "sg-x-ebenalp-bahn",
+       "title": "Hoch auf die Ebenalp",
+       "text": "Mit der Luftseilbahn hinauf, oben kurz die Aussicht geniessen und dann den Weg durch die Wildkirchli-Höhlen nehmen.",
+       "travel": "ca. 60 Min. Bahn ab St. Gallen via Appenzell bis Wasserauen",
+       "rain": {
+        "placeId": "sg-x-schaukaeserei-stein",
+        "title": "Schaukäserei Stein",
+        "text": "Bei Regen statt Alpstein in die Schaukäserei und den Käsern zuschauen."
+       }
+      },
+      {
+       "time": "11:00",
+       "placeId": "sg-x-aescher",
+       "title": "Mittag am Aescher",
+       "text": "Siedwurst oder Käsefladen auf der Terrasse an der Felswand.",
+       "travel": "ca. 20 Min. zu Fuss von der Bergstation durch die Höhlen"
+      },
+      {
+       "time": "13:00",
+       "placeId": "sg-x-seealpsee",
+       "title": "Seealpsee",
+       "text": "Mit der Bahn zurück ins Tal und in gut einer Stunde zum Seealpsee hinauf; dort baden oder am Ufer liegen.",
+       "travel": "ca. 30 Min. zu Fuss zurück zur Bergstation, 10 Min. Bahn, 60 Min. zu Fuss",
+       "rain": {
+        "placeId": "sg-museum-appenzell",
+        "title": "Museum Appenzell",
+        "text": "Bei Regen nach Appenzell fahren und ins Museum an der Hauptgasse."
+       }
+      },
+      {
+       "time": "16:30",
+       "placeId": "sg-appenzell-dorf",
+       "title": "Ausklang in Appenzell",
+       "text": "Durch die bemalte Hauptgasse schlendern, bevor es zurück nach St. Gallen geht.",
+       "travel": "ca. 60 Min. zu Fuss nach Wasserauen, dann 15 Min. Bahn"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-albula",
+   "title": "Die krasse Runde Albula: Schlucht, Viadukte und Bahnmuseum",
+   "teaser": "Von Chur in die Viamala-Schlucht, dann mit der RhB zum Landwasserviadukt, nach Bergün und zu Fuss übers Wiesener Viadukt bis Davos.",
+   "region": "chur",
+   "days": 1,
+   "moods": [
+    "natur",
+    "aktiv",
+    "kultur",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "familie",
+    "allein"
+   ],
+   "season": "Mai–Oktober",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 75
+    },
+    {
+     "from": "St. Gallen",
+     "minutes": 95
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Chur bis Davos auf der Albulalinie",
+     "slots": [
+      {
+       "time": "09:15",
+       "placeId": "chur-x-viamala",
+       "title": "Viamala-Schlucht",
+       "text": "Über 359 Stufen hinunter zu Strudeltöpfen und Hinterrhein, dann wieder hoch.",
+       "travel": "ca. 30 Min. RhB Chur–Thusis, dann Postauto bis Viamala",
+       "rain": {
+        "placeId": "dv-x-bahnmuseum-albula",
+        "title": "Direkt ins Bahnmuseum",
+        "text": "Bei Regen gleich nach Bergün weiterfahren und mehr Zeit im Bahnmuseum verbringen."
+       }
+      },
+      {
+       "time": "11:30",
+       "placeId": "dv-x-landwasserviadukt-acatos",
+       "title": "Landwasserviadukt",
+       "text": "Vom Bahnhof Filisur zur Plattform Acatos und einen Zug über das Viadukt fahren sehen.",
+       "travel": "Postauto zurück nach Thusis, ca. 30 Min. RhB bis Filisur, 25 Min. zu Fuss",
+       "rain": {
+        "placeId": "dv-x-bahnmuseum-albula",
+        "title": "Bahnmuseum Albula",
+        "text": "Das Viadukt im Museum erklärt bekommen statt im Regen zu stehen."
+       }
+      },
+      {
+       "time": "13:15",
+       "placeId": "dv-x-bahnmuseum-albula",
+       "title": "Bahnmuseum und Mittag",
+       "text": "Im Büfèt des Museums essen, danach durch die Ausstellung zur Albulabahn.",
+       "travel": "ca. 10 Min. RhB Filisur–Bergün"
+      },
+      {
+       "time": "16:00",
+       "placeId": "dv-x-wiesener-viadukt-skywalk",
+       "title": "Sky Walk Wiesener Viadukt",
+       "text": "Zu Fuss neben den Gleisen übers höchste RhB-Viadukt und zurück.",
+       "travel": "ca. 30 Min. RhB via Filisur bis Davos Wiesen, 5 Min. zu Fuss",
+       "rain": {
+        "placeId": "dv-kirchner-museum",
+        "title": "Kirchner Museum Davos",
+        "text": "Bei Regen direkt nach Davos Platz und ins Kirchner Museum."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-engadin",
+   "title": "Die krasse Runde Engadin: 3303 Meter, Gletschertöpfe und ein ausgemaltes Haus",
+   "teaser": "Morgens auf den Corvatsch, mittags zu den Gletschertöpfen von Maloja, nachmittags ins Mili Weber Haus und zum schiefen Turm.",
+   "region": "engadin",
+   "days": 1,
+   "moods": [
+    "natur",
+    "kultur",
+    "romantik",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "allein"
+   ],
+   "season": "Ende Juni–Mitte Oktober, Mi–So (Mili-Weber-Führungen)",
+   "arrival": [
+    {
+     "from": "St. Moritz",
+     "minutes": 15
+    },
+    {
+     "from": "Chur",
+     "minutes": 140
+    },
+    {
+     "from": "Zürich HB",
+     "minutes": 215
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Oberengadin zwischen Gipfel und Turm",
+     "slots": [
+      {
+       "time": "08:30",
+       "placeId": "en-x-corvatsch",
+       "title": "Corvatsch 3303",
+       "text": "Mit den ersten Bahnen auf 3303 m und den Blick über die Seen geniessen.",
+       "travel": "ca. 15 Min. Bus ab St. Moritz bis Surlej",
+       "rain": {
+        "placeId": "en-segantini-museum",
+        "title": "Segantini Museum",
+        "text": "Bei Wolken statt Gipfel die Engadiner Berge im Segantini Museum anschauen."
+       }
+      },
+      {
+       "time": "11:15",
+       "placeId": "en-x-gletschertoepfe-maloja",
+       "title": "Gletschertöpfe Maloja",
+       "text": "Rundweg durch das Naturschutzgebiet zu den Felstöpfen und auf den Belvedere-Turm.",
+       "travel": "ca. 20 Min. Bus ab Surlej bis Maloja",
+       "rain": {
+        "placeId": "en-museum-engiadinais",
+        "title": "Museum Engiadinais",
+        "text": "Bei Regen zurück nach St. Moritz ins Museum Engiadinais."
+       }
+      },
+      {
+       "time": "13:00",
+       "placeId": "en-hanselmann",
+       "title": "Mittag bei Hanselmann",
+       "text": "Zurück in St. Moritz Dorf eine Pause mit Nusstorte oder kleinem Mittagessen.",
+       "travel": "ca. 30 Min. Bus Maloja–St. Moritz"
+      },
+      {
+       "time": "14:15",
+       "placeId": "en-x-mili-weber-haus",
+       "title": "Mili Weber Haus",
+       "text": "Geführter Rundgang durch das ausgemalte Haus der Malerin (vorher anmelden).",
+       "travel": "ca. 20 Min. zu Fuss nach St. Moritz Bad"
+      },
+      {
+       "time": "16:00",
+       "placeId": "en-x-schiefer-turm",
+       "title": "Schiefer Turm",
+       "text": "Zum Abschluss zum schiefen Glockenturm, der stärker hängt als der in Pisa.",
+       "travel": "ca. 20 Min. zu Fuss oder Bus nach St. Moritz Dorf",
+       "rain": {
+        "placeId": "en-mineralbad-samedan",
+        "title": "Mineralbad Samedan",
+        "text": "Bei Regen ins Mineralbad Samedan: Sole- und Mineralbecken mitten im Dorf, ideal zum Aufwärmen nach dem Tag in den Bergen."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": "Nicht oder nur indirekt belegt: Caumasee-Badepreis CHF 18 (badi-info.ch/freizeit.ch, flimslaax.com zeigte nach Saisonende nur «Eintritt frei»); Taminaschlucht-Eintritt CHF 5 (graubuenden.ch, Betreiberseite nennt keinen Preis); Brauerei Monstein Bier-ABC CHF 20 (freizeit.ch, undatiert, monsteiner.ch ohne Preise); Tierpark Lange Erlen gratis/Öffnungszeiten aus Vereinsbroschüre (Vereinswebsite lädt Inhalte per JavaScript). Saisonhinweise: Ebenalp Revision 7.–24.4. und 2.11.–24.12.2026; Aescher bis 1.11.; Viamala 26.3.–1.11.; Taminaschlucht 2.5.–25.10.; Kristallhöhle Ostern–1.11.; Corvatsch Winter 21.11.2026–25.4.2027, Sommer 19.6.–22.10.2027 (Winterpreis Fussgänger nicht geprüft, CHF 64 ist Sommer 2026); Hoher Kasten Revision im März; Olympia Bobrun Saisonende nicht publiziert (2026 endete Anfang März); Pferdeomnibus Val Roseg Winterzeiten nicht publiziert; Roseg Gletscher öffnet erst wieder am 5.12.2026. Zügenschlucht bewusst weggelassen (2025 wiederholt wegen Steinschlag gesperrt). Vitra Slide Tower weggelassen (offizielle Seite nicht abrufbar, Gratisnutzung unbelegt). Wanderwege (Il Spir, Acatos, Wiesener Viadukt, Sertig, Val Trupchun, Gletschertöpfe) konservativ auf Mai/Juni–Oktober gesetzt; Winterbegehbarkeit nicht geprüft. Koordinaten aus OSM/Nominatim bzw. Wikipedia; Roseg Gletscher aus Wikipedia-Talkoordinate (CH1903) umgerechnet, nur ungefähr; Viamala = Wikipedia-Koordinate der Schlucht, nicht exakt Besucherzentrum. Reisezeiten in den Trips sind Schätzungen, nicht mit dem SBB-Fahrplan geprüft. Bilder: Commons-Dateien per API (Grösse) geprüft, Thumb-URLs per MD5 gebaut – Abruf von upload.wikimedia.org war wegen Rate-Limit nicht für alle testbar."
+}

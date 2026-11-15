@@ -3,7 +3,8 @@ import { LIVE_ON, skiRows } from "@/lib/ski";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import SkiFinder from "@/components/SkiFinder";
 
-export const revalidate = 1800;
+// Pistenberichte kommen zweimal am Tag, Schnee täglich – alle 15 Minuten neu bauen reicht
+export const revalidate = 900;
 
 const TITLE = "Skigebiete Schweiz: offene Pisten, Schnee und Anreise mit dem Zug";
 const DESC = "Welche Skigebiete sind offen? Pisten je Farbe, Anlagen, Schneehöhe (SLF), Tageskarte und Anreisezeit ab deinem Bahnhof – filterbar, dazu freie Hotels in deiner Preisspanne.";

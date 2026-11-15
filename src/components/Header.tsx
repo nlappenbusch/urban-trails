@@ -25,7 +25,7 @@ export default function Header({ catalog }: { catalog: Catalog }) {
         <Logo />
 
         {/* Desktop-Nav */}
-        <nav className="hidden items-center gap-2 md:flex">
+        <nav className="hidden items-center gap-2 lg:flex">
           {links.map((l) => (
             <Link
               key={l.href}
@@ -47,7 +47,7 @@ export default function Header({ catalog }: { catalog: Catalog }) {
         </nav>
 
         {/* Mobile: CTA + Burger */}
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="flex items-center gap-2 lg:hidden">
           <GameChip catalog={catalog} />
           <button
             onClick={() => setOpen(!open)}
@@ -75,7 +75,7 @@ export default function Header({ catalog }: { catalog: Catalog }) {
 
       {/* Mobile-Panel */}
       {open && (
-        <nav className="border-t border-cream/10 bg-ink-900 md:hidden">
+        <nav className="border-t border-cream/10 bg-ink-900 lg:hidden">
           <div className="container-page flex flex-col py-2">
             {links.map((l) => (
               <Link

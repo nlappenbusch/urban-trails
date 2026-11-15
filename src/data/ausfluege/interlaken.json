@@ -1,0 +1,1692 @@
+{
+  "regions": [
+    {
+      "slug": "interlaken",
+      "name": "Interlaken & Jungfrauregion",
+      "station": "Interlaken Ost",
+      "center": {
+        "lat": 46.6863,
+        "lng": 7.8632
+      }
+    }
+  ],
+  "places": [
+    {
+      "id": "il-youth-hostel-interlaken",
+      "kind": "hotel",
+      "name": "Interlaken Youth Hostel",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Untere Bönigstrasse 3a, 3800 Interlaken",
+      "coords": {
+        "lat": 46.69024,
+        "lng": 7.86771
+      },
+      "url": "https://www.youthhostel.ch/en/hostels/interlaken-youth-hostel",
+      "price": 1,
+      "tags": [
+        "freunde",
+        "familie",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig (Saisonzeiten auf der Website prüfen)",
+      "text": "Moderne Jugendherberge direkt neben dem Bahnhof Interlaken Ost, mit Mehrbettzimmern und öffentlichem Restaurant «3a» im Haus. Vom Bahnsteig bis zur Rezeption sind es nur ein paar Schritte, und am Morgen bist du als Erste am Zug Richtung Jungfrau.",
+      "tip": "Ideal für den Jungfraujoch-Tag: Wer im Haus übernachtet, erwischt ohne Hetze einen der ersten Züge – die sind im Sommer oft günstiger.",
+      "source": "https://www.youthhostel.ch/en/hostels/interlaken-youth-hostel",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-hotel-interlaken",
+      "kind": "hotel",
+      "name": "Hotel Interlaken",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Höheweg 74, 3800 Interlaken",
+      "coords": {
+        "lat": 46.68857,
+        "lng": 7.86331
+      },
+      "url": "https://www.hotelinterlaken.ch",
+      "price": 3,
+      "tags": [
+        "kultur",
+        "genuss",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Das Haus am östlichen Ende des Höhewegs geht auf eine Herberge des Klosters von 1323 zurück und gilt als eines der ältesten Hotels der Schweiz; im ersten Stock ist der alte Gerichtssaal erhalten. Gleich daneben liegt der Japanische Garten, und zum Bahnhof Interlaken Ost sind es nur wenige Gehminuten.",
+      "tip": "Praktisch für die Abreise: Mit Gepäck bist du in wenigen Minuten am Zug, ohne den ganzen Höheweg entlangzurollen.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Hotel_Interlaken.jpg/1280px-Hotel_Interlaken.jpg",
+        "alt": "Hotel Interlaken am Höheweg",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_Interlaken.jpg"
+      },
+      "source": "https://en.wikipedia.org/wiki/Hotel_Interlaken",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-victoria-jungfrau",
+      "kind": "hotel",
+      "name": "Victoria-Jungfrau Grand Hotel & Spa",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Höheweg 41, 3800 Interlaken",
+      "coords": {
+        "lat": 46.68647,
+        "lng": 7.85708
+      },
+      "url": "https://www.victoria-jungfrau.ch",
+      "price": 4,
+      "tags": [
+        "wellness",
+        "romantisch",
+        "genuss",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Die «Grande Dame» am Höheweg schaut über die Höhematte direkt auf die Jungfrau. Das Haus hat ein Spa mit 5500 Quadratmetern, Sole-Sprudelbad im Freien und mehrere Restaurants, darunter das Radius mit Produkten aus einem Umkreis von 50 Kilometern.",
+      "tip": "Das Spa ist für Hotelgäste täglich von 7 bis 21 Uhr offen – plan den Nachmittag nach dem Jungfraujoch hier ein, dann ist der Pool ruhiger als am Abend.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Victoria_Jungfrau_Interlaken_2022-10-02_01.jpg/1280px-Victoria_Jungfrau_Interlaken_2022-10-02_01.jpg",
+        "alt": "Fassade des Hotels Victoria-Jungfrau in Interlaken",
+        "credit": "https://commons.wikimedia.org/wiki/File:Victoria_Jungfrau_Interlaken_2022-10-02_01.jpg"
+      },
+      "source": "https://www.victoria-jungfrau.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-schuh",
+      "kind": "cafe",
+      "name": "Schuh – Café, Restaurant & Confiserie",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Höheweg 56, 3800 Interlaken",
+      "coords": {
+        "lat": 46.68556,
+        "lng": 7.85677
+      },
+      "url": "https://www.schuh-interlaken.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest",
+        "aussicht"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Sa 10–23, So 10–20 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "20:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "23:00"
+            ]
+          ]
+        }
+      },
+      "text": "Traditionshaus an der Höhematte mit eigener Confiserie, Café und Restaurant unter einem Dach. Im Garten sitzt du mit Blick auf die Jungfrau, drinnen gibt es Pralinés und Patisserie zum Mitnehmen.",
+      "tip": "Am Abreisetag hier einen Kaffee nehmen und Pralinés aus der eigenen Confiserie als Mitbringsel kaufen – der Bahnhof Interlaken Ost ist rund 15 Minuten zu Fuss entfernt.",
+      "source": "https://www.schuh-interlaken.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-restaurant-laterne",
+      "kind": "restaurant",
+      "name": "Restaurant Laterne",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Obere Bönigstrasse 18, 3800 Interlaken",
+      "coords": {
+        "lat": 46.68369,
+        "lng": 7.87054
+      },
+      "url": "http://www.restaurant-laterne.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So Ruhetag; warme Küche 11.30–13.30 und 18–21 Uhr",
+      "open": {
+        "week": {
+          "0": [],
+          "1": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "2": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "3": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "4": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "11:30",
+              "13:30"
+            ],
+            [
+              "18:00",
+              "21:00"
+            ]
+          ]
+        }
+      },
+      "text": "Bodenständiges Quartierrestaurant ein paar Minuten vom Bahnhof Interlaken Ost, abseits der Touristenmeile am Höheweg. Auf den Tisch kommen Rösti, Fleischklassiker und Wild in der Saison, mittags gibt es ein günstiges Tagesmenü.",
+      "tip": "Die Küche schliesst um 21 Uhr – nach einem langen Bergtag lieber vorher reservieren.",
+      "source": "https://www.interlaken.swiss/planen/restaurants/gastro/restaurant-laterne-interlaken",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-huesi-bierhaus",
+      "kind": "bar",
+      "name": "Hüsi Bierhaus",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Postgasse 3, 3800 Interlaken",
+      "coords": {
+        "lat": 46.6861,
+        "lng": 7.85467
+      },
+      "url": "https://huesi-bierhaus.com/de/",
+      "price": 2,
+      "tags": [
+        "freunde",
+        "genuss",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Di Ruhetag",
+      "open": {
+        "week": {
+          "2": []
+        }
+      },
+      "text": "Brewpub mit Biergarten und Pub-Stube in einer Seitengasse beim Bahnhof Interlaken West, wo nebenan selbst gebraut wird. Dazu gibt es regionale und Schweizer Küche – ein unkomplizierter Ort für den Abend nach einem nassen Tag.",
+      "tip": "Frag nach den Bieren vom Hahn, die gerade frisch gebraut sind, und probier dich mit kleinen Gläsern durch.",
+      "source": "https://www.interlaken.swiss/planen/restaurants/gastro/huesi-bierhaus-und-restaurant",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-panorama-restaurant-harder-kulm",
+      "kind": "restaurant",
+      "name": "Panorama-Restaurant Harder Kulm",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Harder Kulm, 3800 Interlaken",
+      "coords": {
+        "lat": 46.69727,
+        "lng": 7.85166
+      },
+      "url": "https://restaurantharderkulm.ch/de",
+      "price": 3,
+      "tags": [
+        "aussicht",
+        "genuss",
+        "romantisch",
+        "berg"
+      ],
+      "weatherProof": true,
+      "season": "Anfang April bis Ende November",
+      "hours": "während der Bahnsaison täglich",
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "text": "Das Restaurant mit den Türmchen sitzt 1322 Meter hoch direkt über Interlaken und ist nur mit der Harderbahn oder zu Fuss erreichbar. Spezialität ist Käsefondue in drei Varianten, etwa «Eigernordwand» mit Speck, Zwiebeln und Knoblauch.",
+      "tip": "Im Sommer spielen ab 18.30 Uhr Alphornbläser auf der Terrasse – reservier einen Tisch draussen auf diese Zeit.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Harder_Kulm.JPG/1280px-Harder_Kulm.JPG",
+        "alt": "Das Panorama-Restaurant Harder Kulm mit seinem spitzen Türmchen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Harder_Kulm.JPG"
+      },
+      "source": "https://restaurantharderkulm.ch/de",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-berghotel-schynige-platte",
+      "kind": "restaurant",
+      "name": "Berghotel Schynige Platte – Panorama-Restaurant",
+      "region": "interlaken",
+      "town": "Wilderswil",
+      "address": "Schynige Platte, 3812 Wilderswil",
+      "coords": {
+        "lat": 46.65119,
+        "lng": 7.90953
+      },
+      "url": "https://www.jungfrau.ch/de-ch/schynige-platte/panorama-restaurant-und-hotel/",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "genuss",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "Mitte Juni bis Ende Oktober (mit der Bahn)",
+      "open": {
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "text": "Das Berghotel steht oben an der Zahnradbahn und hat eine Sonnenterrasse mit Blick auf Eiger, Mönch und Jungfrau. Gekocht wird traditionelle Schweizer Küche; seit 2026 führen neue Pächter das Haus.",
+      "tip": "Zwischen 11 und 14 Uhr spielen bei der Bahnstation Alphornbläser – iss früh, dann hast du die Musik zum Dessert.",
+      "source": "https://www.jungfrau.ch/de-ch/unternehmen/news/die-schynige-platte-bahn-startet-in-die-neue-saison-mit-neuen-paechtern-im-berghotel-und-neuem-raetselweg/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-berggasthaus-first",
+      "kind": "restaurant",
+      "name": "Berggasthaus First",
+      "region": "interlaken",
+      "town": "Grindelwald",
+      "address": "First, 3818 Grindelwald",
+      "coords": {
+        "lat": 46.65955,
+        "lng": 8.05374
+      },
+      "url": "https://www.jungfrau.ch/de-ch/grindelwaldfirst/",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "mit der Firstbahn (Revision im Spätherbst)",
+      "text": "Berggasthaus auf 2167 Metern direkt bei der Bergstation, wo auch der Cliff Walk endet. Auf der Terrasse schaust du frontal auf die Eigernordwand, serviert werden Schweizer Klassiker.",
+      "tip": "Am Mittag ist die Terrasse schnell voll – geh zuerst an den Bachalpsee und iss danach um halb eins oder später.",
+      "source": "https://www.jungfrau.ch/de-ch/grindelwaldfirst/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-alter-baeren-ballenberg",
+      "kind": "restaurant",
+      "name": "Wirtshaus «Alter Bären» im Ballenberg",
+      "region": "interlaken",
+      "town": "Hofstetten bei Brienz",
+      "address": "Freilichtmuseum Ballenberg, 3858 Hofstetten bei Brienz",
+      "coords": null,
+      "url": "https://ballenberg.ch/en/plan-your-visit/food-and-drink/alter-baeren-restaurant/",
+      "price": 2,
+      "tags": [
+        "familie",
+        "genuss",
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "während der Museumssaison (Mitte April bis Anfang November)",
+      "hours": "täglich während der Museumssaison; nur mit Museumseintritt",
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "text": "Wirtshaus in einem Bauernhaus aus Rapperswil BE, das schon im 19. Jahrhundert eine Gaststube war und im Museum wieder eine ist. Es gibt Berner Spezialitäten, deftige Teller und kleine Snacks für zwischendurch.",
+      "tip": "Zum Zvieri den hausgemachten Fruchtkuchen mit Rahm bestellen – das empfiehlt sogar das Museum selbst.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/KGS_8545_Wirtshaus_Alter_Baeren.jpg/1280px-KGS_8545_Wirtshaus_Alter_Baeren.jpg",
+        "alt": "Wirtshausschild des «Alten Bären» im Ballenberg",
+        "credit": "https://commons.wikimedia.org/wiki/File:KGS_8545_Wirtshaus_Alter_Baeren.jpg"
+      },
+      "source": "https://ballenberg.ch/en/plan-your-visit/food-and-drink/alter-baeren-restaurant/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-harder-kulm",
+      "kind": "aussicht",
+      "name": "Harder Kulm mit Zwei-Seen-Steg",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Talstation Harderbahn, 3800 Interlaken",
+      "coords": {
+        "lat": 46.69727,
+        "lng": 7.85166
+      },
+      "url": "https://www.jungfrau.ch/de-ch/berge/harder-kulm/",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "romantisch",
+        "see"
+      ],
+      "weatherProof": false,
+      "season": "Anfang April bis Ende November",
+      "hours": "Bahn täglich während der Saison, auch Abendfahrten zum Sonnenuntergang",
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "durationMin": 90,
+      "text": "Die Standseilbahn bringt dich in zehn Minuten vom Bahnhof Interlaken Ost auf 1322 Meter. Vom Zwei-Seen-Steg schaust du gleichzeitig auf Thuner- und Brienzersee und geradeaus auf Eiger, Mönch und Jungfrau – lohnt sich nur bei klarer Sicht.",
+      "tip": "Komm eine Stunde vor Sonnenuntergang hoch; vom 1. bis 29. November gibt es ein Saisonschluss-Angebot mit Bahnfahrt und Konsumationsgutschein für CHF 44 (mit Halbtax CHF 34).",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Harder_Kulm_Unterseen_%282%29.jpg/1280px-Harder_Kulm_Unterseen_%282%29.jpg",
+        "alt": "Restaurant Harder Kulm hoch über Interlaken, dahinter der Thunersee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Harder_Kulm_Unterseen_(2).jpg"
+      },
+      "source": "https://www.jungfrau.ch/de-ch/harder-kulm/saisonschlussangebot-harder-kulm-2026/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-schynige-platte",
+      "kind": "aussicht",
+      "name": "Schynige Platte mit Alpengarten und Panoramaweg",
+      "region": "interlaken",
+      "town": "Wilderswil",
+      "address": "Talstation Bahnhof Wilderswil, 3812 Wilderswil",
+      "coords": {
+        "lat": 46.652289,
+        "lng": 7.911301
+      },
+      "url": "https://www.jungfrau.ch/de-ch/berge/schynige-platte/",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "aktiv",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": false,
+      "season": "Mitte Juni bis Ende Oktober",
+      "open": {
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 300,
+      "text": "Die Zahnradbahn von 1893 zuckelt in rund einer Stunde von Wilderswil auf knapp 2000 Meter. Oben führt ein Panoramaweg in etwa zweieinhalb Stunden über den Grat mit Tiefblick auf Interlaken und die beiden Seen, daneben liegt ein botanischer Alpengarten mit rund 800 Alpenpflanzen.",
+      "tip": "Setz dich bergwärts auf die rechte Seite der Bahn, dann hast du die Jungfrau im Fenster; für Kinder gibt es Lilys Rätselweg (ca. 45 Min.).",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bergstation_mit_Z%C3%BCgen_der_Schynige-Platte-Bahn_%282010%29.jpg/1280px-Bergstation_mit_Z%C3%BCgen_der_Schynige-Platte-Bahn_%282010%29.jpg",
+        "alt": "Bergstation der Schynige-Platte-Bahn mit historischen Zügen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Bergstation_mit_Z%C3%BCgen_der_Schynige-Platte-Bahn_(2010).jpg"
+      },
+      "source": "https://www.jungfrau.ch/de-ch/berge/schynige-platte/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-grindelwald-first",
+      "kind": "aktivitaet",
+      "name": "Grindelwald-First mit Cliff Walk und Bachalpsee",
+      "region": "interlaken",
+      "town": "Grindelwald",
+      "address": "Talstation Firstbahn, 3818 Grindelwald",
+      "coords": {
+        "lat": 46.65918,
+        "lng": 8.05953
+      },
+      "url": "https://www.jungfrau.ch/de-ch/grindelwaldfirst/",
+      "price": 3,
+      "tags": [
+        "aussicht",
+        "berg",
+        "aktiv",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig, Revision im Spätherbst (etwa Ende Oktober bis Ende November)",
+      "open": {
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ]
+      },
+      "durationMin": 300,
+      "text": "Die Gondelbahn fährt in 25 Minuten über Bort und Schreckfeld auf First. Dort führt der Cliff Walk an der Felswand entlang zu einem Steg, der 45 Meter über den Abgrund hinausragt, und in knapp einer Stunde wanderst du zum Bachalpsee, in dem sich bei Windstille Schreck- und Wetterhorn spiegeln.",
+      "tip": "Für den Rückweg ins Tal kannst du mit First Flyer oder Glider bis Schreckfeld, mit dem Mountain Cart bis Bort und mit dem Trottibike bis Grindelwald fahren – die Tickets gibt es an der Talstation.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg/1280px-Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg",
+        "alt": "Cliff Walk auf First mit Blick zum Eiger",
+        "credit": "https://commons.wikimedia.org/wiki/File:Cliff-Walk_First_Grindelwald._Sicht_auf_den_Eiger.jpg"
+      },
+      "source": "https://www.jungfrau.ch/de-ch/grindelwaldfirst/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-jungfraujoch",
+      "kind": "aussicht",
+      "name": "Jungfraujoch – Top of Europe",
+      "region": "interlaken",
+      "town": "Grindelwald / Lauterbrunnen",
+      "address": "Jungfraujoch, 3801 Fieschertal (Bergstation)",
+      "coords": {
+        "lat": 46.5485,
+        "lng": 7.983
+      },
+      "url": "https://www.jungfrau.ch/de-ch/jungfraujoch-top-of-europe/",
+      "price": 4,
+      "tags": [
+        "aussicht",
+        "berg"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 480,
+      "text": "Über Grindelwald Terminal, Eiger Express und Jungfraubahn fährst du in rund anderthalb Stunden auf 3454 Meter zum höchstgelegenen Bahnhof Europas. Oben warten Sphinx-Terrasse mit Blick auf den Aletschgletscher, Eispalast und Gletscherplateau – das Ganze ist aber teuer und lohnt sich nur bei klarem Wetter, also vorher die Webcam anschauen.",
+      "tip": "Von Mai bis Oktober ist eine Sitzplatzreservation für CHF 10 Pflicht; mit dem Good Morning Ticket auf einem der ersten beiden Züge sparst du 20 Prozent (nicht mit Halbtax kombinierbar).",
+      "priceInfo": {
+        "from": 190.4,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Tiefstpreis Good Morning Ticket (Mai–Okt., erste zwei Züge, nicht mit Halbtax kombinierbar); reguläre Fahrt ab Interlaken Ost deutlich teurer, mit Halbtax günstiger – genauen Preis im Preisrechner auf jungfrau.ch prüfen; plus Sitzplatzreservation CHF 10 (Mai–Okt.)"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sphinx_at_Jungfraujoch_2022-10-02_01.jpg/1280px-Sphinx_at_Jungfraujoch_2022-10-02_01.jpg",
+        "alt": "Sphinx-Observatorium auf dem Jungfraujoch",
+        "credit": "https://commons.wikimedia.org/wiki/File:Sphinx_at_Jungfraujoch_2022-10-02_01.jpg"
+      },
+      "source": "https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/good-morning-ticket/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-staubbachfall",
+      "kind": "aussicht",
+      "name": "Staubbachfall",
+      "region": "interlaken",
+      "town": "Lauterbrunnen",
+      "address": "Dorf Lauterbrunnen, 3822 Lauterbrunnen",
+      "coords": {
+        "lat": 46.58965,
+        "lng": 7.905505
+      },
+      "url": "https://lauterbrunnen.swiss/en/map/detail/staubbachfall-waterfall-72e97e9f-26fb-4ec2-ba72-c035d9d03e75.html",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "gratis",
+        "familie",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig sichtbar; Weg zum Fuss des Falls nur im Sommer",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 45,
+      "text": "Mit rund 297 Metern ist er der höchste frei fallende Wasserfall der Schweiz und stürzt direkt hinter dem Dorf über die Felswand. Ein gepflegter Weg führt im Sommer bis an den Fuss, wo dir die Gischt ins Gesicht weht.",
+      "tip": "Am kräftigsten ist er im Frühling und Frühsommer zur Schneeschmelze; an Sommerabenden leuchtet die Gischt im Gegenlicht.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Staubbachfall%2C_Lauterbrunnen%2C_Switzerland_%2850098355287%29.jpg/1280px-Staubbachfall%2C_Lauterbrunnen%2C_Switzerland_%2850098355287%29.jpg",
+        "alt": "Der Staubbachfall stürzt über die Felswand bei Lauterbrunnen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Staubbachfall,_Lauterbrunnen,_Switzerland_(50098355287).jpg"
+      },
+      "source": "https://lauterbrunnen.swiss/en/map/detail/staubbachfall-waterfall-72e97e9f-26fb-4ec2-ba72-c035d9d03e75.html",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-truemmelbachfaelle",
+      "kind": "sehenswuerdigkeit",
+      "name": "Trümmelbachfälle",
+      "region": "interlaken",
+      "town": "Lauterbrunnen",
+      "address": "Trümmelbach, 3822 Lauterbrunnen",
+      "coords": {
+        "lat": 46.5695875,
+        "lng": 7.91394444
+      },
+      "url": "https://truemmelbachfaelle.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": true,
+      "season": "Anfang April bis Anfang November",
+      "hours": "täglich 9–17 Uhr, Juli/August 8.30–18 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "durationMin": 75,
+      "text": "Zehn Gletscherwasserfälle donnern hier im Inneren des Berges hinunter – ein Tunnellift bringt dich hoch, dann gehst du über Treppen und Galerien wieder abwärts. Bis zu 20'000 Liter pro Sekunde führen im Sommer das Schmelzwasser von Eiger, Mönch und Jungfrau ab.",
+      "tip": "Nimm eine Jacke mit, drinnen ist es nass und kühl; Kinder unter vier Jahren, Kinderwagen und Hunde sind nicht zugelassen.",
+      "priceInfo": {
+        "from": 18,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–15 CHF 8, unter 4 Jahren kein Zutritt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tr%C3%BCmmelbachf%C3%A4lle_im_Lauterbrunnental_29.07.2009_09-43-56.JPG/1280px-Tr%C3%BCmmelbachf%C3%A4lle_im_Lauterbrunnental_29.07.2009_09-43-56.JPG",
+        "alt": "Tosendes Wasser in den Trümmelbachfällen im Lauterbrunnental",
+        "credit": "https://commons.wikimedia.org/wiki/File:Tr%C3%BCmmelbachf%C3%A4lle_im_Lauterbrunnental_29.07.2009_09-43-56.JPG"
+      },
+      "source": "https://jungfrauregion.swiss/en/summer/see-and-do/excursions/trip-destinations/truemmelbach-waterfalls",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-brienz-rothorn-bahn",
+      "kind": "aktivitaet",
+      "name": "Brienz Rothorn Bahn",
+      "region": "interlaken",
+      "town": "Brienz",
+      "address": "Hauptstrasse 149, 3855 Brienz",
+      "coords": {
+        "lat": 46.75521,
+        "lng": 8.03809
+      },
+      "url": "https://www.brienz-rothorn-bahn.ch",
+      "price": 3,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "kultur",
+        "see"
+      ],
+      "weatherProof": false,
+      "season": "Juni bis Oktober bis Rothorn Kulm, ab Mai bis Planalp",
+      "hours": "ab Brienz ca. 8.36–16.36 Uhr, letzte Talfahrt ab Rothorn Kulm ca. 17.40 Uhr",
+      "open": {
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 240,
+      "text": "Die Zahnradbahn mit historischen Dampfloks schnauft vom Seeufer in Brienz auf das Brienzer Rothorn, auf über 2200 Meter. Oben siehst du über den türkisfarbenen Brienzersee bis zu den Berner Alpen; am Gipfel steht das Berghaus Rothorn Kulm.",
+      "tip": "Frag beim Ticketkauf, ob dein Zug mit Dampf fährt – die Bahn setzt neben Dampf- auch Dieselloks ein, die bis 2028 auf Batterie umgebaut werden.",
+      "priceInfo": {
+        "from": 98,
+        "unit": "Retourbillett Erwachsene",
+        "note": "mit Halbtax CHF 49; Kinder 6–15 laut Preisliste CHF 10, unter 6 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/2006-Brienz-Brienzer-Rothornbahn-Dampf.jpg/1280px-2006-Brienz-Brienzer-Rothornbahn-Dampf.jpg",
+        "alt": "Dampfzug der Brienz Rothorn Bahn in Brienz",
+        "credit": "https://commons.wikimedia.org/wiki/File:2006-Brienz-Brienzer-Rothornbahn-Dampf.jpg"
+      },
+      "source": "https://brienz-rothorn-bahn.ch/fahrplan-preise/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-ballenberg",
+      "kind": "sehenswuerdigkeit",
+      "name": "Ballenberg, Freilichtmuseum der Schweiz",
+      "region": "interlaken",
+      "town": "Hofstetten bei Brienz",
+      "address": "Museumsstrasse 100, 3858 Hofstetten bei Brienz",
+      "coords": {
+        "lat": 46.75064,
+        "lng": 8.07829
+      },
+      "url": "https://ballenberg.ch",
+      "price": 2,
+      "tags": [
+        "familie",
+        "kultur",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "Mitte April bis Anfang November",
+      "hours": "täglich 10–17 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "durationMin": 300,
+      "text": "Auf 66 Hektaren stehen über 100 historische Bauernhäuser, Stadel und Werkstätten aus allen Landesteilen, dazwischen leben über 200 Bauernhoftiere. In vielen Häusern wird vorgeführt, wie früher gewoben, geschmiedet oder Käse gemacht wurde – rechne mit einem halben Tag, und auch dann siehst du nicht alles.",
+      "tip": "Online-Tickets sind 10 Prozent günstiger; am Eingang West in Hofstetten kannst du einen Bollerwagen für die Kinder ausleihen.",
+      "priceInfo": {
+        "from": 32,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–16 CHF 16, Familien CHF 72, online 10 % günstiger; Swiss Travel Pass/Museumspass gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/KGS_8545_-_Freilichtmuseum_Ballenberg_%281031%2C_Wohnhaus%2C_Brienz_BE%2C_1776%29.jpg/1280px-KGS_8545_-_Freilichtmuseum_Ballenberg_%281031%2C_Wohnhaus%2C_Brienz_BE%2C_1776%29.jpg",
+        "alt": "Wohnhaus aus Brienz von 1776 im Freilichtmuseum Ballenberg",
+        "credit": "https://commons.wikimedia.org/wiki/File:KGS_8545_-_Freilichtmuseum_Ballenberg_(1031,_Wohnhaus,_Brienz_BE,_1776).jpg"
+      },
+      "source": "https://ballenberg.ch/de/besuch-planen/tickets-preise/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-beatushoehlen",
+      "kind": "sehenswuerdigkeit",
+      "name": "St. Beatus-Höhlen",
+      "region": "interlaken",
+      "town": "Sundlauenen",
+      "address": "Staatsstrasse 30, 3800 Sundlauenen",
+      "coords": {
+        "lat": 46.68379,
+        "lng": 7.78249
+      },
+      "url": "https://www.beatushoehlen.swiss",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie",
+        "kultur",
+        "see"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Revision etwa Mitte November",
+      "hours": "Sommer täglich 9–18 Uhr (Fr/Sa bis 21 Uhr); Winter Mo–Fr und So 10–17, Sa 10–18.30 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "1": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "2": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "3": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "10:00",
+              "17:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 90,
+      "text": "Auf rund einem Kilometer Weg gehst du durch Tropfsteingrotten, Schluchten und an unterirdischen Wasserfällen vorbei tief in den Fels über dem Thunersee. In der Höhle ist es das ganze Jahr 8 bis 10 Grad, der Eintritt gilt auch für das Höhlenmuseum.",
+      "tip": "Bus 21 ab Interlaken West hält bei «Beatushöhlen»; von dort sind es zehn Minuten zu Fuss durch den Wald. Warme Jacke und rutschfeste Schuhe mitnehmen.",
+      "priceInfo": {
+        "from": 20,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–16 CHF 12, Familien CHF 52, inkl. Höhlenmuseum"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Saint_Beatus_Caves_-_2023-07-19_16-19-19_2427.jpg/1280px-Saint_Beatus_Caves_-_2023-07-19_16-19-19_2427.jpg",
+        "alt": "Im Inneren der St. Beatus-Höhlen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Saint_Beatus_Caves_-_2023-07-19_16-19-19_2427.jpg"
+      },
+      "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/st-beatus-hoehlen-entdecken",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-giessbach",
+      "kind": "sehenswuerdigkeit",
+      "name": "Giessbachfälle mit Giessbachbahn",
+      "region": "interlaken",
+      "town": "Brienz",
+      "address": "Giessbach, 3855 Brienz",
+      "coords": {
+        "lat": 46.7349,
+        "lng": 8.0225
+      },
+      "url": "https://www.giessbach.ch",
+      "price": 1,
+      "tags": [
+        "see",
+        "romantisch",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": false,
+      "season": "Bahn April bis Anfang Dezember (mit den Schiffen)",
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "durationMin": 120,
+      "text": "Vom Schiffsteg Giessbach See fährt die Standseilbahn von 1879 hinauf zum Grandhotel, hinter dem der Giessbach in 14 Stufen über die Felsen stürzt. Auf dem Wanderweg gehst du auf einer Brücke sogar hinter dem Wasserfall durch.",
+      "tip": "Mit dem Auto kommst du nur mit vorher online gekauftem Zufahrtsticket hinauf – mit Schiff und Standseilbahn ist die Anreise ohnehin schöner.",
+      "priceInfo": {
+        "from": 14,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Giessbachbahn; Kinder 6–16 CHF 7, bis 5 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Brienz_-_Grandhotel_Giessbach%2C_Giessbachbahn_%26_Schiffl%C3%A4nde_Giessbach-See_%282014%29.jpg/1280px-Brienz_-_Grandhotel_Giessbach%2C_Giessbachbahn_%26_Schiffl%C3%A4nde_Giessbach-See_%282014%29.jpg",
+        "alt": "Grandhotel Giessbach mit Schiffsteg und Giessbachbahn am Brienzersee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Brienz_-_Grandhotel_Giessbach,_Giessbachbahn_%26_Schiffl%C3%A4nde_Giessbach-See_(2014).jpg"
+      },
+      "source": "https://shop.giessbach.ch/en/funicular-tickets",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-aareschlucht",
+      "kind": "sehenswuerdigkeit",
+      "name": "Aareschlucht",
+      "region": "interlaken",
+      "town": "Meiringen",
+      "address": "Aareschluchtstrasse 3, 3860 Meiringen",
+      "coords": {
+        "lat": 46.71791667,
+        "lng": 8.21369722
+      },
+      "url": "https://www.aareschlucht.ch",
+      "price": 1,
+      "tags": [
+        "aktiv",
+        "familie",
+        "berg"
+      ],
+      "weatherProof": false,
+      "season": "Ende März bis Anfang November",
+      "hours": "täglich 8.30–17.30 Uhr, Mitte Juni bis Mitte September bis 18.30 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "1": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "2": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "3": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "4": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "5": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ],
+          "6": [
+            [
+              "08:30",
+              "17:30"
+            ]
+          ]
+        },
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 90,
+      "text": "Zwischen Meiringen und Innertkirchen hat sich die Aare eine 1,4 Kilometer lange, enge Schlucht in den Kalkfels gefressen; auf Stegen und durch Felsgalerien gehst du dem grünen Wasser entlang. Für die ganze Strecke in eine Richtung brauchst du etwa eine bis anderthalb Stunden.",
+      "tip": "Im Juli und August ist die Schlucht freitags und samstags bis 22 Uhr beleuchtet – ein Abendbesuch ist deutlich ruhiger.",
+      "priceInfo": {
+        "from": 13,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–15 CHF 8, Kombi mit Reichenbachfall CHF 25"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Aareschlucht_0031.jpg/1280px-Aareschlucht_0031.jpg",
+        "alt": "In der Aareschlucht bei Meiringen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Aareschlucht_0031.jpg"
+      },
+      "source": "https://aareschlucht.ch/de/Info/informationen",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-schifffahrt-brienzersee",
+      "kind": "aktivitaet",
+      "name": "Schifffahrt Brienzersee (BLS)",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Schiffstation Interlaken Ost, 3800 Interlaken",
+      "coords": {
+        "lat": 46.69169,
+        "lng": 7.86918
+      },
+      "url": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/schifffahrt-brienzersee",
+      "price": 2,
+      "tags": [
+        "see",
+        "familie",
+        "romantisch",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "Anfang April bis Anfang Dezember",
+      "open": {
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "durationMin": 75,
+      "text": "Die Kursschiffe fahren vom Hafen beim Bahnhof Interlaken Ost über Iseltwald und Giessbach nach Brienz; bis Giessbach brauchst du rund eine Stunde. Im Sommer ist auch der Raddampfer «Lötschberg» von 1914 unterwegs, mit Spielkajüte für Kinder.",
+      "tip": "Setz dich auf der Fahrt nach Brienz auf die rechte Seite: Dort ziehen Iseltwald und die Giessbachfälle vorbei.",
+      "priceInfo": {
+        "from": 83,
+        "unit": "Tageskarte Thuner- und Brienzersee 2. Klasse",
+        "note": "mit Halbtax CHF 41.50, Kinder 6–15 CHF 15; Streckenbillette günstiger"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Dampfschiff_L%C3%B6tschberg.JPG/1280px-Dampfschiff_L%C3%B6tschberg.JPG",
+        "alt": "Raddampfer Lötschberg auf dem Brienzersee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Dampfschiff_L%C3%B6tschberg.JPG"
+      },
+      "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/schifffahrt-brienzersee",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-holzbildhauerei-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Schweizer Holzbildhauerei Museum",
+      "region": "interlaken",
+      "town": "Brienz",
+      "address": "Hauptstrasse 111, 3855 Brienz",
+      "coords": {
+        "lat": 46.75431,
+        "lng": 8.03342
+      },
+      "url": "https://www.museum-holzbildhauerei.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "Mai bis Oktober",
+      "hours": "Mi–So; Juni–Sept. 10.30–17, Mai und Okt. 13.30–17 Uhr; Mo/Di geschlossen",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "13:30",
+              "17:00"
+            ]
+          ],
+          "1": [],
+          "2": [],
+          "3": [
+            [
+              "13:30",
+              "17:00"
+            ]
+          ],
+          "4": [
+            [
+              "13:30",
+              "17:00"
+            ]
+          ],
+          "5": [
+            [
+              "13:30",
+              "17:00"
+            ]
+          ],
+          "6": [
+            [
+              "13:30",
+              "17:00"
+            ]
+          ]
+        },
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "durationMin": 75,
+      "text": "Brienz ist seit dem 19. Jahrhundert das Zentrum der Schweizer Holzschnitzerei, und das Museum an der Hauptstrasse zeigt, wie aus einem Holzblock Kühe, Bären und ganze Figurengruppen werden. In der Entdeckerwerkstatt dürfen Kinder selbst Hand anlegen.",
+      "tip": "Kinder haben gratis Eintritt; danach lohnt ein Spaziergang durch die Brunngasse mit ihren alten Holzhäusern im Dorfkern.",
+      "priceInfo": {
+        "from": 8,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder gratis"
+      },
+      "source": "https://www.museum-holzbildhauerei.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-funky-chocolate-club",
+      "kind": "aktivitaet",
+      "name": "Funky Chocolate Club",
+      "region": "interlaken",
+      "town": "Interlaken",
+      "address": "Postgasse 10, 3800 Interlaken",
+      "coords": {
+        "lat": 46.68591,
+        "lng": 7.85486
+      },
+      "url": "https://funkychocolateclub.ch",
+      "price": 3,
+      "tags": [
+        "regenfest",
+        "familie",
+        "genuss",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Workshops täglich, Start meist 12, 14, 16 und 18 Uhr; Anmeldung nötig",
+      "durationMin": 75,
+      "text": "Im Workshop lernst du, wie aus Kakaobohnen Schokolade wird, und giesst und verzierst danach unter Anleitung drei eigene Tafeln, die du mitnimmst. Geeignet für Kinder ab vier Jahren.",
+      "tip": "Bei Regen sind die Kurse schnell ausgebucht – am Vorabend online reservieren.",
+      "source": "https://www.interlaken.swiss/en/experiences/poi/funky-chocolate-club",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "il-boedelibad",
+      "kind": "bad",
+      "name": "Bödelibad Hallenbad & Wellness",
+      "region": "interlaken",
+      "town": "Unterseen",
+      "address": "Goldey, 3800 Unterseen",
+      "coords": null,
+      "url": "https://www.boedelibad.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "familie",
+        "wellness"
+      ],
+      "weatherProof": true,
+      "season": "Hallenbad ganzjährig (Revision im Herbst), Freibad im Sommer",
+      "hours": "Mo 14–21, Di–Fr 9–21 (Mi/Fr ab 7), Sa/So 9–18 Uhr",
+      "open": {
+        "week": {
+          "0": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ],
+          "1": [
+            [
+              "14:00",
+              "21:00"
+            ]
+          ],
+          "2": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "3": [
+            [
+              "07:00",
+              "21:00"
+            ]
+          ],
+          "4": [
+            [
+              "09:00",
+              "21:00"
+            ]
+          ],
+          "5": [
+            [
+              "07:00",
+              "21:00"
+            ]
+          ],
+          "6": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        }
+      },
+      "durationMin": 120,
+      "text": "Das Hallenbad im Goldey-Quartier von Unterseen hat ein 25-Meter-Becken, Sprungbucht und Kinderbecken. Dazu gehören Sauna, Dampfbad und eine Arvensauna – der Wellnesseintritt schliesst das Hallenbad ein.",
+      "tip": "Dienstagmorgen und Donnerstagabend ist der Wellnessbereich für Frauen reserviert; plan Sauna-Besuche zu zweit an den anderen Tagen.",
+      "source": "https://www.interlaken.swiss/erlebnisse/poi/boedelibad-freiluft-und-hallenbad",
+      "checked": "2026-11-15"
+    }
+  ],
+  "trips": [
+    {
+      "slug": "jungfrauregion-klassisch-3-tage",
+      "title": "Jungfrauregion klassisch: drei Tage über den Wolken",
+      "teaser": "Zahnradbahn auf die Schynige Platte, Fondue auf dem Harder, der Sprung aufs Jungfraujoch, Wasserfälle im Lauterbrunnental und zum Schluss der Bachalpsee über Grindelwald.",
+      "region": "interlaken",
+      "days": 3,
+      "moods": [
+        "natur",
+        "aktiv",
+        "genuss",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Mitte Juni bis Mitte Oktober (Schynige Platte fährt nur dann); Tag 2 an einem Werktag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 117
+        },
+        {
+          "from": "Bern",
+          "minutes": 55
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 118
+        }
+      ],
+      "hotelIds": [
+        "il-youth-hostel-interlaken",
+        "il-hotel-interlaken",
+        "il-victoria-jungfrau"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 – Schynige Platte und Abend auf dem Harder",
+          "slots": [
+            {
+              "time": "11:45",
+              "placeId": "il-berghotel-schynige-platte",
+              "title": "Bergfahrt und Zmittag auf der Schynige Platte",
+              "text": "Gepäck im Hotel deponieren, mit der Zahnradbahn ab Wilderswil gemächlich hinauf und oben auf der Sonnenterrasse des Berghotels zu Mittag essen.",
+              "travel": "5 Min. Zug ab Interlaken Ost bis Wilderswil, dann rund 1 Std. Zahnradbahn"
+            },
+            {
+              "time": "13:00",
+              "placeId": "il-schynige-platte",
+              "title": "Panoramaweg und Alpengarten",
+              "text": "Rund zweieinhalb Stunden auf dem Panoramaweg über den Grat mit Tiefblick auf beide Seen, danach eine Runde durch den Alpengarten bei der Bahnstation und gegen 16.30 Uhr wieder talwärts.",
+              "travel": "direkt ab Berghotel",
+              "rain": {
+                "placeId": "il-beatushoehlen",
+                "title": "St. Beatus-Höhlen statt Grat",
+                "text": "Bei Regen oder Nebel bleibst du unten und fährst mit Bus 21 ab Interlaken West zu den Beatushöhlen am Thunersee – drinnen ist das Wetter egal."
+              }
+            },
+            {
+              "time": "18:30",
+              "placeId": "il-harder-kulm",
+              "title": "Sonnenuntergang auf dem Harder",
+              "text": "Kurz ins Hotel, dann mit der Harderbahn hinauf und vom Zwei-Seen-Steg zuschauen, wie das Licht auf Eiger, Mönch und Jungfrau wandert.",
+              "travel": "ca. 1 Std. Zahnradbahn bis Wilderswil, 5 Min. Zug bis Interlaken Ost; ca. 5 Min. zu Fuss zur Talstation, 10 Min. Standseilbahn",
+              "rain": {
+                "title": "Kein Sonnenuntergang bei Wolken",
+                "text": "Wenn der Harder in Wolken steckt, lohnt sich die Fahrt nicht – dann lieber direkt zum Znacht im Tal."
+              }
+            },
+            {
+              "time": "19:30",
+              "placeId": "il-panorama-restaurant-harder-kulm",
+              "title": "Fondue auf Harder Kulm",
+              "text": "Käsefondue im Turmrestaurant hoch über Interlaken – die Variante «Eigernordwand» mit Speck und Zwiebeln ist die deftigste.",
+              "travel": "wenige Schritte vom Aussichtssteg",
+              "rain": {
+                "placeId": "il-huesi-bierhaus",
+                "title": "Hüsi Bierhaus im Tal",
+                "text": "Ist der Harder zu, gehst du ins Hüsi Bierhaus an der Postgasse (dienstags Ruhetag)."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Mo–Fr) – Jungfraujoch und Lauterbrunnental",
+          "slots": [
+            {
+              "time": "08:04",
+              "placeId": "il-jungfraujoch",
+              "title": "Hinauf aufs Jungfraujoch",
+              "text": "Mit einem der ersten Züge nach Grindelwald Terminal, mit dem Eiger Express zum Eigergletscher und weiter durch den Berg auf 3454 Meter; oben Sphinx-Terrasse, Eispalast und Plateau, Zmittag in einem der Restaurants.",
+              "travel": "ca. 1 Std. 37 Min. ab Interlaken Ost (Zug, Eiger Express, Jungfraubahn)",
+              "rain": {
+                "placeId": "il-funky-chocolate-club",
+                "title": "Schoggi-Workshop statt Wolkenwand",
+                "text": "Zeigt die Webcam am Morgen nur Nebel, sparst du dir das teure Ticket und giesst stattdessen im Funky Chocolate Club deine eigenen Tafeln (Start 12 Uhr, vorher anmelden)."
+              }
+            },
+            {
+              "time": "14:45",
+              "placeId": "il-staubbachfall",
+              "title": "Staubbachfall",
+              "text": "Gegen 12.45 Uhr nicht über Grindelwald, sondern via Kleine Scheidegg und Wengen hinunter ins Lauterbrunnental fahren – so siehst du die ganze Runde. Dann durchs Dorf zum fast 300 Meter hohen Fall und im Sommer auf dem Weg bis an seinen Fuss.",
+              "travel": "ca. 1 Std. 40 Min. Bahn ab Jungfraujoch bis Lauterbrunnen, dann 10 Min. zu Fuss",
+              "rain": {
+                "title": "Kurzer Blick vom Dorf",
+                "text": "Bei starkem Regen genügt der Blick von der Dorfstrasse – der Fall ist dann sogar kräftiger; danach direkt weiter zu den Trümmelbachfällen im Berg."
+              }
+            },
+            {
+              "time": "15:30",
+              "placeId": "il-truemmelbachfaelle",
+              "title": "Trümmelbachfälle im Berg",
+              "text": "Mit dem Tunnellift hinauf und zu Fuss an zehn tosenden Gletscherwasserfällen vorbei wieder hinunter – letzter Einlass vor 17 Uhr beachten.",
+              "travel": "7 Min. Bus 141 ab Lauterbrunnen Bahnhof"
+            },
+            {
+              "time": "19:00",
+              "placeId": "il-restaurant-laterne",
+              "title": "Znacht in der Laterne",
+              "text": "Rösti, Fleischklassiker oder Wild aus der Saisonkarte im Quartierrestaurant nahe Interlaken Ost.",
+              "travel": "Bus zurück nach Lauterbrunnen, 22 Min. Zug bis Interlaken Ost, 5 Min. zu Fuss"
+            }
+          ]
+        },
+        {
+          "title": "Tag 3 – Grindelwald-First und Bachalpsee",
+          "slots": [
+            {
+              "time": "08:35",
+              "placeId": "il-grindelwald-first",
+              "title": "Cliff Walk und Bachalpsee",
+              "text": "Mit der Gondel auf First, über den Cliff Walk an der Felswand entlang und in knapp einer Stunde hinüber zum Bachalpsee – hin und zurück rund zwei Stunden.",
+              "travel": "36 Min. Zug ab Interlaken Ost bis Grindelwald, 10 Min. zu Fuss zur Talstation, 25 Min. Gondel",
+              "rain": {
+                "placeId": "il-boedelibad",
+                "title": "Bödelibad statt Berg",
+                "text": "Hängen die Wolken tief, bleibst du in Interlaken und gehst ins Hallenbad mit Sauna im Bödelibad."
+              }
+            },
+            {
+              "time": "12:30",
+              "placeId": "il-berggasthaus-first",
+              "title": "Zmittag mit Eigerblick",
+              "text": "Auf der Terrasse des Berggasthauses essen, danach mit der Gondel oder – wer mag – mit Mountain Cart und Trottibike ins Tal.",
+              "travel": "ca. 1 Std. zu Fuss vom Bachalpsee zurück zur Bergstation"
+            },
+            {
+              "time": "15:30",
+              "placeId": "il-schuh",
+              "title": "Kaffee und Pralinés zum Abschied",
+              "text": "Zurück in Interlaken im Garten des Schuh mit Blick auf die Jungfrau einen Kaffee trinken und Pralinés für zu Hause kaufen.",
+              "travel": "Gondel ins Tal, 36 Min. Zug bis Interlaken Ost, 15 Min. zu Fuss über den Höheweg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "brienzersee-mit-kindern",
+      "title": "Brienzersee mit Kindern: Schiff, Wasserfall und Bauernhof-Museum",
+      "teaser": "Mit dem Schiff zu den Giessbachfällen, mit der ältesten Standseilbahn hinauf und am Nachmittag Tiere und alte Bauernhäuser im Ballenberg.",
+      "region": "interlaken",
+      "days": 1,
+      "moods": [
+        "familie",
+        "natur",
+        "kultur"
+      ],
+      "audience": [
+        "familie"
+      ],
+      "season": "Ende Mai bis Anfang Oktober (Sommerfahrplan der Schiffe); Mittwoch bis Sonntag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 117
+        },
+        {
+          "from": "Bern",
+          "minutes": 55
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 118
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Mi–So) – Schiff, Giessbach und Ballenberg",
+          "slots": [
+            {
+              "time": "09:25",
+              "placeId": "il-schifffahrt-brienzersee",
+              "title": "Mit dem Schiff über den Brienzersee",
+              "text": "Ab dem Steg beim Bahnhof Interlaken Ost rund eine Stunde übers türkisfarbene Wasser, vorbei an Iseltwald bis zur Station Giessbach See.",
+              "travel": "Schiffstation direkt hinter dem Bahnhof Interlaken Ost",
+              "rain": {
+                "title": "Mit dem Zug nach Brienz",
+                "text": "Bei Regen fährst du mit dem Zug in 17 Minuten nach Brienz und lässt den Wasserfall aus."
+              }
+            },
+            {
+              "time": "10:30",
+              "placeId": "il-giessbach",
+              "title": "Giessbachfälle",
+              "text": "Mit der Standseilbahn von 1879 zum Grandhotel und auf dem Wanderweg hinter dem Wasserfall durch – rund anderthalb Stunden mit kleinen Beinen.",
+              "travel": "Talstation direkt am Schiffsteg",
+              "rain": {
+                "placeId": "il-holzbildhauerei-museum",
+                "title": "Holzbildhauerei Museum in Brienz",
+                "text": "Statt auf den nassen Wegen schaust du in Brienz geschnitzten Kühen und Bären zu, Kinder gratis (Juni–Sept. ab 10.30 Uhr)."
+              }
+            },
+            {
+              "time": "13:30",
+              "placeId": "il-alter-baeren-ballenberg",
+              "title": "Zmittag im Alten Bären",
+              "text": "Gegen 12.30 Uhr mit dem Schiff weiter nach Brienz und mit dem Bus zum Ballenberg, Ticket am Eingang West kaufen und im Bauernhaus-Wirtshaus Berner Spezialitäten essen.",
+              "travel": "ca. 30 Min. Schiff bis Brienz, 15 Min. Bus 151 bis Ballenberg West, kurzer Fussweg im Museum"
+            },
+            {
+              "time": "14:30",
+              "placeId": "il-ballenberg",
+              "title": "Ballenberg entdecken",
+              "text": "Bis 17 Uhr durch die Höfe streifen: Ziegen und Schweine anschauen, beim Schmied und in der Käserei vorbeigehen und einen Bollerwagen für müde Kinder ausleihen.",
+              "travel": "direkt vom Wirtshaus",
+              "rain": {
+                "placeId": "il-beatushoehlen",
+                "title": "St. Beatus-Höhlen",
+                "text": "Bei Dauerregen fährst du mit Zug und Bus 21 zu den Beatushöhlen am Thunersee – ein Höhlenabenteuer bei konstant 8 bis 10 Grad."
+              }
+            },
+            {
+              "time": "18:00",
+              "placeId": "il-schuh",
+              "title": "Znacht im Schuh",
+              "text": "Zum Abschluss im Restaurant an der Höhematte essen und für jedes Kind ein Praliné aus der Vitrine aussuchen lassen.",
+              "travel": "Bus 151 bis Brienz, 17 Min. Zug bis Interlaken Ost, 15 Min. zu Fuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "interlaken-regentag-nebensaison",
+      "title": "Interlaken bei Regen: Höhle, Schoggi und warmes Wasser",
+      "teaser": "Ein komplett regenfester Tag für die graue Jahreszeit: Tropfsteinhöhle am Thunersee, eigene Schokolade giessen, Sauna und zum Schluss ein Bier vom Hahn.",
+      "region": "interlaken",
+      "days": 1,
+      "moods": [
+        "erholung",
+        "familie",
+        "genuss"
+      ],
+      "audience": [
+        "paar",
+        "familie",
+        "freunde"
+      ],
+      "season": "ganzjährig, ideal November bis April; nicht während der Höhlenrevision Mitte November",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 117
+        },
+        {
+          "from": "Bern",
+          "minutes": 55
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 118
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Mi–Fr) – Höhle, Schokolade und Sauna",
+          "slots": [
+            {
+              "time": "10:30",
+              "placeId": "il-beatushoehlen",
+              "title": "St. Beatus-Höhlen",
+              "text": "Eine Stunde durch Tropfsteingrotten und an unterirdischen Wasserfällen vorbei, danach ins Höhlenmuseum (im Winter ab 12 Uhr offen).",
+              "travel": "17 Min. Bus 21 ab Interlaken West bis «Beatushöhlen» (im Winter stündlich), 10 Min. Waldweg"
+            },
+            {
+              "time": "12:45",
+              "placeId": "il-schuh",
+              "title": "Zmittag im Schuh",
+              "text": "Zurück in Interlaken ein warmes Mittagessen im Restaurant an der Höhematte, zum Dessert etwas aus der Confiserie.",
+              "travel": "ca. 20 Min. Bus 21 zurück nach Interlaken, 10 Min. zu Fuss"
+            },
+            {
+              "time": "14:00",
+              "placeId": "il-funky-chocolate-club",
+              "title": "Eigene Schokolade giessen",
+              "text": "Im Workshop lernst du, wie Schokolade entsteht, und giesst und verzierst drei Tafeln zum Mitnehmen.",
+              "travel": "ca. 5 Min. zu Fuss"
+            },
+            {
+              "time": "15:45",
+              "placeId": "il-boedelibad",
+              "title": "Hallenbad und Sauna",
+              "text": "Ein paar Längen im 25-Meter-Becken, danach in die Arvensauna und den Ruheraum, bis es draussen dunkel ist.",
+              "travel": "ca. 15 Min. zu Fuss über die Aare nach Unterseen"
+            },
+            {
+              "time": "19:00",
+              "placeId": "il-huesi-bierhaus",
+              "title": "Znacht im Hüsi Bierhaus",
+              "text": "Schweizer Küche und Bier aus der Region im Brewpub an der Postgasse, fünf Minuten vom Bahnhof Interlaken West.",
+              "travel": "ca. 15 Min. zu Fuss"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

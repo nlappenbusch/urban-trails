@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CloudSun, Dices, Gift, MapPinned, MountainSnow, Sparkles, Wand2, Waves, type LucideIcon } from "lucide-react";
+import { CloudSun, Dices, Gift, MapPinned, Moon, MountainSnow, Sparkles, Wand2, Waves, type LucideIcon } from "lucide-react";
 
 interface Tool {
   href: string;
@@ -16,7 +16,8 @@ export const TOOLS: Tool[] = [
   { href: "/ausflugsziele", icon: MapPinned, title: "Alle Ausflugsziele", text: "Jeder Ort geprüft: Preis, Öffnungszeiten, Foto – nach Region und Thema." },
   { href: "/geschenk", icon: Gift, title: "Ausflug verschenken", text: "Karte mit eigenem Text und QR-Code zum Programm. Gratis." },
   { href: "/skigebiete", icon: MountainSnow, title: "Wo kann ich skifahren?", text: "59 Skigebiete: Pisten je Farbe, Schnee, Tageskarte und Zugzeit ab deinem Bahnhof." },
-  { href: "/wassertemperaturen", icon: Waves, title: "Wie warm ist das Wasser?", text: "Alle Seen und Flüsse live – Aare, Rhein, Zürichsee und deine Badestelle." },
+  { href: "/nachtskifahren", icon: Moon, title: "Nachtskifahren", text: "Wann und wo abends Pisten beleuchtet sind – als Kalender, mit Vollmond-Abenden." },
+  { href: "/wassertemperaturen", icon: Waves, title: "Wie warm ist das Wasser?", text: "Alle Seen und Flüsse live und über 800 Badestellen – Aare, Rhein, Zürichsee." },
 ];
 
 /** Einstiege in die Werkzeuge rund um Ausflüge. */

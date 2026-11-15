@@ -1,0 +1,5250 @@
+{
+ "places": [
+  {
+   "id": "zh-w-pfannenstiel",
+   "kind": "aktivitaet",
+   "name": "Wanderung Forch – Pfannenstiel – Meilen",
+   "region": "zuerich",
+   "town": "Meilen",
+   "address": "Start Bahnhof Forch, Ziel Bahnhof Meilen",
+   "coords": {
+    "lat": 47.28986,
+    "lng": 8.67579
+   },
+   "url": "https://wegwandern.ch/wanderung/forch-pfannenstiel-hochwacht-meilen-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "see",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig, am schönsten März–November",
+   "durationMin": 200,
+   "text": "Von der Forch steigst du sanft zum Pfannenstiel auf, dem höchsten Punkt am rechten Zürichseeufer, und kletterst bei der Hochwacht auf den Aussichtsturm. Danach geht es durch Wald und Reben hinunter nach Meilen, den See ständig vor Augen.",
+   "tip": "In Meilen fährt die Autofähre nach Horgen – ein schöner Abschluss übers Wasser, bevor du mit der S-Bahn zurückfährst.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Forchbahn (S18) ab Zürich Stadelhofen, zurück mit der S-Bahn ab Meilen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 10.4,
+    "up": 250,
+    "down": 515,
+    "hours": 2.75,
+    "difficulty": "T1",
+    "start": "Forch",
+    "end": "Meilen",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/forch-pfannenstiel-hochwacht-meilen-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Pfannenstiel_-_Hochwacht_IMG_4789.JPG/1280px-Pfannenstiel_-_Hochwacht_IMG_4789.JPG",
+    "alt": "Aussichtsturm Hochwacht auf dem Pfannenstiel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Pfannenstiel_-_Hochwacht_IMG_4789.JPG"
+   }
+  },
+  {
+   "id": "zh-w-albiskette",
+   "kind": "aktivitaet",
+   "name": "Gratwanderung Albispass – Albishorn – Sihlbrugg",
+   "region": "zuerich",
+   "town": "Langnau am Albis",
+   "address": "Start Bushaltestelle Langnau a.A., Albispasshöhe; Ziel Bushaltestelle Sihlbrugg, Dorf",
+   "coords": {
+    "lat": 47.25103,
+    "lng": 8.54469
+   },
+   "url": "https://wegwandern.ch/wanderung/albispass-albishorn-schweikhof-sihlbrugg-wanderung-zuerich/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig, am schönsten März–November",
+   "durationMin": 200,
+   "text": "Die Albiskette ist die ruhigere Fortsetzung des Uetlibergs: Vom Albispass gehst du über den Aussichtsturm Hochwacht und den Bürglenstutz, den höchsten Punkt der Kette, zum Albishorn. Von dort siehst du über Zugersee und Alpen, bevor du durch den Wald ins Sihltal absteigst.",
+   "tip": "Beim Albishorn gibt es ein Bergrestaurant; der Schweikhof kurz vor dem Ziel hat eingeschränkte Öffnungszeiten.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra: zur Albispasshöhe und zurück ab Sihlbrugg, Dorf (ZVV)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 9.4,
+    "up": 318,
+    "down": 572,
+    "hours": 2.75,
+    "difficulty": "T1",
+    "start": "Langnau a.A., Albispasshöhe",
+    "end": "Sihlbrugg, Dorf",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/albispass-albishorn-schweikhof-sihlbrugg-wanderung-zuerich/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CH.ZH.Hausen-am-Albis_Albishorn_2020-10-25_16x9-R_5120x2880.jpg/1280px-CH.ZH.Hausen-am-Albis_Albishorn_2020-10-25_16x9-R_5120x2880.jpg",
+    "alt": "Waldhaus beim Albishorn auf der Albiskette",
+    "credit": "https://commons.wikimedia.org/wiki/File:CH.ZH.Hausen-am-Albis_Albishorn_2020-10-25_16x9-R_5120x2880.jpg"
+   }
+  },
+  {
+   "id": "zh-s-frauenbad",
+   "kind": "bad",
+   "name": "Frauenbad Stadthausquai",
+   "region": "zuerich",
+   "town": "Zürich",
+   "address": "Stadthausquai 12, 8001 Zürich",
+   "coords": {
+    "lat": 47.36845,
+    "lng": 8.54204
+   },
+   "url": "https://www.stadt-zuerich.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "kultur",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September (Saison 2026 bis 20.9.)",
+   "hours": "7–14 Uhr bei jedem Wetter, bei schönem Wetter bis 19.30 Uhr; Badebetrieb nur für Frauen",
+   "durationMin": 120,
+   "text": "Das historische Holzbad schwimmt mitten in der Altstadt auf der Limmat; tagsüber baden hier nur Frauen, mit Blick auf Grossmünster und Rathaus. An Sommerabenden wird es zur Barfussbar, die dann für alle offen ist.",
+   "tip": "Am Tag des Limmatschwimmens im August ist das Bad für den normalen Badebetrieb geschlossen.",
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 20 Jahren; Kombi-12er-Abo CHF 80"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "07:00",
+       "19:30"
+      ]
+     ],
+     "1": [
+      [
+       "07:00",
+       "19:30"
+      ]
+     ],
+     "2": [
+      [
+       "07:00",
+       "19:30"
+      ]
+     ],
+     "3": [
+      [
+       "07:00",
+       "19:30"
+      ]
+     ],
+     "4": [
+      [
+       "07:00",
+       "19:30"
+      ]
+     ],
+     "5": [
+      [
+       "07:00",
+       "19:30"
+      ]
+     ],
+     "6": [
+      [
+       "07:00",
+       "19:30"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "water": {
+    "type": "fluss",
+    "body": "Limmat",
+    "heated": false
+   },
+   "source": "https://www.badi-info.ch/stadthausquai.html",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Z%C3%BCrich_-_Stadthausquai_-_Frauenbadi_IMG_0416_ShiftN.jpg/1280px-Z%C3%BCrich_-_Stadthausquai_-_Frauenbadi_IMG_0416_ShiftN.jpg",
+    "alt": "Holzbau des Frauenbads am Stadthausquai auf der Limmat",
+    "credit": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_-_Stadthausquai_-_Frauenbadi_IMG_0416_ShiftN.jpg"
+   }
+  },
+  {
+   "id": "wi-w-kyburg",
+   "kind": "aktivitaet",
+   "name": "Wanderung Kyburg – Eschenberg – Wildpark Bruderhaus – Winterthur",
+   "region": "winterthur",
+   "town": "Kyburg",
+   "address": "Start Bushaltestelle Kyburg, Dorf; Ziel Bahnhof Winterthur",
+   "coords": {
+    "lat": 47.4572,
+    "lng": 8.74452
+   },
+   "url": "https://wegwandern.ch/wanderung/kyburg-eschenberg-bruderhaus-winterthur-wanderung-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "familie",
+    "kultur",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 160,
+   "text": "Du startest beim mittelalterlichen Schloss Kyburg, steigst zur Töss ab und wanderst über den bewaldeten Eschenberg zurück in die Stadt. Unterwegs liegt der Wildpark Bruderhaus mit einheimischen Wildtieren, der Eintritt ist frei.",
+   "tip": "Am Eschenberg und beim Bruderhaus gibt es je ein Restaurant; an der Töss findest du viele Feuerstellen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra bis Kyburg, Dorf; Schloss Kyburg kostet Eintritt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 8.8,
+    "up": 118,
+    "down": 307,
+    "hours": 2.25,
+    "difficulty": "T1",
+    "start": "Kyburg, Dorf",
+    "end": "Winterthur",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/kyburg-eschenberg-bruderhaus-winterthur-wanderung-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Kyburg_-_Schloss_2010-11-01_13-25-20_ShiftN.jpg/1280px-Kyburg_-_Schloss_2010-11-01_13-25-20_ShiftN.jpg",
+    "alt": "Schloss Kyburg",
+    "credit": "https://commons.wikimedia.org/wiki/File:Kyburg_-_Schloss_2010-11-01_13-25-20_ShiftN.jpg"
+   }
+  },
+  {
+   "id": "wi-w-irchel",
+   "kind": "aktivitaet",
+   "name": "Wanderung Buch am Irchel – Irchelturm – Hochwacht – Teufen",
+   "region": "winterthur",
+   "town": "Buch am Irchel",
+   "address": "Start Bushaltestelle Buch am Irchel, Oberbuch; Ziel Bushaltestelle Teufen ZH, Unterteufen",
+   "coords": {
+    "lat": 47.54057,
+    "lng": 8.62047
+   },
+   "url": "https://wegwandern.ch/wanderung/buch-am-irchel-irchelturm-irchel-hochwacht-teufen-zh-zuercher-weinland-wandern-wanderung/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "März–November",
+   "durationMin": 180,
+   "text": "Der Irchel ist der bewaldete Höhenzug zwischen Winterthur und Rhein, auf dem selten viel los ist. Vom 28 Meter hohen Irchelturm schaust du übers Zürcher Weinland bis nach Deutschland, danach geht es über die Hochwacht hinunter ins Weindorf Teufen.",
+   "tip": "In Oberteufen liegt ein Weingut mit Degustation – passend zum Abschluss im Weinland.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra: Postauto ab Winterthur bzw. zurück ab Teufen ZH"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "hike": {
+    "km": 9.3,
+    "up": 227,
+    "down": 334,
+    "hours": 2.5,
+    "difficulty": "T1",
+    "start": "Buch am Irchel, Oberbuch",
+    "end": "Teufen ZH, Unterteufen",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/buch-am-irchel-irchelturm-irchel-hochwacht-teufen-zh-zuercher-weinland-wandern-wanderung/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Irchelturm_S.JPG/1280px-Irchelturm_S.JPG",
+    "alt": "Aussicht vom Irchelturm Richtung Süden",
+    "credit": "https://commons.wikimedia.org/wiki/File:Irchelturm_S.JPG"
+   }
+  },
+  {
+   "id": "wi-s-geiselweid",
+   "kind": "bad",
+   "name": "Hallen- und Freibad Geiselweid",
+   "region": "winterthur",
+   "town": "Winterthur",
+   "address": "Pflanzschulstrasse 6a, 8402 Winterthur",
+   "coords": {
+    "lat": 47.49546,
+    "lng": 8.7417
+   },
+   "url": "https://stadt.winterthur.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "familie",
+    "aktiv"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Freibad Mai–September)",
+   "hours": "Hallenbad z. B. Mo 11.30–21.30, Di/Mi 6–21.30 Uhr; Freibad im Sommer bis 20/21 Uhr",
+   "durationMin": 120,
+   "text": "Das städtische Bad nahe dem Zentrum hat ein Hallenbad fürs ganze Jahr und im Sommer ein grosses Freibad. Ein Eintritt gilt für beide Teile, so kannst du an wechselhaften Tagen zwischen drinnen und draussen pendeln.",
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "Frei- und Hallenbad, ab 16 J.; Kinder 6–15 CHF 4; 10er-Abo CHF 72"
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "source": "https://www.badi-info.ch/zh/winterthur-geiselweid.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "wi-s-toess",
+   "kind": "bad",
+   "name": "Schwimmbad Auwiesen-Töss",
+   "region": "winterthur",
+   "town": "Winterthur",
+   "address": "Auwiesenstrasse 45, 8406 Winterthur",
+   "coords": {
+    "lat": 47.48301,
+    "lng": 8.70605
+   },
+   "url": "https://www.schwimmbad-toess.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September (2026: 9.5.–19.9.)",
+   "hours": "Mai: Mo 10–19, Di–So 9–19 Uhr; Juni–August länger",
+   "durationMin": 150,
+   "text": "Das Quartierbad in Töss ist ein klassisches Winterthurer Freibad mit Schwimmbecken, Liegewiese und eigener Sauna. An den Vollmondabenden im Sommer bleibt es bei schönem Wetter bis 22 Uhr offen.",
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 16 J.; 10er-Abo CHF 72; Sauna separat"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "water": {
+    "type": "freibad"
+   },
+   "source": "https://www.badi-info.ch/zh/winterthur-toess.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ba-w-teufelskeller",
+   "kind": "aktivitaet",
+   "name": "Wanderung Mellingen – Fislisbach – Teufelskeller – Baden",
+   "region": "baden",
+   "town": "Baden",
+   "address": "Start Bushaltestelle Mellingen, Krone; Ziel Bahnhof Baden",
+   "coords": {
+    "lat": 47.46291,
+    "lng": 8.29976
+   },
+   "url": "https://wegwandern.ch/wanderung/mellingen-fislisbach-tuefels-chaeller-teufelskeller-baden-wanderung-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "März–November",
+   "durationMin": 180,
+   "text": "Vom Reussstädtchen Mellingen wanderst du über Fislisbach in den Tüfels-Chäller, ein Waldreservat mit Felstürmen aus Nagelfluh und sehr alten Bäumen. Zum Schluss steigst du direkt in die Badener Altstadt ab.",
+   "tip": "Im Teufelskeller gibt es Feuerstellen, unterwegs aber keine Beiz – Proviant mitnehmen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra bis Mellingen, Krone"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "hike": {
+    "km": 9.4,
+    "up": 238,
+    "down": 213,
+    "hours": 2.42,
+    "difficulty": "T1",
+    "start": "Mellingen, Krone",
+    "end": "Baden",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/mellingen-fislisbach-tuefels-chaeller-teufelskeller-baden-wanderung-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baden_Teufelskeller_Chr%C3%BCzliberg_02.JPG/1280px-Baden_Teufelskeller_Chr%C3%BCzliberg_02.JPG",
+    "alt": "Nagelfluh-Felsen im Waldreservat Teufelskeller",
+    "credit": "https://commons.wikimedia.org/wiki/File:Baden_Teufelskeller_Chr%C3%BCzliberg_02.JPG"
+   }
+  },
+  {
+   "id": "ba-w-wasserschloss",
+   "kind": "aktivitaet",
+   "name": "Brückenweg durchs Wasserschloss (Brugg)",
+   "region": "baden",
+   "town": "Brugg",
+   "address": "Start und Ziel Bahnhof Brugg AG",
+   "coords": {
+    "lat": 47.50046,
+    "lng": 8.2381
+   },
+   "url": "https://wegwandern.ch/wanderung/brugg-ag-limmatspitz-brugg-ag-brueckenweg-wasserschloss-schweiz-aare-reuss-und-limmat-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "März–November",
+   "durationMin": 180,
+   "text": "Bei Brugg fliessen Aare, Reuss und Limmat auf wenigen Kilometern zusammen – das Wasserschloss der Schweiz. Der flache Rundweg führt über Brücken aus drei Jahrhunderten, darunter den schwankenden Mülimattsteg, und durch Auenwald bis zum Limmatspitz.",
+   "tip": "Fast ohne Höhenmeter und deshalb auch mit Kindern gut machbar; Brugg ist ab Baden nur wenige Minuten mit der S-Bahn entfernt.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: S-Bahn Baden–Brugg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 10.6,
+    "up": 84,
+    "down": 84,
+    "hours": 2.58,
+    "difficulty": "T1",
+    "start": "Brugg AG",
+    "end": "Brugg AG",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/brugg-ag-limmatspitz-brugg-ag-brueckenweg-wasserschloss-schweiz-aare-reuss-und-limmat-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wasserschloss_Aare_Limmat_2014-12-23_01.jpg/1280px-Wasserschloss_Aare_Limmat_2014-12-23_01.jpg",
+    "alt": "Zusammenfluss von Aare und Limmat im Wasserschloss",
+    "credit": "https://commons.wikimedia.org/wiki/File:Wasserschloss_Aare_Limmat_2014-12-23_01.jpg"
+   }
+  },
+  {
+   "id": "ba-s-terrassenbad",
+   "kind": "bad",
+   "name": "Terrassenbad und Hallenbad Baden",
+   "region": "baden",
+   "town": "Baden",
+   "address": "Pfisterstrasse 1, 5400 Baden",
+   "coords": {
+    "lat": 47.46644,
+    "lng": 8.31052
+   },
+   "url": "https://www.baden.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "familie",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "Hallenbad ganzjährig, Freibad Mai–September (2026: 1.5.–20.9.)",
+   "hours": "Freibad Mai/Sept 10–19, Juni–Aug 9–20 Uhr; Hallenbad u. a. Di/Do ab 6 Uhr bis 21 Uhr",
+   "durationMin": 150,
+   "text": "Das Freibad liegt in Stufen am Hang über der Stadt, mit 50-Meter-Becken und einem Familienbecken, das regelmässig zum Wellenbad wird. In der kalten Jahreszeit schwimmst du nebenan im Hallenbad mit 25-Meter-Becken bei 28 °C.",
+   "tip": "Juni bis August gibt es montags und freitags Frühschwimmen ab 6 Uhr im 50-Meter-Becken (nur mit Abo).",
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "Bad+Sauna CHF 20; Studierende/Lernende CHF 6"
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 28
+   },
+   "source": "https://www.badi-info.ch/a/baden-terrassenbad.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ba-s-taegi",
+   "kind": "bad",
+   "name": "Tägi Wettingen – Hallenbad und Gartenbad",
+   "region": "baden",
+   "town": "Wettingen",
+   "address": "Tägerhardstrasse 122, 5430 Wettingen",
+   "coords": {
+    "lat": 47.45473,
+    "lng": 8.33761
+   },
+   "url": "https://www.taegi.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Gartenbad 2026: 23.5.–13.9.)",
+   "hours": "Hallenbad Mo 10–20 Uhr, Sauna bis 22 Uhr; Gartenbad täglich 10–20 Uhr",
+   "durationMin": 120,
+   "text": "Das Sportzentrum Tägi wurde nach rund zwei Jahren Umbau 2020 neu eröffnet und hat ein modernes Hallenbad mit Sauna, im Sommer zusätzlich ein Gartenbad. Die Alternative zum Thermalbad, wenn du einfach Längen schwimmen willst.",
+   "priceInfo": {
+    "from": 9,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 18 J.; Sauna inkl. Bad CHF 29"
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "source": "https://www.badi-info.ch/zh/wettingen-taegerhard.html",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Hallenbad_T%C3%A4gi_Wettingen.jpg/1280px-Hallenbad_T%C3%A4gi_Wettingen.jpg",
+    "alt": "Hallenbad im Sportzentrum Tägi Wettingen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hallenbad_T%C3%A4gi_Wettingen.jpg"
+   }
+  },
+  {
+   "id": "ra-w-luetzelsee",
+   "kind": "aktivitaet",
+   "name": "Wanderung Grüningen – Lützelsee – Feldbach",
+   "region": "rapperswil",
+   "town": "Hombrechtikon",
+   "address": "Start Bushaltestelle Grüningen, Stedtli; Ziel Bahnhof Feldbach",
+   "coords": {
+    "lat": 47.26023,
+    "lng": 8.77338
+   },
+   "url": "https://wegwandern.ch/wanderung/grueningen-botanischer-garten-luetzelsee-feldbach-wanderung_wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "familie",
+    "see",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "März–November",
+   "durationMin": 140,
+   "text": "Ab dem Städtchen Grüningen kommst du am Botanischen Garten vorbei (Eintritt frei) und erreichst den kleinen Lützelsee mit Storchennestern und Riedwiesen. Über Hombrechtikon geht es hinunter nach Feldbach am Zürichsee, von wo die S-Bahn in wenigen Minuten nach Rapperswil fährt.",
+   "tip": "Am Lützelsee gibt es eine Besenbeiz auf einem Biohof – Öffnungszeiten vorher prüfen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra bis Grüningen, Stedtli; zurück S-Bahn ab Feldbach"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 7.4,
+    "up": 111,
+    "down": 173,
+    "hours": 1.83,
+    "difficulty": "T1",
+    "start": "Grüningen, Stedtli",
+    "end": "Feldbach",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/grueningen-botanischer-garten-luetzelsee-feldbach-wanderung_wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Hombrechtikon_-_L%C3%BCtzelsee_IMG_7832.JPG/1280px-Hombrechtikon_-_L%C3%BCtzelsee_IMG_7832.JPG",
+    "alt": "Lützelsee mit dem Pfannenstiel im Hintergrund",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hombrechtikon_-_L%C3%BCtzelsee_IMG_7832.JPG"
+   }
+  },
+  {
+   "id": "ra-w-etzel",
+   "kind": "aktivitaet",
+   "name": "Wanderung Pfäffikon SZ – Etzel – Schindellegi",
+   "region": "rapperswil",
+   "town": "Pfäffikon SZ",
+   "address": "Start Bahnhof Pfäffikon SZ; Ziel Bahnhof Schindellegi-Feusisberg",
+   "coords": {
+    "lat": 47.17754,
+    "lng": 8.7673
+   },
+   "url": "https://www.luzern.com/de/tour/etzelwanderung",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "April–November",
+   "durationMin": 240,
+   "text": "Gleich hinter Pfäffikon beginnt der steile Aufstieg über den Strickliweg mit rund 600 Holztritten auf den Etzel-Kulm. Oben siehst du fast rundum: auf Zürichsee, Ufnau und Lützelau und auf der anderen Seite zum Sihlsee.",
+   "tip": "Im Wald am Etzel stehen noch Panzersperren und Bunker aus dem Zweiten Weltkrieg; einkehren kannst du im Berggasthaus Etzel-Kulm.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Pfäffikon SZ ab Rapperswil über den Seedamm, zurück ab Schindellegi-Feusisberg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 10.8,
+    "up": 686,
+    "down": 345,
+    "hours": 3.58,
+    "difficulty": "T2",
+    "start": "Pfäffikon SZ",
+    "end": "Schindellegi-Feusisberg",
+    "winter": false
+   },
+   "source": "https://www.luzern.com/de/tour/etzelwanderung",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Etzel_Kulm_2010-10-21_16-35-00_ShiftN.jpg/1280px-Etzel_Kulm_2010-10-21_16-35-00_ShiftN.jpg",
+    "alt": "Gasthaus und Kapelle auf dem Etzel-Kulm",
+    "credit": "https://commons.wikimedia.org/wiki/File:Etzel_Kulm_2010-10-21_16-35-00_ShiftN.jpg"
+   }
+  },
+  {
+   "id": "ra-s-seebad",
+   "kind": "bad",
+   "name": "Seebad Rapperswil",
+   "region": "rapperswil",
+   "town": "Rapperswil",
+   "address": "Bühlerallee, 8640 Rapperswil",
+   "coords": {
+    "lat": 47.22765,
+    "lng": 8.81324
+   },
+   "url": "https://www.rapperswil-jona.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "gratis",
+    "see",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September (2026: 16.5.–13.9.)",
+   "hours": "9–20.30 Uhr, in den Sommerferien 8–21 Uhr",
+   "durationMin": 120,
+   "text": "Die grosse hölzerne Badeanstalt steht auf Pfählen in der Kempratner Bucht – du badest direkt im Zürichsee und siehst beim Schwimmen aufs Schloss. Eintritt, Kabinen und Kästchen sind gratis.",
+   "tip": "Die Liegefläche ist knapp; das Bad ist eher etwas für Schwimmer als für lange Sonnentage.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Kabinen und Kleiderkästen ebenfalls gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "20:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "20:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "20:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "20:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "20:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "20:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "20:30"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "water": {
+    "type": "see",
+    "body": "Zürichsee",
+    "heated": false
+   },
+   "source": "https://www.badi-info.ch/rapperswil-seebad.html",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Rapperswil_-_Seebad_-_ZSG_Stadt_Rapperswil_2011-08-13_16-32-48.jpg/1280px-Rapperswil_-_Seebad_-_ZSG_Stadt_Rapperswil_2011-08-13_16-32-48.jpg",
+    "alt": "Seebad Rapperswil mit Kursschiff auf dem Zürichsee",
+    "credit": "https://commons.wikimedia.org/wiki/File:Rapperswil_-_Seebad_-_ZSG_Stadt_Rapperswil_2011-08-13_16-32-48.jpg"
+   }
+  },
+  {
+   "id": "eg-w-rhein-kaiserstuhl",
+   "kind": "aktivitaet",
+   "name": "Rheinuferweg Eglisau – Rheinsfelden – Kaiserstuhl",
+   "region": "eglisau",
+   "town": "Eglisau",
+   "address": "Start Bahnhof Eglisau; Ziel Bahnhof Kaiserstuhl AG",
+   "coords": {
+    "lat": 47.575,
+    "lng": 8.47665
+   },
+   "url": "https://wegwandern.ch/wanderung/eglisau-rheinsfelden-kaiserstuhl-ag-rheinuferweg-viarhenana-wandern-wanderung/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "kultur",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "März–November",
+   "durationMin": 180,
+   "text": "Flussabwärts folgst du dem Rhein auf dem ViaRhenana-Weg durch Auenwald und am Kraftwerk Eglisau vorbei bis ins mittelalterliche Brückenstädtchen Kaiserstuhl. Der fast ebene Weg ist das Gegenstück zur Uferwanderung flussaufwärts Richtung Tössegg.",
+   "tip": "Etwa nach einer Stunde liegt in Rheinsfelden der Landgasthof Fähre direkt am Wasser.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: zurück ab Kaiserstuhl AG mit der S-Bahn"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 9.3,
+    "up": 183,
+    "down": 205,
+    "hours": 2.42,
+    "difficulty": "T1",
+    "start": "Eglisau",
+    "end": "Kaiserstuhl AG",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/eglisau-rheinsfelden-kaiserstuhl-ag-rheinuferweg-viarhenana-wandern-wanderung/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Rhein_zwischen_Kaiserstuhl_und_Eglisau_-_panoramio.jpg/1280px-Rhein_zwischen_Kaiserstuhl_und_Eglisau_-_panoramio.jpg",
+    "alt": "Rhein zwischen Eglisau und Kaiserstuhl",
+    "credit": "https://commons.wikimedia.org/wiki/File:Rhein_zwischen_Kaiserstuhl_und_Eglisau_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "eg-s-rheinbadi",
+   "kind": "bad",
+   "name": "Rheinbadi Eglisau",
+   "region": "eglisau",
+   "town": "Eglisau",
+   "address": "Burgweg 22, 8193 Eglisau",
+   "coords": {
+    "lat": 47.57441,
+    "lng": 8.52826
+   },
+   "url": "https://www.eglisau.ch/de/kultur-freizeit/rheinbadi/",
+   "price": 1,
+   "tags": [
+    "baden",
+    "gratis",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Sommer",
+   "durationMin": 120,
+   "text": "Die kleine Gemeindebadi liegt direkt am Rhein unterhalb des Städtchens, mit hölzernen Garderobenhäuschen und Einstieg in den Fluss. Der Eintritt ist frei, eine Badeaufsicht gibt es aber nicht – du schwimmst auf eigene Verantwortung.",
+   "tip": "Der Rhein ist hier durch das Kraftwerk gestaut und fliesst ruhiger als anderswo; trotzdem nie allein schwimmen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "auch für Auswärtige"
+   },
+   "water": {
+    "type": "fluss",
+    "body": "Rhein",
+    "heated": false
+   },
+   "source": "https://www.eglisau.ch/de/kultur-freizeit/rheinbadi/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "rb-w-neeracherried",
+   "kind": "aktivitaet",
+   "name": "Wanderung Kaiserstuhl – Bachsertal – Neeracherried",
+   "region": "regensberg",
+   "town": "Neerach",
+   "address": "Start Bahnhof Kaiserstuhl AG; Ziel Bushaltestelle Riedt b. Neerach, Storchen",
+   "coords": {
+    "lat": 47.50644,
+    "lng": 8.48434
+   },
+   "url": "https://wegwandern.ch/wanderung/kaiserstuhl-bachs-neeracherried-birdlife-zentrum-wanderung-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "März–November",
+   "durationMin": 270,
+   "text": "Vom Rheinstädtchen Kaiserstuhl wanderst du durch das stille Bachsertal mit seinen Bauernhöfen und Besenbeizen ins Zürcher Unterland. Ziel ist das Neeracherried, eines der grössten Flachmoore der Region, mit dem BirdLife-Naturzentrum.",
+   "tip": "Das BirdLife-Naturzentrum ist nicht ganzjährig offen – Öffnungszeiten prüfen und einen Feldstecher einpacken.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn/Bus extra: Hinfahrt nach Kaiserstuhl AG, zurück Bus ab Riedt b. Neerach"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "hike": {
+    "km": 15.5,
+    "up": 359,
+    "down": 305,
+    "hours": 3.92,
+    "difficulty": "T1",
+    "start": "Kaiserstuhl AG",
+    "end": "Riedt b. Neerach, Storchen",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/kaiserstuhl-bachs-neeracherried-birdlife-zentrum-wanderung-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Neeracherried_19_10_47_545000.jpeg/1280px-Neeracherried_19_10_47_545000.jpeg",
+    "alt": "Riedlandschaft im Neeracherried",
+    "credit": "https://commons.wikimedia.org/wiki/File:Neeracherried_19_10_47_545000.jpeg"
+   }
+  },
+  {
+   "id": "rb-s-fitnesspark-regensdorf",
+   "kind": "bad",
+   "name": "Fitnesspark Regensdorf (Sportbad und Aussenbad)",
+   "region": "regensberg",
+   "town": "Regensdorf",
+   "address": "Im Zentrum 3, 8105 Regensdorf",
+   "coords": {
+    "lat": 47.43088,
+    "lng": 8.46826
+   },
+   "url": "https://www.fitnesspark.ch/fitnessparks/regensdorf/",
+   "price": 2,
+   "tags": [
+    "baden",
+    "wellness",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mo–Fr 8–22, Sa/So 8–20 Uhr; Bad schliesst 15 Min. früher",
+   "durationMin": 150,
+   "text": "Kein klassisches Hallenbad, sondern ein Fitnesscenter mit Sportbad, beheiztem Aussenbecken mit Whirlpool und Saunalandschaft – mit Einzeleintritt auch ohne Abo nutzbar. Die nächstgelegene ganzjährige Schwimmmöglichkeit, wenn du nach einer Lägern-Wanderung noch ins warme Wasser willst.",
+   "tip": "Training ab 15 Jahren; für Kinder ist das Bad nicht gedacht.",
+   "priceInfo": {
+    "from": 39,
+    "unit": "Eintritt Erwachsene",
+    "note": "Einzeleintritt inkl. Bad, Sauna und Fitness; Basic DaySpa mit Bademantel CHF 46"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "20:00"
+      ]
+     ]
+    }
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "source": "https://www.fitnesspark.ch/fitnessparks/regensdorf/preise/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sh-w-rheinfall-rheinau",
+   "kind": "aktivitaet",
+   "name": "Wanderung Schaffhausen – Rheinfall – Rheinau",
+   "region": "schaffhausen",
+   "town": "Schaffhausen",
+   "address": "Start Bahnhof Schaffhausen; Ziel Bushaltestelle Rheinau, Unterstadt",
+   "coords": {
+    "lat": 47.64242,
+    "lng": 8.60816
+   },
+   "url": "https://wegwandern.ch/wanderung/schaffhausen-rheinfall-rheinau-wanderung-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "kultur",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 240,
+   "text": "Ab Bahnhof Schaffhausen folgst du dem Rhein zum Rheinfall, wechselst beim Schloss Laufen die Flussseite und gehst weiter durch die stille Rheinschlaufe. Ziel ist die Klosterinsel Rheinau mit ihrer barocken Klosterkirche.",
+   "tip": "Wer weniger laufen will, beendet die Tour nach gut einer Stunde am Rheinfall.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra: ab Rheinau zurück nach Marthalen/Schaffhausen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 14.1,
+    "up": 256,
+    "down": 289,
+    "hours": 3.58,
+    "difficulty": "T1",
+    "start": "Schaffhausen",
+    "end": "Rheinau, Unterstadt",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/schaffhausen-rheinfall-rheinau-wanderung-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hochrheinfahrt-rheinau-insel.jpg/1280px-Hochrheinfahrt-rheinau-insel.jpg",
+    "alt": "Klosterinsel Rheinau im Rhein",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hochrheinfahrt-rheinau-insel.jpg"
+   }
+  },
+  {
+   "id": "sh-w-randen",
+   "kind": "aktivitaet",
+   "name": "Randen-Wanderung Beggingen – Randentürme – Siblingen",
+   "region": "schaffhausen",
+   "town": "Siblingen",
+   "address": "Start Bushaltestelle Beggingen, Dorf; Ziel Bushaltestelle Siblingen, Dorf",
+   "coords": {
+    "lat": 47.721,
+    "lng": 8.53407
+   },
+   "url": "https://wegwandern.ch/wanderung/randen-beggingen-schleitheimer-randenturm-randenhaus-siblinger-randenturm-siblingen-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "März–Oktober",
+   "durationMin": 210,
+   "text": "Der Randen ist das Hochplateau nördlich von Schaffhausen, ein Naturpark mit Magerwiesen, Wald und wenig Betrieb. Du verbindest den Schleitheimer mit dem 19 Meter hohen Siblinger Randenturm und schaust weit über den Klettgau.",
+   "tip": "Auf- und Abstieg sind steil und bei Nässe rutschig. Das Randenhaus bei Siblingen hat am Wochenende einen Randenbus ins Tal.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra ab Schaffhausen nach Beggingen bzw. zurück ab Siblingen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 9.8,
+    "up": 425,
+    "down": 458,
+    "hours": 2.92,
+    "difficulty": "T1",
+    "start": "Beggingen, Dorf",
+    "end": "Siblingen, Dorf",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/randen-beggingen-schleitheimer-randenturm-randenhaus-siblinger-randenturm-siblingen-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Siblinger_Randenturm._img_1.jpg/1280px-Siblinger_Randenturm._img_1.jpg",
+    "alt": "Holzkonstruktion des Siblinger Randenturms",
+    "credit": "https://commons.wikimedia.org/wiki/File:Siblinger_Randenturm._img_1.jpg"
+   }
+  },
+  {
+   "id": "sh-s-kss",
+   "kind": "bad",
+   "name": "KSS Sport- und Freizeitpark Schaffhausen (Hallen- und Freibad)",
+   "region": "schaffhausen",
+   "town": "Schaffhausen",
+   "address": "Breitenaustrasse 117, 8200 Schaffhausen",
+   "coords": {
+    "lat": 47.70404,
+    "lng": 8.62226
+   },
+   "url": "https://www.kss.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "familie",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Freibad 2026: 9.5.–13.9.)",
+   "hours": "Hallenbad Mo/Di/Do 8–21, Mi/Fr 6–21, Sa 8–19, So 9–19 Uhr",
+   "durationMin": 120,
+   "text": "Das grosse Sportzentrum hat ein Hallenbad fürs ganze Jahr, im Sommer ein Freibad und im Winter zusätzlich eine Eisbahn. Wenn das Wetter für die Rhybadi nicht reicht, ist das die Ausweichadresse in Schaffhausen.",
+   "tip": "Mitte August ist das Hallenbad jeweils rund zwei Wochen wegen Revision zu (2026: 10.–23.8.).",
+   "priceInfo": {
+    "from": 9,
+    "unit": "Eintritt Erwachsene",
+    "note": "Frei- und Hallenbad kombiniert, ab 16 J."
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "19:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "21:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "21:00"
+      ]
+     ],
+     "3": [
+      [
+       "06:00",
+       "21:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "21:00"
+      ]
+     ],
+     "5": [
+      [
+       "06:00",
+       "21:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ]
+    }
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "source": "https://www.kss.ch/oeffnungszeiten-preise",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zg-w-lorzentobel",
+   "kind": "aktivitaet",
+   "name": "Wanderung Neuägeri – Höllgrotten – Lorzentobel – Baar",
+   "region": "zug",
+   "town": "Baar",
+   "address": "Start Bushaltestelle Neuägeri, Schmittli; Ziel Bahnhof Baar",
+   "coords": {
+    "lat": 47.1802,
+    "lng": 8.55478
+   },
+   "url": "https://wegwandern.ch/wanderung/wanderung-neuaegeri-hoellgrotten-baar-baar-lorzentobel-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 150,
+   "text": "Fast nur bergab folgst du der Lorze durch ihr wildes Tobel, vorbei an drei Brücken aus drei Epochen und Tafeln zur alten Industrie am Fluss. Unterwegs kannst du die Tropfsteinhöhlen der Höllgrotten besuchen, bevor du in Baar ankommst.",
+   "tip": "Die Höllgrotten sind nur saisonal offen und kosten Eintritt; das Gartenrestaurant daneben ist ein schöner Zwischenhalt.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra: ab Zug/Baar nach Neuägeri; Höllgrotten mit Eintritt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 8.7,
+    "up": 24,
+    "down": 262,
+    "hours": 2,
+    "difficulty": "T1",
+    "start": "Neuägeri, Schmittli",
+    "end": "Baar",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/wanderung-neuaegeri-hoellgrotten-baar-baar-lorzentobel-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Lorzentobel_Gedeckte_Holzbr%C3%BCcke_Baar_20170325-jag9889.jpg/1280px-Lorzentobel_Gedeckte_Holzbr%C3%BCcke_Baar_20170325-jag9889.jpg",
+    "alt": "Gedeckte Holzbrücke im Lorzentobel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Lorzentobel_Gedeckte_Holzbr%C3%BCcke_Baar_20170325-jag9889.jpg"
+   }
+  },
+  {
+   "id": "zg-w-hoehronen",
+   "kind": "aktivitaet",
+   "name": "Höhronen-Gratweg: Raten – Wildspitz – Biberbrugg",
+   "region": "zug",
+   "town": "Oberägeri",
+   "address": "Start Bushaltestelle Alosen, Raten; Ziel Bahnhof Biberbrugg",
+   "coords": {
+    "lat": 47.16293,
+    "lng": 8.69579
+   },
+   "url": "https://wegwandern.ch/wanderung/raten-hoehronen-dreilaenderstein-wildspitz-biberbrugg-wanderung-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "April–November",
+   "durationMin": 180,
+   "text": "Vom Ratenpass oberhalb von Oberägeri wanderst du über den bewaldeten Höhronen-Kamm zum Dreiländerstein, wo Zug, Schwyz und Zürich aneinanderstossen, und weiter auf den Wildspitz (1205 m). Unterwegs siehst du Zürich-, Zuger- und Ägerisee und hinunter aufs Hochmoor von Rothenthurm.",
+   "tip": "Nicht zu verwechseln mit dem höheren Wildspitz am Rossberg – dieser hier ist eine gemütliche Halbtagestour.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra: ab Oberägeri zum Raten, zurück Bahn ab Biberbrugg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "hike": {
+    "km": 8.3,
+    "up": 267,
+    "down": 515,
+    "hours": 2.42,
+    "difficulty": "T1",
+    "start": "Alosen, Raten",
+    "end": "Biberbrugg",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/raten-hoehronen-dreilaenderstein-wildspitz-biberbrugg-wanderung-wandern/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zg-w-zugerberg-winter",
+   "kind": "aktivitaet",
+   "name": "Winterwanderweg Zugerberg (Rundweg)",
+   "region": "zug",
+   "town": "Zug",
+   "address": "Start und Ziel Bergstation Zugerbergbahn",
+   "coords": {
+    "lat": 47.14404,
+    "lng": 8.53283
+   },
+   "url": "https://wegwandern.ch/wanderung/winterwanderung-zugerberg-winterwanderweg/",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "berg",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–März (bei Schnee)",
+   "durationMin": 220,
+   "text": "Die Runde auf dem Zugerberg führt auf präparierten Winterwegen durch Hochmoore zum Buschenchäppeli, mit Blick auf Zugersee, Rigi und Pilatus. Mit gut drei Stunden ist sie länger, als man es vom Stadtberg erwarten würde.",
+   "tip": "Für den Rückweg kannst du an der Talstation Schönegg einen Schlitten mieten und die rund 3 km lange Schlittelbahn nehmen.",
+   "priceInfo": {
+    "from": 12,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Zugerbergbahn Schönegg–Zugerberg (einfach CHF 6); ab Zug inkl. Bus CHF 16; Halbtax/Kinder ermässigt, GA gilt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "hike": {
+    "km": 10.2,
+    "up": 236,
+    "down": 235,
+    "hours": 3.25,
+    "difficulty": "T1",
+    "start": "Zugerberg",
+    "end": "Zugerberg",
+    "winter": true
+   },
+   "source": "https://wegwandern.ch/wanderung/winterwanderung-zugerberg-winterwanderweg/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zg-s-seeliken",
+   "kind": "bad",
+   "name": "Seebad Seeliken",
+   "region": "zug",
+   "town": "Zug",
+   "address": "Artherstrasse 2, 6300 Zug",
+   "coords": {
+    "lat": 47.16438,
+    "lng": 8.51338
+   },
+   "url": "https://www.seeliken.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "gratis",
+    "see",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September",
+   "hours": "bei schönem Wetter Badeaufsicht 9–20 Uhr; Seebistro 10–23 Uhr",
+   "durationMin": 120,
+   "text": "Schon 1882 stand hier die erste Zuger Badanstalt; heute liegt der Badeplatz ein paar Minuten von der Altstadt direkt am Zugersee. Der Eintritt ist gratis, und im Seebistro sitzt du bis spät mit Blick auf den Sonnenuntergang über dem See.",
+   "tip": "Vom Bahnhof Zug fährt der Bus bis Theater Casino, von dort sind es nur wenige Schritte.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "20:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "water": {
+    "type": "see",
+    "body": "Zugersee",
+    "heated": false
+   },
+   "source": "https://www.badi-info.ch/a/zug-seeliken.html",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Panorama_Seeliken%2C_Zug%2C_Juni_2023.jpg/1280px-Panorama_Seeliken%2C_Zug%2C_Juni_2023.jpg",
+    "alt": "Badeplatz Seeliken am Zugersee",
+    "credit": "https://commons.wikimedia.org/wiki/File:Panorama_Seeliken,_Zug,_Juni_2023.jpg"
+   }
+  },
+  {
+   "id": "zg-s-herti",
+   "kind": "bad",
+   "name": "Hallenbad Herti",
+   "region": "zug",
+   "town": "Zug",
+   "address": "St.-Johannesstrasse 36, 6300 Zug",
+   "coords": {
+    "lat": 47.18145,
+    "lng": 8.50334
+   },
+   "url": "https://www.stadtzug.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "aktiv"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (öffentliche Zeiten eingeschränkt)",
+   "hours": "öffentlicher Badebetrieb nur zu bestimmten Zeiten (Schulbad)",
+   "durationMin": 75,
+   "text": "Schlichtes städtisches Hallenbad, das tagsüber von Schulen genutzt wird und zu festen Zeiten öffentlich offen ist. Das Wasser hat 28 °C, freitags ist Warmwassertag mit 30 °C.",
+   "tip": "Die öffentlichen Zeiten wechseln – vorher auf der Website der Stadt Zug nachschauen.",
+   "priceInfo": {
+    "from": 6,
+    "unit": "Eintritt Erwachsene",
+    "note": "10er-Abo CHF 50"
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 28
+   },
+   "source": "https://www.badi-info.ch/a/zug-hallenbad-herti.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lu-w-felsenweg",
+   "kind": "aktivitaet",
+   "name": "Felsenweg Bürgenstock mit Hammetschwand-Lift",
+   "region": "luzern",
+   "town": "Bürgenstock",
+   "address": "Start und Ziel Bürgenstock, Zentrum (Bergstation Bürgenstock-Bahn)",
+   "coords": {
+    "lat": 47.00094,
+    "lng": 8.39635
+   },
+   "url": "https://wegwandern.ch/wanderung/wanderung-buergenstock-felsenweg-hammetschwand-lift-kaenzeli-villa-honegg-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "see",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Oktober",
+   "durationMin": 120,
+   "text": "Der um 1900 in die Felswand gebaute Weg führt hoch über dem Vierwaldstättersee um den Bürgenstock herum. Am Ende fährt der Hammetschwand-Lift, ein Aussenlift aus der Belle Époque, 153 Meter hinauf zum Aussichtspunkt.",
+   "tip": "Die schönste Anreise: mit dem Schiff ab Luzern nach Kehrsiten-Bürgenstock und mit der Standseilbahn hinauf. Öffnungszeiten des Felsenwegs vorher prüfen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Weg gratis; Schiff, Bürgenstock-Bahn und Hammetschwand-Lift extra (Preise nicht verifiziert)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 4.9,
+    "up": 264,
+    "down": 264,
+    "hours": 1.58,
+    "difficulty": "T2",
+    "start": "Bürgenstock, Zentrum",
+    "end": "Bürgenstock, Zentrum",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/wanderung-buergenstock-felsenweg-hammetschwand-lift-kaenzeli-villa-honegg-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Luzern_B%C3%BCrgenstock_Hammetschwand_lift.jpg/1280px-Luzern_B%C3%BCrgenstock_Hammetschwand_lift.jpg",
+    "alt": "Hammetschwand-Lift am Bürgenstock, dahinter die Rigi über dem Nebel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Luzern_B%C3%BCrgenstock_Hammetschwand_lift.jpg"
+   }
+  },
+  {
+   "id": "lu-w-rigi-panoramaweg",
+   "kind": "aktivitaet",
+   "name": "Rigi-Panoramaweg Kaltbad-First – Scheidegg",
+   "region": "luzern",
+   "town": "Rigi Kaltbad",
+   "address": "Start Rigi Kaltbad-First (Bahnstation); Ziel Rigi Scheidegg (Bergstation Luftseilbahn)",
+   "coords": {
+    "lat": 47.04395,
+    "lng": 8.46662
+   },
+   "url": "https://wegwandern.ch/wanderung/wanderung-rigi-panoramaweg-rigi-kaltbad-first-rigi-scheidegg-wandern/",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "berg",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Oktober",
+   "durationMin": 140,
+   "text": "Der fast flache Weg folgt dem Trassee der früheren Rigi-Scheidegg-Bahn, mit alter Brücke, kurzem Tunnel und einem abgestellten Waggon. Die ganze Zeit liegen der Vierwaldstättersee und die Zentralschweizer Alpen vor dir.",
+   "tip": "Hinauf mit der Seilbahn ab Weggis, hinunter ab Scheidegg mit der Luftseilbahn nach Kräbel und weiter mit der Zahnradbahn nach Goldau.",
+   "priceInfo": {
+    "from": 84,
+    "unit": "Tageskarte Erwachsene",
+    "note": "Rigi-Tageskarte (ab 1.6.2026); mit Halbtax CHF 42; Kinder bis 15 in Begleitung gratis; Kräbel–Scheidegg einzeln CHF 39 retour"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 6.9,
+    "up": 229,
+    "down": 25,
+    "hours": 1.83,
+    "difficulty": "T1",
+    "start": "Rigi Kaltbad-First",
+    "end": "Rigi Scheidegg",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/wanderung-rigi-panoramaweg-rigi-kaltbad-first-rigi-scheidegg-wandern/ ; https://www.rigi.ch/informieren/preise",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "lu-w-rigi-winterweg",
+   "kind": "aktivitaet",
+   "name": "Winterwanderweg Rigi Kulm – Kaltbad – Klösterli",
+   "region": "luzern",
+   "town": "Rigi Kaltbad",
+   "address": "Start Rigi Kulm; Ziel Rigi Klösterli (Zahnradbahn)",
+   "coords": {
+    "lat": 47.05344,
+    "lng": 8.47417
+   },
+   "url": "https://wegwandern.ch/wanderung/winterwanderung-rigi-kulm-staffel-kaltbad-first-rigi-kloesterli-winterwandern/",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–März",
+   "durationMin": 150,
+   "text": "Im Winter sind auf der Rigi viele Wege gepfadet: Diese Route führt vom Gipfel über Staffel, Kaltbad und First fast nur bergab zum Klösterli. Unterwegs liegt der Aussichtspunkt Chänzeli hoch über dem Vierwaldstättersee.",
+   "tip": "Auf Rigi Kulm kannst du einen Schlitten mieten und einen Teil der Strecke auf der Schlittelpiste abkürzen.",
+   "priceInfo": {
+    "from": 84,
+    "unit": "Tageskarte Erwachsene",
+    "note": "Rigi-Tageskarte; mit Halbtax CHF 42; Vitznau–Rigi Kulm retour ebenfalls CHF 84"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "hike": {
+    "km": 6.2,
+    "up": 38,
+    "down": 499,
+    "hours": 2,
+    "difficulty": "T1",
+    "start": "Rigi Kulm",
+    "end": "Rigi Klösterli",
+    "winter": true
+   },
+   "source": "https://wegwandern.ch/wanderung/winterwanderung-rigi-kulm-staffel-kaltbad-first-rigi-kloesterli-winterwandern/ ; https://www.rigi.ch/informieren/preise",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Rigi-Bahn_and_the_Winter.jpg/1280px-Rigi-Bahn_and_the_Winter.jpg",
+    "alt": "Rigi-Bahn in verschneiter Landschaft",
+    "credit": "https://commons.wikimedia.org/wiki/File:Rigi-Bahn_and_the_Winter.jpg"
+   }
+  },
+  {
+   "id": "lu-s-seebad",
+   "kind": "bad",
+   "name": "Seebad Luzern",
+   "region": "luzern",
+   "town": "Luzern",
+   "address": "Nationalquai, 6006 Luzern",
+   "coords": {
+    "lat": 47.05459,
+    "lng": 8.31864
+   },
+   "url": "https://www.seebadluzern.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "see",
+    "romantisch",
+    "kultur"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September",
+   "hours": "im Sommer Baden bis 20 Uhr; bei Kälte, Regen und Sturm geschlossen",
+   "durationMin": 120,
+   "text": "Das historische Holzbad am Nationalquai hat zwei Innenhöfe mit Seewasser und direkten Einstieg in den Vierwaldstättersee, mit Blick auf Pilatus und KKL. Abends sitzt du im Restaurant auf dem Steg und schaust in den Sonnenuntergang.",
+   "tip": "Auf der Website zeigt eine Auslastungsanzeige, wie voll es gerade ist.",
+   "priceInfo": {
+    "from": 6,
+    "unit": "Eintritt Erwachsene"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "water": {
+    "type": "see",
+    "body": "Vierwaldstättersee",
+    "heated": false
+   },
+   "source": "https://www.luzern.com/de/poi/seebad-luzern",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Luzern_Seebad_1180644.jpg/1280px-Luzern_Seebad_1180644.jpg",
+    "alt": "Seebad Luzern am Nationalquai",
+    "credit": "https://commons.wikimedia.org/wiki/File:Luzern_Seebad_1180644.jpg"
+   }
+  },
+  {
+   "id": "lu-s-hallenbad-allmend",
+   "kind": "bad",
+   "name": "Hallenbad Allmend Luzern",
+   "region": "luzern",
+   "town": "Luzern",
+   "address": "Zihlmattweg 46, 6005 Luzern",
+   "coords": {
+    "lat": 47.03174,
+    "lng": 8.30454
+   },
+   "url": "https://www.hallenbadallmend.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "regenfest",
+    "familie",
+    "aktiv"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (in den Sommerferien reduziert)",
+   "hours": "Mo, Di, Do 6–22, Mi 7.30–22 Uhr",
+   "durationMin": 120,
+   "text": "Das städtische Hallenbad in der Swissporarena hat fünf Becken mit fast 1000 m² Wasserfläche, darunter ein Sprungbecken und ein 32 °C warmes Erlebnisbecken. Vom Bahnhof Luzern bist du mit der S-Bahn bis Luzern Allmend/Messe in wenigen Minuten dort.",
+   "priceInfo": {
+    "from": 14,
+    "unit": "Eintritt Erwachsene",
+    "note": "auswärtig; mit Luzerner Sportcard CHF 12"
+   },
+   "open": {
+    "week": {
+     "1": [
+      [
+       "06:00",
+       "22:00"
+      ]
+     ],
+     "2": [
+      [
+       "06:00",
+       "22:00"
+      ]
+     ],
+     "3": [
+      [
+       "07:30",
+       "22:00"
+      ]
+     ],
+     "4": [
+      [
+       "06:00",
+       "22:00"
+      ]
+     ]
+    }
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 28
+   },
+   "source": "https://www.badi-info.ch/lu/luzern-hallenbad-allmend.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "eb-w-vier-seen",
+   "kind": "aktivitaet",
+   "name": "Vier-Seen-Wanderung Trübsee – Jochpass – Melchsee-Frutt",
+   "region": "engelberg",
+   "town": "Engelberg",
+   "address": "Start Trübsee (Bergstation Gondelbahn); Ziel Melchsee-Frutt (Bergstation Gondelbahn)",
+   "coords": {
+    "lat": 46.77862,
+    "lng": 8.38858
+   },
+   "url": "https://wegwandern.ch/wanderung/vier-seen-wanderung-truebsee-engelberg-jochpass-engstlenalp-melchsee-frutt-wandern/",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "berg",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "Juli–Oktober",
+   "durationMin": 300,
+   "text": "Der Klassiker der Zentralschweiz verbindet Trübsee, Engstlensee, Tannensee und Melchsee auf einer langen Höhenwanderung über den Jochpass, immer mit dem Titlis im Rücken. Mit der Sesselbahn Trübsee–Jochpass sparst du rund zwei Stunden Aufstieg.",
+   "tip": "Auf der Tannalp gibt es eine Alpkäserei mit Gasthaus – guter Ort für eine Pause vor dem letzten Teil zum Melchsee.",
+   "priceInfo": {
+    "from": 38,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Engelberg–Trübsee (Retourpreis aus dem Bestand, nur Bergfahrt nötig); Talfahrt Melchsee-Frutt–Stöckalp und Bus nach Sarnen extra"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 14.8,
+    "up": 716,
+    "down": 582,
+    "hours": 4.58,
+    "difficulty": "T2",
+    "start": "Trübsee",
+    "end": "Melchsee-Frutt",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/vier-seen-wanderung-truebsee-engelberg-jochpass-engstlenalp-melchsee-frutt-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Engstlensee_%28BE%29_-_Innertkirchen_%2C_Switzerland_%2815089715948%29.jpg/1280px-Engstlensee_%28BE%29_-_Innertkirchen_%2C_Switzerland_%2815089715948%29.jpg",
+    "alt": "Engstlensee auf der Vier-Seen-Wanderung",
+    "credit": "https://commons.wikimedia.org/wiki/File:Engstlensee_(BE)_-_Innertkirchen_,_Switzerland_(15089715948).jpg"
+   }
+  },
+  {
+   "id": "eb-w-aaschlucht",
+   "kind": "aktivitaet",
+   "name": "Wanderung Grafenort – Aaschlucht – Engelberg",
+   "region": "engelberg",
+   "town": "Engelberg",
+   "address": "Start Bahnhof Grafenort (Halt auf Verlangen); Ziel Bahnhof Engelberg",
+   "coords": {
+    "lat": 46.86996,
+    "lng": 8.37209
+   },
+   "url": "https://wegwandern.ch/wanderung/grafenort-aaschlucht-engelberg-engelberger-aa-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Oktober",
+   "durationMin": 190,
+   "text": "Statt bis Engelberg fährst du nur bis Grafenort und steigst zu Fuss der Engelberger Aa entlang ins Tal hinauf. Im zweiten Teil wird der Weg zum Bergweg und führt über Stege und Hängebrücken durch die Aaschlucht.",
+   "tip": "Grafenort ist ein Halt auf Verlangen – im Zug rechtzeitig den Halteknopf drücken. Die Feuerstelle «Tonis Balm» unter einem Felsdach ist ein schöner Picknickplatz.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: Zentralbahn Luzern–Engelberg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 8.9,
+    "up": 479,
+    "down": 48,
+    "hours": 2.67,
+    "difficulty": "T2",
+    "start": "Grafenort",
+    "end": "Engelberg",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/grafenort-aaschlucht-engelberg-engelberger-aa-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Fussg%C3%A4nger_H%C3%A4ngebr%C3%BCcke_%C3%BCber_die_Engelberger_Aa%2C_Engelberg-Aaschlucht_OW_20180904-jag9889.jpg/1280px-Fussg%C3%A4nger_H%C3%A4ngebr%C3%BCcke_%C3%BCber_die_Engelberger_Aa%2C_Engelberg-Aaschlucht_OW_20180904-jag9889.jpg",
+    "alt": "Hängebrücke über die Engelberger Aa in der Aaschlucht",
+    "credit": "https://commons.wikimedia.org/wiki/File:Fussg%C3%A4nger_H%C3%A4ngebr%C3%BCcke_%C3%BCber_die_Engelberger_Aa,_Engelberg-Aaschlucht_OW_20180904-jag9889.jpg"
+   }
+  },
+  {
+   "id": "eb-w-ristis-winter",
+   "kind": "aktivitaet",
+   "name": "Winterwanderweg Ristis – Rigidalalp – Brunnihütte",
+   "region": "engelberg",
+   "town": "Engelberg",
+   "address": "Start Ristis (Bergstation Luftseilbahn); Ziel Brunnihütte (Bergstation Sessellift Brunni)",
+   "coords": {
+    "lat": 46.83209,
+    "lng": 8.40758
+   },
+   "url": "https://wegwandern.ch/wanderung/winterwanderung-ristis-engelberg-rigidalalp-brunnihuette-winterwandern/",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "berg",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–März",
+   "durationMin": 100,
+   "text": "Ab der Bergstation Ristis steigst du auf einem gepfadeten Winterweg gemütlich über die Rigidalalp zur Brunnihütte am Härzlisee. Unterwegs kehrst du im Älplerbeizli Rigidal ein, oben wartet die ganzjährig offene SAC-Hütte mit Blick auf Titlis und Spannort.",
+   "tip": "Zurück geht es mit dem Sessellift oder auf einer der zwei Schlittelpisten von Brunni nach Ristis.",
+   "priceInfo": {
+    "from": 48,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Engelberg–Brunnihütte (Luftseilbahn + Sessellift), Preis laut Bestand; Winterpreis kann abweichen"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "hike": {
+    "km": 3,
+    "up": 275,
+    "down": 16,
+    "hours": 1.25,
+    "difficulty": "T1",
+    "start": "Ristis",
+    "end": "Brunni (Brunnihütte)",
+    "winter": true
+   },
+   "source": "https://wegwandern.ch/wanderung/winterwanderung-ristis-engelberg-rigidalalp-brunnihuette-winterwandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hahnen_from_Brunni-Ristis.jpg/1280px-Hahnen_from_Brunni-Ristis.jpg",
+    "alt": "Blick von Brunni-Ristis auf den Hahnen",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hahnen_from_Brunni-Ristis.jpg"
+   }
+  },
+  {
+   "id": "eb-s-felsenbad",
+   "kind": "bad",
+   "name": "Felsenbad im Alpenresort Eienwäldli",
+   "region": "engelberg",
+   "town": "Engelberg",
+   "address": "Wasserfallstrasse 108, 6390 Engelberg",
+   "coords": {
+    "lat": 46.80974,
+    "lng": 8.42265
+   },
+   "url": "https://alpenresort.ch/wellness",
+   "price": 2,
+   "tags": [
+    "baden",
+    "familie",
+    "regenfest",
+    "wellness"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 9–21.30 Uhr, letzter Einlass 21 Uhr",
+   "durationMin": 150,
+   "text": "Das Erlebnisbad im Feriendorf Eienwäldli ist in eine künstliche Felslandschaft gebaut, mit Wasserfall, Massagedüsen, Dampfgrotte und Kneippgang bei 32 °C. Nach einem kalten Tag am Titlis genau richtig, auch mit Kindern – es gibt ein eigenes Becken mit Rutsche.",
+   "tip": "Es gibt keine Badeaufsicht; Kinder bis 10 nur mit Erwachsenen. Der Aufenthalt ist auf 2,5 Stunden begrenzt.",
+   "priceInfo": {
+    "from": 17,
+    "unit": "Eintritt Erwachsene",
+    "note": "mit Gästekarte CHF 15; ab 19 Uhr CHF 10; Kinder 6–15 CHF 10; Kombi mit Sauna CHF 39"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ]
+    }
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 32
+   },
+   "source": "https://alpenresort.ch/uploads/pdf/Wellness/112026_Wellness_Preisliste.pdf",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ei-w-hundwileren",
+   "kind": "aktivitaet",
+   "name": "Wanderung Bennau – Chatzenstrick – Hundwileren – Einsiedeln",
+   "region": "einsiedeln",
+   "town": "Einsiedeln",
+   "address": "Start Bushaltestelle Bennau, Kirche; Ziel Bahnhof Einsiedeln",
+   "coords": {
+    "lat": 47.12784,
+    "lng": 8.7115
+   },
+   "url": "https://wegwandern.ch/wanderung/bennau-chatzenstrick-hundwileren-einsiedeln-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "April–Oktober",
+   "durationMin": 190,
+   "text": "Von Bennau steigst du über den Chatzenstrick auf die Hundwileren (1194 m), einen wenig bekannten Aussichtsgipfel mit Rundblick über Sihlsee und Voralpen. Danach geht es hinunter zum Kloster Einsiedeln.",
+   "tip": "Unterwegs gibt es keine Beiz – Proviant mitnehmen und erst in Einsiedeln einkehren.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra bis Bennau, Kirche"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 9.1,
+    "up": 357,
+    "down": 358,
+    "hours": 2.67,
+    "difficulty": "T1",
+    "start": "Bennau, Kirche",
+    "end": "Einsiedeln",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/bennau-chatzenstrick-hundwileren-einsiedeln-wandern/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ei-w-schwedentritt-winter",
+   "kind": "aktivitaet",
+   "name": "Winterwanderung Einsiedeln – Schwedentritt – Sihlsee",
+   "region": "einsiedeln",
+   "town": "Einsiedeln",
+   "address": "Start und Ziel Bushaltestelle Einsiedeln, Brüel",
+   "coords": {
+    "lat": 47.12901,
+    "lng": 8.75419
+   },
+   "url": "https://wegwandern.ch/wanderung/winterwanderung-einsiedeln-schwedentritt-sihlsee-winterwandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "kultur",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–März",
+   "durationMin": 200,
+   "text": "Die Runde beginnt beim Langlaufzentrum Schwedentritt oberhalb des Klosters und führt über die verschneite Hochebene mit Blick auf den Sihlsee und die Ybriger Berge. Unterwegs kommst du am Galgenchappeli vorbei, der Kapelle bei der früheren Richtstätte.",
+   "tip": "Start und Ziel ist das Loipencafé Schwedentritt beim Parkhaus Brüel – ideal für eine Suppe danach.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra bis Einsiedeln; vom Bahnhof wenige Minuten zum Brüel"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "hike": {
+    "km": 8.9,
+    "up": 121,
+    "down": 121,
+    "hours": 2.75,
+    "difficulty": "T1",
+    "start": "Einsiedeln, Brüel",
+    "end": "Einsiedeln, Brüel",
+    "winter": true
+   },
+   "source": "https://wegwandern.ch/wanderung/winterwanderung-einsiedeln-schwedentritt-sihlsee-winterwandern/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "ei-s-sihlsee-badi",
+   "kind": "bad",
+   "name": "Sihlsee-Badi Roblosen (Egg)",
+   "region": "einsiedeln",
+   "town": "Egg bei Einsiedeln",
+   "address": "Staumauerstrasse 16, 8847 Egg",
+   "coords": {
+    "lat": 47.14931,
+    "lng": 8.76524
+   },
+   "url": "https://www.sihlseebadi.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "gratis",
+    "see",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September (Start bei schönem Wetter)",
+   "hours": "Mai/Juni ab 10 Uhr, Juli bis Mitte August ab 9 Uhr",
+   "durationMin": 150,
+   "text": "Am Nordende des Sihlsees bei der Staumauer liegt die Badi mit Liegewiese und Restaurant, seit 2017 ohne Eintritt. Der Stausee auf knapp 900 Metern bleibt frischer als die Mittellandseen – an heissen Tagen genau richtig.",
+   "tip": "Die Parkplätze vor der Badi sind gratis; Baden auf eigene Verantwortung.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "water": {
+    "type": "see",
+    "body": "Sihlsee",
+    "heated": false
+   },
+   "source": "https://www.badi-info.ch/a/einsiedeln.html",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sihlsee_Staumauer_Br%C3%BCcke%2C_Egg_SZ_20180708-jag9889.jpg/1280px-Sihlsee_Staumauer_Br%C3%BCcke%2C_Egg_SZ_20180708-jag9889.jpg",
+    "alt": "Strassenbrücke über die Sihlsee-Staumauer bei Egg",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sihlsee_Staumauer_Br%C3%BCcke,_Egg_SZ_20180708-jag9889.jpg"
+   }
+  },
+  {
+   "id": "st-w-nuehusweidli-winter",
+   "kind": "aktivitaet",
+   "name": "Winterwanderweg Nühusweidli-Rundweg (Stoos)",
+   "region": "stoos",
+   "town": "Stoos",
+   "address": "Start und Ziel Stoos (Bergstation Stoosbahn)",
+   "coords": {
+    "lat": 46.97822,
+    "lng": 8.66779
+   },
+   "url": "https://wegwandern.ch/wanderung/stoos-winterwandern-nuehusweidli-rundweg-winterwanderung/",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "berg",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–März",
+   "durationMin": 120,
+   "text": "Die kurze Runde durch das autofreie Stoos führt abseits der Pisten über verschneite Weiden zur Maria-Hilf-Kapelle und zurück. Genau richtig, wenn du nach der Fahrt mit der steilsten Standseilbahn der Welt einfach eine Stunde durch den Schnee gehen willst.",
+   "tip": "Etwa auf halber Strecke kannst du im Wellnesshotel Stoos einkehren.",
+   "priceInfo": {
+    "from": 23.2,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Stoosbahn ab Schwyz-Schlattli; mit Halbtax CHF 11.60; GA gilt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "hike": {
+    "km": 4.4,
+    "up": 150,
+    "down": 149,
+    "hours": 1.5,
+    "difficulty": "T1",
+    "start": "Stoos",
+    "end": "Stoos",
+    "winter": true
+   },
+   "source": "https://wegwandern.ch/wanderung/stoos-winterwandern-nuehusweidli-rundweg-winterwanderung/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stoos_im_Winter.JPG/1280px-Stoos_im_Winter.JPG",
+    "alt": "Verschneites Stoos",
+    "credit": "https://commons.wikimedia.org/wiki/File:Stoos_im_Winter.JPG"
+   }
+  },
+  {
+   "id": "st-s-swiss-holiday-park",
+   "kind": "bad",
+   "name": "Erlebnisbad Swiss Holiday Park",
+   "region": "stoos",
+   "town": "Morschach",
+   "address": "Dorfstrasse 10, 6443 Morschach",
+   "coords": {
+    "lat": 46.98096,
+    "lng": 8.61799
+   },
+   "url": "https://swissholidaypark.ch/aktivitaeten/wasser-wellnesswelt/erlebnisbad",
+   "price": 2,
+   "tags": [
+    "baden",
+    "familie",
+    "regenfest",
+    "freunde"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Innenbad täglich 9–21.30, Aussenbad 9–21 Uhr",
+   "durationMin": 180,
+   "text": "Hoch über dem Vierwaldstättersee hat das Erlebnisbad ein 32 °C warmes Innen- und Aussenbecken mit Wildwasserkanal und die 100 Meter lange Rutsche «Rote Mamba» mit Zeitmessung. Morschach liegt gleich unterhalb vom Stoos und ist ab Brunnen mit dem Bus erreichbar.",
+   "tip": "Von September bis Mai ist der Aufenthalt auf drei Stunden begrenzt; Kinder unter 12 nur mit Erwachsenen.",
+   "priceInfo": {
+    "from": 20,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab CHF 20, Tagespreise variieren (Ticketshop)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "21:30"
+      ]
+     ]
+    }
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true,
+    "tempC": 32
+   },
+   "source": "https://swissholidaypark.ch/aktivitaeten/wasser-wellnesswelt/erlebnisbad",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Swiss_Holiday_Park_-_panoramio_%282%29.jpg/1280px-Swiss_Holiday_Park_-_panoramio_%282%29.jpg",
+    "alt": "Swiss Holiday Park in Morschach",
+    "credit": "https://commons.wikimedia.org/wiki/File:Swiss_Holiday_Park_-_panoramio_(2).jpg"
+   }
+  },
+  {
+   "id": "bs-w-gempen",
+   "kind": "aktivitaet",
+   "name": "Rundwanderung Dornach – Ermitage – Gempenturm",
+   "region": "basel",
+   "town": "Dornach",
+   "address": "Start und Ziel Bahnhof Dornach-Arlesheim",
+   "coords": {
+    "lat": 47.47793,
+    "lng": 7.64703
+   },
+   "url": "https://wegwandern.ch/wanderung/dornach-arlesheim-ermitage-schartenflue-gempenturm-schlosshof-ruine-dorneck-dornach-arlesheim-wandern-wanderung/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "kultur",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "März–November",
+   "durationMin": 230,
+   "text": "Die Runde beginnt in der Ermitage Arlesheim, einem englischen Landschaftsgarten mit Grotten und Weihern, und steigt dann zur Schartenflue auf. Vom Gempenturm siehst du über Basel bis zu Vogesen und Schwarzwald; zurück geht es an der Burgruine Dorneck vorbei.",
+   "tip": "Am Turm steht die Bärgbeiz Gempenturm; ab Basel SBB bist du mit der S-Bahn in rund zehn Minuten in Dornach-Arlesheim.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: S-Bahn Basel SBB–Dornach-Arlesheim"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "hike": {
+    "km": 11.6,
+    "up": 481,
+    "down": 481,
+    "hours": 3.33,
+    "difficulty": "T1",
+    "start": "Dornach-Arlesheim",
+    "end": "Dornach-Arlesheim",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/dornach-arlesheim-ermitage-schartenflue-gempenturm-schlosshof-ruine-dorneck-dornach-arlesheim-wandern-wanderung/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ermitage_Arlesheim_unterer_Weiher.jpg/1280px-Ermitage_Arlesheim_unterer_Weiher.jpg",
+    "alt": "Unterer Weiher in der Ermitage Arlesheim",
+    "credit": "https://commons.wikimedia.org/wiki/File:Ermitage_Arlesheim_unterer_Weiher.jpg"
+   }
+  },
+  {
+   "id": "bs-w-rheinfelden-kaiseraugst",
+   "kind": "aktivitaet",
+   "name": "Rheinuferweg Rheinfelden – Kaiseraugst (Augusta Raurica)",
+   "region": "basel",
+   "town": "Kaiseraugst",
+   "address": "Start Bahnhof Rheinfelden; Ziel Bahnhof Kaiseraugst",
+   "coords": {
+    "lat": 47.53283,
+    "lng": 7.72183
+   },
+   "url": "https://wegwandern.ch/wanderung/rheinfelden-kaiseraugst-rheinuferweg-viarhenana-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "kultur",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 120,
+   "text": "Von der Altstadt Rheinfelden spazierst du auf der ViaRhenana fast eben dem Rhein entlang nach Kaiseraugst. Am Ziel liegt Augusta Raurica, die grösste Römerstadt der Schweiz, deren Freigelände mit Theater und Tierpark du gratis besuchen kannst.",
+   "tip": "Mach die Tour umgekehrt und gönn dir am Schluss ein Solebad im sole uno in Rheinfelden.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: S-Bahn ab Basel; Römermuseum kostet Eintritt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 6.2,
+    "up": 96,
+    "down": 106,
+    "hours": 1.58,
+    "difficulty": "T1",
+    "start": "Rheinfelden",
+    "end": "Kaiseraugst",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/rheinfelden-kaiseraugst-rheinuferweg-viarhenana-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Augusta_Raurica_R%C3%B6misches_Theater.jpg/1280px-Augusta_Raurica_R%C3%B6misches_Theater.jpg",
+    "alt": "Römisches Theater von Augusta Raurica",
+    "credit": "https://commons.wikimedia.org/wiki/File:Augusta_Raurica_R%C3%B6misches_Theater.jpg"
+   }
+  },
+  {
+   "id": "bs-s-rheinbad-breite",
+   "kind": "bad",
+   "name": "Rheinbad Breite",
+   "region": "basel",
+   "town": "Basel",
+   "address": "St. Alban-Rheinweg 195, 4052 Basel",
+   "coords": {
+    "lat": 47.5563,
+    "lng": 7.61077
+   },
+   "url": "https://www.rheinbad-breite.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "kultur",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Mai–September (2026: 1.5.–26.9.); im Winter Sauna",
+   "hours": "Mo–Fr ab 11, Sa/So ab 10 Uhr; bei sehr schlechtem Wetter zu",
+   "durationMin": 150,
+   "text": "Das «Rhybadhysli» ist ein hölzernes Flussbad am Grossbasler Ufer, von dem aus du direkt in den Rhein steigst. Im Winter wird das Badhaus zur «Sauna am Rhy», abgekühlt wird im Fluss.",
+   "tip": "Mit einem Wickelfisch kannst du hier einsteigen und dich bis zur Altstadt treiben lassen – nur für geübte Schwimmer.",
+   "priceInfo": {
+    "from": 5,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 16 J.; Lernende/Studierende CHF 3, Kinder CHF 2"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "water": {
+    "type": "fluss",
+    "body": "Rhein",
+    "heated": false
+   },
+   "source": "https://www.badi-info.ch/bs/breite.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bs-s-gartenbad-eglisee",
+   "kind": "bad",
+   "name": "Gartenbad Eglisee mit Frauenbad",
+   "region": "basel",
+   "town": "Basel",
+   "address": "Egliseestrasse 85, 4058 Basel",
+   "coords": {
+    "lat": 47.57101,
+    "lng": 7.61417
+   },
+   "url": "https://www.bs.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai–September (Saison 2027 ab 15.5.)",
+   "hours": "Saison 2026: bis 5. Juni täglich 9–20 Uhr, 6. Juni–9. August Mo–Fr 7–21, Sa/So 9–21 Uhr",
+   "durationMin": 180,
+   "text": "Das grosse Gartenbad im Kleinbasel hat Sport-, Familien- und Kinderbecken und einen eigenen, abgetrennten Bereich nur für Frauen – eines der wenigen Frauenbäder, die es noch gibt. Viel Rasen, alte Bäume und ein Restaurant machen es zum Ganztagesbad.",
+   "tip": "Das Hallenbad Eglisee nebenan ist wegen Sanierung erst ab Oktober 2027 wieder offen.",
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 16 J.; Lernende/Studierende bis 25 CHF 5, Kinder 6–16 CHF 3"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "water": {
+    "type": "freibad"
+   },
+   "source": "https://www.badi-info.ch/bs/eglisee.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bs-s-sole-uno",
+   "kind": "bad",
+   "name": "sole uno Rheinfelden",
+   "region": "basel",
+   "town": "Rheinfelden",
+   "address": "Roberstenstrasse 31, 4310 Rheinfelden",
+   "coords": {
+    "lat": 47.55774,
+    "lng": 7.79972
+   },
+   "url": "https://www.soleuno.ch",
+   "price": 3,
+   "tags": [
+    "baden",
+    "wellness",
+    "regenfest",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 8–22.30 Uhr, letzter Einlass 20.30, Badeschluss 22 Uhr",
+   "durationMin": 180,
+   "text": "In Rheinfelden badest du in Sole aus den örtlichen Salzvorkommen, mit Intensiv-Solebecken, Wasserfällen und grossem Aussenbecken. Ab Basel bist du mit der S-Bahn in rund einer Viertelstunde dort.",
+   "tip": "Ende Oktober bis Ende November gibt es abends Lichtkunst im Aussenbecken.",
+   "priceInfo": {
+    "from": 33,
+    "to": 54,
+    "unit": "Eintritt Erwachsene",
+    "note": "Mo–Fr 2 Std. CHF 33, 3 Std. CHF 38; Sa/So +CHF 2; Tageskarte bis CHF 54"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "22:00"
+      ]
+     ]
+    }
+   },
+   "water": {
+    "type": "therme",
+    "heated": true
+   },
+   "source": "https://www.badi-info.ch/a/rheinfelden-sole-uno.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sg-w-seealpsee",
+   "kind": "aktivitaet",
+   "name": "Ebenalp – Wildkirchli – Seealpsee – Wasserauen",
+   "region": "st-gallen",
+   "town": "Wasserauen",
+   "address": "Start Ebenalp (Bergstation Seilbahn); Ziel Bahnhof Wasserauen",
+   "coords": {
+    "lat": 47.26827,
+    "lng": 9.40077
+   },
+   "url": "https://wegwandern.ch/wanderung/appenzell-ebenalp-wildkirchli-seealpsee-wasserauen-wandern/",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "berg",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober",
+   "durationMin": 150,
+   "text": "Mit der Ebenalpbahn fährst du hinauf und wanderst an den Höhlen des Wildkirchli und am Berggasthaus Äscher unter der Felswand vorbei. Dann geht es steil hinunter zum Seealpsee und gemütlich weiter nach Wasserauen.",
+   "tip": "Der Abstieg zum See ist steil und stellenweise ausgesetzt – gute Schuhe sind Pflicht. Am Seealpsee kannst du im Sommer baden.",
+   "priceInfo": {
+    "from": 36,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Ebenalpbahn, nur Bergfahrt nötig; Halbtax/GA CHF 18; Revision ab 2.11. bis Mitte/Ende Dezember 2026"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 6.3,
+    "up": 118,
+    "down": 833,
+    "hours": 2.08,
+    "difficulty": "T2",
+    "start": "Ebenalp",
+    "end": "Wasserauen",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/appenzell-ebenalp-wildkirchli-seealpsee-wasserauen-wandern/ ; https://www.ebenalp.ch/de/preise",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Seealpsee_von_Ebenalp_2023_%282%29.jpg/1280px-Seealpsee_von_Ebenalp_2023_%282%29.jpg",
+    "alt": "Blick von der Ebenalp auf den Seealpsee",
+    "credit": "https://commons.wikimedia.org/wiki/File:Seealpsee_von_Ebenalp_2023_(2).jpg"
+   }
+  },
+  {
+   "id": "sg-w-brueckenweg",
+   "kind": "aktivitaet",
+   "name": "St. Galler Brückenweg (Haggen – Sittertal – Spisegg)",
+   "region": "st-gallen",
+   "town": "St. Gallen",
+   "address": "Start Bahnhof St. Gallen Haggen; Ziel Bushaltestelle St. Gallen, Spisegg",
+   "coords": {
+    "lat": 47.40047,
+    "lng": 9.32501
+   },
+   "url": "https://wegwandern.ch/wanderung/st-galler-brueckenweg-st-gallen-haggen-sittertal-spisegg-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "kultur",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig, am schönsten März–November",
+   "durationMin": 160,
+   "text": "Gleich am Stadtrand erkundest du die tiefen Tobel von Sitter und Wattbach, über die 18 Brücken führen – vom Eisenbahnviadukt bis zum 65 Meter langen Rechensteg. An jeder Brücke erklärt eine Tafel ihre Geschichte.",
+   "tip": "Kurz nach dem Start liegt die Wirtschaft zum Schlössli-Haggen; am Ziel wartet das Restaurant Spisegg.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn/Bus extra: S-Bahn bis Haggen, zurück Bus ab Spisegg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "hike": {
+    "km": 8.3,
+    "up": 206,
+    "down": 311,
+    "hours": 2.25,
+    "difficulty": "T1",
+    "start": "St. Gallen Haggen",
+    "end": "St. Gallen, Spisegg",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/st-galler-brueckenweg-st-gallen-haggen-sittertal-spisegg-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/SOB_Sitterviadukt_%C3%BCber_die_Sitter%2C_St._Gallen_SG_-_Herisau_AR_20190720-jag9889.jpg/1280px-SOB_Sitterviadukt_%C3%BCber_die_Sitter%2C_St._Gallen_SG_-_Herisau_AR_20190720-jag9889.jpg",
+    "alt": "Sitterviadukt über dem Sittertobel",
+    "credit": "https://commons.wikimedia.org/wiki/File:SOB_Sitterviadukt_%C3%BCber_die_Sitter,_St._Gallen_SG_-_Herisau_AR_20190720-jag9889.jpg"
+   }
+  },
+  {
+   "id": "sg-s-rotmonten",
+   "kind": "bad",
+   "name": "Schwimmbad Rotmonten",
+   "region": "st-gallen",
+   "town": "St. Gallen",
+   "address": "Waldgutstrasse 9, 9010 St. Gallen",
+   "coords": {
+    "lat": 47.43485,
+    "lng": 9.37364
+   },
+   "url": "https://sport.stadt.sg.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Anfang September (2027 voraussichtlich 8.5.–5.9.)",
+   "hours": "täglich 8–19 Uhr, bei gutem Badewetter länger; bei schlechtem Wetter früher zu",
+   "durationMin": 150,
+   "text": "Das städtische Freibad liegt im Quartier Rotmonten am Waldrand oberhalb der Altstadt und ist deutlich ruhiger als die Weieren. Ab 17.30 Uhr kostet der Eintritt nur noch vier Franken – gut für einen Feierabendschwumm.",
+   "tip": "Von Juni bis August gibt es jeden Donnerstag Frühschwimmen ab 7 Uhr.",
+   "priceInfo": {
+    "from": 5.5,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 17.30 Uhr CHF 4; in Ausbildung 16–26 J. CHF 3.90 (Stand 2026)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "19:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "water": {
+    "type": "freibad"
+   },
+   "source": "https://www.badi-info.ch/sg/badirotmonten.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "sg-s-saentispark",
+   "kind": "bad",
+   "name": "Säntispark Bäderlandschaft",
+   "region": "st-gallen",
+   "town": "Abtwil",
+   "address": "Wiesenbachstrasse 9, 9030 Abtwil",
+   "coords": {
+    "lat": 47.41883,
+    "lng": 9.31539
+   },
+   "url": "https://saentispark-freizeit.ch",
+   "price": 2,
+   "tags": [
+    "baden",
+    "familie",
+    "regenfest",
+    "freunde"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 9–22 Uhr, Badeschluss 21.40 Uhr",
+   "durationMin": 180,
+   "text": "Am Stadtrand von St. Gallen findest du Wellenbad, Solebad, Aussenbecken, eine Rutschenwelt und einen Wildwasser-Canyon unter einem Dach. Das Ziel für Regentage mit Kindern in der Ostschweiz.",
+   "tip": "Wer Ruhe sucht: Das Römisch-Irische Bad im selben Haus ist separat und kostet ab CHF 88.",
+   "priceInfo": {
+    "from": 34,
+    "to": 42,
+    "unit": "Eintritt Erwachsene",
+    "note": "2 Std. CHF 34, 4 Std. CHF 42 (ab 16 J., inkl. Rutschen)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ]
+    }
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "source": "https://saentispark-freizeit.ch/preise/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "chur-w-caumasee-trin",
+   "kind": "aktivitaet",
+   "name": "Wanderung Flims – Caumasee – Il Spir – Trin Mulin",
+   "region": "chur",
+   "town": "Flims",
+   "address": "Start Bushaltestelle Flims Waldhaus, Caumasee; Ziel Bushaltestelle Trin, Mulin",
+   "coords": {
+    "lat": 46.8127,
+    "lng": 9.31982
+   },
+   "url": "https://wegwandern.ch/wanderung/wanderung-flims-waldhaus-caumasee-conn-il-spir-crestasee-trin-mulin-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "see",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "März–Oktober",
+   "durationMin": 160,
+   "text": "Durch den Flimserwald gehst du vom türkisfarbenen Caumasee zur Aussichtsplattform Il Spir, die über der Rheinschlucht Ruinaulta hängt. Danach geht es am kleinen Crestasee vorbei hinunter nach Trin Mulin.",
+   "tip": "Im Sommer Badesachen einpacken – Caumasee und Crestasee sind beide Badeseen.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Postauto extra: Chur–Flims Waldhaus, zurück ab Trin Mulin"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 9,
+    "up": 113,
+    "down": 395,
+    "hours": 2.25,
+    "difficulty": "T1",
+    "start": "Flims Waldhaus, Caumasee",
+    "end": "Trin, Mulin",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/wanderung-flims-waldhaus-caumasee-conn-il-spir-crestasee-trin-mulin-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Il_Spir_panorama_20210614.jpg/1280px-Il_Spir_panorama_20210614.jpg",
+    "alt": "Aussichtsplattform Il Spir über der Ruinaulta",
+    "credit": "https://commons.wikimedia.org/wiki/File:Il_Spir_panorama_20210614.jpg"
+   }
+  },
+  {
+   "id": "chur-w-dreibuendenstein",
+   "kind": "aktivitaet",
+   "name": "Panoramaweg Brambrüesch – Dreibündenstein – Feldis",
+   "region": "chur",
+   "town": "Chur",
+   "address": "Start Brambrüesch (Bergstation Seilbahn ab Chur); Ziel Feldis/Veulden (Seilbahn nach Rhäzüns)",
+   "coords": {
+    "lat": 46.80092,
+    "lng": 9.49736
+   },
+   "url": "https://wegwandern.ch/wanderung/wanderung-dreibuendenstein-panoramaweg-chur-brambrueesch-feldis-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "berg",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober",
+   "durationMin": 270,
+   "text": "Vom Churer Hausberg Brambrüesch steigst du zum Dreibündenstein auf 2160 Metern, wo einst die Grenzen der drei Bünde zusammentrafen. Lange gehst du über den Grat mit Blick auf Lenzerheide, Calanda und Tödi, bevor du am Bergsee Leg Palus vorbei nach Feldis absteigst.",
+   "tip": "In Feldis bringt dich die Seilbahn hinunter nach Rhäzüns, von dort fährt die RhB zurück nach Chur.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Weg gratis; Bergbahn Chur–Brambrüesch und Seilbahn Feldis–Rhäzüns extra (Preise nicht verifiziert)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 12,
+    "up": 690,
+    "down": 814,
+    "hours": 4.08,
+    "difficulty": "T2",
+    "start": "Brambrüesch",
+    "end": "Feldis/Veulden",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/wanderung-dreibuendenstein-panoramaweg-chur-brambrueesch-feldis-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Dreib%C3%BCndenstein.jpg",
+    "alt": "Grenzstein auf dem Dreibündenstein",
+    "credit": "https://commons.wikimedia.org/wiki/File:Dreib%C3%BCndenstein.jpg"
+   }
+  },
+  {
+   "id": "chur-s-caumasee",
+   "kind": "bad",
+   "name": "Caumasee (Seebad Bogn La Cauma)",
+   "region": "chur",
+   "town": "Flims",
+   "address": "Caumasee, 7017 Flims",
+   "coords": {
+    "lat": 46.8202,
+    "lng": 9.29634
+   },
+   "url": "https://www.flimslaax.com",
+   "price": 2,
+   "tags": [
+    "baden",
+    "see",
+    "familie",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Badebetrieb Mitte Mai–Ende August (2026: 16.5.–30.8.)",
+   "hours": "Badeaufsicht 8.30–17 Uhr; ausserhalb frei zugänglich",
+   "durationMin": 180,
+   "text": "Der türkisfarbene Waldsee unterhalb von Flims wird von unterirdischen Quellen gespeist und ist im Hochsommer angenehm zum Schwimmen. Vom Waldrand fährt ein Lift zum Ufer hinunter, wo Strand, Holzflosse und das Restaurant Ustria La Cauma warten.",
+   "tip": "An heissen Tagen ist es sehr voll – am frühen Vormittag ist es am ruhigsten.",
+   "priceInfo": {
+    "from": 18,
+    "unit": "Eintritt Erwachsene",
+    "note": "Hauptsaison; mit Gästekarte CHF 9; Kinder 6–17 CHF 9; ausserhalb der Saison frei zugänglich"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   "water": {
+    "type": "see",
+    "body": "Caumasee",
+    "heated": false
+   },
+   "source": "https://www.badi-info.ch/a/flims-caumasee.html",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Caumasee_with_funicular_20210614.jpg/1280px-Caumasee_with_funicular_20210614.jpg",
+    "alt": "Türkisfarbener Caumasee mit Standseilbahn",
+    "credit": "https://commons.wikimedia.org/wiki/File:Caumasee_with_funicular_20210614.jpg"
+   }
+  },
+  {
+   "id": "chur-s-obere-au",
+   "kind": "bad",
+   "name": "Sportanlage Obere Au – Hallen- und Freibad",
+   "region": "chur",
+   "town": "Chur",
+   "address": "Grossbruggerweg 6, 7000 Chur",
+   "coords": {
+    "lat": 46.85874,
+    "lng": 9.5059
+   },
+   "url": "https://www.sportanlagenchur.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "familie",
+    "regenfest",
+    "aktiv"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Freibad Mai–Anfang September)",
+   "hours": "Hallenbad Mo–Fr 8–21.30, Sa/So 9–18 Uhr; im Sommer bei schönem Wetter nur bis 11.30 Uhr",
+   "durationMin": 120,
+   "text": "Churs grosse Badeanlage hat ein Hallenbad mit Erlebnisbecken, im Sommer ein Freibad und von Herbst bis Frühling ein überdachtes 50-Meter-Becken. Ein guter Plan B, wenn das Wetter in den Bergen nicht mitmacht.",
+   "tip": "In der Freibadsaison schliesst das Hallenbad bei schönem Wetter schon um 11.30 Uhr – dann ins Freibad ausweichen.",
+   "priceInfo": {
+    "from": 12,
+    "unit": "Eintritt Erwachsene",
+    "note": "Auswärtige; mit ChurCard CHF 8.40"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "21:30"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "21:30"
+      ]
+     ],
+     "3": [
+      [
+       "08:00",
+       "21:30"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "21:30"
+      ]
+     ],
+     "5": [
+      [
+       "08:00",
+       "21:30"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "18:00"
+      ]
+     ]
+    }
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "source": "https://www.badi-info.ch/a/chur-obere-au.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "dv-w-sertig",
+   "kind": "aktivitaet",
+   "name": "Wanderung Davos Clavadel – Sertig Dörfli",
+   "region": "davos",
+   "town": "Davos",
+   "address": "Start Bushaltestelle Davos Clavadel, Klinikstrasse; Ziel Bushaltestelle Sertig, Dörfli",
+   "coords": {
+    "lat": 46.72581,
+    "lng": 9.8479
+   },
+   "url": "https://wegwandern.ch/wanderung/wanderung-davos-clavadel-sertig-doerfli-sertigtal-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "berg",
+    "familie",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Mai–Oktober",
+   "durationMin": 200,
+   "text": "Von Clavadel gehst du durch Lärchen- und Tannenwald ins Sertigtal mit seinen alten Walserhäusern und dem Kirchlein von Sertig Dörfli. Hinter dem Weiler lohnt sich der Abstecher zum Ducan-Wasserfall bei Sertig Sand.",
+   "tip": "Im Gasthaus Zum Bergführer in Sertig Dörfli kehrst du ein, bevor dich der Bus zurück nach Davos Platz bringt.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus extra (mit Davos-Gästekarte inklusive)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 10.4,
+    "up": 369,
+    "down": 166,
+    "hours": 2.75,
+    "difficulty": "T2",
+    "start": "Davos Clavadel, Klinikstrasse",
+    "end": "Sertig, Dörfli",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/wanderung-davos-clavadel-sertig-doerfli-sertigtal-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sertig_D%C3%B6rfli_2020.jpg/1280px-Sertig_D%C3%B6rfli_2020.jpg",
+    "alt": "Weiler Sertig Dörfli im Sertigtal",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sertig_D%C3%B6rfli_2020.jpg"
+   }
+  },
+  {
+   "id": "dv-w-zuegenschlucht",
+   "kind": "aktivitaet",
+   "name": "Zügenschlucht: Davos Monstein – Wiesen – Filisur",
+   "region": "davos",
+   "town": "Davos Wiesen",
+   "address": "Start Bahnhof Davos Monstein; Ziel Bahnhof Filisur",
+   "coords": {
+    "lat": 46.69455,
+    "lng": 9.71323
+   },
+   "url": "https://wegwandern.ch/wanderung/wanderung-zuegenschlucht-davos-monstein-davos-wiesen-filisur-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "kultur",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober",
+   "durationMin": 200,
+   "text": "Auf der alten Strasse durch die Zügenschlucht wanderst du dem Landwasser entlang und siehst immer wieder die Rhätische Bahn über Brücken und durch Tunnels fahren. Unterwegs liegen das Bergbaumuseum Graubünden und das 89 Meter hohe Wiesener Viadukt.",
+   "tip": "Das Züga-Beizli beim Bahnhof Davos Wiesen ist ein beliebter Zwischenhalt.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra: RhB Davos–Monstein, zurück ab Filisur"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 10.3,
+    "up": 282,
+    "down": 549,
+    "hours": 2.83,
+    "difficulty": "T2",
+    "start": "Davos Monstein",
+    "end": "Filisur",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/wanderung-zuegenschlucht-davos-monstein-davos-wiesen-filisur-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Wiesener_Viadukt.jpg/1280px-Wiesener_Viadukt.jpg",
+    "alt": "Wiesener Viadukt der Rhätischen Bahn",
+    "credit": "https://commons.wikimedia.org/wiki/File:Wiesener_Viadukt.jpg"
+   }
+  },
+  {
+   "id": "dv-w-dischmatal-winter",
+   "kind": "aktivitaet",
+   "name": "Winterwanderung ins Dischmatal",
+   "region": "davos",
+   "town": "Davos Dorf",
+   "address": "Start Bahnhof Davos Dorf; Ziel Bushaltestelle Davos Dischma, Teufi",
+   "coords": {
+    "lat": 46.77198,
+    "lng": 9.88179
+   },
+   "url": "https://wegwandern.ch/wanderung/winterwanderung-davos-dischmatal-winterwandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "berg",
+    "romantisch",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–März",
+   "durationMin": 140,
+   "text": "Vom Bahnhof Davos Dorf führt der gepfadete Weg leicht ansteigend ins stille Seitental Dischma, weg vom Trubel im Ort. Ziel ist das Restaurant Teufi mit Sonnenterrasse auf 1700 Metern.",
+   "tip": "Zurück geht es per Bus – oder mit der Pferdekutsche durchs Tal.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bus zurück extra (mit Davos-Gästekarte inklusive); Pferdekutsche separat"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "hike": {
+    "km": 5.7,
+    "up": 180,
+    "down": 41,
+    "hours": 1.83,
+    "difficulty": "T1",
+    "start": "Davos Dorf",
+    "end": "Davos Dischma, Teufi",
+    "winter": true
+   },
+   "source": "https://wegwandern.ch/wanderung/winterwanderung-davos-dischmatal-winterwandern/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "dv-s-strandbad",
+   "kind": "bad",
+   "name": "Strandbad Davosersee",
+   "region": "davos",
+   "town": "Davos Dorf",
+   "address": "Strandbad Davosersee, 7260 Davos Dorf",
+   "coords": {
+    "lat": 46.81511,
+    "lng": 9.85172
+   },
+   "url": "https://www.bachis-strandbad.ch",
+   "price": 1,
+   "tags": [
+    "baden",
+    "gratis",
+    "see",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober (2026: 4.6.–18.10.)",
+   "hours": "Restaurant im Sommer 9–22 Uhr; im Winter ab Mitte Dezember 11–17 Uhr",
+   "durationMin": 120,
+   "text": "Am Ufer des Davosersees liegt die frei zugängliche Badeanlage mit Restaurant, gut 900 Meter zu Fuss vom Bahnhof Davos Dorf. Der Bergsee auf rund 1560 Metern bleibt auch im Hochsommer frisch – eher für einen kurzen, kalten Schwumm.",
+   "tip": "Für warmes Wasser ist das eau-là-là in Davos Platz die ganzjährige Alternative.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "water": {
+    "type": "see",
+    "body": "Davosersee",
+    "heated": false
+   },
+   "source": "https://www.badi-info.ch/a/davos-strandbad.html",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-w-muottas-languard",
+   "kind": "aktivitaet",
+   "name": "Höhenweg Muottas Muragl – Segantinihütte – Alp Languard",
+   "region": "engadin",
+   "town": "Pontresina",
+   "address": "Start Muottas Muragl (Bergstation Standseilbahn); Ziel Alp Languard (Bergstation Sessellift)",
+   "coords": {
+    "lat": 46.50608,
+    "lng": 9.91365
+   },
+   "url": "https://wegwandern.ch/wanderung/muottas-muragl-alp-languard-wanderung-wandern/",
+   "price": 2,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "aussicht",
+    "berg",
+    "kultur"
+   ],
+   "weatherProof": false,
+   "season": "Juli–Oktober",
+   "durationMin": 180,
+   "text": "Der Panoramaweg hoch über dem Oberengadin führt zur Segantinihütte auf 2731 Metern, wo der Maler Giovanni Segantini 1899 starb, und weiter zur Alp Languard. Die ganze Zeit liegen Berninagruppe und Oberengadiner Seen vor dir.",
+   "tip": "Am Anfang erklären 18 Tafeln am Klimaweg, wie sich die Alpen mit dem Klimawandel verändern.",
+   "priceInfo": {
+    "from": 42.5,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Standseilbahn Muottas Muragl (einfach CHF 30.50, Sommer 2026; Halbtax/GA an der Kasse nicht akzeptiert); Sessellift Languard–Pontresina extra"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 6.5,
+    "up": 417,
+    "down": 549,
+    "hours": 2.42,
+    "difficulty": "T2",
+    "start": "Muottas Muragl",
+    "end": "Alp Languard",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/muottas-muragl-alp-languard-wanderung-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Segantinih%C3%BCtte.JPG/1280px-Segantinih%C3%BCtte.JPG",
+    "alt": "Segantinihütte über dem Oberengadin",
+    "credit": "https://commons.wikimedia.org/wiki/File:Segantinih%C3%BCtte.JPG"
+   }
+  },
+  {
+   "id": "en-w-val-roseg",
+   "kind": "aktivitaet",
+   "name": "Val Roseg – Hotel Roseggletscher – Tschiervahütte",
+   "region": "engadin",
+   "town": "Pontresina",
+   "address": "Start und Ziel Bahnhof Pontresina",
+   "coords": {
+    "lat": 46.43762,
+    "lng": 9.86627
+   },
+   "url": "https://wegwandern.ch/wanderung/wanderung-pontresina-val-roseg-hotel-roseg-tschiervahuette-wandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "berg",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Juli–Oktober",
+   "durationMin": 440,
+   "text": "Das autofreie Val Roseg führt von Pontresina fast flach zum Hotel Roseggletscher, wo die meisten umkehren – du steigst weiter bis zur Tschiervahütte unter Piz Roseg und Piz Bernina mit dem Biancograt. Bis zum Hotel ist es eine Talwanderung, danach ein Bergweg.",
+   "tip": "Wer abkürzen will, fährt vom Hotel mit dem Pferdeomnibus zurück nach Pontresina (Abfahrtszeiten vorher prüfen).",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra bis Pontresina; Pferdeomnibus separat"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "hike": {
+    "km": 23.9,
+    "up": 874,
+    "down": 874,
+    "hours": 6.75,
+    "difficulty": "T2",
+    "start": "Pontresina",
+    "end": "Pontresina",
+    "winter": false
+   },
+   "source": "https://wegwandern.ch/wanderung/wanderung-pontresina-val-roseg-hotel-roseg-tschiervahuette-wandern/",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Val_Roseg_-_trail.jpg/1280px-Val_Roseg_-_trail.jpg",
+    "alt": "Wanderweg im Val Roseg",
+    "credit": "https://commons.wikimedia.org/wiki/File:Val_Roseg_-_trail.jpg"
+   }
+  },
+  {
+   "id": "en-w-val-roseg-winter",
+   "kind": "aktivitaet",
+   "name": "Winterwanderweg Val Roseg",
+   "region": "engadin",
+   "town": "Pontresina",
+   "address": "Start und Ziel Bahnhof Pontresina",
+   "coords": {
+    "lat": 46.43762,
+    "lng": 9.86627
+   },
+   "url": "https://wegwandern.ch/wanderung/winterwanderung-pontresina-val-roseg-pontresina-winterwandern/",
+   "price": 1,
+   "tags": [
+    "wandern",
+    "aktiv",
+    "berg",
+    "romantisch",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–März",
+   "durationMin": 280,
+   "text": "Im Winter wird das Val Roseg zur stillen Schneelandschaft: Ein gepfadeter Weg führt von Pontresina durch Lärchenwald bis zum Hotel Roseggletscher und zurück. Dort wartet ein bekanntes Kuchenbuffet.",
+   "tip": "Für den Rückweg kannst du die Pferdekutsche reservieren – auch als Mondscheinfahrt.",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Bahn extra bis Pontresina; Pferdekutsche separat und reservierungspflichtig"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "hike": {
+    "km": 13.7,
+    "up": 242,
+    "down": 242,
+    "hours": 4.17,
+    "difficulty": "T1",
+    "start": "Pontresina",
+    "end": "Pontresina",
+    "winter": true
+   },
+   "source": "https://wegwandern.ch/wanderung/winterwanderung-pontresina-val-roseg-pontresina-winterwandern/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "en-s-ovaverva",
+   "kind": "bad",
+   "name": "OVAVERVA Hallenbad, Spa & Sportzentrum",
+   "region": "engadin",
+   "town": "St. Moritz",
+   "address": "Via Mezdi 17, 7500 St. Moritz",
+   "coords": {
+    "lat": 46.48412,
+    "lng": 9.83646
+   },
+   "url": "https://www.ovaverva.ch",
+   "price": 2,
+   "tags": [
+    "baden",
+    "familie",
+    "regenfest",
+    "wellness"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Revision 16.–29.11.2026)",
+   "durationMin": 150,
+   "text": "Das moderne Hallenbad in St. Moritz-Bad hat vier Becken, drei Rutschen und ein Aussenbecken, dazu grosse Glasfronten mit Bergsicht. Weil Loipe, Bike- und Wanderweg direkt vorbeiführen, passt es gut nach einem Tag draussen.",
+   "tip": "Vom 16. bis 29. November 2026 ist das Bad wegen Revision geschlossen.",
+   "priceInfo": {
+    "from": 16,
+    "unit": "Eintritt Erwachsene",
+    "note": "Bad; Bad+Spa CHF 40; Kinder 6–15 CHF 8, unter 6 gratis"
+   },
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   },
+   "source": "https://www.badi-info.ch/a/st-moritz-hallenbad-spa.html",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ovaverva.jpg/1280px-Ovaverva.jpg",
+    "alt": "Ovaverva an der Via Mezdi in St. Moritz Bad",
+    "credit": "https://commons.wikimedia.org/wiki/File:Ovaverva.jpg"
+   }
+  },
+  {
+   "id": "en-s-bogn-engiadina",
+   "kind": "bad",
+   "name": "Bogn Engiadina Scuol",
+   "region": "engadin",
+   "town": "Scuol",
+   "address": "Via dals Bogns 323, 7550 Scuol",
+   "coords": {
+    "lat": 46.79753,
+    "lng": 10.3015
+   },
+   "url": "https://www.bognengiadina.ch",
+   "price": 2,
+   "tags": [
+    "baden",
+    "wellness",
+    "regenfest",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Erwachsene täglich 8–21.45 Uhr",
+   "durationMin": 180,
+   "text": "Im Unterengadin badest du in Scuoler Mineralwasser, in Innen- und Aussenbecken mit Blick auf die Berge. Zum Bad gehört auch ein Römisch-Irisches Bad für einen ruhigen Nachmittag.",
+   "tip": "Scuol liegt gut eine Stunde mit der RhB von St. Moritz – plane den Ausflug als Tagestour.",
+   "priceInfo": {
+    "from": 36,
+    "to": 52,
+    "unit": "Eintritt Erwachsene",
+    "note": "3 Stunden CHF 36, Tageskarte CHF 52, ab 19 Uhr CHF 26; Jugendliche 12–15 CHF 22"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "21:45"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "21:45"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "21:45"
+      ]
+     ],
+     "3": [
+      [
+       "08:00",
+       "21:45"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "21:45"
+      ]
+     ],
+     "5": [
+      [
+       "08:00",
+       "21:45"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "21:45"
+      ]
+     ]
+    }
+   },
+   "water": {
+    "type": "therme",
+    "heated": true
+   },
+   "source": "https://www.bognengiadina.ch/de/baederlandschaft/tarife-bade-saunalandschaft",
+   "checked": "2026-11-15",
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Bogn_Engiadina_Scuol_1.jpg/1280px-Bogn_Engiadina_Scuol_1.jpg",
+    "alt": "Bogn Engiadina in Scuol",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bogn_Engiadina_Scuol_1.jpg"
+   }
+  }
+ ],
+ "notes": "Recherche 15.11.2026. Das WebSearch-Kontingent der Sitzung war während der Arbeit aufgebraucht; danach nur noch direkte Seitenabrufe (wegwandern.ch-Routenseiten via Sitemap, badi-info.ch, offizielle Bad-/Bahnseiten, Photon/OSM für Koordinaten, Commons-API für Bilder). Wanderdaten (km, Höhenmeter, Zeit, Start/Ziel-Haltestellen) stammen von wegwandern.ch, nicht direkt von SchweizMobil; ra-w-etzel von luzern.com – dort fehlt der Abstieg, 345 m sind aus Start-/Zielhöhe berechnet (Schindellegi geschätzt ~757 m). T-Schwierigkeit: wegwandern «leicht» = T1, «mittel» = T2 (eigene Zuordnung).\nNICHT VERIFIZIERTE Bahnpreise: Bürgenstock-Bahn/Schiff und Hammetschwand-Lift (lu-w-felsenweg), Chur–Brambrüesch und Feldis–Rhäzüns (chur-w-dreibuendenstein), Sessellift Languard und Talfahrt Melchsee-Frutt–Stöckalp (nur als «extra» erwähnt). Übernommen aus BESTAND: Trübsee 38, Brunni 48 (Winterpreis kann abweichen), Muottas Muragl 42.50, Stoosbahn 23.20, Zugerberg 12. Rigi-Tageskarte 84 und Ebenalp 36 von den Bahnseiten.\nSaisonales/Schliessungen: Ebenalpbahn Revision ab 2.11. bis Mitte/Ende Dezember 2026; OVAVERVA St. Moritz Revision 16.–29.11.2026; Hallenbad Eglisee Basel erst ab Oktober 2027 wieder offen (deshalb nur Gartenbad, Saison 2027 ab 15.5.); Alpamare Deckensanierung bis ca. Ende 2026, einzelne Rutschen zeitweise zu; KSS-Hallenbad Mitte August 2 Wochen Revision. Alle Freibad-Saisondaten sind die von 2026 (Saison vorbei) – 2027er-Daten meist noch nicht publiziert.\nLücken: Engelberg – Hallen-/Freibad Sonnenberg (Sporting Park) bis Frühling 2027 im Umbau, daher nur Felsenbad Eienwäldli und kein Sommer-Seebad. Einsiedeln – kein öffentliches Hallenbad gefunden, nur Sihlsee-Badi. Davos – Hallenbad eau-là-là steht schon im BESTAND, daher nur Strandbad. Rapperswil – Hallenbad Lido geschlossen, als Hallenbad das Alpamare (Pfäffikon SZ). Regensberg – kein Hallenbad in der Nähe, als ganzjährige Option der Fitnesspark Regensdorf (Einzeleintritt, eher Wellness als Familienbad). Stoos – Sommerweg Gratweg ist im BESTAND, daher nur Winterweg. Badhütte Rorschach bewusst NICHT aufgenommen: laut Commons im September 2026 als abgetragene Brandruine fotografiert – stattdessen Freibad Rotmonten. Eglisau Rheinbadi: keine Saisondaten/Öffnungszeiten belegt (kein open). Hallenbad Herti Zug: öffentliche Zeiten wechseln, kein open. Swiss Holiday Park: Tagespreise dynamisch («ab 20»). 24 Orte ohne Bild, weil auf Commons kein eindeutiges Foto des Orts zu finden war (u. a. Hürlimannbad, Geiselweid – nur Baustellenfoto –, Rheinbad Breite, Gartenbad Eglisee, sole uno, Säntispark, Felsenbad); Bild Dreibündenstein ist Hochformat.",
+ "trips": []
+}

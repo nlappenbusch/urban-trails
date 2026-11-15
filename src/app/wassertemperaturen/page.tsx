@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { places } from "@/lib/ausfluege";
-import { allLakeTemps, riverTemps, waterForPlace } from "@/lib/wasser";
-import { waterFeel, type WaterReading } from "@/lib/wasser-core";
+import { allLakeTemps, bathingSpots, riverTemps } from "@/lib/wasser";
+import { type WaterReading } from "@/lib/wasser-core";
+import BathFinder from "@/components/BathFinder";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 
 export const revalidate = 1800;
@@ -23,8 +23,7 @@ const tone = (t: number) => (t >= 20 ? "bg-signal-500" : t >= 17 ? "bg-amber-400
 
 export default async function WasserPage() {
   const [rivers, lakes] = await Promise.all([riverTemps().catch(() => [] as WaterReading[]), allLakeTemps().catch(() => [] as WaterReading[])]);
-  const spots = places.filter((p) => p.water && (p.water.type === "see" || p.water.type === "fluss"));
-  const spotTemps = await Promise.all(spots.map(async (p) => ({ p, r: await waterForPlace(p).catch(() => null) })));
+  const spots = await bathingSpots().catch(() => []);
   const warmest = [...lakes, ...rivers].sort((a, b) => b.temp - a.temp)[0];
   const byRiver = Object.entries(
     rivers.reduce<Record<string, WaterReading[]>>((acc, r) => ((acc[r.body] ??= []).push(r), acc), {}),
@@ -36,27 +35,15 @@ export default async function WasserPage() {
       <p className="kicker">Live · alle 30 Minuten neu</p>
       <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">Wie warm ist das Wasser?</h1>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">
-        {lakes.length} Seen und {rivers.length} Flussstationen.
+        {lakes.length} Seen, {rivers.length} Flussstationen und {spots.length} Badestellen.
         {warmest && <> Am wärmsten gerade: <strong className="text-cream">{warmest.label}</strong> mit {fmt(warmest.temp)} °C.</>}
       </p>
 
-      {spotTemps.some((x) => x.r) && (
-        <section className="mt-12" aria-labelledby="badestellen">
-          <h2 id="badestellen" className="headline text-3xl text-cream">Unsere Badestellen</h2>
-          <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {spotTemps.filter((x) => x.r).sort((a, b) => b.r!.temp - a.r!.temp).map(({ p, r }) => (
-              <li key={p.id} className="card p-4">
-                <p className="text-xs font-semibold text-cream-faint">{p.town} · {r!.source === "BAFU" ? r!.label : `${r!.body} (Modell)`}</p>
-                <Link href={`/ausflugsziele/${p.region}#${p.id}`} className="mt-0.5 block font-display text-lg font-extrabold leading-tight tracking-tight text-cream hover:underline">{p.name}</Link>
-                <p className="mt-2 flex items-baseline gap-2">
-                  <span className="font-display text-3xl font-extrabold tabular-nums text-cream">{fmt(r!.temp)}°</span>
-                  <span className="text-sm text-cream-dim">{waterFeel(r!.temp)}</span>
-                </p>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+      <section className="mt-12" aria-labelledby="badestellen">
+        <h2 id="badestellen" className="headline text-3xl text-cream">{spots.length} Badestellen in der Schweiz</h2>
+        <p className="mt-1 max-w-2xl text-sm text-cream-dim">Strandbäder, Flussbäder, Badeplätze, Frei- und Hallenbäder, Thermen – am offenen Wasser mit der Live-Temperatur des nächsten Messpunkts.</p>
+        <div className="mt-5"><BathFinder spots={spots} /></div>
+      </section>
 
       <div className="mt-14 grid gap-12 lg:grid-cols-2">
         <section aria-labelledby="seen">
@@ -89,7 +76,7 @@ function Bars({ rows, river }: { rows: WaterReading[]; river?: boolean }) {
     <ul className="mt-3 space-y-1.5">
       {rows.map((r) => (
         <li key={r.label} className="grid grid-cols-[minmax(0,11rem)_1fr_3.5rem] items-center gap-3 text-sm">
-          <span className="truncate text-cream-dim" title={`${r.label}, ${time(r.at)}`}>{river ? r.label.replace(/^[^-]+ - /, "") : r.label}</span>
+          <Link href={`/wassertemperaturen/${r.slug}`} className="truncate text-cream-dim hover:text-cream hover:underline" title={`${r.label}, ${time(r.at)}`}>{river ? r.label.replace(/^[^-]+ - /, "") : r.label}</Link>
           <span className="relative h-2.5 rounded-full bg-ink-800">
             <span className={`absolute inset-y-0 left-0 rounded-full ${tone(r.temp)}`} style={{ width: `${Math.min(100, Math.max(4, (r.temp / 26) * 100))}%` }} />
           </span>

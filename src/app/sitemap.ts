@@ -5,8 +5,18 @@ import { SITE_URL } from "@/lib/seo";
 import { categories } from "@/lib/categories";
 import { allRegions, trips } from "@/lib/ausfluege";
 import { regionPlaces, themaPages } from "@/lib/themen";
+import { skiAreas } from "@/lib/ski";
+import { riverTemps } from "@/lib/wasser";
+import { LAKES, lakeSlug } from "@/lib/wasser-core";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const revalidate = 86400;
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const rivers = await riverTemps().catch(() => []);
+  const waterPages: MetadataRoute.Sitemap = [
+    ...LAKES.map((l) => ({ url: `${SITE_URL}/wassertemperaturen/${lakeSlug(l)}`, changeFrequency: "hourly" as const, priority: 0.7 })),
+    ...rivers.filter((r) => r.slug).map((r) => ({ url: `${SITE_URL}/wassertemperaturen/${r.slug}`, changeFrequency: "hourly" as const, priority: 0.6 })),
+  ];
   const staticPages: MetadataRoute.Sitemap = [
     { url: SITE_URL, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE_URL}/touren`, changeFrequency: "weekly", priority: 0.9 },
@@ -25,7 +35,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/geschenk`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/wassertemperaturen`, changeFrequency: "hourly", priority: 0.8 },
     { url: `${SITE_URL}/skigebiete`, changeFrequency: "hourly", priority: 0.8 },
+    { url: `${SITE_URL}/nachtskifahren`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/ausfluege/ki`, changeFrequency: "monthly", priority: 0.8 },
+    ...skiAreas.map((a) => ({ url: `${SITE_URL}/skigebiete/${a.id}`, changeFrequency: "daily" as const, priority: 0.7 })),
     ...trips.map((t) => ({ url: `${SITE_URL}/ausfluege/${t.slug}`, changeFrequency: "monthly" as const, priority: 0.8 })),
     { url: `${SITE_URL}/ausflugsziele`, changeFrequency: "weekly", priority: 0.9 },
     ...allRegions()
@@ -54,5 +66,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const lastModified = new Date(); // Stand des Builds = Stand der Inhalte
-  return [...staticPages, ...cityPages, ...tourPages].map((p) => ({ ...p, lastModified }));
+  return [...staticPages, ...waterPages, ...cityPages, ...tourPages].map((p) => ({ ...p, lastModified }));
 }

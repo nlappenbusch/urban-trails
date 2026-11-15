@@ -1,0 +1,2286 @@
+{
+ "places": [
+  {
+   "id": "ge-x-pointe-jonction",
+   "kind": "aussicht",
+   "name": "Pointe de la Jonction",
+   "region": "genf",
+   "town": "Genève",
+   "address": "Pointe de la Jonction, 1205 Genève",
+   "coords": {
+    "lat": 46.20129,
+    "lng": 6.12197
+   },
+   "url": "https://en.wikipedia.org/wiki/Arve",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "gratis",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 45,
+   "wow": "Klare Rhône trifft schlammige Arve – zwei Farben im selben Fluss",
+   "text": "An der Landspitze im Jonction-Quartier fliesst die milchig-graue Arve in die klare, grünblaue Rhône – und die beiden Farben laufen noch ein gutes Stück nebeneinander her. Vom Spitz und vom Viaduc de la Jonction siehst du die Linie am besten.",
+   "tip": "Nach Regen oder bei Schneeschmelze ist die Arve besonders trüb und der Kontrast am stärksten; zurück in die Stadt gehst du dem Rhône-Ufer entlang (Sentier des Saules).",
+   "source": "https://en.wikipedia.org/wiki/Arve",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Gen%C3%A8ve_-_Jonction_Arve_Rh%C3%B4ne_150815-01.JPG/1280px-Gen%C3%A8ve_-_Jonction_Arve_Rh%C3%B4ne_150815-01.JPG",
+    "alt": "Zusammenfluss von klarer Rhône und trüber Arve in Genf",
+    "credit": "https://commons.wikimedia.org/wiki/File:Gen%C3%A8ve_-_Jonction_Arve_Rh%C3%B4ne_150815-01.JPG"
+   }
+  },
+  {
+   "id": "ge-x-parc-animaux-batie",
+   "kind": "aktivitaet",
+   "name": "Parc aux animaux du Bois de la Bâtie",
+   "region": "genf",
+   "town": "Petit-Lancy (Genève)",
+   "address": "Chemin de la Bâtie 28, 1213 Petit-Lancy",
+   "coords": {
+    "lat": 46.19812,
+    "lng": 6.12577
+   },
+   "url": "https://www.geneve.ch/themes/environnement-urbain-espaces-verts/ville-nature/parc-animaux-bois-batie",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "täglich; Nov.–März 8–18 Uhr (Sommerzeiten länger, bitte prüfen)",
+   "durationMin": 60,
+   "wow": "Gratis-Tierpark in der Stadt: Steinböcke, Sikahirsche, Wollschweine",
+   "text": "Oben auf dem bewaldeten Hügel über der Jonction hält die Stadt Genf einen kleinen Tierpark mit Steinböcken, Sikahirschen, Ungarischen Wollschweinen, Sardinischen Eseln und Pfauen – Eintritt frei. Mit Kindern bist du gut eine Stunde unterwegs, daneben gibt es einen grossen Spielplatz.",
+   "tip": "Bus 2 oder 19 bis Clair-Vue; Hunde sind im Tierpark nicht erlaubt, Füttern ist verboten.",
+   "source": "https://www.geneve.ch/themes/environnement-urbain-espaces-verts/ville-nature/parc-animaux-bois-batie",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/20231115-Bois-de-la-B%C3%A2tie-02.jpg/1280px-20231115-Bois-de-la-B%C3%A2tie-02.jpg",
+    "alt": "Wald des Bois de la Bâtie in Genf",
+    "credit": "https://commons.wikimedia.org/wiki/File:20231115-Bois-de-la-B%C3%A2tie-02.jpg"
+   }
+  },
+  {
+   "id": "ge-x-musee-histoire-sciences",
+   "kind": "sehenswuerdigkeit",
+   "name": "Musée d'histoire des sciences",
+   "region": "genf",
+   "town": "Genève",
+   "address": "Rue de Lausanne 128, 1202 Genève",
+   "coords": {
+    "lat": 46.22083,
+    "lng": 6.15213
+   },
+   "url": "https://www.geneve.com/en/attractions/history-of-science-museum",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "regenfest",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Mi–Mo 10–17 Uhr, Di geschlossen",
+   "durationMin": 60,
+   "wow": "Gratis: Teleskope und Messgeräte Genfer Forscher aus dem 17.–19. Jh.",
+   "text": "In der klassizistischen Villa Bartholoni von 1830 im Park Perle du Lac stehen Fernrohre, Barometer, Sonnenuhren und elektrische Apparate, mit denen Genfer Gelehrte einst forschten. Der Eintritt ist frei, und danach spazierst du direkt am See weiter.",
+   "tip": "Ideal mit einem Spaziergang durch die Parks Mon-Repos und Perle du Lac kombinieren – die Villa liegt mittendrin.",
+   "source": "https://www.geneve.com/en/attractions/history-of-science-museum",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "2": [],
+     "3": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Villa_Bartholoni_Geneva.jpg/1280px-Villa_Bartholoni_Geneva.jpg",
+    "alt": "Villa Bartholoni im Park am Genfersee",
+    "credit": "https://commons.wikimedia.org/wiki/File:Villa_Bartholoni_Geneva.jpg"
+   }
+  },
+  {
+   "id": "ge-x-relief-magnin",
+   "kind": "sehenswuerdigkeit",
+   "name": "Relief Magnin in der Maison Tavel",
+   "region": "genf",
+   "town": "Genève",
+   "address": "Rue du Puits-Saint-Pierre 6, 1204 Genève",
+   "coords": {
+    "lat": 46.20151,
+    "lng": 6.147
+   },
+   "url": "https://www.geneve.ch/maison-tavel",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "regenfest",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di–So 11–18 Uhr, Mo geschlossen",
+   "durationMin": 60,
+   "wow": "Genf um 1850 als Riesenmodell im Massstab 1:500 – mit allen Stadtmauern",
+   "text": "Im ältesten Privathaus der Altstadt steht unter dem Dach das Relief Magnin: ein riesiges Modell, das Genf kurz vor dem Abriss seiner Befestigungen zeigt. Du suchst darauf die Kathedrale, den Bourg-de-Four und die Bastionen – und merkst, wie klein die Stadt damals war.",
+   "tip": "Erst das Modell anschauen, dann draussen dieselben Gassen ablaufen – der Bourg-de-Four liegt zwei Minuten entfernt.",
+   "source": "https://www.geneve.com/fr/attractions/maison-tavel/",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "to": 20,
+    "unit": "Eintritt Erwachsene",
+    "note": "Prix libre (Richtwert 5–20 CHF); unter 18 gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "3": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "5": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Relief_Magnin-P7120109.jpg/1280px-Relief_Magnin-P7120109.jpg",
+    "alt": "Stadtmodell Relief Magnin von Genf um 1850",
+    "credit": "https://commons.wikimedia.org/wiki/File:Relief_Magnin-P7120109.jpg"
+   }
+  },
+  {
+   "id": "ge-x-cimetiere-des-rois",
+   "kind": "sehenswuerdigkeit",
+   "name": "Cimetière des Rois",
+   "region": "genf",
+   "town": "Genève",
+   "address": "Rue des Rois 10, 1204 Genève",
+   "coords": {
+    "lat": 46.20223,
+    "lng": 6.13631
+   },
+   "url": "https://www.geneve.ch/cimetiere-rois-plainpalais",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "kultur",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "täglich ca. 8–17 Uhr (laut Tourismusportal)",
+   "durationMin": 45,
+   "wow": "Johannes Calvin und Jorge Luis Borges liegen hier nur Schritte voneinander",
+   "text": "Der kleine Friedhof im Plainpalais-Quartier ist Genfs Ehrenfriedhof: Hier liegen der Reformator Calvin, der Schriftsteller Borges und viele weitere Persönlichkeiten unter alten Bäumen. Ein ruhiger Ort für eine halbe Stunde, zehn Minuten zu Fuss von der Altstadt.",
+   "tip": "Das Grab von Borges trägt die Nummer 735 – am Eingang hängt ein Plan mit den bekannten Gräbern.",
+   "source": "https://www.geneve.ch/cimetiere-rois-plainpalais",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Tombe_d%27Alfred_et_%C3%89milie_Vincent%2C_cimeti%C3%A8re_des_Rois%2C_Gen%C3%A8ve.jpg/1280px-Tombe_d%27Alfred_et_%C3%89milie_Vincent%2C_cimeti%C3%A8re_des_Rois%2C_Gen%C3%A8ve.jpg",
+    "alt": "Grabmal unter Bäumen im Cimetière des Rois",
+    "credit": "https://commons.wikimedia.org/wiki/File:Tombe_d'Alfred_et_%C3%89milie_Vincent,_cimeti%C3%A8re_des_Rois,_Gen%C3%A8ve.jpg"
+   }
+  },
+  {
+   "id": "ge-x-fondation-bodmer",
+   "kind": "sehenswuerdigkeit",
+   "name": "Fondation Martin Bodmer",
+   "region": "genf",
+   "town": "Cologny",
+   "address": "Route Martin-Bodmer 19, 1223 Cologny",
+   "coords": {
+    "lat": 46.21521,
+    "lng": 6.18056
+   },
+   "url": "https://fondationbodmer.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "regenfest",
+    "kultur",
+    "aussicht"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Wiedereröffnung 18.9.2026)",
+   "hours": "Di–So 14–18 Uhr, 1. Mittwoch im Monat bis 21 Uhr, Mo geschlossen",
+   "durationMin": 90,
+   "wow": "Eine der 48 erhaltenen Gutenberg-Bibeln – in einem Botta-Museum unter der Erde",
+   "text": "Unter einem Garten in Cologny hat Mario Botta ein Museum für die Sammlung Bodmer gebaut: Papyri, ägyptische Totenbücher, eine Gutenberg-Bibel, Shakespeare-Erstausgaben und Handschriften von Mozart bis Borges. Die Sammlung gehört zum UNESCO-Weltdokumentenerbe, oben wartet der Blick über den See.",
+   "tip": "Am ersten Mittwoch im Monat ist bis 21 Uhr offen und die Führung gratis.",
+   "source": "https://fondationbodmer.ch/contact",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 15,
+    "unit": "Eintritt Erwachsene",
+    "note": "AHV 10 CHF; unter 18 gratis; Geneva City Pass gilt"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "3": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "5": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "14:00",
+       "18:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Fondation_Martin_Bodmer.jpg/1280px-Fondation_Martin_Bodmer.jpg",
+    "alt": "Gebäude der Fondation Martin Bodmer in Cologny",
+    "credit": "https://commons.wikimedia.org/wiki/File:Fondation_Martin_Bodmer.jpg"
+   }
+  },
+  {
+   "id": "la-x-mines-de-sel-bex",
+   "kind": "aktivitaet",
+   "name": "Mines de Sel de Bex",
+   "region": "lausanne",
+   "town": "Bex",
+   "address": "Route des Mines-de-Sel 55, 1880 Bex",
+   "coords": {
+    "lat": 46.28581,
+    "lng": 7.04278
+   },
+   "url": "https://salina-helvetica.ch/salzbergwerk-von-bex/",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 9–17 Uhr; geschlossen 1.1. und 25.12.",
+   "durationMin": 150,
+   "wow": "Mit dem Minenzug in Salzstollen, die im 18. Jh. von Hand gegraben wurden",
+   "text": "Im noch aktiven Salzbergwerk fährst du mit einem kleinen Zug in den Berg und gehst dann mit Führung durch alte, von Hand geschlagene Stollen – bei rund 18 °C, egal ob draussen Schnee liegt oder Hitze herrscht. Rechne mit 2 bis 2½ Stunden vor Ort.",
+   "tip": "Online reservieren und 15 Minuten vor der Führung da sein; eine Jacke einpacken.",
+   "source": "https://www.vaudfamille.ch/N2283701/sur-les-traces-du-sel-visite-de-la-mine-de-bex.html",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 35,
+    "unit": "Eintritt Erwachsene",
+    "note": "Führung inkl. Minenzug; Kinder 6–15: 25 CHF, 0–5: 10 CHF"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Mines_de_Sel%2C_Bex%2C_Switzerland.jpg/1280px-Mines_de_Sel%2C_Bex%2C_Switzerland.jpg",
+    "alt": "Stollen im Salzbergwerk von Bex",
+    "credit": "https://commons.wikimedia.org/wiki/File:Mines_de_Sel,_Bex,_Switzerland.jpg"
+   }
+  },
+  {
+   "id": "la-x-rochers-de-naye",
+   "kind": "aussicht",
+   "name": "Rochers-de-Naye mit der Zahnradbahn ab Montreux",
+   "region": "lausanne",
+   "town": "Montreux",
+   "address": "Rochers-de-Naye, 1820 Veytaux",
+   "coords": {
+    "lat": 46.43182,
+    "lng": 6.97605
+   },
+   "url": "https://www.mob.ch/en/stories/rochers-de-naye",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "berg",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (Jan.–März Mo/Di nur bis Haut-de-Caux)",
+   "hours": "Zug etwa stündlich ab Montreux",
+   "durationMin": 240,
+   "wow": "Zahnradbahn ab Seeufer in rund 55 Minuten auf 2042 m",
+   "text": "Von Montreux kletterst du mit der Zahnradbahn über Glion und Caux auf die Rochers-de-Naye und schaust auf den ganzen Genfersee, die Waadtländer und Savoyer Alpen. Oben gibt es Wanderwege, ein Gipfelrestaurant und im Sommer Murmeltiere.",
+   "tip": "Im Sommer lohnt der Murmeltierpark «Marmottes Paradise» an der Bergstation – Öffnungszeiten vorab prüfen.",
+   "source": "https://www.swissrailways.com/en/buy-rochers-de-naye-tickets",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 72.8,
+    "unit": "Retourbillett Erwachsene",
+    "note": "ab Montreux; mit Halbtax 50 %; Kinder 6–15 halber Preis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Rochers_de_Naye_et_ligne_MGN.jpg/1280px-Rochers_de_Naye_et_ligne_MGN.jpg",
+    "alt": "Zahnradbahn vor den Felsen der Rochers-de-Naye",
+    "credit": "https://commons.wikimedia.org/wiki/File:Rochers_de_Naye_et_ligne_MGN.jpg"
+   }
+  },
+  {
+   "id": "la-x-art-brut",
+   "kind": "sehenswuerdigkeit",
+   "name": "Collection de l'Art Brut",
+   "region": "lausanne",
+   "town": "Lausanne",
+   "address": "Avenue des Bergières 11, 1004 Lausanne",
+   "coords": {
+    "lat": 46.52732,
+    "lng": 6.62469
+   },
+   "url": "https://www.artbrut.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "regenfest",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di–So 11–18 Uhr, Mo geschlossen",
+   "durationMin": 90,
+   "wow": "Kunst von Psychiatriepatienten und Aussenseitern – Jean Dubuffets Sammlung",
+   "text": "Im Château de Beaulieu hängen Werke von Menschen, die nie eine Kunstschule gesehen haben: Patienten, Einsiedler, Häftlinge. Viele Arbeiten sind aus Abfall, Brot oder Garn – so etwas siehst du in keinem anderen Museum der Schweiz in dieser Menge.",
+   "tip": "Am ersten Samstag im Monat ist der Eintritt frei; das Ticket gilt drei Tage und auch fürs Musée Historique und das Römermuseum Vidy.",
+   "source": "https://www.artbrut.ch/fr_CH/informations-pratiques",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 12,
+    "unit": "Eintritt Erwachsene",
+    "note": "AHV/IV 6 CHF; Jugendliche und Studierende gratis; 1. Samstag im Monat gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "3": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "5": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "11:00",
+       "18:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Batiment_de_collection_de_l%27Art_Brut.jpg/1280px-Batiment_de_collection_de_l%27Art_Brut.jpg",
+    "alt": "Château de Beaulieu mit der Collection de l'Art Brut",
+    "credit": "https://commons.wikimedia.org/wiki/File:Batiment_de_collection_de_l'Art_Brut.jpg"
+   }
+  },
+  {
+   "id": "la-x-guet-cathedrale",
+   "kind": "sehenswuerdigkeit",
+   "name": "Le Guet – der Nachtwächter der Kathedrale",
+   "region": "lausanne",
+   "town": "Lausanne",
+   "address": "Place de la Cathédrale, 1005 Lausanne",
+   "coords": {
+    "lat": 46.52258,
+    "lng": 6.63536
+   },
+   "url": "https://www.lausanne.ch/vie-pratique/quartiers/cultes-et-temples/guet-de-la-cathedrale.html",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "gratis",
+    "romantisch",
+    "kultur"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "jede Nacht 22–2 Uhr, zur vollen Stunde",
+   "durationMin": 20,
+   "wow": "Seit 1405 belegt: Jede Nacht ruft ein Wächter vom Turm die Stunden aus",
+   "text": "Zwischen 22 und 2 Uhr steigt der Guet die 153 Stufen in den Glockenturm der Kathedrale und ruft zu jeder vollen Stunde in alle vier Himmelsrichtungen über die Stadt – 365 Nächte im Jahr. Stell dich kurz vor 22 Uhr auf den Platz vor der Kathedrale und hör hin.",
+   "tip": "Auf der Esplanade neben der Kathedrale hast du gleichzeitig den Blick über die beleuchtete Stadt bis zum See.",
+   "source": "https://www.lausanne.ch/vie-pratique/quartiers/cultes-et-temples/guet-de-la-cathedrale.htm",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "22:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "22:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "22:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "22:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "22:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "22:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "22:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cath%C3%A9drale_de_Lausanne_depuis_le_Champ_de_l%27Air.JPG/1280px-Cath%C3%A9drale_de_Lausanne_depuis_le_Champ_de_l%27Air.JPG",
+    "alt": "Kathedrale von Lausanne mit Glockenturm",
+    "credit": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Lausanne_depuis_le_Champ_de_l'Air.JPG"
+   }
+  },
+  {
+   "id": "la-x-aquatis",
+   "kind": "aktivitaet",
+   "name": "AQUATIS Aquarium-Vivarium",
+   "region": "lausanne",
+   "town": "Lausanne",
+   "address": "Route de Berne 144, 1010 Lausanne",
+   "coords": {
+    "lat": 46.54086,
+    "lng": 6.65723
+   },
+   "url": "https://www.aquatis.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 10–18 Uhr (Einlass bis 17.10 Uhr)",
+   "durationMin": 120,
+   "wow": "Grösstes Süsswasser-Aquarium-Vivarium der Schweiz: 46 Becken, 10 000 Fische",
+   "text": "Auf 3500 m² gehst du an 46 Aquarien und Terrarien vorbei – rund 10 000 Fische sowie etwa 100 Reptilien und Amphibien. Mit der Metro m2 bist du in 15 Minuten ab dem Bahnhof in Vennes.",
+   "tip": "Ab 17 Uhr gibt es online ein Happy-Hour-Ticket für 17 CHF – reicht für einen kompakten Rundgang.",
+   "source": "https://www.lausanne-tourisme.ch/fr/decouvrir/aquatis-aquarium-vivarium-lausanne/",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 32,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 21 J.; online teils günstiger; Happy Hour ab 17 Uhr 17 CHF; Familie 89 CHF"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Aquatis_Lausanne_%281%29.jpg/1280px-Aquatis_Lausanne_%281%29.jpg",
+    "alt": "Gebäude des Aquatis in Lausanne-Vennes",
+    "credit": "https://commons.wikimedia.org/wiki/File:Aquatis_Lausanne_(1).jpg"
+   }
+  },
+  {
+   "id": "la-x-bains-de-lavey",
+   "kind": "bad",
+   "name": "Les Bains de Lavey",
+   "region": "lausanne",
+   "town": "Lavey-les-Bains",
+   "address": "Route des Bains 48, 1892 Lavey-les-Bains",
+   "coords": {
+    "lat": 46.20671,
+    "lng": 7.01582
+   },
+   "url": "https://www.bains-lavey.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "wellness",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Betriebsferien 22.6.–3.7.2026)",
+   "hours": "So–Do 9–21 Uhr, Fr/Sa 9–22 Uhr",
+   "durationMin": 180,
+   "wow": "Thermalwasser kommt mit 65 °C aus rund 600 m Tiefe",
+   "text": "In Lavey sitzt du im 33 bis 36 °C warmen Aussenbecken und schaust auf die Felswände des Rhonetals – auch wenn es regnet oder schneit. Das Wasser steigt mit 65 °C aus 600 Metern Tiefe auf; dazu kommen Saunen und Hammam.",
+   "tip": "Online buchen ist am günstigsten; unter der Woche ist es deutlich ruhiger als am Wochenende.",
+   "source": "https://www.bains-lavey.ch/en/les-bains/",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 32,
+    "unit": "Eintritt Erwachsene",
+    "note": "3 Stunden, Online-Tarif ab; Wochenende/Feiertage/Ferien teurer"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "21:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "22:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bains-de-Lavey-Canton-de-Vaud-Suisse-byRundvald.jpg/1280px-Bains-de-Lavey-Canton-de-Vaud-Suisse-byRundvald.jpg",
+    "alt": "Aussenbecken der Bains de Lavey",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bains-de-Lavey-Canton-de-Vaud-Suisse-byRundvald.jpg"
+   }
+  },
+  {
+   "id": "lug-x-monte-generoso",
+   "kind": "aussicht",
+   "name": "Monte Generoso mit Fiore di pietra",
+   "region": "lugano",
+   "town": "Capolago",
+   "address": "Ferrovia Monte Generoso, Via Lüera 1, 6825 Capolago",
+   "coords": {
+    "lat": 45.92818,
+    "lng": 9.0188
+   },
+   "url": "https://montegeneroso.ch/en",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "Hochsaison 2.5.–25.10.2026; Nebensaison 26.10.–8.11.2026 und ab 5.12.2026",
+   "durationMin": 240,
+   "wow": "Zahnradbahn zur «Steinblume» von Mario Botta auf dem Gipfel",
+   "text": "Ab Capolago am Luganersee fährt die Zahnradbahn auf den Monte Generoso. Oben steht Mario Bottas «Fiore di pietra», ein Gipfelrestaurant wie eine steinerne Blüte, und du siehst über die Seen bis zur Poebene und an klaren Tagen bis zu den Alpen.",
+   "tip": "Seit Juli 2026 gibt es im Erdgeschoss der Steinblume eine Gratis-Ausstellung zur Geschichte der Bahn.",
+   "source": "https://montegeneroso.ch/en/ferrovia/high-season-railway-prices",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 72,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Capolago–Vetta, Hochsaison; mit Halbtax/GA 36 CHF; Nebensaison 54 CHF; Kinder 6–15 halber Preis"
+   },
+   "open": {
+    "months": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Monte_Generoso_fiore_di_pietra.jpg/1280px-Monte_Generoso_fiore_di_pietra.jpg",
+    "alt": "Mario Bottas Fiore di pietra auf dem Monte Generoso",
+    "credit": "https://commons.wikimedia.org/wiki/File:Monte_Generoso_fiore_di_pietra.jpg"
+   }
+  },
+  {
+   "id": "lug-x-museo-fossili-meride",
+   "kind": "sehenswuerdigkeit",
+   "name": "Museo dei fossili del Monte San Giorgio",
+   "region": "lugano",
+   "town": "Meride",
+   "address": "Via Bernardo Peyer 9, 6866 Meride",
+   "coords": {
+    "lat": 45.89056,
+    "lng": 8.95318
+   },
+   "url": "https://www.museodeifossili.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "regenfest",
+    "kultur",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Di–So 9–17 Uhr, Mo geschlossen (ausser Oster-/Pfingstmontag)",
+   "durationMin": 75,
+   "wow": "Rund 240 Mio. Jahre alte Meeressaurier vom UNESCO-Welterbe Monte San Giorgio",
+   "text": "Im Dorfmuseum von Meride liegen Fischsaurier, Meeresreptilien und Fische aus der Mittleren Trias, die am Monte San Giorgio gefunden wurden – so gut erhalten, dass man Schuppen und Zähne erkennt. Ab dem Museum führt ein Fossilienweg auf den Berg.",
+   "tip": "Mit Zug bis Mendrisio und Postauto nach Meride; den Besuch mit einer Runde durch das schmucke Dorf verbinden.",
+   "source": "https://www.museodeifossili.ch/orari-e-tariffe.html",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 12,
+    "unit": "Eintritt Erwachsene",
+    "note": "reduziert 10 CHF"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Ticinosuchus_ferox_%28Museo_dei_fossili_del_Monte_San_Giorgio%2C_Meride%29.png/1280px-Ticinosuchus_ferox_%28Museo_dei_fossili_del_Monte_San_Giorgio%2C_Meride%29.png",
+    "alt": "Fossil des Ticinosuchus im Museum Meride",
+    "credit": "https://commons.wikimedia.org/wiki/File:Ticinosuchus_ferox_(Museo_dei_fossili_del_Monte_San_Giorgio,_Meride).png"
+   }
+  },
+  {
+   "id": "lug-x-museo-dogane",
+   "kind": "sehenswuerdigkeit",
+   "name": "Museo delle dogane svizzere (Zollmuseum)",
+   "region": "lugano",
+   "town": "Cantine di Gandria",
+   "address": "Riva delle Cantine, 6978 Cantine di Gandria",
+   "coords": {
+    "lat": 45.99937,
+    "lng": 9.02101
+   },
+   "url": "https://www.bazg.admin.ch/it/museo-doganale-lugano-visita-informazioni",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "gratis",
+    "see",
+    "kultur",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "5. April – 18. Oktober 2026",
+   "hours": "Di–So 12–17 Uhr",
+   "durationMin": 60,
+   "wow": "Gratis-Schmuggelmuseum im alten Grenzposten, am bequemsten per Schiff",
+   "text": "Gegenüber von Gandria, direkt am Ufer, zeigt das Zollmuseum Schmugglerboote, Verstecke, Waffen und beschlagnahmte Ware – und erzählt, wie über den See geschmuggelt wurde. Das Kursschiff legt fast vor der Tür an, der Eintritt ist frei.",
+   "tip": "Schiffsfahrplan vorher prüfen: Das Museum ist nur so lange sinnvoll erreichbar, wie die Schiffe fahren.",
+   "source": "https://www.bazg.admin.ch/it/museo-doganale-lugano-visita-informazioni",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "12:00",
+       "17:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "12:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "12:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "12:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "12:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "12:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Swiss_Customs_Museum%2C_Gandria.jpg/1280px-Swiss_Customs_Museum%2C_Gandria.jpg",
+    "alt": "Zollmuseum am Ufer des Luganersees bei Gandria",
+    "credit": "https://commons.wikimedia.org/wiki/File:Swiss_Customs_Museum,_Gandria.jpg"
+   }
+  },
+  {
+   "id": "lug-x-monte-tamaro",
+   "kind": "aktivitaet",
+   "name": "Monte Tamaro mit Botta-Kapelle",
+   "region": "lugano",
+   "town": "Rivera",
+   "address": "Funivia Monte Tamaro, 6802 Rivera",
+   "coords": {
+    "lat": 46.11679,
+    "lng": 8.89346
+   },
+   "url": "https://www.montetamaro.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "berg",
+    "aktiv",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "1. April – 8. November 2026",
+   "hours": "Apr.–Juni und Sept.–8. Nov. 8.30–17 Uhr; Juli/Aug. 8.30–18 Uhr",
+   "durationMin": 240,
+   "wow": "Mario Bottas Kapelle Santa Maria degli Angeli ragt wie ein Steg ins Tal",
+   "text": "Mit der Gondel ab Rivera fährst du zur Alpe Foppa. Dort steht Mario Bottas Kapelle Santa Maria degli Angeli mit ihrem langen Steinsteg über dem Abgrund; dazu kommen ein Abenteuerpark und die Gratwanderung hinüber zum Monte Lema.",
+   "tip": "Ab Lugano nur 12 Minuten mit dem Zug bis Rivera-Bironico; in der Nebensaison ist es oben angenehm ruhig.",
+   "source": "https://www.montetamaro.ch/en/cable-car",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 34,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Gondel Rivera–Alpe Foppa; mit Halbtax/GA 50 %"
+   },
+   "open": {
+    "months": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Santa_Maria_Tamaro7.jpg/1280px-Santa_Maria_Tamaro7.jpg",
+    "alt": "Kapelle Santa Maria degli Angeli auf dem Monte Tamaro",
+    "credit": "https://commons.wikimedia.org/wiki/File:Santa_Maria_Tamaro7.jpg"
+   }
+  },
+  {
+   "id": "lug-x-alprose",
+   "kind": "aktivitaet",
+   "name": "Chocolate Experience Alprose",
+   "region": "lugano",
+   "town": "Caslano",
+   "address": "Via Rompada 36, 6987 Caslano",
+   "coords": {
+    "lat": 45.97422,
+    "lng": 8.87207
+   },
+   "url": "https://alprose.ch/it/experience-center/",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "regenfest",
+    "familie",
+    "genuss"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 9–17 Uhr (Shop bis 17.30)",
+   "durationMin": 60,
+   "wow": "Schoggi-Museum mit Blick in die Fabrik – für 3 Franken",
+   "text": "In Caslano zeigt die Schokoladenfabrik Alprose ihr kleines Museum und lässt dich von einer Galerie aus in die Produktion schauen. Danach geht es in den Fabrikladen – mit dem Bähnchen FLP bist du in rund 20 Minuten ab Lugano dort.",
+   "tip": "Werktags siehst du die Produktion laufen; am Wochenende stehen die Maschinen oft still.",
+   "source": "https://alprose.ch/it/experience-center/",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 3,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–16: 1 CHF"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Alprose-Caslano-2.jpg/1280px-Alprose-Caslano-2.jpg",
+    "alt": "Schokoladenfabrik Alprose in Caslano",
+    "credit": "https://commons.wikimedia.org/wiki/File:Alprose-Caslano-2.jpg"
+   }
+  },
+  {
+   "id": "lug-x-museo-hesse",
+   "kind": "sehenswuerdigkeit",
+   "name": "Museo Hermann Hesse Montagnola",
+   "region": "lugano",
+   "town": "Montagnola",
+   "address": "Torre Camuzzi, Ra Cürta 2, 6926 Montagnola",
+   "coords": {
+    "lat": 45.98297,
+    "lng": 8.91884
+   },
+   "url": "https://www.hessemontagnola.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "regenfest",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "Apr.–Okt. täglich; Nov.–März nur Sa/So",
+   "hours": "Apr.–Okt. täglich 10.30–17.30 Uhr; Nov.–März Sa/So 10.30–17.30 Uhr",
+   "durationMin": 75,
+   "wow": "Hermann Hesse lebte von 1919 bis 1962 hier im Collina d'Oro",
+   "text": "In der Torre Camuzzi, gleich neben Hesses erster Wohnung in Montagnola, zeigt das Museum Bücher, Aquarelle und persönliche Gegenstände des Nobelpreisträgers. Danach kannst du auf dem Hesse-Weg durchs Dorf bis zu seinem Grab in Sant'Abbondio spazieren.",
+   "tip": "Bus ab Lugano Bahnhof in gut 20 Minuten; im Winter vor dem Besuch die Öffnung prüfen.",
+   "source": "https://www.en.hessemontagnola.ch/informations",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 10,
+    "unit": "Eintritt Erwachsene",
+    "note": "Studierende/AHV 8 CHF; Kinder bis 12 gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hermann_Hesse_Museum_Montagnola_%283%29.jpg/1280px-Hermann_Hesse_Museum_Montagnola_%283%29.jpg",
+    "alt": "Museo Hermann Hesse in der Torre Camuzzi",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hermann_Hesse_Museum_Montagnola_(3).jpg"
+   }
+  },
+  {
+   "id": "lo-x-cascata-foroglio",
+   "kind": "sehenswuerdigkeit",
+   "name": "Wasserfall von Foroglio (Val Bavona)",
+   "region": "locarno",
+   "town": "Foroglio",
+   "address": "Foroglio, 6690 Cavergno",
+   "coords": {
+    "lat": 46.37096,
+    "lng": 8.54455
+   },
+   "url": "https://www.ticino.ch/fr/commons/details/Bignasco-Cascade-de-Foroglio/42469.html",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "gratis",
+    "berg",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig zugänglich; am schönsten April–Oktober",
+   "durationMin": 90,
+   "wow": "Über 100 m stürzt der Calnègia-Bach neben dem Steinweiler Foroglio herab",
+   "text": "Im wilden Bavonatal fällt der Wasserfall hinter den Steinhäusern von Foroglio senkrecht über die Felswand. Vom Bus aus sind es nur ein paar Minuten über die Brücke; wer mag, wandert talabwärts über Sonlerto zurück Richtung Bignasco.",
+   "tip": "Nach starkem Regen oder zur Schneeschmelze ist der Fall am eindrücklichsten; der Bus ab Bignasco fährt nur wenige Male am Tag – Fahrplan genau prüfen.",
+   "source": "https://www.ticino.ch/explore/excursions/itinerary/itineraries/details/Val-Bavona:-Sonlerto---Cascata-di-Foroglio---Bignasco/138345.html",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cascata_di_Foroglio_full.jpg/1280px-Cascata_di_Foroglio_full.jpg",
+    "alt": "Wasserfall über dem Weiler Foroglio im Bavonatal",
+    "credit": "https://commons.wikimedia.org/wiki/File:Cascata_di_Foroglio_full.jpg"
+   }
+  },
+  {
+   "id": "lo-x-orrido-ponte-brolla",
+   "kind": "aussicht",
+   "name": "Orrido di Ponte Brolla (Maggia-Schlucht)",
+   "region": "locarno",
+   "town": "Ponte Brolla",
+   "address": "Ponte Brolla, 6652 Tegna",
+   "coords": {
+    "lat": 46.18655,
+    "lng": 8.75357
+   },
+   "url": "https://www.vigezzinacentovalli.com/en/localita/lago-maggiore/ponte-brolla/orrido-e-marmitte.html",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "gratis",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; Baden nur im Hochsommer und mit Vorsicht",
+   "durationMin": 60,
+   "wow": "Die Maggia hat tiefe Gletschermühlen und Rinnen in den Gneis geschliffen",
+   "text": "Zehn Minuten mit der Centovalli-Bahn ab Locarno, und du stehst über einer engen Schlucht, in der die Maggia runde Töpfe und glatte Felsplatten aus dem Gneis gewaschen hat. Von der alten Brücke und dem Uferweg siehst du ins smaragdgrüne Wasser.",
+   "tip": "Nicht von den Felsen springen: Hier ertrinken immer wieder Menschen, die Strömung ist tückisch. Zum Baden nur die ruhigen Stellen unterhalb der Brücke nutzen.",
+   "source": "https://www.vigezzinacentovalli.com/en/localita/lago-maggiore/ponte-brolla/orrido-e-marmitte.html",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/CH.TI.Ponte-Brolla_2022-07-27_6834_16x9-R_8K.jpg/1280px-CH.TI.Ponte-Brolla_2022-07-27_6834_16x9-R_8K.jpg",
+    "alt": "Maggia-Schlucht bei Ponte Brolla",
+    "credit": "https://commons.wikimedia.org/wiki/File:CH.TI.Ponte-Brolla_2022-07-27_6834_16x9-R_8K.jpg"
+   }
+  },
+  {
+   "id": "lo-x-museo-val-verzasca",
+   "kind": "sehenswuerdigkeit",
+   "name": "Museo di Val Verzasca, Sonogno",
+   "region": "locarno",
+   "town": "Sonogno",
+   "address": "Er Piazza 4, 6637 Sonogno",
+   "coords": {
+    "lat": 46.35021,
+    "lng": 8.78654
+   },
+   "url": "https://www.ticino.ch/it/commons/details/Museo-di-Val-Verzasca/2788.html",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "kultur",
+    "regenfest"
+   ],
+   "weatherProof": true,
+   "season": "1. Mai – 31. Oktober 2026",
+   "hours": "Di–So 11–16 Uhr, Mo geschlossen",
+   "durationMin": 60,
+   "wow": "Im hintersten Dorf des Verzascatals: wie man hier ohne Strasse überlebte",
+   "text": "In Sonogno, wo die Verzasca-Strasse endet, zeigt das Talmuseum in alten Steinhäusern Werkzeuge, Trachten und Geschichten von Auswanderung und Alpwirtschaft. 2026 läuft dazu eine Ausstellung zu 60 Jahren Verzasca-Staumauer.",
+   "tip": "Bus 321 ab Locarno fährt bis Sonogno; danach lohnt der kurze Spaziergang zum Wasserfall La Froda hinter dem Dorf.",
+   "source": "https://www.ticino.ch/it/commons/details/Museo-di-Val-Verzasca/2788.html",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–14: 5 CHF; Familie 15 CHF"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "11:00",
+       "16:00"
+      ]
+     ],
+     "1": [],
+     "2": [
+      [
+       "11:00",
+       "16:00"
+      ]
+     ],
+     "3": [
+      [
+       "11:00",
+       "16:00"
+      ]
+     ],
+     "4": [
+      [
+       "11:00",
+       "16:00"
+      ]
+     ],
+     "5": [
+      [
+       "11:00",
+       "16:00"
+      ]
+     ],
+     "6": [
+      [
+       "11:00",
+       "16:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Sonogno_%28TI%29.jpg/1280px-Sonogno_%28TI%29.jpg",
+    "alt": "Dorf Sonogno im Verzascatal",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sonogno_(TI).jpg"
+   }
+  },
+  {
+   "id": "lo-x-chiesa-mogno",
+   "kind": "sehenswuerdigkeit",
+   "name": "Chiesa di San Giovanni Battista (Mario Botta), Mogno",
+   "region": "locarno",
+   "town": "Mogno",
+   "address": "Via Alta Vallemaggia, 6696 Mogno (Lavizzara)",
+   "coords": {
+    "lat": 46.4306,
+    "lng": 8.66339
+   },
+   "url": "https://en.wikipedia.org/wiki/Mogno",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "gratis",
+    "kultur",
+    "berg"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "durationMin": 45,
+   "wow": "Nach der Lawine von 1986 baute Mario Botta die Kirche aus Marmor und Granit neu",
+   "text": "Hoch oben im Lavizzaratal steht in einem Weiler aus Steinhäusern Bottas kleine Kirche mit den hell-dunkel gestreiften Wänden und dem schrägen Glasdach. Drinnen fällt das Licht so, dass die Steinmuster je nach Tageszeit anders wirken.",
+   "tip": "Mit dem Bus ab Bignasco Richtung Fusio; die Anreise ab Locarno dauert rund 1½ Stunden – gut mit dem Wasserfall von Foroglio kombinierbar.",
+   "source": "https://en.wikipedia.org/wiki/Mogno",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mogno_Botta-Kirche_5.JPG/1280px-Mogno_Botta-Kirche_5.JPG",
+    "alt": "Mario Bottas Kirche in Mogno",
+    "credit": "https://commons.wikimedia.org/wiki/File:Mogno_Botta-Kirche_5.JPG"
+   }
+  },
+  {
+   "id": "lo-x-parco-botanico-gambarogno",
+   "kind": "sehenswuerdigkeit",
+   "name": "Parco botanico del Gambarogno",
+   "region": "locarno",
+   "town": "Piazzogna",
+   "address": "Via delle Camelie, 6579 Piazzogna",
+   "coords": {
+    "lat": 46.13428,
+    "lng": 8.8202
+   },
+   "url": "https://www.parcobotanico.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "romantisch",
+    "aussicht",
+    "see"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; Blüte Feb.–Mai",
+   "hours": "ganztags offen",
+   "durationMin": 75,
+   "wow": "Rund 950 Kamelien- und 350 Magnoliensorten am Hang über dem Lago Maggiore",
+   "text": "Der Gärtner Otto Eisenhut hat hier auf über 17 000 m² eine riesige Sammlung von Kamelien und Magnolien angelegt. Zwischen Februar und Mai blüht der Hang in Weiss, Rosa und Rot – mit Blick auf Locarno auf der anderen Seeseite.",
+   "tip": "Mit dem Bus Richtung Piazzogna bis zur Haltestelle «Parco Botanico»; Parkplätze sind knapp. Bezahlt wird an der Kasse beim Eingang.",
+   "source": "https://parcobotanico.weebly.com/",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 5,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kasse beim Eingang (laut Parkprospekt)"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "bz-x-ponte-tibetano-carasc",
+   "kind": "aktivitaet",
+   "name": "Ponte tibetano Carasc",
+   "region": "bellinzona",
+   "town": "Monte Carasso / Sementina",
+   "address": "Ponte tibetano Carasc, 6514 Sementina",
+   "coords": {
+    "lat": 46.19478,
+    "lng": 8.97461
+   },
+   "url": "https://carasc.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "aussicht",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (Seilbahn-Revision 9.–13.11.2026)",
+   "hours": "Seilbahn 6.30–21.30 Uhr; Mi 8–10 Uhr Wartung",
+   "durationMin": 180,
+   "wow": "270 m lange Hängebrücke, bis 130 m über dem Talboden",
+   "text": "Mit der Seilbahn ab Monte Carasso schwebst du zum Bergweiler Curzútt, von dort gehst du zur Hängebrücke, die sich 270 Meter über das Sementina-Tal spannt. Der Holzsteg ist knapp einen Meter breit – unten rauscht der Bach, vorne liegt die Magadino-Ebene.",
+   "tip": "Ab Bahnhof Bellinzona mit Bus 2 zur Talstation; die Runde Curzútt–Brücke–San Bernardo ist mit Kindern gut machbar, aber nichts für Leute mit starker Höhenangst.",
+   "source": "https://www.ticino.ch/it/commons/details/Ponte-tibetano-Carasc-/137557.html",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 11,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Seilbahn Monte Carasso–Curzútt; bis Mornera 21 CHF; für die Brücke selbst keine Gebühr gefunden"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Ponte_tibetano_Carasc_-_52002328641.jpg/1280px-Ponte_tibetano_Carasc_-_52002328641.jpg",
+    "alt": "Hängebrücke Carasc über dem Sementina-Tal",
+    "credit": "https://commons.wikimedia.org/wiki/File:Ponte_tibetano_Carasc_-_52002328641.jpg"
+   }
+  },
+  {
+   "id": "bz-x-funicolare-ritom",
+   "kind": "aktivitaet",
+   "name": "Funicolare Ritom und Lago Ritom",
+   "region": "bellinzona",
+   "town": "Piotta",
+   "address": "Via Funicolare Ritom, 6776 Piotta",
+   "coords": {
+    "lat": 46.51747,
+    "lng": 8.67478
+   },
+   "url": "https://www.ritom.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "berg",
+    "see",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Mitte Mai – Ende September (2026: ab 16.5.)",
+   "durationMin": 240,
+   "wow": "Bis 87,8 % Steigung – eine der steilsten Standseilbahnen der Welt",
+   "text": "Von Piotta in der Leventina zieht dich die Standseilbahn extrem steil den Hang hinauf nach Piora. Oben spazierst du zum Stausee Lago Ritom und weiter zu den Bergseen der Val Piora.",
+   "tip": "Ab Piora nur Barzahlung – bring Bargeld mit. Vor der Saison 2027 unbedingt auf ritom.ch prüfen, ob die Bahn nach der Renovation wieder fährt.",
+   "source": "https://www.ritom.ch/?p=206",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 25,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Piotta–Piora; GA/Halbtax 20 % Rabatt; einfach 15 CHF; unter 18: 12 CHF retour"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Funicolare_Ritom_-_panoramio.jpg/1280px-Funicolare_Ritom_-_panoramio.jpg",
+    "alt": "Standseilbahn Ritom am steilen Hang",
+    "credit": "https://commons.wikimedia.org/wiki/File:Funicolare_Ritom_-_panoramio.jpg"
+   }
+  },
+  {
+   "id": "bz-x-cascata-santa-petronilla",
+   "kind": "sehenswuerdigkeit",
+   "name": "Cascata di Santa Petronilla",
+   "region": "bellinzona",
+   "town": "Biasca",
+   "address": "Via Santa Petronilla, 6710 Biasca",
+   "coords": {
+    "lat": 46.35269,
+    "lng": 8.97716
+   },
+   "url": "https://www.ticino.ch/it/commons/details/Cascata-di-Santa-Petronilla/130542.html",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "gratis",
+    "aktiv",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig; am schönsten Frühling und Frühsommer",
+   "durationMin": 75,
+   "wow": "Ein romanischer Steinbogen führt direkt vor dem Wasserfall über den Bach",
+   "text": "Vom Dorfplatz in Biasca gehst du in 20 Minuten einen Kreuzweg mit 14 Kapellen unter Kastanien hinauf. Am Ende überquerst du auf einer romanischen Brücke den Bach, der daneben über die Felsen stürzt, und erreichst das Oratorio di Santa Petronilla.",
+   "tip": "Ab Bellinzona 15 Minuten mit dem Zug nach Biasca; den Weg über die Chiesa dei Santi Pietro e Paolo nehmen, die Aussicht lohnt sich.",
+   "source": "https://www.ticino.ch/it/commons/details/Cascata-di-Santa-Petronilla/130542.html",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Biasca_Sta_Petronilla.JPG/1280px-Biasca_Sta_Petronilla.JPG",
+    "alt": "Santa Petronilla bei Biasca",
+    "credit": "https://commons.wikimedia.org/wiki/File:Biasca_Sta_Petronilla.JPG"
+   }
+  },
+  {
+   "id": "bz-x-bagno-pubblico",
+   "kind": "bad",
+   "name": "Bagno pubblico di Bellinzona",
+   "region": "bellinzona",
+   "town": "Bellinzona",
+   "address": "Via Mirasole, 6500 Bellinzona",
+   "coords": {
+    "lat": 46.19742,
+    "lng": 9.0188
+   },
+   "url": "https://sport.bellinzona.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "familie",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "9. Mai – 13. September 2026",
+   "durationMin": 180,
+   "wow": "Aurelio Galfettis Betonsteg führt über die Becken bis an den Ticino",
+   "text": "Das Freibad aus den 1970ern ist ein Stück Schweizer Architekturgeschichte: Ein langer, erhöhter Laufsteg verbindet die Stadt mit dem Flussufer, darunter liegen die Becken. Du badest hier quasi in einem Baudenkmal.",
+   "tip": "Ab 17 Uhr gilt ein reduzierter Eintritt; den Steg lohnt es auch ohne Badehose bis zum Fluss abzulaufen.",
+   "source": "https://www.badi-info.ch/ti/bellinzona.html",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 11,
+    "unit": "Eintritt Erwachsene",
+    "note": "Auswärtige 11 CHF, Einheimische 7 CHF; ab 17 Uhr reduziert"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Bagno_Pubblico_%28Bellinzona%29.jpg/1280px-Bagno_Pubblico_%28Bellinzona%29.jpg",
+    "alt": "Freibad von Aurelio Galfetti in Bellinzona",
+    "credit": "https://commons.wikimedia.org/wiki/File:Bagno_Pubblico_(Bellinzona).jpg"
+   }
+  },
+  {
+   "id": "bz-x-castello-mesocco",
+   "kind": "sehenswuerdigkeit",
+   "name": "Castello di Mesocco",
+   "region": "bellinzona",
+   "town": "Mesocco",
+   "address": "Castello, 6563 Mesocco",
+   "coords": {
+    "lat": 46.3802,
+    "lng": 9.23263
+   },
+   "url": "https://www.myswitzerland.com/en-us/experiences/castle-ruin-mesocco/",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "gratis",
+    "kultur",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "durationMin": 90,
+   "wow": "Eine der grössten Burganlagen der Schweiz – nie erobert, 1526 geschleift",
+   "text": "Auf einem Felsklotz über dem Misox thront die Ruine, bis 1526 Zentrum der Talherrschaft. Du läufst von der Kirche Santa Maria del Castello mit ihren spätromanischen Fresken hinauf und streifst frei durch Mauern, Türme und den alten Burghof.",
+   "tip": "Erst die Fresken in Santa Maria del Castello anschauen, dann zur Burg hoch – von oben siehst du das ganze Tal Richtung San Bernardino.",
+   "source": "https://www.visit-moesano.ch/sites/moesano/files/d7/generic_files/castello-di-mesocco_cb986.pdf",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Castello_Mesocco_Overhead.jpg/1280px-Castello_Mesocco_Overhead.jpg",
+    "alt": "Burgruine Mesocco auf dem Felsen von oben",
+    "credit": "https://commons.wikimedia.org/wiki/File:Castello_Mesocco_Overhead.jpg"
+   }
+  },
+  {
+   "id": "bz-x-splash-spa-tamaro",
+   "kind": "bad",
+   "name": "Splash e Spa Tamaro",
+   "region": "bellinzona",
+   "town": "Rivera",
+   "address": "Via Campagnole 1, 6802 Rivera-Monteceneri",
+   "coords": {
+    "lat": 46.12628,
+    "lng": 8.92148
+   },
+   "url": "https://www.splashespa.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "regenfest",
+    "familie",
+    "wellness",
+    "freunde"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 11–21 Uhr (Rutschbahnen ab 12 Uhr)",
+   "durationMin": 180,
+   "wow": "Rutschbahnen-Halle am Fuss des Monte Tamaro, täglich bis 21 Uhr",
+   "text": "Gleich bei der Talstation des Monte Tamaro wartet ein grosses Erlebnisbad mit mehreren Rutschbahnen, Wellenbecken und einem separaten Wellnessbereich für Erwachsene. Ab Bellinzona bist du mit dem Zug in gut zehn Minuten in Rivera.",
+   "tip": "Perfekter Schlechtwetterplan, wenn der Tamaro in den Wolken steckt – beides liegt nebeneinander.",
+   "source": "https://www.splashespa.ch/",
+   "checked": "2026-11-15",
+   "priceInfo": {
+    "from": 27,
+    "unit": "Eintritt Erwachsene",
+    "note": "ab 16 J., Bad und Rutschbahnen; mit Wellness (Relax + Fun) ab 44 CHF"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "11:00",
+       "21:00"
+      ]
+     ],
+     "1": [
+      [
+       "11:00",
+       "21:00"
+      ]
+     ],
+     "2": [
+      [
+       "11:00",
+       "21:00"
+      ]
+     ],
+     "3": [
+      [
+       "11:00",
+       "21:00"
+      ]
+     ],
+     "4": [
+      [
+       "11:00",
+       "21:00"
+      ]
+     ],
+     "5": [
+      [
+       "11:00",
+       "21:00"
+      ]
+     ],
+     "6": [
+      [
+       "11:00",
+       "21:00"
+      ]
+     ]
+    }
+   }
+  }
+ ],
+ "trips": [
+  {
+   "slug": "krasse-runde-genfersee",
+   "title": "Die krasse Runde Genfersee",
+   "region": "genf",
+   "teaser": "Zwei Flussfarben, eine Stadt im Miniaturformat, Kunst von Aussenseitern und ein Nachtwächter, der seit 600 Jahren die Stunden ruft.",
+   "days": 1,
+   "moods": [
+    "kultur",
+    "natur",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "allein"
+   ],
+   "season": "ganzjährig (Maison Tavel und Art Brut montags zu)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 165
+    },
+    {
+     "from": "Bern",
+     "minutes": 105
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 165
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Genf am Morgen, Lausanne bis Mitternacht",
+     "slots": [
+      {
+       "time": "09:30",
+       "placeId": "ge-x-pointe-jonction",
+       "title": "Wo Rhône und Arve sich treffen",
+       "text": "Am Spitz der Jonction schaust du zu, wie die graue Arve und die blaue Rhône nebeneinander herfliessen.",
+       "travel": "15 Min. Tram 14 ab Genève-Cornavin",
+       "rain": {
+        "placeId": "ge-x-musee-histoire-sciences",
+        "title": "Alte Forschungsinstrumente",
+        "text": "Gratis-Museum in der Villa Bartholoni am See (dienstags zu)."
+       }
+      },
+      {
+       "time": "11:00",
+       "placeId": "ge-x-relief-magnin",
+       "title": "Genf von 1850 im Modell",
+       "text": "In der Maison Tavel suchst du auf dem Relief Magnin die Gassen, durch die du gleich gehst.",
+       "travel": "20 Min. Bus 2/19 und zu Fuss"
+      },
+      {
+       "time": "12:30",
+       "placeId": "ge-chez-ma-cousine",
+       "title": "Mittag am Bourg-de-Four",
+       "text": "Poulet und Frites gleich um die Ecke der Maison Tavel.",
+       "travel": "3 Min. zu Fuss"
+      },
+      {
+       "time": "14:30",
+       "placeId": "la-x-art-brut",
+       "title": "Kunst ohne Kunstschule",
+       "text": "Mit dem Zug nach Lausanne und ins Château de Beaulieu zur Collection de l'Art Brut.",
+       "travel": "40 Min. Zug Genève–Lausanne, dann 15 Min. Bus 2"
+      },
+      {
+       "time": "17:00",
+       "placeId": "la-x-aquatis",
+       "title": "Happy Hour im Aquarium",
+       "text": "Ab 17 Uhr mit dem günstigen Online-Abendticket eine Stunde an den 46 Becken vorbei.",
+       "travel": "20 Min. Metro m2 bis Vennes"
+      },
+      {
+       "time": "19:00",
+       "placeId": "la-cafe-romand",
+       "title": "Znacht im Café Romand",
+       "text": "Waadtländer Klassiker in einer der ältesten Beizen der Stadt.",
+       "travel": "15 Min. Metro m2 bis Flon"
+      },
+      {
+       "time": "21:50",
+       "placeId": "la-x-guet-cathedrale",
+       "title": "Der Guet ruft die Stunde",
+       "text": "Vor der Kathedrale wartest du auf den Ruf des Nachtwächters um 22 Uhr.",
+       "travel": "10 Min. zu Fuss bergauf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-unter-tage-und-thermal",
+   "title": "Unter Tage und ab ins 35-Grad-Wasser",
+   "region": "lausanne",
+   "teaser": "Vormittag im Salzbergwerk von Bex, Nachmittag im Thermalbad von Lavey – auch bei Regen ein voller Tag.",
+   "days": 1,
+   "moods": [
+    "erholung",
+    "familie",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "familie"
+   ],
+   "season": "ganzjährig (Lavey Betriebsferien Ende Juni/Anfang Juli)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 180
+    },
+    {
+     "from": "Bern",
+     "minutes": 115
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 180
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Salz und Thermalwasser im Chablais",
+     "slots": [
+      {
+       "time": "09:30",
+       "placeId": "la-x-mines-de-sel-bex",
+       "title": "Mit dem Minenzug in den Berg",
+       "text": "Geführte Tour durch die Salzstollen von Bex, rund 2½ Stunden inklusive Bahnfahrt im Berg.",
+       "travel": "45 Min. Zug Lausanne–Bex, dann ca. 3 km zur Mine (Taxi oder zu Fuss)"
+      },
+      {
+       "time": "13:00",
+       "placeId": "la-x-bains-de-lavey",
+       "title": "Aussenbad mit 35 Grad",
+       "text": "Drei Stunden Thermalbecken, Sauna und Hammam mit Blick auf die Felsen des Rhonetals.",
+       "travel": "20 Min. mit Bus/Taxi über St-Maurice"
+      },
+      {
+       "time": "17:30",
+       "placeId": "la-caveau-cully",
+       "title": "Glas Lavaux auf dem Rückweg",
+       "text": "Auf der Heimfahrt in Cully aussteigen und die Weine der Region probieren.",
+       "travel": "50 Min. Zug St-Maurice–Cully"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-luganersee",
+   "title": "Die krasse Runde Luganersee",
+   "region": "lugano",
+   "teaser": "Mit der Zahnradbahn zur Steinblume, zu 240 Millionen Jahre alten Sauriern und am Abend mit dem Schiff nach Gandria.",
+   "days": 1,
+   "moods": [
+    "natur",
+    "kultur",
+    "genuss",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "familie"
+   ],
+   "season": "Mai–Oktober (Meride montags zu)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 120
+    },
+    {
+     "from": "Bern",
+     "minutes": 175
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 170
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Gipfel, Fossilien, Olivenweg",
+     "slots": [
+      {
+       "time": "09:00",
+       "placeId": "lug-x-monte-generoso",
+       "title": "Zahnradbahn auf den Generoso",
+       "text": "Ab Capolago hinauf, oben ums Fiore di pietra und zum Gipfelkreuz, Mittag im Botta-Bau.",
+       "travel": "15 Min. Zug Lugano–Capolago-Riva S. Vitale",
+       "rain": {
+        "placeId": "lug-x-alprose",
+        "title": "Schoggi statt Gipfel",
+        "text": "Mit der FLP nach Caslano ins Alprose-Museum mit Blick in die Fabrik."
+       }
+      },
+      {
+       "time": "14:00",
+       "placeId": "lug-x-museo-fossili-meride",
+       "title": "Saurier aus dem Meer",
+       "text": "Im Museum von Meride die Fossilien vom UNESCO-Berg Monte San Giorgio anschauen.",
+       "travel": "35 Min. Zug bis Mendrisio, dann Postauto nach Meride"
+      },
+      {
+       "time": "16:30",
+       "placeId": "lug-sentiero-olivo-gandria",
+       "title": "Olivenweg nach Gandria",
+       "text": "Zurück in Lugano dem See entlang durch die Olivenhaine nach Gandria spazieren, zurück mit dem Schiff.",
+       "travel": "45 Min. Zug/Bus bis Castagnola",
+       "rain": {
+        "placeId": "lug-x-museo-hesse",
+        "title": "Hesse in Montagnola",
+        "text": "Bei Regen lieber ins Hermann-Hesse-Museum (Sommerhalbjahr täglich bis 17.30)."
+       }
+      },
+      {
+       "time": "19:30",
+       "placeId": "lug-grotto-morchino",
+       "title": "Znacht im Grotto",
+       "text": "Tessiner Grotto-Küche unter Kastanien zum Abschluss.",
+       "travel": "25 Min. Schiff und Bus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-tessiner-taeler",
+   "title": "Die krasse Runde Bellinzona–Locarno",
+   "region": "bellinzona",
+   "teaser": "Über die 270-Meter-Hängebrücke, in die Maggia-Schlucht und zum Schluss ins warme Salzwasser am Lago Maggiore.",
+   "days": 1,
+   "moods": [
+    "aktiv",
+    "natur",
+    "erholung",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "familie"
+   ],
+   "season": "April–Oktober",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 100
+    },
+    {
+     "from": "Bern",
+     "minutes": 155
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 165
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Hängebrücke, Schlucht, Salzbad",
+     "slots": [
+      {
+       "time": "09:00",
+       "placeId": "bz-x-ponte-tibetano-carasc",
+       "title": "Hängebrücke Carasc",
+       "text": "Seilbahn nach Curzútt, über die Brücke und via San Bernardo zurück.",
+       "travel": "15 Min. Bus 2 ab Bellinzona Bahnhof",
+       "rain": {
+        "placeId": "bz-castelgrande",
+        "title": "Castelgrande statt Brücke",
+        "text": "Bei Regen lieber Museum und Mauern des Castelgrande in der Stadt."
+       }
+      },
+      {
+       "time": "12:30",
+       "placeId": "bz-locanda-orico",
+       "title": "Mittag in der Altstadt",
+       "text": "Zurück in Bellinzona Mittagessen in der Locanda Orico.",
+       "travel": "20 Min. Seilbahn und Bus 2"
+      },
+      {
+       "time": "14:30",
+       "placeId": "lo-x-orrido-ponte-brolla",
+       "title": "In die Maggia-Schlucht",
+       "text": "Von der alten Brücke in die Gletschermühlen der Maggia schauen, dem Ufer entlang bummeln.",
+       "travel": "25 Min. Zug nach Locarno, 10 Min. Centovalli-Bahn",
+       "rain": {
+        "placeId": "lo-casa-rusca",
+        "title": "Museo Casa Rusca",
+        "text": "Bei Regen in Locarno ins Kunstmuseum Casa Rusca."
+       }
+      },
+      {
+       "time": "16:30",
+       "placeId": "lo-s-termali-salini",
+       "title": "Ab ins Salzwasser",
+       "text": "Ein paar Stunden Salzbad und Sauna mit Blick auf den See.",
+       "travel": "15 Min. Centovalli-Bahn und zu Fuss"
+      },
+      {
+       "time": "19:30",
+       "placeId": "lo-osteria-nostrana",
+       "title": "Znacht an der Piazza",
+       "text": "Zum Abschluss Tessiner Küche nahe der Piazza Grande.",
+       "travel": "10 Min. zu Fuss"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": "Nicht verifizierbar bzw. Hinweise: Gegen Ende war das Websuche-Kontingent aufgebraucht; die letzten Orte (Mesocco, Mogno, Gambarogno, Splash) wurden nur per direktem Abruf offizieller Seiten bzw. Wikipedia geprüft. Wikimedia/Commons-API war während des Laufs per IP gedrosselt (HTTP 429) – Bilder wurden nachträglich ergänzt, wo es ging; Orte ohne \"image\" haben (noch) keins. Rochers-de-Naye: MOB-Seiten rendern Preise per JavaScript; 72.80 CHF stammt aus dem SBB-Partnerportal swissrailways.com (dort USD 86 / CHF 72.80). Saison/Preis des Murmeltierparks 2026 nicht verifiziert. Mines de Bex: offizieller Preis nicht auf salina-helvetica.ch auffindbar; 35 CHF laut vaudfamille.ch (2026). Neue Tour-Saison ab Anfang 2027 angekündigt – Preis kann sich ändern. Anfahrt Bahnhof Bex–Mine (ca. 3 km) nicht geprüft. Aquatis: 32 CHF laut Lausanne Tourisme, Datum der Tarifangabe unklar; online teils 29 CHF. Maison Tavel: Quellen nennen teils «prix libre», teils 5/3 CHF fix. Cimetière des Rois: Öffnungszeiten nur aus Tourismusportal, nicht amtlich bestätigt. Fondation Bodmer: nach Umbau Wiedereröffnung 18.9.2026 laut geneve.com. Monte Generoso: Betriebsunterbruch ca. 9.11.–4.12.2026; months bewusst ganzjährig gelassen, season-Text beachten. Monte Tamaro: offizielle Seite nennt Saison bis 8.11.2026; ein Drittportal erwähnt Winter-Wochenendbetrieb im November – nicht bestätigt. Hesse-Museum: offizielle Seite Nov.–März Sa/So offen; ticino.ch meldet Schliessung ab 1.11.2026 – vor Winterbesuch prüfen. Termali Salini: Drittportale nennen 38 CHF; offizielle Preisseite 39 CHF (ohne Datum). Foroglio und Mogno: Anreise ab Locarno ca. 1h20 bzw. 1h30 (über der 60-Min.-Grenze); Bus ins Bavonatal saisonal, Fahrplan 2026 nicht geprüft. Parco botanico Gambarogno: Preis 5 CHF aus dem offiziellen, aber undatierten Prospekt. Ponte tibetano Carasc: keine Brückengebühr gefunden; Preis bezieht sich auf die Seilbahn. Seilbahn-Revision 9.–13.11.2026. Funicolare Ritom: Saison 2026 ab 16.5.; ritom.ch meldet aktuell Schliessung wegen Renovation bis Frühling 2027. Bagno pubblico Bellinzona: Preis 2026 laut badi-info.ch (Stand Juli 2026), entspricht der Erhöhung ab 2025; Koordinaten = Bushaltestelle «Bagno Pubblico». Castello di Mesocco: frei zugängliche Ruine laut GSK-Kunstführer; kein Eintritt, aber nicht amtlich als «gratis» deklariert. Anreise Bellinzona–Mesocco ca. 50 Min. Bus. Bewusst weggelassen: Chaplin's World (kein Preis 2026), Gorges du Chauderon (Wegstatus 2026 unklar), Seilbahnen Verdasio–Rasa und Verdasio–Comino sowie Intragna–Pila–Costa (2026 geschlossen), Parco Scherrer (kein Preis), Glacier 3000 (über 60 Min. ab Lausanne), Verzasca-Bungee (Dublette zu lo-diga-verzasca)."
+}

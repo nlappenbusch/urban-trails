@@ -1,0 +1,2271 @@
+{
+ "places": [
+  {
+   "id": "bern-x-papiliorama",
+   "kind": "aktivitaet",
+   "name": "Papiliorama",
+   "region": "bern",
+   "town": "Kerzers",
+   "address": "Moosmatte 1, 3210 Kerzers",
+   "coords": {
+    "lat": 46.98939,
+    "lng": 7.20025
+   },
+   "url": "https://www.papiliorama.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "regenfest",
+    "familie",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (geschlossen 25.12. und 1.1.)",
+   "hours": "täglich 9–17 Uhr (Winterzeit), 9–18 Uhr (Sommerzeit), letzter Einlass 45 Min. vor Schluss",
+   "durationMin": 150,
+   "text": "Unter zwei Glaskuppeln flattern tropische Schmetterlinge um dich herum, nebenan läufst du im Nocturama durch einen künstlichen Tropenwald bei Nacht mit Faultieren und Nachtaffen. Plane rund zweieinhalb Stunden ein, der Bahnhof Kerzers Papiliorama liegt direkt vor dem Eingang.",
+   "tip": "Im Nocturama brauchen die Augen ein paar Minuten, bis du die Tiere siehst – nicht gleich weiterlaufen.",
+   "wow": "363 Tage offen: Tropenwald und Nachttier-Dschungel unter Glaskuppeln",
+   "priceInfo": {
+    "from": 22,
+    "unit": "Eintritt Erwachsene",
+    "note": "Lernende/Studierende/AHV CHF 19, Kinder 4–15 CHF 12"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Papiliorama.4843.JPG/1280px-Papiliorama.4843.JPG",
+    "alt": "Im Papiliorama Kerzers unter der Glaskuppel",
+    "credit": "https://commons.wikimedia.org/wiki/File:Papiliorama.4843.JPG"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.papiliorama.ch/fr/visiter/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-x-schloss-burgdorf",
+   "kind": "sehenswuerdigkeit",
+   "name": "Schloss Burgdorf – Museum und Jugendherberge im Schloss",
+   "region": "bern",
+   "town": "Burgdorf",
+   "address": "Schlossgässli 1, 3400 Burgdorf",
+   "coords": {
+    "lat": 47.05487,
+    "lng": 7.62899
+   },
+   "url": "https://schloss-burgdorf.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "kultur",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Museum April–Oktober täglich 10–18 Uhr, November–März Mi–So 10–18 Uhr, letzter Einlass 17.30 Uhr",
+   "durationMin": 90,
+   "text": "Das Zähringer-Schloss über der Emme ist Museum, Restaurant und Jugendherberge in einem: Du schläfst in Zimmern, die je ein Kapitel Schlossgeschichte erzählen, und hast als Übernachtungsgast das Museum gratis. Für den Rundgang durch Türme und Säle reichen anderthalb Stunden.",
+   "tip": "Wer übernachten will, bucht über youthhostel.ch – die Sechsbettzimmer haben dreistöckige Etagenbetten.",
+   "wow": "Jugendherberge mitten im Museum: jedes Zimmer zeigt ein Stück Schlossgeschichte",
+   "priceInfo": {
+    "from": 14,
+    "unit": "Eintritt Erwachsene",
+    "note": "IV/in Ausbildung CHF 10, Kinder 6–16 CHF 6; Übernachtungsgäste der Jugendherberge gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Schloss_Burgdorf.jpg/1280px-Schloss_Burgdorf.jpg",
+    "alt": "Schloss Burgdorf auf dem Felsen über der Altstadt",
+    "credit": "https://commons.wikimedia.org/wiki/File:Schloss_Burgdorf.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "18:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://schloss-burgdorf.ch/de/infos/oeffnungszeiten-preise/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-x-schaukaeserei-koenigsweg",
+   "kind": "aktivitaet",
+   "name": "Emmentaler Schaukäserei – Königsweg",
+   "region": "bern",
+   "town": "Affoltern im Emmental",
+   "address": "Schaukäsereistrasse 6, 3416 Affoltern im Emmental",
+   "coords": {
+    "lat": 47.06363,
+    "lng": 7.73149
+   },
+   "url": "https://www.emmentaler-schaukaeserei.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "genuss",
+    "regenfest",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (365 Tage)",
+   "hours": "täglich 9–17 Uhr, letzte Startzeit Königsweg 16.30 Uhr; Restaurant Fr/Sa bis 22 Uhr",
+   "durationMin": 60,
+   "text": "Auf dem selbstgeführten Königsweg gehst du durch die laufende Produktion des Emmentaler AOP – Milchannahme, Käsefertiger, Wendepresse – und degustierst am Schluss. Der Rundgang dauert rund 30 Minuten, danach lohnt sich das Restaurant mit Käseküche.",
+   "tip": "Mi, Sa und So um 14 Uhr gibt es einen öffentlichen Frischkäse-Workshop – vorher reservieren.",
+   "wow": "Begehbare Käserei: du läufst durch die Produktion des Emmentaler AOP",
+   "priceInfo": {
+    "from": 16.5,
+    "unit": "Eintritt Erwachsene",
+    "note": "Königsweg inkl. Degustation"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Schauk%C3%A4serei_Emmental%2C_Affoltern.jpg/1280px-Schauk%C3%A4serei_Emmental%2C_Affoltern.jpg",
+    "alt": "Gebäude der Emmentaler Schaukäserei in Affoltern",
+    "credit": "https://commons.wikimedia.org/wiki/File:Schauk%C3%A4serei_Emmental%2C_Affoltern.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.emmentaler-schaukaeserei.ch/de/entdecken/koenigsweg.php",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-x-wohnfass-schaukaeserei",
+   "kind": "hotel",
+   "name": "Schlafen im Wohnfass (Emmentaler Schaukäserei)",
+   "region": "bern",
+   "town": "Affoltern im Emmental",
+   "address": "Schaukäsereistrasse 6, 3416 Affoltern im Emmental",
+   "coords": {
+    "lat": 47.06363,
+    "lng": 7.73149
+   },
+   "url": "https://www.emmentaler-schaukaeserei.ch/de/geniessen/wohnfass.php",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "romantisch",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (geheizt)",
+   "hours": "Check-in 14–17 Uhr, Check-out bis 10 Uhr",
+   "text": "Zwei begehbare Holzfässer neben der Schaukäserei sind zum Schlafzimmer umgebaut – mit grossem Familienbett, zwei Zusatzbetten, Heizung, Strom und eigenem Sitzplatz. Dusche gibt es keine, das WC-Häuschen steht gleich daneben.",
+   "tip": "Für Paare gibt es ein Romantik-Package mit Znacht auf der eigenen Terrasse und Zmorge.",
+   "wow": "Übernachten in einem geheizten Holzfass für bis zu vier Personen",
+   "priceInfo": {
+    "from": 175,
+    "to": 215,
+    "unit": "Doppelzimmer pro Nacht",
+    "note": "2 Erwachsene: CHF 87.50 p. P. bei Anreise So–Do, CHF 107.50 p. P. Fr/Sa; Kinder bis 11 gratis; ohne Frühstück"
+   },
+   "source": "https://www.emmentaler-schaukaeserei.ch/de-wAssets/docs/Angebote-Wohnfass/Preisuebersicht-Wohnfass.pdf",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-x-marzilibahn",
+   "kind": "sehenswuerdigkeit",
+   "name": "Marzilibahn",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Bundesrain, 3011 Bern (Bergstation bei der Bundesterrasse)",
+   "coords": {
+    "lat": 46.94555,
+    "lng": 7.44265
+   },
+   "url": "https://www.marzilibahn.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "familie",
+    "aussicht"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "täglich 6.15–21 Uhr, alle 3 Minuten",
+   "durationMin": 10,
+   "text": "Die rote Standseilbahn verbindet die Bundesterrasse neben dem Bundeshaus mit dem Marzili-Quartier an der Aare – die Fahrt ist schneller vorbei, als du dein Handy gezückt hast. Ideal, wenn du vom Bundeshaus zum Aareufer oder ins Marzilibad willst.",
+   "tip": "Im Sommer unten aussteigen, Badekleider in den Rucksack und vom Marzili aus in die Aare.",
+   "wow": "Rund 105 m Strecke: eine der kürzesten öffentlichen Standseilbahnen Europas",
+   "priceInfo": {
+    "from": 1.5,
+    "to": 2.9,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Einzelfahrt CHF 1.50, retour CHF 2.90; Billette am Automaten"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Marzilibahn_%28403247860%29.jpg/1280px-Marzilibahn_%28403247860%29.jpg",
+    "alt": "Wagen der Marzilibahn auf der kurzen Steilstrecke in Bern",
+    "credit": "https://commons.wikimedia.org/wiki/File:Marzilibahn_%28403247860%29.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "06:15",
+       "21:00"
+      ]
+     ],
+     "1": [
+      [
+       "06:15",
+       "21:00"
+      ]
+     ],
+     "2": [
+      [
+       "06:15",
+       "21:00"
+      ]
+     ],
+     "3": [
+      [
+       "06:15",
+       "21:00"
+      ]
+     ],
+     "4": [
+      [
+       "06:15",
+       "21:00"
+      ]
+     ],
+     "5": [
+      [
+       "06:15",
+       "21:00"
+      ]
+     ],
+     "6": [
+      [
+       "06:15",
+       "21:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.marzilibahn.ch/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "bern-x-zytglogge-fuehrung",
+   "kind": "aktivitaet",
+   "name": "Zytglogge-Führung (Zeitglockenturm von innen)",
+   "region": "bern",
+   "town": "Bern",
+   "address": "Bim Zytglogge 3, 3011 Bern (Treffpunkt Seite Kramgasse)",
+   "coords": {
+    "lat": 46.94795,
+    "lng": 7.4478
+   },
+   "url": "https://www.bern.com/de/detail/zytglogge-fuehrung",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "kultur",
+    "regenfest",
+    "aussicht"
+   ],
+   "weatherProof": true,
+   "season": "Führungsdaten laut bern.com",
+   "hours": "nur mit Führung (rund 60 Min.), Anmeldung bei Bern Welcome",
+   "durationMin": 60,
+   "text": "Bei der Führung stehst du im Turm direkt neben dem Uhrwerk, das seit Jahrhunderten Zeiger, Figurenspiel und Glockenschlag antreibt, und steigst danach zur Aussicht über die Altstadtdächer hoch. Die Gruppen sind klein, also früh buchen.",
+   "tip": "Zur vollen Stunde läuft das Figurenspiel – mit der Führung erlebst du es von innen statt von der Kramgasse aus.",
+   "wow": "Du stehst im Turm neben dem historischen Uhrwerk, das das Figurenspiel antreibt",
+   "priceInfo": {
+    "from": 26,
+    "unit": "Eintritt Erwachsene",
+    "note": "AHV/IV/Studierende CHF 21, Kinder 6–16 CHF 13 (Bern Welcome, Ausgabe Januar 2026)"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hasler_AG_Zytglogge_Uhrwerk_des_Figurenspiels.jpg/1280px-Hasler_AG_Zytglogge_Uhrwerk_des_Figurenspiels.jpg",
+    "alt": "Uhrwerk des Figurenspiels im Berner Zytglogge",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hasler_AG_Zytglogge_Uhrwerk_des_Figurenspiels.jpg"
+   },
+   "source": "https://a.storyblok.com/f/272028/x/9a58a2fb8e/01_bern_broschuere_city-tours_aktuell_c_bern-welcome.pdf",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "th-x-blausee",
+   "kind": "aussicht",
+   "name": "Naturpark Blausee",
+   "region": "thun",
+   "town": "Blausee-Mitholz",
+   "address": "Blausee, 3717 Blausee-Mitholz",
+   "coords": {
+    "lat": 46.53242,
+    "lng": 7.66485
+   },
+   "url": "https://www.blausee.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "see",
+    "familie",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig",
+   "hours": "täglich ab 9 Uhr",
+   "durationMin": 90,
+   "text": "Der kleine Bergsee im Wald ist so klar, dass du die Forellen am Grund siehst; im Sommer ist die Fahrt mit dem Glasboden-Ruderboot im Eintritt inbegriffen. Ein Rundweg führt in 20 Minuten um den See, dazu gibt es Grillstellen und eine Bio-Forellenzucht.",
+   "tip": "Ab 16 Uhr ist der Eintritt günstiger – dann ist es auch ruhiger.",
+   "wow": "Glasboden-Boot über einem Bergsee, in dem du die Forellen am Grund siehst",
+   "priceInfo": {
+    "from": 8,
+    "to": 10,
+    "unit": "Eintritt Erwachsene",
+    "note": "Mo–Fr CHF 8, Sa/So/Feiertage CHF 10; ab 16 Uhr CHF 6/8; Kinder 6–15 CHF 5/6; am Geburtstag gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Blausee_in_Kandergrund.jpg/1280px-Blausee_in_Kandergrund.jpg",
+    "alt": "Der klare Blausee im Wald bei Kandergrund",
+    "credit": "https://commons.wikimedia.org/wiki/File:Blausee_in_Kandergrund.jpg"
+   },
+   "source": "https://www.blausee.ch/de/kontakt-anreise/oeffnungszeiten/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "th-x-oeschinensee",
+   "kind": "aussicht",
+   "name": "Oeschinensee mit Gondelbahn ab Kandersteg",
+   "region": "thun",
+   "town": "Kandersteg",
+   "address": "Oeschistrasse 50, 3718 Kandersteg (Talstation)",
+   "coords": {
+    "lat": 46.4985,
+    "lng": 7.72684
+   },
+   "url": "https://www.oeschinensee.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "see",
+    "berg",
+    "aktiv",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Sommer 9.5.–9.11.2026; Winter 5.12.2026–7.3.2027",
+   "hours": "Herbst 8.30–17 Uhr, Sommer 2027 8.30–18 Uhr, Winter 9–17 Uhr",
+   "durationMin": 240,
+   "text": "Von der Bergstation spazierst du eine knappe halbe Stunde zum türkisgrünen See unter den Felswänden der Blüemlisalp; dort kannst du rudern, fischen oder auf dem Panoramaweg höher steigen. Zurück lockt neben der Gondel die Sommer-Rodelbahn direkt bei der Bergstation.",
+   "tip": "Im September und November gilt Reservationspflicht für ein Zeitfenster – Ticket vorher online buchen.",
+   "wow": "Bergsee im UNESCO-Welterbe Jungfrau-Aletsch unter 3000 m hohen Felswänden",
+   "priceInfo": {
+    "from": 36,
+    "to": 40,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Sommer 2026: CHF 36 (Mai/Juni, ab 22.9.), CHF 40 (15.6.–21.9.); Halbtax/GA CHF 18.50–22.50"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/20190725_Oeschinensee-Panorama%2C_Kandersteg_%2806540-42_stitch%29.jpg/1280px-20190725_Oeschinensee-Panorama%2C_Kandersteg_%2806540-42_stitch%29.jpg",
+    "alt": "Panorama des Oeschinensees mit den Felswänden der Blüemlisalp",
+    "credit": "https://commons.wikimedia.org/wiki/File:20190725_Oeschinensee-Panorama%2C_Kandersteg_%2806540-42_stitch%29.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:30",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     1,
+     2,
+     3,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ]
+   },
+   "source": "https://www.oeschinensee.ch/tarife-sommer/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "th-x-panoramabruecke-sigriswil",
+   "kind": "aussicht",
+   "name": "Panoramabrücke Sigriswil",
+   "region": "thun",
+   "town": "Sigriswil",
+   "address": "Panoramabrücke, 3655 Sigriswil",
+   "coords": {
+    "lat": 46.71839,
+    "lng": 7.70724
+   },
+   "url": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/thun-panorama-rundweg-thunersee",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "see",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig begehbar (bei Schnee und Eis Vorsicht)",
+   "durationMin": 45,
+   "text": "Die Hängebrücke spannt sich über die Gummischlucht zwischen Sigriswil und Aeschlen, unter dir rauscht der Bach, vor dir liegen Thunersee, Eiger, Mönch und Jungfrau. Das Brückengeld zahlst du am Automaten vor Ort, der Bus ab Thun hält in Sigriswil Dorf.",
+   "tip": "Kombiniere die Brücke mit einem Stück Panorama-Rundweg Thunersee – der Abschnitt nach Aeschlen ist flach und kurz.",
+   "wow": "340 m lange Hängebrücke, 182 m über der Gummischlucht",
+   "priceInfo": {
+    "from": 8,
+    "unit": "Eintritt Erwachsene",
+    "note": "Tageskarte am Automaten; mit PanoramaCard Thunersee CHF 4; Swiss Travel Pass gilt nicht"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg",
+    "alt": "Hängebrücke des Panorama-Rundwegs Thunersee bei Sigriswil",
+    "credit": "https://commons.wikimedia.org/wiki/File:H%C3%A4ngebr%C3%BCcke_Panoramarundweg_Thunersee_2012_-_panoramio.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/thun-panorama-rundweg-thunersee",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "th-x-stockhorn-plattform",
+   "kind": "aussicht",
+   "name": "Stockhorn mit Glasboden-Plattform in der Nordwand",
+   "region": "thun",
+   "town": "Erlenbach im Simmental",
+   "address": "Stockhornbahn, 3762 Erlenbach im Simmental (Talstation)",
+   "coords": {
+    "lat": 46.69401,
+    "lng": 7.53774
+   },
+   "url": "https://www.stockhorn.ch",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "Sommer 11.4.–22.11.2026, Winter 3.12.2026–21.3.2027",
+   "hours": "täglich alle 30 Min.; Sommer 7.50–18 Uhr, Winter 8.50–17.30 Uhr",
+   "durationMin": 180,
+   "text": "Die Luftseilbahn bringt dich in zwei Sektionen über den Hinterstockensee auf 2190 m, oben trittst du auf eine Plattform, die aus der Nordwand ragt und einen Glasboden hat. Der Blick reicht über Thunersee und Mittelland bis zum Schwarzwald.",
+   "tip": "An der Mittelstation Chrindi aussteigen und zum Hinterstockensee spazieren – im Winter steht dort das Iglu.",
+   "wow": "Glasboden-Plattform in der Nordwand, rund 400 m über dem Boden",
+   "priceInfo": {
+    "from": 62,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Halbtax/GA CHF 31; Erlenbach–Chrindi retour CHF 44; Kinder mit Junior-Karte gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Stockhornbahn_Sektion2.jpg/1280px-Stockhornbahn_Sektion2.jpg",
+    "alt": "Kabine der Stockhornbahn in der zweiten Sektion vor dem Stockhorn",
+    "credit": "https://commons.wikimedia.org/wiki/File:Stockhornbahn_Sektion2.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:50",
+       "17:30"
+      ]
+     ],
+     "1": [
+      [
+       "08:50",
+       "17:30"
+      ]
+     ],
+     "2": [
+      [
+       "08:50",
+       "17:30"
+      ]
+     ],
+     "3": [
+      [
+       "08:50",
+       "17:30"
+      ]
+     ],
+     "4": [
+      [
+       "08:50",
+       "17:30"
+      ]
+     ],
+     "5": [
+      [
+       "08:50",
+       "17:30"
+      ]
+     ],
+     "6": [
+      [
+       "08:50",
+       "17:30"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.stockhorn.ch/informieren/fahrplan-preise/fahrpreise",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "th-x-stockhorn-iglu",
+   "kind": "restaurant",
+   "name": "Stockhorn Iglu – Fondue-Abend am Hinterstockensee",
+   "region": "thun",
+   "town": "Erlenbach im Simmental",
+   "address": "Hinterstockensee, Station Chrindi, 3762 Erlenbach im Simmental",
+   "coords": {
+    "lat": 46.68552,
+    "lng": 7.54014
+   },
+   "url": "https://www.stockhorn.ch/winter/stockhorn-iglu/stockhorn-iglu",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "romantisch",
+    "genuss",
+    "freunde",
+    "berg"
+   ],
+   "weatherProof": true,
+   "season": "11.12.2026–21.3.2027, Mi und Fr–So",
+   "hours": "Fondue-Abend Mi sowie Fr–So; 10–15 Min. Fussweg ab Chrindi (abends beleuchtet)",
+   "durationMin": 180,
+   "text": "Am gefrorenen Hinterstockensee baut die Stockhornbahn jeden Winter ein Iglu mit Bar, in dem abends Fondue serviert wird. Du fährst mit der Bahn zur Mittelstation Chrindi und gehst auf dem beleuchteten Winterweg rund eine Viertelstunde hinüber.",
+   "tip": "Warme Schuhe mitnehmen – der Weg zum Iglu führt 50 Höhenmeter durch den Schnee.",
+   "wow": "Fondue in einem selbstgebauten Iglu am gefrorenen Bergsee",
+   "priceInfo": {
+    "from": 72,
+    "unit": "Menü",
+    "note": "inkl. Bahnfahrt und Fondue; Kinder mit Familienkarte CHF 28, ohne CHF 50"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Hinterstockensee%2C_winter_09.jpg/1280px-Hinterstockensee%2C_winter_09.jpg",
+    "alt": "Verschneiter Hinterstockensee im Winter",
+    "credit": "https://commons.wikimedia.org/wiki/File:Hinterstockensee%2C_winter_09.jpg"
+   },
+   "open": {
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ]
+   },
+   "source": "https://www.stockhorn.ch/winter/stockhorn-iglu/stockhorn-iglu",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "th-x-sternwarte-sirius",
+   "kind": "aktivitaet",
+   "name": "Sternwarte Planetarium SIRIUS",
+   "region": "thun",
+   "town": "Schwanden (Sigriswil)",
+   "address": "Schwandenstrasse 131, 3657 Schwanden (Sigriswil)",
+   "coords": null,
+   "url": "https://sternwarte-planetarium.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "regenfest",
+    "romantisch",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig, Vorführungen meist Freitag- und Samstagabend",
+   "hours": "Planetarium z. B. Fr 18 Uhr, Sternwarte live 19.30 Uhr (nur bei klarem Himmel, Entscheid ab 17 Uhr); Reservation nötig",
+   "durationMin": 90,
+   "text": "Hoch über dem Thunersee erklärt dir ein Astronom live unter der Planetariumskuppel den aktuellen Sternenhimmel, danach schaust du bei klarem Wetter in der Sternwarte durchs Teleskop auf Mond, Jupiter oder Saturn. Die Sternwarte ist ungeheizt – warm anziehen.",
+   "tip": "Planetarium und Sternwarte am selben Abend kombinieren: dann zahlst du an der Abendkasse den Kombipreis.",
+   "wow": "Planetarium und Teleskop-Sternwarte auf einer Terrasse über dem Thunersee",
+   "priceInfo": {
+    "from": 16,
+    "to": 25,
+    "unit": "Eintritt Erwachsene",
+    "note": "Planetarium CHF 16 (Jugendliche CHF 8); Kombi mit Sternwarte am selben Abend CHF 25 (CHF 12)"
+   },
+   "source": "https://sternwarte-planetarium.ch/veranstaltung/der-sternenhimmel-erklaert/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "il-x-seilbahn-stechelberg-muerren",
+   "kind": "aktivitaet",
+   "name": "Seilbahn Stechelberg–Mürren (steilste Seilbahn der Welt)",
+   "region": "interlaken",
+   "town": "Stechelberg",
+   "address": "Talstation Schilthornbahn, 3824 Stechelberg",
+   "coords": {
+    "lat": 46.54972,
+    "lng": 7.90139
+   },
+   "url": "https://schilthorn.ch",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "berg",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig (Revisionen im Frühling und Herbst)",
+   "hours": "Revision u. a. 16.–20.11.2026 sowie 26.4.–7.5.2027, dann Ersatzbus",
+   "durationMin": 30,
+   "text": "Die neue Pendelbahn zieht dich in rund vier Minuten von der Talsohle des Lauterbrunnentals die Felswand hinauf nach Mürren – teilweise mit 58 Grad Neigung. Oben spazierst du durch das autofreie Dorf mit Blick auf Eiger, Mönch und Jungfrau.",
+   "tip": "Unter der Passagierkabine hängt ein automatischer Güterbehälter – beim Einsteigen mal nach unten schauen.",
+   "wow": "159,4 % Neigung: steilste Luftseilbahn der Welt, 775 m in 4 Minuten",
+   "priceInfo": {
+    "from": 23.6,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Stechelberg–Mürren einfach CHF 11.80; Halbtax CHF 11.80 retour; gültig bis 12.12.2026"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ],
+     "1": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ],
+     "2": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ],
+     "3": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ],
+     "4": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ],
+     "5": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ],
+     "6": [
+      [
+       "08:00",
+       "18:00"
+      ]
+     ]
+    }
+   },
+   "source": "https://schilthorn.ch/162/de/Steilste_Seilbahn_der_Welt_",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "il-x-schilthorn-thrill-walk",
+   "kind": "aussicht",
+   "name": "Schilthorn – Piz Gloria mit Thrill Walk auf Birg",
+   "region": "interlaken",
+   "town": "Mürren",
+   "address": "Station Birg, 3825 Mürren",
+   "coords": {
+    "lat": 46.56198,
+    "lng": 7.85739
+   },
+   "url": "https://schilthorn.ch",
+   "price": 4,
+   "tags": [
+    "besonders",
+    "aussicht",
+    "berg"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (Revisionen beachten)",
+   "durationMin": 240,
+   "text": "Auf der Zwischenstation Birg (2677 m) führt der Thrill Walk als Stahlsteg mit Gitterboden und Glaselementen den senkrechten Fels entlang und unter der Aussichtsplattform hindurch. Danach fährst du weiter zum Drehrestaurant Piz Gloria auf dem Schilthorn.",
+   "tip": "Im November gibt es laut Bahn 50 % Rabatt auf Stechelberg–Schilthorn retour, wenn du mit dem ÖV anreist.",
+   "wow": "Gratis-Felssteg mit Gitterboden an der senkrechten Wand auf 2677 m",
+   "priceInfo": {
+    "from": 115,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Stechelberg–Schilthorn retour; ab Mürren CHF 91.40; Halbtax CHF 57.50; Thrill Walk gratis; gültig bis 12.12.2026"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Swiss_Skyline%28Eiger%2C_Monch_and_Jungfrau%29%2C_Birg%2C_Schilthorn_%28Ank_Kumar%29_04.jpg/1280px-Swiss_Skyline%28Eiger%2C_Monch_and_Jungfrau%29%2C_Birg%2C_Schilthorn_%28Ank_Kumar%29_04.jpg",
+    "alt": "Aussichtsplattform auf Birg mit Blick auf Eiger, Mönch und Jungfrau",
+    "credit": "https://commons.wikimedia.org/wiki/File:Swiss_Skyline%28Eiger%2C_Monch_and_Jungfrau%29%2C_Birg%2C_Schilthorn_%28Ank_Kumar%29_04.jpg"
+   },
+   "source": "https://schilthorn.ch/de/Infos/Fahrplan__und__Tarife",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "il-x-gelmerbahn",
+   "kind": "aktivitaet",
+   "name": "Gelmerbahn",
+   "region": "interlaken",
+   "town": "Handegg (Guttannen)",
+   "address": "Talstation Gelmerbahn, Handegg, 3864 Guttannen",
+   "coords": {
+    "lat": 46.614319,
+    "lng": 8.315202
+   },
+   "url": "https://www.grimselwelt.ch/bahnen/gelmerbahn/",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "berg",
+    "see",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Juni–Oktober (bei Wintereinbruch früher Schluss)",
+   "hours": "Juni, Sept., Okt. 9–16 Uhr; Juli/August 8.36–16.48 Uhr",
+   "durationMin": 180,
+   "text": "In offenen Wagen rattert die ehemalige Werkbahn rückwärts in 12 Minuten zum türkisfarbenen Gelmersee hinauf; oben wanderst du in rund zwei Stunden um den Stausee. Die Plätze sind begrenzt, buche online ein Zeitfenster.",
+   "tip": "Gleich bei der Talstation hängt die Handeckfallbrücke 70 m über der Schlucht des Handeckfalls – kurz rüberlaufen lohnt sich.",
+   "wow": "106 % Steigung: steilste offene Standseilbahn Europas",
+   "priceInfo": {
+    "from": 40,
+    "unit": "Retourbillett Erwachsene",
+    "note": "einfach CHF 20; Kinder 6–15 CHF 20 retour; Online-Buchung empfohlen"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Gelmerbahn_Di_Renzo.jpg/1280px-Gelmerbahn_Di_Renzo.jpg",
+    "alt": "Offener Wagen der Gelmerbahn auf der steilen Strecke",
+    "credit": "https://commons.wikimedia.org/wiki/File:Gelmerbahn_Di_Renzo.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "16:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.grimselwelt.ch/bahnen/gelmerbahn/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "il-x-rosenlaui-gletscherschlucht",
+   "kind": "sehenswuerdigkeit",
+   "name": "Gletscherschlucht Rosenlaui",
+   "region": "interlaken",
+   "town": "Rosenlaui (Schattenhalb)",
+   "address": "Rosenlaui, 3860 Schattenhalb",
+   "coords": null,
+   "url": "https://rosenlauischlucht.ch",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "geheimtipp",
+    "aktiv",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "15. Mai–17. Oktober",
+   "hours": "15.5.–30.9. täglich 9–18 Uhr, 1.–17.10. täglich 9–17 Uhr",
+   "durationMin": 45,
+   "text": "Durch Tunnels und über mehr als 200 Stufen steigst du 115 Höhenmeter durch die enge Kalkschlucht hinauf, in der das Schmelzwasser des Rosenlauigletschers tost. Zurück geht es auf einem Waldweg, der ganze Rundgang dauert rund 45 Minuten.",
+   "tip": "Mit dem Postauto ab Meiringen Richtung Schwarzwaldalp anreisen – die Fahrt durchs Reichenbachtal ist selbst schon ein Ausflug.",
+   "wow": "1902 mit 9000 Sprengungen in den Kalkfels gehauener Schluchtweg",
+   "priceInfo": {
+    "from": 12,
+    "unit": "Eintritt Erwachsene",
+    "note": "ermässigt CHF 10; Gruppen ab 10 Personen 30 % ÖV-Rabatt"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Wasserfall_Rosenlaui-Schlucht.JPG/1280px-Wasserfall_Rosenlaui-Schlucht.JPG",
+    "alt": "Wasserfall in der Gletscherschlucht Rosenlaui",
+    "credit": "https://commons.wikimedia.org/wiki/File:Wasserfall_Rosenlaui-Schlucht.JPG"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "1": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "2": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "3": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "4": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "5": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ],
+     "6": [
+      [
+       "09:00",
+       "17:00"
+      ]
+     ]
+    },
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://rosenlauischlucht.ch/de/Ferien/Informationen",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "il-x-sulwald-seilbahn",
+   "kind": "aktivitaet",
+   "name": "Luftseilbahn Isenfluh–Sulwald",
+   "region": "interlaken",
+   "town": "Isenfluh",
+   "address": "Talstation Isenfluh, 3822 Lauterbrunnen",
+   "coords": {
+    "lat": 46.62028,
+    "lng": 7.89583
+   },
+   "url": "https://sulwald.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "aussicht",
+    "berg",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "ganzjährig (Revisionen 27.4.–13.5.2026, 2.–6.11.2026)",
+   "hours": "täglich 7–18.15 Uhr, alle 15 Minuten",
+   "durationMin": 150,
+   "text": "Die kleine Genossenschaftsbahn bringt dich vom Bergdorf Isenfluh hinauf nach Sulwald, wo Wanderwege mit Blick auf Eiger, Mönch und Jungfrau starten – ohne die Menschenmassen von Wengen oder Mürren. Im Winter ist oben eine Schlittelpiste offen.",
+   "tip": "Im Sommer kannst du oben ein Monster-Trottinett mieten und damit ins Tal fahren.",
+   "wow": "Mini-Genossenschaftsbahn alle 15 Min. vis-à-vis von Eiger, Mönch und Jungfrau",
+   "priceInfo": {
+    "from": 16,
+    "unit": "Retourbillett Erwachsene",
+    "note": "einfach CHF 10; mit Regionalpass CHF 12 retour; Kinder CHF 8"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sulwald.jpg/1280px-Sulwald.jpg",
+    "alt": "Sulwald oberhalb von Isenfluh",
+    "credit": "https://commons.wikimedia.org/wiki/File:Sulwald.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "07:00",
+       "18:15"
+      ]
+     ],
+     "1": [
+      [
+       "07:00",
+       "18:15"
+      ]
+     ],
+     "2": [
+      [
+       "07:00",
+       "18:15"
+      ]
+     ],
+     "3": [
+      [
+       "07:00",
+       "18:15"
+      ]
+     ],
+     "4": [
+      [
+       "07:00",
+       "18:15"
+      ]
+     ],
+     "5": [
+      [
+       "07:00",
+       "18:15"
+      ]
+     ],
+     "6": [
+      [
+       "07:00",
+       "18:15"
+      ]
+     ]
+    }
+   },
+   "source": "https://sulwald.ch/preise/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "il-x-kraftwerk-innertkirchen",
+   "kind": "aktivitaet",
+   "name": "Unterirdisches Kraftwerk Innertkirchen 1 (Führung)",
+   "region": "interlaken",
+   "town": "Innertkirchen",
+   "address": "Kraftwerke Oberhasli, 3862 Innertkirchen",
+   "coords": {
+    "lat": 46.7,
+    "lng": 8.23333
+   },
+   "url": "https://www.grimselwelt.ch/besichtigungen/",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "regenfest",
+    "kultur",
+    "familie"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig, Mo–So auf Anmeldung",
+   "hours": "Führung 1 h 30 min, nur mit Buchung",
+   "durationMin": 90,
+   "text": "In der Kaverne von Innertkirchen 1 läuft das Wasser des ganzen Grimselgebiets ein letztes Mal durch die Turbinen – bei der Führung stehst du mitten im Berg neben den Maschinen. Gut als Regenprogramm, die Meiringen-Innertkirchen-Bahn hält direkt beim Kraftwerk.",
+   "tip": "Im Winterhalbjahr gibt es ab Innertkirchen eine 4-stündige Tour zur Kristallkluft Gerstenegg im Stollen von Grimsel 2 (CHF 75).",
+   "wow": "Führung durch ein Wasserkraftwerk, das komplett im Berg liegt",
+   "priceInfo": {
+    "from": 19,
+    "unit": "Eintritt Erwachsene",
+    "note": "Kinder 6–15 CHF 12; Schweizer Schulklassen gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/C5.11a_Bf_Innertkirchen_KWO.jpg/1280px-C5.11a_Bf_Innertkirchen_KWO.jpg",
+    "alt": "Haltestelle Innertkirchen Kraftwerk der Meiringen-Innertkirchen-Bahn",
+    "credit": "https://commons.wikimedia.org/wiki/File:C5.11a_Bf_Innertkirchen_KWO.jpg"
+   },
+   "source": "https://www.grimselwelt.ch/besichtigungen/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "gr-x-moleson-via-ferrata",
+   "kind": "aktivitaet",
+   "name": "Via ferrata Moléson (Nordwand)",
+   "region": "gruyeres",
+   "town": "Moléson-sur-Gruyères",
+   "address": "Place de l'Aigle 6, 1663 Moléson-sur-Gruyères (Kasse Talstation)",
+   "coords": {
+    "lat": 46.54889,
+    "lng": 7.01694
+   },
+   "url": "https://www.moleson.ch/via-ferrata/",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "berg",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Sommersaison der Moléson-Bahnen (aktuell geschlossen)",
+   "hours": "Zustieg ab Plan-Francey; Material direkt vor Ort mieten, keine Reservation nötig",
+   "durationMin": 240,
+   "text": "Zwei Klettersteige führen mit Eisenbügeln und durchgehendem Stahlseil durch die Nordwand des Moléson hinauf – du brauchst Schwindelfreiheit, aber keine Klettererfahrung. Das Ferrata-Kombi enthält Bahnen und Mietmaterial.",
+   "tip": "Mindestgrösse 1,50 m und 40–100 kg Körpergewicht; Wetter vorher checken, bei Nässe sind die Felsen rutschig.",
+   "wow": "Klettersteig mit 372 m Höhendifferenz und 1310 m Sicherungsseil",
+   "priceInfo": {
+    "from": 47,
+    "unit": "Eintritt Erwachsene",
+    "note": "Ferrata-Kombi (Material + Parcours + Bahnen) 25–63 Jahre; 16–24 CHF 41, 6–15 CHF 37; nur Parcours CHF 4"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Via_Ferrata_Le_Pilier%2C_Mol%C3%A9son%2C_Gruy%C3%A8re.jpg/1280px-Via_Ferrata_Le_Pilier%2C_Mol%C3%A9son%2C_Gruy%C3%A8re.jpg",
+    "alt": "Via ferrata Le Pilier am Moléson",
+    "credit": "https://commons.wikimedia.org/wiki/File:Via_Ferrata_Le_Pilier%2C_Mol%C3%A9son%2C_Gruy%C3%A8re.jpg"
+   },
+   "open": {
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.moleson.ch/via-ferrata/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "gr-x-fromagerie-alpage-moleson",
+   "kind": "aktivitaet",
+   "name": "Fromagerie d'alpage Moléson (Käsen über dem Holzfeuer)",
+   "region": "gruyeres",
+   "town": "Moléson-sur-Gruyères",
+   "address": "1663 Moléson-sur-Gruyères",
+   "coords": null,
+   "url": "https://www.moleson.ch/fabrication/",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "genuss",
+    "familie",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "Sommersaison (Alpkäserei)",
+   "hours": "Käsen täglich 9.45 Uhr, Affinage 15.45 Uhr, je rund 45 Min.",
+   "durationMin": 45,
+   "text": "Im Alpchalet aus dem 17. Jahrhundert rührt der Senn den Alpkäse in einem grossen Kupferkessi über offenem Holzfeuer; um 9.45 Uhr kannst du beim Herausheben des Käses zuschauen. Die Erklärungen sind auf Französisch, sonst läuft eine Audio-Video-Präsentation.",
+   "tip": "Im Chalet-Restaurant gibt es danach Alpkäse direkt vom Hof – ideal vor der Bahnfahrt auf den Moléson.",
+   "wow": "Alpkäse im Kupferkessi über offenem Holzfeuer, im Chalet aus dem 17. Jh.",
+   "priceInfo": {
+    "from": 7,
+    "unit": "Eintritt Erwachsene",
+    "note": "6–15 Jahre CHF 5, ab 64 CHF 6, bis 5 Jahre gratis"
+   },
+   "open": {
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.moleson.ch/fabrication/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "gr-x-devalkart-moleson",
+   "kind": "aktivitaet",
+   "name": "Dévalkart Moléson",
+   "region": "gruyeres",
+   "town": "Moléson-sur-Gruyères",
+   "address": "1663 Moléson-sur-Gruyères",
+   "coords": null,
+   "url": "https://www.moleson.ch/devalkart/",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "familie",
+    "aktiv",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Sommersaison (Bulletin auf moleson.ch)",
+   "durationMin": 45,
+   "text": "Auf geländegängigen Karts ohne Motor sausst du eine gut 500 Meter lange Piste hinunter, fünf Minuten zu Fuss vom Parkplatz und von der Bushaltestelle. Je mehr Fahrten du kaufst, desto günstiger wird die einzelne.",
+   "tip": "Geschlossene Schuhe sind Pflicht, Mindestalter 10 Jahre.",
+   "wow": "Schwerkraft-Karts auf über 500 m Bergpiste, ab CHF 6 pro Fahrt",
+   "priceInfo": {
+    "from": 6,
+    "unit": "Eintritt Erwachsene",
+    "note": "pro Fahrt; 4–9 Fahrten CHF 5.50, ab 20 Fahrten CHF 4.50 pro Fahrt"
+   },
+   "open": {
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.moleson.ch/devalkart/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "gr-x-electrobroc",
+   "kind": "aktivitaet",
+   "name": "Electrobroc – Besucherzentrum im Wasserkraftwerk",
+   "region": "gruyeres",
+   "town": "Broc",
+   "address": "Rue de la Centrale, 1636 Broc",
+   "coords": {
+    "lat": 46.6,
+    "lng": 7.1
+   },
+   "url": "https://www.electrobroc.ch",
+   "price": 1,
+   "tags": [
+    "geheimtipp",
+    "regenfest",
+    "familie",
+    "gratis",
+    "kultur"
+   ],
+   "weatherProof": true,
+   "season": "ganzjährig",
+   "hours": "Führungen Mo, Mi, Fr, Sa 14 Uhr, Sa zusätzlich 10 Uhr, in den Schulferien täglich; Anmeldung spätestens am Vortag",
+   "durationMin": 90,
+   "text": "Groupe E zeigt dir in Broc auf einer anderthalbstündigen Führung, wie aus Wasser Strom wird – mit Kurbel zum Selber-Strom-Erzeugen, einer riesigen Modelleisenbahn und dem BlitzLab, das künstliche Blitze zeigt. Vom Bahnhof Broc-Fabrique sind es zehn Minuten zu Fuss.",
+   "tip": "Mit dem Besuch der Maison Cailler gleich nebenan kombinieren – beide liegen in Broc-Fabrique.",
+   "wow": "Gratis-Führung mit künstlichen Blitzen im BlitzLab",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Reservation obligatorisch"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/b6/2014-Broc-Electrobroc.jpg",
+    "alt": "Gebäude von Electrobroc in Broc",
+    "credit": "https://commons.wikimedia.org/wiki/File:2014-Broc-Electrobroc.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [],
+     "1": [
+      [
+       "14:00",
+       "15:30"
+      ]
+     ],
+     "2": [],
+     "3": [
+      [
+       "14:00",
+       "15:30"
+      ]
+     ],
+     "4": [],
+     "5": [
+      [
+       "14:00",
+       "15:30"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "11:30"
+      ],
+      [
+       "14:00",
+       "15:30"
+      ]
+     ]
+    }
+   },
+   "source": "https://www.electrobroc.ch/electrobroc/visite-individuelle",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "gr-x-charmey-schlittelbahn",
+   "kind": "aktivitaet",
+   "name": "Schlittelpiste Charmey mit Nachtschlitteln",
+   "region": "gruyeres",
+   "town": "Charmey",
+   "address": "Télécabine Charmey, 1637 Charmey",
+   "coords": {
+    "lat": 46.61667,
+    "lng": 7.16667
+   },
+   "url": "https://www.charmey.ch/activites/luge-nocturne/",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "freunde",
+    "familie",
+    "aktiv"
+   ],
+   "weatherProof": false,
+   "season": "Dezember–Februar (schneeabhängig)",
+   "hours": "Nachtschlitteln jeden Samstag ab 26.12.2026, 17.30–21 Uhr (Stirnlampe Pflicht)",
+   "durationMin": 180,
+   "text": "Ab der Bergstation der Gondelbahn sausst du vier Kilometer auf dem Schlitten zurück zur Mittelstation; samstags ist die Piste abends nur mit Stirnlampe befahrbar. Schlitten und Lampe mietest du oben, das Restaurant ist samstags bis 21 Uhr offen.",
+   "tip": "Die Piste ist unbeleuchtet – die Stirnlampe kannst du für CHF 5 beim Snack de l'Alpage mieten.",
+   "wow": "4 km Schlittelpiste, samstags im Dunkeln mit Stirnlampe",
+   "priceInfo": {
+    "from": 26,
+    "to": 32,
+    "unit": "Eintritt Erwachsene",
+    "note": "1 Abfahrt CHF 26, 1 Tag CHF 32 (25–63 J.); Schlittenmiete CHF 12; Magic Pass gratis"
+   },
+   "open": {
+    "months": [
+     12,
+     1,
+     2
+    ]
+   },
+   "source": "https://www.charmey.ch/activites/luge/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "gr-x-charmey-tyroliennes",
+   "kind": "aktivitaet",
+   "name": "Vallée des tyroliennes Charmey",
+   "region": "gruyeres",
+   "town": "Charmey",
+   "address": "Télécabine Charmey, 1637 Charmey",
+   "coords": {
+    "lat": 46.61667,
+    "lng": 7.16667
+   },
+   "url": "https://www.charmey.ch/activites/vallee-des-tyroliennes/",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Sommersaison der Gondelbahn (aktuell geschlossen)",
+   "hours": "Start 10 und 13.30 Uhr an der Bergstation, nur mit Reservation (bis 24 h vorher online)",
+   "durationMin": 150,
+   "text": "Von der Bergstation der Gondelbahn hängst du dich an neun Seilrutschen, die längste misst 300 Meter, und fliegst in Etappen über Wald und Alpweiden zur Mittelstation. Die Gruppen sind auf acht Personen begrenzt und starten zweimal täglich.",
+   "tip": "Gewicht 40–120 kg; wasserfeste Schuhe anziehen, der Boden zwischen den Rutschen ist oft nass.",
+   "wow": "9 Seilrutschen am Stück, die längste 300 m",
+   "priceInfo": {
+    "from": 54,
+    "unit": "Eintritt Erwachsene",
+    "note": "inkl. Bahnen (25–63 J.); ohne Bahnen CHF 45; Kinder 11–15 CHF 50"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "1": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "2": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "3": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "4": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "5": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ],
+     "6": [
+      [
+       "10:00",
+       "16:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.charmey.ch/activites/vallee-des-tyroliennes/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zm-x-charles-kuonen-haengebruecke",
+   "kind": "aussicht",
+   "name": "Charles Kuonen Hängebrücke",
+   "region": "zermatt",
+   "town": "Randa",
+   "address": "Europaweg oberhalb Randa, 3928 Randa",
+   "coords": {
+    "lat": 46.10136,
+    "lng": 7.80231
+   },
+   "url": "https://www.randa.ch/tourismus/haengebruecke/",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "berg",
+    "aussicht",
+    "gratis"
+   ],
+   "weatherProof": false,
+   "season": "Frühling bis Ende Oktober (im Winter gesperrt)",
+   "hours": "Europaweg und Rundweg ab 28. Oktober geschlossen, Öffnung im Frühling",
+   "durationMin": 240,
+   "text": "Ab dem Bahnhof Randa steigst du in gut zwei Stunden durch Lärchenwald zur Brücke hinauf, die das Grabengufer auf dem Europaweg überspannt. Die Konstruktion aus Stahlseil und Gitter ist schmal und schwingt – unter dir siehst du bis zu 85 Meter in die Tiefe.",
+   "tip": "Gutes Schuhwerk und Trittsicherheit nötig; aktuelle Weg-Infos der Gemeinde Randa vorher lesen (Hängegletscher Weisshorn wird überwacht).",
+   "wow": "494 m lang, bis 85 m hoch: längste Fussgänger-Hängebrücke der Alpen",
+   "priceInfo": {
+    "from": 0,
+    "unit": "gratis",
+    "note": "Anreise Zermatt–Randa mit der MGB rund 15 Min."
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Charles_Kuonen_Suspension_Bridge.jpg/1280px-Charles_Kuonen_Suspension_Bridge.jpg",
+    "alt": "Charles Kuonen Hängebrücke über dem Grabengufer bei Randa",
+    "credit": "https://commons.wikimedia.org/wiki/File:Charles_Kuonen_Suspension_Bridge.jpg"
+   },
+   "open": {
+    "week": {
+     "0": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "1": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "2": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "3": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "4": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "5": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ],
+     "6": [
+      [
+       "00:00",
+       "24:00"
+      ]
+     ]
+    },
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.randa.ch/tourismus/haengebruecke/",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zm-x-haengebruecke-furi",
+   "kind": "aussicht",
+   "name": "Hängebrückenweg Furi über die Gornerschlucht",
+   "region": "zermatt",
+   "town": "Zermatt",
+   "address": "Bergstation Furi, 3920 Zermatt",
+   "coords": {
+    "lat": 46.00196,
+    "lng": 7.7302
+   },
+   "url": "https://www.matterhornparadise.ch/de/erleben/wandern/haengebruecke-furi",
+   "price": 1,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "berg",
+    "familie"
+   ],
+   "weatherProof": false,
+   "season": "Sommer (Juni–Oktober)",
+   "durationMin": 90,
+   "text": "Von der Station Furi führt ein 2,9 km langer Rundweg durch Gletscherschliff und Lärchenwald zur Hängebrücke über die Gornerschlucht, in der der Gletscherbach tost. Bleib mitten auf der Brücke stehen und schau nach unten – mehr Nervenkitzel gibt es in Zermatt kaum gratis.",
+   "tip": "Den Gletschergarten Dossen am Weg nicht auslassen: dort siehst du die Spuren, die der Gornergletscher im Fels hinterlassen hat.",
+   "wow": "Hängebrücke direkt über der tosenden Gornerschlucht, 10 Min. ab Zermatt",
+   "priceInfo": {
+    "from": 24,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Zermatt–Furi retour Sommer (1.5.–31.10.) CHF 24, Winter CHF 18; Brücke gratis"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/H%C3%A4ngebr%C3%BCcke_Zermatt_100_m_lang%2C_90_m_hoch_-_SkyPromenade.com_-_panoramio.jpg/1280px-H%C3%A4ngebr%C3%BCcke_Zermatt_100_m_lang%2C_90_m_hoch_-_SkyPromenade.com_-_panoramio.jpg",
+    "alt": "Hängebrücke über die Gornerschlucht bei Furi",
+    "credit": "https://commons.wikimedia.org/wiki/File:H%C3%A4ngebr%C3%BCcke_Zermatt_100_m_lang%2C_90_m_hoch_-_SkyPromenade.com_-_panoramio.jpg"
+   },
+   "open": {
+    "months": [
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.matterhornparadise.ch/de/erleben/wandern/haengebruecke-furi",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zm-x-sommerski-theodulgletscher",
+   "kind": "aktivitaet",
+   "name": "Sommerski auf dem Theodulgletscher",
+   "region": "zermatt",
+   "town": "Zermatt",
+   "address": "Matterhorn Glacier Paradise / Testa Grigia, 3920 Zermatt",
+   "coords": {
+    "lat": 45.95556,
+    "lng": 7.73056
+   },
+   "url": "https://www.matterhornparadise.ch/de/erleben/skifahren/sommerski",
+   "price": 4,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "berg",
+    "freunde"
+   ],
+   "weatherProof": false,
+   "season": "Sommer-Skipass 4.5.–31.10.2026",
+   "hours": "im Hochsommer früh starten: gefahren wird morgens bis etwa Mittag",
+   "durationMin": 300,
+   "text": "Während unten im Dorf Sommer ist, fährst du auf dem Theodulgletscher bis zu 21 Pistenkilometer Ski oder Snowboard, dazu kommt ein Snowpark auf Plateau Rosa. Material samt Guide kannst du an der Talstation des Matterhorn Glacier Ride II mieten.",
+   "tip": "Mit der ersten Bahn hochfahren – ab Mittag wird der Schnee weich und die Lifte schliessen.",
+   "wow": "Höchstgelegenes Sommerskigebiet Europas: bis 21 km Pisten im Juli",
+   "priceInfo": {
+    "from": 99,
+    "unit": "Eintritt Erwachsene",
+    "note": "1-Tages-Sommer-Skipass inkl. Matterhorn Glacier Paradise und Ortsbus"
+   },
+   "open": {
+    "months": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   "source": "https://www.matterhornparadise.ch/de/informationen/tickets-tarife/skipass",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zm-x-leisee-wolli",
+   "kind": "aussicht",
+   "name": "Leisee mit Wolli-Erlebnispark (Sunnegga)",
+   "region": "zermatt",
+   "town": "Zermatt",
+   "address": "Sunnegga, 3920 Zermatt",
+   "coords": {
+    "lat": 46.01729,
+    "lng": 7.77006
+   },
+   "url": "https://www.matterhornparadise.ch/de/erleben/gipfel/sunnegga",
+   "price": 2,
+   "tags": [
+    "besonders",
+    "see",
+    "familie",
+    "aussicht",
+    "romantisch"
+   ],
+   "weatherProof": false,
+   "season": "Sommer (Wolli-Erlebnispark und Leisee-Shuttle)",
+   "durationMin": 120,
+   "text": "Mit der unterirdischen Standseilbahn bist du in wenigen Minuten auf Sunnegga, ein kleiner Shuttle bringt dich zum Leisee, in dem sich an ruhigen Morgen das Matterhorn spiegelt. Am Ufer gibt es Holzfloss, Wasserspiele, Grillstellen und einen Abenteuerspielplatz.",
+   "tip": "Früh am Morgen ist das Wasser am glattesten – dann gelingt das Spiegelbild-Foto.",
+   "wow": "Bergsee, in dem sich an windstillen Tagen das Matterhorn spiegelt",
+   "priceInfo": {
+    "from": 36,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Zermatt–Sunnegga retour Sommer (1.5.–31.10.) CHF 36, Winter CHF 26"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Matterhorn_and_its_reflection_in_the_Leisee_October_2020.jpg/1280px-Matterhorn_and_its_reflection_in_the_Leisee_October_2020.jpg",
+    "alt": "Das Matterhorn spiegelt sich im Leisee",
+    "credit": "https://commons.wikimedia.org/wiki/File:Matterhorn_and_its_reflection_in_the_Leisee_October_2020.jpg"
+   },
+   "open": {
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.matterhornparadise.ch/de/informationen/tickets-tarife/ausflugs-tickets",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zm-x-hoernlihuette",
+   "kind": "aktivitaet",
+   "name": "Wanderung zur Hörnlihütte (Matterhorn-Basislager)",
+   "region": "zermatt",
+   "town": "Zermatt",
+   "address": "Schwarzsee – Hörnlihütte, 3920 Zermatt",
+   "coords": {
+    "lat": 45.9822,
+    "lng": 7.67701
+   },
+   "url": "https://www.matterhornparadise.ch/de/erleben/wandern/hoernlihuette",
+   "price": 3,
+   "tags": [
+    "besonders",
+    "aktiv",
+    "berg",
+    "aussicht"
+   ],
+   "weatherProof": false,
+   "season": "Juli bis August (beste Jahreszeit)",
+   "durationMin": 300,
+   "text": "Ab Schwarzsee steigst du über Fels und Schotter, teils über Treppen und Stege, bis zur Hütte am Fuss des Hörnligrats, wo die Bergsteiger für die Matterhorn-Besteigung übernachten. Die Route ist rund 8,5 km lang (hin und zurück) und verlangt Kondition und Trittsicherheit.",
+   "tip": "Auf der Hütte kannst du einkehren – und den Seilschaften zuschauen, die vom Grat zurückkommen.",
+   "wow": "Hütte auf 3260 m direkt am Einstieg der Matterhorn-Normalroute",
+   "priceInfo": {
+    "from": 70,
+    "unit": "Retourbillett Erwachsene",
+    "note": "Zermatt–Schwarzsee retour Sommer CHF 70 (Winter CHF 53)"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/H%C3%B6rnli_Hut_-_Matterhorn.jpg/1280px-H%C3%B6rnli_Hut_-_Matterhorn.jpg",
+    "alt": "Hörnlihütte unter dem Matterhorn",
+    "credit": "https://commons.wikimedia.org/wiki/File:H%C3%B6rnli_Hut_-_Matterhorn.jpg"
+   },
+   "open": {
+    "months": [
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.matterhornparadise.ch/de/erleben/wandern/hoernlihuette",
+   "checked": "2026-11-15"
+  },
+  {
+   "id": "zm-x-findlerhof",
+   "kind": "restaurant",
+   "name": "Findlerhof",
+   "region": "zermatt",
+   "town": "Findeln (Zermatt)",
+   "address": "Findeln, 3920 Zermatt",
+   "coords": null,
+   "url": "https://www.findlerhof.ch",
+   "price": 3,
+   "tags": [
+    "geheimtipp",
+    "genuss",
+    "aussicht",
+    "romantisch"
+   ],
+   "weatherProof": true,
+   "season": "Winter- und Sommersaison; Winterstart voraussichtlich 28.11.2026",
+   "hours": "Zwischensaison geschlossen; Reservation empfohlen",
+   "durationMin": 90,
+   "text": "Im Weiler Findeln zwischen Lärchen und alten Stadeln kochen sie Alaska-Wildlachs, Rösti mit Walliser Bergkäse und Eringer Bratwurst – mit dem Matterhorn vor der Terrasse. Du erreichst ihn zu Fuss in 25 Minuten ab Sunnegga oder in einer Stunde ab Winkelmatten.",
+   "tip": "Im Winter fährst du auf der blauen Piste Nr. 6 bis zur weissen Kapelle und gehst die letzten 50 Meter zu Fuss.",
+   "wow": "Bergbeiz in einem Weiler auf 2051 m mit Matterhorn vor der Terrasse",
+   "priceInfo": {
+    "from": 23,
+    "to": 52,
+    "unit": "Hauptgang",
+    "note": "Rösti CHF 23–34, Wienerschnitzel CHF 46, Rindsfilet CHF 52"
+   },
+   "image": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Findeln%2C_Zermatt.jpg/1280px-Findeln%2C_Zermatt.jpg",
+    "alt": "Weiler Findeln oberhalb von Zermatt",
+    "credit": "https://commons.wikimedia.org/wiki/File:Findeln%2C_Zermatt.jpg"
+   },
+   "open": {
+    "months": [
+     12,
+     1,
+     2,
+     3,
+     4,
+     7,
+     8,
+     9
+    ]
+   },
+   "source": "https://www.findlerhof.ch",
+   "checked": "2026-11-15"
+  }
+ ],
+ "trips": [
+  {
+   "slug": "krasse-runde-bern-emmental",
+   "title": "Die krasse Runde Bern: Tropenwald, Käsefass und Schloss",
+   "teaser": "Schmetterlinge in Kerzers, Mini-Standseilbahn in Bern, Käserei im Emmental und ein Schloss zum Übernachten – an einem Tag.",
+   "region": "bern",
+   "days": 1,
+   "moods": [
+    "genuss",
+    "kultur",
+    "familie",
+    "krass"
+   ],
+   "audience": [
+    "familie",
+    "paar",
+    "freunde"
+   ],
+   "season": "ganzjährig (Schloss Burgdorf Nov.–März nur Mi–So)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 60
+    },
+    {
+     "from": "Bern",
+     "minutes": 0
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 60
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Von den Tropen ins Emmental",
+     "slots": [
+      {
+       "time": "09:30",
+       "placeId": "bern-x-papiliorama",
+       "title": "Tropenwald in Kerzers",
+       "text": "Erst durch die Schmetterlingskuppel, dann ins dunkle Nocturama zu Faultieren und Nachtaffen.",
+       "travel": "20 Min. Zug Bern–Kerzers Papiliorama"
+      },
+      {
+       "time": "12:00",
+       "placeId": "bern-x-marzilibahn",
+       "title": "Kürzeste Bahnfahrt des Tages",
+       "text": "Zurück in Bern einmal mit der Marzilibahn runter an die Aare und wieder hoch zur Bundesterrasse.",
+       "travel": "25 Min. Zug + 10 Min. zu Fuss",
+       "rain": {
+        "placeId": "bern-x-zytglogge-fuehrung",
+        "title": "Zytglogge von innen",
+        "text": "Bei Regen lieber in den Turm zum Uhrwerk – Führung vorher bei Bern Welcome buchen."
+       }
+      },
+      {
+       "time": "12:45",
+       "placeId": "bern-altes-tramdepot",
+       "title": "Zmittag im Tramdepot",
+       "text": "Hausbier und Rösti beim BärenPark.",
+       "travel": "15 Min. Bus 12"
+      },
+      {
+       "time": "14:30",
+       "placeId": "bern-x-schaukaeserei-koenigsweg",
+       "title": "Durch die Käserei",
+       "text": "Auf dem Königsweg durch die laufende Emmentaler-Produktion, mit Degustation am Ende.",
+       "travel": "55 Min. Zug bis Hasle-Rüegsau + Bus nach Affoltern"
+      },
+      {
+       "time": "16:45",
+       "placeId": "bern-x-schloss-burgdorf",
+       "title": "Schloss über der Emme",
+       "text": "Türme und Säle im Museum bis 18 Uhr – wer bleibt, schläft gleich in der Schloss-Jugendherberge.",
+       "travel": "25 Min. Bus Affoltern–Burgdorf + 10 Min. zu Fuss"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-thunersee-kandertal",
+   "title": "Die krasse Runde Thunersee: Bergsee, Glasboot und 340-m-Brücke",
+   "teaser": "Oeschinensee und Blausee im Kandertal, danach über die Hängebrücke von Sigriswil und abends unter die Planetariumskuppel.",
+   "region": "thun",
+   "days": 1,
+   "moods": [
+    "natur",
+    "aktiv",
+    "romantik",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "freunde",
+    "familie"
+   ],
+   "season": "Mai–Oktober (Planetarium am Abend meist nur Fr/Sa)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 80
+    },
+    {
+     "from": "Bern",
+     "minutes": 20
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 80
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Vom Kandertal an den Thunersee",
+     "slots": [
+      {
+       "time": "08:45",
+       "placeId": "th-x-oeschinensee",
+       "title": "Gondel zum Oeschinensee",
+       "text": "Mit der Gondel hoch, eine halbe Stunde zum See und eine Runde rudern; zurück wahlweise mit der Rodelbahn bis zur Bergstation.",
+       "travel": "55 Min. Zug Thun–Kandersteg + 15 Min. zu Fuss zur Talstation",
+       "rain": {
+        "placeId": "th-vera-calma",
+        "title": "Kaffee in Thun",
+        "text": "Bei Regen in Thun bleiben und den Morgen im vera calma starten."
+       }
+      },
+      {
+       "time": "12:45",
+       "placeId": "th-x-blausee",
+       "title": "Glasbodenboot am Blausee",
+       "text": "Mit dem Ruderboot über die Forellen gleiten, danach Zmittag im Bistro oder am Grillplatz.",
+       "travel": "15 Min. Bus Kandersteg–Blausee",
+       "rain": {
+        "placeId": "th-st-beatus-hoehlen",
+        "title": "Plan B: St. Beatus-Höhlen",
+        "text": "Bei Regen statt Blausee in die Höhlen über dem Thunersee – rund ein Kilometer beleuchtete Gänge mit Tropfsteinen, drinnen konstant um 8–10 Grad."
+       }
+      },
+      {
+       "time": "16:15",
+       "placeId": "th-x-panoramabruecke-sigriswil",
+       "title": "Über die Gummischlucht",
+       "text": "340 Meter über die schwankende Brücke, mit Blick auf Eiger, Mönch und Jungfrau.",
+       "travel": "50 Min. Bus/Zug bis Thun + 25 Min. Bus nach Sigriswil",
+       "rain": {
+        "placeId": "th-ristorante-waisenhaus",
+        "title": "Früher Znacht in Thun",
+        "text": "Bei Regen direkt zurück nach Thun und im Waisenhaus essen."
+       }
+      },
+      {
+       "time": "18:00",
+       "placeId": "th-x-sternwarte-sirius",
+       "title": "Sternenhimmel erklärt",
+       "text": "Live-Vorführung im Planetarium, bei klarem Himmel danach durchs Teleskop.",
+       "travel": "15 Min. Bus Sigriswil–Schwanden"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-lauterbrunnental",
+   "title": "Die krasse Runde Lauterbrunnental: steilste Seilbahn und Felssteg",
+   "teaser": "Mit 159 % Neigung nach Mürren, auf dem Thrill Walk an der Felswand und mit der Mini-Bahn nach Sulwald.",
+   "region": "interlaken",
+   "days": 1,
+   "moods": [
+    "aktiv",
+    "natur",
+    "krass"
+   ],
+   "audience": [
+    "freunde",
+    "paar",
+    "allein"
+   ],
+   "season": "Juni–Oktober (Revisionen der Bahnen beachten)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 120
+    },
+    {
+     "from": "Bern",
+     "minutes": 55
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 120
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Senkrecht rauf, quer rüber",
+     "slots": [
+      {
+       "time": "08:45",
+       "placeId": "il-x-seilbahn-stechelberg-muerren",
+       "title": "Steilste Seilbahn der Welt",
+       "text": "In vier Minuten 775 Höhenmeter die Wand hoch nach Mürren.",
+       "travel": "45 Min. Zug bis Lauterbrunnen + Postauto nach Stechelberg"
+      },
+      {
+       "time": "09:30",
+       "placeId": "il-x-schilthorn-thrill-walk",
+       "title": "Thrill Walk und Piz Gloria",
+       "text": "Auf Birg über den Gittersteg an der Felswand, dann weiter aufs Schilthorn und im Drehrestaurant Mittag essen.",
+       "travel": "20 Min. Seilbahn ab Mürren",
+       "rain": {
+        "placeId": "il-x-kraftwerk-innertkirchen",
+        "title": "Kraftwerk im Berg",
+        "text": "Bei Wolken bis ganz unten lieber ins unterirdische Kraftwerk Innertkirchen (Führung vorher buchen)."
+       }
+      },
+      {
+       "time": "14:30",
+       "placeId": "il-x-sulwald-seilbahn",
+       "title": "Mini-Bahn nach Sulwald",
+       "text": "Mit der Genossenschaftsbahn hoch und eine Stunde auf ruhigen Wegen vis-à-vis der Jungfrau wandern.",
+       "travel": "35 Min. Seilbahn/Bus bis Lauterbrunnen + 15 Min. Bus nach Isenfluh",
+       "rain": {
+        "placeId": "il-schuh",
+        "title": "Kaffee im Schuh",
+        "text": "Bei Regen zurück nach Interlaken und im Schuh Patisserie essen."
+       }
+      },
+      {
+       "time": "18:30",
+       "placeId": "il-huesi-bierhaus",
+       "title": "Feierabendbier",
+       "text": "Zum Schluss Craftbeer im Hüsi in Interlaken.",
+       "travel": "35 Min. Bus und Zug nach Interlaken"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-moleson",
+   "title": "Die krasse Runde Moléson: Holzfeuer-Käse und Nordwand",
+   "teaser": "Morgens beim Alpkäsen zuschauen, mittags durch die Moléson-Nordwand klettern, danach mit dem Kart den Berg runter.",
+   "region": "gruyeres",
+   "days": 1,
+   "moods": [
+    "aktiv",
+    "genuss",
+    "natur",
+    "krass"
+   ],
+   "audience": [
+    "freunde",
+    "paar"
+   ],
+   "season": "Juni–September (Sommersaison der Moléson-Bahnen)",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 150
+    },
+    {
+     "from": "Bern",
+     "minutes": 85
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 155
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Alles am Moléson",
+     "slots": [
+      {
+       "time": "09:45",
+       "placeId": "gr-x-fromagerie-alpage-moleson",
+       "title": "Käsen über dem Holzfeuer",
+       "text": "Zuschauen, wie der Senn den Alpkäse aus dem Kupferkessi hebt.",
+       "travel": "20 Min. Bus ab Bahnhof Gruyères nach Moléson-sur-Gruyères"
+      },
+      {
+       "time": "11:00",
+       "placeId": "gr-x-moleson-via-ferrata",
+       "title": "Klettersteig in der Nordwand",
+       "text": "Material an der Kasse mieten, mit den Bahnen hoch und rund drei Stunden über Eisenbügel durch die Wand.",
+       "travel": "10 Min. zu Fuss + Standseilbahn und Luftseilbahn",
+       "rain": {
+        "placeId": "gr-x-electrobroc",
+        "title": "Blitze in Broc",
+        "text": "Bei Regen zur Gratis-Führung bei Electrobroc (Mo, Mi, Fr, Sa 14 Uhr, Anmeldung am Vortag)."
+       }
+      },
+      {
+       "time": "14:30",
+       "placeId": "gr-plan-francey",
+       "title": "Spätes Zmittag in Plan-Francey",
+       "text": "Auf der Mittelstation Alpkäse, Rösti oder Fondue.",
+       "travel": "10 Min. Luftseilbahn"
+      },
+      {
+       "time": "16:00",
+       "placeId": "gr-x-devalkart-moleson",
+       "title": "Mit dem Kart runter",
+       "text": "Ein paar Fahrten auf der 500-Meter-Piste, bevor der Bus zurückfährt.",
+       "travel": "5 Min. Standseilbahn + 5 Min. zu Fuss",
+       "rain": {
+        "placeId": "gr-hr-giger-bar",
+        "title": "Drink in der Giger-Bar",
+        "text": "Bei Regen gleich nach Gruyères in die Bar im Alien-Design."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "krasse-runde-zermatt",
+   "title": "Die krasse Runde Zermatt: Schlucht, Spiegelsee und Bergbeiz",
+   "teaser": "Über die Hängebrücke der Gornerschlucht, zum Matterhorn-Spiegelbild im Leisee und zum Zmittag nach Findeln.",
+   "region": "zermatt",
+   "days": 1,
+   "moods": [
+    "natur",
+    "genuss",
+    "romantik",
+    "krass"
+   ],
+   "audience": [
+    "paar",
+    "familie",
+    "freunde"
+   ],
+   "season": "Juli–September",
+   "arrival": [
+    {
+     "from": "Zürich HB",
+     "minutes": 210
+    },
+    {
+     "from": "Bern",
+     "minutes": 135
+    },
+    {
+     "from": "Basel SBB",
+     "minutes": 200
+    }
+   ],
+   "hotelIds": [],
+   "dayPlans": [
+    {
+     "title": "Tag 1 – Brücke, See, Beiz",
+     "slots": [
+      {
+       "time": "08:30",
+       "placeId": "zm-x-haengebruecke-furi",
+       "title": "Hängebrücke über die Gornerschlucht",
+       "text": "Mit der Gondel nach Furi und den 2,9-km-Rundweg mit Brücke und Gletschergarten laufen.",
+       "travel": "10 Min. zu Fuss zur Talstation + 10 Min. Gondel",
+       "rain": {
+        "placeId": "zm-baeckerei-fuchs",
+        "title": "Frühstück im Dorf",
+        "text": "Bei Regen den Morgen in der Bäckerei Fuchs abwarten."
+       }
+      },
+      {
+       "time": "10:45",
+       "placeId": "zm-x-leisee-wolli",
+       "title": "Matterhorn im Leisee",
+       "text": "Mit dem Sunnegga Express hoch und mit dem Shuttle zum See – Fotostopp und Pause am Ufer.",
+       "travel": "15 Min. Gondel zurück + 10 Min. zu Fuss + 3 Min. Standseilbahn",
+       "rain": {
+        "placeId": "zm-x-findlerhof",
+        "title": "Direkt in die Beiz",
+        "text": "Bei schlechter Sicht direkt nach Findeln und länger tafeln."
+       }
+      },
+      {
+       "time": "12:30",
+       "placeId": "zm-x-findlerhof",
+       "title": "Zmittag in Findeln",
+       "text": "25 Minuten zu Fuss vom Leisee, dann Rösti oder Wildlachs mit Matterhornblick.",
+       "travel": "25 Min. zu Fuss"
+      },
+      {
+       "time": "15:00",
+       "placeId": "zm-whymper-stube",
+       "title": "Abstieg und Raclette",
+       "text": "In einer Stunde über Winkelmatten ins Dorf wandern und den Tag in der Whymper-Stube ausklingen lassen.",
+       "travel": "60 Min. zu Fuss über Winkelmatten"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": "Recherche am 15.11.2026; ab Mitte der Recherche war das WebSearch-Kontingent der Sitzung aufgebraucht, alle weiteren Angaben stammen direkt von den offiziellen Websites (per Abruf geprüft). Weggelassen: Tropenhaus Frutigen (Erlebniswelt und Restaurant seit Mai 2024 geschlossen, nur noch Fischzucht), Triftbahn/Triftbrücke (Triftbahn fährt in der Saison 2026 wegen technischer Probleme nicht), Aareschlucht und Trümmelbachfälle (schon im Bestand), Gletscherschlucht Grindelwald, Pfingstegg-Rodelbahn, Reichenbachfall-Bahn, Riffelalp-Tram, Lorrainebad, Kambly-Erlebnis, Artilleriewerk Faulensee, Klettersteig Mürren und Observatoire Moléson (kein Preis auf offizieller Seite auffindbar bzw. 2026 keine öffentlichen Termine mehr). Gelmerbahn (Handegg) und Gletscherschlucht Rosenlaui liegen ab Interlaken Ost bei rund 70–80 Min. ÖV, also knapp über der 60-Min.-Grenze; Emmentaler Schaukäserei/Wohnfass ab Bern rund 55–60 Min. Zytglogge-Führung: Preis CHF 26 aus der Bern-Welcome-Broschüre Januar 2026 (Zuordnung Preisblock/Tour aus dem Layout erschlossen); ältere Drittseiten nennen CHF 20. Termine/Saison der öffentlichen Führungen nicht prüfbar (bern.com blockiert Abrufe). Panoramabrücke Sigriswil: Preis CHF 8 laut BLS-Ausflugsseite, Website des Betreibervereins nicht erreichbar; Kinderpreise widersprüchlich. Blausee: Schliesszeit am Abend nicht angegeben, deshalb kein open.week. Sternwarte SIRIUS: Preise aus Veranstaltungsseite/Eventfrog (Planetarium CHF 16, Kombi CHF 25); Vorführungstermine wechseln, meist Fr/Sa abends. Saisonmonate geschätzt (konservativ gesetzt), weil keine exakten Saisondaten 2027 publiziert: Via ferrata, Fromagerie d’alpage und Dévalkart Moléson (Juni–Sept.), Tyroliennes Charmey (Juni–Sept., aktuell «momentanément fermée»), Furi-Hängebrücke und Charles Kuonen (Juni–Okt.), Leisee (Juni–Sept.), Hörnlihütte (Juli–Sept.), Findlerhof (Wintersaison ab 28.11.2026, Sommermonate geschätzt). Charles Kuonen Hängebrücke: Eintritt nicht explizit auf randa.ch genannt (öffentlicher Wanderweg, als gratis erfasst). Gemeinde Randa meldet am 27.10.2026 Überwachung des Hängegletschers Weisshorn Ost auf Stufe 3 mit gesperrten Zugängen – betrifft nicht nachweislich den Brückenweg, vor Besuch prüfen. Seilbahn Stechelberg–Mürren: tägliche Betriebszeiten nicht abrufbar, open.week 8–18 Uhr ist eine konservative Annahme. Koordinaten: Nominatim/Overpass waren überlastet; verwendet wurden OSM-Treffer (Papiliorama, Schloss Burgdorf, Schaukäserei, Marzilibahn, Zytglogge, Blausee, Oeschinensee, Sigriswil, Stockhorn, Hinterstockensee, Birg, Charles Kuonen, Furi, Sunnegga-Bergstation für den Leisee, Hörnlihütte) und Wikipedia-Ortskoordinaten (Gelmerbahn, Stechelberg, Isenfluh, Innertkirchen, Moléson, Broc, Charmey, Theodulgletscher). Innertkirchen, Stechelberg, Broc und Charmey sind Ortszentren, nicht der exakte Eingang. null bei Sirius, Rosenlaui, Fromagerie/Dévalkart Moléson und Findlerhof. Bilder: Panoramabrücke-Foto heisst «Hängebrücke Panoramarundweg Thunersee 2012» (nach Baujahr sehr wahrscheinlich Sigriswil); Innertkirchen-Foto zeigt die Haltestelle beim Kraftwerk, nicht die Kaverne; für Seilbahn Stechelberg–Mürren gibt es auf Commons nur Bilder der alten Bahn, daher kein Bild. Anreisezeiten der Trips sind gerundete Richtwerte, nicht gegen den SBB-Fahrplan geprüft."
+}

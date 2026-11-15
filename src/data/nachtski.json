@@ -1,0 +1,1423 @@
+[
+  {
+    "id": "corvatsch-snow-night",
+    "type": "ski",
+    "name": "Corvatsch Snow Night",
+    "place": "Silvaplana-Surlej",
+    "canton": "GR",
+    "skiAreaId": "corvatsch",
+    "coords": {
+      "lat": 46.4552,
+      "lng": 9.8143
+    },
+    "station": "Surlej, Corvatschbahn",
+    "piste": "Talabfahrt Mittelstation Murtèl–Surlej, 4,2 km beleuchtet",
+    "km": 4.2,
+    "weekdays": [
+      5
+    ],
+    "from": "19:00",
+    "to": "01:00",
+    "season": {
+      "from": "2026-12-04",
+      "to": "",
+      "text": "Jeden Freitag ab 4. Dezember 2026; Saisonende 2026/27 noch nicht publiziert (2025/26 bis 10. April)"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 28,
+      "unit": "Snow Night Ticket",
+      "note": "Nur an der Talstation Surlej erhältlich; Jahresabos und Ikon Pass gelten nicht"
+    },
+    "extras": [
+      "Pizza in der Mittelstation Murtèl",
+      "Fondue im Restaurant Alpetta",
+      "Hossa Bar"
+    ],
+    "url": "https://www.corvatsch-diavolezza.ch/en/experiences/corvatsch-snow-night",
+    "source": "https://www.corvatsch-diavolezza.ch/en/current-news/events/detail/corvatsch-snow-night",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Laut Betreiber die längste beleuchtete Nachtpiste der Schweiz: 4,2 km von Murtèl hinunter nach Surlej, Betrieb bis 1 Uhr nachts."
+  },
+  {
+    "id": "lenzerheide-snownights",
+    "type": "ski",
+    "name": "Nachtskifahren Lenzerheide (SnowNights)",
+    "place": "Lenzerheide / Stätz",
+    "canton": "GR",
+    "skiAreaId": "arosa-lenzerheide",
+    "coords": {
+      "lat": 46.76,
+      "lng": 9.5521
+    },
+    "station": "Proschieri, Vaz/Obervaz",
+    "piste": "Skilift Proschieri und Sesselbahn Stätzertäli, 3,5 km beleuchtet",
+    "km": 3.5,
+    "weekdays": [
+      5
+    ],
+    "from": "18:00",
+    "to": "22:00",
+    "season": {
+      "from": "2027-01-08",
+      "to": "2027-03-12",
+      "text": "Jeden Freitag 8. Januar bis 12. März 2027, zusätzlich 28. und 31. Dezember 2026 sowie 5. Januar 2027"
+    },
+    "dates": [
+      "2026-12-28",
+      "2026-12-31",
+      "2027-01-05"
+    ],
+    "events": [],
+    "ticket": {
+      "price": 29,
+      "unit": "Abendkarte pro Person",
+      "note": "Jahres- und Saisonabo gratis"
+    },
+    "extras": [
+      "Fondue oder Raclette à discrétion im Bergrestaurant Alp Stätz",
+      "Gelegentlich Live-Musik auf Alp Stätz",
+      "Postauto Richtung Chur halbstündlich bis 23:31"
+    ],
+    "url": "https://arosalenzerheide.swiss/de/Lenzerheide/Winter/Bergerlebnisse/Nachtskifahren",
+    "source": "https://arosalenzerheide.swiss/de/Lenzerheide/Winter/Bergerlebnisse/Nachtskifahren",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "3,5 km frisch präparierte Flutlichtpiste im Gebiet Stätz; Start beim Parkplatz Skilift Proschieri, danach Fondue oder Raclette auf Alp Stätz."
+  },
+  {
+    "id": "soerenberg-rossweid",
+    "type": "ski",
+    "name": "Nachtskifahren Sörenberg Rossweid",
+    "place": "Sörenberg",
+    "canton": "LU",
+    "skiAreaId": "soerenberg",
+    "coords": {
+      "lat": 46.8218,
+      "lng": 8.0346
+    },
+    "station": "Sörenberg, Post",
+    "piste": "Rote Talabfahrt Rossweid, beleuchtet",
+    "km": null,
+    "weekdays": [
+      5
+    ],
+    "from": "19:00",
+    "to": "21:30",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Basis Saison 2025/26: freitags 2. Januar bis 6. März 2026. Daten 2026/27 noch nicht publiziert"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 29,
+      "unit": "Abendkarte Erwachsene",
+      "note": "U20 14 CHF, Kinder bis 8 gratis, Magic Pass gültig (Preise 2025/26)"
+    },
+    "extras": [
+      "Schneebar mit Flammkuchen",
+      "DJ",
+      "Postauto bis Sörenberg Post kurz vor 19 Uhr"
+    ],
+    "url": "https://www.luzern.com/de/package/nachtskifahren-rossweid",
+    "source": "https://www.luzern.com/de/blog/skifahren-unter-dem-sternenhimmel-in-soerenberg",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Die rote, nicht allzu steile Rossweid-Abfahrt ist am Freitagabend beleuchtet; letzte Bergfahrt mit der Gondel um 21:30."
+  },
+  {
+    "id": "atzmaennig-brustenegg",
+    "type": "ski",
+    "name": "Nachtskifahren Atzmännig",
+    "place": "Goldingen (Atzmännig)",
+    "canton": "SG",
+    "skiAreaId": "atzmaennig",
+    "coords": {
+      "lat": 47.2845,
+      "lng": 8.996
+    },
+    "station": "Atzmännig, Schutt",
+    "piste": "Skilift Brustenegg, voll beleuchtet, 170 Höhenmeter",
+    "km": null,
+    "weekdays": [
+      3,
+      4,
+      5
+    ],
+    "from": "19:15",
+    "to": "22:00",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Winter 2026/27 je nach Schnee, Saison längstens bis Ende März"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 24,
+      "unit": "Abendkarte Erwachsene",
+      "note": "Kinder bis 15: 19 CHF; mit Fondue 40 / 35 CHF"
+    },
+    "extras": [
+      "Käsefondue in der Brustenegg-Hütte",
+      "Raclette auf Vorbestellung",
+      "Letzte Bergfahrt 21:45"
+    ],
+    "url": "https://www.atzmaennig.ch/aktivitaeten/schneesport/nachtskifahren/",
+    "source": "https://www.atzmaennig.ch/aktivitaeten/schneesport/nachtskifahren/",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Drei Abende pro Woche am Skilift Brustenegg im Zürcher Oberland, danach Fondue in der Brustenegg-Hütte; auch als Kombiticket mit Fondue."
+  },
+  {
+    "id": "flumserberg-galaxie",
+    "type": "ski",
+    "name": "Nachtskifahren Flumserberg Galaxie",
+    "place": "Flumserberg Tannenboden",
+    "canton": "SG",
+    "skiAreaId": "flumserberg",
+    "coords": {
+      "lat": 47.0938,
+      "lng": 9.2809
+    },
+    "station": "Flumserberg Tannenboden",
+    "piste": "Piste Chrüz–Tannenboden mit Lichtinstallationen, 2 km",
+    "km": 2,
+    "weekdays": [
+      5
+    ],
+    "from": "18:30",
+    "to": "21:30",
+    "season": {
+      "from": "2027-01-01",
+      "to": "2027-03-05",
+      "text": "Jeden Freitag 1. Januar bis 5. März 2027, zusätzlich Samstag 26. Dezember 2026 und Dienstag 26. Januar 2027"
+    },
+    "dates": [
+      "2026-12-26",
+      "2027-01-26"
+    ],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Lichtinstallationen entlang der Chrüz-Piste",
+      "Restaurant ChäsChante bei der Talstation Tannenboden",
+      "COLORS Bar mit DJ"
+    ],
+    "url": "https://www.flumserberg.ch/Flumserberg-galaxie",
+    "source": "https://www.flumserberg.ch/en/Experience-winter/Flumserberg-ski-resort/Nightride",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Ab Winter 2026/27 als «Galaxie» mit Lichtinstallationen auf und neben der Chrüz-Piste; Nightride im Flumserberg-Saisonabo und Meilenweiss-Pass inbegriffen."
+  },
+  {
+    "id": "flumserberg-nachtschlitteln",
+    "type": "schlitteln",
+    "name": "Nachtschlitteln Flumserberg",
+    "place": "Flumserberg Tannenheim",
+    "canton": "SG",
+    "skiAreaId": "flumserberg",
+    "coords": {
+      "lat": 47.0891,
+      "lng": 9.3036
+    },
+    "station": "Flumserberg Tannenheim",
+    "piste": "Beleuchtete Schlittelpiste Prodalp–Tannenheim",
+    "km": null,
+    "weekdays": [
+      6
+    ],
+    "from": "19:00",
+    "to": "21:00",
+    "season": {
+      "from": "2027-01-02",
+      "to": "2027-03-06",
+      "text": "Samstags 2. Januar bis 6. März 2027, zusätzlich an einzelnen Donnerstagen"
+    },
+    "dates": [
+      "2026-12-31",
+      "2027-02-04",
+      "2027-02-11",
+      "2027-02-18",
+      "2027-02-25",
+      "2027-03-04"
+    ],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Gondelbahn Prodalp-Express in Betrieb"
+    ],
+    "url": "https://www.flumserberg.ch/en/Experience-winter/Flumserberg-ski-resort/Nightride",
+    "source": "https://www.flumserberg.ch/en/Experience-winter/Flumserberg-ski-resort/Nightride",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Flutlicht-Schlittelpiste von der Prodalp nach Tannenheim, Aufstieg mit dem Prodalp-Express; samstags und an fünf Donnerstagen im Februar/März."
+  },
+  {
+    "id": "klewenalp-ergglen",
+    "type": "ski",
+    "name": "Nachtskifahren Klewenalp",
+    "place": "Klewenalp (Beckenried)",
+    "canton": "NW",
+    "skiAreaId": "klewenalp",
+    "coords": {
+      "lat": 46.9404,
+      "lng": 8.473
+    },
+    "station": "Beckenried (Klewenalpbahn)",
+    "piste": "Skilift Ergglen unter Flutlicht",
+    "km": null,
+    "weekdays": [],
+    "from": "17:30",
+    "to": "21:00",
+    "season": {
+      "from": "2027-01-01",
+      "to": "2027-03-05",
+      "text": "Drei Freitage: 1. Januar, 5. Februar und 5. März 2027"
+    },
+    "dates": [
+      "2027-01-01",
+      "2027-02-05",
+      "2027-03-05"
+    ],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Abendkarte Sport und Magic Pass gültig",
+      "Durchführung wird bis Mittwoch 16 Uhr kommuniziert"
+    ],
+    "url": "https://www.luzern.com/de/event/nachtskifahren-klewenalp",
+    "source": "https://www.luzern.com/de/event/nachtskifahren-klewenalp",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Nur an drei Freitagen pro Winter, darunter Neujahr; findet nur bei guten Schnee- und Wetterverhältnissen statt."
+  },
+  {
+    "id": "stockhuette-twaeregg",
+    "type": "ski",
+    "name": "Nachtskifahren Stockhütte",
+    "place": "Emmetten",
+    "canton": "NW",
+    "skiAreaId": "klewenalp",
+    "coords": {
+      "lat": 46.9561,
+      "lng": 8.5137
+    },
+    "station": "Emmetten (Talstation)",
+    "piste": "Beleuchtete Piste am Skilift Twäregg",
+    "km": null,
+    "weekdays": [
+      6
+    ],
+    "from": "17:30",
+    "to": "21:00",
+    "season": {
+      "from": "2026-12-26",
+      "to": "2027-02-27",
+      "text": "Jeden Samstag 26. Dezember 2026 bis 27. Februar 2027, bei guten Verhältnissen"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Gondelbahn Emmetten–Stockhütte durchgehend bis 21:30",
+      "Abendkarte Sport und Magic Pass gültig"
+    ],
+    "url": "https://www.luzern.com/de/event/nachtskifahren-stockhuette",
+    "source": "https://www.luzern.com/de/event/nachtskifahren-stockhuette",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Samstagabends am Skilift Twäregg; Entscheid jeweils bis Mittwoch – fällt das Nachtskifahren aus, fährt auch die Abendgondel nicht."
+  },
+  {
+    "id": "wiriehorn-nachtskifahren",
+    "type": "ski",
+    "name": "Nachtskifahren Wiriehorn",
+    "place": "Diemtigtal",
+    "canton": "BE",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.6127,
+      "lng": 7.5336
+    },
+    "station": "Riedli, Talstation Wiriehorn",
+    "piste": "2 beleuchtete Skipisten",
+    "km": null,
+    "weekdays": [
+      5
+    ],
+    "from": "18:00",
+    "to": "22:00",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Dezember bis März; Wintersaison 2026/27 startet voraussichtlich am 12.12.2026"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 29,
+      "unit": "Abend-Sportpass",
+      "note": "Magic Pass gültig"
+    },
+    "extras": [
+      "Fondue im Berghotel (Reservation empfohlen)",
+      "Nachtschlitteln ins Tal mit Stirnlampe, Schlittenmiete 10 CHF + 10 CHF Depot"
+    ],
+    "url": "https://www.wiriehorn.ch/de/erleben/abend-specials/",
+    "source": "https://www.wiriehorn.ch/de/erleben/abend-specials/",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Freitagabends zwei beleuchtete Pisten im Naturpark Diemtigtal; wer nicht fährt, schlittelt mit Stirnlampe ins Tal."
+  },
+  {
+    "id": "grindelwald-bodmi",
+    "type": "ski",
+    "name": "Nachtskifahren Bodmi Grindelwald",
+    "place": "Grindelwald",
+    "canton": "BE",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.6292,
+      "lng": 8.0415
+    },
+    "station": "Grindelwald, Bodmi",
+    "piste": "Übungsgelände Bodmi Arena mit Tellerlift, beleuchtet",
+    "km": null,
+    "weekdays": [
+      3,
+      4
+    ],
+    "from": "17:30",
+    "to": "19:00",
+    "season": {
+      "from": "2026-12-30",
+      "to": "2027-03-04",
+      "text": "Mittwochs und donnerstags 30. Dezember 2026 bis 4. März 2027"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 15,
+      "unit": "Abendkarte",
+      "note": "Einzelfahrt 3 CHF; Jungfrau Ski Pass gültig"
+    },
+    "extras": [
+      "Mitten im Dorf, geeignet für Anfänger und Kinder"
+    ],
+    "url": "https://outdoor.ch/en/outdoor-activities/night-skiing-bodmi",
+    "source": "https://outdoor.ch/en/outdoor-activities/night-skiing-bodmi",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Kurzer Abendbetrieb am Tellerlift im Dorf-Übungsgelände – eher Anfängerhang als Nachtpiste, dafür ohne Bergbahnfahrt erreichbar."
+  },
+  {
+    "id": "hasliberg-maegisalp-reuti",
+    "type": "ski",
+    "name": "Nachtskifahren Meiringen-Hasliberg",
+    "place": "Hasliberg Reuti",
+    "canton": "BE",
+    "skiAreaId": "meiringen-hasliberg",
+    "coords": {
+      "lat": 46.7329,
+      "lng": 8.2092
+    },
+    "station": "Hasliberg Reuti, Gondelbahn",
+    "piste": "Beleuchtete Pisten Nr. 14 und 23, Mägisalp–Reuti",
+    "km": null,
+    "weekdays": [
+      5
+    ],
+    "from": "18:00",
+    "to": "22:00",
+    "season": {
+      "from": "2027-01-01",
+      "to": "2027-03-05",
+      "text": "Silvester und jeden Freitag 1. Januar bis 5. März 2027"
+    },
+    "dates": [
+      "2026-12-31"
+    ],
+    "events": [
+      {
+        "date": "2026-12-31",
+        "title": "Nachtskifahren an Silvester"
+      }
+    ],
+    "ticket": {
+      "price": 23,
+      "unit": "Abendkarte Erwachsene (ab 16 Uhr)",
+      "note": "Kinder 6–16: 13 CHF; Saisonabo, Magic Pass und Skitageskarten gültig"
+    },
+    "extras": [
+      "Fondue oder Raclette mit Live-Musik im Bergrestaurant Mägisalp",
+      "Familienrestaurant Bidmi und Hotel Reuti geöffnet",
+      "Unbeleuchteter Schlittelweg Mägisalp–Bidmi (Stirnlampe mitnehmen)",
+      "Letzte Talfahrt ab Mägisalp 23:00"
+    ],
+    "url": "https://www.meiringen-hasliberg.ch/183/nachtangebote",
+    "source": "https://www.meiringen-hasliberg.ch/183/nachtangebote",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Zwei beleuchtete blaue Pisten von der Mägisalp nach Reuti, dazu Hüttenabend auf der Mägisalp und Schlitteln mit Stirnlampe."
+  },
+  {
+    "id": "les-diablerets-willy-favre",
+    "type": "ski",
+    "name": "Ski nocturne Les Diablerets",
+    "place": "Les Diablerets",
+    "canton": "VD",
+    "skiAreaId": "villars-gryon-diablerets",
+    "coords": {
+      "lat": 46.3512,
+      "lng": 7.1555
+    },
+    "station": "Les Diablerets",
+    "piste": "Beleuchtete Piste «Willy Favre», rund 550 Höhenmeter",
+    "km": null,
+    "weekdays": [
+      4
+    ],
+    "from": "18:30",
+    "to": "21:00",
+    "season": {
+      "from": "2026-12-24",
+      "to": "2027-03-20",
+      "text": "Donnerstagabends 24. Dezember 2026 bis 20. März 2027, bei guter Witterung"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 25,
+      "unit": "Abendkarte Erwachsene",
+      "note": "Kinder 6–15: 15 CHF; Magic Pass und gültiger Skipass ohne Zuschlag"
+    },
+    "extras": [
+      "Fondue oder Heissgetränke in Les Mazots",
+      "Separate 7,2-km-Schlittelbahn (unbeleuchtet, Stirnlampe empfohlen)"
+    ],
+    "url": "https://www.vaud.ch/en/tourism/activites/night-skiing-in-les-diablerets/",
+    "source": "https://www.vaud.ch/en/tourism/activites/night-skiing-in-les-diablerets/",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Die 2018 verbreiterte Willy-Favre-Piste wird donnerstags beleuchtet; letzte Bergfahrt 21 Uhr, Schlitteln auf eigener Bahn möglich."
+  },
+  {
+    "id": "zermatt-mondscheinabfahrt",
+    "type": "ski",
+    "name": "Mondscheinabfahrt Rothorn mit Fondue",
+    "place": "Zermatt",
+    "canton": "VS",
+    "skiAreaId": "zermatt",
+    "coords": {
+      "lat": 46.0225,
+      "lng": 7.7495
+    },
+    "station": "Zermatt",
+    "piste": "Geführte Abfahrt vom Rothorn über Blauherd bei Vollmond (keine Flutlichtpiste)",
+    "km": null,
+    "weekdays": [],
+    "from": "18:30",
+    "to": "",
+    "season": {
+      "from": "2027-01-20",
+      "to": "2027-03-21",
+      "text": "Drei Termine: 20. und 21. Januar sowie 21. März 2027"
+    },
+    "dates": [
+      "2027-01-20",
+      "2027-01-21",
+      "2027-03-21"
+    ],
+    "events": [
+      {
+        "date": "2027-01-20",
+        "title": "Mondscheinabfahrt Rothorn mit Fondue"
+      },
+      {
+        "date": "2027-01-21",
+        "title": "Mondscheinabfahrt Rothorn mit Fondue"
+      },
+      {
+        "date": "2027-03-21",
+        "title": "Mondscheinabfahrt Rothorn mit Fondue"
+      }
+    ],
+    "ticket": {
+      "price": 96.5,
+      "unit": "Erwachsene inkl. Apéro, Glühwein und Fondue",
+      "note": "Kinder 9–15: 76 CHF; nur Ski/Snowboard ab 9 Jahren; Buchung bis 17 Uhr am Vortag"
+    },
+    "extras": [
+      "Apéro auf Blauherd",
+      "Glühwein und Käsefondue im Restaurant Ferdinand by CERVO",
+      "Stirn- oder Taschenlampe empfohlen"
+    ],
+    "url": "https://www.matterhornparadise.ch/en/book/experiences/moonlight-descent",
+    "source": "https://www.matterhornparadise.ch/ZBAG/17-PDF/flyer/flyer-winter/2026-2027/mondscheinabfahrt.pdf",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Treffpunkt 18:30 an der Talstation Sunnegga, Abfahrt 19 Uhr in Begleitung des Pistendienstes; Ende nicht angegeben, Fondue im Anschluss."
+  },
+  {
+    "id": "savognin-nachtspektakel",
+    "type": "ski",
+    "name": "Nachtspektakel Savognin",
+    "place": "Savognin",
+    "canton": "GR",
+    "skiAreaId": "savognin",
+    "coords": {
+      "lat": 46.5965,
+      "lng": 9.5917
+    },
+    "station": "Savognin (Talstation)",
+    "piste": "Beleuchtete Talabfahrt Tigignas–Savognin",
+    "km": null,
+    "weekdays": [],
+    "from": "18:00",
+    "to": "22:00",
+    "season": {
+      "from": "2026-12-29",
+      "to": "2027-03-04",
+      "text": "Drei Abende: 29. Dezember 2026, 11. Februar und 4. März 2027"
+    },
+    "dates": [
+      "2026-12-29",
+      "2027-02-11",
+      "2027-03-04"
+    ],
+    "events": [
+      {
+        "date": "2026-12-29",
+        "title": "Nachtspektakel mit Feuerkünstler Christian Ziegler"
+      },
+      {
+        "date": "2027-02-11",
+        "title": "Nachtspektakel mit Guggenmusik «Fetters Sursetters»"
+      },
+      {
+        "date": "2027-03-04",
+        "title": "Nachtspektakel mit Snowboardclub Las Codgias"
+      }
+    ],
+    "ticket": {
+      "price": 12,
+      "unit": "Nachtskiticket Erwachsene",
+      "note": "Jugend 16–19: 10, Kinder 10–15: 9, 6–9: 7 CHF; Saisonkarte und Skipässe ab 4 Tagen gratis"
+    },
+    "extras": [
+      "Fondue in der «Steiva» des Bergrestaurants Tigignas (Reservation)",
+      "Show von Skischule und Pistenbullys um 20 Uhr",
+      "Afterparty mit DJ ab 21 Uhr an der Talstation"
+    ],
+    "url": "https://www.graubuenden.ch/de/veranstaltungen/nachtspektakel-savognin",
+    "source": "https://www.graubuenden.ch/de/veranstaltungen/nachtspektakel-savognin",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Kein wöchentliches Angebot, sondern drei Eventabende mit beleuchteter Talabfahrt, Show oberhalb von Tigignas und Verlosung von Pistenbully-Fahrten."
+  },
+  {
+    "id": "obersaxen-chummenbuehl",
+    "type": "ski",
+    "name": "Nachtskifahren Obersaxen Chummenbühl",
+    "place": "Obersaxen Meierhof",
+    "canton": "GR",
+    "skiAreaId": "obersaxen-mundaun",
+    "coords": {
+      "lat": 46.7488,
+      "lng": 9.1022
+    },
+    "station": "Obersaxen, Meierhof Talstation",
+    "piste": "Skilift Chummenbühl und Kinderland der Skischule unter Flutlicht",
+    "km": null,
+    "weekdays": [
+      3
+    ],
+    "from": "19:00",
+    "to": "21:00",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Mittwochabends bei guter Witterung; Daten 2026/27 noch nicht publiziert (zuletzt 25.02.–04.03.2026)"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 0,
+      "unit": "gratis",
+      "note": "Skifahren unter Flutlicht ist für alle kostenlos"
+    },
+    "extras": [],
+    "url": "https://www.graubuenden.ch/en/events/nachtskifahren-obersaxen-chummenbuhl",
+    "source": "https://www.graubuenden.ch/en/events/nachtskifahren-obersaxen-chummenbuhl",
+    "checked": "2026-11-16",
+    "confidence": "mittel",
+    "text": "Kostenloses Flutlicht-Skifahren am Dorflift und im Kinderland; ob es stattfindet, steht jeweils auf obersaxen-mundaun.ch."
+  },
+  {
+    "id": "berguen-tect",
+    "type": "ski",
+    "name": "Nachtskifahren Bergün Tèct",
+    "place": "Bergün/Bravuogn",
+    "canton": "GR",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.63,
+      "lng": 9.744
+    },
+    "station": "Bergün/Bravuogn",
+    "piste": "Skilift Tèct am Dorfrand, beleuchtet",
+    "km": null,
+    "weekdays": [
+      4
+    ],
+    "from": "19:30",
+    "to": "21:00",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Basis Saison 2025/26: donnerstags 8. Januar bis 12. März 2026. Saison 2026/27 ab 19.12.2026, Nachtdaten noch offen"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Heissgetränke im Restaurant «La Posina»"
+    ],
+    "url": "https://berguen-filisur.graubuenden.ch/en/winter/night-skiing-ski-lift-tect",
+    "source": "https://www.graubuenden.ch/de/aktivitaeten/winter/skifahren/skigebiete/berguen-filisur",
+    "checked": "2026-11-16",
+    "confidence": "mittel",
+    "text": "Kleiner Familienlift am Dorfrand von Bergün mit eigenem Nachttarif; Saison- und Tageskarten gelten am Abend nicht."
+  },
+  {
+    "id": "diavolezza-gluena-plaina",
+    "type": "ski",
+    "name": "Glüna Plaina – Vollmond-Skifahren Diavolezza",
+    "place": "Diavolezza (Pontresina)",
+    "canton": "GR",
+    "skiAreaId": "diavolezza-lagalb",
+    "coords": {
+      "lat": 46.441,
+      "lng": 9.9835
+    },
+    "station": "Bernina Diavolezza",
+    "piste": "Frisch präparierte Piste, nur vom Vollmond beleuchtet",
+    "km": null,
+    "weekdays": [],
+    "from": "19:30",
+    "to": "23:15",
+    "season": {
+      "from": "2027-02-19",
+      "to": "2027-02-20",
+      "text": "Vollmondnacht 19. Februar 2027, Ersatzdatum 20. Februar 2027; laut Betreiber 2027 zweimal, zweites Datum noch nicht publiziert"
+    },
+    "dates": [
+      "2027-02-19"
+    ],
+    "events": [
+      {
+        "date": "2027-02-19",
+        "title": "Glüna Plaina – Skifahren bei Vollmond (Ersatzdatum 20.02.2027)"
+      }
+    ],
+    "ticket": null,
+    "extras": [
+      "Nachtessen im Berghaus Diavolezza möglich",
+      "Keine Reservation nötig"
+    ],
+    "url": "https://www.corvatsch-diavolezza.ch/en/current-news/events/detail/gluena-plaina-skiing-under-the-light-of-the-full-moon",
+    "source": "https://www.corvatsch-diavolezza.ch/en/current-news/events/detail/gluena-plaina-skiing-under-the-light-of-the-full-moon",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Die Diavolezzabahn fährt in der Vollmondnacht; gefahren wird ohne Flutlicht im Mondschein, nur bei gutem Wetter."
+  },
+  {
+    "id": "laax-night-skiing",
+    "type": "ski",
+    "name": "Nachtskifahren LAAX",
+    "place": "Laax / Falera",
+    "canton": "GR",
+    "skiAreaId": "laax",
+    "coords": {
+      "lat": 46.82,
+      "lng": 9.2652
+    },
+    "station": "Laax GR, Bergbahnen",
+    "piste": "Abendbetrieb Falera und Laax (Abfahrt nach Laax Murschetg)",
+    "km": null,
+    "weekdays": [],
+    "from": "18:00",
+    "to": "21:30",
+    "season": {
+      "from": "2027-02-05",
+      "to": "2027-03-05",
+      "text": "Nachtskifahren an drei Freitagen (19.2., 26.2., 5.3.2027), Snowpark Night Sessions am 5. und 12.2.2027"
+    },
+    "dates": [
+      "2027-02-05",
+      "2027-02-12",
+      "2027-02-19",
+      "2027-02-26",
+      "2027-03-05"
+    ],
+    "events": [
+      {
+        "date": "2027-02-05",
+        "title": "Snowpark Night Session Crap Sogn Gion (19–21 Uhr, Pipe bis 21:45)"
+      },
+      {
+        "date": "2027-02-12",
+        "title": "Snowpark Night Session Crap Sogn Gion (19–21 Uhr, Pipe bis 21:45)"
+      }
+    ],
+    "ticket": null,
+    "extras": [
+      "Tegia Curnius und Talrestaurants mit warmen Snacks",
+      "Snowpark Night Sessions mit beleuchteter Pipe"
+    ],
+    "url": "https://www.laax.com/en/night",
+    "source": "https://www.laax.com/en/night",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Falera fährt 18–20:30, Laax 19–21:30 Uhr; an zwei weiteren Februar-Freitagen ist der Snowpark mit Pipe am Abend offen."
+  },
+  {
+    "id": "aletsch-arena-nachtskifahren",
+    "type": "ski",
+    "name": "Nachtskifahren Riederalp & Bettmeralp",
+    "place": "Riederalp / Bettmeralp",
+    "canton": "VS",
+    "skiAreaId": "aletsch-arena",
+    "coords": {
+      "lat": 46.3925,
+      "lng": 8.047
+    },
+    "station": "Bettmeralp",
+    "piste": "Riederalp Golmenlift und Bettmeralp Sesselbahn Blausee unter Flutlicht (Fahrten nur bis Mittelstation Blausee)",
+    "km": null,
+    "weekdays": [
+      2
+    ],
+    "from": "17:30",
+    "to": "21:00",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Basis Saison 2025/26: jeden Dienstag (letzter Termin 17.03.2026). Daten 2026/27 noch nicht publiziert"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Gastro-Bar bei der Mittelstation Blausee 18:00–20:45",
+      "Skipässe der Aletsch Arena gültig"
+    ],
+    "url": "https://partner.aletscharena.ch/hubfs/Nachtskifahren%202025-26.pdf",
+    "source": "https://partner.aletscharena.ch/hubfs/Nachtskifahren%202025-26.pdf",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Dienstagabends Flutlicht auf beiden Seiten der autofreien Aletsch Arena, Treffpunkt ist die Bar bei der Mittelstation Blausee."
+  },
+  {
+    "id": "leukerbad-sportarena",
+    "type": "ski",
+    "name": "Ski nocturne Snowpark Sportarena Leukerbad",
+    "place": "Leukerbad",
+    "canton": "VS",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.3805,
+      "lng": 7.6265
+    },
+    "station": "Leukerbad, Busterminal",
+    "piste": "Beleuchtete Hauptpiste im Snowpark Sportarena (Dorf)",
+    "km": null,
+    "weekdays": [
+      4
+    ],
+    "from": "19:00",
+    "to": "21:00",
+    "season": {
+      "from": "2027-01-28",
+      "to": "2027-03-04",
+      "text": "Donnerstags 28. Januar bis 4. März 2027 ab 19 Uhr (ca. 2 Std.); zusätzlich 21. und 28. Dezember 2026 sowie 7. Januar 2027 ab 18 Uhr"
+    },
+    "dates": [
+      "2026-12-21",
+      "2026-12-28",
+      "2027-01-07"
+    ],
+    "events": [],
+    "ticket": {
+      "price": 10,
+      "unit": "Erwachsene ab 16",
+      "note": "Kinder bis 15: 5 CHF; Abos und Gästekarte nicht gültig"
+    },
+    "extras": [],
+    "url": "https://www.guidle.com/fr/evenements/dans-la-station-de-ski/leukerbad/ski-nocturne_ATRyqu8",
+    "source": "https://www.guidle.com/fr/evenements/dans-la-station-de-ski/leukerbad/ski-nocturne_ATRyqu8",
+    "checked": "2026-11-16",
+    "confidence": "mittel",
+    "text": "Günstiges Abendskifahren im Anfänger-Snowpark mitten im Thermalort; Treffpunkt ist die Kasse der Sportarena."
+  },
+  {
+    "id": "pizol-nachtskifahren",
+    "type": "ski",
+    "name": "Nachtskifahren Pizol",
+    "place": "Wangs (Furt)",
+    "canton": "SG",
+    "skiAreaId": "pizol",
+    "coords": {
+      "lat": 47.0095,
+      "lng": 9.4185
+    },
+    "station": "Wangs, Pizolbahn",
+    "piste": "Beleuchtete Piste «Dreieck» bei der Furt",
+    "km": null,
+    "weekdays": [
+      5
+    ],
+    "from": "18:00",
+    "to": "21:30",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Basis Saison 2025/26: jeden Freitag 26. Dezember 2025 bis 6. März 2026. Daten 2026/27 noch nicht bestätigt"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Gondelbahn Wangs fährt bis 22:30 ins Tal",
+      "Kombi Abendkarte & Fondueplausch in den Berghäusern auf der Furt",
+      "Abo und Tageskarte gültig"
+    ],
+    "url": "https://pizol.com/en/erlebnisse/nachtschlitteln",
+    "source": "https://pizol.com/wp-content/uploads/2025/11/Wintersprospekt_2025_web.pdf",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Freitags sind die Piste «Dreieck» und der Schlittelweg gleichzeitig beleuchtet – gut für gemischte Gruppen aus Skifahrern und Schlittlern."
+  },
+  {
+    "id": "pizol-nachtschlitteln",
+    "type": "schlitteln",
+    "name": "Nachtschlitteln Pizol",
+    "place": "Wangs (Furt–Maienberg)",
+    "canton": "SG",
+    "skiAreaId": "pizol",
+    "coords": {
+      "lat": 47.0095,
+      "lng": 9.4185
+    },
+    "station": "Wangs, Pizolbahn",
+    "piste": "Beleuchteter Schlittelweg Furt–Mittelstation Maienberg, 3,5 km",
+    "km": 3.5,
+    "weekdays": [
+      5
+    ],
+    "from": "18:00",
+    "to": "21:30",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Basis Saison 2025/26: jeden Freitag 26. Dezember 2025 bis 6. März 2026. Daten 2026/27 noch nicht bestätigt"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Gondelbahn Wangs bis 22:30",
+      "Saisonabo, Jahresabo und Meilenweiss-Pass inklusive"
+    ],
+    "url": "https://pizol.com/en/erlebnisse/nachtschlitteln",
+    "source": "https://pizol.com/en/erlebnisse/nachtschlitteln",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "3,5 km beleuchteter Schlittelweg von der Furt zur Mittelstation Maienberg, von dort mit der Gondel ins Tal."
+  },
+  {
+    "id": "elm-abendschlitteln",
+    "type": "schlitteln",
+    "name": "Abendschlitteln Elm",
+    "place": "Elm",
+    "canton": "GL",
+    "skiAreaId": "elm",
+    "coords": {
+      "lat": 46.9133,
+      "lng": 9.1622
+    },
+    "station": "Elm, Sportbahnen",
+    "piste": "Schlittelbahn Ämpächli–Elm, 4 km, beleuchtet und beschneit",
+    "km": 4,
+    "weekdays": [
+      3,
+      5,
+      6
+    ],
+    "from": "19:00",
+    "to": "21:30",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Winter 2026/27 je nach Schnee; Tagesbetrieb ab 19. Dezember 2026"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 24,
+      "unit": "Abendkarte Erwachsene (Gondel + Schlitteln)",
+      "note": "Senioren 22, Jugend 18, Kinder 14 CHF; Schlittenmiete 17 CHF"
+    },
+    "extras": [
+      "Pauschale «Winterabendplausch» mit Fondue",
+      "Schlittenmiete auch im Bergrestaurant Ämpächli"
+    ],
+    "url": "https://sportbahnenelm.ch/de/winter/aktivitaeten/schlitteln-abendschlitteln.html",
+    "source": "https://sportbahnenelm.ch/de/winter/aktivitaeten/schlitteln-abendschlitteln.html",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "4 km und rund 460 Höhenmeter vom Ämpächli ins Dorf, neue Beleuchtung; dreimal pro Woche."
+  },
+  {
+    "id": "st-cergue-ski-nocturne",
+    "type": "ski",
+    "name": "Ski nocturne St-Cergue",
+    "place": "St-Cergue",
+    "canton": "VD",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.4486,
+      "lng": 6.1604
+    },
+    "station": "St-Cergue",
+    "piste": "Drei beleuchtete Pisten im Dorfzentrum",
+    "km": null,
+    "weekdays": [
+      4,
+      5,
+      6
+    ],
+    "from": "18:00",
+    "to": "21:30",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Bei genügend Schnee; Pistenöffnung über Info-Neige +41 22 360 10 83"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 16,
+      "unit": "Abendkarte (Einheitspreis)",
+      "note": "Magic Pass gratis"
+    },
+    "extras": [
+      "Pauschale mit Fondue in einem Partnerrestaurant im Dorf"
+    ],
+    "url": "https://www.vaud.ch/en/tourism/activites/illuminated-slopes-st-cergue",
+    "source": "https://www.vaud.ch/en/tourism/activites/illuminated-slopes-st-cergue",
+    "checked": "2026-11-16",
+    "confidence": "mittel",
+    "text": "Jura-Dorflifte direkt beim Bahnhof der Nyon–St-Cergue-Bahn, drei Abende pro Woche beleuchtet."
+  },
+  {
+    "id": "schwarzsee-riggisalp",
+    "type": "ski",
+    "name": "Nachtskifahren Schwarzsee Riggisalp",
+    "place": "Schwarzsee",
+    "canton": "FR",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.6693,
+      "lng": 7.2883
+    },
+    "station": "Schwarzsee, Gypsera",
+    "piste": "Beleuchtete Piste von der Riggisalp, 4 km",
+    "km": 4,
+    "weekdays": [
+      4,
+      5
+    ],
+    "from": "18:00",
+    "to": "20:30",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Im Winter je nach Schnee; Saisondaten auf kaisereggbahnen.ch"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 35,
+      "unit": "Abendpass Erwachsene ab 16",
+      "note": "Kinder 6–15: 21 CHF; Magic Pass gültig"
+    },
+    "extras": [
+      "Eigenes Saisonabo fürs Nachtskifahren erhältlich"
+    ],
+    "url": "https://fribourg.ch/en/schwarzsee/outdoor-sport/skiing-by-night-from-the-riggisalp/",
+    "source": "https://fribourg.ch/en/schwarzsee/outdoor-sport/skiing-by-night-from-the-riggisalp/",
+    "checked": "2026-11-16",
+    "confidence": "mittel",
+    "text": "Vier Kilometer Flutlichtabfahrt von der Riggisalp zum Schwarzsee, zweimal pro Woche."
+  },
+  {
+    "id": "melchsee-frutt-nachtschlitteln",
+    "type": "schlitteln",
+    "name": "Nachtschlitteln Melchsee-Frutt",
+    "place": "Stöckalp (Melchtal)",
+    "canton": "OW",
+    "skiAreaId": "melchsee-frutt",
+    "coords": {
+      "lat": 46.8024,
+      "lng": 8.2792
+    },
+    "station": "Stöckalp",
+    "piste": "Fruttabfahrt Melchsee-Frutt–Stöckalp, 8 km, 1000 Höhenmeter, beleuchtet",
+    "km": 8,
+    "weekdays": [
+      5,
+      6
+    ],
+    "from": "19:00",
+    "to": "22:15",
+    "season": {
+      "from": "2027-01-01",
+      "to": "2027-03-06",
+      "text": "Freitags und samstags 1. Januar bis 6. März 2027"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Gondelbahn Stöckalp–Melchsee-Frutt 19:00–22:00",
+      "Fondue- oder Pizzaplausch",
+      "Helmmiete bei der Schlittenvermietung"
+    ],
+    "url": "https://frutt.ch/entdecken/nachtschlitteln",
+    "source": "https://frutt.ch/entdecken/nachtschlitteln",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Laut Betreiber der längste beleuchtete Schlittelweg der Schweiz: rund 45 Minuten Abfahrt bis zur Stöckalp."
+  },
+  {
+    "id": "engelberg-klostermatte",
+    "type": "ski",
+    "name": "Nachtskifahren Engelberg Klostermatte",
+    "place": "Engelberg",
+    "canton": "OW",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.819,
+      "lng": 8.413
+    },
+    "station": "Engelberg, Brunnibahn",
+    "piste": "Klostermatte-Hang mit LED-Pistenbeleuchtung",
+    "km": null,
+    "weekdays": [
+      5,
+      6
+    ],
+    "from": "18:00",
+    "to": "21:00",
+    "season": {
+      "from": "2026-12-26",
+      "to": "2027-03-14",
+      "text": "26. bis 30. Dezember 2026 täglich, danach freitags und samstags bis 14. März 2027"
+    },
+    "dates": [
+      "2026-12-26",
+      "2026-12-27",
+      "2026-12-28",
+      "2026-12-29",
+      "2026-12-30"
+    ],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Familienrestaurant OX 18–22 Uhr",
+      "Nacht-Skikurse bei mehreren Ski- und Snowboardschulen"
+    ],
+    "url": "https://brunni.ch/121/de/nachtskifahren",
+    "source": "https://brunni.ch/121/de/nachtskifahren",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Flacher Übungshang am Dorfrand, von den Brunni-Bahnen mit LED-Licht betrieben – ideal für Kinder und Nachtkurse."
+  },
+  {
+    "id": "davos-rinerhorn",
+    "type": "ski",
+    "name": "Nachtskifahren Davos Rinerhorn",
+    "place": "Davos Glaris",
+    "canton": "GR",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.746,
+      "lng": 9.7805
+    },
+    "station": "Davos Glaris",
+    "piste": "Beleuchtete Piste am Rinerhorn",
+    "km": null,
+    "weekdays": [
+      3,
+      5
+    ],
+    "from": "19:00",
+    "to": "22:30",
+    "season": {
+      "from": "2026-12-18",
+      "to": "2027-03-12",
+      "text": "Mittwochs und freitags 18. Dezember 2026 bis 12. März 2027, ausser 25.12.2026, 20.01. und 22.01.2027"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [],
+    "url": "https://davos.ch/en/activities/snowsports/winter-sports-at-night",
+    "source": "https://davos.ch/en/activities/snowsports/winter-sports-at-night",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Zweimal pro Woche bis 22:30 Uhr – eines der späteren Nachtangebote in Graubünden, direkt beim Bahnhof Davos Glaris."
+  },
+  {
+    "id": "klosters-selfranga",
+    "type": "ski",
+    "name": "Nachtskifahren Klosters Selfranga",
+    "place": "Klosters",
+    "canton": "GR",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.862,
+      "lng": 9.886
+    },
+    "station": "Klosters Platz",
+    "piste": "Beleuchteter Hang Selfranga",
+    "km": null,
+    "weekdays": [
+      2,
+      5
+    ],
+    "from": "19:00",
+    "to": "21:30",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Im Winter; Dienstag 19:00–21:00, Freitag 19:30–21:30. Saisondaten nicht publiziert"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [],
+    "url": "https://davos.ch/en/activities/snowsports/winter-sports-at-night",
+    "source": "https://davos.ch/en/activities/snowsports/winter-sports-at-night",
+    "checked": "2026-11-16",
+    "confidence": "mittel",
+    "text": "Kleiner Flutlichthang in Klosters; Dienstag ab 19 Uhr, Freitag ab 19:30 Uhr."
+  },
+  {
+    "id": "adelboden-chuenis-bi-nacht",
+    "type": "ski",
+    "name": "Chuenis bi Nacht Adelboden",
+    "place": "Adelboden",
+    "canton": "BE",
+    "skiAreaId": "adelboden-lenk",
+    "coords": {
+      "lat": 46.482,
+      "lng": 7.5586
+    },
+    "station": "Adelboden, Boden Wendeplatz",
+    "piste": "Weltcuppiste Chuenisbärgli unter Flutlicht",
+    "km": null,
+    "weekdays": [
+      5
+    ],
+    "from": "19:00",
+    "to": "21:30",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Basis Saison 2025/26: freitags 6. bis 27. Februar 2026. Daten 2026/27 noch nicht publiziert"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Feuer- und Schneesportshow um 20 Uhr",
+      "Restaurant und Musik",
+      "Extrabus ab Adelboden Post 18:50, zurück 21:50",
+      "Gratis mit Saisonabo oder Tages-/Mehrtageskarte"
+    ],
+    "url": "https://adelboden-lenk-kandersteg.ch/en/activities/year-round/event/detail/chuenis-by-night",
+    "source": "https://adelboden-lenk-kandersteg.ch/en/activities/year-round/event/detail/chuenis-by-night",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Abends auf der Weltcuppiste des Chuenisbärgli; Durchführung wird drei Tage vorher entschieden."
+  },
+  {
+    "id": "unterbaech-dorflift",
+    "type": "ski",
+    "name": "Nachtskifahren Unterbäch",
+    "place": "Unterbäch",
+    "canton": "VS",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.2853,
+      "lng": 7.7999
+    },
+    "station": "Unterbäch VS",
+    "piste": "Beleuchteter Übungslift im Dorf",
+    "km": null,
+    "weekdays": [
+      2
+    ],
+    "from": "16:30",
+    "to": "19:00",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Jeden Dienstag in der Hauptsaison; Winterbetrieb 19.12.2026–21.03.2027"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 5,
+      "unit": "Abendkarte"
+    },
+    "extras": [
+      "Im Februar mit Snowli & Friends"
+    ],
+    "url": "https://unterbaech.ch/en/sports-lifts/winter-timetable/",
+    "source": "https://unterbaech.ch/en/sports-lifts/winter-timetable/",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Früher Abendbetrieb am Kinderlift mitten im Dorf, für 5 Franken – eher für Familien als für lange Nächte."
+  },
+  {
+    "id": "lorient-vallee-de-joux",
+    "type": "ski",
+    "name": "Ski nocturne L'Orient",
+    "place": "L'Orient (Vallée de Joux)",
+    "canton": "VD",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.6011,
+      "lng": 6.2377
+    },
+    "station": "Le Sentier-L'Orient",
+    "piste": "Beleuchtete Piste am Téléski de L'Orient, Railpark mit 12 Modulen",
+    "km": null,
+    "weekdays": [
+      3,
+      4,
+      5
+    ],
+    "from": "19:30",
+    "to": "22:00",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Bei genügend Schnee (Saisonfenster laut Vaud Tourisme 1.11.2026–31.3.2027); freitags durchgehend ab 13 Uhr"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": null,
+    "extras": [
+      "Fondue an der Buvette (22 CHF)",
+      "Magic Pass am Abend gültig",
+      "Railpark auch nachts offen"
+    ],
+    "url": "https://www.vaud.ch/en/tourism/activites/night-skiing-in-lorient",
+    "source": "https://www.vaud.ch/en/tourism/activites/night-skiing-in-lorient",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Jura-Dorflift mit Flutlicht und beleuchtetem Railpark, drei Abende pro Woche bis 22 Uhr."
+  },
+  {
+    "id": "gstaad-eggli-night-vibes",
+    "type": "ski",
+    "name": "EGGLI Night Vibes Gstaad",
+    "place": "Gstaad",
+    "canton": "BE",
+    "skiAreaId": null,
+    "coords": {
+      "lat": 46.4675,
+      "lng": 7.2821
+    },
+    "station": "Gstaad (Talstation Eggli)",
+    "piste": "Beleuchtete Piste am Schopfen (Eggli)",
+    "km": null,
+    "weekdays": [
+      4
+    ],
+    "from": "16:30",
+    "to": "22:00",
+    "season": {
+      "from": "2027-01-07",
+      "to": "2027-02-25",
+      "text": "Jeden Donnerstag 7. Januar bis 25. Februar 2027"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 20,
+      "unit": "Nachtskifahren inkl. Gondel, Erwachsene",
+      "note": "Kinder 6–15: 10 CHF; gratis mit Tages-/Mehrtageskarte, Saisonabo oder Magic Pass"
+    },
+    "extras": [
+      "Fondue im Bergrestaurant Eggli 18:00–21:30 (Reservation)",
+      "Après-Ski in der Eggli Lounge bis 22 Uhr",
+      "Gondelfahrt ab 19:30 gratis"
+    ],
+    "url": "https://partner.gstaad.ch/en/dc/detail/Event/eggli-night-vibes-ski-fondue-party-1",
+    "source": "https://partner.gstaad.ch/en/dc/detail/Event/eggli-night-vibes-ski-fondue-party-1",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Donnerstags Flutlichtpiste, Fondue und Lounge-Party am Eggli; Schlitten sind am Abend nicht erlaubt."
+  },
+  {
+    "id": "sattel-hochstuckli-nachtschlitteln",
+    "type": "schlitteln",
+    "name": "Nachtschlitteln Sattel-Hochstuckli",
+    "place": "Sattel",
+    "canton": "SZ",
+    "skiAreaId": "sattel-hochstuckli",
+    "coords": {
+      "lat": 47.0784,
+      "lng": 8.6344
+    },
+    "station": "Sattel (Talstat. Hochstuckli)",
+    "piste": "Schlittelweg Mostelberg–Sattel",
+    "km": null,
+    "weekdays": [
+      6
+    ],
+    "from": "17:00",
+    "to": "22:30",
+    "season": {
+      "from": "",
+      "to": "",
+      "text": "Basis Saison 2025/26: samstags 20. Dezember 2025 bis 28. Februar 2026; letzte Pistenkontrolle 23 Uhr. Daten 2026/27 noch nicht publiziert"
+    },
+    "dates": [],
+    "events": [],
+    "ticket": {
+      "price": 35,
+      "unit": "Nachtschlitteln Erwachsene",
+      "note": "Kinder 19 CHF; Schlittenmiete 10 CHF (Preise 2025/26)"
+    },
+    "extras": [
+      "Laternenweg samstags 18:00–22:30 (2026/27: 19.12.2026–06.03.2027)",
+      "Drehgondelbahn mit Abendfahrten"
+    ],
+    "url": "https://www.sattel-hochstuckli.ch/",
+    "source": "https://www.sattel-hochstuckli.ch/cms/upload/dokumente/20250919_SH_winterprospekt-2025-26_web.pdf",
+    "checked": "2026-11-16",
+    "confidence": "hoch",
+    "text": "Samstagabends Schlitteln ins Tal, Aufstieg mit der Drehgondel; der Laternenweg ist am selben Abend offen."
+  }
+]

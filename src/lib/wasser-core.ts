@@ -17,7 +17,40 @@ export interface WaterReading {
   /** nur Flüsse: Tagesbereich */
   min24?: number;
   max24?: number;
+  /** BAFU-Stationsnummer bzw. Alplakes-Schlüssel */
+  key?: string;
+  /** URL-Teil der eigenen Seite */
+  slug?: string;
 }
+
+/** Badestelle (OpenStreetMap oder eigene Datenbank) mit passender Live-Temperatur */
+export interface BathSpot {
+  id: string;
+  name: string;
+  kind: "offen" | "freibad" | "hallenbad" | "therme";
+  lat: number;
+  lng: number;
+  town?: string;
+  url?: string;
+  hours?: string;
+  fee?: boolean;
+  wheelchair?: boolean;
+  supervised?: boolean;
+  /** von uns geprüft: Link auf unsere Seite */
+  ours?: string;
+  water?: { temp: number; label: string; slug?: string; source: WaterReading["source"] };
+}
+
+/** «Aare - Bern, Schönau» → «aare-bern-schoenau» */
+export const waterSlug = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue")
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+export const lakeSlug = (l: { name: string }) => waterSlug(l.name);
 
 /** Schweizer Seen mit Alplakes-Modell (1 m Tiefe). Schlüssel = Alplakes-Name. */
 export const LAKES: { key: string; name: string; alias: string[]; lat: number; lng: number }[] = [

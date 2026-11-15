@@ -17,7 +17,8 @@
     "besonders",
     "wellness",
     "regenfest",
-    "romantisch"
+    "romantisch",
+    "baden"
    ],
    "weatherProof": true,
    "season": "ganzjährig",
@@ -78,7 +79,11 @@
      ]
     }
    },
-   "checked": "2026-11-15"
+   "checked": "2026-11-15",
+   "water": {
+    "type": "therme",
+    "heated": true
+   }
   },
   {
    "id": "zh-x-dolder-eisbahn",
@@ -376,7 +381,8 @@
     "geheimtipp",
     "gratis",
     "aktiv",
-    "freunde"
+    "freunde",
+    "baden"
    ],
    "weatherProof": false,
    "season": "Mai–September (2026: 9.5.–20.9.)",
@@ -404,7 +410,12 @@
      9
     ]
    },
-   "checked": "2026-11-15"
+   "checked": "2026-11-15",
+   "water": {
+    "type": "fluss",
+    "body": "Limmat",
+    "heated": false
+   }
   },
   {
    "id": "zh-x-zuschauerterrasse-b",
@@ -1750,7 +1761,8 @@
     "besonders",
     "familie",
     "regenfest",
-    "freunde"
+    "freunde",
+    "baden"
    ],
    "weatherProof": true,
    "season": "ganzjährig",
@@ -1817,7 +1829,11 @@
      ]
     }
    },
-   "checked": "2026-11-15"
+   "checked": "2026-11-15",
+   "water": {
+    "type": "hallenbad",
+    "heated": true
+   }
   },
   {
    "id": "ra-x-ritterhaus-bubikon",
@@ -2811,7 +2827,9 @@
     "geheimtipp",
     "aktiv",
     "freunde",
-    "kultur"
+    "kultur",
+    "baden",
+    "romantisch"
    ],
    "weatherProof": false,
    "season": "Ende Mai–September (2026: 23.5.–30.9.)",
@@ -2840,7 +2858,12 @@
      9
     ]
    },
-   "checked": "2026-11-15"
+   "checked": "2026-11-15",
+   "water": {
+    "type": "fluss",
+    "body": "Rhein",
+    "heated": false
+   }
   },
   {
    "id": "sh-x-kesslerloch",

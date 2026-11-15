@@ -7,9 +7,9 @@ export const zuerich60Minuten: Tour = {
   name: "Zürich in 60 Minuten",
   claim: "Der Quick-Fix: alle 10 Minuten ein neuer Reiz – Aussicht, Wasser, Geschichte, fertig.",
   teaser:
-    "Eine Stunde Lücke im Tag? Diese Express-Route presst das Beste der Altstadt in fünf dichte Stops – ohne Längen, überall abbrechbar.",
+    "Eine Stunde Lücke im Tag? Diese Express-Route presst das Beste der Altstadt in fünf dichte Stopps – ohne Längen, überall abbrechbar.",
   description:
-    "Für Tage, an denen drei Stunden nicht drinliegen: Zürich in sechzig Minuten, getaktet wie eine gute Playlist. Vom Hauptbahnhof auf den Lindenhof (Aussicht), durch die Schipfe (Mittelalter am Wasser), über die Münsterbrücke (Postkarte) zum Grossmünster (Weltgeschichte) und ans Bellevue (See und Abgang). Jeder Stop liefert einen anderen Reiz, kein Stop dauert länger als zehn Minuten, und an jeder Ecke wartet ein Tram, falls dein Zeitfenster doch kleiner war. Maximale Dichte, null Füllmaterial.",
+    "Für Tage, an denen drei Stunden nicht drinliegen: Zürich in sechzig Minuten, getaktet wie eine gute Playlist. Vom Hauptbahnhof auf den Lindenhof (Aussicht), durch die Schipfe (Mittelalter am Wasser), über die Münsterbrücke (Postkarte) zum Grossmünster (Weltgeschichte) und ans Bellevue (See und Abgang). Jeder Stopp liefert einen anderen Reiz, kein Stopp dauert länger als zehn Minuten, und an jeder Ecke wartet ein Tram, falls dein Zeitfenster doch kleiner war. Maximale Dichte, null Füllmaterial.",
   moods: ["kultur", "aussicht", "ueberraschung"],
   audience: "Zwischen-zwei-Terminen-Menschen, Zugumsteiger mit Gepäckfach, Spontane – und alle, die lange Touren nervös machen.",
   vibe: "Schnell, dicht, befriedigend – die Espresso-Variante der Stadtbesichtigung.",
@@ -27,9 +27,9 @@ export const zuerich60Minuten: Tour = {
   isPremium: false,
   gradient: ["#0e3a6b", "#ff4d00"],
   seo: {
-    metaTitle: "Zürich in 60 Minuten: Die Express-Tour ab Hauptbahnhof | Urban Trails",
+    metaTitle: "Zürich in 60 Minuten: Die Express-Tour ab Hauptbahnhof",
     metaDescription:
-      "Nur eine Stunde Zeit in Zürich? Die Express-Route ab HB: Lindenhof, Schipfe, Münsterbrücke, Grossmünster, Bellevue – 5 Stops, 2.6 km, mit Audio-Stories. Gratis.",
+      "Nur eine Stunde Zeit in Zürich? Die Express-Route ab HB: Lindenhof, Schipfe, Münsterbrücke, Grossmünster, Bellevue – 5 Stopps, 2.6 km, mit Audio-Stories. Gratis.",
     keywords: ["Zürich 1 Stunde Sehenswürdigkeiten","Zürich Express Tour","Zürich Zwischenstopp HB","Zürich kurz besichtigen","Zürich Layover"],
   },
   faq: [

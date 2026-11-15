@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Navigation, X } from "lucide-react";
 import type { GeoPoint, Stop, Tour } from "@/lib/types";
 import AudioPlayer from "@/components/AudioPlayer";
 import { getStopImage } from "@/data/images";
@@ -416,16 +417,16 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
   }
 
   const statusMain = allDone
-    ? "🎉 Tour geschafft!"
+    ? "Tour geschafft!"
     : atStop
-      ? `📍 Du bist hier: ${atStop.index + 1}. ${atStop.stop.name}`
+      ? `Du bist hier: ${atStop.index + 1}. ${atStop.stop.name}`
       : `${completed}/${total} Stopps`;
   const statusSub = allDone
     ? "Alle Stopps besucht – Zeit für ein Abschluss-Getränk."
     : atStop
       ? `${completed}/${total} abgehakt${nextStop && nextStop.id !== atStop.stop.id ? ` · dann: ${nextStop.name}` : ""}`
       : nextStop
-        ? `Nächster: ${nextStop.name}${distanceToNext !== null ? ` · 📍 ${formatDistance(distanceToNext)}` : ""}`
+        ? `Nächster: ${nextStop.name}${distanceToNext !== null ? ` · ${formatDistance(distanceToNext)}` : ""}`
         : "";
 
   const audioPct =
@@ -565,7 +566,8 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
             aria-label="Karte schliessen"
             className="absolute left-1/2 top-4 z-10 -translate-x-1/2 rounded-full bg-ink-900/95 px-5 py-2.5 text-sm font-bold text-cream shadow-lg ring-1 ring-cream/15 backdrop-blur transition hover:bg-ink-900"
           >
-            ✕ Karte schliessen
+            <X size={16} aria-hidden="true" />
+            Karte schliessen
           </button>
           {(atStop || nextStop || nowPlaying) && (
             <div className="absolute inset-x-4 bottom-[calc(1rem+env(safe-area-inset-bottom))] z-10 mx-auto max-w-md rounded-2xl bg-ink-900/95 p-4 shadow-xl ring-1 ring-cream/15 backdrop-blur">
@@ -584,7 +586,7 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
                   </button>
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-xs font-bold text-cream">
-                      ♪ {nowPlaying.stopName}
+                      {nowPlaying.stopName}
                       {nowPlaying.paused && (
                         <span className="ml-1.5 font-normal text-cream-faint">pausiert</span>
                       )}
@@ -607,7 +609,7 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
               )}
               {atStop ? (
                 <p className="text-sm font-bold text-cream">
-                  📍 Du bist hier: {atStop.index + 1}. {atStop.stop.name}
+                  Du bist hier: {atStop.index + 1}. {atStop.stop.name}
                 </p>
               ) : (
                 nextStop && (
@@ -629,7 +631,8 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 rounded-full bg-signal-500 px-4 py-2 text-xs font-bold text-white transition hover:bg-signal-600"
                   >
-                    🧭 Navigation starten
+                    <Navigation size={14} aria-hidden="true" />
+                    Navigation starten
                   </a>
                 )}
                 {(atStop || nextStop) && (
@@ -643,7 +646,7 @@ export default function StopTimeline({ tour, riddles = {} }: { tour: Tour; riddl
                     }}
                     className="inline-flex items-center rounded-full border border-cream/20 px-4 py-2 text-xs font-bold text-cream transition hover:bg-ink-800"
                   >
-                    Zum Stop-Text ↓
+                    Zum Text
                   </button>
                 )}
               </div>

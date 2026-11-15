@@ -5,11 +5,11 @@ export const zuerichFoodies: Tour = {
   citySlug: "zuerich",
   category: "food-discovery",
   name: "Zürich zum Anbeissen",
-  claim: "Essen ist die beste Stadtführung – von der Luxemburgerli-Legende bis zur Markthalle, mit Kost-Auftrag pro Stop.",
+  claim: "Essen ist die beste Stadtführung – von der Luxemburgerli-Legende bis zur Markthalle, mit Kost-Auftrag pro Stopp.",
   teaser:
-    "Sechs Stationen Zürcher Esskultur: Sprüngli am Paradeplatz, der Kolonialwarenladen von 1864, heisse Schokolade im Märchencafé, Mittagsteller unterm Bahnbogen – und bei jedem Stop etwas zum Probieren.",
+    "Sechs Stationen Zürcher Esskultur: Sprüngli am Paradeplatz, der Kolonialwarenladen von 1864, heisse Schokolade im Märchencafé, Mittagsteller unterm Bahnbogen – und bei jedem Stopp etwas zum Probieren.",
   description:
-    "Diese Tour erzählt Zürich durch den Magen. Du startest am Paradeplatz, wo seit 1859 die Luxemburgerli-Dynastie residiert, kaufst im vielleicht schönsten Lebensmittelladen Europas ein (Schwarzenbach, seit 1864, Kaffeerösterei inklusive), trinkst die berühmteste heisse Schokolade der Stadt im Plüsch des Café Schober, und isst dich durch die Markthalle im Viadukt bis ans Industrieufer von Frau Gerolds Garten. Jeder Stop kommt mit einem konkreten Kost-Auftrag – klein genug fürs Budget, gross genug, dass du am Ende sagen kannst: Ich habe Zürich probiert. Hungrig starten ist Pflicht.",
+    "Diese Tour erzählt Zürich durch den Magen. Du startest am Paradeplatz, wo seit 1859 die Luxemburgerli-Dynastie residiert, kaufst im vielleicht schönsten Lebensmittelladen Europas ein (Schwarzenbach, seit 1864, Kaffeerösterei inklusive), trinkst die berühmteste heisse Schokolade der Stadt im Plüsch des Café Schober, und isst dich durch die Markthalle im Viadukt bis ans Industrieufer von Frau Gerolds Garten. Jeder Stopp kommt mit einem konkreten Kost-Auftrag – klein genug fürs Budget, gross genug, dass du am Ende sagen kannst: Ich habe Zürich probiert. Hungrig starten ist Pflicht.",
   moods: ["essen", "kultur", "menschen"],
   audience: "Foodies, Mitbringsel-Jäger, Date-Planer – und alle, die finden, dass Sightseeing durch den Magen geht.",
   vibe: "Genüsslich, duftend, gut gelaunt – die Tour mit eingebautem Picknick.",
@@ -28,9 +28,9 @@ export const zuerichFoodies: Tour = {
   priceChf: 4.9,
   gradient: ["#7a4a1f", "#ff4d00"],
   seo: {
-    metaTitle: "Zürich Food-Tour: Sprüngli, Schwarzenbach & Markthalle mit Audioguide | Urban Trails",
+    metaTitle: "Zürich Food-Tour: Sprüngli, Schwarzenbach & Markthalle mit Audioguide",
     metaDescription:
-      "Die kulinarische Walking-Tour durch Zürich: Luxemburgerli am Paradeplatz, Kolonialwaren seit 1864, Café Schober, Markthalle im Viadukt und Frau Gerolds Garten. 6 Stops mit Kost-Aufträgen.",
+      "Die kulinarische Walking-Tour durch Zürich: Luxemburgerli am Paradeplatz, Kolonialwaren seit 1864, Café Schober, Markthalle im Viadukt und Frau Gerolds Garten. 6 Stopps mit Kost-Aufträgen.",
     keywords: ["Zürich Food Tour","Zürich kulinarisch entdecken","Sprüngli Luxemburgerli","Schwarzenbach Zürich","Markthalle Zürich Essen"],
   },
   faq: [

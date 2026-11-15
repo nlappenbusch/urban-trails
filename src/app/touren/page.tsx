@@ -16,7 +16,7 @@ export default function ToursPage() {
 
   const cats: CatChip[] = categories
     .filter((c) => getToursByCategory(c.slug).length > 0)
-    .map((c) => ({ slug: c.slug, name: c.name, emoji: c.emoji }));
+    .map((c) => ({ slug: c.slug, name: c.name }));
 
   return (
     <div className="container-page py-16">

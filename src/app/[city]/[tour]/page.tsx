@@ -5,6 +5,7 @@ import { tourJsonLd } from "@/lib/seo";
 import TourMap from "@/components/TourMap";
 import StopTimeline from "@/components/StopTimeline";
 import GuideChat from "@/components/GuideChat";
+import TourFacts from "@/components/TourFacts";
 import { getTourHeroImage } from "@/data/images";
 import { getDestination } from "@/data/destinations";
 import { getCategory } from "@/lib/categories";
@@ -88,7 +89,7 @@ export default async function TourPage({ params }: Props) {
                   href={`/kategorien/${cat.slug}`}
                   className="hover:text-white"
                 >
-                  {cat.emoji} {cat.name}
+                  {cat.name}
                 </Link>
               </>
             )}
@@ -134,44 +135,17 @@ export default async function TourPage({ params }: Props) {
               {tour.description}
             </p>
             {hiddenGems > 0 && (
-              <p className="mt-4 text-sm font-bold text-signal-400">
-                💎 {hiddenGems} Geheimtipp-Stops, die in keinem
-                Standard-Reiseführer stehen.
+              <p className="mt-4 text-sm font-bold text-signal-600">
+                {hiddenGems} {hiddenGems === 1 ? "Stopp ist ein Geheimtipp" : "Stopps sind Geheimtipps"}, die
+                in keinem Standard-Reiseführer stehen.
               </p>
             )}
           </div>
-          <aside className="card h-fit space-y-4 p-6 text-sm">
-            <div>
-              <p className="font-semibold text-cream">🚏 Start</p>
-              <p className="text-cream-dim">{tour.startPoint}</p>
-              <p className="mt-1 text-xs text-cream-faint">
-                {tour.publicTransport.start}
-              </p>
-            </div>
-            <div>
-              <p className="font-semibold text-cream">🏁 Ende</p>
-              <p className="text-cream-dim">{tour.endPoint}</p>
-              <p className="mt-1 text-xs text-cream-faint">
-                {tour.publicTransport.end}
-              </p>
-            </div>
-            <div>
-              <p className="font-semibold text-cream">🕐 Beste Zeit</p>
-              <p className="text-cream-dim">{tour.bestTimeOfDay}</p>
-            </div>
-            <div>
-              <p className="font-semibold text-cream">🍂 Saison</p>
-              <p className="text-cream-dim">{tour.bestSeason}</p>
-            </div>
-            <div>
-              <p className="font-semibold text-cream">⛰ Schwierigkeit</p>
-              <p className="capitalize text-cream-dim">{tour.difficulty}</p>
-            </div>
-          </aside>
+          <TourFacts tour={tour} />
         </div>
 
         <section className="mt-14">
-          <h2 className="headline text-3xl text-cream sm:text-4xl">Die <em>Route</em></h2>
+          <h2 className="headline text-3xl text-cream sm:text-4xl">Die Route</h2>
           <div className="mt-3 flex flex-wrap items-center gap-2">
             {tour.stops.map((s, i) => (
               <a
@@ -197,7 +171,7 @@ export default async function TourPage({ params }: Props) {
 
         <section id="tourstart" className="mt-16">
           <h2 className="headline text-3xl text-cream sm:text-4xl">
-            Stopp für <em>Stopp</em>
+            Stopp für Stopp
           </h2>
           <p className="mt-2 max-w-xl text-sm text-cream-dim">
             Hör dir die Story an, lös das Rätsel, hak den Stopp ab. Alles
@@ -209,7 +183,7 @@ export default async function TourPage({ params }: Props) {
         </section>
 
         <section className="mt-20">
-          <h2 className="headline text-3xl text-cream sm:text-4xl">Häufige <em>Fragen</em></h2>
+          <h2 className="headline text-3xl text-cream sm:text-4xl">Häufige Fragen</h2>
           <div className="mt-6 space-y-3">
             {tour.faq.map((f) => (
               <details key={f.question} className="card group p-5">

@@ -17,7 +17,6 @@ export interface TourLite {
   gems: number;
   category?: string;
   categoryName?: string;
-  categoryEmoji?: string;
   heroUrl?: string;
   heroAlt?: string;
 }
@@ -38,7 +37,6 @@ export function toTourLite(t: Tour): TourLite {
     gems: t.stops.filter((s) => s.isHiddenGem).length,
     category: t.category,
     categoryName: cat?.name,
-    categoryEmoji: cat?.emoji,
     heroUrl: hero?.url,
     heroAlt: hero?.alt,
   };

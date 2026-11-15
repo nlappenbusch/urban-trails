@@ -5,6 +5,7 @@
  * Display bleibt an (Wake Lock), Kompass wenn erlaubt.
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { ArrowUpRight, Pause, Play } from "lucide-react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import type { GeoPoint, Tour } from "@/lib/types";
 import { distanceMeters } from "@/lib/gps";
@@ -457,7 +458,7 @@ export default function NaviMode({
                 </div>
               </div>
               <button onClick={story} className="mt-4 flex w-full items-center justify-center gap-2 rounded-2xl bg-signal-500 py-4 text-lg font-extrabold text-white shadow-lg active:scale-[0.98]">
-                {audioHere?.playing ? "⏸ Pause" : audioHere ? "▶ Weiterhören" : "▶ Story hören"}
+                {audioHere?.playing ? <><Pause size={16} fill="currentColor" aria-hidden="true" />Pause</> : <><Play size={16} fill="currentColor" aria-hidden="true" />{audioHere ? "Weiterhören" : "Story hören"}</>}
               </button>
               {audioHere && audioHere.d > 0 && (
                 <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-ink-700">
@@ -517,7 +518,7 @@ export default function NaviMode({
                   Bin da
                 </button>
                 <a href={externalNav} target="_blank" rel="noopener noreferrer" className="grid flex-1 place-items-center rounded-2xl border border-cream/15 text-sm font-bold">
-                  {isIOS ? "Karten" : "Maps"} ↗
+                  <span className="inline-flex items-center gap-1">{isIOS ? "Karten" : "Maps"}<ArrowUpRight size={14} aria-hidden="true" /></span>
                 </a>
                 <button
                   onClick={() => idx < stops.length - 1 && setIdx(idx + 1)}

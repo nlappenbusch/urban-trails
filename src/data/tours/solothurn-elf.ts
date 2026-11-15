@@ -28,9 +28,9 @@ export const solothurnElf: Tour = {
   gradient: ["#6b3f1f", "#e3b04b"],
   imageHint: "Freitreppe der St.-Ursen-Kathedrale mit Brunnen am Ende der Hauptgasse",
   seo: {
-    metaTitle: "Solothurn zu Fuss: Altstadt-Tour rund um die Zahl 11 mit Audioguide | Urban Trails",
+    metaTitle: "Solothurn zu Fuss: Altstadt-Tour rund um die Zahl 11 mit Audioguide",
     metaDescription:
-      "Gratis-Tour durch Solothurn: Krummturm, Wengibrücke, Landhausquai, Zytglogge, Jesuitenkirche, Rathaus, Baseltor und St.-Ursen-Kathedrale – 7 Stops mit Audio-Stories rund um die Solothurner Zahl 11.",
+      "Gratis-Tour durch Solothurn: Krummturm, Wengibrücke, Landhausquai, Zytglogge, Jesuitenkirche, Rathaus, Baseltor und St.-Ursen-Kathedrale – 7 Stopps mit Audio-Stories rund um die Solothurner Zahl 11.",
     keywords: [
       "Solothurn Sehenswürdigkeiten",
       "Solothurn Altstadt Rundgang",

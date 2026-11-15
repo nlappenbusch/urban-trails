@@ -28,9 +28,9 @@ export const bernAltstadt: Tour = {
   priceChf: 4.9,
   gradient: ["#8a1f1f", "#ffc940"],
   seo: {
-    metaTitle: "Bern zu Fuss: Zytglogge, Einsteinhaus, Münster & Bärenpark mit Audioguide | Urban Trails",
+    metaTitle: "Bern zu Fuss: Zytglogge, Einsteinhaus, Münster & Bärenpark mit Audioguide",
     metaDescription:
-      "Selbstgeführte Tour durch die Berner Altstadt (UNESCO): 7 Stops vom Zytglogge über das Einsteinhaus und Münster bis Bärenpark und Rosengarten. Audio-Stories, Karte, Geheimtipps.",
+      "Selbstgeführte Tour durch die Berner Altstadt (UNESCO): 7 Stopps vom Zytglogge über das Einsteinhaus und Münster bis Bärenpark und Rosengarten. Audio-Stories, Karte, Geheimtipps.",
     keywords: ["Bern Sehenswürdigkeiten zu Fuss","Bern Altstadt Rundgang","Zytglogge Bern","Einsteinhaus Bern","Bern Audioguide"],
   },
   faq: [

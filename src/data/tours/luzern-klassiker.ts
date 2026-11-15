@@ -28,9 +28,9 @@ export const luzernKlassiker: Tour = {
   priceChf: 4.9,
   gradient: ["#1f4a6b", "#ff7a3d"],
   seo: {
-    metaTitle: "Luzern zu Fuss: Kapellbrücke, Museggmauer & Löwendenkmal mit Audioguide | Urban Trails",
+    metaTitle: "Luzern zu Fuss: Kapellbrücke, Museggmauer & Löwendenkmal mit Audioguide",
     metaDescription:
-      "Selbstgeführte Walking-Tour durch Luzern: 8 Stops von der Kapellbrücke über die Totentanz-Brücke und die Museggmauer bis zum Löwendenkmal. Mit Audio-Stories, Karte und Geheimtipps.",
+      "Selbstgeführte Walking-Tour durch Luzern: 8 Stopps von der Kapellbrücke über die Totentanz-Brücke und die Museggmauer bis zum Löwendenkmal. Mit Audio-Stories, Karte und Geheimtipps.",
     keywords: ["Luzern Sehenswürdigkeiten zu Fuss","Luzern Stadtrundgang","Kapellbrücke Luzern","Museggmauer Tour","Luzern Audioguide"],
   },
   faq: [

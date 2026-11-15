@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Check, X } from "lucide-react";
 import type { Riddle } from "@/lib/riddle-types";
 import { riddlePoints, type RiddleResult } from "@/lib/game";
 import { getRiddleResult, onGameChange, saveRiddleResult } from "@/lib/game-client";
@@ -69,7 +70,7 @@ export default function RiddleCard({ tourKey, stopId, riddle, compact = false }:
               }`}
             >
               <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-ink-800 font-display text-xs font-extrabold text-cream-dim">
-                {state === "right" ? "✓" : state === "wrong" ? "✕" : String.fromCharCode(65 + i)}
+                {state === "right" ? <Check size={14} aria-hidden="true" /> : state === "wrong" ? <X size={14} aria-hidden="true" /> : String.fromCharCode(65 + i)}
               </span>
               {o}
             </button>

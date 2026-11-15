@@ -74,7 +74,7 @@ export default function GuideChat({
   return (
     <div className="card overflow-hidden">
       <div className="border-b border-cream/10 bg-ink-800 px-6 py-4">
-        <h3 className="font-bold text-cream">💬 Frag deinen Guide</h3>
+        <h3 className="font-bold text-cream">Frag deinen Guide</h3>
         <p className="mt-1 text-xs text-cream-dim">
           Kaffee, Fotospots, Abkürzungen, Bars – frag, was du unterwegs wissen
           willst.

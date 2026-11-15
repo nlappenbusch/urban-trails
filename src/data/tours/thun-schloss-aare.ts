@@ -27,9 +27,9 @@ export const thunSchlossAare: Tour = {
   isPremium: false,
   gradient: ["#1f4a6b", "#9fc626"],
   seo: {
-    metaTitle: "Thun zu Fuss: Hochtrottoirs, Schloss & Aare-Surfer mit Audioguide | Urban Trails",
+    metaTitle: "Thun zu Fuss: Hochtrottoirs, Schloss & Aare-Surfer mit Audioguide",
     metaDescription:
-      "Gratis-Tour durch Thun: Obere Hauptgasse mit Hochtrottoirs, Zähringer-Schloss, Surferwelle an der Mühleschleuse und Alpenpanorama am Thunersee. 6 Stops mit Audio-Stories.",
+      "Gratis-Tour durch Thun: Obere Hauptgasse mit Hochtrottoirs, Zähringer-Schloss, Surferwelle an der Mühleschleuse und Alpenpanorama am Thunersee. 6 Stopps mit Audio-Stories.",
     keywords: ["Thun Sehenswürdigkeiten","Thun Altstadt Hochtrottoirs","Schloss Thun","Thun Surfer Welle","Thunersee Rundgang"],
   },
   faq: [

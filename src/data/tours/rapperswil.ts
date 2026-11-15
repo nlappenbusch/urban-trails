@@ -5,7 +5,7 @@ export const rapperswil: Tour = {
   slug: "rapperswil",
   citySlug: "rapperswil",
   category: "natur-escape",
-  name: "Rapperswil: Rundgang zu Fuss mit Audio-Guide & Karte",
+  name: "Rapperswil – Schloss, Rosen & See",
   claim: "Schloss, 20'000 Rosen und ein Spaziergang übers Wasser – Dolce Vita, 40 Minuten von Zürich.",
   teaser: "Mittelalterschloss über dem Zürichsee, 20'000 Rosen, ein Kapuzinerkloster und ein Spaziergang übers Wasser – Dolce Vita, 40 Minuten von Zürich.",
   description: "Rapperswil fühlt sich an wie Ferien: Palmen am Seequai, ein Schloss auf dem Felsen, Gassen voller Rosenduft und überall das Glitzern des Zürichsees. Das Städtchen (offiziell Rapperswil-Jona, Kanton St. Gallen) trägt den Beinamen Rosenstadt – über 20'000 Rosenstöcke blühen in den öffentlichen Gärten. Diese kompakte Tour führt durch die Altstadt hinauf zum Schloss, durch die Rosengärten zum stillen Kapuzinerkloster – und zum Schluss zu Fuss über den See: auf dem Holzsteg, der den ältesten Seeübergang der Schweiz nachzeichnet.",
@@ -24,9 +24,9 @@ export const rapperswil: Tour = {
   priceChf: 4.9,
   gradient: ["#c14b6e", "#1d1b16"],
   seo: {
-    metaTitle: "Rapperswil: Rundgang zu Fuss mit Audio-Guide & Karte: Selbstgeführte Walking-Tour mit Audioguide | Urban Trails",
-    metaDescription: "Mittelalterschloss über dem Zürichsee, 20'000 Rosen, ein Kapuzinerkloster und ein Spaziergang übers Wasser – Dolce Vita, 40 Minuten von Zürich. 7 Stops, fertige Audio-Stories, Karte und Geheimtipps.",
-    keywords: ["Rapperswil: Rundgang zu Fuss mit Audio-Guide & Karte Tour", "Rapperswil: Rundgang zu Fuss mit Audio-Guide & Karte Sehenswürdigkeiten zu Fuss", "Rapperswil: Rundgang zu Fuss mit Audio-Guide & Karte Audioguide", "Rapperswil: Rundgang zu Fuss mit Audio-Guide & Karte Rundgang"],
+    metaTitle: "Rapperswil zu Fuss: Schloss, Rosengärten & Seequai mit Audioguide",
+    metaDescription: "Mittelalterschloss über dem Zürichsee, 20'000 Rosen, ein Kapuzinerkloster und ein Spaziergang übers Wasser – Dolce Vita, 40 Minuten von Zürich. 7 Stopps, fertige Audio-Stories, Karte und Geheimtipps.",
+    keywords: ["Rapperswil Tour", "Rapperswil Sehenswürdigkeiten zu Fuss", "Rapperswil Audioguide", "Rapperswil Rundgang"],
   },
   faq: [
     { question: "Wie lange dauert die Tour?", answer: "Mit Pausen rund 1 bis 2 Stunden – reine Gehzeit deutlich weniger. Du kannst jederzeit abkürzen oder verlängern." },

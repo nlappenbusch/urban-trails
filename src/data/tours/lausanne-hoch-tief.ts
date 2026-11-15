@@ -28,9 +28,9 @@ export const lausanneHochTief: Tour = {
   priceChf: 4.9,
   gradient: ["#4a1f6b", "#38a5ff"],
   seo: {
-    metaTitle: "Lausanne zu Fuss: Kathedrale, Flon & Ouchy mit Audioguide | Urban Trails",
+    metaTitle: "Lausanne zu Fuss: Kathedrale, Flon & Ouchy mit Audioguide",
     metaDescription:
-      "Selbstgeführte Tour durch Lausanne: Kathedrale mit Nachtwächter, Escaliers du Marché, Szeneviertel Flon und Olympia-Hafen Ouchy. 6 Stops bergab, mit Audio-Stories.",
+      "Selbstgeführte Tour durch Lausanne: Kathedrale mit Nachtwächter, Escaliers du Marché, Szeneviertel Flon und Olympia-Hafen Ouchy. 6 Stopps bergab, mit Audio-Stories.",
     keywords: ["Lausanne Sehenswürdigkeiten","Lausanne Altstadt Rundgang","Kathedrale Lausanne Nachtwächter","Flon Lausanne","Ouchy Lausanne"],
   },
   faq: [

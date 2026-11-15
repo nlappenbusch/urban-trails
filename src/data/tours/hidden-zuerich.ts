@@ -9,7 +9,7 @@ export const hiddenZuerich: Tour = {
   teaser:
     "Kreis 5 statt Bahnhofstrasse: Josefwiese, Negrellisteg, Freitag-Tower, Viadukt und das wilde Erbe von Zürich-West.",
   description:
-    "Diese Tour zeigt dir das Zürich der Zürcher: das ehemalige Industriequartier im Kreis 5, wo Schiffsmotoren gebaut wurden und heute Festivals, Flohmärkte und die beste Aussicht von einem Container-Turm zu Hause sind. Du läufst über den Negrellisteg über ein Gleismeer, kletterst auf den Freitag-Tower, isst dich durch die Markthalle und endest dort, wo Zürich am ehrlichsten ist: am Wasser des Oberen Lettens. Mindestens acht der elf Stops kennt kein Standard-Reiseführer.",
+    "Diese Tour zeigt dir das Zürich der Zürcher: das ehemalige Industriequartier im Kreis 5, wo Schiffsmotoren gebaut wurden und heute Festivals, Flohmärkte und die beste Aussicht von einem Container-Turm zu Hause sind. Du läufst über den Negrellisteg über ein Gleismeer, kletterst auf den Freitag-Tower, isst dich durch die Markthalle und endest dort, wo Zürich am ehrlichsten ist: am Wasser des Oberen Lettens. Mindestens acht der elf Stopps kennt kein Standard-Reiseführer.",
   moods: ["fotografie", "menschen", "kultur", "ueberraschung"],
   audience: "Wiederholungsbesucher, Expats, Neu-Zuzüger, Foto-Fans – alle, die das echte Zürich suchen.",
   vibe: "Urban, rau, kreativ – Backstein, Stahl, Streetart und überraschend viel Gemütlichkeit.",
@@ -29,9 +29,9 @@ export const hiddenZuerich: Tour = {
   gradient: ["#3d1d54", "#f25c1f"],
   imageHint: "Freitag-Tower aus Frachtcontainern vor Prime Tower im Abendlicht",
   seo: {
-    metaTitle: "Hidden Zürich: Geheimtipps-Tour durch Zürich-West mit Audioguide | Urban Trails",
+    metaTitle: "Hidden Zürich: Geheimtipps-Tour durch Zürich-West mit Audioguide",
     metaDescription:
-      "Zürich abseits der Touristenpfade: 11 Stops durch Kreis 5 – Freitag Tower, Negrellisteg, Josefwiese, Im Viadukt, Frau Gerolds Garten und Oberer Letten. Selbstgeführte Tour mit Karte und Audio.",
+      "Zürich abseits der Touristenpfade: 11 Stopps durch Kreis 5 – Freitag Tower, Negrellisteg, Josefwiese, Im Viadukt, Frau Gerolds Garten und Oberer Letten. Selbstgeführte Tour mit Karte und Audio.",
     keywords: [
       "Zürich Geheimtipps",
       "Zürich Hidden Gems",

@@ -28,9 +28,9 @@ export const baselRhein: Tour = {
   priceChf: 4.9,
   gradient: ["#1f6b5e", "#ff7a3d"],
   seo: {
-    metaTitle: "Basel zu Fuss: Münster, Rheinfähre & Kleinbasel mit Audioguide | Urban Trails",
+    metaTitle: "Basel zu Fuss: Münster, Rheinfähre & Kleinbasel mit Audioguide",
     metaDescription:
-      "Selbstgeführte Tour durch Basel: 7 Stops vom roten Rathaus über die Pfalz und Mittlere Brücke bis zur motorlosen Rheinfähre und ans Kleinbasler Ufer. Audio-Stories, Karte, Geheimtipps.",
+      "Selbstgeführte Tour durch Basel: 7 Stopps vom roten Rathaus über die Pfalz und Mittlere Brücke bis zur motorlosen Rheinfähre und ans Kleinbasler Ufer. Audio-Stories, Karte, Geheimtipps.",
     keywords: ["Basel Sehenswürdigkeiten zu Fuss","Basel Altstadt Rundgang","Basler Münster Pfalz","Rheinfähre Basel","Basel Audioguide"],
   },
   faq: [

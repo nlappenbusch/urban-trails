@@ -29,9 +29,9 @@ export const ichMussMalRaus: Tour = {
   priceChf: 4.9,
   gradient: ["#1d4a2a", "#ff7a3d"],
   seo: {
-    metaTitle: "Uetliberg–Felsenegg: Die «Ich muss mal raus»-Tour mit Audioguide | Urban Trails",
+    metaTitle: "Uetliberg–Felsenegg: Die «Ich muss mal raus»-Tour mit Audioguide",
     metaDescription:
-      "Zürichs schönste Feierabend-Flucht: Uetlibergbahn, Aussichtsturm, Planetenweg über den Albisgrat und Sonnenuntergang auf der Felsenegg. 7.5 km, 6 Stops, mit Karte und Audio-Stories.",
+      "Zürichs schönste Feierabend-Flucht: Uetlibergbahn, Aussichtsturm, Planetenweg über den Albisgrat und Sonnenuntergang auf der Felsenegg. 7.5 km, 6 Stopps, mit Karte und Audio-Stories.",
     keywords: [
       "Uetliberg Wanderung",
       "Uetliberg Felsenegg Planetenweg",

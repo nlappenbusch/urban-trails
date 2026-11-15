@@ -11,9 +11,8 @@ export default function Footer() {
             URBAN TRAILS <span className="text-signal-500">CH</span>
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-cream-dim">
-            Walking-Touren für Vibes statt Sehenswürdigkeiten. Audio-Stories,
-            Geheimtipps mit Adresse, Social-Check – handgemacht, Stadt für
-            Stadt.
+            Selbstgeführte Walking-Touren durch Schweizer Städte: Audio-Story,
+            Navi und Rätsel an jedem Stopp. Kostenlos.
           </p>
         </div>
         <div>
@@ -22,9 +21,7 @@ export default function Footer() {
             {destinations.slice(0, 6).map((d) => (
               <li key={d.slug}>
                 {d.comingSoon ? (
-                  <span className="text-cream-faint">
-                    {d.name} <span className="chip ml-1">bald</span>
-                  </span>
+                  <span className="text-cream-faint">{d.name} (bald)</span>
                 ) : (
                   <Link
                     href={`/${d.slug}`}
@@ -35,8 +32,10 @@ export default function Footer() {
                 )}
               </li>
             ))}
-            <li className="text-cream-faint">
-              + {Math.max(0, destinations.length - 6)} weitere unterwegs
+            <li>
+              <Link href="/destinationen" className="text-cream-faint hover:text-cream">
+                + {Math.max(0, destinations.length - 6)} weitere
+              </Link>
             </li>
           </ul>
         </div>
@@ -94,11 +93,6 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-      </div>
-      <div aria-hidden="true" className="overflow-hidden">
-        <p className="outline-word -mb-[1.5vw] whitespace-nowrap text-center text-[12.5vw] transition-colors hover:text-signal-500/10">
-          URBAN TRAILS
-        </p>
       </div>
       <div className="border-t border-cream/10 py-5 text-center text-xs text-cream-faint">
         © {new Date().getFullYear()} Urban Trails Switzerland — made with viel

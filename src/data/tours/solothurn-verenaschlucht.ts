@@ -29,9 +29,9 @@ export const solothurnVerenaschlucht: Tour = {
   gradient: ["#1e4634", "#9bc46a"],
   imageHint: "Bachweg in der Verenaschlucht mit Felswänden und Moos",
   seo: {
-    metaTitle: "Verenaschlucht & Schloss Waldegg: Natur-Tour ab Solothurn mit Audioguide | Urban Trails",
+    metaTitle: "Verenaschlucht & Schloss Waldegg: Natur-Tour ab Solothurn mit Audioguide",
     metaDescription:
-      "Von der Aare durch die Verenaschlucht zur Einsiedelei St. Verena, über Kreuzen und den Kreuzweg zum Barockschloss Waldegg – 7 Stops mit Audio-Stories, Karte und Geheimtipps.",
+      "Von der Aare durch die Verenaschlucht zur Einsiedelei St. Verena, über Kreuzen und den Kreuzweg zum Barockschloss Waldegg – 7 Stopps mit Audio-Stories, Karte und Geheimtipps.",
     keywords: [
       "Verenaschlucht Solothurn",
       "Einsiedelei St. Verena",
@@ -49,7 +49,7 @@ export const solothurnVerenaschlucht: Tour = {
     {
       question: "Kann ich die Tour abkürzen?",
       answer:
-        "Ja. Bus 4 hält bei «St. Niklaus SO» direkt am Schluchteingang und bei «Rüttenen, Grünegg» unterhalb von Kreuzen. Wer nur die Schlucht will, fährt mit Bus 4 hin und startet bei Stop 3.",
+        "Ja. Bus 4 hält bei «St. Niklaus SO» direkt am Schluchteingang und bei «Rüttenen, Grünegg» unterhalb von Kreuzen. Wer nur die Schlucht will, fährt mit Bus 4 hin und startet bei Stopp 3.",
     },
     {
       question: "Ist Schloss Waldegg offen?",

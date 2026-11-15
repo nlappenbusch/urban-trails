@@ -5,7 +5,7 @@ export const regensberg: Tour = {
   slug: "regensberg",
   citySlug: "regensberg",
   category: "hidden-gems",
-  name: "Regensberg: Rundgang zu Fuss mit Audio-Guide & Karte",
+  name: "Regensberg – Mittelalter auf dem Hügel",
   claim: "Ein komplettes Mittelalterstädtchen auf dem Hügel – und kaum jemand kennt es.",
   teaser: "Ein komplettes Mittelalterstädtchen auf einem Hügelsporn: Rundturm, Schloss, Fachwerk und Reben – 25 Minuten von Zürich, null Touristenströme.",
   description: "Es gibt Orte, bei denen man sich fragt, warum sie nicht weltberühmt sind. Regensberg ist so einer: ein vollständig erhaltenes Burgstädtchen aus dem 13. Jahrhundert, hingebaut auf einen Felssporn über dem Wehntal – Fachwerkhäuser, Schloss, Rundturm, Rebberge. Keine Souvenirläden, keine Reisebusse. Nur etwa 500 Einwohner und sehr viel Mittelalter. Die Tour durch das Städtchen selbst ist kurz – kombiniere sie mit dem Aufstieg von Dielsdorf (schöner!) oder einer Wanderung über den Lägern-Grat, dann wird ein halber Tag daraus.",
@@ -23,9 +23,9 @@ export const regensberg: Tour = {
   isPremium: false,
   gradient: ["#9a6516", "#1d1b16"],
   seo: {
-    metaTitle: "Regensberg: Rundgang zu Fuss mit Audio-Guide & Karte: Selbstgeführte Walking-Tour mit Audioguide | Urban Trails",
-    metaDescription: "Ein komplettes Mittelalterstädtchen auf einem Hügelsporn: Rundturm, Schloss, Fachwerk und Reben – 25 Minuten von Zürich, null Touristenströme. 7 Stops, fertige Audio-Stories, Karte und Geheimtipps.",
-    keywords: ["Regensberg: Rundgang zu Fuss mit Audio-Guide & Karte Tour", "Regensberg: Rundgang zu Fuss mit Audio-Guide & Karte Sehenswürdigkeiten zu Fuss", "Regensberg: Rundgang zu Fuss mit Audio-Guide & Karte Audioguide", "Regensberg: Rundgang zu Fuss mit Audio-Guide & Karte Rundgang"],
+    metaTitle: "Regensberg zu Fuss: Rundturm, Schloss & Städtli mit Audioguide",
+    metaDescription: "Ein komplettes Mittelalterstädtchen auf einem Hügelsporn: Rundturm, Schloss, Fachwerk und Reben – 25 Minuten von Zürich, null Touristenströme. 7 Stopps, fertige Audio-Stories, Karte und Geheimtipps.",
+    keywords: ["Regensberg Tour", "Regensberg Sehenswürdigkeiten zu Fuss", "Regensberg Audioguide", "Regensberg Rundgang"],
   },
   faq: [
     { question: "Wie lange dauert die Tour?", answer: "Mit Pausen rund 1 bis 2 Stunden – reine Gehzeit deutlich weniger. Du kannst jederzeit abkürzen oder verlängern." },

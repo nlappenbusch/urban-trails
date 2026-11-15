@@ -28,9 +28,9 @@ export const badenAltstadt: Tour = {
   priceChf: 4.9,
   gradient: ["#7a3b1f", "#38a5ff"],
   seo: {
-    metaTitle: "Baden AG zu Fuss: Altstadt, Holzbrücke & Bäderquartier mit Audioguide | Urban Trails",
+    metaTitle: "Baden AG zu Fuss: Altstadt, Holzbrücke & Bäderquartier mit Audioguide",
     metaDescription:
-      "Selbstgeführte Tour durch Baden: Stadtturm, gedeckte Holzbrücke, Ruine Stein und die heissesten Thermalquellen der Schweiz. 6 Stops, Karte, Audio-Stories und Geheimtipps – 15 Minuten ab Zürich.",
+      "Selbstgeführte Tour durch Baden: Stadtturm, gedeckte Holzbrücke, Ruine Stein und die heissesten Thermalquellen der Schweiz. 6 Stopps, Karte, Audio-Stories und Geheimtipps – 15 Minuten ab Zürich.",
     keywords: [
       "Baden AG Sehenswürdigkeiten",
       "Baden Altstadt Rundgang",
@@ -58,7 +58,7 @@ export const badenAltstadt: Tour = {
     {
       question: "Wo isst man gut?",
       answer:
-        "In der Altstadt zwischen Stadtturm und Holzbrücke reihen sich Cafés und Beizen; konkrete Tipps stehen bei den Stops.",
+        "In der Altstadt zwischen Stadtturm und Holzbrücke reihen sich Cafés und Beizen; konkrete Tipps stehen bei den Stopps.",
     },
   ],
   stops: [

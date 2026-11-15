@@ -27,9 +27,9 @@ export const churAeltesteStadt: Tour = {
   isPremium: false,
   gradient: ["#4a3a1f", "#9fc626"],
   seo: {
-    metaTitle: "Chur zu Fuss: Altstadt, Kathedrale & Brambrüesch mit Audioguide | Urban Trails",
+    metaTitle: "Chur zu Fuss: Altstadt, Kathedrale & Brambrüesch mit Audioguide",
     metaDescription:
-      "Gratis-Tour durch Chur, die älteste Stadt der Schweiz: Obertor, Arcas-Platz, Bischöflicher Hof, Obere Gasse und die Stadtseilbahn nach Brambrüesch. 6 Stops mit Audio-Stories.",
+      "Gratis-Tour durch Chur, die älteste Stadt der Schweiz: Obertor, Arcas-Platz, Bischöflicher Hof, Obere Gasse und die Stadtseilbahn nach Brambrüesch. 6 Stopps mit Audio-Stories.",
     keywords: ["Chur Sehenswürdigkeiten","Chur Altstadt Rundgang","älteste Stadt der Schweiz","Brambrüesch Chur","Chur Audioguide"],
   },
   faq: [

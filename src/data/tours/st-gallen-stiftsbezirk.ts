@@ -9,7 +9,7 @@ export const stGallenStiftsbezirk: Tour = {
   teaser:
     "Vom UNESCO-Stiftsbezirk mit der schönsten Bibliothek der Welt durch die Erker-Altstadt zur knallroten Stadtlounge – und hinauf zu den Drei Weieren.",
   description:
-    "St. Gallen verdankt einem irischen Wandermönch seinen Namen und einem Buchstaben-Schatz seinen Weltruhm: Die Stiftsbibliothek hütet 170'000 Bände, darunter Handschriften aus der Zeit Karls des Grossen – der Saal dazu gilt als schönster Bibliotheksraum der Welt. Drumherum: eine Altstadt, deren Kaufleute sich mit immer prächtigeren Erkern überboten, ein Stadtquartier, das Pipilotti Rist kurzerhand mit rotem Belag übergoss, und über allem die Drei Weieren – Badeteiche mit Stadtblick. Textilgeld, Klosterwissen, Kunst-Mut: St. Gallen in sechs Stops.",
+    "St. Gallen verdankt einem irischen Wandermönch seinen Namen und einem Buchstaben-Schatz seinen Weltruhm: Die Stiftsbibliothek hütet 170'000 Bände, darunter Handschriften aus der Zeit Karls des Grossen – der Saal dazu gilt als schönster Bibliotheksraum der Welt. Drumherum: eine Altstadt, deren Kaufleute sich mit immer prächtigeren Erkern überboten, ein Stadtquartier, das Pipilotti Rist kurzerhand mit rotem Belag übergoss, und über allem die Drei Weieren – Badeteiche mit Stadtblick. Textilgeld, Klosterwissen, Kunst-Mut: St. Gallen in sechs Stopps.",
   moods: ["kultur", "aussicht", "ruhe"],
   audience: "Bücherfreunde, Architektur-Fans, Ostschweiz-Entdecker – ideal als Tagesausflug ab Zürich (1 h).",
   vibe: "Gelehrt und verspielt zugleich – Barock trifft Pipilotti Rist.",
@@ -28,9 +28,9 @@ export const stGallenStiftsbezirk: Tour = {
   priceChf: 4.9,
   gradient: ["#1f4a2a", "#d63f00"],
   seo: {
-    metaTitle: "St. Gallen zu Fuss: Stiftsbibliothek, Erker & Drei Weieren mit Audioguide | Urban Trails",
+    metaTitle: "St. Gallen zu Fuss: Stiftsbibliothek, Erker & Drei Weieren mit Audioguide",
     metaDescription:
-      "Selbstgeführte Tour durch St. Gallen: UNESCO-Stiftsbezirk, die schönste Bibliothek der Welt, Erker-Altstadt, rote Stadtlounge und Drei Weieren. 6 Stops mit Audio-Stories.",
+      "Selbstgeführte Tour durch St. Gallen: UNESCO-Stiftsbezirk, die schönste Bibliothek der Welt, Erker-Altstadt, rote Stadtlounge und Drei Weieren. 6 Stopps mit Audio-Stories.",
     keywords: ["St. Gallen Sehenswürdigkeiten","Stiftsbibliothek St. Gallen","St. Gallen Altstadt Rundgang","Drei Weieren","St. Gallen Audioguide"],
   },
   faq: [

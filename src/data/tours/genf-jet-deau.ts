@@ -28,9 +28,9 @@ export const genfJetDeau: Tour = {
   priceChf: 4.9,
   gradient: ["#1f3a6b", "#38a5ff"],
   seo: {
-    metaTitle: "Genf zu Fuss: Jet d'eau, Vieille Ville & Bains des Pâquis mit Audioguide | Urban Trails",
+    metaTitle: "Genf zu Fuss: Jet d'eau, Vieille Ville & Bains des Pâquis mit Audioguide",
     metaDescription:
-      "Selbstgeführte Tour durch Genf: Jet d'eau, Kathedrale St-Pierre, Reformationsmauer und das Kultbad Bains des Pâquis. 6 Stops mit Audio-Stories, Karte und Geheimtipps.",
+      "Selbstgeführte Tour durch Genf: Jet d'eau, Kathedrale St-Pierre, Reformationsmauer und das Kultbad Bains des Pâquis. 6 Stopps mit Audio-Stories, Karte und Geheimtipps.",
     keywords: ["Genf Sehenswürdigkeiten zu Fuss","Genf Altstadt Rundgang","Jet d'eau Genf","Bains des Pâquis","Genf Audioguide deutsch"],
   },
   faq: [

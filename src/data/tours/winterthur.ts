@@ -5,7 +5,7 @@ export const winterthur: Tour = {
   slug: "winterthur",
   citySlug: "winterthur",
   category: "urban-vibes",
-  name: "Winterthur: Rundgang zu Fuss mit Audio-Guide & Karte",
+  name: "Winterthur – Altstadt & Sulzerareal",
   claim: "Biedermeier-Gassen vorne, Industriekathedralen hinten – die unterschätzteste Stadt der Schweiz.",
   teaser: "Die grösste Fussgänger-Altstadt der Schweiz, dazu Maschinenhallen, in denen heute Bier gebraut und geklettert wird – Winterthur überrascht.",
   description: "Winterthur steht ewig im Schatten Zürichs – völlig zu Unrecht. Die sechstgrösste Stadt der Schweiz hat die grösste zusammenhängende Fussgänger-Altstadt des Landes, Museen von Weltrang und ein Industrie-Erbe, das gerade zum spannendsten Stadtumbau der Schweiz wird: Im Sulzerareal werden aus Lokomotiv- und Maschinenhallen Hochschulen, Brauereien, Kletterhallen und Wohntürme aus Holz. Diese Tour verbindet beide Welten: vorne Biedermeier-Gassen, hinten Industriekathedralen. Alles flach, alles nah, perfekt auch bei unsicherem Wetter.",
@@ -24,9 +24,9 @@ export const winterthur: Tour = {
   priceChf: 4.9,
   gradient: ["#2f7d4f", "#1d1b16"],
   seo: {
-    metaTitle: "Winterthur: Rundgang zu Fuss mit Audio-Guide & Karte: Selbstgeführte Walking-Tour mit Audioguide | Urban Trails",
-    metaDescription: "Die grösste Fussgänger-Altstadt der Schweiz, dazu Maschinenhallen, in denen heute Bier gebraut und geklettert wird – Winterthur überrascht. 7 Stops, fertige Audio-Stories, Karte und Geheimtipps.",
-    keywords: ["Winterthur: Rundgang zu Fuss mit Audio-Guide & Karte Tour", "Winterthur: Rundgang zu Fuss mit Audio-Guide & Karte Sehenswürdigkeiten zu Fuss", "Winterthur: Rundgang zu Fuss mit Audio-Guide & Karte Audioguide", "Winterthur: Rundgang zu Fuss mit Audio-Guide & Karte Rundgang"],
+    metaTitle: "Winterthur zu Fuss: Altstadt, Semper-Stadthaus & Sulzerareal mit Audioguide",
+    metaDescription: "Die grösste Fussgänger-Altstadt der Schweiz, dazu Maschinenhallen, in denen heute Bier gebraut und geklettert wird – Winterthur überrascht. 7 Stopps, fertige Audio-Stories, Karte und Geheimtipps.",
+    keywords: ["Winterthur Tour", "Winterthur Sehenswürdigkeiten zu Fuss", "Winterthur Audioguide", "Winterthur Rundgang"],
   },
   faq: [
     { question: "Wie lange dauert die Tour?", answer: "Mit Pausen rund 2 bis 3 Stunden – reine Gehzeit deutlich weniger. Du kannst jederzeit abkürzen oder verlängern." },

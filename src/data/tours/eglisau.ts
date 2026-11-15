@@ -5,7 +5,7 @@ export const eglisau: Tour = {
   slug: "eglisau",
   citySlug: "eglisau",
   category: "natur-escape",
-  name: "Eglisau: Rundgang zu Fuss mit Audio-Guide & Karte",
+  name: "Eglisau – das Städtli am Rhein",
   claim: "Bunte Fassaden am Rhein, Reben mit Flussblick und eine Badi im Strom.",
   teaser: "Bunte Fassaden direkt am Rheinufer, Weinterrassen mit Flussblick und eine Badi im Strom – das südlichste Rheinstädtchen ist ein Kurzferien-Ort.",
   description: "Eglisau ist der Beweis, dass die schönsten Ausflüge manchmal die nächsten sind: 35 Minuten ab Zürich HB, und du stehst in einem Städtchen, dessen Häuserzeile direkt aus dem Rhein zu wachsen scheint. Giebelhäuser von 1600, eine Kirche über dem Strom, Rebberge mit Aussichtskanzeln – und im Sommer treiben die Einheimischen im badewannenwarmen, smaragdgrünen Rhein. Die Tour führt vom Bahnhof hinunter ins Städtli, über die Brücke mit dem Postkartenblick, hinauf in die Reben und zum Abschluss an – oder in – den Fluss.",
@@ -23,9 +23,9 @@ export const eglisau: Tour = {
   isPremium: false,
   gradient: ["#3a6ea5", "#1d1b16"],
   seo: {
-    metaTitle: "Eglisau: Rundgang zu Fuss mit Audio-Guide & Karte: Selbstgeführte Walking-Tour mit Audioguide | Urban Trails",
-    metaDescription: "Bunte Fassaden direkt am Rheinufer, Weinterrassen mit Flussblick und eine Badi im Strom – das südlichste Rheinstädtchen ist ein Kurzferien-Ort. 6 Stops, fertige Audio-Stories, Karte und Geheimtipps.",
-    keywords: ["Eglisau: Rundgang zu Fuss mit Audio-Guide & Karte Tour", "Eglisau: Rundgang zu Fuss mit Audio-Guide & Karte Sehenswürdigkeiten zu Fuss", "Eglisau: Rundgang zu Fuss mit Audio-Guide & Karte Audioguide", "Eglisau: Rundgang zu Fuss mit Audio-Guide & Karte Rundgang"],
+    metaTitle: "Eglisau zu Fuss: Städtli, Rheinbrücke & Rebberg mit Audioguide",
+    metaDescription: "Bunte Fassaden direkt am Rheinufer, Weinterrassen mit Flussblick und eine Badi im Strom – das südlichste Rheinstädtchen ist ein Kurzferien-Ort. 6 Stopps, fertige Audio-Stories, Karte und Geheimtipps.",
+    keywords: ["Eglisau Tour", "Eglisau Sehenswürdigkeiten zu Fuss", "Eglisau Audioguide", "Eglisau Rundgang"],
   },
   faq: [
     { question: "Wie lange dauert die Tour?", answer: "Mit Pausen rund 1 bis 2 Stunden – reine Gehzeit deutlich weniger. Du kannst jederzeit abkürzen oder verlängern." },

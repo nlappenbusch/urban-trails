@@ -30,9 +30,9 @@ export const urbanSunsetWalk: Tour = {
   gradient: ["#1a2336", "#ff7a3d"],
   imageHint: "Sonnenuntergang über dem Zürichsee von der Saffa-Insel, Uetliberg als Silhouette",
   seo: {
-    metaTitle: "Urban Sunset Walk Zürich: Die Feierabend-Tour zum Sonnenuntergang | Urban Trails",
+    metaTitle: "Urban Sunset Walk Zürich: Die Feierabend-Tour zum Sonnenuntergang",
     metaDescription:
-      "Die schönste Abendtour durch Zürich: Polyterrasse, Lindenhof, Seepromenade und Sonnenuntergang auf der Saffa-Insel. 5.5 km, 9 Stops, mit Audioguide und Karte – perfekt nach Feierabend.",
+      "Die schönste Abendtour durch Zürich: Polyterrasse, Lindenhof, Seepromenade und Sonnenuntergang auf der Saffa-Insel. 5.5 km, 9 Stopps, mit Audioguide und Karte – perfekt nach Feierabend.",
     keywords: [
       "Zürich Sonnenuntergang Spots",
       "Zürich Feierabend Spaziergang",

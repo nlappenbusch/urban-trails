@@ -4,6 +4,7 @@ import Link from "next/link";
 import { categories, getCategory, getToursByCategory } from "@/lib/categories";
 import type { Category } from "@/lib/types";
 import TourCard from "@/components/TourCard";
+import CategoryIcon from "@/components/CategoryIcon";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cat = getCategory(slug);
   if (!cat) return {};
   return {
-    title: `${cat.emoji} ${cat.name} – Touren nach Stimmung`,
+    title: `${cat.name} – Touren nach Stimmung`,
     description: `${cat.claim} ${cat.description}`,
     alternates: { canonical: `/kategorien/${cat.slug}` },
   };
@@ -39,8 +40,10 @@ export default async function CategoryPage({ params }: Props) {
       >
         ← Alle Kategorien
       </Link>
-      <p className="mt-6 text-5xl">{cat.emoji}</p>
-      <h1 className="headline mt-3 text-5xl text-cream sm:text-6xl">
+      <span className="mt-6 grid h-14 w-14 place-items-center rounded-full bg-signal-500/10 text-signal-600">
+        <CategoryIcon slug={cat.slug} size={28} />
+      </span>
+      <h1 className="headline mt-4 text-5xl text-cream sm:text-6xl">
         {cat.name}
       </h1>
       <p className="mt-3 max-w-xl text-lg text-cream-dim">{cat.claim}</p>

@@ -9,7 +9,7 @@ export const chreisCheib: Tour = {
   teaser:
     "Die Tour, die kein Reiseführer kennt: Idaplatz-Apéro, Friedhof-Flanieren, Genossenschafts-Utopien, 1.-Mai-Pflaster und die Gasse, in der ein junger Mussolini Revolution lernte.",
   description:
-    "«Chreis Cheib» nannten die Zürcher den Kreis 4 – nach den Tierkadavern (Cheibe), die hier einst vergraben wurden. Heute ist das Gebiet zwischen Wiedikon und Limmatplatz das ehrlichste Stück Zürich: Arbeitergeschichte, italienische Einwanderung, Genossenschafts-Avantgarde, Rotlicht-Vergangenheit und die beste Apéro-Kultur der Stadt. Diese Tour führt dich an Orte, an denen du garantiert keine Reisegruppe triffst – dafür bei jedem Stop einen Social-Check: Wie gut kommst du hier alleine klar, wo ergeben sich Gespräche, wer hängt hier ab? Das ist die Tour für alle, die eine Stadt nicht besichtigen, sondern verstehen wollen.",
+    "«Chreis Cheib» nannten die Zürcher den Kreis 4 – nach den Tierkadavern (Cheibe), die hier einst vergraben wurden. Heute ist das Gebiet zwischen Wiedikon und Limmatplatz das ehrlichste Stück Zürich: Arbeitergeschichte, italienische Einwanderung, Genossenschafts-Avantgarde, Rotlicht-Vergangenheit und die beste Apéro-Kultur der Stadt. Diese Tour führt dich an Orte, an denen du garantiert keine Reisegruppe triffst – dafür bei jedem Stopp einen Social-Check: Wie gut kommst du hier alleine klar, wo ergeben sich Gespräche, wer hängt hier ab? Das ist die Tour für alle, die eine Stadt nicht besichtigen, sondern verstehen wollen.",
   moods: ["menschen", "kultur", "essen", "ueberraschung"],
   audience:
     "Wiederholungstäter, Neu-Zuzüger, Expats, Solo-Traveller und alle, die wissen wollen, wie Zürich wirklich tickt.",
@@ -30,9 +30,9 @@ export const chreisCheib: Tour = {
   gradient: ["#7a1f3d", "#e8a33d"],
   imageHint: "Idaplatz im Abendlicht mit Apéro-Publikum unter Bäumen",
   seo: {
-    metaTitle: "Chreis Cheib: Die Insider-Tour durch Zürichs Kreis 3 & 4 | Urban Trails",
+    metaTitle: "Chreis Cheib: Die Insider-Tour durch Zürichs Kreis 3 & 4",
     metaDescription:
-      "Zürich wie ein Local: Idaplatz, Friedhof Sihlfeld, Kalkbreite, Helvetiaplatz, Kanzlei-Flohmarkt und Langstrasse – 10 Stops Quartierleben mit Audioguide, Social-Check und Geschichten, die kein Reiseführer kennt.",
+      "Zürich wie ein Local: Idaplatz, Friedhof Sihlfeld, Kalkbreite, Helvetiaplatz, Kanzlei-Flohmarkt und Langstrasse – 10 Stopps Quartierleben mit Audioguide, Social-Check und Geschichten, die kein Reiseführer kennt.",
     keywords: [
       "Zürich Insider Tipps",
       "Kreis 4 Zürich Tour",
@@ -56,7 +56,7 @@ export const chreisCheib: Tour = {
     {
       question: "Was ist der Social-Check?",
       answer:
-        "Bei den wichtigsten Stops bewerten wir: Fühlt sich der Ort alleine gut an? Wie wahrscheinlich sind Gespräche? Wer ist das Publikum? Wann ist die beste Zeit? Perfekt für Solo-Traveller und alle, die Leute kennenlernen wollen.",
+        "Bei den wichtigsten Stopps bewerten wir: Fühlt sich der Ort alleine gut an? Wie wahrscheinlich sind Gespräche? Wer ist das Publikum? Wann ist die beste Zeit? Perfekt für Solo-Traveller und alle, die Leute kennenlernen wollen.",
     },
     {
       question: "Welcher Tag ist ideal?",
@@ -66,7 +66,7 @@ export const chreisCheib: Tour = {
     {
       question: "Wo esse ich unterwegs am besten?",
       answer:
-        "Das Quartier ist Zürichs Food-Hotspot: vom italienischen Cooperativo-Erbe über türkische Bäckereien bis zu den Beizen am Idaplatz. Konkrete Empfehlungen stehen bei jedem Stop.",
+        "Das Quartier ist Zürichs Food-Hotspot: vom italienischen Cooperativo-Erbe über türkische Bäckereien bis zu den Beizen am Idaplatz. Konkrete Empfehlungen stehen bei jedem Stopp.",
     },
     {
       question: "Funktioniert die Tour auch tagsüber?",

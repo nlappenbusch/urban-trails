@@ -3,13 +3,13 @@
 import { useMemo, useState } from "react";
 import type { TourLite } from "@/lib/tour-lite";
 import TourCardView from "@/components/TourCardView";
+import CategoryIcon from "@/components/CategoryIcon";
 
 export type { TourLite };
 
 export interface CatChip {
   slug: string;
   name: string;
-  emoji: string;
 }
 
 export default function TourExplorer({
@@ -52,13 +52,14 @@ export default function TourExplorer({
           <button
             key={c.slug}
             onClick={() => setCat(cat === c.slug ? null : c.slug)}
-            className={`rounded-full px-3.5 py-1.5 text-sm font-bold transition ${
+            className={`inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-sm font-bold transition ${
               cat === c.slug
                 ? "bg-signal-500 text-white"
                 : "border border-cream/15 bg-ink-900 text-cream-dim hover:border-signal-500/50 hover:text-cream"
             }`}
           >
-            {c.emoji} {c.name}
+            <CategoryIcon slug={c.slug} size={15} />
+            {c.name}
           </button>
         ))}
       </div>

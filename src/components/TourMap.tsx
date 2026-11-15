@@ -2,6 +2,7 @@
 // Pin-Tap öffnet ein Vollbild-Detail-Sheet: Foto, alle Infos, Audio & Navigation
 
 import { useEffect, useRef, useState } from "react";
+import { Navigation, Pause, Play } from "lucide-react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import type { Stop } from "@/lib/types";
 import { getStopImage } from "@/data/images";
@@ -219,13 +220,13 @@ export default function TourMap({
       >
         <div className="absolute inset-0 opacity-20 [background-image:radial-gradient(circle,#fff_1px,transparent_1px)] [background-size:24px_24px]" />
         <div className="relative z-10 max-w-sm rounded-xl bg-black/40 p-6 text-center backdrop-blur">
-          <p className="font-semibold text-white">🗺️ Interaktive Karte</p>
+          <p className="font-semibold text-white">Interaktive Karte</p>
           <p className="mt-2 text-sm text-white/70">
             {error ??
-              "Trage deinen Mapbox-Token in .env.local ein (NEXT_PUBLIC_MAPBOX_TOKEN), um die Live-Karte mit Route und allen Stops zu sehen."}
+              "Trage deinen Mapbox-Token in .env.local ein (NEXT_PUBLIC_MAPBOX_TOKEN), um die Live-Karte mit Route und allen Stopps zu sehen."}
           </p>
           <p className="mt-3 text-xs text-white/50">
-            {stops.length} Stops · Route als GeoJSON bereits hinterlegt
+            {stops.length} Stopps · Route als GeoJSON bereits hinterlegt
           </p>
         </div>
       </div>
@@ -301,9 +302,7 @@ export default function TourMap({
                 <h3 className="font-display text-2xl font-extrabold leading-tight tracking-tight text-cream [text-shadow:0_1px_6px_rgba(0,0,0,.6)]">
                   {selected.name}
                   {selected.isHiddenGem && (
-                    <span className="ml-2 align-middle text-sm" title="Geheimtipp">
-                      💎
-                    </span>
+                    <span className="ml-2 align-middle text-xs font-bold uppercase tracking-wide text-signal-400">Geheimtipp</span>
                   )}
                 </h3>
               </div>
@@ -369,7 +368,7 @@ export default function TourMap({
                   onClick={() => toggleAudio(selected.id)}
                   className="inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-signal-500 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-signal-600 active:scale-[0.97]"
                 >
-                  {selAudio?.playing ? "⏸ Pause" : "▶ Audio-Story"}
+                  {selAudio?.playing ? <><Pause size={16} fill="currentColor" aria-hidden="true" />Pause</> : <><Play size={16} fill="currentColor" aria-hidden="true" />Audio-Story</>}
                 </button>
                 <a
                   href={`https://www.google.com/maps/dir/?api=1&destination=${selected.coords.lat},${selected.coords.lng}&travelmode=walking`}
@@ -377,13 +376,14 @@ export default function TourMap({
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 rounded-full border border-cream/20 bg-ink-900 px-4 py-2.5 text-sm font-semibold text-cream transition hover:bg-ink-800"
                 >
-                  🧭 Navigation
+                  <Navigation size={15} aria-hidden="true" />
+                  Navigation
                 </a>
                 <button
                   onClick={() => jumpToText(selected.id)}
                   className="inline-flex items-center rounded-full border border-cream/20 bg-ink-900 px-4 py-2.5 text-sm font-semibold text-cream transition hover:bg-ink-800"
                 >
-                  ↓ Stop-Text
+                  Zum Text
                 </button>
               </div>
             </div>

@@ -28,9 +28,9 @@ export const luganoDolceVita: Tour = {
   priceChf: 4.9,
   gradient: ["#1f6b4a", "#ffc940"],
   seo: {
-    metaTitle: "Lugano zu Fuss: Piazze, Luini-Fresko & Parco Ciani mit Audioguide | Urban Trails",
+    metaTitle: "Lugano zu Fuss: Piazze, Luini-Fresko & Parco Ciani mit Audioguide",
     metaDescription:
-      "Selbstgeführte Tour durch Lugano: Piazza della Riforma, Via Nassa, das Luini-Fresko in Santa Maria degli Angioli, Parco Ciani und Seepromenade. 6 Stops mit Audio-Stories.",
+      "Selbstgeführte Tour durch Lugano: Piazza della Riforma, Via Nassa, das Luini-Fresko in Santa Maria degli Angioli, Parco Ciani und Seepromenade. 6 Stopps mit Audio-Stories.",
     keywords: ["Lugano Sehenswürdigkeiten","Lugano Altstadt Rundgang","Santa Maria degli Angioli Luini","Parco Ciani","Lugano Audioguide"],
   },
   faq: [

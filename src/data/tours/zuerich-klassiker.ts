@@ -9,7 +9,7 @@ export const zuerichKlassiker: Tour = {
   teaser:
     "Vom Hauptbahnhof durch die Altstadt bis zum Chinagarten: alle Highlights, erzählt wie von einem Freund, der hier aufgewachsen ist.",
   description:
-    "Diese Tour ist der perfekte erste Kontakt mit Zürich – aber auch für Locals voller Aha-Momente. Du läufst vom Hauptbahnhof über den Lindenhof durch die schönsten Altstadtgassen, an Fraumünster und Grossmünster vorbei ans Seebecken und endest im Chinagarten. Unterwegs: römische Kastelle, Lenin als Nachbar, Chagall-Fenster, der teuerste Boulevard Europas und ein Geschenk aus Kunming. Jeder Stop mit Audio-Story, Fun Facts und Insider-Tipps.",
+    "Diese Tour ist der perfekte erste Kontakt mit Zürich – aber auch für Locals voller Aha-Momente. Du läufst vom Hauptbahnhof über den Lindenhof durch die schönsten Altstadtgassen, an Fraumünster und Grossmünster vorbei ans Seebecken und endest im Chinagarten. Unterwegs: römische Kastelle, Lenin als Nachbar, Chagall-Fenster, der teuerste Boulevard Europas und ein Geschenk aus Kunming. Jeder Stopp mit Audio-Story, Fun Facts und Insider-Tipps.",
   moods: ["kultur", "aussicht", "fotografie"],
   audience: "Erstbesucher, Wochenendgäste, Locals mit Besuch – alle, die Zürich einmal richtig sehen wollen.",
   vibe: "Entspannt, neugierig, voller Geschichten – wie ein Spaziergang mit einem Freund, der alles weiss.",
@@ -30,7 +30,7 @@ export const zuerichKlassiker: Tour = {
   seo: {
     metaTitle: "Zürich Sehenswürdigkeiten zu Fuss: Die Klassiker-Tour mit Audioguide (5 km, rund 4h)",
     metaDescription:
-      "Selbstgeführte Walking-Tour durch Zürich: 13 Stops vom Hauptbahnhof über Lindenhof, Fraumünster und Grossmünster bis zum Chinagarten. Mit Audioguide, Karte, Geheimtipps und Gehzeiten.",
+      "Selbstgeführte Walking-Tour durch Zürich: 13 Stopps vom Hauptbahnhof über Lindenhof, Fraumünster und Grossmünster bis zum Chinagarten. Mit Audioguide, Karte, Geheimtipps und Gehzeiten.",
     keywords: [
       "Zürich Sehenswürdigkeiten zu Fuss",
       "Zürich Stadtrundgang",
@@ -58,7 +58,7 @@ export const zuerichKlassiker: Tour = {
     {
       question: "Wo kann ich unterwegs einkehren?",
       answer:
-        "Bei fast jedem Stop gibt es Empfehlungen – vom Café Schober im Niederdorf bis zur Gelateria di Berna nahe Bellevue.",
+        "Bei fast jedem Stopp gibt es Empfehlungen – vom Café Schober im Niederdorf bis zur Gelateria di Berna nahe Bellevue.",
     },
     {
       question: "Brauche ich Tickets für die Kirchen?",
@@ -68,7 +68,7 @@ export const zuerichKlassiker: Tour = {
     {
       question: "Kann ich die Tour abkürzen?",
       answer:
-        "Ja. Du kannst beim Bellevue (Stop 10) enden. Plane die Zeit nach deinen Pausen; eine 90-Minuten-Dauer ist für diese Teilstrecke nicht geprüft.",
+        "Ja. Du kannst beim Bellevue (Stopp 10) enden. Plane die Zeit nach deinen Pausen; eine 90-Minuten-Dauer ist für diese Teilstrecke nicht geprüft.",
     },
   ],
   stops: [

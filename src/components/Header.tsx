@@ -92,7 +92,7 @@ export default function Header({ catalog }: { catalog: Catalog }) {
               onClick={() => setOpen(false)}
               className="py-3.5 font-display text-lg font-extrabold tracking-tight text-signal-600"
             >
-              ✨ Überrasch mich
+              Überrasch mich
             </Link>
             <Link
               href="/konto"

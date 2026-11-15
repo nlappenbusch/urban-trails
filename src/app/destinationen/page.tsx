@@ -15,14 +15,12 @@ export default function DestinationsPage() {
   const soon = destinations.filter((d) => d.comingSoon);
   return (
     <div className="container-page py-16">
-      <p className="kicker">Stadt für Stadt</p>
-      <h1 className="headline mt-3 text-5xl text-cream sm:text-6xl">
+      <h1 className="headline text-5xl text-cream sm:text-6xl">
         Alle <em>Destinationen</em>
       </h1>
       <p className="mt-4 max-w-xl text-cream-dim">
-        {live.length} Städte und Städtchen live – jede mit mindestens einer
-        komplett ausgearbeiteten Tour: Route, Audio-Stories, Karte,
-        Geheimtipps.
+        {live.length} Städte und Städtchen, jede mit mindestens einer
+        ausgearbeiteten Tour: Route, Audio-Stories, Karte und Geheimtipps.
       </p>
 
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -32,19 +30,20 @@ export default function DestinationsPage() {
             <Link
               key={d.slug}
               href={`/${d.slug}`}
-              className="card group p-6 transition hover:-translate-y-1 hover:border-cream/25"
+              className="card group p-6 transition-colors hover:border-cream/30"
             >
-              <div className="flex items-start justify-between gap-3">
-                <h2 className="font-display text-2xl font-extrabold tracking-tight text-cream group-hover:text-signal-500">
+              <div className="flex items-baseline justify-between gap-3">
+                <h2 className="font-display text-2xl font-extrabold tracking-tight text-cream group-hover:text-signal-600">
                   {d.name}
                 </h2>
-                <span className="chip shrink-0">{d.canton}</span>
+                <span className="kicker shrink-0">{d.canton}</span>
               </div>
               <p className="mt-2 text-sm leading-relaxed text-cream-dim">
                 {d.teaser}
               </p>
               <p className="mt-4 text-xs font-bold text-signal-600">
-                {cityTours.length} {cityTours.length === 1 ? "Tour" : "Touren"}              </p>
+                {cityTours.length} {cityTours.length === 1 ? "Tour" : "Touren"}
+              </p>
             </Link>
           );
         })}
@@ -52,16 +51,10 @@ export default function DestinationsPage() {
 
       {soon.length > 0 && (
         <>
-          <h2 className="headline mt-16 text-3xl text-cream">
-            Bald <em>unterwegs</em>
+          <h2 className="mt-16 font-display text-2xl font-extrabold tracking-tight text-cream">
+            Bald unterwegs
           </h2>
-          <div className="mt-6 flex flex-wrap gap-3">
-            {soon.map((d) => (
-              <span key={d.slug} className="chip py-2 opacity-60" title={d.teaser}>
-                {d.name}
-              </span>
-            ))}
-          </div>
+          <p className="mt-3 text-cream-dim">{soon.map((d) => d.name).join(" · ")}</p>
         </>
       )}
     </div>

@@ -5,11 +5,11 @@ export const newPeopleRoute: Tour = {
   citySlug: "zuerich",
   category: "people-social",
   name: "New People Route",
-  claim: "Diese Tour endet nicht an Gebäuden – sie endet bei Menschen. Mit einer Mikro-Aufgabe pro Stop.",
+  claim: "Diese Tour endet nicht an Gebäuden – sie endet bei Menschen. Mit einer Mikro-Aufgabe pro Stopp.",
   teaser:
-    "Sechs Orte, an denen Gespräche von selbst passieren – und bei jedem Stop eine kleine Aufgabe, die das Eis bricht. Für Neu-Zuzüger, Solos und alle, die Anschluss suchen.",
+    "Sechs Orte, an denen Gespräche von selbst passieren – und bei jedem Stopp eine kleine Aufgabe, die das Eis bricht. Für Neu-Zuzüger, Solos und alle, die Anschluss suchen.",
   description:
-    "Neue Leute kennenzulernen ist in der Schweiz angeblich schwer. Stimmt – wenn man an den falschen Orten wartet. Diese Tour führt zu sechs Zürcher Spots, deren Architektur Gespräche erzwingt: Gemeinschaftstische, Pingpong-Platten, Buchhandlungs-Bars, Flussbäder. Und weil Hingehen allein nicht reicht, bekommst du bei jedem Stop eine Mikro-Aufgabe – klein genug, um machbar zu sein, gross genug, um etwas auszulösen: eine Empfehlung erfragen, ein Match spielen, einen Gemeinschaftstisch wählen. Du brauchst keinen Smalltalk-Kurs. Du brauchst die richtigen Orte und einen Vorwand. Beides liefert diese Route.",
+    "Neue Leute kennenzulernen ist in der Schweiz angeblich schwer. Stimmt – wenn man an den falschen Orten wartet. Diese Tour führt zu sechs Zürcher Spots, deren Architektur Gespräche erzwingt: Gemeinschaftstische, Pingpong-Platten, Buchhandlungs-Bars, Flussbäder. Und weil Hingehen allein nicht reicht, bekommst du bei jedem Stopp eine Mikro-Aufgabe – klein genug, um machbar zu sein, gross genug, um etwas auszulösen: eine Empfehlung erfragen, ein Match spielen, einen Gemeinschaftstisch wählen. Du brauchst keinen Smalltalk-Kurs. Du brauchst die richtigen Orte und einen Vorwand. Beides liefert diese Route.",
   moods: ["menschen", "essen", "ueberraschung"],
   audience: "Neu-Zuzüger, Expats, Solo-Traveller, Homeoffice-Vereinsamte – alle, die heute mit mehr Kontakten heimkommen wollen als losgegangen sind.",
   vibe: "Mutig light: niederschwellige Challenges, freundliche Orte, null Zwang – jede Aufgabe ist optional.",
@@ -28,9 +28,9 @@ export const newPeopleRoute: Tour = {
   priceChf: 4.9,
   gradient: ["#6b1f4a", "#ff7a3d"],
   seo: {
-    metaTitle: "New People Route Zürich: Die Tour zum Leute-Kennenlernen | Urban Trails",
+    metaTitle: "New People Route Zürich: Die Tour zum Leute-Kennenlernen",
     metaDescription:
-      "Die Social-Tour durch Zürich: 6 Orte mit hoher Gesprächswahrscheinlichkeit, Social-Check und einer Mikro-Aufgabe pro Stop. Für Neu-Zuzüger, Expats und Solo-Traveller.",
+      "Die Social-Tour durch Zürich: 6 Orte mit hoher Gesprächswahrscheinlichkeit, Social-Check und einer Mikro-Aufgabe pro Stopp. Für Neu-Zuzüger, Expats und Solo-Traveller.",
     keywords: ["Zürich Leute kennenlernen","Zürich neu zugezogen Tipps","Zürich alleine unterwegs","Expats Zürich Treffpunkte","Social Tour Zürich"],
   },
   faq: [

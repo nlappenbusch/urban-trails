@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { Clock, Footprints, MapPin } from "lucide-react";
 import type { Mood, Tour } from "@/lib/types";
 import { moodLabels, recommendTour, formatDuration } from "@/lib/tours";
 
@@ -79,11 +80,11 @@ export default function SurpriseMe() {
         disabled={!minutes}
         className="btn-primary mt-8 w-full justify-center disabled:cursor-not-allowed disabled:opacity-40"
       >
-        ✨ Tour für mich finden
+        Tour für mich finden
       </button>
 
       {result && (
-        <div className="mt-8 animate-fade-up rounded-3xl border border-signal-500/40 bg-glacier-50 p-6">
+        <div className="mt-8 animate-fade-up rounded-2xl border border-signal-500/40 bg-glacier-50 p-6">
           <p className="text-xs font-semibold uppercase tracking-wider text-signal-600">
             Deine Tour für heute
           </p>
@@ -97,9 +98,9 @@ export default function SurpriseMe() {
             {result.tour.teaser}
           </p>
           <div className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs text-cream-dim">
-            <span>⏱ {formatDuration(result.tour.durationMinutes)}</span>
-            <span>📍 {result.tour.stops.length} Stops</span>
-            <span>👣 {result.tour.distanceKm} km</span>
+            <span className="inline-flex items-center gap-1"><Clock size={13} aria-hidden="true" />{formatDuration(result.tour.durationMinutes)}</span>
+            <span className="inline-flex items-center gap-1"><MapPin size={13} aria-hidden="true" />{result.tour.stops.length} Stopps</span>
+            <span className="inline-flex items-center gap-1"><Footprints size={13} aria-hidden="true" />{result.tour.distanceKm} km</span>
           </div>
           <p className="mt-3 text-sm text-signal-600">{result.note}</p>
           <Link

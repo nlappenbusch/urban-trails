@@ -940,3 +940,8 @@ export function getStopImage(stopId: string): StopImage | undefined {
 export function getTourHeroImage(tourSlug: string): StopImage | undefined {
   return local(`t/${tourSlug}`, tourHeroImages[tourSlug]);
 }
+
+/** Fotos der Ausflugs-Orte: Quelle steht im Orts-JSON, Kopie unter public/img/p/. */
+export function getPlaceImage(placeId: string, img?: StopImageSource): StopImage | undefined {
+  return local(`p/${placeId}`, img);
+}

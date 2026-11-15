@@ -2,10 +2,10 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowUpRight, CalendarDays, TrainFront } from "lucide-react";
+import { ArrowUpRight, CalendarDays, TrainFront, Wallet } from "lucide-react";
 import type { StopImage } from "@/lib/types";
 import { imgAttrs } from "@/lib/img";
-import { AUDIENCE, MOODS, daysLabel, fmtMin } from "@/lib/ausfluege";
+import { AUDIENCE, MOODS, daysLabel, fmtMin } from "@/lib/ausfluege-core";
 
 export interface TripLite {
   slug: string;
@@ -19,6 +19,8 @@ export interface TripLite {
   arrival?: { from: string; minutes: number };
   hero?: StopImage;
   gradient: [string, string];
+  /** grobe Kosten pro Person (nur wenn fast alle Preise belegt sind) */
+  cost?: [number, number];
 }
 
 const chip = (on: boolean) =>
@@ -28,15 +30,25 @@ export default function TripExplorer({ trips }: { trips: TripLite[] }) {
   const [days, setDays] = useState(0);
   const [who, setWho] = useState("");
   const [mood, setMood] = useState("");
+  const [where, setWhere] = useState("");
   const list = useMemo(
-    () => trips.filter((t) => (!days || t.days === days) && (!who || t.audience.includes(who)) && (!mood || t.moods.includes(mood))),
-    [trips, days, who, mood],
+    () => trips.filter((t) => (!where || t.regionName === where) && (!days || t.days === days) && (!who || t.audience.includes(who)) && (!mood || t.moods.includes(mood))),
+    [trips, where, days, who, mood],
   );
   const usedMoods = Object.entries(MOODS).filter(([k]) => k !== "familie" && trips.some((t) => t.moods.includes(k)));
+  const regions = [...new Set(trips.map((t) => t.regionName))].sort((a, b) => a.localeCompare(b, "de"));
 
   return (
     <div>
       <div className="space-y-2.5">
+        {regions.length > 3 && (
+          <div className="-mx-5 flex gap-2 overflow-x-auto px-5 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0" role="group" aria-label="Wohin">
+            <button type="button" aria-pressed={!where} onClick={() => setWhere("")} className={chip(!where)}>Überall</button>
+            {regions.map((r) => (
+              <button key={r} type="button" aria-pressed={where === r} onClick={() => setWhere(where === r ? "" : r)} className={chip(where === r)}>{r}</button>
+            ))}
+          </div>
+        )}
         <div className="-mx-5 flex gap-2 overflow-x-auto px-5 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0" role="group" aria-label="Dauer">
           {[0, 1, 2, 3].map((d) => (
             <button key={d} type="button" aria-pressed={days === d} onClick={() => setDays(d)} className={chip(days === d)}>
@@ -77,6 +89,7 @@ export default function TripExplorer({ trips }: { trips: TripLite[] }) {
               <p className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs font-semibold text-cream-faint">
                 {t.arrival && <span className="inline-flex items-center gap-1"><TrainFront size={14} aria-hidden /> ab {t.arrival.from} ca. {fmtMin(t.arrival.minutes)}</span>}
                 {t.season && <span className="inline-flex items-center gap-1"><CalendarDays size={14} aria-hidden /> {t.season}</span>}
+                {t.cost && <span className="inline-flex items-center gap-1"><Wallet size={14} aria-hidden /> ca. CHF {t.cost[0]}{t.cost[1] > t.cost[0] ? `–${t.cost[1]}` : ""} p. P.</span>}
               </p>
               <span className="mt-4 inline-flex items-center gap-1 text-sm font-bold text-signal-600">Programm ansehen <ArrowUpRight size={15} aria-hidden /></span>
             </div>

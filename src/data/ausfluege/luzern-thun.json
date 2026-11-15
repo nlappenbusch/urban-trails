@@ -1,1165 +1,1355 @@
 {
- "places": [
-  {
-   "id": "lu-hotel-alpha",
-   "kind": "hotel",
-   "name": "Hotel Alpha",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Zähringerstrasse 24, 6003 Luzern",
-   "coords": {
-    "lat": 47.04698,
-    "lng": 8.3014
-   },
-   "url": "https://www.hotelalpha.ch",
-   "price": 1,
-   "tags": [
-    "freunde",
-    "familie"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Einfaches, ruhiges Haus in einem Wohnquartier etwa zehn Minuten zu Fuss von Bahnhof und Altstadt. Du kannst zwischen Zimmern mit eigener oder geteilter Dusche wählen, was den Preis spürbar drückt.",
-   "tip": "Wenn du das Budget im Griff behalten willst, frag beim Buchen gezielt nach einem Zimmer mit Etagendusche.",
-   "source": "https://www.myswitzerland.com/en/accommodations/hotel-alpha-2/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-altstadthotel-krone",
-   "kind": "hotel",
-   "name": "Krone Luzern – Altstadthotel am Weinmarkt",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Weinmarkt 12, 6004 Luzern",
-   "coords": {
-    "lat": 47.05202,
-    "lng": 8.30452
-   },
-   "url": "https://krone-luzern.ch",
-   "price": 2,
-   "tags": [
-    "kultur",
-    "freunde"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Drei-Sterne-Hotel direkt am Weinmarkt, also mitten in der autofreien Altstadt. Von hier bist du in wenigen Minuten an der Kapellbrücke, am Rathausquai und an der Schiffsanlegestelle.",
-   "tip": "Wer spät ankommt, checkt laut Buchungsportalen im Schwesterhotel des Balances am selben Platz ein – vorher kurz nachfragen.",
-   "source": "https://krone-luzern.ch",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-art-deco-hotel-montana",
-   "kind": "hotel",
-   "name": "Art Deco Hotel Montana",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Adligenswilerstrasse 22, 6006 Luzern",
-   "coords": {
-    "lat": 47.05634,
-    "lng": 8.31965
-   },
-   "url": "https://www.hotel-montana.ch",
-   "price": 3,
-   "tags": [
-    "romantisch",
-    "aussicht",
-    "see",
-    "genuss"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Palasthotel von 1910 am Hang über dem Seebecken, innen konsequent im Art-déco-Stil. Vom Seeufer fährt eine hauseigene Standseilbahn hinauf, und aus vielen Zimmern schaust du direkt auf See und Pilatus.",
-   "tip": "Auch ohne Übernachtung lohnt sich ein Drink in der Louis Bar – die Fahrt mit der kleinen Hotelbahn gehört dazu.",
-   "source": "https://www.hotel-montana.ch",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-rathaus-brauerei",
-   "kind": "restaurant",
-   "name": "Restaurant Rathaus Brauerei",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Unter der Egg 2, 6004 Luzern",
-   "coords": {
-    "lat": 47.0519,
-    "lng": 8.30642
-   },
-   "url": "https://www.rathausbrauerei.ch",
-   "price": 2,
-   "tags": [
-    "genuss",
-    "kultur",
-    "freunde",
-    "familie"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Hausbrauerei unter den Arkaden des Rathauses aus dem frühen 17. Jahrhundert, direkt an der Reuss. Zum frisch gebrauten Bier gibt es währschafte Schweizer Küche, etwa Würste von Luzerner Metzgern.",
-   "tip": "Bei schönem Wetter einen Platz draussen unter den Arkaden reservieren – du sitzt dann mit Blick auf die Kapellbrücke.",
-   "source": "https://www.rathausbrauerei.ch",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-wirtshaus-galliker",
-   "kind": "restaurant",
-   "name": "Wirtshaus Galliker",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Schützenstrasse 1, 6003 Luzern",
-   "coords": null,
-   "url": "https://wirtshaus-galliker.ch",
-   "price": 2,
-   "tags": [
-    "genuss",
-    "freunde"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "So/Mo geschlossen; Di–Sa mittags und abends",
-   "text": "Traditionsbeiz nahe dem Kasernenplatz, in der bodenständige Schweizer Küche ohne Schnickschnack auf den Tisch kommt. Dienstags, donnerstags und samstags gibt es frischen Pot-au-feu, freitags gespickten Rindsbraten.",
-   "tip": "Plane deinen Besuch auf einen Pot-au-feu-Tag und reservier am Abend – die Beiz ist bei Einheimischen beliebt.",
-   "source": "https://wirtshaus-galliker.ch/restaurant-galliker",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-old-swiss-house",
-   "kind": "restaurant",
-   "name": "Old Swiss House",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Löwenplatz 4, 6004 Luzern",
-   "coords": {
-    "lat": 47.05733,
-    "lng": 8.31118
-   },
-   "url": "https://www.oldswisshouse.ch",
-   "price": 3,
-   "tags": [
-    "genuss",
-    "romantisch"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "So/Mo geschlossen; Di–Sa 11.30–14.30 und 18.00–23.30 Uhr",
-   "text": "Riegelhaus von 1858 beim Löwenplatz, seit den 1930er-Jahren Restaurant. Bekannt ist es für das Wiener Schnitzel, das direkt am Tisch in der Pfanne gebraten wird.",
-   "tip": "Das Schnitzel ist das Ding hier – plane genug Hunger und ein grosszügiges Budget ein.",
-   "source": "https://www.oldswisshouse.ch",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-confiserie-bachmann-schwanenplatz",
-   "kind": "cafe",
-   "name": "Confiserie Bachmann Schwanenplatz",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Schwanenplatz 7, 6004 Luzern",
-   "coords": {
-    "lat": 47.05376,
-    "lng": 8.30863
-   },
-   "url": "https://www.confiserie.ch",
-   "price": 2,
-   "tags": [
-    "genuss",
-    "familie",
-    "regenfest"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Das Stammhaus der Luzerner Confiserie mit Café und einer Schokoladenwand, an der flüssige Schokolade herunterläuft. Gut für eine Pause zwischen Altstadt und Seepromenade.",
-   "tip": "Für eine geführte Schoggi-Degustation am Schwanenplatz vorher telefonisch anfragen.",
-   "source": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/confiserie-bachmann-schwanenplatz/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-louis-bar-montana",
-   "kind": "bar",
-   "name": "Louis Bar (Art Deco Hotel Montana)",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Adligenswilerstrasse 22, 6006 Luzern",
-   "coords": {
-    "lat": 47.05634,
-    "lng": 8.31965
-   },
-   "url": "https://www.hotel-montana.ch",
-   "price": 3,
-   "tags": [
-    "romantisch",
-    "aussicht",
-    "genuss",
-    "see"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "abends ab 17 Uhr",
-   "text": "Hotelbar mit grosser Whisky-Auswahl, Jazz und Blick über das Seebecken. Der richtige Ort für einen Apéro, bevor du wieder in die Altstadt hinunterfährst.",
-   "tip": "Früh genug kommen, damit du noch bei Tageslicht auf See und Pilatus schaust.",
-   "source": "https://www.myswitzerland.com/en-us/experiences/food-wine/restaurant/art-deco-hotel-montana-louis-bar",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-jazzkantine",
-   "kind": "restaurant",
-   "name": "Jazzkantine zum Graben",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Grabenstrasse 8, 6004 Luzern",
-   "coords": {
-    "lat": 47.0533,
-    "lng": 8.30597
-   },
-   "url": "https://www.jazzkantine.com",
-   "price": 1,
-   "tags": [
-    "freunde",
-    "kultur",
-    "genuss"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "So/Mo und Feiertage geschlossen; Di/Mi 10–23, Do/Fr 10–00.30, Sa 9.30–00.30 Uhr",
-   "text": "Lockere Kantine mit Tapas, saisonalen und vegetarischen Gerichten, betrieben im Umfeld der Luzerner Jazzszene. Abends gibt es oft Konzerte, tagsüber ist es ein unkomplizierter Ort für einen günstigen Zmittag.",
-   "tip": "Schau vorab ins Konzertprogramm – an Konzertabenden wird es schnell voll.",
-   "source": "https://www.jazzkantine.com/kontakt-reservation",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-verkehrshaus",
-   "kind": "aktivitaet",
-   "name": "Verkehrshaus der Schweiz",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Haldenstrasse 44, 6006 Luzern",
-   "coords": {
-    "lat": 47.05275,
-    "lng": 8.33664
-   },
-   "url": "https://www.verkehrshaus.ch",
-   "price": 3,
-   "tags": [
-    "regenfest",
-    "familie",
-    "kultur"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "täglich ab 10 Uhr",
-   "durationMin": 240,
-   "text": "Grosses Museum zu Bahn, Strasse, Luft- und Schifffahrt mit vielen Originalfahrzeugen zum Anfassen und Einsteigen. Dazu kommen Planetarium, Filmtheater und ein Schokoladen-Erlebnis, die du separat buchen kannst.",
-   "tip": "Plane mindestens einen halben Tag ein und buch die Zusatzangebote online, damit du nicht an der Kasse anstehst.",
-   "source": "https://www.verkehrshaus.ch/de/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-gletschergarten",
-   "kind": "sehenswuerdigkeit",
-   "name": "Gletschergarten Luzern",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Denkmalstrasse 4, 6006 Luzern",
-   "coords": {
-    "lat": 47.05892,
-    "lng": 8.31041
-   },
-   "url": "https://gletschergarten.ch",
-   "price": 2,
-   "tags": [
-    "regenfest",
-    "familie",
-    "kultur"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "täglich ab 10 Uhr",
-   "durationMin": 90,
-   "text": "Gleich neben dem Löwendenkmal siehst du Gletschertöpfe aus der letzten Eiszeit, dazu Museum, Felsenwelt im Berginnern und ein altes Spiegellabyrinth. Ein guter Ort, um zu verstehen, wie Luzerns Landschaft entstanden ist.",
-   "tip": "Das Spiegellabyrinth ist für Kinder oft das Highlight – heb es dir für den Schluss auf.",
-   "source": "https://gletschergarten.ch",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-sammlung-rosengart",
-   "kind": "sehenswuerdigkeit",
-   "name": "Museum Sammlung Rosengart",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Pilatusstrasse 10, 6003 Luzern",
-   "coords": {
-    "lat": 47.04968,
-    "lng": 8.30732
-   },
-   "url": "https://www.rosengart.ch",
-   "price": 2,
-   "tags": [
-    "regenfest",
-    "kultur"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "täglich, Sommer 10–18, Winter 11–17 Uhr",
-   "durationMin": 90,
-   "text": "Kompakte Privatsammlung mit einem ausserordentlich dichten Bestand an Picasso und Paul Klee, dazu Werke weiterer Klassiker der Moderne. In anderthalb Stunden schaffst du hier mehr Kunstgenuss als in manchem Grossmuseum.",
-   "tip": "Sonntags gibt es eine öffentliche Führung um 11.30 Uhr (2026 von Mai bis Ende Dezember).",
-   "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/sammlung-rosengart-2523.html",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-rigi-vitznau",
-   "kind": "aussicht",
-   "name": "Rigi Kulm mit der Zahnradbahn ab Vitznau",
-   "region": "luzern",
-   "town": "Vitznau",
-   "address": "Talstation: Bahnhof Vitznau, Bahnhofstrasse 7, 6354 Vitznau",
-   "coords": {
-    "lat": 47.05519,
-    "lng": 8.48518
-   },
-   "url": "https://www.rigi.ch",
-   "price": 3,
-   "tags": [
-    "berg",
-    "aussicht",
-    "see",
-    "aktiv",
-    "familie"
-   ],
-   "weatherProof": false,
-   "season": "ganzjährig, Revisionen meist im November",
-   "durationMin": 300,
-   "text": "Mit dem Schiff nach Vitznau und dann in rund 30 Minuten mit der Zahnradbahn auf den Rigi Kulm – oben hast du einen Rundblick über mehrere Seen bis in die Alpen. Hinunter kannst du über Arth-Goldau fahren und so eine Rundreise machen.",
-   "tip": "Steig nicht mit der ersten Bahn zurück: Ein kurzer Spaziergang vom Kulm hinunter zur nächsten Station ist meist ruhiger als der Gipfelrummel.",
-   "source": "https://www.rigi.ch",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-pilatus",
-   "kind": "aussicht",
-   "name": "Pilatus Kulm (Zahnradbahn ab Alpnachstad / Gondel ab Kriens)",
-   "region": "luzern",
-   "town": "Alpnachstad",
-   "address": "Talstation Zahnradbahn: Bahnhof Alpnachstad, 6053 Alpnachstad",
-   "coords": {
-    "lat": 46.97926,
-    "lng": 8.25564
-   },
-   "url": "https://www.pilatus.ch",
-   "price": 3,
-   "tags": [
-    "berg",
-    "aussicht",
-    "aktiv"
-   ],
-   "weatherProof": false,
-   "season": "Zahnradbahn ab Alpnachstad Mitte Mai bis Ende November; Gondel ab Kriens fast ganzjährig",
-   "durationMin": 300,
-   "text": "Von Alpnachstad fährt die steilste Zahnradbahn der Welt auf den Pilatus, zurück geht es per Luftseilbahn und Gondel nach Kriens und mit dem Bus nach Luzern. Oben spazierst du über kurze Felsenwege mit Tiefblick auf den See.",
-   "tip": "An schönen Wochenenden die Zahnradbahn reservieren, sonst stehst du in Alpnachstad lange an.",
-   "source": "https://www.luzern.com/de/poi/pilatus-zahnradbahn",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "lu-sgv-dampfschiff",
-   "kind": "aktivitaet",
-   "name": "Schifffahrt Vierwaldstättersee (SGV, Dampf- und Motorschiffe)",
-   "region": "luzern",
-   "town": "Luzern",
-   "address": "Schiffstation Luzern Bahnhofquai (Steg 1 Richtung Weggis/Vitznau/Flüelen)",
-   "coords": null,
-   "url": "https://www.lakelucerne.ch",
-   "price": 2,
-   "tags": [
-    "see",
-    "romantisch",
-    "familie",
-    "aussicht"
-   ],
-   "weatherProof": false,
-   "season": "Kursschiffe ganzjährig, Raddampfer vor allem im Sommer",
-   "durationMin": 60,
-   "text": "Die Schiffe der SGV legen direkt beim Bahnhof ab und verbinden Luzern mit Weggis, Vitznau und weiter bis Flüelen. Wenn ein Raddampfer im Einsatz ist, lohnt sich ein Blick in den Maschinenraum mit den offen laufenden Kolben.",
-   "tip": "Mit GA oder Tageskarte bist du auf dem Schiff dabei – plan die Hinfahrt zum Rigi per Schiff, die Rückfahrt per Zug ab Arth-Goldau.",
-   "source": "https://www.lakelucerne.ch/de/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-hotel-krone-thun",
-   "kind": "hotel",
-   "name": "Hotel Krone Thun",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Obere Hauptgasse 2, 3600 Thun",
-   "coords": {
-    "lat": 46.75926,
-    "lng": 7.62864
-   },
-   "url": "https://www.krone-thun.ch",
-   "price": 3,
-   "tags": [
-    "kultur",
-    "romantisch"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Vier-Sterne-Haus direkt am Rathausplatz, fast unterhalb des Schlosses und nur ein paar Schritte von der Aare. Im Haus gibt es ein Grillrestaurant und das älteste chinesische Restaurant von Thun.",
-   "tip": "Der Rathausplatz ist abends belebt – wer empfindlich schläft, fragt nach einem Zimmer zur ruhigeren Seite.",
-   "source": "https://www.krone-thun.ch",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-hotel-aare-thun",
-   "kind": "hotel",
-   "name": "Hotel Aare Thun (ehemals Freienhof)",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Freienhofgasse 3, 3600 Thun",
-   "coords": {
-    "lat": 46.7572,
-    "lng": 7.63147
-   },
-   "url": "https://www.hotelaarethun.ch",
-   "price": 3,
-   "tags": [
-    "genuss",
-    "familie"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Hotel direkt an der Aare, rund fünf Minuten zu Fuss vom Bahnhof und nah am Schlossberg. Unten im Haus liegt das Restaurant Freienhof, sonntags gibt es dort einen Brunch.",
-   "tip": "Praktisch für ÖV-Reisende: Du kannst vom Bahnhof direkt mit dem Gepäck hinüberlaufen.",
-   "source": "https://www.myswitzerland.com/en/accommodations/hotel-freienhof",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-ristorante-waisenhaus",
-   "kind": "restaurant",
-   "name": "Ristorante Waisenhaus",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Bälliz 61, 3600 Thun",
-   "coords": null,
-   "url": "https://www.bindella.ch/restaurants/waisenhaus",
-   "price": 2,
-   "tags": [
-    "genuss",
-    "freunde",
-    "familie"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "täglich; warme Küche mittags bis 14 Uhr und abends ab 17.30 Uhr",
-   "text": "Italienisches Restaurant in einem historischen Gebäude bei der Aareschleuse, mit hausgemachter Pasta. Im Sommer sitzt du auf der grossen Terrasse unter Kastanienbäumen und hörst das Wasser rauschen.",
-   "tip": "Mittags früh kommen: Die Küche schliesst um 14 Uhr.",
-   "source": "https://www.bindella.ch/restaurants/waisenhaus",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-schloss-schadau-restaurant",
-   "kind": "restaurant",
-   "name": "Schloss Schadau – Restaurant",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Seestrasse 45, 3600 Thun",
-   "coords": {
-    "lat": 46.74608,
-    "lng": 7.63739
-   },
-   "url": "https://www.schloss-schadau.ch",
-   "price": 3,
-   "tags": [
-    "romantisch",
-    "see",
-    "genuss"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Restaurant im Schlösschen aus dem 19. Jahrhundert im Schadaupark, dort wo die Aare aus dem Thunersee fliesst. Abends gibt es ein Geniessermenü, mittags ein einfacheres Angebot.",
-   "tip": "Vor dem Essen ein paar Minuten durch den Park bis ans Seeufer gehen – bei klarem Wetter siehst du Eiger, Mönch und Jungfrau.",
-   "source": "https://www.schloss-schadau.ch/de",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-vera-calma",
-   "kind": "cafe",
-   "name": "vera calma – Café & Bar",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Hofstettenstrasse 2, 3602 Thun",
-   "coords": {
-    "lat": 46.75763,
-    "lng": 7.63237
-   },
-   "url": "https://veracalma.ch",
-   "price": 2,
-   "tags": [
-    "genuss",
-    "freunde"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Mo geschlossen; Di–So 9–18 Uhr",
-   "text": "Kleines Café wenige Schritte vom Bahnhof und vom Aareufer, mit Kaffee, Crumpets, Pinsa und Süssem. Ein guter Halt für eine Pause zwischen Altstadt und Seeufer.",
-   "tip": "Am späten Nachmittag gibt es hier auch Drinks – praktisch, wenn du den Kaffee nahtlos in einen frühen Apéro übergehen lassen willst.",
-   "source": "https://veracalma.ch",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-atelier-classic-bar",
-   "kind": "bar",
-   "name": "Atelier Classic Bar",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Rathausplatz 3, 3600 Thun",
-   "coords": {
-    "lat": 46.75968,
-    "lng": 7.62882
-   },
-   "url": "https://www.bar-atelier.ch",
-   "price": 2,
-   "tags": [
-    "genuss",
-    "freunde",
-    "romantisch"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "täglich ab 16 Uhr",
-   "text": "Cocktailbar in einem Gewölbekeller am Rathausplatz, mehrfach an den Swiss Bar Awards ausgezeichnet. Neben Klassikern gibt es eigene Kreationen sowie alkoholarme und alkoholfreie Drinks.",
-   "tip": "Am Wochenende einen Tisch reservieren, der Keller ist bei Einheimischen beliebt.",
-   "source": "https://www.myswitzerland.com/en-in/experiences/food-wine/restaurant/atelier-classic-bar/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-kaffeemuehle",
-   "kind": "restaurant",
-   "name": "Restaurant Bar Kaffeemühle",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Bälliz 40, 3600 Thun",
-   "coords": null,
-   "url": "https://www.kaffeemuehle-thun.ch",
-   "price": 1,
-   "tags": [
-    "familie",
-    "freunde"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "So geschlossen; Mo–Sa tagsüber bis 17.30 Uhr",
-   "text": "Unkompliziertes Tageslokal auf dem Bälliz, der Aareinsel mitten in Thun. Gut für einen schnellen, bezahlbaren Zmittag oder Kaffee und Kuchen zwischendurch.",
-   "tip": "Mittwochs und samstags ist auf dem Bälliz Markt – kombiniere das Mittagessen mit einem Bummel über die Stände.",
-   "source": "https://www.kaffeemuehle-thun.ch",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-schloss-thun",
-   "kind": "sehenswuerdigkeit",
-   "name": "Schloss Thun (Museumsschloss)",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Schlossberg 1, 3600 Thun",
-   "coords": {
-    "lat": 46.75992,
-    "lng": 7.62972
-   },
-   "url": "https://schlossthun.ch",
-   "price": 2,
-   "tags": [
-    "regenfest",
-    "kultur",
-    "aussicht",
-    "familie"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Winter nur eingeschränkt offen",
-   "durationMin": 90,
-   "text": "Im Bergfried aus dem 12. Jahrhundert steigst du durch mehrere Stockwerke Museum bis unters Dach, inklusive des mächtigen Rittersaals. Von den Ecktürmchen schaust du über die Dächer der Altstadt auf See und Berge.",
-   "tip": "Im Winter ist das Schloss meist nur sonntagnachmittags offen – plane den Besuch entsprechend oder komm ab Februar.",
-   "source": "https://schlossthun.ch/?lang=en",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-st-beatus-hoehlen",
-   "kind": "aktivitaet",
-   "name": "St. Beatus-Höhlen",
-   "region": "thun",
-   "town": "Sundlauenen (Beatenberg)",
-   "address": "Sundlauenen, Gemeinde Beatenberg (Haltestelle «Sundlauenen, Beatushöhlen»)",
-   "coords": null,
-   "url": "https://www.beatushoehlen.swiss",
-   "price": 2,
-   "tags": [
-    "regenfest",
-    "familie",
-    "aktiv"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig, im Winter kürzere Zeiten, Revision im November",
-   "durationMin": 120,
-   "text": "Ein beleuchteter Weg führt rund einen Kilometer tief in den Berg, vorbei an Tropfsteinen, Wasserfällen und unterirdischen Seen. Draussen lohnt der kurze Aufstieg vom See mit Blick über den Thunersee.",
-   "tip": "Nimm eine Jacke mit – in der Höhle ist es auch im Hochsommer kühl und feucht.",
-   "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/st-beatus-hoehlen-entdecken",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-schloss-oberhofen",
-   "kind": "sehenswuerdigkeit",
-   "name": "Schloss Oberhofen (Museum und Park)",
-   "region": "thun",
-   "town": "Oberhofen am Thunersee",
-   "address": "Schloss 7, 3653 Oberhofen am Thunersee",
-   "coords": {
-    "lat": 46.72968,
-    "lng": 7.66857
-   },
-   "url": "https://www.schlossoberhofen.ch",
-   "price": 2,
-   "tags": [
-    "see",
-    "kultur",
-    "romantisch",
-    "gratis"
-   ],
-   "weatherProof": false,
-   "season": "Museum Mai bis Anfang November, Park März bis Dezember",
-   "durationMin": 120,
-   "text": "Das Schloss mit dem Türmchen, das direkt im Wasser steht, ist das Postkartenmotiv des Thunersees. Im Wohnmuseum siehst du, wie hier frühere Besitzer gelebt haben, und der Park am Ufer ist frei zugänglich.",
-   "tip": "Auch ausserhalb der Museumssaison lohnt sich ein Spaziergang durch den Park – Hunde sind dort allerdings nicht erlaubt.",
-   "source": "https://www.freizeit.ch/freizeit/14487/schloss-oberhofen-am-thunersee",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-niesen",
-   "kind": "aussicht",
-   "name": "Niesen mit der Niesenbahn ab Mülenen",
-   "region": "thun",
-   "town": "Mülenen",
-   "address": "Talstation Niesenbahn, Mülenen (Gemeinde Reichenbach im Kandertal)",
-   "coords": {
-    "lat": 46.64601,
-    "lng": 7.65273
-   },
-   "url": "https://www.niesen.ch",
-   "price": 3,
-   "tags": [
-    "berg",
-    "aussicht",
-    "see",
-    "aktiv"
-   ],
-   "weatherProof": false,
-   "season": "Ende April bis Anfang November",
-   "hours": "letzte Bergfahrt ab Mülenen 17 Uhr (an Abendfahrten 19.30 Uhr)",
-   "durationMin": 240,
-   "text": "Die Standseilbahn von 1910 bringt dich in zwei Abschnitten von knapp 700 auf über 2300 Meter auf die Pyramide über dem Thunersee. Oben liegen Thuner- und Brienzersee wie auf einer Karte vor dir, dahinter die Viertausender.",
-   "tip": "Die letzte Bergfahrt ist um 17 Uhr – für ruhige Stimmung lieber am Nachmittag hoch als am Vormittag.",
-   "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/niesen-wandern-sport",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-bls-schiff-thunersee",
-   "kind": "aktivitaet",
-   "name": "Schifffahrt Thunersee (BLS)",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Schiffstation Thun beim Bahnhof",
-   "coords": {
-    "lat": 46.75462,
-    "lng": 7.63078
-   },
-   "url": "https://www.bls-schiff.ch",
-   "price": 2,
-   "tags": [
-    "see",
-    "familie",
-    "romantisch",
-    "aussicht"
-   ],
-   "weatherProof": false,
-   "season": "ganzjährig auf dem Thunersee, im Winter mit reduziertem Fahrplan",
-   "durationMin": 60,
-   "text": "Die Kursschiffe fahren ab der Station beim Bahnhof Thun den See entlang nach Oberhofen, Spiez und weiter Richtung Interlaken. Vom Wasser aus siehst du Schlösser, Rebberge und den Niesen besonders gut.",
-   "tip": "Für eine kurze Kostprobe reicht die Fahrt bis Oberhofen – zurück kannst du bequem den Bus nehmen.",
-   "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/schifffahrt-thunersee",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "th-kunstmuseum-thun",
-   "kind": "sehenswuerdigkeit",
-   "name": "Kunstmuseum Thun",
-   "region": "thun",
-   "town": "Thun",
-   "address": "Hofstettenstrasse 14, 3602 Thun",
-   "coords": {
-    "lat": 46.75605,
-    "lng": 7.63407
-   },
-   "url": "https://kunstmuseumthun.ch",
-   "price": 2,
-   "tags": [
-    "regenfest",
-    "kultur"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Mo geschlossen; Di–So 10–17 Uhr, Mi bis 19 Uhr",
-   "durationMin": 75,
-   "text": "Wechselausstellungen mit Schwerpunkt auf Schweizer Gegenwartskunst im ehemaligen Grandhotel Thunerhof an der Aare. Kompakt genug für einen Regennachmittag ohne Museumsmüdigkeit.",
-   "tip": "Von März bis November gehört auch das Thun-Panorama im Schadaupark dazu, ein über 200 Jahre altes Rundbild der Stadt.",
-   "source": "https://www.myswitzerland.com/en-id/experiences/kunstmuseum-thun/",
-   "checked": "2026-11-15"
-  }
- ],
- "trips": [
-  {
-   "slug": "luzern-vierwaldstaettersee-3-tage",
-   "title": "Luzern & Vierwaldstättersee",
-   "teaser": "Drei Tage zwischen Kapellbrücke, Raddampfer und zwei Hausbergen – mit Plan B für jeden Regentag.",
-   "region": "luzern",
-   "days": 3,
-   "moods": [
-    "kultur",
-    "natur",
-    "genuss",
-    "romantik"
-   ],
-   "audience": [
-    "paar",
-    "freunde",
-    "allein"
-   ],
-   "season": "Mai–Oktober (Pilatus-Zahnradbahn ab Mitte Mai); ideal Donnerstag bis Samstag, weil mehrere Restaurants So/Mo zu sind",
-   "arrival": [
+  "places": [
     {
-     "from": "Zürich HB",
-     "minutes": 41
+      "id": "lu-hotel-alpha",
+      "kind": "hotel",
+      "name": "Hotel Alpha",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Zähringerstrasse 24, 6003 Luzern",
+      "coords": {
+        "lat": 47.04698,
+        "lng": 8.3014
+      },
+      "url": "https://www.hotelalpha.ch",
+      "price": 1,
+      "tags": [
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Einfaches, ruhiges Haus in einem Wohnquartier etwa zehn Minuten zu Fuss von Bahnhof und Altstadt. Du kannst zwischen Zimmern mit eigener oder geteilter Dusche wählen, was den Preis spürbar drückt.",
+      "tip": "Wenn du das Budget im Griff behalten willst, frag beim Buchen gezielt nach einem Zimmer mit Etagendusche.",
+      "source": "https://www.myswitzerland.com/en/accommodations/hotel-alpha-2/",
+      "checked": "2026-11-15"
     },
     {
-     "from": "Bern",
-     "minutes": 61
-    },
-    {
-     "from": "Basel SBB",
-     "minutes": 61
-    }
-   ],
-   "hotelIds": [
-    "lu-hotel-alpha",
-    "lu-altstadthotel-krone",
-    "lu-art-deco-hotel-montana"
-   ],
-   "dayPlans": [
-    {
-     "title": "Tag 1 – Altstadt, Picasso und Apéro über dem See",
-     "slots": [
-      {
-       "time": "10:45",
-       "placeId": "lu-altstadthotel-krone",
-       "title": "Gepäck abgeben",
-       "text": "Vom Bahnhof über die Reuss in die Altstadt und das Gepäck im Hotel deponieren.",
-       "travel": "ca. 7 Min. zu Fuss vom Bahnhof"
+      "id": "lu-altstadthotel-krone",
+      "kind": "hotel",
+      "name": "Krone Luzern – Altstadthotel am Weinmarkt",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Weinmarkt 12, 6004 Luzern",
+      "coords": {
+        "lat": 47.05202,
+        "lng": 8.30452
       },
-      {
-       "time": "11:15",
-       "tourSlug": "luzern-klassiker",
-       "title": "Audio-Rundgang Luzern-Klassiker",
-       "text": "Über die Kapellbrücke, durch die Altstadtgassen, hinauf zur Museggmauer und zum Löwendenkmal – in deinem Tempo mit Audioguide.",
-       "travel": "Start in der Altstadt, wenige Minuten vom Hotel"
-      },
-      {
-       "time": "13:45",
-       "placeId": "lu-rathaus-brauerei",
-       "title": "Zmittag in der Rathaus Brauerei",
-       "text": "Hausbier und ein währschaftes Mittagessen unter den Rathausarkaden an der Reuss.",
-       "travel": "ca. 12 Min. zu Fuss vom Löwendenkmal"
-      },
-      {
-       "time": "15:15",
-       "placeId": "lu-sammlung-rosengart",
-       "title": "Picasso und Klee in der Sammlung Rosengart",
-       "text": "Anderthalb Stunden Klassische Moderne im kompakten Museum an der Pilatusstrasse.",
-       "travel": "ca. 8 Min. zu Fuss über die Reussbrücke"
-      },
-      {
-       "time": "17:45",
-       "placeId": "lu-louis-bar-montana",
-       "title": "Apéro in der Louis Bar",
-       "text": "Mit der kleinen Hotelbahn zum Montana hinauf und den Apéro mit Blick über das Seebecken nehmen.",
-       "travel": "ca. 20 Min. zu Fuss der Seepromenade entlang bis zur Talstation, dann Hotelbahn"
-      },
-      {
-       "time": "19:30",
-       "placeId": "lu-old-swiss-house",
-       "title": "Schnitzel im Old Swiss House",
-       "text": "Das Wiener Schnitzel wird am Tisch gebraten – reserviere vorher (Di–Sa).",
-       "travel": "ca. 15 Min. zu Fuss"
+      "url": "https://krone-luzern.ch",
+      "price": 2,
+      "tags": [
+        "kultur",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Drei-Sterne-Hotel direkt am Weinmarkt, also mitten in der autofreien Altstadt. Von hier bist du in wenigen Minuten an der Kapellbrücke, am Rathausquai und an der Schiffsanlegestelle.",
+      "tip": "Wer spät ankommt, checkt laut Buchungsportalen im Schwesterhotel des Balances am selben Platz ein – vorher kurz nachfragen.",
+      "source": "https://krone-luzern.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Luzern_Hotel_Krone.jpg/1280px-Luzern_Hotel_Krone.jpg",
+        "alt": "Fassade des Hotels Krone in der Luzerner Altstadt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Luzern_Hotel_Krone.jpg"
       }
-     ]
     },
     {
-     "title": "Tag 2 – Mit dem Schiff zur Rigi",
-     "slots": [
-      {
-       "time": "09:40",
-       "placeId": "lu-sgv-dampfschiff",
-       "title": "Schifffahrt nach Vitznau",
-       "text": "Gut eine Stunde über den See vorbei an Weggis; mit Glück ist ein Raddampfer im Einsatz.",
-       "travel": "Schiffstation Bahnhofquai, ca. 8 Min. zu Fuss vom Weinmarkt",
-       "rain": {
-        "placeId": "lu-verkehrshaus",
-        "title": "Verkehrshaus statt Bergtag",
-        "text": "Bei Regen oder tiefer Wolkendecke tauschst du den Rigi-Tag gegen einen ausgedehnten Besuch im Verkehrshaus (Bus oder S-Bahn ab Bahnhof, ca. 10 Min.)."
-       }
+      "id": "lu-art-deco-hotel-montana",
+      "kind": "hotel",
+      "name": "Art Deco Hotel Montana",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Adligenswilerstrasse 22, 6006 Luzern",
+      "coords": {
+        "lat": 47.05634,
+        "lng": 8.31965
       },
-      {
-       "time": "11:00",
-       "placeId": "lu-rigi-vitznau",
-       "title": "Zahnradbahn auf den Rigi Kulm",
-       "text": "In rund 30 Minuten hinauf, oben Rundblick und ein kurzer Spaziergang; Zmittag im Bergrestaurant oder als Picknick.",
-       "travel": "Umsteigen vom Schiff direkt in die Bahn in Vitznau",
-       "rain": {
-        "placeId": "lu-verkehrshaus",
-        "title": "Verkehrshaus",
-        "text": "Statt Rigi: Bahn- und Schiffsgeschichte im Trockenen erleben."
-       }
-      },
-      {
-       "time": "14:30",
-       "title": "Talfahrt über Arth-Goldau",
-       "text": "Mit der Zahnradbahn auf der anderen Seite hinunter nach Arth-Goldau und mit dem Zug zurück nach Luzern – so wird es eine Rundreise.",
-       "travel": "Zahnradbahn nach Arth-Goldau, dann ca. 30 Min. Zug nach Luzern"
-      },
-      {
-       "time": "16:30",
-       "placeId": "lu-confiserie-bachmann-schwanenplatz",
-       "title": "Kaffee und Schoggi am Schwanenplatz",
-       "text": "Nach dem Bergtag eine süsse Pause im Café der Confiserie Bachmann.",
-       "travel": "ca. 5 Min. zu Fuss vom Bahnhof"
-      },
-      {
-       "time": "19:00",
-       "placeId": "lu-wirtshaus-galliker",
-       "title": "Znacht im Wirtshaus Galliker",
-       "text": "Bodenständige Küche in der Traditionsbeiz – an Pot-au-feu-Tagen (Di/Do/Sa) unbedingt probieren, reservieren nicht vergessen.",
-       "travel": "ca. 10 Min. zu Fuss aus der Altstadt"
+      "url": "https://www.hotel-montana.ch",
+      "price": 3,
+      "tags": [
+        "romantisch",
+        "aussicht",
+        "see",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Palasthotel von 1910 am Hang über dem Seebecken, innen konsequent im Art-déco-Stil. Vom Seeufer fährt eine hauseigene Standseilbahn hinauf, und aus vielen Zimmern schaust du direkt auf See und Pilatus.",
+      "tip": "Auch ohne Übernachtung lohnt sich ein Drink in der Louis Bar – die Fahrt mit der kleinen Hotelbahn gehört dazu.",
+      "source": "https://www.hotel-montana.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Hotel_Montana_in_Luzern%2C_Schweiz%2C_P1010410.jpg/1280px-Hotel_Montana_in_Luzern%2C_Schweiz%2C_P1010410.jpg",
+        "alt": "Art Deco Hotel Montana in Luzern",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_Montana_in_Luzern,_Schweiz,_P1010410.jpg"
       }
-     ]
     },
     {
-     "title": "Tag 3 – Pilatus und Abschied in der Altstadt",
-     "slots": [
-      {
-       "time": "09:05",
-       "placeId": "lu-pilatus",
-       "title": "Pilatus-Rundfahrt",
-       "text": "Zug nach Alpnachstad, Zahnradbahn hinauf, oben über die Felsenwege und mit Luftseilbahn und Gondel nach Kriens hinunter.",
-       "travel": "ca. 16 Min. Zug Luzern–Alpnachstad; zurück ab Kriens mit dem Bus",
-       "rain": {
-        "placeId": "lu-gletschergarten",
-        "title": "Gletschergarten statt Pilatus",
-        "text": "Wenn der Berg in den Wolken steckt: Gletschertöpfe, Spiegellabyrinth und ein Aussichtsturm, der auch bei Nebel Spass macht."
-       }
+      "id": "lu-rathaus-brauerei",
+      "kind": "restaurant",
+      "name": "Restaurant Rathaus Brauerei",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Unter der Egg 2, 6004 Luzern",
+      "coords": {
+        "lat": 47.0519,
+        "lng": 8.30642
       },
-      {
-       "time": "13:45",
-       "placeId": "lu-jazzkantine",
-       "title": "Tapas in der Jazzkantine",
-       "text": "Unkomplizierter, günstiger Zmittag in der Altstadt (Di–Sa).",
-       "travel": "Bus von Kriens zum Bahnhof, dann ca. 8 Min. zu Fuss"
-      },
-      {
-       "time": "15:00",
-       "title": "Letzte Runde am Seeufer",
-       "text": "Gemütlich über den Rathausquai und die Seebrücke zurück zum Bahnhof und Heimreise.",
-       "travel": "ca. 10 Min. zu Fuss zum Bahnhof"
+      "url": "https://www.rathausbrauerei.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "kultur",
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Hausbrauerei unter den Arkaden des Rathauses aus dem frühen 17. Jahrhundert, direkt an der Reuss. Zum frisch gebrauten Bier gibt es währschafte Schweizer Küche, etwa Würste von Luzerner Metzgern.",
+      "tip": "Bei schönem Wetter einen Platz draussen unter den Arkaden reservieren – du sitzt dann mit Blick auf die Kapellbrücke.",
+      "source": "https://www.rathausbrauerei.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Das_Rathaus_in_Luzern.jpg/1280px-Das_Rathaus_in_Luzern.jpg",
+        "alt": "Altes Rathaus am Kornmarkt in Luzern, in dessen Arkaden die Rathaus Brauerei liegt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Das_Rathaus_in_Luzern.jpg"
       }
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "luzern-familientag",
-   "title": "Luzern mit Kindern an einem Tag",
-   "teaser": "Lokomotiven, Gletschertöpfe und ein Altstadt-Rundgang – ein Tag, der auch bei Regen funktioniert.",
-   "region": "luzern",
-   "days": 1,
-   "moods": [
-    "familie",
-    "kultur"
-   ],
-   "audience": [
-    "familie"
-   ],
-   "season": "ganzjährig",
-   "arrival": [
-    {
-     "from": "Zürich HB",
-     "minutes": 41
     },
     {
-     "from": "Bern",
-     "minutes": 61
-    },
-    {
-     "from": "Basel SBB",
-     "minutes": 61
-    }
-   ],
-   "hotelIds": [],
-   "dayPlans": [
-    {
-     "title": "Tag 1 – Vom Verkehrshaus in die Altstadt",
-     "slots": [
-      {
-       "time": "09:45",
-       "placeId": "lu-verkehrshaus",
-       "title": "Verkehrshaus",
-       "text": "Lokomotiven, Flugzeuge und Schiffe zum Einsteigen – drei Stunden vergehen hier schnell.",
-       "travel": "ca. 10 Min. mit Bus oder S-Bahn ab Bahnhof Luzern"
-      },
-      {
-       "time": "13:15",
-       "placeId": "lu-rathaus-brauerei",
-       "title": "Zmittag an der Reuss",
-       "text": "Wurst, Rösti und für die Grossen ein Hausbier unter den Rathausarkaden.",
-       "travel": "ca. 10 Min. Bus zurück zum Bahnhof, dann 7 Min. zu Fuss"
-      },
-      {
-       "time": "14:30",
-       "tourSlug": "luzern-klassiker",
-       "title": "Audio-Rundgang Luzern-Klassiker",
-       "text": "Kapellbrücke, Altstadt, Museggmauer mit Türmen zum Hochsteigen und zum Schluss der Löwe im Fels.",
-       "travel": "Start in der Altstadt, wenige Minuten vom Restaurant",
-       "rain": {
-        "placeId": "lu-gletschergarten",
-        "title": "Gletschergarten",
-        "text": "Bei Regen den Mauerteil auslassen und im Gletschergarten Spiegellabyrinth und Felsenwelt erkunden."
-       }
-      },
-      {
-       "time": "17:00",
-       "placeId": "lu-confiserie-bachmann-schwanenplatz",
-       "title": "Schoggi-Pause",
-       "text": "Zum Schluss die Schokoladenwand bestaunen und etwas Süsses für die Heimfahrt einpacken.",
-       "travel": "ca. 10 Min. zu Fuss vom Löwendenkmal; danach 5 Min. zum Bahnhof"
+      "id": "lu-wirtshaus-galliker",
+      "kind": "restaurant",
+      "name": "Wirtshaus Galliker",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Schützenstrasse 1, 6003 Luzern",
+      "coords": null,
+      "url": "https://wirtshaus-galliker.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So/Mo geschlossen; Di–Sa mittags und abends",
+      "text": "Traditionsbeiz nahe dem Kasernenplatz, in der bodenständige Schweizer Küche ohne Schnickschnack auf den Tisch kommt. Dienstags, donnerstags und samstags gibt es frischen Pot-au-feu, freitags gespickten Rindsbraten.",
+      "tip": "Plane deinen Besuch auf einen Pot-au-feu-Tag und reservier am Abend – die Beiz ist bei Einheimischen beliebt.",
+      "source": "https://wirtshaus-galliker.ch/restaurant-galliker",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/20110111_Restaurant_Galliker_Luzern.jpg/1280px-20110111_Restaurant_Galliker_Luzern.jpg",
+        "alt": "Fassade des Restaurants Galliker in Luzern",
+        "credit": "https://commons.wikimedia.org/wiki/File:20110111_Restaurant_Galliker_Luzern.jpg"
       }
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "thun-thunersee-2-tage",
-   "title": "Thun & Thunersee",
-   "teaser": "Zwei Tage zwischen Schloss, Aare und Seeufer – mit Höhlen, Hausberg und einem Cocktail im Gewölbekeller.",
-   "region": "thun",
-   "days": 2,
-   "moods": [
-    "kultur",
-    "natur",
-    "genuss",
-    "romantik"
-   ],
-   "audience": [
-    "paar",
-    "freunde",
-    "allein"
-   ],
-   "season": "Mitte Mai–Oktober (Museum Oberhofen und Niesenbahn offen); ideal Dienstag bis Samstag",
-   "arrival": [
-    {
-     "from": "Zürich HB",
-     "minutes": 81
     },
     {
-     "from": "Bern",
-     "minutes": 19
-    },
-    {
-     "from": "Basel SBB",
-     "minutes": 83
-    }
-   ],
-   "hotelIds": [
-    "th-hotel-aare-thun",
-    "th-hotel-krone-thun"
-   ],
-   "dayPlans": [
-    {
-     "title": "Tag 1 – Altstadt, Schloss Oberhofen und Abend am See",
-     "slots": [
-      {
-       "time": "10:30",
-       "placeId": "th-hotel-aare-thun",
-       "title": "Ankommen und Gepäck abgeben",
-       "text": "Vom Bahnhof direkt zum Hotel an der Aare.",
-       "travel": "ca. 5 Min. zu Fuss vom Bahnhof"
+      "id": "lu-old-swiss-house",
+      "kind": "restaurant",
+      "name": "Old Swiss House",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Löwenplatz 4, 6004 Luzern",
+      "coords": {
+        "lat": 47.05733,
+        "lng": 8.31118
       },
-      {
-       "time": "11:00",
-       "tourSlug": "thun-schloss-aare",
-       "title": "Audio-Rundgang Schloss & Aare",
-       "text": "Über die Aarebrücken zur Oberen Hauptgasse mit ihren Hochtrottoirs und hinauf zum Schloss.",
-       "travel": "Start in der Altstadt, wenige Minuten vom Hotel",
-       "rain": {
-        "placeId": "th-schloss-thun",
-        "title": "Schloss Thun von innen",
-        "text": "Bei Regen verbringst du die zweite Hälfte im Museumsschloss statt in den Gassen (Öffnungszeiten saisonal prüfen)."
-       }
-      },
-      {
-       "time": "13:00",
-       "placeId": "th-ristorante-waisenhaus",
-       "title": "Zmittag bei der Aareschleuse",
-       "text": "Hausgemachte Pasta, bei schönem Wetter unter den Kastanien auf der Terrasse.",
-       "travel": "ca. 5 Min. zu Fuss"
-      },
-      {
-       "time": "14:30",
-       "placeId": "th-schloss-oberhofen",
-       "title": "Schloss Oberhofen",
-       "text": "Wohnmuseum und Park direkt am See; anschliessend dem Ufer entlang schlendern.",
-       "travel": "ca. 15 Min. Bus 21 oder 25 ab Bahnhof Thun; im Sommer auch per Schiff",
-       "rain": {
-        "placeId": "th-kunstmuseum-thun",
-        "title": "Kunstmuseum Thun",
-        "text": "Statt Seeufer gibt es Schweizer Gegenwartskunst im ehemaligen Grandhotel an der Aare."
-       }
-      },
-      {
-       "time": "16:45",
-       "placeId": "th-vera-calma",
-       "title": "Kaffeepause",
-       "text": "Zurück in Thun auf einen Kaffee und etwas Süsses (bis 18 Uhr offen).",
-       "travel": "Bus zurück nach Thun, dann ca. 5 Min. zu Fuss"
-      },
-      {
-       "time": "18:15",
-       "placeId": "th-atelier-classic-bar",
-       "title": "Apéro im Gewölbekeller",
-       "text": "Ein Cocktail im ausgezeichneten Keller am Rathausplatz.",
-       "travel": "ca. 8 Min. zu Fuss"
-      },
-      {
-       "time": "19:45",
-       "placeId": "th-schloss-schadau-restaurant",
-       "title": "Znacht im Schloss Schadau",
-       "text": "Geniessermenü im Schlösschen am Ausfluss der Aare – vorher reservieren.",
-       "travel": "ca. 25 Min. zu Fuss der Aare entlang oder kurz mit dem Bus"
+      "url": "https://www.oldswisshouse.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So/Mo geschlossen; Di–Sa 11.30–14.30 und 18.00–23.30 Uhr",
+      "text": "Riegelhaus von 1858 beim Löwenplatz, seit den 1930er-Jahren Restaurant. Bekannt ist es für das Wiener Schnitzel, das direkt am Tisch in der Pfanne gebraten wird.",
+      "tip": "Das Schnitzel ist das Ding hier – plane genug Hunger und ein grosszügiges Budget ein.",
+      "source": "https://www.oldswisshouse.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 39,
+        "to": 69,
+        "unit": "Hauptgang",
+        "note": "vegetarisch ab 39, Fleisch 51–66, Fisch 66–69"
       }
-     ]
     },
     {
-     "title": "Tag 2 – Niesen und Höhlen",
-     "slots": [
-      {
-       "time": "09:15",
-       "placeId": "th-niesen",
-       "title": "Auf den Niesen",
-       "text": "Mit dem Zug nach Mülenen und in zwei Abschnitten mit der historischen Standseilbahn auf den Gipfel.",
-       "travel": "ca. 16 Min. Zug Thun–Mülenen",
-       "rain": {
-        "placeId": "th-bls-schiff-thunersee",
-        "title": "Schiff statt Niesen",
-        "text": "Bei tiefen Wolken lohnt der Gipfel nicht – also im Salon über den Thunersee schippern und in Spiez oder Oberhofen aussteigen, wie es passt."
-       }
+      "id": "lu-confiserie-bachmann-schwanenplatz",
+      "kind": "cafe",
+      "name": "Confiserie Bachmann Schwanenplatz",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Schwanenplatz 7, 6004 Luzern",
+      "coords": {
+        "lat": 47.05376,
+        "lng": 8.30863
       },
-      {
-       "time": "13:15",
-       "placeId": "th-kaffeemuehle",
-       "title": "Schneller Zmittag auf dem Bälliz",
-       "text": "Günstig und unkompliziert essen, bevor es an den See weitergeht (So geschlossen).",
-       "travel": "Zug zurück nach Thun, dann ca. 5 Min. zu Fuss"
+      "url": "https://www.confiserie.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Das Stammhaus der Luzerner Confiserie mit Café und einer Schokoladenwand, an der flüssige Schokolade herunterläuft. Gut für eine Pause zwischen Altstadt und Seepromenade.",
+      "tip": "Für eine geführte Schoggi-Degustation am Schwanenplatz vorher telefonisch anfragen.",
+      "source": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/confiserie-bachmann-schwanenplatz/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "lu-louis-bar-montana",
+      "kind": "bar",
+      "name": "Louis Bar (Art Deco Hotel Montana)",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Adligenswilerstrasse 22, 6006 Luzern",
+      "coords": {
+        "lat": 47.05634,
+        "lng": 8.31965
       },
-      {
-       "time": "14:30",
-       "placeId": "th-st-beatus-hoehlen",
-       "title": "St. Beatus-Höhlen",
-       "text": "Rund einen Kilometer in den Berg zu Tropfsteinen und unterirdischen Wasserfällen – funktioniert bei jedem Wetter.",
-       "travel": "ca. 40 Min. Bus 21 ab Bahnhof Thun"
-      },
-      {
-       "time": "17:15",
-       "title": "Rückfahrt und Heimreise",
-       "text": "Mit dem Bus 21 zurück nach Thun und weiter mit dem Zug nach Hause.",
-       "travel": "ca. 40 Min. Bus 21 bis Bahnhof Thun"
+      "url": "https://www.hotel-montana.ch",
+      "price": 3,
+      "tags": [
+        "romantisch",
+        "aussicht",
+        "genuss",
+        "see"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "abends ab 17 Uhr",
+      "text": "Hotelbar mit grosser Whisky-Auswahl, Jazz und Blick über das Seebecken. Der richtige Ort für einen Apéro, bevor du wieder in die Altstadt hinunterfährst.",
+      "tip": "Früh genug kommen, damit du noch bei Tageslicht auf See und Pilatus schaust.",
+      "source": "https://www.myswitzerland.com/en-us/experiences/food-wine/restaurant/art-deco-hotel-montana-louis-bar",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 18,
+        "to": 19,
+        "unit": "Cocktail",
+        "note": "Barkarte November 2026; bei Livemusik CHF 1 Zuschlag pro Getränk"
       }
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "thun-tagesausflug-familie",
-   "title": "Thun an einem Tag – mit Kindern",
-   "teaser": "Ab in die Tropfsteinhöhle, dann Altstadt und Schloss – ein Tagesausflug, der auch bei Regen klappt.",
-   "region": "thun",
-   "days": 1,
-   "moods": [
-    "familie",
-    "natur",
-    "kultur"
-   ],
-   "audience": [
-    "familie",
-    "freunde"
-   ],
-   "season": "Ende März–Anfang November (Sommersaison der Beatushöhlen); Dienstag bis Samstag",
-   "arrival": [
-    {
-     "from": "Zürich HB",
-     "minutes": 81
     },
     {
-     "from": "Bern",
-     "minutes": 19
-    },
-    {
-     "from": "Basel SBB",
-     "minutes": 83
-    }
-   ],
-   "hotelIds": [],
-   "dayPlans": [
-    {
-     "title": "Tag 1 – Höhle, Altstadt, Aare",
-     "slots": [
-      {
-       "time": "10:00",
-       "placeId": "th-st-beatus-hoehlen",
-       "title": "St. Beatus-Höhlen",
-       "text": "Durch beleuchtete Gänge zu Tropfsteinen und rauschenden Wasserfällen im Berg – Jacke nicht vergessen.",
-       "travel": "ca. 40 Min. Bus 21 ab Bahnhof Thun"
+      "id": "lu-jazzkantine",
+      "kind": "restaurant",
+      "name": "Jazzkantine zum Graben",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Grabenstrasse 8, 6004 Luzern",
+      "coords": {
+        "lat": 47.0533,
+        "lng": 8.30597
       },
-      {
-       "time": "13:15",
-       "placeId": "th-kaffeemuehle",
-       "title": "Zmittag auf dem Bälliz",
-       "text": "Einfaches, günstiges Essen mitten in der Stadt.",
-       "travel": "ca. 40 Min. Bus 21 zurück, dann 5 Min. zu Fuss"
-      },
-      {
-       "time": "14:30",
-       "tourSlug": "thun-schloss-aare",
-       "title": "Audio-Rundgang Schloss & Aare",
-       "text": "Brücken über die rauschende Aare, Hochtrottoirs in der Hauptgasse und hinauf zum Schloss.",
-       "travel": "Start in der Altstadt, wenige Minuten vom Bälliz",
-       "rain": {
-        "placeId": "th-kunstmuseum-thun",
-        "title": "Kunstmuseum Thun",
-        "text": "Bei Regen den Rundgang abkürzen und ins Kunstmuseum ausweichen (bis 17 Uhr offen)."
-       }
-      },
-      {
-       "time": "16:45",
-       "placeId": "th-vera-calma",
-       "title": "Zvieri vor der Heimfahrt",
-       "text": "Etwas Süsses und ein Kaffee für die Grossen, dann zurück zum Bahnhof.",
-       "travel": "ca. 10 Min. zu Fuss; danach 5 Min. zum Bahnhof"
+      "url": "https://www.jazzkantine.com",
+      "price": 1,
+      "tags": [
+        "freunde",
+        "kultur",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So/Mo und Feiertage geschlossen; Di/Mi 10–23, Do/Fr 10–00.30, Sa 9.30–00.30 Uhr",
+      "text": "Lockere Kantine mit Tapas, saisonalen und vegetarischen Gerichten, betrieben im Umfeld der Luzerner Jazzszene. Abends gibt es oft Konzerte, tagsüber ist es ein unkomplizierter Ort für einen günstigen Zmittag.",
+      "tip": "Schau vorab ins Konzertprogramm – an Konzertabenden wird es schnell voll.",
+      "source": "https://www.jazzkantine.com/kontakt-reservation",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 22,
+        "unit": "Hauptgang",
+        "note": "Mittagsmenü Di–Fr (mit Suppe oder Salat CHF 24); abends 5-Gang-Menü"
       }
-     ]
+    },
+    {
+      "id": "lu-verkehrshaus",
+      "kind": "aktivitaet",
+      "name": "Verkehrshaus der Schweiz",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Haldenstrasse 44, 6006 Luzern",
+      "coords": {
+        "lat": 47.05275,
+        "lng": 8.33664
+      },
+      "url": "https://www.verkehrshaus.ch",
+      "price": 3,
+      "tags": [
+        "regenfest",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich ab 10 Uhr",
+      "durationMin": 240,
+      "text": "Grosses Museum zu Bahn, Strasse, Luft- und Schifffahrt mit vielen Originalfahrzeugen zum Anfassen und Einsteigen. Dazu kommen Planetarium, Filmtheater und ein Schokoladen-Erlebnis, die du separat buchen kannst.",
+      "tip": "Plane mindestens einen halben Tag ein und buch die Zusatzangebote online, damit du nicht an der Kasse anstehst.",
+      "source": "https://www.verkehrshaus.ch/de/",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 37,
+        "unit": "Eintritt Erwachsene",
+        "note": "Museumseintritt; Ermässigungen für Kinder, Studierende, Swiss Travel Pass"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/20240906.Luzern.Verkehrshaus_der_Schweiz.-014.jpg/1280px-20240906.Luzern.Verkehrshaus_der_Schweiz.-014.jpg",
+        "alt": "Verkehrshaus der Schweiz in Luzern",
+        "credit": "https://commons.wikimedia.org/wiki/File:20240906.Luzern.Verkehrshaus_der_Schweiz.-014.jpg"
+      }
+    },
+    {
+      "id": "lu-gletschergarten",
+      "kind": "sehenswuerdigkeit",
+      "name": "Gletschergarten Luzern",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Denkmalstrasse 4, 6006 Luzern",
+      "coords": {
+        "lat": 47.05892,
+        "lng": 8.31041
+      },
+      "url": "https://gletschergarten.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich ab 10 Uhr",
+      "durationMin": 90,
+      "text": "Gleich neben dem Löwendenkmal siehst du Gletschertöpfe aus der letzten Eiszeit, dazu Museum, Felsenwelt im Berginnern und ein altes Spiegellabyrinth. Ein guter Ort, um zu verstehen, wie Luzerns Landschaft entstanden ist.",
+      "tip": "Das Spiegellabyrinth ist für Kinder oft das Highlight – heb es dir für den Schluss auf.",
+      "source": "https://gletschergarten.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 24,
+        "unit": "Eintritt Erwachsene",
+        "note": "ab 16 Jahren"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Luzern_Gletschergarten_4.04.02_01.jpg/1280px-Luzern_Gletschergarten_4.04.02_01.jpg",
+        "alt": "Im Gletschergarten Luzern",
+        "credit": "https://commons.wikimedia.org/wiki/File:Luzern_Gletschergarten_4.04.02_01.jpg"
+      }
+    },
+    {
+      "id": "lu-sammlung-rosengart",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museum Sammlung Rosengart",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Pilatusstrasse 10, 6003 Luzern",
+      "coords": {
+        "lat": 47.04968,
+        "lng": 8.30732
+      },
+      "url": "https://www.rosengart.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich, Sommer 10–18, Winter 11–17 Uhr",
+      "durationMin": 90,
+      "text": "Kompakte Privatsammlung mit einem ausserordentlich dichten Bestand an Picasso und Paul Klee, dazu Werke weiterer Klassiker der Moderne. In anderthalb Stunden schaffst du hier mehr Kunstgenuss als in manchem Grossmuseum.",
+      "tip": "Sonntags gibt es eine öffentliche Führung um 11.30 Uhr (2026 von Mai bis Ende Dezember).",
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/sammlung-rosengart-2523.html",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 20,
+        "unit": "Eintritt Erwachsene",
+        "note": "über 65 CHF 18, Studierende und 7–16 Jahre CHF 10; Museumspass gültig"
+      }
+    },
+    {
+      "id": "lu-rigi-vitznau",
+      "kind": "aussicht",
+      "name": "Rigi Kulm mit der Zahnradbahn ab Vitznau",
+      "region": "luzern",
+      "town": "Vitznau",
+      "address": "Talstation: Bahnhof Vitznau, Bahnhofstrasse 7, 6354 Vitznau",
+      "coords": {
+        "lat": 47.05519,
+        "lng": 8.48518
+      },
+      "url": "https://www.rigi.ch",
+      "price": 3,
+      "tags": [
+        "berg",
+        "aussicht",
+        "see",
+        "aktiv",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig, Revisionen meist im November",
+      "durationMin": 300,
+      "text": "Mit dem Schiff nach Vitznau und dann in rund 30 Minuten mit der Zahnradbahn auf den Rigi Kulm – oben hast du einen Rundblick über mehrere Seen bis in die Alpen. Hinunter kannst du über Arth-Goldau fahren und so eine Rundreise machen.",
+      "tip": "Steig nicht mit der ersten Bahn zurück: Ein kurzer Spaziergang vom Kulm hinunter zur nächsten Station ist meist ruhiger als der Gipfelrummel.",
+      "source": "https://www.rigi.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 84,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Vitznau–Rigi Kulm; mit Halbtax CHF 42; Preise ab 1. Juni 2026"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Vitznau-Rigi-Bahn%2C_Rigi%2C_Switzerland.jpg/1280px-Vitznau-Rigi-Bahn%2C_Rigi%2C_Switzerland.jpg",
+        "alt": "Zahnradbahn der Vitznau-Rigi-Bahn am Berg",
+        "credit": "https://commons.wikimedia.org/wiki/File:Vitznau-Rigi-Bahn,_Rigi,_Switzerland.jpg"
+      }
+    },
+    {
+      "id": "lu-pilatus",
+      "kind": "aussicht",
+      "name": "Pilatus Kulm (Zahnradbahn ab Alpnachstad / Gondel ab Kriens)",
+      "region": "luzern",
+      "town": "Alpnachstad",
+      "address": "Talstation Zahnradbahn: Bahnhof Alpnachstad, 6053 Alpnachstad",
+      "coords": {
+        "lat": 46.97926,
+        "lng": 8.25564
+      },
+      "url": "https://www.pilatus.ch",
+      "price": 3,
+      "tags": [
+        "berg",
+        "aussicht",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "Zahnradbahn ab Alpnachstad Mitte Mai bis Ende November; Gondel ab Kriens fast ganzjährig",
+      "durationMin": 300,
+      "text": "Von Alpnachstad fährt die steilste Zahnradbahn der Welt auf den Pilatus, zurück geht es per Luftseilbahn und Gondel nach Kriens und mit dem Bus nach Luzern. Oben spazierst du über kurze Felsenwege mit Tiefblick auf den See.",
+      "tip": "An schönen Wochenenden die Zahnradbahn reservieren, sonst stehst du in Alpnachstad lange an.",
+      "source": "https://www.luzern.com/de/poi/pilatus-zahnradbahn",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 84,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Alpnachstad–Pilatus Kulm (Zahnradbahn) bzw. Kriens–Pilatus Kulm, Mai–November; mit Halbtax CHF 42"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Pilatus_railway_train.jpg/1280px-Pilatus_railway_train.jpg",
+        "alt": "Zug der Pilatus-Zahnradbahn auf dem Weg zum Gipfel",
+        "credit": "https://commons.wikimedia.org/wiki/File:Pilatus_railway_train.jpg"
+      }
+    },
+    {
+      "id": "lu-sgv-dampfschiff",
+      "kind": "aktivitaet",
+      "name": "Schifffahrt Vierwaldstättersee (SGV, Dampf- und Motorschiffe)",
+      "region": "luzern",
+      "town": "Luzern",
+      "address": "Schiffstation Luzern Bahnhofquai (Steg 1 Richtung Weggis/Vitznau/Flüelen)",
+      "coords": null,
+      "url": "https://www.lakelucerne.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "romantisch",
+        "familie",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "Kursschiffe ganzjährig, Raddampfer vor allem im Sommer",
+      "durationMin": 60,
+      "text": "Die Schiffe der SGV legen direkt beim Bahnhof ab und verbinden Luzern mit Weggis, Vitznau und weiter bis Flüelen. Wenn ein Raddampfer im Einsatz ist, lohnt sich ein Blick in den Maschinenraum mit den offen laufenden Kolben.",
+      "tip": "Mit GA oder Tageskarte bist du auf dem Schiff dabei – plan die Hinfahrt zum Rigi per Schiff, die Rückfahrt per Zug ab Arth-Goldau.",
+      "source": "https://www.lakelucerne.ch/de/",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 53,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Luzern–Vitznau 2. Klasse; mit Halbtax CHF 26.50; Tageskarte CHF 86"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/DS_Stadt_Luzern_%282025%29.jpg/1280px-DS_Stadt_Luzern_%282025%29.jpg",
+        "alt": "Raddampfer «Stadt Luzern» auf dem Vierwaldstättersee",
+        "credit": "https://commons.wikimedia.org/wiki/File:DS_Stadt_Luzern_(2025).jpg"
+      }
+    },
+    {
+      "id": "th-hotel-krone-thun",
+      "kind": "hotel",
+      "name": "Hotel Krone Thun",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Obere Hauptgasse 2, 3600 Thun",
+      "coords": {
+        "lat": 46.75926,
+        "lng": 7.62864
+      },
+      "url": "https://www.krone-thun.ch",
+      "price": 3,
+      "tags": [
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Vier-Sterne-Haus direkt am Rathausplatz, fast unterhalb des Schlosses und nur ein paar Schritte von der Aare. Im Haus gibt es ein Grillrestaurant und das älteste chinesische Restaurant von Thun.",
+      "tip": "Der Rathausplatz ist abends belebt – wer empfindlich schläft, fragt nach einem Zimmer zur ruhigeren Seite.",
+      "source": "https://www.krone-thun.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Thun_Rathausplatz_Krone.jpg/1280px-Thun_Rathausplatz_Krone.jpg",
+        "alt": "Rathausplatz in Thun mit dem Hotel Krone",
+        "credit": "https://commons.wikimedia.org/wiki/File:Thun_Rathausplatz_Krone.jpg"
+      }
+    },
+    {
+      "id": "th-hotel-aare-thun",
+      "kind": "hotel",
+      "name": "Hotel Aare Thun (ehemals Freienhof)",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Freienhofgasse 3, 3600 Thun",
+      "coords": {
+        "lat": 46.7572,
+        "lng": 7.63147
+      },
+      "url": "https://www.hotelaarethun.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Hotel direkt an der Aare, rund fünf Minuten zu Fuss vom Bahnhof und nah am Schlossberg. Unten im Haus liegt das Restaurant Freienhof, sonntags gibt es dort einen Brunch.",
+      "tip": "Praktisch für ÖV-Reisende: Du kannst vom Bahnhof direkt mit dem Gepäck hinüberlaufen.",
+      "source": "https://www.myswitzerland.com/en/accommodations/hotel-freienhof",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Hotel_Freienhof_an_der_Aare_in_Thun_%282007%29.jpg/1280px-Hotel_Freienhof_an_der_Aare_in_Thun_%282007%29.jpg",
+        "alt": "Hotel an der Aare in Thun (damals Freienhof)",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_Freienhof_an_der_Aare_in_Thun_(2007).jpg"
+      }
+    },
+    {
+      "id": "th-ristorante-waisenhaus",
+      "kind": "restaurant",
+      "name": "Ristorante Waisenhaus",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Bälliz 61, 3600 Thun",
+      "coords": null,
+      "url": "https://www.bindella.ch/restaurants/waisenhaus",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich; warme Küche mittags bis 14 Uhr und abends ab 17.30 Uhr",
+      "text": "Italienisches Restaurant in einem historischen Gebäude bei der Aareschleuse, mit hausgemachter Pasta. Im Sommer sitzt du auf der grossen Terrasse unter Kastanienbäumen und hörst das Wasser rauschen.",
+      "tip": "Mittags früh kommen: Die Küche schliesst um 14 Uhr.",
+      "source": "https://www.bindella.ch/restaurants/waisenhaus",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 27,
+        "to": 52,
+        "unit": "Hauptgang",
+        "note": "Speisekarte 09.26: Pasta/Risotto 27–37, Fisch und Fleisch 39–52"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Altes_Waisenhaus_in_Thun_%282014%29.jpg/1280px-Altes_Waisenhaus_in_Thun_%282014%29.jpg",
+        "alt": "Fassade des alten Waisenhauses in Thun, heute Restaurant",
+        "credit": "https://commons.wikimedia.org/wiki/File:Altes_Waisenhaus_in_Thun_(2014).jpg"
+      }
+    },
+    {
+      "id": "th-schloss-schadau-restaurant",
+      "kind": "restaurant",
+      "name": "Schloss Schadau – Restaurant",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Seestrasse 45, 3600 Thun",
+      "coords": {
+        "lat": 46.74608,
+        "lng": 7.63739
+      },
+      "url": "https://www.schloss-schadau.ch",
+      "price": 3,
+      "tags": [
+        "romantisch",
+        "see",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Restaurant im Schlösschen aus dem 19. Jahrhundert im Schadaupark, dort wo die Aare aus dem Thunersee fliesst. Abends gibt es ein Geniessermenü, mittags ein einfacheres Angebot.",
+      "tip": "Vor dem Essen ein paar Minuten durch den Park bis ans Seeufer gehen – bei klarem Wetter siehst du Eiger, Mönch und Jungfrau.",
+      "source": "https://www.schloss-schadau.ch/de",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 32,
+        "to": 42,
+        "unit": "Hauptgang",
+        "note": "laut Barkarte ab September 2026 (z. B. Burger 32, Fish’n’Chips gross 38, Tatar gross 42); Afternoon-Tea CHF 36"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Schloss_Schadau_Thun_20140501.jpg/1280px-Schloss_Schadau_Thun_20140501.jpg",
+        "alt": "Schloss Schadau am Thunersee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Schloss_Schadau_Thun_20140501.jpg"
+      }
+    },
+    {
+      "id": "th-vera-calma",
+      "kind": "cafe",
+      "name": "vera calma – Café & Bar",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Hofstettenstrasse 2, 3602 Thun",
+      "coords": {
+        "lat": 46.75763,
+        "lng": 7.63237
+      },
+      "url": "https://veracalma.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 9–18 Uhr",
+      "text": "Kleines Café wenige Schritte vom Bahnhof und vom Aareufer, mit Kaffee, Crumpets, Pinsa und Süssem. Ein guter Halt für eine Pause zwischen Altstadt und Seeufer.",
+      "tip": "Am späten Nachmittag gibt es hier auch Drinks – praktisch, wenn du den Kaffee nahtlos in einen frühen Apéro übergehen lassen willst.",
+      "source": "https://veracalma.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 10.7,
+        "to": 12.2,
+        "unit": "Kaffee & Kuchen",
+        "note": "Kaffee crème CHF 4.70 plus Kuchen CHF 6–7.50 (Menükarte September 2026)"
+      }
+    },
+    {
+      "id": "th-atelier-classic-bar",
+      "kind": "bar",
+      "name": "Atelier Classic Bar",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Rathausplatz 3, 3600 Thun",
+      "coords": {
+        "lat": 46.75968,
+        "lng": 7.62882
+      },
+      "url": "https://www.bar-atelier.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich ab 16 Uhr",
+      "text": "Cocktailbar in einem Gewölbekeller am Rathausplatz, mehrfach an den Swiss Bar Awards ausgezeichnet. Neben Klassikern gibt es eigene Kreationen sowie alkoholarme und alkoholfreie Drinks.",
+      "tip": "Am Wochenende einen Tisch reservieren, der Keller ist bei Einheimischen beliebt.",
+      "source": "https://www.myswitzerland.com/en-in/experiences/food-wine/restaurant/atelier-classic-bar/",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 17,
+        "unit": "Cocktail",
+        "note": "Signature-Cocktails CHF 17, alkoholfreie CHF 14"
+      }
+    },
+    {
+      "id": "th-kaffeemuehle",
+      "kind": "restaurant",
+      "name": "Restaurant Bar Kaffeemühle",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Bälliz 40, 3600 Thun",
+      "coords": null,
+      "url": "https://www.kaffeemuehle-thun.ch",
+      "price": 1,
+      "tags": [
+        "familie",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So geschlossen; Mo–Sa tagsüber bis 17.30 Uhr",
+      "text": "Unkompliziertes Tageslokal auf dem Bälliz, der Aareinsel mitten in Thun. Gut für einen schnellen, bezahlbaren Zmittag oder Kaffee und Kuchen zwischendurch.",
+      "tip": "Mittwochs und samstags ist auf dem Bälliz Markt – kombiniere das Mittagessen mit einem Bummel über die Stände.",
+      "source": "https://www.kaffeemuehle-thun.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "th-schloss-thun",
+      "kind": "sehenswuerdigkeit",
+      "name": "Schloss Thun (Museumsschloss)",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Schlossberg 1, 3600 Thun",
+      "coords": {
+        "lat": 46.75992,
+        "lng": 7.62972
+      },
+      "url": "https://schlossthun.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "aussicht",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Winter nur eingeschränkt offen",
+      "durationMin": 90,
+      "text": "Im Bergfried aus dem 12. Jahrhundert steigst du durch mehrere Stockwerke Museum bis unters Dach, inklusive des mächtigen Rittersaals. Von den Ecktürmchen schaust du über die Dächer der Altstadt auf See und Berge.",
+      "tip": "Im Winter ist das Schloss meist nur sonntagnachmittags offen – plane den Besuch entsprechend oder komm ab Februar.",
+      "source": "https://schlossthun.ch/?lang=en",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "Museumsschloss; ermässigt CHF 8, Kinder 6–16 CHF 3; Swiss Travel Pass und Museumspass gültig"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Thun_Castle.jpg/1280px-Thun_Castle.jpg",
+        "alt": "Schloss Thun mit seinen vier Ecktürmen über der Altstadt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Thun_Castle.jpg"
+      }
+    },
+    {
+      "id": "th-st-beatus-hoehlen",
+      "kind": "aktivitaet",
+      "name": "St. Beatus-Höhlen",
+      "region": "thun",
+      "town": "Sundlauenen (Beatenberg)",
+      "address": "Sundlauenen, Gemeinde Beatenberg (Haltestelle «Sundlauenen, Beatushöhlen»)",
+      "coords": null,
+      "url": "https://www.beatushoehlen.swiss",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, im Winter kürzere Zeiten, Revision im November",
+      "durationMin": 120,
+      "text": "Ein beleuchteter Weg führt rund einen Kilometer tief in den Berg, vorbei an Tropfsteinen, Wasserfällen und unterirdischen Seen. Draussen lohnt der kurze Aufstieg vom See mit Blick über den Thunersee.",
+      "tip": "Nimm eine Jacke mit – in der Höhle ist es auch im Hochsommer kühl und feucht.",
+      "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/st-beatus-hoehlen-entdecken",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 20,
+        "unit": "Eintritt Erwachsene",
+        "note": "inkl. Höhlenmuseum; bis 20.11.2026 geschlossen"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Saint_Beatus_Caves_-_2023-07-19_16-19-19_2427.jpg/1280px-Saint_Beatus_Caves_-_2023-07-19_16-19-19_2427.jpg",
+        "alt": "Beleuchtete Tropfsteine in den St. Beatus-Höhlen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Saint_Beatus_Caves_-_2023-07-19_16-19-19_2427.jpg"
+      }
+    },
+    {
+      "id": "th-schloss-oberhofen",
+      "kind": "sehenswuerdigkeit",
+      "name": "Schloss Oberhofen (Museum und Park)",
+      "region": "thun",
+      "town": "Oberhofen am Thunersee",
+      "address": "Schloss 7, 3653 Oberhofen am Thunersee",
+      "coords": {
+        "lat": 46.72968,
+        "lng": 7.66857
+      },
+      "url": "https://www.schlossoberhofen.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "kultur",
+        "romantisch",
+        "gratis"
+      ],
+      "weatherProof": false,
+      "season": "Museum Mai bis Anfang November, Park März bis Dezember",
+      "durationMin": 120,
+      "text": "Das Schloss mit dem Türmchen, das direkt im Wasser steht, ist das Postkartenmotiv des Thunersees. Im Wohnmuseum siehst du, wie hier frühere Besitzer gelebt haben, und der Park am Ufer ist frei zugänglich.",
+      "tip": "Auch ausserhalb der Museumssaison lohnt sich ein Spaziergang durch den Park – Hunde sind dort allerdings nicht erlaubt.",
+      "source": "https://www.freizeit.ch/freizeit/14487/schloss-oberhofen-am-thunersee",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "Schlossmuseum inkl. Garten, Saison Mai–Oktober; ermässigt CHF 12; Park frei"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Schloss_Oberhofen_am_Thunersee_%282014%29.jpg/1280px-Schloss_Oberhofen_am_Thunersee_%282014%29.jpg",
+        "alt": "Schloss Oberhofen am Thunersee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Schloss_Oberhofen_am_Thunersee_(2014).jpg"
+      }
+    },
+    {
+      "id": "th-niesen",
+      "kind": "aussicht",
+      "name": "Niesen mit der Niesenbahn ab Mülenen",
+      "region": "thun",
+      "town": "Mülenen",
+      "address": "Talstation Niesenbahn, Mülenen (Gemeinde Reichenbach im Kandertal)",
+      "coords": {
+        "lat": 46.64601,
+        "lng": 7.65273
+      },
+      "url": "https://www.niesen.ch",
+      "price": 3,
+      "tags": [
+        "berg",
+        "aussicht",
+        "see",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "Ende April bis Anfang November",
+      "hours": "letzte Bergfahrt ab Mülenen 17 Uhr (an Abendfahrten 19.30 Uhr)",
+      "durationMin": 240,
+      "text": "Die Standseilbahn von 1910 bringt dich in zwei Abschnitten von knapp 700 auf über 2300 Meter auf die Pyramide über dem Thunersee. Oben liegen Thuner- und Brienzersee wie auf einer Karte vor dir, dahinter die Viertausender.",
+      "tip": "Die letzte Bergfahrt ist um 17 Uhr – für ruhige Stimmung lieber am Nachmittag hoch als am Vormittag.",
+      "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/niesen-wandern-sport",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 64,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Mülenen–Niesen Kulm; mit Halbtax/GA CHF 32; Saison 2027 ab 24. April"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Niesenbahn_Standseilbahn.jpg/1280px-Niesenbahn_Standseilbahn.jpg",
+        "alt": "Standseilbahn der Niesenbahn",
+        "credit": "https://commons.wikimedia.org/wiki/File:Niesenbahn_Standseilbahn.jpg"
+      }
+    },
+    {
+      "id": "th-bls-schiff-thunersee",
+      "kind": "aktivitaet",
+      "name": "Schifffahrt Thunersee (BLS)",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Schiffstation Thun beim Bahnhof",
+      "coords": {
+        "lat": 46.75462,
+        "lng": 7.63078
+      },
+      "url": "https://www.bls-schiff.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "familie",
+        "romantisch",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig auf dem Thunersee, im Winter mit reduziertem Fahrplan",
+      "durationMin": 60,
+      "text": "Die Kursschiffe fahren ab der Station beim Bahnhof Thun den See entlang nach Oberhofen, Spiez und weiter Richtung Interlaken. Vom Wasser aus siehst du Schlösser, Rebberge und den Niesen besonders gut.",
+      "tip": "Für eine kurze Kostprobe reicht die Fahrt bis Oberhofen – zurück kannst du bequem den Bus nehmen.",
+      "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/schifffahrt-thunersee",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Dampfschiff-Bluemlisalp-Thunersee.JPG/1280px-Dampfschiff-Bluemlisalp-Thunersee.JPG",
+        "alt": "Raddampfer Blüemlisalp auf dem Thunersee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Dampfschiff-Bluemlisalp-Thunersee.JPG"
+      }
+    },
+    {
+      "id": "th-kunstmuseum-thun",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kunstmuseum Thun",
+      "region": "thun",
+      "town": "Thun",
+      "address": "Hofstettenstrasse 14, 3602 Thun",
+      "coords": {
+        "lat": 46.75605,
+        "lng": 7.63407
+      },
+      "url": "https://kunstmuseumthun.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17 Uhr, Mi bis 19 Uhr",
+      "durationMin": 75,
+      "text": "Wechselausstellungen mit Schwerpunkt auf Schweizer Gegenwartskunst im ehemaligen Grandhotel Thunerhof an der Aare. Kompakt genug für einen Regennachmittag ohne Museumsmüdigkeit.",
+      "tip": "Von März bis November gehört auch das Thun-Panorama im Schadaupark dazu, ein über 200 Jahre altes Rundbild der Stadt.",
+      "source": "https://www.myswitzerland.com/en-id/experiences/kunstmuseum-thun/",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 8; bis 16 Jahre gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Thun_Hofstettenstrasse_14.jpg/1280px-Thun_Hofstettenstrasse_14.jpg",
+        "alt": "Thunerhof an der Hofstettenstrasse, Sitz des Kunstmuseums Thun",
+        "credit": "https://commons.wikimedia.org/wiki/File:Thun_Hofstettenstrasse_14.jpg"
+      }
     }
-   ]
-  }
- ]
+  ],
+  "trips": [
+    {
+      "slug": "luzern-vierwaldstaettersee-3-tage",
+      "title": "Luzern & Vierwaldstättersee",
+      "teaser": "Drei Tage zwischen Kapellbrücke, Raddampfer und zwei Hausbergen – mit Plan B für jeden Regentag.",
+      "region": "luzern",
+      "days": 3,
+      "moods": [
+        "kultur",
+        "natur",
+        "genuss",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Mai–Oktober (Pilatus-Zahnradbahn ab Mitte Mai); ideal Donnerstag bis Samstag, weil mehrere Restaurants So/Mo zu sind",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 41
+        },
+        {
+          "from": "Bern",
+          "minutes": 61
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 61
+        }
+      ],
+      "hotelIds": [
+        "lu-hotel-alpha",
+        "lu-altstadthotel-krone",
+        "lu-art-deco-hotel-montana"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 – Altstadt, Picasso und Apéro über dem See",
+          "slots": [
+            {
+              "time": "10:45",
+              "placeId": "lu-altstadthotel-krone",
+              "title": "Gepäck abgeben",
+              "text": "Vom Bahnhof über die Reuss in die Altstadt und das Gepäck im Hotel deponieren.",
+              "travel": "ca. 7 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "11:15",
+              "tourSlug": "luzern-klassiker",
+              "title": "Audio-Rundgang Luzern-Klassiker",
+              "text": "Über die Kapellbrücke, durch die Altstadtgassen, hinauf zur Museggmauer und zum Löwendenkmal – in deinem Tempo mit Audioguide.",
+              "travel": "Start in der Altstadt, wenige Minuten vom Hotel"
+            },
+            {
+              "time": "13:45",
+              "placeId": "lu-rathaus-brauerei",
+              "title": "Zmittag in der Rathaus Brauerei",
+              "text": "Hausbier und ein währschaftes Mittagessen unter den Rathausarkaden an der Reuss.",
+              "travel": "ca. 12 Min. zu Fuss vom Löwendenkmal"
+            },
+            {
+              "time": "15:15",
+              "placeId": "lu-sammlung-rosengart",
+              "title": "Picasso und Klee in der Sammlung Rosengart",
+              "text": "Anderthalb Stunden Klassische Moderne im kompakten Museum an der Pilatusstrasse.",
+              "travel": "ca. 8 Min. zu Fuss über die Reussbrücke"
+            },
+            {
+              "time": "17:45",
+              "placeId": "lu-louis-bar-montana",
+              "title": "Apéro in der Louis Bar",
+              "text": "Mit der kleinen Hotelbahn zum Montana hinauf und den Apéro mit Blick über das Seebecken nehmen.",
+              "travel": "ca. 20 Min. zu Fuss der Seepromenade entlang bis zur Talstation, dann Hotelbahn"
+            },
+            {
+              "time": "19:30",
+              "placeId": "lu-old-swiss-house",
+              "title": "Schnitzel im Old Swiss House",
+              "text": "Das Wiener Schnitzel wird am Tisch gebraten – reserviere vorher (Di–Sa).",
+              "travel": "ca. 15 Min. zu Fuss"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 – Mit dem Schiff zur Rigi",
+          "slots": [
+            {
+              "time": "09:40",
+              "placeId": "lu-sgv-dampfschiff",
+              "title": "Schifffahrt nach Vitznau",
+              "text": "Gut eine Stunde über den See vorbei an Weggis; mit Glück ist ein Raddampfer im Einsatz.",
+              "travel": "Schiffstation Bahnhofquai, ca. 8 Min. zu Fuss vom Weinmarkt",
+              "rain": {
+                "placeId": "lu-verkehrshaus",
+                "title": "Verkehrshaus statt Bergtag",
+                "text": "Bei Regen oder tiefer Wolkendecke tauschst du den Rigi-Tag gegen einen ausgedehnten Besuch im Verkehrshaus (Bus oder S-Bahn ab Bahnhof, ca. 10 Min.)."
+              }
+            },
+            {
+              "time": "11:00",
+              "placeId": "lu-rigi-vitznau",
+              "title": "Zahnradbahn auf den Rigi Kulm",
+              "text": "In rund 30 Minuten hinauf, oben Rundblick und ein kurzer Spaziergang; Zmittag im Bergrestaurant oder als Picknick.",
+              "travel": "Umsteigen vom Schiff direkt in die Bahn in Vitznau",
+              "rain": {
+                "placeId": "lu-verkehrshaus",
+                "title": "Verkehrshaus",
+                "text": "Statt Rigi: Bahn- und Schiffsgeschichte im Trockenen erleben."
+              }
+            },
+            {
+              "time": "14:30",
+              "title": "Talfahrt über Arth-Goldau",
+              "text": "Mit der Zahnradbahn auf der anderen Seite hinunter nach Arth-Goldau und mit dem Zug zurück nach Luzern – so wird es eine Rundreise.",
+              "travel": "Zahnradbahn nach Arth-Goldau, dann ca. 30 Min. Zug nach Luzern"
+            },
+            {
+              "time": "16:30",
+              "placeId": "lu-confiserie-bachmann-schwanenplatz",
+              "title": "Kaffee und Schoggi am Schwanenplatz",
+              "text": "Nach dem Bergtag eine süsse Pause im Café der Confiserie Bachmann.",
+              "travel": "ca. 5 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "19:00",
+              "placeId": "lu-wirtshaus-galliker",
+              "title": "Znacht im Wirtshaus Galliker",
+              "text": "Bodenständige Küche in der Traditionsbeiz – an Pot-au-feu-Tagen (Di/Do/Sa) unbedingt probieren, reservieren nicht vergessen.",
+              "travel": "ca. 10 Min. zu Fuss aus der Altstadt"
+            }
+          ]
+        },
+        {
+          "title": "Tag 3 – Pilatus und Abschied in der Altstadt",
+          "slots": [
+            {
+              "time": "09:05",
+              "placeId": "lu-pilatus",
+              "title": "Pilatus-Rundfahrt",
+              "text": "Zug nach Alpnachstad, Zahnradbahn hinauf, oben über die Felsenwege und mit Luftseilbahn und Gondel nach Kriens hinunter.",
+              "travel": "ca. 16 Min. Zug Luzern–Alpnachstad; zurück ab Kriens mit dem Bus",
+              "rain": {
+                "placeId": "lu-gletschergarten",
+                "title": "Gletschergarten statt Pilatus",
+                "text": "Wenn der Berg in den Wolken steckt: Gletschertöpfe, Spiegellabyrinth und ein Aussichtsturm, der auch bei Nebel Spass macht."
+              }
+            },
+            {
+              "time": "13:45",
+              "placeId": "lu-jazzkantine",
+              "title": "Tapas in der Jazzkantine",
+              "text": "Unkomplizierter, günstiger Zmittag in der Altstadt (Di–Sa).",
+              "travel": "Bus von Kriens zum Bahnhof, dann ca. 8 Min. zu Fuss"
+            },
+            {
+              "time": "15:00",
+              "title": "Letzte Runde am Seeufer",
+              "text": "Gemütlich über den Rathausquai und die Seebrücke zurück zum Bahnhof und Heimreise.",
+              "travel": "ca. 10 Min. zu Fuss zum Bahnhof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "luzern-familientag",
+      "title": "Luzern mit Kindern an einem Tag",
+      "teaser": "Lokomotiven, Gletschertöpfe und ein Altstadt-Rundgang – ein Tag, der auch bei Regen funktioniert.",
+      "region": "luzern",
+      "days": 1,
+      "moods": [
+        "familie",
+        "kultur"
+      ],
+      "audience": [
+        "familie"
+      ],
+      "season": "ganzjährig",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 41
+        },
+        {
+          "from": "Bern",
+          "minutes": 61
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 61
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 – Vom Verkehrshaus in die Altstadt",
+          "slots": [
+            {
+              "time": "09:45",
+              "placeId": "lu-verkehrshaus",
+              "title": "Verkehrshaus",
+              "text": "Lokomotiven, Flugzeuge und Schiffe zum Einsteigen – drei Stunden vergehen hier schnell.",
+              "travel": "ca. 10 Min. mit Bus oder S-Bahn ab Bahnhof Luzern"
+            },
+            {
+              "time": "13:15",
+              "placeId": "lu-rathaus-brauerei",
+              "title": "Zmittag an der Reuss",
+              "text": "Wurst, Rösti und für die Grossen ein Hausbier unter den Rathausarkaden.",
+              "travel": "ca. 10 Min. Bus zurück zum Bahnhof, dann 7 Min. zu Fuss"
+            },
+            {
+              "time": "14:30",
+              "tourSlug": "luzern-klassiker",
+              "title": "Audio-Rundgang Luzern-Klassiker",
+              "text": "Kapellbrücke, Altstadt, Museggmauer mit Türmen zum Hochsteigen und zum Schluss der Löwe im Fels.",
+              "travel": "Start in der Altstadt, wenige Minuten vom Restaurant",
+              "rain": {
+                "placeId": "lu-gletschergarten",
+                "title": "Gletschergarten",
+                "text": "Bei Regen den Mauerteil auslassen und im Gletschergarten Spiegellabyrinth und Felsenwelt erkunden."
+              }
+            },
+            {
+              "time": "17:00",
+              "placeId": "lu-confiserie-bachmann-schwanenplatz",
+              "title": "Schoggi-Pause",
+              "text": "Zum Schluss die Schokoladenwand bestaunen und etwas Süsses für die Heimfahrt einpacken.",
+              "travel": "ca. 10 Min. zu Fuss vom Löwendenkmal; danach 5 Min. zum Bahnhof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thun-thunersee-2-tage",
+      "title": "Thun & Thunersee",
+      "teaser": "Zwei Tage zwischen Schloss, Aare und Seeufer – mit Höhlen, Hausberg und einem Cocktail im Gewölbekeller.",
+      "region": "thun",
+      "days": 2,
+      "moods": [
+        "kultur",
+        "natur",
+        "genuss",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Mitte Mai–Oktober (Museum Oberhofen und Niesenbahn offen); ideal Dienstag bis Samstag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 81
+        },
+        {
+          "from": "Bern",
+          "minutes": 19
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 83
+        }
+      ],
+      "hotelIds": [
+        "th-hotel-aare-thun",
+        "th-hotel-krone-thun"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 – Altstadt, Schloss Oberhofen und Abend am See",
+          "slots": [
+            {
+              "time": "10:30",
+              "placeId": "th-hotel-aare-thun",
+              "title": "Ankommen und Gepäck abgeben",
+              "text": "Vom Bahnhof direkt zum Hotel an der Aare.",
+              "travel": "ca. 5 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "11:00",
+              "tourSlug": "thun-schloss-aare",
+              "title": "Audio-Rundgang Schloss & Aare",
+              "text": "Über die Aarebrücken zur Oberen Hauptgasse mit ihren Hochtrottoirs und hinauf zum Schloss.",
+              "travel": "Start in der Altstadt, wenige Minuten vom Hotel",
+              "rain": {
+                "placeId": "th-schloss-thun",
+                "title": "Schloss Thun von innen",
+                "text": "Bei Regen verbringst du die zweite Hälfte im Museumsschloss statt in den Gassen (Öffnungszeiten saisonal prüfen)."
+              }
+            },
+            {
+              "time": "13:00",
+              "placeId": "th-ristorante-waisenhaus",
+              "title": "Zmittag bei der Aareschleuse",
+              "text": "Hausgemachte Pasta, bei schönem Wetter unter den Kastanien auf der Terrasse.",
+              "travel": "ca. 5 Min. zu Fuss"
+            },
+            {
+              "time": "14:30",
+              "placeId": "th-schloss-oberhofen",
+              "title": "Schloss Oberhofen",
+              "text": "Wohnmuseum und Park direkt am See; anschliessend dem Ufer entlang schlendern.",
+              "travel": "ca. 15 Min. Bus 21 oder 25 ab Bahnhof Thun; im Sommer auch per Schiff",
+              "rain": {
+                "placeId": "th-kunstmuseum-thun",
+                "title": "Kunstmuseum Thun",
+                "text": "Statt Seeufer gibt es Schweizer Gegenwartskunst im ehemaligen Grandhotel an der Aare."
+              }
+            },
+            {
+              "time": "16:45",
+              "placeId": "th-vera-calma",
+              "title": "Kaffeepause",
+              "text": "Zurück in Thun auf einen Kaffee und etwas Süsses (bis 18 Uhr offen).",
+              "travel": "Bus zurück nach Thun, dann ca. 5 Min. zu Fuss"
+            },
+            {
+              "time": "18:15",
+              "placeId": "th-atelier-classic-bar",
+              "title": "Apéro im Gewölbekeller",
+              "text": "Ein Cocktail im ausgezeichneten Keller am Rathausplatz.",
+              "travel": "ca. 8 Min. zu Fuss"
+            },
+            {
+              "time": "19:45",
+              "placeId": "th-schloss-schadau-restaurant",
+              "title": "Znacht im Schloss Schadau",
+              "text": "Geniessermenü im Schlösschen am Ausfluss der Aare – vorher reservieren.",
+              "travel": "ca. 25 Min. zu Fuss der Aare entlang oder kurz mit dem Bus"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 – Niesen und Höhlen",
+          "slots": [
+            {
+              "time": "09:15",
+              "placeId": "th-niesen",
+              "title": "Auf den Niesen",
+              "text": "Mit dem Zug nach Mülenen und in zwei Abschnitten mit der historischen Standseilbahn auf den Gipfel.",
+              "travel": "ca. 16 Min. Zug Thun–Mülenen",
+              "rain": {
+                "placeId": "th-bls-schiff-thunersee",
+                "title": "Schiff statt Niesen",
+                "text": "Bei tiefen Wolken lohnt der Gipfel nicht – also im Salon über den Thunersee schippern und in Spiez oder Oberhofen aussteigen, wie es passt."
+              }
+            },
+            {
+              "time": "13:15",
+              "placeId": "th-kaffeemuehle",
+              "title": "Schneller Zmittag auf dem Bälliz",
+              "text": "Günstig und unkompliziert essen, bevor es an den See weitergeht (So geschlossen).",
+              "travel": "Zug zurück nach Thun, dann ca. 5 Min. zu Fuss"
+            },
+            {
+              "time": "14:30",
+              "placeId": "th-st-beatus-hoehlen",
+              "title": "St. Beatus-Höhlen",
+              "text": "Rund einen Kilometer in den Berg zu Tropfsteinen und unterirdischen Wasserfällen – funktioniert bei jedem Wetter.",
+              "travel": "ca. 40 Min. Bus 21 ab Bahnhof Thun"
+            },
+            {
+              "time": "17:15",
+              "title": "Rückfahrt und Heimreise",
+              "text": "Mit dem Bus 21 zurück nach Thun und weiter mit dem Zug nach Hause.",
+              "travel": "ca. 40 Min. Bus 21 bis Bahnhof Thun"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thun-tagesausflug-familie",
+      "title": "Thun an einem Tag – mit Kindern",
+      "teaser": "Ab in die Tropfsteinhöhle, dann Altstadt und Schloss – ein Tagesausflug, der auch bei Regen klappt.",
+      "region": "thun",
+      "days": 1,
+      "moods": [
+        "familie",
+        "natur",
+        "kultur"
+      ],
+      "audience": [
+        "familie",
+        "freunde"
+      ],
+      "season": "Ende März–Anfang November (Sommersaison der Beatushöhlen); Dienstag bis Samstag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 81
+        },
+        {
+          "from": "Bern",
+          "minutes": 19
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 83
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 – Höhle, Altstadt, Aare",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "th-st-beatus-hoehlen",
+              "title": "St. Beatus-Höhlen",
+              "text": "Durch beleuchtete Gänge zu Tropfsteinen und rauschenden Wasserfällen im Berg – Jacke nicht vergessen.",
+              "travel": "ca. 40 Min. Bus 21 ab Bahnhof Thun"
+            },
+            {
+              "time": "13:15",
+              "placeId": "th-kaffeemuehle",
+              "title": "Zmittag auf dem Bälliz",
+              "text": "Einfaches, günstiges Essen mitten in der Stadt.",
+              "travel": "ca. 40 Min. Bus 21 zurück, dann 5 Min. zu Fuss"
+            },
+            {
+              "time": "14:30",
+              "tourSlug": "thun-schloss-aare",
+              "title": "Audio-Rundgang Schloss & Aare",
+              "text": "Brücken über die rauschende Aare, Hochtrottoirs in der Hauptgasse und hinauf zum Schloss.",
+              "travel": "Start in der Altstadt, wenige Minuten vom Bälliz",
+              "rain": {
+                "placeId": "th-kunstmuseum-thun",
+                "title": "Kunstmuseum Thun",
+                "text": "Bei Regen den Rundgang abkürzen und ins Kunstmuseum ausweichen (bis 17 Uhr offen)."
+              }
+            },
+            {
+              "time": "16:45",
+              "placeId": "th-vera-calma",
+              "title": "Zvieri vor der Heimfahrt",
+              "text": "Etwas Süsses und ein Kaffee für die Grossen, dann zurück zum Bahnhof.",
+              "travel": "ca. 10 Min. zu Fuss; danach 5 Min. zum Bahnhof"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

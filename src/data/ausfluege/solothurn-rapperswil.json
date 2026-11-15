@@ -1,1003 +1,1129 @@
 {
- "places": [
-  {
-   "id": "so-hotel-baseltor",
-   "kind": "hotel",
-   "name": "Baseltor Hotel & Restaurant",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Hauptgasse 79, 4500 Solothurn",
-   "coords": {
-    "lat": 47.20862,
-    "lng": 7.539329
-   },
-   "url": "https://baseltor.ch/",
-   "price": 2,
-   "tags": [
-    "kultur",
-    "genuss"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Kleines Drei-Sterne-Haus in einem historischen Gebäude beim Baseltor, ein paar Schritte von der Kathedrale. Die Zimmer sind individuell eingerichtet, das Haus ist Mitglied der Swiss Historic Hotels.",
-   "tip": "Wenn du hier schläfst, reservier gleich auch einen Tisch im hauseigenen Restaurant – am Wochenende ist es oft ausgebucht.",
-   "source": "https://baseltor.ch/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-hotel-la-couronne",
-   "kind": "hotel",
-   "name": "La Couronne Hotel Restaurant",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Hauptgasse 64, 4500 Solothurn",
-   "coords": {
-    "lat": 47.207893,
-    "lng": 7.538514
-   },
-   "url": "https://lacouronne-solothurn.ch/",
-   "price": 3,
-   "tags": [
-    "romantisch",
-    "kultur",
-    "genuss"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "text": "Gasthaus mit Wurzeln im 15. Jahrhundert, direkt gegenüber der St.-Ursen-Kathedrale, heute ein renoviertes Vier-Sterne-Boutiquehotel. Im Haus gibt es eine Weinbar und ein französisch geprägtes Restaurant mit 14 GaultMillau-Punkten.",
-   "tip": "Die Bar à Vin im Haus ist täglich offen (Mo–Sa bis 22 Uhr) – praktisch für ein letztes Glas, ohne nochmals rauszumüssen.",
-   "source": "https://lacouronne-solothurn.ch/oeffnungszeiten/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-restaurant-baseltor",
-   "kind": "restaurant",
-   "name": "Restaurant Baseltor",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Hauptgasse 79, 4500 Solothurn",
-   "coords": {
-    "lat": 47.20862,
-    "lng": 7.539329
-   },
-   "url": "https://baseltor.ch/",
-   "price": 3,
-   "tags": [
-    "genuss",
-    "kultur",
-    "romantisch"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Mo–Sa 9–14 und 17.45–23 Uhr, So ab 17.30 Uhr",
-   "text": "Mediterrane Slow-Food-Küche mit orientalischem Einschlag, mit Zutaten aus der Region und 13 GaultMillau-Punkten. Die Küche verwertet ganze Tiere von Nose to Tail, deshalb wechselt die Karte oft.",
-   "tip": "Sonntags gibt es nur Abendservice – für ein Sonntagsmittagessen musst du ausweichen.",
-   "source": "https://baseltor.ch/oeffnungszeiten/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-kreuz",
-   "kind": "restaurant",
-   "name": "Genossenschaft Kreuz",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Kreuzgasse 4, 4500 Solothurn",
-   "coords": {
-    "lat": 47.206801,
-    "lng": 7.537666
-   },
-   "url": "https://www.kreuz-solothurn.ch/",
-   "price": 1,
-   "tags": [
-    "freunde",
-    "kultur",
-    "familie"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "So Ruhetag; warme Küche mittags 11.30–13.30 Uhr, abends Mo–Do 17.30–21, Fr/Sa 17.30–21.30 Uhr, dazwischen kleine Karte",
-   "text": "Seit 1973 die erste genossenschaftlich geführte Beiz der Schweiz, mitten in der Altstadt nahe der Aare. Es gibt hausgemachte Kreuz-Klassiker und eine grosse vegetarische Auswahl, von September bis Mai zusätzlich Konzerte und Lesungen von KreuzKultur.",
-   "tip": "Im Sommer führt das Kreuz am Landhausquai die Sommerbeiz «Böxli» – gut für ein Bier direkt an der Aare.",
-   "source": "https://www.kreuz-solothurn.ch/reservation-offnungszeiten.html",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-suteria",
-   "kind": "cafe",
-   "name": "Suteria Café Hauptgasse",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Hauptgasse 65, 4500 Solothurn",
-   "coords": {
-    "lat": 47.208021,
-    "lng": 7.53815
-   },
-   "url": "https://www.suteria.ch/de/",
-   "price": 2,
-   "tags": [
-    "genuss",
-    "familie",
-    "regenfest"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Mo–Fr 7–18.30, Sa 7–17, So/Feiertage 9–17 Uhr",
-   "text": "Café der Confiserie Suteria am Kronenplatz, mit Frühstück, Mittagessen und natürlich der Solothurner Torte aus Haselnussbiskuit, Japonais und Buttercreme. Im Sommer sitzt du auf der grossen Terrasse mit Blick auf die Kathedrale.",
-   "tip": "Die kleine Chocolaterie an der Schmiedengasse 20 ist das Geburtshaus der Solothurner Torte – ein kurzer Abstecher lohnt sich (unter der Woche nur mit Mittagspause offen).",
-   "source": "https://www.suteria.ch/de/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-solheure",
-   "kind": "bar",
-   "name": "Solheure Bar Restaurant Lounge",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Ritterquai 10, 4500 Solothurn",
-   "coords": {
-    "lat": 47.207097,
-    "lng": 7.540074
-   },
-   "url": "https://solheure.ch/",
-   "price": 2,
-   "tags": [
-    "freunde",
-    "genuss",
-    "romantisch"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Mo 17–23, Di–Do 11.30–24, Fr/Sa 11.30–1 Uhr, So ab 11.30 Uhr; ab 21 Uhr Mindestalter 20",
-   "text": "Bar, Lounge und Restaurant direkt am Aareufer, mit Drinks und Apéroplättli am Abend und wechselnden Mittagsmenüs, auch vegetarisch und vegan. Von den Plätzen am Wasser schaust du auf die Altstadt.",
-   "tip": "Gleich daneben führt das «Stägli» in die Aare – im Sommer ein beliebter Einstieg für einen kurzen Schwumm vor dem Apéro.",
-   "source": "https://solheure.ch/oeffnungszeiten/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-einsiedelei",
-   "kind": "restaurant",
-   "name": "Restaurant Einsiedelei",
-   "region": "solothurn",
-   "town": "Rüttenen",
-   "address": "Verenastrasse 1, 4522 Rüttenen",
-   "coords": {
-    "lat": 47.224978,
-    "lng": 7.533418
-   },
-   "url": null,
-   "price": 2,
-   "tags": [
-    "familie",
-    "aktiv"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig, Öffnungstage vorher erfragen",
-   "text": "Ausflugsbeiz gleich bei der Einsiedelei am oberen Ende der Verenaschlucht, in einem klassizistischen Haus mit hölzernem Saalanbau. Passt als Zwischenhalt für Kaffee oder ein Zvieri auf dem Weg durch die Schlucht.",
-   "tip": "Verlässliche Öffnungszeiten findest du online nicht – ruf vor dem Besuch kurz an (032 622 28 93).",
-   "source": "https://www.myswitzerland.com/en-au/experiences/food-wine/restaurant/restaurant-einsiedelei/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-weissenstein",
-   "kind": "aussicht",
-   "name": "Seilbahn Weissenstein",
-   "region": "solothurn",
-   "town": "Oberdorf SO",
-   "address": "Talstation Oberdorf, 4515 Oberdorf SO",
-   "coords": {
-    "lat": 47.25188,
-    "lng": 7.508231
-   },
-   "url": "https://www.seilbahn-weissenstein.ch/",
-   "price": 2,
-   "tags": [
-    "aussicht",
-    "berg",
-    "familie",
-    "aktiv"
-   ],
-   "weatherProof": false,
-   "season": "ganzjährig, Revisionspausen im November und März",
-   "hours": "täglich ab 8.30 Uhr, letzte Fahrt Sommer ca. 17.30, Winter ca. 16.30 Uhr",
-   "durationMin": 180,
-   "text": "Die Gondelbahn bringt dich in rund 12 Minuten von Oberdorf auf den Solothurner Hausberg; oben siehst du bei klarer Sicht vom Säntis bis zum Mont Blanc. Es gibt Wanderwege wie den Planetenweg, einen Juragarten, einen grossen Spielplatz und mehrere Bergbeizen.",
-   "tip": "Für Familien gibt es oben die Spurensuche «Hermelin» (rund 4 km) – und bei Nebel im Mittelland lohnt ein Blick auf die Live-Kamera der Bahn, oft liegt der Gipfel darüber.",
-   "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/solothurn-weissenstein",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-aareschiff",
-   "kind": "aktivitaet",
-   "name": "Aarefahrt Solothurn–Biel (Bielersee-Schifffahrt BSG)",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Schiffländte, 4500 Solothurn",
-   "coords": {
-    "lat": 47.203539,
-    "lng": 7.534032
-   },
-   "url": "https://www.bielersee.ch/",
-   "price": 2,
-   "tags": [
-    "romantisch",
-    "familie",
-    "genuss"
-   ],
-   "weatherProof": false,
-   "season": "Anfang Mai bis Ende Oktober",
-   "durationMin": 180,
-   "text": "Knapp drei Stunden fährst du mit dem Kursschiff die Aare hinunter nach Biel, vorbei an den Störchen von Altreu, dem Städtchen Büren an der Aare und durch die Schleuse bei Port. Zurück oder weiter nach Hause geht es ab Biel mit dem Zug.",
-   "tip": "Die Schiffländte liegt rund 20 Minuten zu Fuss vom Bahnhof (Ausgang City) – oder du nimmst Bus 8 bis «Schiffländte». Online gibt es saisonweise 20–30 % Rabatt auf die Fahrt.",
-   "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/solothurn-biel-aare-schifffahrt",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-kathedrale",
-   "kind": "sehenswuerdigkeit",
-   "name": "St.-Ursen-Kathedrale mit Domschatz",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Hauptgasse, 4500 Solothurn",
-   "coords": {
-    "lat": 47.20842,
-    "lng": 7.53964
-   },
-   "url": "https://www.solothurn-city.ch/en/attractions/domschatz-st.-ursenkathedrale-bf0b514666",
-   "price": 1,
-   "tags": [
-    "regenfest",
-    "kultur",
-    "gratis"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "durationMin": 45,
-   "text": "Die frühklassizistische Kathedrale mit der breiten Freitreppe ist das Wahrzeichen der Stadt und Bischofssitz des Bistums Basel. Im Domschatz siehst du Goldschmiedearbeiten, Reliquiare und Messgewänder aus fünf Jahrhunderten.",
-   "tip": "Im Turm hängen elf Glocken, und von oben überblickst du Altstadt und Jura – frag vor Ort nach den Zeiten für Turm und Domschatz und meide die Gottesdienstzeiten.",
-   "source": "https://www.solothurn-city.ch/en/attractions/domschatz-st.-ursenkathedrale-bf0b514666",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-kunstmuseum",
-   "kind": "sehenswuerdigkeit",
-   "name": "Kunstmuseum Solothurn",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Werkhofstrasse 30, 4500 Solothurn",
-   "coords": {
-    "lat": 47.210335,
-    "lng": 7.537471
-   },
-   "url": "https://www.kunstmuseum-so.ch/de/",
-   "price": 1,
-   "tags": [
-    "regenfest",
-    "kultur",
-    "gratis"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Di–Fr 11–17, Sa/So 10–17 Uhr, Mo geschlossen",
-   "durationMin": 90,
-   "text": "Der Eintritt ist frei: Die Sammlung reicht von der spätgotischen «Madonna in den Erdbeeren» bis zu Schweizer Kunst des 19. und 20. Jahrhunderts, dazu kommen wechselnde Ausstellungen. Bis Januar 2027 läuft unter anderem die kantonale Jahresausstellung «SCHAU».",
-   "tip": "Im Foyer steht Jean Tinguelys «Bettler» – er nimmt die freiwilligen Spenden entgegen.",
-   "source": "https://www.kunstmuseum-so.ch/de/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-altes-zeughaus",
-   "kind": "sehenswuerdigkeit",
-   "name": "Museum Altes Zeughaus",
-   "region": "solothurn",
-   "town": "Solothurn",
-   "address": "Zeughausplatz 1, 4500 Solothurn",
-   "coords": {
-    "lat": 47.208924,
-    "lng": 7.538701
-   },
-   "url": "https://museum-alteszeughaus.so.ch/",
-   "price": 1,
-   "tags": [
-    "regenfest",
-    "kultur",
-    "familie"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Di–Sa 13–17, So 10–17 Uhr, Mo geschlossen",
-   "durationMin": 90,
-   "text": "Im ehemaligen Waffenlager der Stadt füllen Rüstungen, Waffen und Uniformen mehrere Stockwerke. Im Bereich «Anfassen erlaubt!» dürfen Kinder selbst Hand anlegen, bis Oktober 2026 lief zudem eine Sonderausstellung zur Waffenfabrik Solothurn.",
-   "tip": "Kinder bis 8 Jahre haben freien Eintritt, für Familien gibt es ein günstiges Familienbillett.",
-   "source": "https://www.myswitzerland.com/en/experiences/old-arsenal-museum/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "so-schloss-waldegg",
-   "kind": "sehenswuerdigkeit",
-   "name": "Schloss Waldegg",
-   "region": "solothurn",
-   "town": "Feldbrunnen-St. Niklaus",
-   "address": "Waldeggstrasse 1, 4532 Feldbrunnen-St. Niklaus",
-   "coords": {
-    "lat": 47.223381,
-    "lng": 7.548367
-   },
-   "url": "https://schloss-waldegg.so.ch/",
-   "price": 1,
-   "tags": [
-    "kultur",
-    "romantisch"
-   ],
-   "weatherProof": true,
-   "season": "April–Oktober (Museum)",
-   "hours": "Di, Mi, Do, Sa 14–17, So 10–17 Uhr; Mo und Fr geschlossen",
-   "durationMin": 60,
-   "text": "Barocker Landsitz über Solothurn mit Barockgarten, Orangerieparterre und Nutzgarten. Das Museum gibt Einblick ins Leben der Solothurner Patrizierfamilien.",
-   "tip": "Die Urban-Trails-Tour durch die Verenaschlucht endet hier – plan danach eine halbe Stunde für den Garten ein, bevor du mit dem Bus zurückfährst.",
-   "source": "https://schloss-waldegg.so.ch/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "ra-jakob",
-   "kind": "restaurant",
-   "name": "Restaurant JAKOB",
-   "region": "rapperswil",
-   "town": "Rapperswil",
-   "address": "Hauptplatz 11, 8640 Rapperswil",
-   "coords": {
-    "lat": 47.22682,
-    "lng": 8.8166
-   },
-   "url": "https://www.jakob-rapperswil.ch/restaurantbar",
-   "price": 2,
-   "tags": [
-    "genuss",
-    "kultur",
-    "freunde"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Di Ruhetag; Mo und Mi–Sa 11–24, So 11–22 Uhr",
-   "text": "Restaurant im Hotel Jakob am Hauptplatz, direkt gegenüber der grossen Treppe zum Schloss. Auf den Tisch kommen Schweizer Klassiker und saisonale Gerichte, nachmittags auch Kuchen und Glace.",
-   "tip": "Online reservieren – an schönen Wochenenden ist der Hauptplatz rasch voll.",
-   "source": "https://www.jakob-rapperswil.ch/restaurantbar",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "ra-dieci-al-lago",
-   "kind": "restaurant",
-   "name": "Dieci al lago",
-   "region": "rapperswil",
-   "town": "Rapperswil",
-   "address": "Fischmarktplatz, 8640 Rapperswil",
-   "coords": {
-    "lat": 47.225702,
-    "lng": 8.815354
-   },
-   "url": "https://www.dieci.ch/de/restaurant-rapperswil",
-   "price": 2,
-   "tags": [
-    "see",
-    "familie",
-    "freunde",
-    "genuss"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "täglich ab 8 Uhr",
-   "text": "Grosses italienisches Lokal am Fischmarktplatz mit Terrasse zum Hafen und See. Es gibt Pizza mit lange gereiftem Teig und hausgemachte Pasta, dazu eine Bar und eine Caffèbar mit Gelato.",
-   "tip": "Pizza & Pasta lässt sich nur telefonisch reservieren (055 210 90 20) – an Sommerabenden lohnt sich der Anruf.",
-   "source": "https://www.dieci.ch/de/restaurant-rapperswil",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "ra-cafe-hintergass",
-   "kind": "cafe",
-   "name": "Café Hintergass",
-   "region": "rapperswil",
-   "town": "Rapperswil",
-   "address": "Strehlgasse 4, 8640 Rapperswil",
-   "coords": {
-    "lat": 47.226732,
-    "lng": 8.815822
-   },
-   "url": "https://www.zuerich.com/de/besuchen/restaurants/cafe-hintergass",
-   "price": 1,
-   "tags": [
-    "regenfest",
-    "genuss"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Mo–Sa 7–18, So 9–17 Uhr",
-   "text": "Kleines Café in einer Altstadtgasse mit hausgemachtem Gebäck, Suppen, Salaten und Sandwiches. Es liegen Zeitungen und Magazine auf, bei schönem Wetter sitzt du draussen in der Gasse.",
-   "tip": "Guter Startpunkt vor dem Rundgang – bis zum Hauptplatz sind es nur ein paar Schritte.",
-   "source": "https://www.zuerich.com/de/besuchen/restaurants/cafe-hintergass",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "ra-inselwirtschaft-ufnau",
-   "kind": "restaurant",
-   "name": "Inselwirtschaft Ufnau",
-   "region": "rapperswil",
-   "town": "Insel Ufnau",
-   "address": "Insel Ufnau, 8808 Pfäffikon SZ",
-   "coords": {
-    "lat": 47.218056,
-    "lng": 8.781667
-   },
-   "url": "https://www.inselufnau.ch/",
-   "price": 2,
-   "tags": [
-    "see",
-    "romantisch",
-    "genuss"
-   ],
-   "weatherProof": false,
-   "season": "April–Oktober, nur bei Schiffsbetrieb",
-   "hours": "in der Saison täglich 11–21 Uhr",
-   "text": "Gartenwirtschaft unter Platanen auf der Klosterinsel, mit Gemüse, Fleisch und Brot aus der Region und Fischgerichten. Erreichbar ist sie nur übers Wasser.",
-   "tip": "Bei unsicherem Wetter vorher anrufen (055 410 12 25) – bei Regen bleibt die Wirtschaft auch mal zu.",
-   "source": "https://www.zuerich.com/de/besuchen/restaurants/inselwirtschaft-ufnau",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "ra-holzsteg",
-   "kind": "aussicht",
-   "name": "Holzsteg Rapperswil–Hurden",
-   "region": "rapperswil",
-   "town": "Rapperswil",
-   "address": "Seedamm, 8640 Rapperswil – 8640 Hurden",
-   "coords": {
-    "lat": 47.222472,
-    "lng": 8.814917
-   },
-   "url": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/holzsteg-rapperswil-hurden-zu-fuss-den-zuerichsee-ueberqueren",
-   "price": 1,
-   "tags": [
-    "see",
-    "gratis",
-    "romantisch",
-    "aktiv"
-   ],
-   "weatherProof": false,
-   "season": "ganzjährig",
-   "durationMin": 60,
-   "text": "Der 841 Meter lange Steg ist der längste Holzsteg der Schweiz und folgt der Route, auf der schon im Mittelalter Jakobspilger über den See gingen. Hin und zurück bis Hurden bist du rund eine Stunde unterwegs, mit Blick zurück auf Altstadt und Schloss.",
-   "tip": "Kein Eintritt, kein Fahrplan – der ideale Programmpunkt, wenn das Wetter zwischendurch aufklart.",
-   "source": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/holzsteg-rapperswil-hurden-zu-fuss-den-zuerichsee-ueberqueren",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "ra-insel-ufnau",
-   "kind": "sehenswuerdigkeit",
-   "name": "Insel Ufnau (mit Schiff ab Rapperswil)",
-   "region": "rapperswil",
-   "town": "Insel Ufnau",
-   "address": "Insel Ufnau, 8808 Pfäffikon SZ",
-   "coords": {
-    "lat": 47.218056,
-    "lng": 8.781667
-   },
-   "url": "https://www.zsg.ch/de/",
-   "price": 2,
-   "tags": [
-    "see",
-    "kultur",
-    "romantisch"
-   ],
-   "weatherProof": false,
-   "season": "April–Oktober (Kursschiffe und Ufnau-Shuttle der ZSG)",
-   "durationMin": 150,
-   "text": "Mit dem Ufnau-Shuttle der Zürichsee-Schifffahrt bist du in rund 15 Minuten auf der autofreien Klosterinsel. Dort besuchst du die Kirche St. Peter und Paul und die romanische Kapelle St. Martin, im Sommer steht zudem die Freiluft-Ausstellung «art ufnau».",
-   "tip": "Baden ist auf der Insel verboten – plan stattdessen einen langen Halt in der Inselwirtschaft ein und prüf die letzte Rückfahrt im ZSG-Fahrplan.",
-   "source": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/insel-ufnau",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "ra-knies-kinderzoo",
-   "kind": "aktivitaet",
-   "name": "Knies Kinderzoo",
-   "region": "rapperswil",
-   "town": "Rapperswil",
-   "address": "Oberseestrasse 36, 8640 Rapperswil",
-   "coords": {
-    "lat": 47.223652,
-    "lng": 8.821989
-   },
-   "url": "https://www.knieskinderzoo.ch/",
-   "price": 2,
-   "tags": [
-    "familie",
-    "aktiv"
-   ],
-   "weatherProof": false,
-   "season": "März bis Anfang November",
-   "hours": "in der Saison täglich 9–18 Uhr",
-   "durationMin": 180,
-   "text": "Der Zoo der Familie Knie liegt fünf Gehminuten vom Bahnhof, Kinder kommen hier vielen Tieren sehr nahe. Zwei Restaurants mit Innenplätzen und überdachten Terrassen helfen über einen Regenschauer.",
-   "tip": "Vom Schiffsteg sind es rund 15 Minuten zu Fuss – wer mit dem Schiff anreist, plant das ein.",
-   "source": "https://en.knieskinderzoo.ch/besucherinfos",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "ra-kunstzeughaus",
-   "kind": "sehenswuerdigkeit",
-   "name": "Kunst(Zeug)Haus",
-   "region": "rapperswil",
-   "town": "Rapperswil-Jona",
-   "address": "Schönbodenstrasse 1, 8640 Rapperswil-Jona",
-   "coords": {
-    "lat": 47.227825,
-    "lng": 8.826592
-   },
-   "url": "https://www.kunstzeughaus.ch/",
-   "price": 1,
-   "tags": [
-    "regenfest",
-    "kultur"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Mi 14–20, Do 14–17, Fr–So 11–17 Uhr; Mo/Di geschlossen",
-   "durationMin": 90,
-   "text": "Museum für zeitgenössische Schweizer Kunst in einem umgebauten ehemaligen Zeughaus. Neben der Sammlungsausstellung «wohin – woher – womit» laufen bis Januar 2027 «SEITENWAGEN: HAHA» über Humor in der Kunst und ab 22. November «Von anderen Welten».",
-   "tip": "Am ersten Samstag im Monat ist der Eintritt für alle gratis.",
-   "source": "https://www.kunstzeughaus.ch/",
-   "checked": "2026-11-15"
-  },
-  {
-   "id": "ra-stadtmuseum",
-   "kind": "sehenswuerdigkeit",
-   "name": "Stadtmuseum Rapperswil-Jona",
-   "region": "rapperswil",
-   "town": "Rapperswil",
-   "address": "Herrenberg 30/40, 8640 Rapperswil",
-   "coords": {
-    "lat": 47.227933,
-    "lng": 8.817645
-   },
-   "url": "https://stadtmuseum-rapperswil-jona.ch/",
-   "price": 1,
-   "tags": [
-    "regenfest",
-    "kultur",
-    "familie"
-   ],
-   "weatherProof": true,
-   "season": "ganzjährig",
-   "hours": "Mi–Fr 14–17, Sa/So 11–17 Uhr; Mo/Di und Feiertage geschlossen",
-   "durationMin": 75,
-   "text": "Das Museum steckt im mittelalterlichen Breny-Haus samt Turm am Herrenberg, wenige Schritte vom Schloss. Auf verwinkelten Etagen erfährst du, wie Rapperswil und Jona zu dem wurden, was sie heute sind.",
-   "tip": "Kinder bis 16 Jahre haben freien Eintritt, Erwachsene zahlen CHF 6.",
-   "source": "https://www.zuerich.com/de/besuchen/kultur/stadtmuseum-rapperswil-jona",
-   "checked": "2026-11-15"
-  }
- ],
- "trips": [
-  {
-   "slug": "solothurn-barock-aare-weissenstein",
-   "title": "Solothurn – Barock, Aare und Weissenstein",
-   "teaser": "Ein Wochenende zwischen Altstadtgassen, Jurablick vom Hausberg und einer Schlucht mit Einsiedelei.",
-   "region": "solothurn",
-   "days": 2,
-   "moods": [
-    "kultur",
-    "genuss",
-    "natur",
-    "romantik"
-   ],
-   "audience": [
-    "paar",
-    "freunde"
-   ],
-   "season": "April–Oktober (Schloss Waldegg offen, Gondel länger in Betrieb); Altstadt ganzjährig",
-   "arrival": [
+  "places": [
     {
-     "from": "Zürich HB",
-     "minutes": 55
+      "id": "so-hotel-baseltor",
+      "kind": "hotel",
+      "name": "Baseltor Hotel & Restaurant",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Hauptgasse 79, 4500 Solothurn",
+      "coords": {
+        "lat": 47.20862,
+        "lng": 7.539329
+      },
+      "url": "https://baseltor.ch/",
+      "price": 2,
+      "tags": [
+        "kultur",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Kleines Drei-Sterne-Haus in einem historischen Gebäude beim Baseltor, ein paar Schritte von der Kathedrale. Die Zimmer sind individuell eingerichtet, das Haus ist Mitglied der Swiss Historic Hotels.",
+      "tip": "Wenn du hier schläfst, reservier gleich auch einen Tisch im hauseigenen Restaurant – am Wochenende ist es oft ausgebucht.",
+      "source": "https://baseltor.ch/",
+      "checked": "2026-11-15"
     },
     {
-     "from": "Bern",
-     "minutes": 35
-    },
-    {
-     "from": "Basel SBB",
-     "minutes": 55
-    }
-   ],
-   "hotelIds": [
-    "so-hotel-la-couronne",
-    "so-hotel-baseltor"
-   ],
-   "dayPlans": [
-    {
-     "title": "Tag 1 – Altstadt und Hausberg",
-     "slots": [
-      {
-       "time": "10:00",
-       "placeId": "so-hotel-la-couronne",
-       "title": "Ankommen, Gepäck abgeben",
-       "text": "Vom Bahnhof gehst du über die Aare in die Altstadt und lässt das Gepäck im Hotel – eingecheckt wird erst am Nachmittag.",
-       "travel": "ca. 10 Min. zu Fuss vom Bahnhof"
+      "id": "so-hotel-la-couronne",
+      "kind": "hotel",
+      "name": "La Couronne Hotel Restaurant",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Hauptgasse 64, 4500 Solothurn",
+      "coords": {
+        "lat": 47.207893,
+        "lng": 7.538514
       },
-      {
-       "time": "10:30",
-       "tourSlug": "solothurn-elf",
-       "title": "Urban-Trails-Tour: Solothurn und die Elf",
-       "text": "Du startest beim Krummturm an der Aare und folgst dem Audio-Rundgang durch die barocke Altstadt – rund zwei Stunden mit Pausen.",
-       "travel": "ca. 10 Min. zu Fuss zum Krummturm"
-      },
-      {
-       "time": "12:45",
-       "placeId": "so-kreuz",
-       "title": "Mittag in der Genossenschaftsbeiz",
-       "text": "Unkompliziertes Mittagessen im Kreuz, gern vegetarisch – die warme Küche läuft bis 13.30 Uhr.",
-       "travel": "wenige Min. zu Fuss"
-      },
-      {
-       "time": "14:15",
-       "placeId": "so-weissenstein",
-       "title": "Mit der Gondel auf den Weissenstein",
-       "text": "Zug nach Oberdorf, Gondel hoch, oben ein Stück dem Planetenweg folgen oder einfach die Aussicht über Mittelland und Alpen geniessen. Im Winter fährt die letzte Gondel schon gegen 16.30 Uhr.",
-       "travel": "10 Min. zu Fuss zum Bahnhof, 14 Min. Zug S21 bis Oberdorf SO, Gondel ca. 12 Min.",
-       "rain": {
-        "placeId": "so-altes-zeughaus",
-        "title": "Museum Altes Zeughaus",
-        "text": "Statt Nebel auf dem Berg: Rüstungen und Waffen über mehrere Stockwerke, samstags bis 17 Uhr offen."
-       }
-      },
-      {
-       "time": "17:30",
-       "placeId": "so-hotel-la-couronne",
-       "title": "Einchecken",
-       "text": "Zurück in der Stadt beziehst du dein Zimmer und machst eine kurze Pause.",
-       "travel": "Gondel und Zug zurück, ca. 35 Min."
-      },
-      {
-       "time": "18:30",
-       "placeId": "so-solheure",
-       "title": "Apéro an der Aare",
-       "text": "Ein Glas und ein Apéroplättli direkt am Fluss, mit Blick auf die beleuchtete Altstadt.",
-       "travel": "ca. 5 Min. zu Fuss"
-      },
-      {
-       "time": "20:00",
-       "placeId": "so-restaurant-baseltor",
-       "title": "Abendessen im Baseltor",
-       "text": "Saisonale, mediterran-orientalische Küche aus regionalen Produkten – unbedingt reservieren.",
-       "travel": "ca. 5 Min. zu Fuss"
+      "url": "https://lacouronne-solothurn.ch/",
+      "price": 3,
+      "tags": [
+        "romantisch",
+        "kultur",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Gasthaus mit Wurzeln im 15. Jahrhundert, direkt gegenüber der St.-Ursen-Kathedrale, heute ein renoviertes Vier-Sterne-Boutiquehotel. Im Haus gibt es eine Weinbar und ein französisch geprägtes Restaurant mit 14 GaultMillau-Punkten.",
+      "tip": "Die Bar à Vin im Haus ist täglich offen (Mo–Sa bis 22 Uhr) – praktisch für ein letztes Glas, ohne nochmals rauszumüssen.",
+      "source": "https://lacouronne-solothurn.ch/oeffnungszeiten/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hotel_de_la_Couronne.jpg/1280px-Hotel_de_la_Couronne.jpg",
+        "alt": "Hotel La Couronne an der Hauptgasse in Solothurn",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_de_la_Couronne.jpg"
       }
-     ]
     },
     {
-     "title": "Tag 2 – Verenaschlucht und Barockschloss",
-     "slots": [
-      {
-       "time": "09:30",
-       "tourSlug": "solothurn-verenaschlucht",
-       "title": "Urban-Trails-Tour: Verenaschlucht",
-       "text": "Von der Aare gehst du durch die schattige Verenaschlucht zur Einsiedelei, weiter über Kreuzen bis zum Schloss Waldegg – rund drei Stunden, gutes Schuhwerk nötig.",
-       "travel": "ca. 5–10 Min. zu Fuss vom Hotel an die Aare",
-       "rain": {
-        "placeId": "so-kunstmuseum",
-        "title": "Kunstmuseum statt Schlucht",
-        "text": "Bei starkem Regen ist der Schluchtweg rutschig – geh ab 10 Uhr ins Kunstmuseum (Eintritt frei) und hol die Tour bei trockenem Wetter nach."
-       }
+      "id": "so-restaurant-baseltor",
+      "kind": "restaurant",
+      "name": "Restaurant Baseltor",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Hauptgasse 79, 4500 Solothurn",
+      "coords": {
+        "lat": 47.20862,
+        "lng": 7.539329
       },
-      {
-       "time": "12:30",
-       "placeId": "so-schloss-waldegg",
-       "title": "Garten von Schloss Waldegg",
-       "text": "Am Ende der Tour schlenderst du durch den Barockgarten; sonntags ist auch das Museum ab 10 Uhr offen (April bis Oktober).",
-       "travel": "Ende der Tour, keine Wegzeit"
+      "url": "https://baseltor.ch/",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Sa 9–14 und 17.45–23 Uhr, So ab 17.30 Uhr",
+      "text": "Mediterrane Slow-Food-Küche mit orientalischem Einschlag, mit Zutaten aus der Region und 13 GaultMillau-Punkten. Die Küche verwertet ganze Tiere von Nose to Tail, deshalb wechselt die Karte oft.",
+      "tip": "Sonntags gibt es nur Abendservice – für ein Sonntagsmittagessen musst du ausweichen.",
+      "source": "https://baseltor.ch/oeffnungszeiten/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "so-kreuz",
+      "kind": "restaurant",
+      "name": "Genossenschaft Kreuz",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Kreuzgasse 4, 4500 Solothurn",
+      "coords": {
+        "lat": 47.206801,
+        "lng": 7.537666
       },
-      {
-       "time": "13:30",
-       "placeId": "so-suteria",
-       "title": "Spätes Mittagessen und Solothurner Torte",
-       "text": "Zurück in der Stadt gibt es einen Lunch und zum Dessert ein Stück der Haselnusstorte, sonntags bis 17 Uhr.",
-       "travel": "kurzer Fussweg zur Haltestelle St. Niklaus, ca. 11 Min. Bus 4 ins Zentrum"
+      "url": "https://www.kreuz-solothurn.ch/",
+      "price": 1,
+      "tags": [
+        "freunde",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So Ruhetag; warme Küche mittags 11.30–13.30 Uhr, abends Mo–Do 17.30–21, Fr/Sa 17.30–21.30 Uhr, dazwischen kleine Karte",
+      "text": "Seit 1973 die erste genossenschaftlich geführte Beiz der Schweiz, mitten in der Altstadt nahe der Aare. Es gibt hausgemachte Kreuz-Klassiker und eine grosse vegetarische Auswahl, von September bis Mai zusätzlich Konzerte und Lesungen von KreuzKultur.",
+      "tip": "Im Sommer führt das Kreuz am Landhausquai die Sommerbeiz «Böxli» – gut für ein Bier direkt an der Aare.",
+      "source": "https://www.kreuz-solothurn.ch/reservation-offnungszeiten.html",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 17,
+        "to": 41,
+        "unit": "Hauptgang",
+        "note": "Abendkarte: Pasta ab 17, vegetarisch 28–30, Fleisch 31–41"
       },
-      {
-       "time": "15:00",
-       "placeId": "so-kathedrale",
-       "title": "Kathedrale St. Ursen",
-       "text": "Zum Abschluss steigst du die Freitreppe hoch und schaust dir den hellen Innenraum und – falls offen – den Domschatz an.",
-       "travel": "1 Min. zu Fuss"
-      },
-      {
-       "time": "16:00",
-       "title": "Heimreise",
-       "text": "Über die Kreuzackerbrücke zum Bahnhof und mit dem direkten Zug zurück.",
-       "travel": "ca. 10 Min. zu Fuss zum Bahnhof"
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Solothurn_Kreuz.jpg/1280px-Solothurn_Kreuz.jpg",
+        "alt": "Gebäude der Genossenschaft Kreuz in Solothurn",
+        "credit": "https://commons.wikimedia.org/wiki/File:Solothurn_Kreuz.jpg"
       }
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "solothurn-mit-kindern-gondel-und-schiff",
-   "title": "Solothurn mit Kindern: Gondel, Rüstungen, Aareschiff",
-   "teaser": "Zwei Tage mit Bergspielplatz, einem Museum zum Anfassen und drei Stunden Schifffahrt nach Biel.",
-   "region": "solothurn",
-   "days": 2,
-   "moods": [
-    "familie",
-    "natur",
-    "aktiv"
-   ],
-   "audience": [
-    "familie"
-   ],
-   "season": "Mai–Oktober (Aareschiff 2. Mai–25. Oktober 2026)",
-   "arrival": [
-    {
-     "from": "Zürich HB",
-     "minutes": 55
     },
     {
-     "from": "Bern",
-     "minutes": 35
+      "id": "so-suteria",
+      "kind": "cafe",
+      "name": "Suteria Café Hauptgasse",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Hauptgasse 65, 4500 Solothurn",
+      "coords": {
+        "lat": 47.208021,
+        "lng": 7.53815
+      },
+      "url": "https://www.suteria.ch/de/",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Fr 7–18.30, Sa 7–17, So/Feiertage 9–17 Uhr",
+      "text": "Café der Confiserie Suteria am Kronenplatz, mit Frühstück, Mittagessen und natürlich der Solothurner Torte aus Haselnussbiskuit, Japonais und Buttercreme. Im Sommer sitzt du auf der grossen Terrasse mit Blick auf die Kathedrale.",
+      "tip": "Die kleine Chocolaterie an der Schmiedengasse 20 ist das Geburtshaus der Solothurner Torte – ein kurzer Abstecher lohnt sich (unter der Woche nur mit Mittagspause offen).",
+      "source": "https://www.suteria.ch/de/",
+      "checked": "2026-11-15"
     },
     {
-     "from": "Basel SBB",
-     "minutes": 55
-    }
-   ],
-   "hotelIds": [
-    "so-hotel-baseltor"
-   ],
-   "dayPlans": [
+      "id": "so-solheure",
+      "kind": "bar",
+      "name": "Solheure Bar Restaurant Lounge",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Ritterquai 10, 4500 Solothurn",
+      "coords": {
+        "lat": 47.207097,
+        "lng": 7.540074
+      },
+      "url": "https://solheure.ch/",
+      "price": 2,
+      "tags": [
+        "freunde",
+        "genuss",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo 17–23, Di–Do 11.30–24, Fr/Sa 11.30–1 Uhr, So ab 11.30 Uhr; ab 21 Uhr Mindestalter 20",
+      "text": "Bar, Lounge und Restaurant direkt am Aareufer, mit Drinks und Apéroplättli am Abend und wechselnden Mittagsmenüs, auch vegetarisch und vegan. Von den Plätzen am Wasser schaust du auf die Altstadt.",
+      "tip": "Gleich daneben führt das «Stägli» in die Aare – im Sommer ein beliebter Einstieg für einen kurzen Schwumm vor dem Apéro.",
+      "source": "https://solheure.ch/oeffnungszeiten/",
+      "checked": "2026-11-15"
+    },
     {
-     "title": "Tag 1 – Hausberg und Rüstkammer",
-     "slots": [
-      {
-       "time": "10:15",
-       "placeId": "so-weissenstein",
-       "title": "Auf den Weissenstein",
-       "text": "Gondel hoch, oben Spielplatz, Juragarten und die Spurensuche «Hermelin» (rund 4 km). Mittagessen als Picknick oder in einer der Bergbeizen.",
-       "travel": "14 Min. Zug S21 ab Solothurn bis Oberdorf SO, Gondel ca. 12 Min.",
-       "rain": {
-        "placeId": "so-kunstmuseum",
-        "title": "Kunstmuseum",
-        "text": "Eintritt frei, samstags ab 10 Uhr offen – mit Kindern lieber eine Stunde gezielt durch die Säle als den ganzen Tag."
-       }
+      "id": "so-einsiedelei",
+      "kind": "restaurant",
+      "name": "Restaurant Einsiedelei",
+      "region": "solothurn",
+      "town": "Rüttenen",
+      "address": "Verenastrasse 1, 4522 Rüttenen",
+      "coords": {
+        "lat": 47.224978,
+        "lng": 7.533418
       },
-      {
-       "time": "14:30",
-       "placeId": "so-altes-zeughaus",
-       "title": "Museum Altes Zeughaus",
-       "text": "Rüstungen und Waffen über mehrere Stockwerke, im Bereich «Anfassen erlaubt!» probieren die Kinder selbst aus.",
-       "travel": "Gondel und Zug zurück, ca. 35 Min."
+      "url": null,
+      "price": 2,
+      "tags": [
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, Öffnungstage vorher erfragen",
+      "text": "Ausflugsbeiz gleich bei der Einsiedelei am oberen Ende der Verenaschlucht, in einem klassizistischen Haus mit hölzernem Saalanbau. Passt als Zwischenhalt für Kaffee oder ein Zvieri auf dem Weg durch die Schlucht.",
+      "tip": "Verlässliche Öffnungszeiten findest du online nicht – ruf vor dem Besuch kurz an (032 622 28 93).",
+      "source": "https://www.myswitzerland.com/en-au/experiences/food-wine/restaurant/restaurant-einsiedelei/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "so-weissenstein",
+      "kind": "aussicht",
+      "name": "Seilbahn Weissenstein",
+      "region": "solothurn",
+      "town": "Oberdorf SO",
+      "address": "Talstation Oberdorf, 4515 Oberdorf SO",
+      "coords": {
+        "lat": 47.25188,
+        "lng": 7.508231
       },
-      {
-       "time": "16:15",
-       "placeId": "so-hotel-baseltor",
-       "title": "Einchecken",
-       "text": "Zimmer beziehen und kurz durchatmen.",
-       "travel": "ca. 3 Min. zu Fuss"
+      "url": "https://www.seilbahn-weissenstein.ch/",
+      "price": 2,
+      "tags": [
+        "aussicht",
+        "berg",
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig, Revisionspausen im November und März",
+      "hours": "täglich ab 8.30 Uhr, letzte Fahrt Sommer ca. 17.30, Winter ca. 16.30 Uhr",
+      "durationMin": 180,
+      "text": "Die Gondelbahn bringt dich in rund 12 Minuten von Oberdorf auf den Solothurner Hausberg; oben siehst du bei klarer Sicht vom Säntis bis zum Mont Blanc. Es gibt Wanderwege wie den Planetenweg, einen Juragarten, einen grossen Spielplatz und mehrere Bergbeizen.",
+      "tip": "Für Familien gibt es oben die Spurensuche «Hermelin» (rund 4 km) – und bei Nebel im Mittelland lohnt ein Blick auf die Live-Kamera der Bahn, oft liegt der Gipfel darüber.",
+      "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/solothurn-weissenstein",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 30,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Oberdorf–Weissenstein; mit Halbtax/GA CHF 15"
       },
-      {
-       "time": "18:00",
-       "placeId": "so-kreuz",
-       "title": "Znacht im Kreuz",
-       "text": "Günstige, ehrliche Küche mit vielen vegetarischen Gerichten – Kinder sind hier gut aufgehoben.",
-       "travel": "ca. 5 Min. zu Fuss"
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Weissensteinbahn_03.jpg/1280px-Weissensteinbahn_03.jpg",
+        "alt": "Gondel der Seilbahn Weissenstein bei der Ausfahrt aus der Bergstation",
+        "credit": "https://commons.wikimedia.org/wiki/File:Weissensteinbahn_03.jpg"
       }
-     ]
     },
     {
-     "title": "Tag 2 – Altstadtrallye und Aareschiff",
-     "slots": [
-      {
-       "time": "09:30",
-       "tourSlug": "solothurn-elf",
-       "title": "Urban-Trails-Tour: Solothurn und die Elf",
-       "text": "Vom Krummturm aus durch die Altstadt – Kinder zählen unterwegs mit, wo überall die Zahl Elf auftaucht.",
-       "travel": "ca. 10 Min. zu Fuss zum Krummturm"
+      "id": "so-aareschiff",
+      "kind": "aktivitaet",
+      "name": "Aarefahrt Solothurn–Biel (Bielersee-Schifffahrt BSG)",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Schiffländte, 4500 Solothurn",
+      "coords": {
+        "lat": 47.203539,
+        "lng": 7.534032
       },
-      {
-       "time": "11:45",
-       "placeId": "so-suteria",
-       "title": "Mittag und Torte",
-       "text": "Lunch im Café am Kronenplatz, danach ein Stück Solothurner Torte.",
-       "travel": "wenige Min. zu Fuss"
-      },
-      {
-       "time": "13:15",
-       "placeId": "so-aareschiff",
-       "title": "Mit dem Schiff nach Biel",
-       "text": "Knapp drei Stunden auf der Aare, mit Störchen bei Altreu und Schleuse bei Port. Die genaue Abfahrt im BSG-Fahrplan prüfen – ab Biel fährst du direkt mit dem Zug nach Hause.",
-       "travel": "ca. 20 Min. zu Fuss zur Schiffländte oder Bus 8",
-       "rain": {
-        "placeId": "so-kathedrale",
-        "title": "Kathedrale St. Ursen",
-        "text": "Statt aufs Schiff in die Kathedrale: Die 33 Stufen der Treppe zählen – dreimal elf, drinnen die Elf suchen – und im Domschatz glänzt es auch bei grauem Himmel."
-       }
+      "url": "https://www.bielersee.ch/",
+      "price": 2,
+      "tags": [
+        "romantisch",
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": false,
+      "season": "Anfang Mai bis Ende Oktober",
+      "durationMin": 180,
+      "text": "Knapp drei Stunden fährst du mit dem Kursschiff die Aare hinunter nach Biel, vorbei an den Störchen von Altreu, dem Städtchen Büren an der Aare und durch die Schleuse bei Port. Zurück oder weiter nach Hause geht es ab Biel mit dem Zug.",
+      "tip": "Die Schiffländte liegt rund 20 Minuten zu Fuss vom Bahnhof (Ausgang City) – oder du nimmst Bus 8 bis «Schiffländte». Online gibt es saisonweise 20–30 % Rabatt auf die Fahrt.",
+      "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/solothurn-biel-aare-schifffahrt",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/20170711_Solothurn_0719_%2836539205330%29.jpg/1280px-20170711_Solothurn_0719_%2836539205330%29.jpg",
+        "alt": "Kursschiff «Stadt Solothurn» auf der Aare, davor die Eisenbahnbrücke",
+        "credit": "https://commons.wikimedia.org/wiki/File:20170711_Solothurn_0719_(36539205330).jpg"
       }
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "rapperswil-tag-am-zuerichsee",
-   "title": "Rapperswil – ein Tag am Zürichsee",
-   "teaser": "Rosenstadt, Holzsteg über den See und ein Abstecher auf die Klosterinsel Ufnau.",
-   "region": "rapperswil",
-   "days": 1,
-   "moods": [
-    "kultur",
-    "genuss",
-    "romantik",
-    "natur"
-   ],
-   "audience": [
-    "paar",
-    "freunde",
-    "allein"
-   ],
-   "season": "April–Oktober (Schiffe zur Ufnau); Rundgang und Steg ganzjährig",
-   "arrival": [
-    {
-     "from": "Zürich HB",
-     "minutes": 37
     },
     {
-     "from": "Bern",
-     "minutes": 105
-    },
-    {
-     "from": "Basel SBB",
-     "minutes": 100
-    }
-   ],
-   "hotelIds": [],
-   "dayPlans": [
-    {
-     "title": "Tag 1 – Altstadt, Steg und Insel",
-     "slots": [
-      {
-       "time": "10:00",
-       "placeId": "ra-cafe-hintergass",
-       "title": "Kaffee in der Altstadt",
-       "text": "Gipfeli und Kaffee in der kleinen Gasse, bevor es losgeht.",
-       "travel": "ca. 5 Min. zu Fuss vom Bahnhof"
+      "id": "so-kathedrale",
+      "kind": "sehenswuerdigkeit",
+      "name": "St.-Ursen-Kathedrale mit Domschatz",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Hauptgasse, 4500 Solothurn",
+      "coords": {
+        "lat": 47.20842,
+        "lng": 7.53964
       },
-      {
-       "time": "10:45",
-       "tourSlug": "rapperswil",
-       "title": "Urban-Trails-Tour: Rapperswil",
-       "text": "Audio-Rundgang durch Altstadt, hinauf zum Schloss und durch die Rosengärten – rund zwei Stunden.",
-       "travel": "1 Min. zu Fuss zum Hauptplatz",
-       "rain": {
-        "placeId": "ra-stadtmuseum",
-        "title": "Stadtmuseum",
-        "text": "Bei Regen ins Stadtmuseum am Herrenberg (am Wochenende ab 11 Uhr) und die Tour später nachholen."
-       }
+      "url": "https://www.solothurn-city.ch/en/attractions/domschatz-st.-ursenkathedrale-bf0b514666",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "gratis"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "durationMin": 45,
+      "text": "Die frühklassizistische Kathedrale mit der breiten Freitreppe ist das Wahrzeichen der Stadt und Bischofssitz des Bistums Basel. Im Domschatz siehst du Goldschmiedearbeiten, Reliquiare und Messgewänder aus fünf Jahrhunderten.",
+      "tip": "Im Turm hängen elf Glocken, und von oben überblickst du Altstadt und Jura – frag vor Ort nach den Zeiten für Turm und Domschatz und meide die Gottesdienstzeiten.",
+      "source": "https://www.solothurn-city.ch/en/attractions/domschatz-st.-ursenkathedrale-bf0b514666",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis",
+        "note": "Kirche frei zugänglich; Domschatz nur mit Führung nach Vereinbarung (kostenpflichtig)"
       },
-      {
-       "time": "13:00",
-       "placeId": "ra-jakob",
-       "title": "Mittag am Hauptplatz",
-       "text": "Schweizer Küche mit Blick auf die Schlosstreppe – dienstags geschlossen.",
-       "travel": "wenige Min. zu Fuss"
-      },
-      {
-       "time": "14:30",
-       "placeId": "ra-holzsteg",
-       "title": "Über den Holzsteg nach Hurden",
-       "text": "841 Meter über den See auf der alten Pilgerroute, in Hurden kehrst du um.",
-       "travel": "ca. 10 Min. zu Fuss zum Seedamm",
-       "rain": {
-        "placeId": "ra-kunstzeughaus",
-        "title": "Kunst(Zeug)Haus",
-        "text": "Zeitgenössische Schweizer Kunst, Freitag bis Sonntag 11–17 Uhr offen, rund 10 Minuten vom Bahnhof."
-       }
-      },
-      {
-       "time": "15:45",
-       "placeId": "ra-insel-ufnau",
-       "title": "Schiff zur Insel Ufnau",
-       "text": "Mit dem Ufnau-Shuttle auf die Klosterinsel, Kirche und Kapelle anschauen und in der Inselwirtschaft unter Platanen einkehren. Abfahrten und letzte Rückfahrt im ZSG-Fahrplan prüfen.",
-       "travel": "ca. 10 Min. zu Fuss zum Schiffsteg, Shuttle ca. 15 Min.",
-       "rain": {
-        "placeId": "ra-kunstzeughaus",
-        "title": "Länger im Kunst(Zeug)Haus",
-        "text": "Bei Regen fällt die Ufnau aus – dafür bleibt Zeit, die Sammlung in Ruhe anzuschauen."
-       }
-      },
-      {
-       "time": "18:30",
-       "placeId": "ra-dieci-al-lago",
-       "title": "Znacht am Hafen",
-       "text": "Pizza, Pasta oder Fisch auf der Terrasse am Fischmarktplatz, danach zum Bahnhof.",
-       "travel": "ca. 2 Min. zu Fuss vom Schiffsteg"
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Aare_und_St._Ursen_Kathedrale_in_Solothurn_%282014%29.jpg/1280px-Aare_und_St._Ursen_Kathedrale_in_Solothurn_%282014%29.jpg",
+        "alt": "Aare mit Altstadthäusern und der St.-Ursen-Kathedrale in Solothurn",
+        "credit": "https://commons.wikimedia.org/wiki/File:Aare_und_St._Ursen_Kathedrale_in_Solothurn_(2014).jpg"
       }
-     ]
-    }
-   ]
-  },
-  {
-   "slug": "rapperswil-mit-kindern",
-   "title": "Rapperswil mit Kindern: Zoo, Schloss und Steg",
-   "teaser": "Ein Familientag mit Knies Kinderzoo am Morgen und Schloss, Rosen und Holzsteg am Nachmittag.",
-   "region": "rapperswil",
-   "days": 1,
-   "moods": [
-    "familie",
-    "natur",
-    "aktiv"
-   ],
-   "audience": [
-    "familie"
-   ],
-   "season": "März–Oktober (Kinderzoo 1. März–1. November)",
-   "arrival": [
-    {
-     "from": "Zürich HB",
-     "minutes": 37
     },
     {
-     "from": "Bern",
-     "minutes": 105
-    },
-    {
-     "from": "Basel SBB",
-     "minutes": 100
-    }
-   ],
-   "hotelIds": [],
-   "dayPlans": [
-    {
-     "title": "Tag 1 – Tiere, Schloss und See",
-     "slots": [
-      {
-       "time": "09:30",
-       "placeId": "ra-knies-kinderzoo",
-       "title": "Knies Kinderzoo",
-       "text": "Drei Stunden für Tiere zum Anfassen und Füttern, Pausen im Zoo-Restaurant.",
-       "travel": "ca. 5 Min. zu Fuss vom Bahnhof",
-       "rain": {
-        "placeId": "ra-kunstzeughaus",
-        "title": "Kunst(Zeug)Haus",
-        "text": "Bei richtigem Dauerregen geht's ab 11 Uhr (Fr–So) ins Kunst(Zeug)Haus – vorher Znüni im überdachten Teil des Zoo-Restaurants."
-       }
+      "id": "so-kunstmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kunstmuseum Solothurn",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Werkhofstrasse 30, 4500 Solothurn",
+      "coords": {
+        "lat": 47.210335,
+        "lng": 7.537471
       },
-      {
-       "time": "12:45",
-       "placeId": "ra-dieci-al-lago",
-       "title": "Pizza am Hafen",
-       "text": "Pizza und Pasta auf der Terrasse, zum Dessert Gelato aus der Caffèbar.",
-       "travel": "ca. 15 Min. zu Fuss"
+      "url": "https://www.kunstmuseum-so.ch/de/",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "gratis"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Di–Fr 11–17, Sa/So 10–17 Uhr, Mo geschlossen",
+      "durationMin": 90,
+      "text": "Der Eintritt ist frei: Die Sammlung reicht von der spätgotischen «Madonna in den Erdbeeren» bis zu Schweizer Kunst des 19. und 20. Jahrhunderts, dazu kommen wechselnde Ausstellungen. Bis Januar 2027 läuft unter anderem die kantonale Jahresausstellung «SCHAU».",
+      "tip": "Im Foyer steht Jean Tinguelys «Bettler» – er nimmt die freiwilligen Spenden entgegen.",
+      "source": "https://www.kunstmuseum-so.ch/de/",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis",
+        "note": "Eintritt frei"
       },
-      {
-       "time": "14:00",
-       "tourSlug": "rapperswil",
-       "title": "Urban-Trails-Tour: Rapperswil",
-       "text": "Altstadt, Schloss und Rosengärten im eigenen Tempo – mit Kindern eher zweieinhalb Stunden einrechnen.",
-       "travel": "ca. 3 Min. zu Fuss zum Hauptplatz",
-       "rain": {
-        "placeId": "ra-stadtmuseum",
-        "title": "Stadtmuseum",
-        "text": "Verwinkelte Etagen im alten Breny-Turm, Kinder bis 16 gratis, am Wochenende bis 17 Uhr offen."
-       }
-      },
-      {
-       "time": "16:30",
-       "placeId": "ra-holzsteg",
-       "title": "Ein Stück über den Holzsteg",
-       "text": "Zum Schluss ein Stück über den Steg hinaus aufs Wasser – wer noch Energie hat, läuft bis Hurden.",
-       "travel": "ca. 10 Min. zu Fuss",
-       "rain": {
-        "placeId": "ra-cafe-hintergass",
-        "title": "Zvieri im Café",
-        "text": "Bei Regen gibt es stattdessen ein Zvieri im Café Hintergass, danach zurück zum Bahnhof."
-       }
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Kunstmuseum_Solothurn.jpg/1280px-Kunstmuseum_Solothurn.jpg",
+        "alt": "Gebäude des Kunstmuseums Solothurn",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kunstmuseum_Solothurn.jpg"
       }
-     ]
+    },
+    {
+      "id": "so-altes-zeughaus",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museum Altes Zeughaus",
+      "region": "solothurn",
+      "town": "Solothurn",
+      "address": "Zeughausplatz 1, 4500 Solothurn",
+      "coords": {
+        "lat": 47.208924,
+        "lng": 7.538701
+      },
+      "url": "https://museum-alteszeughaus.so.ch/",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Di–Sa 13–17, So 10–17 Uhr, Mo geschlossen",
+      "durationMin": 90,
+      "text": "Im ehemaligen Waffenlager der Stadt füllen Rüstungen, Waffen und Uniformen mehrere Stockwerke. Im Bereich «Anfassen erlaubt!» dürfen Kinder selbst Hand anlegen, bis Oktober 2026 lief zudem eine Sonderausstellung zur Waffenfabrik Solothurn.",
+      "tip": "Kinder bis 8 Jahre haben freien Eintritt, für Familien gibt es ein günstiges Familienbillett.",
+      "source": "https://www.myswitzerland.com/en/experiences/old-arsenal-museum/",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 8,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 6, Familien CHF 10, Kinder bis 12 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Altes_Zeughaus_in_Solothurn.jpg/1280px-Altes_Zeughaus_in_Solothurn.jpg",
+        "alt": "Museum Altes Zeughaus am Riedholzplatz in Solothurn",
+        "credit": "https://commons.wikimedia.org/wiki/File:Altes_Zeughaus_in_Solothurn.jpg"
+      }
+    },
+    {
+      "id": "so-schloss-waldegg",
+      "kind": "sehenswuerdigkeit",
+      "name": "Schloss Waldegg",
+      "region": "solothurn",
+      "town": "Feldbrunnen-St. Niklaus",
+      "address": "Waldeggstrasse 1, 4532 Feldbrunnen-St. Niklaus",
+      "coords": {
+        "lat": 47.223381,
+        "lng": 7.548367
+      },
+      "url": "https://schloss-waldegg.so.ch/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "April–Oktober (Museum)",
+      "hours": "Di, Mi, Do, Sa 14–17, So 10–17 Uhr; Mo und Fr geschlossen",
+      "durationMin": 60,
+      "text": "Barocker Landsitz über Solothurn mit Barockgarten, Orangerieparterre und Nutzgarten. Das Museum gibt Einblick ins Leben der Solothurner Patrizierfamilien.",
+      "tip": "Die Urban-Trails-Tour durch die Verenaschlucht endet hier – plan danach eine halbe Stunde für den Garten ein, bevor du mit dem Bus zurückfährst.",
+      "source": "https://schloss-waldegg.so.ch/",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 7, Familien CHF 18, Kinder bis 7 gratis; Museumspass gültig"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Schloss_Waldegg.jpg/1280px-Schloss_Waldegg.jpg",
+        "alt": "Schloss Waldegg im Herbst mit Barockgarten auf der Südseite",
+        "credit": "https://commons.wikimedia.org/wiki/File:Schloss_Waldegg.jpg"
+      }
+    },
+    {
+      "id": "ra-jakob",
+      "kind": "restaurant",
+      "name": "Restaurant JAKOB",
+      "region": "rapperswil",
+      "town": "Rapperswil",
+      "address": "Hauptplatz 11, 8640 Rapperswil",
+      "coords": {
+        "lat": 47.22682,
+        "lng": 8.8166
+      },
+      "url": "https://www.jakob-rapperswil.ch/restaurantbar",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "kultur",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Di Ruhetag; Mo und Mi–Sa 11–24, So 11–22 Uhr",
+      "text": "Restaurant im Hotel Jakob am Hauptplatz, direkt gegenüber der grossen Treppe zum Schloss. Auf den Tisch kommen Schweizer Klassiker und saisonale Gerichte, nachmittags auch Kuchen und Glace.",
+      "tip": "Online reservieren – an schönen Wochenenden ist der Hauptplatz rasch voll.",
+      "source": "https://www.jakob-rapperswil.ch/restaurantbar",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 30,
+        "to": 59.5,
+        "unit": "Hauptgang",
+        "note": "Winterkarte 2026: Pasta ab 30, Fleisch/Fisch 47–59.50; Cocktails 16–17.50"
+      }
+    },
+    {
+      "id": "ra-dieci-al-lago",
+      "kind": "restaurant",
+      "name": "Dieci al lago",
+      "region": "rapperswil",
+      "town": "Rapperswil",
+      "address": "Fischmarktplatz, 8640 Rapperswil",
+      "coords": {
+        "lat": 47.225702,
+        "lng": 8.815354
+      },
+      "url": "https://www.dieci.ch/de/restaurant-rapperswil",
+      "price": 2,
+      "tags": [
+        "see",
+        "familie",
+        "freunde",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich ab 8 Uhr",
+      "text": "Grosses italienisches Lokal am Fischmarktplatz mit Terrasse zum Hafen und See. Es gibt Pizza mit lange gereiftem Teig und hausgemachte Pasta, dazu eine Bar und eine Caffèbar mit Gelato.",
+      "tip": "Pizza & Pasta lässt sich nur telefonisch reservieren (055 210 90 20) – an Sommerabenden lohnt sich der Anruf.",
+      "source": "https://www.dieci.ch/de/restaurant-rapperswil",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ra-cafe-hintergass",
+      "kind": "cafe",
+      "name": "Café Hintergass",
+      "region": "rapperswil",
+      "town": "Rapperswil",
+      "address": "Strehlgasse 4, 8640 Rapperswil",
+      "coords": {
+        "lat": 47.226732,
+        "lng": 8.815822
+      },
+      "url": "https://www.zuerich.com/de/besuchen/restaurants/cafe-hintergass",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Sa 7–18, So 9–17 Uhr",
+      "text": "Kleines Café in einer Altstadtgasse mit hausgemachtem Gebäck, Suppen, Salaten und Sandwiches. Es liegen Zeitungen und Magazine auf, bei schönem Wetter sitzt du draussen in der Gasse.",
+      "tip": "Guter Startpunkt vor dem Rundgang – bis zum Hauptplatz sind es nur ein paar Schritte.",
+      "source": "https://www.zuerich.com/de/besuchen/restaurants/cafe-hintergass",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ra-inselwirtschaft-ufnau",
+      "kind": "restaurant",
+      "name": "Inselwirtschaft Ufnau",
+      "region": "rapperswil",
+      "town": "Insel Ufnau",
+      "address": "Insel Ufnau, 8808 Pfäffikon SZ",
+      "coords": {
+        "lat": 47.218056,
+        "lng": 8.781667
+      },
+      "url": "https://www.inselufnau.ch/",
+      "price": 2,
+      "tags": [
+        "see",
+        "romantisch",
+        "genuss"
+      ],
+      "weatherProof": false,
+      "season": "April–Oktober, nur bei Schiffsbetrieb",
+      "hours": "in der Saison täglich 11–21 Uhr",
+      "text": "Gartenwirtschaft unter Platanen auf der Klosterinsel, mit Gemüse, Fleisch und Brot aus der Region und Fischgerichten. Erreichbar ist sie nur übers Wasser.",
+      "tip": "Bei unsicherem Wetter vorher anrufen (055 410 12 25) – bei Regen bleibt die Wirtschaft auch mal zu.",
+      "source": "https://www.zuerich.com/de/besuchen/restaurants/inselwirtschaft-ufnau",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ra-holzsteg",
+      "kind": "aussicht",
+      "name": "Holzsteg Rapperswil–Hurden",
+      "region": "rapperswil",
+      "town": "Rapperswil",
+      "address": "Seedamm, 8640 Rapperswil – 8640 Hurden",
+      "coords": {
+        "lat": 47.222472,
+        "lng": 8.814917
+      },
+      "url": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/holzsteg-rapperswil-hurden-zu-fuss-den-zuerichsee-ueberqueren",
+      "price": 1,
+      "tags": [
+        "see",
+        "gratis",
+        "romantisch",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 60,
+      "text": "Der 841 Meter lange Steg ist der längste Holzsteg der Schweiz und folgt der Route, auf der schon im Mittelalter Jakobspilger über den See gingen. Hin und zurück bis Hurden bist du rund eine Stunde unterwegs, mit Blick zurück auf Altstadt und Schloss.",
+      "tip": "Kein Eintritt, kein Fahrplan – der ideale Programmpunkt, wenn das Wetter zwischendurch aufklart.",
+      "source": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/holzsteg-rapperswil-hurden-zu-fuss-den-zuerichsee-ueberqueren",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Fussg%C3%A4nger-Holzsteg_%282001%29_%C3%BCber_den_Obersee%2C_Hurden_SZ_%E2%80%93_Rapperswil_SG_20240320-jag9889.jpg/1280px-Fussg%C3%A4nger-Holzsteg_%282001%29_%C3%BCber_den_Obersee%2C_Hurden_SZ_%E2%80%93_Rapperswil_SG_20240320-jag9889.jpg",
+        "alt": "Fussgänger-Holzsteg über den Obersee zwischen Hurden und Rapperswil",
+        "credit": "https://commons.wikimedia.org/wiki/File:Fussg%C3%A4nger-Holzsteg_(2001)_%C3%BCber_den_Obersee,_Hurden_SZ_%E2%80%93_Rapperswil_SG_20240320-jag9889.jpg"
+      }
+    },
+    {
+      "id": "ra-insel-ufnau",
+      "kind": "sehenswuerdigkeit",
+      "name": "Insel Ufnau (mit Schiff ab Rapperswil)",
+      "region": "rapperswil",
+      "town": "Insel Ufnau",
+      "address": "Insel Ufnau, 8808 Pfäffikon SZ",
+      "coords": {
+        "lat": 47.218056,
+        "lng": 8.781667
+      },
+      "url": "https://www.zsg.ch/de/",
+      "price": 2,
+      "tags": [
+        "see",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "April–Oktober (Kursschiffe und Ufnau-Shuttle der ZSG)",
+      "durationMin": 150,
+      "text": "Mit dem Ufnau-Shuttle der Zürichsee-Schifffahrt bist du in rund 15 Minuten auf der autofreien Klosterinsel. Dort besuchst du die Kirche St. Peter und Paul und die romanische Kapelle St. Martin, im Sommer steht zudem die Freiluft-Ausstellung «art ufnau».",
+      "tip": "Baden ist auf der Insel verboten – plan stattdessen einen langen Halt in der Inselwirtschaft ein und prüf die letzte Rückfahrt im ZSG-Fahrplan.",
+      "source": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/insel-ufnau",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 9.4,
+        "unit": "Retourbillett Erwachsene",
+        "note": "2 × einfache Fahrt CHF 4.70 (ZVV-Zonen 180+181) mit dem Ufnau-Shuttle; mit Halbtax 2 × CHF 3.30"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ufenau_Kirchen.jpg/1280px-Ufenau_Kirchen.jpg",
+        "alt": "Insel Ufnau mit der Kirche St. Peter und Paul und der Kapelle St. Martin",
+        "credit": "https://commons.wikimedia.org/wiki/File:Ufenau_Kirchen.jpg"
+      }
+    },
+    {
+      "id": "ra-knies-kinderzoo",
+      "kind": "aktivitaet",
+      "name": "Knies Kinderzoo",
+      "region": "rapperswil",
+      "town": "Rapperswil",
+      "address": "Oberseestrasse 36, 8640 Rapperswil",
+      "coords": {
+        "lat": 47.223652,
+        "lng": 8.821989
+      },
+      "url": "https://www.knieskinderzoo.ch/",
+      "price": 2,
+      "tags": [
+        "familie",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "März bis Anfang November",
+      "hours": "in der Saison täglich 9–18 Uhr",
+      "durationMin": 180,
+      "text": "Der Zoo der Familie Knie liegt fünf Gehminuten vom Bahnhof, Kinder kommen hier vielen Tieren sehr nahe. Zwei Restaurants mit Innenplätzen und überdachten Terrassen helfen über einen Regenschauer.",
+      "tip": "Vom Schiffsteg sind es rund 15 Minuten zu Fuss – wer mit dem Schiff anreist, plant das ein.",
+      "source": "https://en.knieskinderzoo.ch/besucherinfos",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 23,
+        "unit": "Eintritt Erwachsene",
+        "note": "ab 16 Jahren; Kinder ab 4 CHF 9; ab 17 Uhr Erwachsene CHF 8"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Knies_Kinderzoo_IMG_3835.JPG/1280px-Knies_Kinderzoo_IMG_3835.JPG",
+        "alt": "Im Knies Kinderzoo in Rapperswil",
+        "credit": "https://commons.wikimedia.org/wiki/File:Knies_Kinderzoo_IMG_3835.JPG"
+      }
+    },
+    {
+      "id": "ra-kunstzeughaus",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kunst(Zeug)Haus",
+      "region": "rapperswil",
+      "town": "Rapperswil-Jona",
+      "address": "Schönbodenstrasse 1, 8640 Rapperswil-Jona",
+      "coords": {
+        "lat": 47.227825,
+        "lng": 8.826592
+      },
+      "url": "https://www.kunstzeughaus.ch/",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mi 14–20, Do 14–17, Fr–So 11–17 Uhr; Mo/Di geschlossen",
+      "durationMin": 90,
+      "text": "Museum für zeitgenössische Schweizer Kunst in einem umgebauten ehemaligen Zeughaus. Neben der Sammlungsausstellung «wohin – woher – womit» laufen bis Januar 2027 «SEITENWAGEN: HAHA» über Humor in der Kunst und ab 22. November «Von anderen Welten».",
+      "tip": "Am ersten Samstag im Monat ist der Eintritt für alle gratis.",
+      "source": "https://www.kunstzeughaus.ch/",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 6; bis 25 Jahre gratis; jeden 1. Samstag im Monat Eintritt frei"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/KunstZeughaus_Rapperswil_2020.jpg/1280px-KunstZeughaus_Rapperswil_2020.jpg",
+        "alt": "Museumsgebäude Kunst(Zeug)Haus in Rapperswil",
+        "credit": "https://commons.wikimedia.org/wiki/File:KunstZeughaus_Rapperswil_2020.jpg"
+      }
+    },
+    {
+      "id": "ra-stadtmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Stadtmuseum Rapperswil-Jona",
+      "region": "rapperswil",
+      "town": "Rapperswil",
+      "address": "Herrenberg 30/40, 8640 Rapperswil",
+      "coords": {
+        "lat": 47.227933,
+        "lng": 8.817645
+      },
+      "url": "https://stadtmuseum-rapperswil-jona.ch/",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mi–Fr 14–17, Sa/So 11–17 Uhr; Mo/Di und Feiertage geschlossen",
+      "durationMin": 75,
+      "text": "Das Museum steckt im mittelalterlichen Breny-Haus samt Turm am Herrenberg, wenige Schritte vom Schloss. Auf verwinkelten Etagen erfährst du, wie Rapperswil und Jona zu dem wurden, was sie heute sind.",
+      "tip": "Kinder bis 16 Jahre haben freien Eintritt, Erwachsene zahlen CHF 6.",
+      "source": "https://www.zuerich.com/de/besuchen/kultur/stadtmuseum-rapperswil-jona",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 6,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 5; Wochenend-Kombi mit Schloss CHF 16"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Rapperswil_-_Bubikerhaus_-_Breny-Turm.jpg/1280px-Rapperswil_-_Bubikerhaus_-_Breny-Turm.jpg",
+        "alt": "Breny-Haus und Breny-Turm des Stadtmuseums Rapperswil-Jona",
+        "credit": "https://commons.wikimedia.org/wiki/File:Rapperswil_-_Bubikerhaus_-_Breny-Turm.jpg"
+      }
     }
-   ]
-  }
- ]
+  ],
+  "trips": [
+    {
+      "slug": "solothurn-barock-aare-weissenstein",
+      "title": "Solothurn – Barock, Aare und Weissenstein",
+      "teaser": "Ein Wochenende zwischen Altstadtgassen, Jurablick vom Hausberg und einer Schlucht mit Einsiedelei.",
+      "region": "solothurn",
+      "days": 2,
+      "moods": [
+        "kultur",
+        "genuss",
+        "natur",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde"
+      ],
+      "season": "April–Oktober (Schloss Waldegg offen, Gondel länger in Betrieb); Altstadt ganzjährig",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 55
+        },
+        {
+          "from": "Bern",
+          "minutes": 35
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 55
+        }
+      ],
+      "hotelIds": [
+        "so-hotel-la-couronne",
+        "so-hotel-baseltor"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 – Altstadt und Hausberg",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "so-hotel-la-couronne",
+              "title": "Ankommen, Gepäck abgeben",
+              "text": "Vom Bahnhof gehst du über die Aare in die Altstadt und lässt das Gepäck im Hotel – eingecheckt wird erst am Nachmittag.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "10:30",
+              "tourSlug": "solothurn-elf",
+              "title": "Urban-Trails-Tour: Solothurn und die Elf",
+              "text": "Du startest beim Krummturm an der Aare und folgst dem Audio-Rundgang durch die barocke Altstadt – rund zwei Stunden mit Pausen.",
+              "travel": "ca. 10 Min. zu Fuss zum Krummturm"
+            },
+            {
+              "time": "12:45",
+              "placeId": "so-kreuz",
+              "title": "Mittag in der Genossenschaftsbeiz",
+              "text": "Unkompliziertes Mittagessen im Kreuz, gern vegetarisch – die warme Küche läuft bis 13.30 Uhr.",
+              "travel": "wenige Min. zu Fuss"
+            },
+            {
+              "time": "14:15",
+              "placeId": "so-weissenstein",
+              "title": "Mit der Gondel auf den Weissenstein",
+              "text": "Zug nach Oberdorf, Gondel hoch, oben ein Stück dem Planetenweg folgen oder einfach die Aussicht über Mittelland und Alpen geniessen. Im Winter fährt die letzte Gondel schon gegen 16.30 Uhr.",
+              "travel": "10 Min. zu Fuss zum Bahnhof, 14 Min. Zug S21 bis Oberdorf SO, Gondel ca. 12 Min.",
+              "rain": {
+                "placeId": "so-altes-zeughaus",
+                "title": "Museum Altes Zeughaus",
+                "text": "Statt Nebel auf dem Berg: Rüstungen und Waffen über mehrere Stockwerke, samstags bis 17 Uhr offen."
+              }
+            },
+            {
+              "time": "17:30",
+              "placeId": "so-hotel-la-couronne",
+              "title": "Einchecken",
+              "text": "Zurück in der Stadt beziehst du dein Zimmer und machst eine kurze Pause.",
+              "travel": "Gondel und Zug zurück, ca. 35 Min."
+            },
+            {
+              "time": "18:30",
+              "placeId": "so-solheure",
+              "title": "Apéro an der Aare",
+              "text": "Ein Glas und ein Apéroplättli direkt am Fluss, mit Blick auf die beleuchtete Altstadt.",
+              "travel": "ca. 5 Min. zu Fuss"
+            },
+            {
+              "time": "20:00",
+              "placeId": "so-restaurant-baseltor",
+              "title": "Abendessen im Baseltor",
+              "text": "Saisonale, mediterran-orientalische Küche aus regionalen Produkten – unbedingt reservieren.",
+              "travel": "ca. 5 Min. zu Fuss"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 – Verenaschlucht und Barockschloss",
+          "slots": [
+            {
+              "time": "09:30",
+              "tourSlug": "solothurn-verenaschlucht",
+              "title": "Urban-Trails-Tour: Verenaschlucht",
+              "text": "Von der Aare gehst du durch die schattige Verenaschlucht zur Einsiedelei, weiter über Kreuzen bis zum Schloss Waldegg – rund drei Stunden, gutes Schuhwerk nötig.",
+              "travel": "ca. 5–10 Min. zu Fuss vom Hotel an die Aare",
+              "rain": {
+                "placeId": "so-kunstmuseum",
+                "title": "Kunstmuseum statt Schlucht",
+                "text": "Bei starkem Regen ist der Schluchtweg rutschig – geh ab 10 Uhr ins Kunstmuseum (Eintritt frei) und hol die Tour bei trockenem Wetter nach."
+              }
+            },
+            {
+              "time": "12:30",
+              "placeId": "so-schloss-waldegg",
+              "title": "Garten von Schloss Waldegg",
+              "text": "Am Ende der Tour schlenderst du durch den Barockgarten; sonntags ist auch das Museum ab 10 Uhr offen (April bis Oktober).",
+              "travel": "Ende der Tour, keine Wegzeit"
+            },
+            {
+              "time": "13:30",
+              "placeId": "so-suteria",
+              "title": "Spätes Mittagessen und Solothurner Torte",
+              "text": "Zurück in der Stadt gibt es einen Lunch und zum Dessert ein Stück der Haselnusstorte, sonntags bis 17 Uhr.",
+              "travel": "kurzer Fussweg zur Haltestelle St. Niklaus, ca. 11 Min. Bus 4 ins Zentrum"
+            },
+            {
+              "time": "15:00",
+              "placeId": "so-kathedrale",
+              "title": "Kathedrale St. Ursen",
+              "text": "Zum Abschluss steigst du die Freitreppe hoch und schaust dir den hellen Innenraum und – falls offen – den Domschatz an.",
+              "travel": "1 Min. zu Fuss"
+            },
+            {
+              "time": "16:00",
+              "title": "Heimreise",
+              "text": "Über die Kreuzackerbrücke zum Bahnhof und mit dem direkten Zug zurück.",
+              "travel": "ca. 10 Min. zu Fuss zum Bahnhof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "solothurn-mit-kindern-gondel-und-schiff",
+      "title": "Solothurn mit Kindern: Gondel, Rüstungen, Aareschiff",
+      "teaser": "Zwei Tage mit Bergspielplatz, einem Museum zum Anfassen und drei Stunden Schifffahrt nach Biel.",
+      "region": "solothurn",
+      "days": 2,
+      "moods": [
+        "familie",
+        "natur",
+        "aktiv"
+      ],
+      "audience": [
+        "familie"
+      ],
+      "season": "Mai–Oktober (Aareschiff 2. Mai–25. Oktober 2026)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 55
+        },
+        {
+          "from": "Bern",
+          "minutes": 35
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 55
+        }
+      ],
+      "hotelIds": [
+        "so-hotel-baseltor"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 – Hausberg und Rüstkammer",
+          "slots": [
+            {
+              "time": "10:15",
+              "placeId": "so-weissenstein",
+              "title": "Auf den Weissenstein",
+              "text": "Gondel hoch, oben Spielplatz, Juragarten und die Spurensuche «Hermelin» (rund 4 km). Mittagessen als Picknick oder in einer der Bergbeizen.",
+              "travel": "14 Min. Zug S21 ab Solothurn bis Oberdorf SO, Gondel ca. 12 Min.",
+              "rain": {
+                "placeId": "so-kunstmuseum",
+                "title": "Kunstmuseum",
+                "text": "Eintritt frei, samstags ab 10 Uhr offen – mit Kindern lieber eine Stunde gezielt durch die Säle als den ganzen Tag."
+              }
+            },
+            {
+              "time": "14:30",
+              "placeId": "so-altes-zeughaus",
+              "title": "Museum Altes Zeughaus",
+              "text": "Rüstungen und Waffen über mehrere Stockwerke, im Bereich «Anfassen erlaubt!» probieren die Kinder selbst aus.",
+              "travel": "Gondel und Zug zurück, ca. 35 Min."
+            },
+            {
+              "time": "16:15",
+              "placeId": "so-hotel-baseltor",
+              "title": "Einchecken",
+              "text": "Zimmer beziehen und kurz durchatmen.",
+              "travel": "ca. 3 Min. zu Fuss"
+            },
+            {
+              "time": "18:00",
+              "placeId": "so-kreuz",
+              "title": "Znacht im Kreuz",
+              "text": "Günstige, ehrliche Küche mit vielen vegetarischen Gerichten – Kinder sind hier gut aufgehoben.",
+              "travel": "ca. 5 Min. zu Fuss"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 – Altstadtrallye und Aareschiff",
+          "slots": [
+            {
+              "time": "09:30",
+              "tourSlug": "solothurn-elf",
+              "title": "Urban-Trails-Tour: Solothurn und die Elf",
+              "text": "Vom Krummturm aus durch die Altstadt – Kinder zählen unterwegs mit, wo überall die Zahl Elf auftaucht.",
+              "travel": "ca. 10 Min. zu Fuss zum Krummturm"
+            },
+            {
+              "time": "11:45",
+              "placeId": "so-suteria",
+              "title": "Mittag und Torte",
+              "text": "Lunch im Café am Kronenplatz, danach ein Stück Solothurner Torte.",
+              "travel": "wenige Min. zu Fuss"
+            },
+            {
+              "time": "13:15",
+              "placeId": "so-aareschiff",
+              "title": "Mit dem Schiff nach Biel",
+              "text": "Knapp drei Stunden auf der Aare, mit Störchen bei Altreu und Schleuse bei Port. Die genaue Abfahrt im BSG-Fahrplan prüfen – ab Biel fährst du direkt mit dem Zug nach Hause.",
+              "travel": "ca. 20 Min. zu Fuss zur Schiffländte oder Bus 8",
+              "rain": {
+                "placeId": "so-kathedrale",
+                "title": "Kathedrale St. Ursen",
+                "text": "Statt aufs Schiff in die Kathedrale: Die 33 Stufen der Treppe zählen – dreimal elf, drinnen die Elf suchen – und im Domschatz glänzt es auch bei grauem Himmel."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rapperswil-tag-am-zuerichsee",
+      "title": "Rapperswil – ein Tag am Zürichsee",
+      "teaser": "Rosenstadt, Holzsteg über den See und ein Abstecher auf die Klosterinsel Ufnau.",
+      "region": "rapperswil",
+      "days": 1,
+      "moods": [
+        "kultur",
+        "genuss",
+        "romantik",
+        "natur"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "April–Oktober (Schiffe zur Ufnau); Rundgang und Steg ganzjährig",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 37
+        },
+        {
+          "from": "Bern",
+          "minutes": 105
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 100
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 – Altstadt, Steg und Insel",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "ra-cafe-hintergass",
+              "title": "Kaffee in der Altstadt",
+              "text": "Gipfeli und Kaffee in der kleinen Gasse, bevor es losgeht.",
+              "travel": "ca. 5 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "10:45",
+              "tourSlug": "rapperswil",
+              "title": "Urban-Trails-Tour: Rapperswil",
+              "text": "Audio-Rundgang durch Altstadt, hinauf zum Schloss und durch die Rosengärten – rund zwei Stunden.",
+              "travel": "1 Min. zu Fuss zum Hauptplatz",
+              "rain": {
+                "placeId": "ra-stadtmuseum",
+                "title": "Stadtmuseum",
+                "text": "Bei Regen ins Stadtmuseum am Herrenberg (am Wochenende ab 11 Uhr) und die Tour später nachholen."
+              }
+            },
+            {
+              "time": "13:00",
+              "placeId": "ra-jakob",
+              "title": "Mittag am Hauptplatz",
+              "text": "Schweizer Küche mit Blick auf die Schlosstreppe – dienstags geschlossen.",
+              "travel": "wenige Min. zu Fuss"
+            },
+            {
+              "time": "14:30",
+              "placeId": "ra-holzsteg",
+              "title": "Über den Holzsteg nach Hurden",
+              "text": "841 Meter über den See auf der alten Pilgerroute, in Hurden kehrst du um.",
+              "travel": "ca. 10 Min. zu Fuss zum Seedamm",
+              "rain": {
+                "placeId": "ra-kunstzeughaus",
+                "title": "Kunst(Zeug)Haus",
+                "text": "Zeitgenössische Schweizer Kunst, Freitag bis Sonntag 11–17 Uhr offen, rund 10 Minuten vom Bahnhof."
+              }
+            },
+            {
+              "time": "15:45",
+              "placeId": "ra-insel-ufnau",
+              "title": "Schiff zur Insel Ufnau",
+              "text": "Mit dem Ufnau-Shuttle auf die Klosterinsel, Kirche und Kapelle anschauen und in der Inselwirtschaft unter Platanen einkehren. Abfahrten und letzte Rückfahrt im ZSG-Fahrplan prüfen.",
+              "travel": "ca. 10 Min. zu Fuss zum Schiffsteg, Shuttle ca. 15 Min.",
+              "rain": {
+                "placeId": "ra-kunstzeughaus",
+                "title": "Länger im Kunst(Zeug)Haus",
+                "text": "Bei Regen fällt die Ufnau aus – dafür bleibt Zeit, die Sammlung in Ruhe anzuschauen."
+              }
+            },
+            {
+              "time": "18:30",
+              "placeId": "ra-dieci-al-lago",
+              "title": "Znacht am Hafen",
+              "text": "Pizza, Pasta oder Fisch auf der Terrasse am Fischmarktplatz, danach zum Bahnhof.",
+              "travel": "ca. 2 Min. zu Fuss vom Schiffsteg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rapperswil-mit-kindern",
+      "title": "Rapperswil mit Kindern: Zoo, Schloss und Steg",
+      "teaser": "Ein Familientag mit Knies Kinderzoo am Morgen und Schloss, Rosen und Holzsteg am Nachmittag.",
+      "region": "rapperswil",
+      "days": 1,
+      "moods": [
+        "familie",
+        "natur",
+        "aktiv"
+      ],
+      "audience": [
+        "familie"
+      ],
+      "season": "März–Oktober (Kinderzoo 1. März–1. November)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 37
+        },
+        {
+          "from": "Bern",
+          "minutes": 105
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 100
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 – Tiere, Schloss und See",
+          "slots": [
+            {
+              "time": "09:30",
+              "placeId": "ra-knies-kinderzoo",
+              "title": "Knies Kinderzoo",
+              "text": "Drei Stunden für Tiere zum Anfassen und Füttern, Pausen im Zoo-Restaurant.",
+              "travel": "ca. 5 Min. zu Fuss vom Bahnhof",
+              "rain": {
+                "placeId": "ra-kunstzeughaus",
+                "title": "Kunst(Zeug)Haus",
+                "text": "Bei richtigem Dauerregen geht's ab 11 Uhr (Fr–So) ins Kunst(Zeug)Haus – vorher Znüni im überdachten Teil des Zoo-Restaurants."
+              }
+            },
+            {
+              "time": "12:45",
+              "placeId": "ra-dieci-al-lago",
+              "title": "Pizza am Hafen",
+              "text": "Pizza und Pasta auf der Terrasse, zum Dessert Gelato aus der Caffèbar.",
+              "travel": "ca. 15 Min. zu Fuss"
+            },
+            {
+              "time": "14:00",
+              "tourSlug": "rapperswil",
+              "title": "Urban-Trails-Tour: Rapperswil",
+              "text": "Altstadt, Schloss und Rosengärten im eigenen Tempo – mit Kindern eher zweieinhalb Stunden einrechnen.",
+              "travel": "ca. 3 Min. zu Fuss zum Hauptplatz",
+              "rain": {
+                "placeId": "ra-stadtmuseum",
+                "title": "Stadtmuseum",
+                "text": "Verwinkelte Etagen im alten Breny-Turm, Kinder bis 16 gratis, am Wochenende bis 17 Uhr offen."
+              }
+            },
+            {
+              "time": "16:30",
+              "placeId": "ra-holzsteg",
+              "title": "Ein Stück über den Holzsteg",
+              "text": "Zum Schluss ein Stück über den Steg hinaus aufs Wasser – wer noch Energie hat, läuft bis Hurden.",
+              "travel": "ca. 10 Min. zu Fuss",
+              "rain": {
+                "placeId": "ra-cafe-hintergass",
+                "title": "Zvieri im Café",
+                "text": "Bei Regen gibt es stattdessen ein Zvieri im Café Hintergass, danach zurück zum Bahnhof."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

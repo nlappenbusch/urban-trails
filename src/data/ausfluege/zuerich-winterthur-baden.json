@@ -1,0 +1,1584 @@
+{
+  "places": [
+    {
+      "id": "zh-oldtown-hostel-otter",
+      "kind": "hotel",
+      "name": "Oldtown Hostel Otter",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Oberdorfstrasse 7, 8001 Zürich",
+      "coords": {
+        "lat": 47.36854,
+        "lng": 8.54559
+      },
+      "url": "https://www.wueste.ch",
+      "price": 1,
+      "tags": [
+        "freunde",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Kleines Hostel mitten in der Altstadt mit 4er- und 6er-Zimmern in den unteren Etagen und individuell eingerichteten Doppelzimmern weiter oben. Im Erdgeschoss liegt die Wüste Bar, in der Einheimische und Gäste gemischt am Tresen stehen.",
+      "tip": "Die Zimmer haben keine Klimaanlage – im Hochsommer lieber ein Zimmer auf der Hofseite verlangen.",
+      "source": "https://www.myswitzerland.com/en/accommodations/oldtwon-hostel-otter/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-hotel-adler",
+      "kind": "hotel",
+      "name": "Hotel Adler Zürich",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Rosengasse 10, 8001 Zürich",
+      "coords": {
+        "lat": 47.37313,
+        "lng": 8.54349
+      },
+      "url": "https://www.hotel-adler.ch",
+      "price": 2,
+      "tags": [
+        "kultur",
+        "freunde",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Drei-Sterne-Superior-Haus in einer Seitengasse des Niederdorfs, zehn Minuten zu Fuss vom Hauptbahnhof. Im Erdgeschoss ist die Swiss Chuchi, die als erste Fonduestube der Altstadt gilt.",
+      "tip": "Wenn du am ersten Abend keine Lust auf Reservationen hast: Die Swiss Chuchi im Haus hat täglich bis 23.15 Uhr offen.",
+      "source": "https://www.hotel-adler.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-b2-boutique-hotel",
+      "kind": "hotel",
+      "name": "B2 Boutique Hotel + Spa",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Brandschenkestrasse 152, 8002 Zürich",
+      "coords": {
+        "lat": 47.36443,
+        "lng": 8.52447
+      },
+      "url": "https://www.b2hotel.ch",
+      "price": 3,
+      "tags": [
+        "wellness",
+        "romantisch",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Hotel mit 60 Zimmern und Suiten in der ehemaligen Hürlimann-Brauerei in der Enge. Herzstück ist die Library mit rund 33'000 Büchern, in der es vom Frühstück bis zum Glas Wein am Abend etwas gibt; vom Haus gelangst du direkt ins öffentliche Thermalbad nebenan.",
+      "tip": "Hotelgäste erhalten im angrenzenden Hürlimannbad einen Rabatt auf den Eintritt – plane einen Abend im Thermalwasser ein.",
+      "source": "https://www.b2hotel.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-zeughauskeller",
+      "kind": "restaurant",
+      "name": "Zeughauskeller",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Bahnhofstrasse 28a, 8001 Zürich",
+      "coords": {
+        "lat": 47.37037,
+        "lng": 8.53992
+      },
+      "url": "https://www.zeughauskeller.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "kultur",
+        "freunde",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 11.30–23 Uhr, warme Küche durchgehend bis 22 Uhr",
+      "text": "Das ehemalige Waffenlager von 1487 beim Paradeplatz ist seit 1926 eine grosse Bierhalle unter Holzbalken. Auf den Tisch kommen Zürcher Klassiker wie Kalbsgeschnetzeltes, Cordon bleu und Kalbsbratwurst.",
+      "tip": "Weil die Küche durchgehend offen ist, klappt hier auch ein später Zmittag um 15 Uhr, wenn anderswo schon zu ist.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Z%C3%BCrich_Zeughauskeller.jpg/1280px-Z%C3%BCrich_Zeughauskeller.jpg",
+        "alt": "Fassade des Zeughauskellers mit Treppengiebel beim Paradeplatz",
+        "credit": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Zeughauskeller.jpg"
+      },
+      "source": "https://www.zeughauskeller.ch/en/history",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-haus-hiltl",
+      "kind": "restaurant",
+      "name": "Haus Hiltl",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Sihlstrasse 28, 8001 Zürich",
+      "coords": {
+        "lat": 47.3733,
+        "lng": 8.53675
+      },
+      "url": "https://hiltl.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Mi 11–22, Do–Sa 11–23, So 10–22 Uhr",
+      "text": "Vegetarisches Restaurant, das seit 1898 an der Sihlstrasse kocht. Am grossen Buffet schöpfst du selbst und bezahlst nach Gewicht, daneben gibt es eine Karte mit Currys und Saisongerichten.",
+      "tip": "Am Buffet gehen die Teller schnell ins Geld – lieber zweimal wenig schöpfen als einmal randvoll.",
+      "source": "https://hiltl.ch/de/standorte/hiltl-a-la-carte-restaurant/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-kronenhalle",
+      "kind": "restaurant",
+      "name": "Kronenhalle",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Rämistrasse 4, 8001 Zürich",
+      "coords": {
+        "lat": 47.36755,
+        "lng": 8.54572
+      },
+      "url": "https://www.kronenhalle.com",
+      "price": 4,
+      "tags": [
+        "genuss",
+        "kultur",
+        "romantisch",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 12–24 Uhr, Küche 12–22.30 Uhr; Bar So–Do 11.30–24, Fr/Sa bis 0.30 Uhr",
+      "text": "Traditionsrestaurant beim Bellevue, an dessen Wänden Originale aus der hauseigenen Kunstsammlung hängen. Die Bar nebenan hat Robert Haussmann eingerichtet, die Lampen stammen von Diego Giacometti.",
+      "tip": "Unbedingt reservieren; wer keinen Tisch bekommt, nimmt wenigstens einen Drink in der Bar und schaut sich die Bilder an.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Z%C3%BCrich_Switzerland-Kronenhalle-Zurich-01.jpg/1280px-Z%C3%BCrich_Switzerland-Kronenhalle-Zurich-01.jpg",
+        "alt": "Hausfassade der Kronenhalle an der Rämistrasse",
+        "credit": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Switzerland-Kronenhalle-Zurich-01.jpg"
+      },
+      "source": "https://www.kronenhalle.com/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-le-dezaley",
+      "kind": "restaurant",
+      "name": "Le Dézaley",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Römergasse 7, 8001 Zürich",
+      "coords": {
+        "lat": 47.37066,
+        "lng": 8.54378
+      },
+      "url": "https://www.le-dezaley.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "romantisch",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So geschlossen; Mo–Sa 11.30–14 und ab 18 Uhr",
+      "text": "Altstadtlokal zwischen Grossmünster und Niederdorf, das sich auf Westschweizer Küche spezialisiert hat. Bestell hier Fondue oder Fondue chinoise und dazu einen Waadtländer Weisswein.",
+      "tip": "In der kalten Jahreszeit ist es abends schnell ausgebucht – am besten schon beim Buchen des Hotels einen Tisch reservieren.",
+      "source": "https://www.zuerich.com/de/besuchen/restaurants/le-dezaley",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-spruengli-paradeplatz",
+      "kind": "cafe",
+      "name": "Café & Restaurant Confiserie Sprüngli Paradeplatz",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Bahnhofstrasse 21, 8001 Zürich",
+      "coords": {
+        "lat": 47.36948,
+        "lng": 8.53914
+      },
+      "url": "https://www.spruengli.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Fr 8.30–18.30, Sa 9–18.30, So 9–17 Uhr",
+      "text": "Das Stammhaus der Confiserie am Paradeplatz, mit Laden im Erdgeschoss und Café im ersten Stock. Hier frühstückst du zwischen Bankenviertel und Bahnhofstrasse und probierst die Luxemburgerli, die kleinen Mandelgebäcke des Hauses.",
+      "tip": "Reservieren kannst du nur oben im Café; das Boulevard-Café im Erdgeschoss ist ohne Reservation.",
+      "source": "https://www.zuerich.com/en/visit/restaurants/cafe-restaurant-confiserie-sprungli-paradeplatz",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-jules-verne-bar",
+      "kind": "bar",
+      "name": "Jules Verne Panorama Bar",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Uraniastrasse 9, 8001 Zürich",
+      "coords": {
+        "lat": 47.37426,
+        "lng": 8.53935
+      },
+      "url": "https://www.jules-verne.ch",
+      "price": 3,
+      "tags": [
+        "aussicht",
+        "romantisch",
+        "genuss",
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So/Mo geschlossen; Di–Fr ab 17/17.30 Uhr, Sa ab 14 Uhr",
+      "text": "Runde Bar im Turm der Urania-Sternwarte, von der du durch die Fenster rundum über die Altstadtdächer schaust. Hinauf geht es mit dem Lift durch die Brasserie Lipp im Erdgeschoss.",
+      "tip": "Komm kurz nach Öffnung, dann bekommst du eher einen Platz direkt am Fenster.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Z%C3%BCrich_-_Bahnhof-Uraniastrasse_-_Urania_Sternwarte_IMG_7456.JPG/1280px-Z%C3%BCrich_-_Bahnhof-Uraniastrasse_-_Urania_Sternwarte_IMG_7456.JPG",
+        "alt": "Turm der Urania-Sternwarte an der Uraniastrasse, in dem die Bar liegt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_-_Bahnhof-Uraniastrasse_-_Urania_Sternwarte_IMG_7456.JPG"
+      },
+      "source": "https://www.zuerich.com/de/besuchen/bars-lounges/jules-verne-panorama-bar",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-frau-gerolds-garten",
+      "kind": "bar",
+      "name": "Frau Gerolds Garten",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Geroldstrasse 23, 8005 Zürich",
+      "coords": {
+        "lat": 47.38517,
+        "lng": 8.51906
+      },
+      "url": "https://www.fraugerold.ch",
+      "price": 2,
+      "tags": [
+        "freunde",
+        "genuss"
+      ],
+      "weatherProof": false,
+      "season": "Sommergarten etwa Frühling bis Anfang Oktober; im Winterhalbjahr Winterstube mit Fondue",
+      "text": "Gartenbeiz zwischen Bahngleisen und Prime Tower im Kreis 5, mit Containern, Hochbeeten und einer Dachterrasse. Im Winter zieht der Betrieb in eine Fondue-Stube um.",
+      "tip": "Wechsel zwischen Sommer- und Winterbetrieb erfolgt im Oktober und März – kurz vorher auf der Website prüfen, was gerade offen ist.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Z%C3%BCrich_-_Frau_Gerolds_Garten_%2848677206783%29.jpg/1280px-Z%C3%BCrich_-_Frau_Gerolds_Garten_%2848677206783%29.jpg",
+        "alt": "Sitzplätze im Frau Gerolds Garten mit Industriebauten im Hintergrund",
+        "credit": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_-_Frau_Gerolds_Garten_%2848677206783%29.jpg"
+      },
+      "source": "https://www.zuerich.com/de/besuchen/restaurants/frau-gerolds-garten",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-uto-kulm",
+      "kind": "restaurant",
+      "name": "Restaurant Uto Kulm",
+      "region": "zuerich",
+      "town": "Uetliberg",
+      "address": "Uto Kulm, 8143 Uetliberg (Stallikon)",
+      "coords": {
+        "lat": 47.34986,
+        "lng": 8.49071
+      },
+      "url": "https://www.utokulm.ch",
+      "price": 3,
+      "tags": [
+        "aussicht",
+        "berg",
+        "genuss",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich; warme Küche mittags und abends, dazwischen kleine Karte",
+      "text": "Hotelrestaurant auf dem Gipfelplateau des Uetlibergs, rund 870 Meter hoch über Stadt und See. Bei klarer Sicht reicht der Blick von der Terrasse bis zu den Alpen.",
+      "tip": "Am Wochenende über Mittag reservieren – bei schönem Wetter ist die Terrasse schnell voll.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Uetliberg_-_Uto_Kulm_IMG_6147.JPG/1280px-Uetliberg_-_Uto_Kulm_IMG_6147.JPG",
+        "alt": "Gipfelplateau Uto Kulm auf dem Uetliberg",
+        "credit": "https://commons.wikimedia.org/wiki/File:Uetliberg_-_Uto_Kulm_IMG_6147.JPG"
+      },
+      "source": "https://www.zuerich.com/de/besuchen/restaurants/restaurant-uto-kulm",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-landesmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Landesmuseum Zürich",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Museumstrasse 2, 8001 Zürich",
+      "coords": {
+        "lat": 47.37924,
+        "lng": 8.5407
+      },
+      "url": "https://www.landesmuseum.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17, Do bis 19 Uhr",
+      "durationMin": 120,
+      "text": "Das schlossartige Museum gleich hinter dem Hauptbahnhof erzählt Schweizer Geschichte von der Steinzeit bis heute. Dazu kommen wechselnde Ausstellungen im modernen Erweiterungsbau.",
+      "tip": "Die Dauerausstellung zur Geschichte der Schweiz ist der beste Einstieg, wenn du nur eine Stunde hast.",
+      "priceInfo": {
+        "from": 13,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 10, Kinder bis 16 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Landesmuseum_Z%C3%BCrich_courtyard_02.jpg/1280px-Landesmuseum_Z%C3%BCrich_courtyard_02.jpg",
+        "alt": "Innenhof des Landesmuseums Zürich mit Türmchen und Giebeln",
+        "credit": "https://commons.wikimedia.org/wiki/File:Landesmuseum_Z%C3%BCrich_courtyard_02.jpg"
+      },
+      "source": "https://www.zuerich.com/de/besuchen/kultur/landesmuseum-zuerich",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-kunsthaus",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kunsthaus Zürich",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Heimplatz 1, 8001 Zürich",
+      "coords": {
+        "lat": 47.37022,
+        "lng": 8.54798
+      },
+      "url": "https://www.kunsthaus.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–18, Do bis 20 Uhr",
+      "durationMin": 150,
+      "text": "Eines der grössten Kunstmuseen der Schweiz, verteilt auf den Altbau und den Erweiterungsbau von David Chipperfield auf beiden Seiten des Heimplatzes. Die Sammlung reicht von Alten Meistern über Munch und Giacometti bis zur Gegenwart.",
+      "tip": "Mittwochs ist die Sammlung für alle gratis – dann lohnt sich auch ein kurzer Abstecher.",
+      "priceInfo": {
+        "from": 24,
+        "unit": "Eintritt Erwachsene",
+        "note": "Sammlung; ermässigt CHF 17, Kinder unter 14 gratis, mittwochs Sammlung gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Kunsthaus_Z%C3%BCrich_-_Heimplatz_2011-08-06_17-38-22_ShiftN2.jpg/1280px-Kunsthaus_Z%C3%BCrich_-_Heimplatz_2011-08-06_17-38-22_ShiftN2.jpg",
+        "alt": "Altbau des Kunsthauses Zürich am Heimplatz",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kunsthaus_Z%C3%BCrich_-_Heimplatz_2011-08-06_17-38-22_ShiftN2.jpg"
+      },
+      "source": "https://www.kunsthaus.ch/besuch-planen/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-fifa-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "FIFA Museum",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Seestrasse 27, 8002 Zürich",
+      "coords": {
+        "lat": 47.36358,
+        "lng": 8.53152
+      },
+      "url": "https://www.fifamuseum.com",
+      "price": 3,
+      "tags": [
+        "regenfest",
+        "familie",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–18 Uhr",
+      "durationMin": 120,
+      "text": "Museum zur Geschichte des Weltfussballs direkt gegenüber dem Bahnhof Enge, mit Trikots, Pokalen und vielen interaktiven Stationen. Im Untergeschoss kannst du an Spielstationen selbst den Ball treten.",
+      "tip": "Fahr mit der S-Bahn bis Zürich Enge – der Eingang liegt praktisch auf der anderen Strassenseite.",
+      "priceInfo": {
+        "from": 26,
+        "unit": "Eintritt Erwachsene",
+        "note": "Studierende/AHV CHF 20, Kinder 7–15 CHF 15, Zürich Card gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/0/0a/FIFA_Football_Museum_in_2023.jpg",
+        "alt": "Gebäude des FIFA Museums an der Seestrasse in Zürich-Enge",
+        "credit": "https://commons.wikimedia.org/wiki/File:FIFA_Football_Museum_in_2023.jpg"
+      },
+      "source": "https://www.myswitzerland.com/en/experiences/fifa-world-football-museum",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-lindt-home-of-chocolate",
+      "kind": "aktivitaet",
+      "name": "Lindt Home of Chocolate",
+      "region": "zuerich",
+      "town": "Kilchberg",
+      "address": "Schokoladenplatz 1, 8802 Kilchberg",
+      "coords": {
+        "lat": 47.31847,
+        "lng": 8.5509
+      },
+      "url": "https://www.lindt-home-of-chocolate.com",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie",
+        "genuss",
+        "see"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 10–19 Uhr, letzter buchbarer Zeitslot 17.30 Uhr",
+      "durationMin": 120,
+      "text": "Schokoladenmuseum neben der Lindt-Fabrik am Zürichsee, mit Rundgang von der Kakaobohne bis zur Tafel, Degustationen und einem riesigen Schokoladenbrunnen in der Eingangshalle. Dazu gehören ein Café und ein grosser Laden.",
+      "tip": "Tickets gibt es nur mit Zeitfenster – an Wochenenden und in den Ferien vorher online buchen.",
+      "priceInfo": {
+        "from": 17,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 8–15 CHF 10, bis 7 gratis"
+      },
+      "source": "https://www.lindt-home-of-chocolate.com/de/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-zoo-masoala",
+      "kind": "aktivitaet",
+      "name": "Zoo Zürich mit Masoala Regenwald",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Zürichbergstrasse 221, 8044 Zürich",
+      "coords": {
+        "lat": 47.38691,
+        "lng": 8.5776
+      },
+      "url": "https://www.zoo.ch",
+      "price": 3,
+      "tags": [
+        "familie",
+        "regenfest",
+        "aktiv"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich; März–Okt. 9–18 Uhr (Masoala 10–18), Nov.–Feb. 9–17 Uhr (Masoala 10–17)",
+      "durationMin": 240,
+      "text": "Grosser Zoo auf dem Zürichberg, rund 20 Minuten mit dem Tram ab Hauptbahnhof. In der Masoala-Halle läufst du durch ein Stück nachgebauten Regenwald aus Madagaskar – feucht-warm und deshalb auch im Winter ein guter Ort.",
+      "tip": "Bei Regen zuerst in die Masoala-Halle und die Elefantenanlage, dann bei Aufhellung die Aussengehege.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Masoala_Halle_Zoo_Z%C3%BCrich_2010-12-21_13-28-22.JPG/1280px-Masoala_Halle_Zoo_Z%C3%BCrich_2010-12-21_13-28-22.JPG",
+        "alt": "Tropische Pflanzen in der Masoala-Halle des Zoos Zürich",
+        "credit": "https://commons.wikimedia.org/wiki/File:Masoala_Halle_Zoo_Z%C3%BCrich_2010-12-21_13-28-22.JPG"
+      },
+      "source": "https://zoo.ch/zoobesuch/oeffnungszeiten",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-uetliberg",
+      "kind": "aussicht",
+      "name": "Uetliberg und Planetenweg zur Felsenegg",
+      "region": "zuerich",
+      "town": "Uetliberg",
+      "address": "Gipfel Uto Kulm, 8143 Uetliberg; Talstation Felseneggbahn in Adliswil",
+      "coords": {
+        "lat": 47.34967,
+        "lng": 8.4913
+      },
+      "url": "https://www.szu.ch",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "berg",
+        "aktiv",
+        "familie",
+        "gratis"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; Felseneggbahn im März 2027 wegen Revision ausser Betrieb",
+      "durationMin": 150,
+      "text": "Der Zürcher Hausberg ist mit der S10 ab Hauptbahnhof erreichbar; oben steht ein Aussichtsturm mit Rundblick über Stadt, See und Alpen. Auf dem Gratweg nach Süden, dem Planetenweg mit Modellen des Sonnensystems, wanderst du zur Felsenegg und schwebst mit der einzigen öffentlichen Luftseilbahn des Kantons nach Adliswil hinunter.",
+      "tip": "Für den Turm brauchst du einen Jeton von der Hotelrezeption im Uto Kulm.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Uetliberg_Uto_Kulm_-_Uetlibergturm_IMG_1594.JPG/1280px-Uetliberg_Uto_Kulm_-_Uetlibergturm_IMG_1594.JPG",
+        "alt": "Blick vom Aussichtsturm auf das Plateau Uto Kulm und das Sihltal",
+        "credit": "https://commons.wikimedia.org/wiki/File:Uetliberg_Uto_Kulm_-_Uetlibergturm_IMG_1594.JPG"
+      },
+      "source": "https://www.zvv.ch/de/freizeit-und-events/freizeittipps/entdecken-und-erleben/mit-der-luftseilbahn-auf-die-felsenegg.html",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-grossmuenster-karlsturm",
+      "kind": "sehenswuerdigkeit",
+      "name": "Grossmünster mit Karlsturm",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Grossmünsterplatz, 8001 Zürich",
+      "coords": {
+        "lat": 47.37012,
+        "lng": 8.54391
+      },
+      "url": "https://reformiert-zuerich.ch/kirchgemeinde/kirchen/grossmuenster/",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "aussicht",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Turm nur Fr–So: Fr/Sa ab 10, So ab 12 Uhr, bis 16 (Winter) bzw. 17 Uhr (Sommer)",
+      "durationMin": 45,
+      "text": "Die Doppeltürme des Grossmünsters sind das Wahrzeichen der Stadt; im Karlsturm steigst du 187 Stufen bis zur Aussichtsstube. Durch die grossen Fenster siehst du über Limmat, Fraumünster und den See.",
+      "tip": "Unter der Woche ist der Turm bis auf Weiteres geschlossen – plane ihn für Freitag bis Sonntag ein.",
+      "priceInfo": {
+        "from": 5,
+        "unit": "Eintritt Erwachsene",
+        "note": "Turm; 6–16 Jahre und Studierende CHF 2, Kirche gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Grossm%C3%BCnster_and_Limmat_River%2C_Zurich%2C_20250330_1239_7931.jpg/1280px-Grossm%C3%BCnster_and_Limmat_River%2C_Zurich%2C_20250330_1239_7931.jpg",
+        "alt": "Grossmünster mit seinen zwei Türmen über der Limmat",
+        "credit": "https://commons.wikimedia.org/wiki/File:Grossm%C3%BCnster_and_Limmat_River%2C_Zurich%2C_20250330_1239_7931.jpg"
+      },
+      "source": "https://reformiert-zuerich.ch/kirchgemeinde/kirchen/grossmuenster/besuch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-lindenhof",
+      "kind": "aussicht",
+      "name": "Lindenhof",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Lindenhof, 8001 Zürich",
+      "coords": {
+        "lat": 47.37292,
+        "lng": 8.54018
+      },
+      "url": "https://de.wikipedia.org/wiki/Lindenhof_(Z%C3%BCrich)",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "gratis",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 20,
+      "text": "Baumbestandener Platz auf einem Moränenhügel über der Limmat, wo einst ein römisches Kastell stand. Von der Brüstung schaust du hinüber auf Niederdorf, Grossmünster und die Universität.",
+      "tip": "Frühmorgens oder am späten Abend hast du die Aussicht fast für dich.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/View_from_the_Lindenhof_Hill_in_Zurich%2C_20250330_1225_7911.jpg/1280px-View_from_the_Lindenhof_Hill_in_Zurich%2C_20250330_1225_7911.jpg",
+        "alt": "Blick vom Lindenhof über die Limmat auf die Altstadt",
+        "credit": "https://commons.wikimedia.org/wiki/File:View_from_the_Lindenhof_Hill_in_Zurich%2C_20250330_1225_7911.jpg"
+      },
+      "source": "https://de.wikipedia.org/wiki/Lindenhof_(Z%C3%BCrich)",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "zh-zsg-kleine-seerundfahrt",
+      "kind": "aktivitaet",
+      "name": "Kleine Seerundfahrt (ZSG)",
+      "region": "zuerich",
+      "town": "Zürich",
+      "address": "Schiffstation Bürkliplatz, 8001 Zürich",
+      "coords": {
+        "lat": 47.36638,
+        "lng": 8.54119
+      },
+      "url": "https://www.zsg.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "familie",
+        "romantisch",
+        "aussicht"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; im Sommer täglich, sonst reduzierter Fahrplan",
+      "durationMin": 90,
+      "text": "Die Kursschiffe der Zürichsee-Schifffahrt starten am Bürkliplatz und fahren in rund anderthalb Stunden bis Thalwil bzw. Erlenbach und zurück. Vom Wasser aus siehst du die Villen an der Goldküste und bei klarem Wetter die Glarner Alpen.",
+      "tip": "Mit der Zürich Card ist die kleine Rundfahrt inbegriffen; bei sehr tiefem Seespiegel kann der Fahrplan eingeschränkt sein.",
+      "source": "https://www.zuerich.com/de/besuchen/natur/zuerichsee-schifffahrtsgesellschaft-rundfahrten-auf-dem-see",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "wi-hotel-wartmann",
+      "kind": "hotel",
+      "name": "Hotel Wartmann am Bahnhof",
+      "region": "winterthur",
+      "town": "Winterthur",
+      "address": "Rudolfstrasse 15, 8400 Winterthur",
+      "coords": {
+        "lat": 47.50052,
+        "lng": 8.7226
+      },
+      "url": "https://www.wartmann.ch",
+      "price": 2,
+      "tags": [
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Drei-Sterne-Stadthotel rund 50 Meter vom Bahnhof, zwei Minuten zu Fuss von der Altstadt. Im Haus ist ein Steakhouse, und für Autofahrer gibt es vergünstigte Tickets im benachbarten Parkhaus.",
+      "tip": "Ideal, wenn du Winterthur mit einem Abend in der Altstadt verbinden und am nächsten Morgen ohne Umweg weiterreisen willst.",
+      "source": "https://www.myswitzerland.com/en-us/accommodations/best-western-hotel-wartmann-am-bahnhof/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "wi-wirtshaus-krone",
+      "kind": "restaurant",
+      "name": "Wirtshaus zur Krone",
+      "region": "winterthur",
+      "town": "Winterthur",
+      "address": "Marktgasse 49, 8400 Winterthur",
+      "coords": {
+        "lat": 47.49927,
+        "lng": 8.72743
+      },
+      "url": "https://www.kronewinterthur.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "kultur",
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So/Mo und Feiertage geschlossen; Di–Sa 7–22 Uhr",
+      "text": "Das Wirtshaus an der Marktgasse bezeichnet sich als ältestes Restaurant Winterthurs und geht auf 1448 zurück. Gekocht werden zeitlose Klassiker wie Tatar oder Wiener Schnitzel, ergänzt durch eine Saisonkarte.",
+      "tip": "Da die Krone schon um 7 Uhr öffnet, kannst du auch mit einem Kaffee hier in den Tag starten.",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Marktgasse_49_%28%22Hotel_Restaurant_Krone%22%29_in_Winterthur_%282014%29.jpg/1280px-Marktgasse_49_%28%22Hotel_Restaurant_Krone%22%29_in_Winterthur_%282014%29.jpg",
+        "alt": "Haus zur Krone an der Marktgasse 49 in Winterthur",
+        "credit": "https://commons.wikimedia.org/wiki/File:Marktgasse_49_%28%22Hotel_Restaurant_Krone%22%29_in_Winterthur_%282014%29.jpg"
+      },
+      "source": "https://www.kronewinterthur.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "wi-restaurant-zur-sonne",
+      "kind": "restaurant",
+      "name": "Restaurant zur Sonne",
+      "region": "winterthur",
+      "town": "Winterthur",
+      "address": "Marktgasse 13/15, 8400 Winterthur",
+      "coords": {
+        "lat": 47.49969,
+        "lng": 8.72992
+      },
+      "url": "https://www.zur-sonne.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "mittags 11–14.30, abends ab 17 Uhr; im Winterhalbjahr täglich, sonst Mi–So",
+      "text": "Nach eigener Angabe die zweitälteste noch bestehende Gaststätte der Stadt, mitten in der Fussgängerzone. Die Küche setzt auf Schweizer Gerichte mit Zutaten aus der Region, im Sommer sitzt du auf der Terrasse an der Marktgasse.",
+      "tip": "Über Mittag steht ausserdem ein Food-Wagen der Sonne auf der Marktgasse – praktisch für einen schnellen Happen.",
+      "source": "https://www.zur-sonne.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "wi-coalmine",
+      "kind": "cafe",
+      "name": "COALMINE Café",
+      "region": "winterthur",
+      "town": "Winterthur",
+      "address": "Turnerstrasse 1, 8400 Winterthur",
+      "coords": {
+        "lat": 47.5004,
+        "lng": 8.72527
+      },
+      "url": "https://www.coalmine.ch",
+      "price": 1,
+      "tags": [
+        "genuss",
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di/Mi 9–17, Do/Fr 9–21, Sa/So 10–16 Uhr",
+      "text": "Café im Volkart-Haus gleich beim Bahnhof, betrieben von der Volkart Stiftung. Nebenan liegt das Labor, ein Ausstellungs- und Begegnungsraum mit wechselndem Programm.",
+      "tip": "Gut für die letzte Stunde vor dem Zug – vom Café sind es nur wenige Schritte zu den Perrons.",
+      "source": "https://www.coalmine.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "wi-technorama",
+      "kind": "aktivitaet",
+      "name": "Swiss Science Center Technorama",
+      "region": "winterthur",
+      "town": "Winterthur",
+      "address": "Technoramastrasse 1, 8404 Winterthur",
+      "coords": {
+        "lat": 47.51394,
+        "lng": 8.76441
+      },
+      "url": "https://www.technorama.ch",
+      "price": 3,
+      "tags": [
+        "regenfest",
+        "familie",
+        "aktiv",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Aussenpark April–Oktober",
+      "hours": "täglich 10–17 Uhr",
+      "durationMin": 240,
+      "text": "Science Center mit Hunderten von Experimenten zum Anfassen, von Magnetismus über Licht bis zu Wasserwirbeln. Es gibt kaum Vitrinen, dafür viel zum Ausprobieren – Erwachsene bleiben hier oft länger als geplant.",
+      "tip": "Schau beim Eingang, wann die Hochspannungs-Vorführung läuft, und plane den Rundgang darum herum.",
+      "priceInfo": {
+        "from": 34,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–15 CHF 21, unter 6 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Technorama_Winterthur_%28Ank_kumar%2C_INFOSYS_Limited%29_01.jpg/1280px-Technorama_Winterthur_%28Ank_kumar%2C_INFOSYS_Limited%29_01.jpg",
+        "alt": "Im Swiss Science Center Technorama in Winterthur",
+        "credit": "https://commons.wikimedia.org/wiki/File:Technorama_Winterthur_%28Ank_kumar%2C_INFOSYS_Limited%29_01.jpg"
+      },
+      "source": "https://www.technorama.ch/llms.txt",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "wi-roemerholz",
+      "kind": "sehenswuerdigkeit",
+      "name": "Sammlung Oskar Reinhart «Am Römerholz»",
+      "region": "winterthur",
+      "town": "Winterthur",
+      "address": "Haldenstrasse 95, 8400 Winterthur",
+      "coords": {
+        "lat": 47.51139,
+        "lng": 8.73163
+      },
+      "url": "https://www.roemerholz.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17, Mi bis 20 Uhr",
+      "durationMin": 90,
+      "text": "In der Villa des Sammlers Oskar Reinhart am Hang über der Stadt hängen Werke von Cranach und Rubens bis zu Manet, Renoir und Cézanne. Seit Mai 2026 ist das Haus nach der Renovation wieder offen.",
+      "tip": "Vom Bahnhof fährt ein Museums-Transfer für CHF 5 pro Weg (mindestens 30 Minuten vorher telefonisch buchen) – praktisch, wenn du den Aufstieg sparen willst.",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 12, Kinder bis 16 gratis, mittwochs ab 17 Uhr gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sammlung_Oskar_Reinhart_am_R%C3%B6merholz.JPG/1280px-Sammlung_Oskar_Reinhart_am_R%C3%B6merholz.JPG",
+        "alt": "Villa der Sammlung Oskar Reinhart am Römerholz",
+        "credit": "https://commons.wikimedia.org/wiki/File:Sammlung_Oskar_Reinhart_am_R%C3%B6merholz.JPG"
+      },
+      "source": "https://www.roemerholz.ch/regulaere-offnungszeiten",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "wi-kmw-reinhart-am-stadtgarten",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kunst Museum Winterthur | Reinhart am Stadtgarten",
+      "region": "winterthur",
+      "town": "Winterthur",
+      "address": "Stadthausstrasse 6, 8400 Winterthur",
+      "coords": {
+        "lat": 47.50049,
+        "lng": 8.729
+      },
+      "url": "https://www.kmw.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17, Do bis 20 Uhr",
+      "durationMin": 75,
+      "text": "Im ehemaligen Knabenschulhaus am Stadtgarten zeigt das Kunst Museum Winterthur Schweizer, deutsche und österreichische Malerei vom 18. bis ins 20. Jahrhundert aus der Stiftung Oskar Reinhart. Das Haus ist kompakt und liegt nur ein paar Schritte von der Altstadt.",
+      "tip": "Wenn du mehrere Häuser des Kunst Museums besuchst, lohnt sich das Ticket für alle Standorte.",
+      "priceInfo": {
+        "from": 18,
+        "unit": "Eintritt Erwachsene",
+        "note": "ein Standort; ermässigt CHF 15; alle drei Standorte CHF 26"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Museum_Oskar_Reinhart_am_Stadtgarten_in_Winterthur_%282016%29.jpg/1280px-Museum_Oskar_Reinhart_am_Stadtgarten_in_Winterthur_%282016%29.jpg",
+        "alt": "Museumsgebäude Reinhart am Stadtgarten in Winterthur",
+        "credit": "https://commons.wikimedia.org/wiki/File:Museum_Oskar_Reinhart_am_Stadtgarten_in_Winterthur_%282016%29.jpg"
+      },
+      "source": "https://www.kmw.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "wi-rosengarten",
+      "kind": "aussicht",
+      "name": "Rosengarten am Heiligberg",
+      "region": "winterthur",
+      "town": "Winterthur",
+      "address": "Heiligberg, 8400 Winterthur",
+      "coords": {
+        "lat": 47.49618,
+        "lng": 8.72539
+      },
+      "url": "https://www.myswitzerland.com/en/experiences/rosengarten-rose-garden/",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "gratis",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig zugänglich; Rosenblüte Juni bis September",
+      "durationMin": 30,
+      "text": "Öffentlicher Rosengarten mit rund 300 Sorten auf dem Heiligberg, ein kurzer Aufstieg südlich der Altstadt. Von den Bänken siehst du über die Dächer von Winterthur.",
+      "tip": "Am schönsten zur Rosenblüte im Juni – ausserhalb der Saison kommst du vor allem für den Ausblick.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "source": "https://www.myswitzerland.com/en/experiences/rosengarten-rose-garden/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ba-hotel-blume",
+      "kind": "hotel",
+      "name": "Blume Baden Hotel & Restaurant",
+      "region": "baden",
+      "town": "Baden",
+      "address": "Kurplatz 4, 5400 Baden",
+      "coords": {
+        "lat": 47.48047,
+        "lng": 8.31366
+      },
+      "url": "https://www.blume-baden.ch",
+      "price": 3,
+      "tags": [
+        "wellness",
+        "romantisch",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Historisches Bäderhotel am Kurplatz mit 32 Zimmern, die sich um ein glasüberdachtes Atrium gruppieren. Das Haus hat Wasserrecht an der Quelle «Grosser Heisser Stein»; im hauseigenen Römerbad badest du im Thermalwasser, das für Gäste inbegriffen ist.",
+      "tip": "Auch ohne Übernachtung kannst du zur Tea Time ins Atrium – frag vorher kurz an, wann sie stattfindet.",
+      "source": "https://www.blume-baden.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ba-roter-turm",
+      "kind": "restaurant",
+      "name": "Restaurant Roter Turm",
+      "region": "baden",
+      "town": "Baden",
+      "address": "Rathausgasse 5, 5400 Baden",
+      "coords": {
+        "lat": 47.473,
+        "lng": 8.30859
+      },
+      "url": "https://roterturm-baden.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So geschlossen; Mo–Fr 10–23, Sa 9.30–23 Uhr",
+      "text": "Restaurant mitten in der Altstadt mit traditioneller Küche und internationalen Einflüssen. Drinnen sitzt du im Speisesaal oder im zwölf Meter hohen Innenhof, im Sommer draussen auf dem Kirchplatz.",
+      "tip": "Im Sommer einen Platz auf dem Kirchplatz verlangen – dort ist es ruhiger als in den Gassen.",
+      "source": "https://roterturm-baden.ch/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ba-dory-und-du",
+      "kind": "restaurant",
+      "name": "DORY & DU",
+      "region": "baden",
+      "town": "Baden",
+      "address": "Limmatpromenade 27, 5400 Baden",
+      "coords": {
+        "lat": 47.48002,
+        "lng": 8.31349
+      },
+      "url": "https://www.doryunddu.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "romantisch",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So/Mo geschlossen; Di–Sa 17–23 Uhr",
+      "text": "Restaurant und Bar an der Limmatpromenade im Bäderquartier, von GaultMillau mit 13 Punkten bewertet. Im Sommer isst du auf der Terrasse am Fluss, nur ein paar Schritte vom Thermalbad.",
+      "tip": "Reservier einen Tisch auf der Terrasse und geh vorher kurz zu den heissen Brunnen an der Limmat.",
+      "source": "https://www.myswitzerland.com/en-ch/experiences/food-wine/restaurant/restaurant-dory-du",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ba-fortyseven",
+      "kind": "bad",
+      "name": "FORTYSEVEN Wellness-Therme",
+      "region": "baden",
+      "town": "Baden",
+      "address": "Grosse Bäder 1, 5400 Baden",
+      "coords": {
+        "lat": 47.48132,
+        "lng": 8.31289
+      },
+      "url": "https://www.fortyseven.ch",
+      "price": 3,
+      "tags": [
+        "wellness",
+        "regenfest",
+        "romantisch",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 8–22 Uhr, Badeschluss 30 Min. vorher, letzter Einlass 1 Std. vor Badeschluss",
+      "durationMin": 180,
+      "text": "Die Therme von Mario Botta direkt an der Limmat hat drei Aussen- und fünf Innenbecken mit mineralreichem Thermalwasser aus den Badener Quellen. Aus den Aussenbecken schaust du auf den Fluss und hinüber nach Ennetbaden.",
+      "tip": "Online buchen und unter der Woche gehen: Montag bis Donnerstag sind die Tickets bis zu 20 Prozent günstiger.",
+      "priceInfo": {
+        "from": 34,
+        "to": 69,
+        "unit": "Eintritt Erwachsene",
+        "note": "3 Stunden Mo–Do ab CHF 34 online (vor Ort 42), Fr–So ab 41 (49); Tageseintritt 62 bzw. 69"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Thermalbad_Fortyseven_Baden_AG.jpg/1280px-Thermalbad_Fortyseven_Baden_AG.jpg",
+        "alt": "Thermalbad FORTYSEVEN an der Limmat in Baden",
+        "credit": "https://commons.wikimedia.org/wiki/File:Thermalbad_Fortyseven_Baden_AG.jpg"
+      },
+      "source": "https://www.fortyseven.ch/preise",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ba-heisse-brunnen",
+      "kind": "bad",
+      "name": "Heisse Brunnen an der Limmat",
+      "region": "baden",
+      "town": "Baden",
+      "address": "Limmatpromenade beim Bäderquartier, 5400 Baden (und gegenüber in Ennetbaden)",
+      "coords": {
+        "lat": 47.48186,
+        "lng": 8.31446
+      },
+      "url": "https://bagnopopolare.ch",
+      "price": 1,
+      "tags": [
+        "gratis",
+        "wellness",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "text": "Zwei kleine öffentliche Becken mit Thermalwasser direkt am Limmatufer – eines auf der Badener Seite unterhalb der Therme, eines gegenüber in Ennetbaden. Sie sind frei zugänglich und kosten nichts.",
+      "tip": "Nimm ein Handtuch mit und tauch zumindest die Füsse ins warme Wasser – an kühlen Abenden dampft es über dem Fluss.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "source": "https://www.srf.ch/news/schweiz/eroeffnung-therme-baden-die-baederstadt-baden-hat-wieder-ein-bad",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ba-ruine-stein",
+      "kind": "aussicht",
+      "name": "Ruine Stein",
+      "region": "baden",
+      "town": "Baden",
+      "address": "Schlossberg, 5400 Baden",
+      "coords": {
+        "lat": 47.47322,
+        "lng": 8.3053
+      },
+      "url": "https://www.myswitzerland.com/en/experiences/stein-castle-ruin/",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "gratis",
+        "kultur",
+        "aktiv"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 45,
+      "text": "Burgruine auf dem Felsen direkt über der Altstadt, in etwa einer Viertelstunde zu Fuss erreichbar. Vom wiederaufgebauten Wachtturm aus liegen dir die Dächer, die Holzbrücke und die Rebberge zu Füssen.",
+      "tip": "Der kürzeste Weg führt über die Treppen der St.-Niklaus-Stiege hinauf.",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Baden_AG_-_Ruine_Stein_Bild_1_2018.jpg/1280px-Baden_AG_-_Ruine_Stein_Bild_1_2018.jpg",
+        "alt": "Mauern und Turm der Ruine Stein über Baden",
+        "credit": "https://commons.wikimedia.org/wiki/File:Baden_AG_-_Ruine_Stein_Bild_1_2018.jpg"
+      },
+      "source": "https://www.myswitzerland.com/en/experiences/stein-castle-ruin/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ba-historisches-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Historisches Museum Baden (Landvogteischloss)",
+      "region": "baden",
+      "town": "Baden",
+      "address": "Wettingerstrasse 2, 5400 Baden",
+      "coords": {
+        "lat": 47.47286,
+        "lng": 8.311
+      },
+      "url": "https://museum.baden.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di/Mi/Fr/Sa 13–17, Do 12–19, So 10–17 Uhr",
+      "durationMin": 75,
+      "text": "Das Museum steckt im Landvogteischloss am Ende der Holzbrücke, ergänzt durch einen modernen Anbau am Fluss. Es erzählt die Geschichte der Bäderstadt von den Römern bis zur Industrie.",
+      "tip": "Nach dem Besuch direkt über die gedeckte Holzbrücke zurück in die Altstadt – das ist der schönste Weg.",
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 8, Kinder bis 16 gratis, Familien CHF 12"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Baden_AG_-_Landvogteischloss_-_Bild_2.jpg/1280px-Baden_AG_-_Landvogteischloss_-_Bild_2.jpg",
+        "alt": "Landvogteischloss in Baden an der Limmat",
+        "credit": "https://commons.wikimedia.org/wiki/File:Baden_AG_-_Landvogteischloss_-_Bild_2.jpg"
+      },
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/historisches-museum-baden-1884.html",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ba-museum-langmatt",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museum Langmatt",
+      "region": "baden",
+      "town": "Baden",
+      "address": "Römerstrasse 30, 5400 Baden",
+      "coords": {
+        "lat": 47.48147,
+        "lng": 8.30756
+      },
+      "url": "https://www.langmatt.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–Fr 14–17, Sa/So 11–17 Uhr",
+      "durationMin": 90,
+      "text": "Jugendstilvilla mit Park, in der die Sammlung des Industriellenpaars Brown französische Impressionisten wie Renoir, Monet und Cézanne in Wohnräumen zeigt. Nach zwei Jahren Renovation ist das Haus seit Mai 2026 wieder offen.",
+      "tip": "Park und Café sind länger offen als die Ausstellung – ein guter Ort zum Ausklingen.",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 10, Kinder und Jugendliche bis 18 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Baden_Museum_Langmatt.jpg/1280px-Baden_Museum_Langmatt.jpg",
+        "alt": "Villa Langmatt in Baden",
+        "credit": "https://commons.wikimedia.org/wiki/File:Baden_Museum_Langmatt.jpg"
+      },
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/museum-langmatt-1888.html",
+      "checked": "2026-11-15"
+    }
+  ],
+  "trips": [
+    {
+      "slug": "zuerich-stadtwochenende",
+      "title": "Zürich – Stadtwochenende",
+      "teaser": "Zwei Tage zwischen Altstadtgassen, Turmblick, Kreis 4 und Kronenhalle – mit Fondue, Rooftop-Apéro und Plan B für jeden Regenschauer.",
+      "region": "zuerich",
+      "days": 2,
+      "moods": [
+        "kultur",
+        "genuss",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "ganzjährig; ideal Freitag und Samstag (Karlsturm nur Fr–So, Le Dézaley So und Jules Verne So/Mo geschlossen)",
+      "arrival": [
+        {
+          "from": "Bern",
+          "minutes": 56
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 53
+        },
+        {
+          "from": "Luzern",
+          "minutes": 42
+        }
+      ],
+      "hotelIds": [
+        "zh-oldtown-hostel-otter",
+        "zh-hotel-adler",
+        "zh-b2-boutique-hotel"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Freitag) – Altstadt, Turmblick und Fondue",
+          "slots": [
+            {
+              "time": "10:30",
+              "placeId": "zh-hotel-adler",
+              "title": "Gepäck abgeben",
+              "text": "Vom Hauptbahnhof über die Bahnhofbrücke ins Niederdorf und die Taschen im Hotel deponieren.",
+              "travel": "ca. 10 Min. zu Fuss vom HB"
+            },
+            {
+              "time": "11:00",
+              "placeId": "zh-grossmuenster-karlsturm",
+              "title": "Auf den Karlsturm",
+              "text": "187 Stufen hinauf in die Turmstube des Grossmünsters und von oben die Altstadt sortieren, bevor du sie zu Fuss erkundest.",
+              "travel": "ca. 6 Min. zu Fuss durchs Niederdorf"
+            },
+            {
+              "time": "12:00",
+              "placeId": "zh-zeughauskeller",
+              "title": "Zmittag im Zeughauskeller",
+              "text": "Zürcher Geschnetzeltes oder Bratwurst unter den Holzbalken des alten Zeughauses.",
+              "travel": "ca. 8 Min. zu Fuss über die Münsterbrücke"
+            },
+            {
+              "time": "13:30",
+              "tourSlug": "zuerich-klassiker",
+              "title": "Audio-Rundgang Zürich-Klassiker",
+              "text": "Rund vier Stunden durch die Altstadt auf beiden Seiten der Limmat – Lindenhof, Fraumünster, Zunfthäuser – in deinem Tempo mit Audioguide.",
+              "travel": "Start in der Altstadt, wenige Minuten vom Paradeplatz",
+              "rain": {
+                "placeId": "zh-landesmuseum",
+                "title": "Landesmuseum statt Gassen",
+                "text": "Bei Dauerregen kürzt du den Rundgang ab und tauchst im Landesmuseum hinter dem HB in die Schweizer Geschichte ein (freitags bis 17 Uhr)."
+              }
+            },
+            {
+              "time": "17:45",
+              "placeId": "zh-jules-verne-bar",
+              "title": "Apéro über den Dächern",
+              "text": "Mit dem Lift durch die Brasserie Lipp hinauf in die Bar im Urania-Turm und einen Drink mit Rundumblick nehmen.",
+              "travel": "ca. 10 Min. zu Fuss"
+            },
+            {
+              "time": "19:30",
+              "placeId": "zh-le-dezaley",
+              "title": "Fondue im Le Dézaley",
+              "text": "Käsefondue und ein Glas Waadtländer in der Altstadt – unbedingt vorher reservieren.",
+              "travel": "ca. 10 Min. zu Fuss über die Rathausbrücke"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Samstag) – Geheimtipps, Kreis 4 und Kronenhalle",
+          "slots": [
+            {
+              "time": "09:15",
+              "placeId": "zh-spruengli-paradeplatz",
+              "title": "Zmorge bei Sprüngli",
+              "text": "Frühstück im Café über dem Paradeplatz und ein paar Luxemburgerli für unterwegs.",
+              "travel": "ca. 12 Min. zu Fuss oder kurz mit dem Tram bis Paradeplatz"
+            },
+            {
+              "time": "10:00",
+              "tourSlug": "hidden-zuerich",
+              "title": "Audio-Rundgang Hidden Zürich",
+              "text": "Drei Stunden zu Ecken, an denen die meisten vorbeigehen: Hinterhöfe, versteckte Durchgänge und Geschichten abseits der Postkartenmotive.",
+              "travel": "Start in der Altstadt, wenige Minuten vom Paradeplatz",
+              "rain": {
+                "placeId": "zh-kunsthaus",
+                "title": "Kunsthaus statt Hinterhöfe",
+                "text": "Bei Regen gehst du ins Kunsthaus am Heimplatz und schaust dir Munch, Giacometti und die Chipperfield-Halle an (samstags bis 18 Uhr)."
+              }
+            },
+            {
+              "time": "13:15",
+              "placeId": "zh-haus-hiltl",
+              "title": "Zmittag im Hiltl",
+              "text": "Am vegetarischen Buffet selbst schöpfen und nach Gewicht bezahlen.",
+              "travel": "je nach Endpunkt des Rundgangs 5–15 Min. zu Fuss"
+            },
+            {
+              "time": "14:30",
+              "tourSlug": "chreis-cheib",
+              "title": "Audio-Rundgang Chreis Cheib",
+              "text": "Drei Stunden durch den Kreis 4 rund um die Langstrasse: Arbeiterquartier, Rotlicht, Ateliers und Quartierbeizen.",
+              "travel": "ca. 10 Min. zu Fuss vom Hiltl über die Sihl",
+              "rain": {
+                "placeId": "zh-fifa-museum",
+                "title": "FIFA Museum statt Strassenzüge",
+                "text": "Bei Regen mit der S-Bahn bis Zürich Enge und im FIFA Museum Fussballgeschichte erleben (bis 18 Uhr)."
+              }
+            },
+            {
+              "time": "19:00",
+              "placeId": "zh-kronenhalle",
+              "title": "Znacht in der Kronenhalle",
+              "text": "Klassische Küche zwischen Originalgemälden – vorher noch einen Drink an der Bar nebenan nehmen.",
+              "travel": "ca. 15 Min. mit dem Tram bis Bellevue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "zuerich-uetliberg-schoggi-tag",
+      "title": "Uetliberg, Schoggi und Abendrunde",
+      "teaser": "Gratwanderung über dem Zürichsee, Mittagessen auf dem Hausberg, Schokolade in Kilchberg und zum Schluss ein Spaziergang in den Sonnenuntergang.",
+      "region": "zuerich",
+      "days": 1,
+      "moods": [
+        "natur",
+        "genuss",
+        "aktiv"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "familie"
+      ],
+      "season": "April–Oktober (trockene Wege, lange Abende); Dienstag bis Sonntag",
+      "arrival": [
+        {
+          "from": "Bern",
+          "minutes": 56
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 53
+        },
+        {
+          "from": "Luzern",
+          "minutes": 42
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Di–So) – Gratwanderung, Schoggi und Abendrunde",
+          "slots": [
+            {
+              "time": "09:15",
+              "placeId": "zh-uetliberg",
+              "title": "Felsenegg und Planetenweg",
+              "text": "Mit der S4 nach Adliswil, mit der Luftseilbahn hinauf zur Felsenegg und dann rund anderthalb Stunden auf dem Planetenweg über den Grat bis zum Uetliberg; zum Schluss auf den Aussichtsturm.",
+              "travel": "ca. 25 Min. S4 bis Adliswil, kurzer Fussweg zur Talstation, 5 Min. Luftseilbahn",
+              "rain": {
+                "placeId": "zh-landesmuseum",
+                "title": "Landesmuseum statt Gratweg",
+                "text": "Bei Regen oder Nebel bleibst du in der Stadt und gehst ab 10 Uhr ins Landesmuseum; zum Zmittag fährst du dann direkt mit der S10 auf den Uetliberg."
+              }
+            },
+            {
+              "time": "12:15",
+              "placeId": "zh-uto-kulm",
+              "title": "Zmittag auf Uto Kulm",
+              "text": "Mittagessen im Gipfelrestaurant, bei schönem Wetter auf der Terrasse mit Blick über Stadt und See.",
+              "travel": "am Ende des Planetenwegs, direkt beim Turm"
+            },
+            {
+              "time": "14:15",
+              "placeId": "zh-lindt-home-of-chocolate",
+              "title": "Lindt Home of Chocolate",
+              "text": "Vom Kakao bis zur Praline: Rundgang mit Degustationen und Schokoladenbrunnen in der Eingangshalle – Zeitfenster vorher online buchen.",
+              "travel": "S10 hinunter nach Zürich (ca. 20 Min.), dann S8 bis Kilchberg ZH (ca. 11 Min.) und ein kurzer Fussweg"
+            },
+            {
+              "time": "16:45",
+              "tourSlug": "urban-sunset-walk",
+              "title": "Audio-Rundgang Urban Sunset Walk",
+              "text": "Zweieinhalb Stunden Abendspaziergang durch die Stadt, getaktet auf das schönste Licht – im Sommer entsprechend später starten.",
+              "travel": "ca. 11 Min. S8 zurück nach Zürich HB",
+              "rain": {
+                "placeId": "zh-kunsthaus",
+                "title": "Kunsthaus statt Abendlicht",
+                "text": "Bei Regen gehst du stattdessen ins Kunsthaus (bis 18 Uhr, donnerstags bis 20 Uhr)."
+              }
+            },
+            {
+              "time": "19:15",
+              "placeId": "zh-zeughauskeller",
+              "title": "Znacht im Zeughauskeller",
+              "text": "Zum Abschluss Zürcher Klassiker im alten Zeughaus beim Paradeplatz, danach sind es zehn Minuten zum HB.",
+              "travel": "ca. 5–10 Min. zu Fuss vom Endpunkt des Rundgangs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "winterthur-kunst-und-altstadt",
+      "title": "Winterthur: Altstadt, Sulzer und grosse Kunst",
+      "teaser": "Ein Tag zwischen Fabrikhallen, Bürgerhäusern und einer Villa voller Impressionisten – kompakt, ruhig und schnell erreichbar.",
+      "region": "winterthur",
+      "days": 1,
+      "moods": [
+        "kultur",
+        "genuss"
+      ],
+      "audience": [
+        "paar",
+        "allein",
+        "freunde"
+      ],
+      "season": "ganzjährig; ideal Mittwoch bis Freitag (Krone So/Mo zu, Römerholz Mo zu, Café COALMINE samstags nur bis 16 Uhr)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 20
+        },
+        {
+          "from": "Bern",
+          "minutes": 85
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 78
+        }
+      ],
+      "hotelIds": [
+        "wi-hotel-wartmann"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Mi–Fr) – Altstadt, Sulzerareal und Römerholz",
+          "slots": [
+            {
+              "time": "10:00",
+              "tourSlug": "winterthur",
+              "title": "Audio-Rundgang Winterthur",
+              "text": "Gut zwei Stunden durch die Altstadt mit ihren Gassen und hinüber ins Sulzerareal, wo aus Industriehallen Wohn- und Kulturorte wurden.",
+              "travel": "Start beim Hauptbahnhof",
+              "rain": {
+                "placeId": "wi-kmw-reinhart-am-stadtgarten",
+                "title": "Museum am Stadtgarten",
+                "text": "Bei Regen gehst du nach dem Altstadtteil ins Kunst Museum Reinhart am Stadtgarten statt ins Sulzerareal."
+              }
+            },
+            {
+              "time": "12:30",
+              "placeId": "wi-wirtshaus-krone",
+              "title": "Zmittag in der Krone",
+              "text": "Klassiker wie Wiener Schnitzel im ältesten Wirtshaus der Stadt an der Marktgasse.",
+              "travel": "ca. 5–10 Min. zu Fuss"
+            },
+            {
+              "time": "14:00",
+              "placeId": "wi-roemerholz",
+              "title": "Sammlung Oskar Reinhart am Römerholz",
+              "text": "Cranach, Rubens, Manet und Cézanne in der Villa über der Stadt – rechne mit anderthalb bis zwei Stunden.",
+              "travel": "ca. 5 Min. Bus 10 bis Haldengut, dann ca. 10 Min. bergauf; alternativ Museums-Transfer ab Bahnhof"
+            },
+            {
+              "time": "16:15",
+              "placeId": "wi-coalmine",
+              "title": "Kaffee im COALMINE",
+              "text": "Zurück beim Bahnhof einen Kaffee im Volkart-Haus trinken und einen Blick ins Labor werfen.",
+              "travel": "ca. 15 Min. mit Bus und Fussweg zurück zum Bahnhof"
+            },
+            {
+              "time": "18:00",
+              "placeId": "wi-restaurant-zur-sonne",
+              "title": "Znacht in der Sonne",
+              "text": "Schweizer Küche in einer der ältesten Gaststätten der Stadt, danach in fünf Minuten zum Zug.",
+              "travel": "ca. 5 Min. zu Fuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "winterthur-technorama-familientag",
+      "title": "Winterthur mit Kindern: Technorama und Altstadt",
+      "teaser": "Ein Vormittag voller Experimente, dann Zmittag in der Fussgängerzone und ein Rundgang durch Altstadt und Sulzerareal.",
+      "region": "winterthur",
+      "days": 1,
+      "moods": [
+        "familie",
+        "kultur"
+      ],
+      "audience": [
+        "familie",
+        "freunde"
+      ],
+      "season": "ganzjährig; Mittwoch bis Sonntag (Restaurant zur Sonne im Sommerhalbjahr Mo/Di zu)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 20
+        },
+        {
+          "from": "Bern",
+          "minutes": 85
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 78
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Mi–So) – Experimente, Altstadt und Sulzer",
+          "slots": [
+            {
+              "time": "09:45",
+              "placeId": "wi-technorama",
+              "title": "Technorama",
+              "text": "Drei Stunden ausprobieren statt anschauen: Magnetfelder, Licht, Wasserwirbel und Hochspannung.",
+              "travel": "ca. 20 Min. Bus 5 ab Bahnhof Winterthur"
+            },
+            {
+              "time": "13:15",
+              "placeId": "wi-restaurant-zur-sonne",
+              "title": "Zmittag in der Sonne",
+              "text": "Regionale Küche mitten in der Altstadt.",
+              "travel": "ca. 20 Min. Bus 5 zurück, dann ca. 5 Min. zu Fuss"
+            },
+            {
+              "time": "14:30",
+              "tourSlug": "winterthur",
+              "title": "Audio-Rundgang Winterthur",
+              "text": "Durch die Altstadtgassen und ins Sulzerareal mit seinen riesigen Fabrikhallen.",
+              "travel": "Start in der Altstadt, wenige Minuten vom Restaurant",
+              "rain": {
+                "placeId": "wi-kmw-reinhart-am-stadtgarten",
+                "title": "Museum am Stadtgarten",
+                "text": "Bei Regen den Rundgang nach der Altstadt abbrechen und ins kompakte Museum Reinhart am Stadtgarten gehen (bis 17 Uhr)."
+              }
+            },
+            {
+              "time": "17:00",
+              "title": "Heimreise",
+              "text": "Vom Sulzerareal sind es nur wenige Minuten zurück zum Bahnhof.",
+              "travel": "ca. 10 Min. zu Fuss zum Bahnhof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "baden-thermalwasser-tag",
+      "title": "Baden: Thermalwasser und Altstadt",
+      "teaser": "Morgens in Bottas Therme an der Limmat, nachmittags durch Bäderquartier und Altstadt, abends Znacht am Fluss.",
+      "region": "baden",
+      "days": 1,
+      "moods": [
+        "erholung",
+        "genuss",
+        "romantik",
+        "kultur"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "ganzjährig; Dienstag bis Samstag (Roter Turm So, DORY & DU So/Mo geschlossen)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 15
+        },
+        {
+          "from": "Bern",
+          "minutes": 61
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 53
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Di–Sa) – Therme, Bäderquartier und Altstadt",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "ba-fortyseven",
+              "title": "Drei Stunden FORTYSEVEN",
+              "text": "Vom Innenbecken ins Aussenbecken über der Limmat, dazwischen Sauna oder Ruheraum – das 3-Stunden-Ticket reicht für einen entspannten Vormittag.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof hinunter ins Bäderquartier"
+            },
+            {
+              "time": "13:15",
+              "placeId": "ba-roter-turm",
+              "title": "Zmittag im Roten Turm",
+              "text": "Mittagessen in der Altstadt, im Sommer draussen auf dem Kirchplatz.",
+              "travel": "ca. 10 Min. zu Fuss die Badstrasse hinauf"
+            },
+            {
+              "time": "14:30",
+              "tourSlug": "baden-altstadt",
+              "title": "Audio-Rundgang Baden Altstadt",
+              "text": "Zweieinhalb Stunden von den Bädern über die Holzbrücke bis hinauf zur Burgruine Stein mit Blick über die Dächer.",
+              "travel": "Start in der Altstadt, wenige Minuten vom Restaurant",
+              "rain": {
+                "placeId": "ba-museum-langmatt",
+                "title": "Impressionisten in der Langmatt",
+                "text": "Bei Regen lässt du den Aufstieg zur Ruine aus und gehst stattdessen in die Villa Langmatt zu Renoir, Monet und Cézanne (bis 17 Uhr)."
+              }
+            },
+            {
+              "time": "18:30",
+              "placeId": "ba-dory-und-du",
+              "title": "Znacht im DORY & DU",
+              "text": "Zum Abschluss zurück ins Bäderquartier an die Limmatpromenade – vorher lohnt ein Abstecher zu den heissen Brunnen am Ufer.",
+              "travel": "ca. 10 Min. zu Fuss hinunter an die Limmat"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

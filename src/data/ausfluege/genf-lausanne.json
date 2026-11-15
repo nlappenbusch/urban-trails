@@ -1,0 +1,1346 @@
+{
+  "places": [
+    {
+      "id": "ge-geneva-hostel",
+      "kind": "hotel",
+      "name": "Geneva Hostel",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Rue Rothschild 28–30, 1202 Genève",
+      "coords": {
+        "lat": 46.21491,
+        "lng": 6.14923
+      },
+      "url": "https://www.genevahostel.ch",
+      "price": 1,
+      "tags": [
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Rezeption rund um die Uhr",
+      "text": "Jugendherberge im Pâquis-Quartier, wenige Minuten vom Bahnhof Cornavin und rund zehn Minuten vom Seeufer. Neben Schlafsälen gibt es Zweibettzimmer mit eigenem Bad und Vierbettzimmer, das Frühstücksbuffet ist im Preis inbegriffen.",
+      "tip": "Wie jede Genfer Unterkunft gibt dir das Hostel die Geneva Transport Card – damit fährst du während des ganzen Aufenthalts gratis Bus, Tram und Mouette.",
+      "source": "https://www.genevahostel.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ge-hotel-edelweiss",
+      "kind": "hotel",
+      "name": "Hôtel Edelweiss",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Place de la Navigation 2, 1201 Genève",
+      "coords": {
+        "lat": 46.2114,
+        "lng": 6.14992
+      },
+      "url": "https://www.manotel.com",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Vier-Sterne-Haus im Pâquis-Quartier, innen ganz im Chalet-Stil eingerichtet, mit einem Restaurant, in dem abends oft Volksmusik gespielt wird. Bis zu den Bains des Pâquis und zum Bahnhof gehst du je rund zehn Minuten.",
+      "tip": "Das hauseigene Restaurant ist nur Di–Sa abends offen; wer hier Fondue essen will, reserviert vorab.",
+      "source": "https://www.myswitzerland.com/en/accommodations/hotel-edelweiss-geneve/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ge-hotel-les-armures",
+      "kind": "hotel",
+      "name": "Hôtel Les Armures",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Rue du Puits-Saint-Pierre 1, 1204 Genève",
+      "coords": {
+        "lat": 46.2013,
+        "lng": 6.14728
+      },
+      "url": "https://www.lesarmures.ch",
+      "price": 4,
+      "tags": [
+        "romantisch",
+        "kultur",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Fünf-Sterne-Hotel in einem Haus aus dem 17. Jahrhundert, nur ein paar Schritte von der Kathedrale St-Pierre entfernt. Im Restaurant im Erdgeschoss gibt es Fondue moitié-moitié unter alten Holzdecken.",
+      "tip": "Auch wenn du anderswo schläfst: Ein Fondue in den historischen Stuben ist ein guter Abschluss eines Altstadttags – am Wochenende reservieren.",
+      "source": "https://www.lesarmures.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hotel_les_Armures_Gen%C3%A8ve_%282026%29.jpg/1280px-Hotel_les_Armures_Gen%C3%A8ve_%282026%29.jpg",
+        "alt": "Fassade des Hotels Les Armures in der Genfer Altstadt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_les_Armures_Gen%C3%A8ve_(2026).jpg"
+      }
+    },
+    {
+      "id": "ge-buvette-des-bains",
+      "kind": "restaurant",
+      "name": "La Buvette des Bains",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Quai du Mont-Blanc 30, 1201 Genève",
+      "coords": {
+        "lat": 46.20993,
+        "lng": 6.15653
+      },
+      "url": "https://aubp.ch",
+      "price": 1,
+      "tags": [
+        "genuss",
+        "see",
+        "freunde",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Fondue im Winterhalbjahr",
+      "hours": "täglich 7–23 Uhr; Fondue abends ab 18 Uhr",
+      "text": "Die Beiz auf der Mole der Bains des Pâquis serviert tagsüber einen einfachen Plat du jour und im Winter das bekannte Fondue au crémant. Du sitzt zwischen Saunagängern, Studentinnen und Büroleuten mitten im See.",
+      "tip": "Im Winter unbedingt reservieren (022 738 16 16) – und vorher eine Runde in Sauna oder Hammam der Bains einplanen.",
+      "source": "https://aubp.ch/en/refreshment-bar/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Bains_des_P%C3%A2quis_le_soir.JPG/1280px-Bains_des_P%C3%A2quis_le_soir.JPG",
+        "alt": "Die Mole der Bains des Pâquis am Abend mit Blick über das Seebecken",
+        "credit": "https://commons.wikimedia.org/wiki/File:Bains_des_P%C3%A2quis_le_soir.JPG"
+      }
+    },
+    {
+      "id": "ge-cafe-du-soleil",
+      "kind": "restaurant",
+      "name": "Café du Soleil",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Place du Petit-Saconnex 6, 1209 Genève",
+      "coords": {
+        "lat": 46.22324,
+        "lng": 6.12767
+      },
+      "url": "https://www.cafedusoleil.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich; Küche ab 11.30 Uhr, Mo Pause am Nachmittag",
+      "text": "Café-Restaurant am Dorfplatz von Petit-Saconnex, nur ein kurzes Stück oberhalb des UNO-Viertels. Das Haus gilt als eine der bekanntesten Fondue-Adressen der Stadt und hat jeden Tag offen.",
+      "tip": "Reservier online und schau vorher auf der Website nach – wegen Tramarbeiten im Quartier ist die Busanfahrt teilweise umgeleitet.",
+      "source": "https://www.cafedusoleil.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ge-chez-ma-cousine",
+      "kind": "restaurant",
+      "name": "Chez ma Cousine (Bourg-de-Four)",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Place du Bourg-de-Four 6, 1204 Genève",
+      "coords": {
+        "lat": 46.20069,
+        "lng": 6.14929
+      },
+      "url": "https://www.chezmacousine.ch",
+      "price": 1,
+      "tags": [
+        "freunde",
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 11–23 Uhr, So bis 22.30 Uhr",
+      "priceInfo": {
+        "from": 19.9,
+        "unit": "Menü",
+        "note": "halbes Poulet vom Spiess mit Ofenkartoffeln und Salat"
+      },
+      "text": "Hier gibt es im Grunde ein Gericht: Poulet vom Spiess mit provenzalischen Kartoffeln und Salat. Das Lokal liegt direkt am Bourg-de-Four, dem ältesten Platz der Stadt.",
+      "tip": "Reservieren geht nicht – die Schlange bewegt sich aber schnell, und vor 12 Uhr wartest du kaum.",
+      "source": "https://www.chezmacousine.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ge-la-clemence",
+      "kind": "cafe",
+      "name": "La Clémence",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Place du Bourg-de-Four 20, 1204 Genève",
+      "coords": {
+        "lat": 46.20021,
+        "lng": 6.1488
+      },
+      "url": "https://www.laclemence.ch",
+      "price": 1,
+      "tags": [
+        "freunde",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich ab 7 Uhr (Sa/So ab 8 Uhr) bis spätabends",
+      "text": "Café-Bar am oberen Ende des Bourg-de-Four, benannt nach der grossen Glocke der Kathedrale gleich nebenan. Morgens ist es ein ruhiger Ort für den ersten Kaffee, ab dem späten Nachmittag wird der Platz zur Apéro-Bühne.",
+      "tip": "Setz dich auf die Terrasse mit Blick auf den Brunnen – am frühen Morgen hast du den Platz fast für dich.",
+      "source": "https://www.geneve.com/en/restaurants/la-clemence",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Place_du_Bourg-de-Four_in_Geneva_old_town.jpg/1280px-Place_du_Bourg-de-Four_in_Geneva_old_town.jpg",
+        "alt": "Place du Bourg-de-Four in der Genfer Altstadt mit Brunnen und Café-Terrassen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Place_du_Bourg-de-Four_in_Geneva_old_town.jpg"
+      }
+    },
+    {
+      "id": "ge-cafe-des-negociants",
+      "kind": "restaurant",
+      "name": "Café des Négociants",
+      "region": "genf",
+      "town": "Carouge",
+      "address": "Rue de la Filature 29, 1227 Carouge",
+      "coords": {
+        "lat": 46.1857,
+        "lng": 6.14051
+      },
+      "url": "https://www.negociants.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "romantisch",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So geschlossen; Bestellungen 12–14 und 19–22 Uhr",
+      "priceInfo": {
+        "from": 39,
+        "to": 49,
+        "unit": "Hauptgang"
+      },
+      "text": "Bistro an einer Ecke im alten Carouge, das sich an den Lyoner Bouchons orientiert: Schnecken, Froschschenkel und die Entrecôte carougeoise. Dazu kommt ein Keller mit über hundert Weinen, viele aus der Region.",
+      "tip": "Komm etwas früher und schlendere durch die niedrigen sardischen Häuserzeilen von Carouge – das Städtchen sieht ganz anders aus als Genf.",
+      "source": "https://www.negociants.ch/fr/restaurant/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ge-du-rhone-chocolatier",
+      "kind": "cafe",
+      "name": "Du Rhône Chocolatier",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Rue du Rhône 118, 1204 Genève",
+      "coords": {
+        "lat": 46.20249,
+        "lng": 6.15474
+      },
+      "url": "https://durhonechocolatier.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So geschlossen; Mo–Sa 9–18 Uhr",
+      "text": "Chocolatier, der seit 1875 an der Rue du Rhône Pralinés von Hand herstellt. Die Boutique liegt wenige Minuten vom Jardin Anglais – ideal für eine süsse Tüte vor dem Seespaziergang.",
+      "tip": "Frag nach dem «Choco Pass», einem kleinen Teller mit sechs Sorten zum Probieren.",
+      "source": "https://www.geneve.com/en/restaurants/du-rhone-chocolatier",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ge-palais-des-nations",
+      "kind": "sehenswuerdigkeit",
+      "name": "Palais des Nations (Führung)",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Besuchereingang Portail de Pregny, Avenue de la Paix 14, 1211 Genève",
+      "coords": {
+        "lat": 46.22571,
+        "lng": 6.14081
+      },
+      "url": "https://www.ungeneva.org/en/visit",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Führungen Mo–Fr, nur mit Online-Buchung",
+      "durationMin": 60,
+      "priceInfo": {
+        "from": 25,
+        "unit": "Eintritt Erwachsene",
+        "note": "Führung ab 18 Jahren, zzgl. Buchungsgebühr"
+      },
+      "text": "In einer Stunde führt man dich durch den europäischen Sitz der Vereinten Nationen, je nach Sitzungsplan bis in grosse Konferenzsäle. Das Gebäude wird zurzeit renoviert, deshalb kann die Route kurzfristig ändern.",
+      "tip": "Die Termine sind oft Wochen im Voraus weg: Sie werden jeweils am 20. des Monats für den Folgemonat freigeschaltet. Pass oder Schengen-ID mitnehmen und 30 Minuten früher da sein.",
+      "source": "https://www.ungeneva.org/en/visit",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Palace_of_Nations_Geneva_20102014_02.jpg/1280px-Palace_of_Nations_Geneva_20102014_02.jpg",
+        "alt": "Palais des Nations in Genf mit der Fahnenallee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Palace_of_Nations_Geneva_20102014_02.jpg"
+      }
+    },
+    {
+      "id": "ge-rotkreuzmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Internationales Rotkreuz- und Rothalbmondmuseum",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Avenue de la Paix 17, 1202 Genève",
+      "coords": {
+        "lat": 46.2274,
+        "lng": 6.13679
+      },
+      "url": "https://www.redcrossmuseum.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17 Uhr, Do bis 20 Uhr",
+      "durationMin": 90,
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "Dauer- und Wechselausstellung; Audioguide CHF 2"
+      },
+      "text": "Das Museum gegenüber dem Palais des Nations erzählt anhand von Einzelschicksalen, was humanitäre Hilfe bedeutet – von der Familienzusammenführung bis zum Katastropheneinsatz. Die Ausstellung ist interaktiv und funktioniert auch für Jugendliche.",
+      "tip": "Nimm den Audioguide: Viele Stationen leben von den Stimmen der Betroffenen.",
+      "source": "https://www.redcrossmuseum.ch/en/visit/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/International_Red_Cross_and_Red_Crescent_Museum_2010-07-01.jpg/1280px-International_Red_Cross_and_Red_Crescent_Museum_2010-07-01.jpg",
+        "alt": "Eingangsbereich des Internationalen Rotkreuz- und Rothalbmondmuseums in Genf",
+        "credit": "https://commons.wikimedia.org/wiki/File:International_Red_Cross_and_Red_Crescent_Museum_2010-07-01.jpg"
+      }
+    },
+    {
+      "id": "ge-patek-philippe-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Patek Philippe Museum",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Rue des Vieux-Grenadiers 7, 1205 Genève",
+      "coords": {
+        "lat": 46.1984,
+        "lng": 6.13827
+      },
+      "url": "https://www.patek.com/museum",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo und Do geschlossen; Di, Mi, Fr, So 14–18 Uhr, Sa 10–18 Uhr",
+      "durationMin": 90,
+      "priceInfo": {
+        "from": 10,
+        "unit": "Eintritt Erwachsene",
+        "note": "mit Geneva City Pass gratis"
+      },
+      "text": "Auf mehreren Stockwerken siehst du rund 2500 Uhren, Automaten und kostbare Objekte aus fünf Jahrhunderten. Neben Stücken von Patek Philippe seit 1839 gibt es eine grosse Sammlung älterer Uhren aus der Zeit davor.",
+      "tip": "Vor Feiertagen und an Donnerstagen ist zu – schau kurz auf die Website, bevor du hinfährst.",
+      "source": "https://www.geneve.com/en/attractions/detail/patek-philippe-museum",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Patek_Philippe_Museum.JPG",
+        "alt": "Gebäude des Patek Philippe Museum in Genf",
+        "credit": "https://commons.wikimedia.org/wiki/File:Patek_Philippe_Museum.JPG"
+      }
+    },
+    {
+      "id": "ge-mah",
+      "kind": "sehenswuerdigkeit",
+      "name": "Musée d'art et d'histoire (MAH)",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Rue Charles-Galland 2, 1206 Genève",
+      "coords": {
+        "lat": 46.19924,
+        "lng": 6.15163
+      },
+      "url": "https://www.mahmah.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 11–18 Uhr, Do 12–21 Uhr",
+      "durationMin": 90,
+      "priceInfo": {
+        "from": 5,
+        "to": 20,
+        "unit": "Eintritt Erwachsene",
+        "note": "freier Eintrittspreis, empfohlen sind CHF 5–20"
+      },
+      "text": "Grösstes Museum der Stadt am Rand der Altstadt, mit Archäologie, Waffen, Möbeln und Malerei. Das bekannteste Bild ist Konrad Witz' «Wunderbarer Fischzug» von 1444 – eine der ältesten realistischen Landschaften, und sie zeigt den Genfersee.",
+      "tip": "Den Witz-Altar findest du in der Gemäldeabteilung – schau genau hin, im Hintergrund erkennst du den Salève.",
+      "source": "https://www.geneve.ch/musee-art-histoire",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Mus%C3%A9e_d%27Art_et_d%27Histoire_de_Gen%C3%A8ve.JPG/1280px-Mus%C3%A9e_d%27Art_et_d%27Histoire_de_Gen%C3%A8ve.JPG",
+        "alt": "Fassade des Musée d'art et d'histoire an der Rue Charles-Galland in Genf",
+        "credit": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_d%27Art_et_d%27Histoire_de_Gen%C3%A8ve.JPG"
+      }
+    },
+    {
+      "id": "ge-mouettes",
+      "kind": "aktivitaet",
+      "name": "Mouettes Genevoises (Wassertaxis)",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Anlegestellen u. a. Pâquis, Molard, Eaux-Vives und Genève-Plage",
+      "coords": null,
+      "url": "https://www.mouettesgenevoises.ch",
+      "price": 1,
+      "tags": [
+        "see",
+        "familie",
+        "aussicht",
+        "freunde"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "hours": "täglich, im Winter seltener",
+      "durationMin": 15,
+      "priceInfo": {
+        "from": 3,
+        "unit": "Einzelbillett Erwachsene",
+        "note": "Billett «Tout Genève» 60 Min., 2. Klasse; mit Geneva Transport Card für Hotelgäste gratis"
+      },
+      "text": "Die kleinen gelben Boote pendeln auf vier Linien über das Seebecken und gehören zum normalen ÖV-Netz. Die Überfahrt von den Pâquis zum Molard dauert nur ein paar Minuten und zeigt dir die Stadt von der Wasserseite.",
+      "tip": "Mit der Geneva Transport Card deiner Unterkunft fährst du gratis – also ruhig einmal hin und zurück.",
+      "source": "https://www.mouettesgenevoises.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Gen%C3%A8ve_Mouette02_2012-09-16.jpg/1280px-Gen%C3%A8ve_Mouette02_2012-09-16.jpg",
+        "alt": "Gelbes Mouette-Wassertaxi auf dem Genfersee, dahinter die Bains des Pâquis",
+        "credit": "https://commons.wikimedia.org/wiki/File:Gen%C3%A8ve_Mouette02_2012-09-16.jpg"
+      }
+    },
+    {
+      "id": "ge-saleve",
+      "kind": "aussicht",
+      "name": "Téléphérique du Salève",
+      "region": "genf",
+      "town": "Étrembières (Frankreich)",
+      "address": "Route du Téléphérique, 74100 Étrembières, Frankreich",
+      "coords": {
+        "lat": 46.16224,
+        "lng": 6.18937
+      },
+      "url": "https://www.telepherique-du-saleve.com",
+      "price": 2,
+      "tags": [
+        "berg",
+        "aussicht",
+        "aktiv",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig, jährliche Revision im November (2026: 2.–26. November)",
+      "hours": "April–Oktober ab 9 Uhr, Do–Sa bis in den Abend",
+      "durationMin": 180,
+      "text": "Die Seilbahn bringt dich in wenigen Minuten auf gut 1100 Meter, auf den Hausberg der Genfer – der allerdings in Frankreich liegt. Oben siehst du über Stadt, See und Jura, bei klarem Wetter bis zum Mont Blanc; das Retourbillett kostet in Euro (2026: 16.50 Euro).",
+      "tip": "Pass oder ID nicht vergessen, du überquerst zu Fuss die Grenze. Oben lohnt ein Spaziergang von 20–30 Minuten weg von der Bergstation.",
+      "source": "https://www.telepherique-du-saleve.com/tarifs/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/T%C3%A9l%C3%A9ph%C3%A9rique_du_Sal%C3%A8ve.jpg/1280px-T%C3%A9l%C3%A9ph%C3%A9rique_du_Sal%C3%A8ve.jpg",
+        "alt": "Kabine der Salève-Seilbahn an der Bergstation auf rund 1100 Metern",
+        "credit": "https://commons.wikimedia.org/wiki/File:T%C3%A9l%C3%A9ph%C3%A9rique_du_Sal%C3%A8ve.jpg"
+      }
+    },
+    {
+      "id": "ge-cern-science-gateway",
+      "kind": "aktivitaet",
+      "name": "CERN Science Gateway",
+      "region": "genf",
+      "town": "Meyrin",
+      "address": "Esplanade des Particules 1, 1211 Genève 23 (Meyrin)",
+      "coords": {
+        "lat": 46.23382,
+        "lng": 6.05666
+      },
+      "url": "https://sciencegateway.cern",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "familie",
+        "kultur",
+        "gratis"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 9–17 Uhr, letzter Einlass 16.30 Uhr",
+      "durationMin": 120,
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "text": "Das Besucherzentrum des Forschungszentrums CERN zeigt in mehreren Ausstellungen, wie Teilchenphysik funktioniert – mit vielen Experimenten zum Selbermachen. Das Gebäude von Renzo Piano spannt sich als Brücke über die Route de Meyrin.",
+      "tip": "Schau vorab auf der Website, ob für deinen Tag eine Anmeldung nötig ist, und plan eine Pause im Big Bang Café im Haus ein.",
+      "source": "https://sciencegateway.cern/hours",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "ge-bains-des-paquis",
+      "kind": "bad",
+      "name": "Bains des Pâquis",
+      "region": "genf",
+      "town": "Genf",
+      "address": "Quai du Mont-Blanc 30, 1201 Genève",
+      "coords": {
+        "lat": 46.20993,
+        "lng": 6.15653
+      },
+      "url": "https://www.bains-des-paquis.ch",
+      "price": 1,
+      "tags": [
+        "see",
+        "freunde",
+        "wellness",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "Baden Mai–September; im Winter Sauna, Hammam und Seebad",
+      "hours": "Juni–August 9–20 Uhr, Mai und September 10–18 Uhr",
+      "durationMin": 150,
+      "priceInfo": {
+        "from": 2,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder CHF 1; Hammam separat"
+      },
+      "text": "Das Volksbad von 1872 auf einer Mole mitten im Seebecken: Holzstege, Liegeplätze auf Beton und der Leuchtturm am Ende. Im Sommer badest du hier mit Blick auf Jet d'eau und Mont Blanc, im Winter wechseln sich Sauna und eiskalter See ab.",
+      "tip": "Nimm Badeschuhe mit – der Einstieg über Leitern und Steine ist rutschig.",
+      "source": "https://www.geneve.com/fr/attractions/detail/bains-des-paquis",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Bains_des_P%C3%A2quis_-_JeP_2022_-_Jet%C3%A9e.jpg/1280px-Bains_des_P%C3%A2quis_-_JeP_2022_-_Jet%C3%A9e.jpg",
+        "alt": "Steg der Bains des Pâquis mit Badeplattformen im Genfersee",
+        "credit": "https://commons.wikimedia.org/wiki/File:Bains_des_P%C3%A2quis_-_JeP_2022_-_Jet%C3%A9e.jpg"
+      }
+    },
+    {
+      "id": "la-hotel-elite",
+      "kind": "hotel",
+      "name": "Hôtel Elite",
+      "region": "lausanne",
+      "town": "Lausanne",
+      "address": "Avenue Sainte-Luce 1, 1003 Lausanne",
+      "coords": {
+        "lat": 46.51823,
+        "lng": 6.63136
+      },
+      "url": "https://www.elite-lausanne.ch",
+      "price": 2,
+      "tags": [
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Drei-Sterne-Hotel in einem ruhigen Garten, etwa fünf Minuten zu Fuss vom Bahnhof. Von hier bist du in einer Station mit der Metro M2 in der Altstadt und in wenigen Minuten am See in Ouchy.",
+      "tip": "Beim Einchecken bekommst du den Pass für den Lausanner ÖV – Metro und Bus sind damit gratis.",
+      "source": "https://www.elite-lausanne.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "la-hotel-angleterre",
+      "kind": "hotel",
+      "name": "Hôtel Angleterre & Résidence",
+      "region": "lausanne",
+      "town": "Lausanne",
+      "address": "Place du Port 11, 1006 Lausanne",
+      "coords": {
+        "lat": 46.50737,
+        "lng": 6.62855
+      },
+      "url": "https://www.hotelangleterre.ch",
+      "price": 3,
+      "tags": [
+        "see",
+        "romantisch",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Vier-Sterne-Hotel direkt am Hafen von Ouchy, verteilt auf mehrere Häuser, das älteste aus dem 18. Jahrhundert. Lord Byron soll hier 1816 «Der Gefangene von Chillon» geschrieben haben.",
+      "tip": "Von Mai bis September gibt es einen beheizten Aussenpool im Garten – praktisch nach einem Tag in den Reben.",
+      "source": "https://www.hotelangleterre.ch/en/home",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hotel_Angleterre_%26_R%C3%A9sidence.jpg/1280px-Hotel_Angleterre_%26_R%C3%A9sidence.jpg",
+        "alt": "Hotel Angleterre & Résidence am Seeufer in Ouchy",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_Angleterre_%26_R%C3%A9sidence.jpg"
+      }
+    },
+    {
+      "id": "la-cafe-romand",
+      "kind": "restaurant",
+      "name": "Café Romand",
+      "region": "lausanne",
+      "town": "Lausanne",
+      "address": "Place Saint-François 2, 1003 Lausanne",
+      "coords": {
+        "lat": 46.51989,
+        "lng": 6.63249
+      },
+      "url": "https://www.cafe-romand.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich; Küche 11.30–14.15 und 18.30–22 Uhr, Sa/So mittags bis 15 Uhr",
+      "text": "Historische Brasserie an der Place Saint-François, deren Einrichtung von 1951 mit Buffet, Vitrinen und Bildern weitgehend erhalten ist. Auf der Karte stehen Papet vaudois, Fondue moitié-moitié und Malakoffs, dazu Waadtländer Wein.",
+      "tip": "Probier die Malakoffs, frittierte Käsekugeln aus der Waadt – und reservier telefonisch, die Küche ist nur zu den Essenszeiten offen.",
+      "source": "https://www.cafe-romand.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "la-cafe-du-grutli",
+      "kind": "restaurant",
+      "name": "Café du Grütli",
+      "region": "lausanne",
+      "town": "Lausanne",
+      "address": "Rue de la Mercerie 4, 1003 Lausanne",
+      "coords": {
+        "lat": 46.52179,
+        "lng": 6.63358
+      },
+      "url": "https://www.cafedugruetli.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "kultur",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So geschlossen",
+      "text": "Seit 1849 wird in diesem Haus aus dem 14. Jahrhundert gewirtet, unter Balken und Steinmauern. Fondue ist der Grund, warum die meisten kommen; dazu gibt es fast nur Waadtländer Weine.",
+      "tip": "Im Sommer auf der Terrasse sitzen: Von dort hörst du die Figurenuhr an der Place de la Palud schlagen.",
+      "source": "https://www.lausanne-tourisme.ch/fr/decouvrir/cafe-du-grutli/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Caf%C3%A9_du_Gr%C3%BCtli%2C_Lausanne.jpg/1280px-Caf%C3%A9_du_Gr%C3%BCtli%2C_Lausanne.jpg",
+        "alt": "Café du Grütli am unteren Ende der Rue de la Mercerie in Lausanne",
+        "credit": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_du_Gr%C3%BCtli,_Lausanne.jpg"
+      }
+    },
+    {
+      "id": "la-le-barbare",
+      "kind": "cafe",
+      "name": "Le Barbare",
+      "region": "lausanne",
+      "town": "Lausanne",
+      "address": "Escaliers du Marché 27, 1003 Lausanne",
+      "coords": {
+        "lat": 46.52241,
+        "lng": 6.63407
+      },
+      "url": "https://www.lebarbare.ch",
+      "price": 1,
+      "tags": [
+        "genuss",
+        "kultur",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen",
+      "text": "Kleines Café an der gedeckten Holztreppe zwischen Marktplatz und Kathedrale. Berühmt ist die heisse Schokolade «Marta», so dick, dass du sie fast löffeln kannst.",
+      "tip": "Die Marta mit hausgemachtem Schlagrahm bestellen – und danach die letzten Stufen zur Kathedrale nehmen.",
+      "source": "https://www.lausanne-tourisme.ch/fr/decouvrir/le-barbare/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "la-auberge-de-londe",
+      "kind": "restaurant",
+      "name": "Auberge de l'Onde",
+      "region": "lausanne",
+      "town": "St-Saphorin (Lavaux)",
+      "address": "Chemin Neuf 2, 1071 St-Saphorin (Lavaux)",
+      "coords": {
+        "lat": 46.47322,
+        "lng": 6.79597
+      },
+      "url": "https://www.aubergedelonde.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "romantisch",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo/Di geschlossen; Mi–Sa 10–23, So 10–18 Uhr",
+      "text": "Gasthaus aus dem 18. Jahrhundert mitten im Weindorf St-Saphorin, mit einer Brasserie im Erdgeschoss und einer Rôtisserie im oberen Stock. Nach der Wanderung durch die Reben ist es der naheliegende Ort für einen ausgiebigen Zmittag.",
+      "tip": "Am Wochenende reservieren und nach einem Tisch in der Brasserie fragen, wenn du nach der Wanderung lieber unkompliziert essen willst.",
+      "source": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/auberge-de-londe/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Auberge_de_l%27Onde_%281750%29%2C_St-Saphorin_VD.jpg/1280px-Auberge_de_l%27Onde_%281750%29%2C_St-Saphorin_VD.jpg",
+        "alt": "Die Auberge de l'Onde aus dem 18. Jahrhundert im Weindorf St-Saphorin",
+        "credit": "https://commons.wikimedia.org/wiki/File:Auberge_de_l%27Onde_(1750),_St-Saphorin_VD.jpg"
+      }
+    },
+    {
+      "id": "la-caveau-cully",
+      "kind": "bar",
+      "name": "Caveau des Vignerons de Cully",
+      "region": "lausanne",
+      "town": "Cully",
+      "address": "Place d'Armes 16, 1096 Cully",
+      "coords": {
+        "lat": 46.48777,
+        "lng": 6.73091
+      },
+      "url": "http://www.caveau-cully.ch",
+      "price": 1,
+      "tags": [
+        "genuss",
+        "freunde",
+        "see"
+      ],
+      "weatherProof": true,
+      "season": "Mai–Oktober",
+      "hours": "Do–So 17–21 Uhr",
+      "text": "Im Weinkeller am Seeufer schenken rund zehn Winzer aus dem Lavaux abwechselnd selbst aus, insgesamt gut dreissig Weine. Du sitzt nicht bei einem Weingut, sondern probierst dich quer durch das Gebiet.",
+      "tip": "Frag, wer an diesem Abend Dienst hat, und lass dir erklären, wie sich Chasselas aus Epesses von dem aus Villette unterscheidet.",
+      "source": "https://montreuxriviera.com/en/P830",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "la-lavaux-vinorama",
+      "kind": "aktivitaet",
+      "name": "Lavaux Vinorama",
+      "region": "lausanne",
+      "town": "Rivaz",
+      "address": "Route du Lac 2, 1071 Rivaz",
+      "coords": null,
+      "url": "https://www.lavaux-vinorama.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, Winterpause im Januar",
+      "hours": "Mai–Oktober täglich 10.30–20 Uhr (So bis 19 Uhr); Nov.–April Mo/Di geschlossen",
+      "durationMin": 75,
+      "priceInfo": {
+        "from": 17,
+        "to": 26,
+        "unit": "Degustation",
+        "note": "Formeln mit drei bis fünf Weinen"
+      },
+      "text": "Im Weinzentrum zwischen Strasse und Reben findest du eine grosse Auswahl an Lavaux-Weinen, die du in Degustationsformeln probieren kannst. Eine gute Gelegenheit, Weine aus mehreren Dörfern direkt nebeneinander zu vergleichen.",
+      "tip": "Nimm die Chasselas-Formel und vergleiche ein Dézaley mit einem St-Saphorin – die Unterschiede überraschen.",
+      "source": "https://www.lavaux-vinorama.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Rivaz%2C_Switzerland_-_panoramio.jpg/1280px-Rivaz%2C_Switzerland_-_panoramio.jpg",
+        "alt": "Gebäude des Lavaux Vinorama in Rivaz zwischen Strasse und Reben",
+        "credit": "https://commons.wikimedia.org/wiki/File:Rivaz,_Switzerland_-_panoramio.jpg"
+      }
+    },
+    {
+      "id": "la-musee-olympique",
+      "kind": "sehenswuerdigkeit",
+      "name": "Olympisches Museum",
+      "region": "lausanne",
+      "town": "Lausanne",
+      "address": "Quai d'Ouchy 1, 1006 Lausanne",
+      "coords": {
+        "lat": 46.50869,
+        "lng": 6.63407
+      },
+      "url": "https://www.olympics.com/museum",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie",
+        "kultur",
+        "see"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen (ausser Feiertage); Di–So 9–18 Uhr",
+      "durationMin": 120,
+      "priceInfo": {
+        "from": 20,
+        "unit": "Eintritt Erwachsene",
+        "note": "reduziert CHF 14; Kinder bis 15 in Begleitung gratis"
+      },
+      "text": "Auf drei Ebenen erfährst du, wie die Spiele seit der Antike funktionieren – mit Fackeln, Medaillen, Sportgeräten und vielen Filmen. Draussen steigst du durch einen Park mit Skulpturen und Blick über den See.",
+      "tip": "Im Park brennt das olympische Feuer; der Weg vom Seeufer hinauf zum Museum lohnt sich auch ohne Ticket.",
+      "source": "https://www.lausanne-tourisme.ch/fr/decouvrir/le-musee-olympique/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Lee_Mus%C3%A9e_Olympique_07.jpg/1280px-Lee_Mus%C3%A9e_Olympique_07.jpg",
+        "alt": "Olympisches Museum in Lausanne-Ouchy",
+        "credit": "https://commons.wikimedia.org/wiki/File:Lee_Mus%C3%A9e_Olympique_07.jpg"
+      }
+    },
+    {
+      "id": "la-mcba",
+      "kind": "sehenswuerdigkeit",
+      "name": "MCBA – Musée cantonal des Beaux-Arts (Plateforme 10)",
+      "region": "lausanne",
+      "town": "Lausanne",
+      "address": "Place de la Gare 16, 1003 Lausanne",
+      "coords": {
+        "lat": 46.51791,
+        "lng": 6.62534
+      },
+      "url": "https://www.mcba.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "gratis"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–18 Uhr, Do bis 20 Uhr",
+      "durationMin": 90,
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis",
+        "note": "Sammlung gratis (Ticket am Empfang), Wechselausstellungen kostenpflichtig"
+      },
+      "text": "Das Waadtländer Kunstmuseum steht im neuen Museumsquartier Plateforme 10 direkt neben den Gleisen. Die Sammlung reicht von Félix Vallotton bis zur Gegenwartskunst und kostet keinen Eintritt.",
+      "tip": "Am ersten Samstag im Monat sind auch die Wechselausstellungen gratis.",
+      "source": "https://www.mcba.ch/en/general-information/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Mus%C3%A9e_cantonal_des_Beaux-Arts_de_Lausanne_%28Plateforme_10%29.jpg/1280px-Mus%C3%A9e_cantonal_des_Beaux-Arts_de_Lausanne_%28Plateforme_10%29.jpg",
+        "alt": "Neubau des Musée cantonal des Beaux-Arts auf der Plateforme 10 in Lausanne",
+        "credit": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_cantonal_des_Beaux-Arts_de_Lausanne_(Plateforme_10).jpg"
+      }
+    },
+    {
+      "id": "la-chateau-chillon",
+      "kind": "sehenswuerdigkeit",
+      "name": "Schloss Chillon",
+      "region": "lausanne",
+      "town": "Veytaux",
+      "address": "Avenue de Chillon 21, 1820 Veytaux",
+      "coords": {
+        "lat": 46.41424,
+        "lng": 6.9276
+      },
+      "url": "https://www.chillon.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "see",
+        "romantisch",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich; April–Sept. 9–19 Uhr, März/Okt. 9.30–18 Uhr, Nov.–Feb. 10–17 Uhr (letzter Einlass 1 Std. vorher)",
+      "durationMin": 120,
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder 6–15 Jahre CHF 7"
+      },
+      "text": "Die Wasserburg steht auf einem Felsen im See und war über Jahrhunderte Sitz der Savoyer. Du gehst durch Kellergewölbe, Rittersäle und Wehrgänge – im Kerker hat Lord Byron seinen Namen in eine Säule geritzt.",
+      "tip": "Früh am Morgen kommen: Ab Mittag stehen die Reisecars Schlange.",
+      "source": "https://www.chillon.ch/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg/1280px-001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg",
+        "alt": "Schloss Chillon am Genfersee in der Abenddämmerung, dahinter die Dents du Midi",
+        "credit": "https://commons.wikimedia.org/wiki/File:001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg"
+      }
+    },
+    {
+      "id": "la-lavaux-wanderung",
+      "kind": "aktivitaet",
+      "name": "Wanderung durch die Lavaux-Terrassen (Cully–St-Saphorin)",
+      "region": "lausanne",
+      "town": "Cully",
+      "address": "Start beim Bahnhof Cully, 1096 Cully",
+      "coords": {
+        "lat": 46.48876,
+        "lng": 6.72808
+      },
+      "url": "https://www.lavaux-unesco.ch",
+      "price": 1,
+      "tags": [
+        "aktiv",
+        "aussicht",
+        "see",
+        "genuss",
+        "gratis"
+      ],
+      "weatherProof": false,
+      "season": "April–Oktober (am schönsten zur Weinlese im September/Oktober)",
+      "durationMin": 150,
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "text": "Der markierte Weg führt von Cully über Epesses und Rivaz nach St-Saphorin, mitten durch die Rebterrassen, die zum UNESCO-Welterbe gehören. Du gehst auf schmalen Strassen zwischen Mauern und Reben, unter dir der Genfersee, gegenüber die Savoyer Alpen.",
+      "tip": "Zieh feste Schuhe an und nimm Wasser mit – zwischen den Dörfern gibt es kaum Schatten und die Mauern speichern die Wärme.",
+      "source": "https://swisshiking.ch/fr/file/b678a0e30a40196759d97d5e40abfca4da919c55295b99f6c72fe4eafcf47637/download",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lavaux_vignobles_en_terrasses_au_bord_du_L%C3%A9man_%282015%29.jpg/1280px-Lavaux_vignobles_en_terrasses_au_bord_du_L%C3%A9man_%282015%29.jpg",
+        "alt": "Rebterrassen des Lavaux über dem Genfersee mit dem Dorf St-Saphorin",
+        "credit": "https://commons.wikimedia.org/wiki/File:Lavaux_vignobles_en_terrasses_au_bord_du_L%C3%A9man_(2015).jpg"
+      }
+    },
+    {
+      "id": "la-cgn-schiff",
+      "kind": "aktivitaet",
+      "name": "Schifffahrt auf dem Genfersee (CGN)",
+      "region": "lausanne",
+      "town": "Rivaz",
+      "address": "Schiffsstation Rivaz-St-Saphorin, Chemin du Débarcadère 6, 1071 Rivaz",
+      "coords": {
+        "lat": 46.47376,
+        "lng": 6.78357
+      },
+      "url": "https://www.cgn.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "romantisch",
+        "aussicht",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig, im Sommer dichterer Fahrplan mit Belle-Epoque-Dampfern",
+      "durationMin": 30,
+      "text": "Die Kursschiffe der CGN verbinden Lausanne-Ouchy mit Lutry, Cully, Rivaz-St-Saphorin, Vevey und Montreux. Vom Wasser aus siehst du erst, wie steil die Rebterrassen über dem See aufsteigen.",
+      "tip": "Nicht jedes Schiff hält in Rivaz – schau vorab in den Fahrplan der CGN und plane die Rückfahrt danach.",
+      "source": "https://www.cgn.ch/en/contact-acces",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/La_Suisse_%28bateau%29.jpg/1280px-La_Suisse_%28bateau%29.jpg",
+        "alt": "Belle-Epoque-Raddampfer «La Suisse» der CGN in Lausanne-Ouchy",
+        "credit": "https://commons.wikimedia.org/wiki/File:La_Suisse_(bateau).jpg"
+      }
+    }
+  ],
+  "trips": [
+    {
+      "slug": "genf-jet-deau-bains-2-tage",
+      "title": "Genf – Jet d'eau, Altstadt und Bains des Pâquis",
+      "teaser": "Zwei Tage zwischen UNO, Physiklabor, Altstadtgassen und Fondue auf der Seemole – mit Plan B für jeden Regenschauer.",
+      "region": "genf",
+      "days": 2,
+      "moods": [
+        "kultur",
+        "genuss",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Oktober–April (Fondue-Saison in der Buvette des Bains); ideal Freitag und Samstag, weil Führungen im Palais des Nations nur Mo–Fr stattfinden",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 177
+        },
+        {
+          "from": "Bern",
+          "minutes": 115
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 177
+        }
+      ],
+      "hotelIds": [
+        "ge-geneva-hostel",
+        "ge-hotel-edelweiss",
+        "ge-hotel-les-armures"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Freitag) – Weltbühne, Wassertaxi und Abend in Carouge",
+          "slots": [
+            {
+              "time": "10:45",
+              "placeId": "ge-hotel-edelweiss",
+              "title": "Gepäck abgeben",
+              "text": "Koffer im Hotel lassen und nach der Geneva Transport Card fragen – damit fährst du die zwei Tage gratis Tram, Bus und Mouette.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof Cornavin"
+            },
+            {
+              "time": "11:15",
+              "placeId": "ge-rotkreuzmuseum",
+              "title": "Rotkreuzmuseum",
+              "text": "Anderthalb Stunden durch die interaktive Ausstellung über humanitäre Hilfe, am besten mit Audioguide.",
+              "travel": "ca. 10 Min. zu Fuss zum Bahnhof, dann ca. 10 Min. Bus 60 bis «Appia»"
+            },
+            {
+              "time": "13:00",
+              "placeId": "ge-cafe-du-soleil",
+              "title": "Zmittag im Café du Soleil",
+              "text": "Fondue oder ein Gericht von der Karte im Café am Dorfplatz von Petit-Saconnex – vorher online reservieren.",
+              "travel": "ca. 12 Min. zu Fuss bergauf"
+            },
+            {
+              "time": "14:30",
+              "placeId": "ge-palais-des-nations",
+              "title": "Führung im Palais des Nations",
+              "text": "Eine Stunde hinter die Kulissen der UNO in Genf. Die Führung musst du vorab online buchen; die Startzeit wählst du dort, 30 Minuten vorher am Eingang Pregny sein.",
+              "travel": "ca. 12 Min. zu Fuss zum Besuchereingang"
+            },
+            {
+              "time": "16:30",
+              "placeId": "ge-mouettes",
+              "title": "Mit der Mouette übers Seebecken",
+              "text": "Mit Linie M1 von den Pâquis hinüber zum Molard, mit Blick auf den Jet d'eau, danach durch die Rues Basses bummeln.",
+              "travel": "ca. 20 Min. mit Tram 15 oder Bus 60 zum Bahnhof Cornavin, dann zu Fuss zur Anlegestelle Pâquis",
+              "rain": {
+                "placeId": "ge-patek-philippe-museum",
+                "title": "Patek Philippe Museum",
+                "text": "Bei Regen fährst du statt aufs Wasser ins Uhrenmuseum in Plainpalais (freitags bis 18 Uhr)."
+              }
+            },
+            {
+              "time": "19:00",
+              "placeId": "ge-cafe-des-negociants",
+              "title": "Znacht in Carouge",
+              "text": "Bistroküche à la Lyonnaise im alten Carouge – vorher kurz durch die Gassen um die Place du Marché schlendern. Reservieren.",
+              "travel": "ca. 12 Min. Tram 12 ab «Molard» bis «Carouge GE, Marché», dann 3 Min. zu Fuss"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Samstag) – Teilchenphysik, Altstadt und Fondue am Wasser",
+          "slots": [
+            {
+              "time": "09:15",
+              "placeId": "ge-cern-science-gateway",
+              "title": "CERN Science Gateway",
+              "text": "Zwei Stunden durch die Ausstellungen zu Teilchen, Beschleunigern und dem Urknall – Eintritt frei.",
+              "travel": "ca. 25 Min. Tram 18 ab Bahnhof Cornavin bis Endstation «CERN»"
+            },
+            {
+              "time": "12:15",
+              "placeId": "ge-chez-ma-cousine",
+              "title": "Poulet am Bourg-de-Four",
+              "text": "Das halbe Poulet mit Kartoffeln und Salat am ältesten Platz der Stadt – ohne Reservation, die Schlange geht schnell.",
+              "travel": "ca. 28 Min. Tram 18 bis «Bel-Air», dann ca. 10 Min. zu Fuss hinauf in die Altstadt"
+            },
+            {
+              "time": "13:30",
+              "placeId": "ge-du-rhone-chocolatier",
+              "title": "Pralinés für unterwegs",
+              "text": "Ein paar Pralinés vom Traditions-Chocolatier für den Rundgang einpacken.",
+              "travel": "ca. 10 Min. zu Fuss hinunter Richtung See"
+            },
+            {
+              "time": "14:00",
+              "tourSlug": "genf-jet-deau",
+              "title": "Audio-Rundgang Wasserstrahl & Weltbühne",
+              "text": "Vom Jet d'eau hinauf zur Kathedrale, durch den Parc des Bastions zur Reformationsmauer und zum Schluss zu den Bains des Pâquis.",
+              "travel": "ca. 3 Min. zu Fuss zum Jardin Anglais",
+              "rain": {
+                "placeId": "ge-mah",
+                "title": "MAH statt Parkrunde",
+                "text": "Bei Dauerregen nach der Kathedrale ins Musée d'art et d'histoire wechseln (samstags bis 18 Uhr, Eintritt nach freiem Ermessen)."
+              }
+            },
+            {
+              "time": "17:00",
+              "placeId": "ge-buvette-des-bains",
+              "title": "Fondue au crémant in der Buvette",
+              "text": "Wer mag, geht zuerst in Sauna oder Hammam der Bains; ab 18 Uhr gibt es in der Buvette das Fondue, für das Genf hier Schlange steht. Unbedingt reservieren. Im Sommer gibt es statt Fondue einen einfachen Plat du jour.",
+              "travel": "Ende des Rundgangs, direkt vor Ort"
+            },
+            {
+              "time": "20:00",
+              "title": "Heimreise",
+              "text": "Zu Fuss zurück zum Bahnhof Cornavin.",
+              "travel": "ca. 12 Min. zu Fuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "genf-sommertag-saleve-see",
+      "title": "Genf im Sommer: Salève, Mouette und Seebad",
+      "teaser": "Ein Tag zwischen Hausberg, Carouger Bistro und einem Sprung in den See – mit Museen als Plan B.",
+      "region": "genf",
+      "days": 1,
+      "moods": [
+        "natur",
+        "aktiv",
+        "erholung",
+        "genuss"
+      ],
+      "audience": [
+        "freunde",
+        "paar",
+        "allein"
+      ],
+      "season": "Juni–August (Badesaison der Bains des Pâquis); ideal an einem Samstag",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 177
+        },
+        {
+          "from": "Bern",
+          "minutes": 115
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 177
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Samstag) – Vom Salève in den See",
+          "slots": [
+            {
+              "time": "09:00",
+              "placeId": "ge-la-clemence",
+              "title": "Kaffee am Bourg-de-Four",
+              "text": "Kaffee und Gipfeli auf der Terrasse, solange der Platz noch ruhig ist.",
+              "travel": "ca. 20 Min. zu Fuss vom Bahnhof Cornavin"
+            },
+            {
+              "time": "10:00",
+              "placeId": "ge-saleve",
+              "title": "Mit der Seilbahn auf den Salève",
+              "text": "Über die Grenze nach Frankreich und mit der Seilbahn auf über 1100 Meter. Oben ein Stück dem Grat entlang spazieren und über Genf und den See schauen. Pass oder ID mitnehmen.",
+              "travel": "ca. 10 Min. zu Fuss bis «Rive», ca. 25 Min. Bus 8 bis «Veyrier, Douane», dann zu Fuss über die Grenze zur Talstation",
+              "rain": {
+                "placeId": "ge-patek-philippe-museum",
+                "title": "Patek Philippe Museum",
+                "text": "Wenn der Salève in den Wolken steckt, ersetzt du ihn durch das Uhrenmuseum in Plainpalais (samstags ab 10 Uhr)."
+              }
+            },
+            {
+              "time": "13:15",
+              "placeId": "ge-cafe-des-negociants",
+              "title": "Zmittag in Carouge",
+              "text": "Mittagsmenü im Bistro an der Rue de la Filature; danach ein paar Schritte über die Place du Marché.",
+              "travel": "ca. 35 Min. mit Bus 8 bis «Rive» und Tram 12 bis «Carouge GE, Marché»"
+            },
+            {
+              "time": "14:45",
+              "placeId": "ge-mouettes",
+              "title": "Mouette zu den Pâquis",
+              "text": "Mit Linie M1 vom Molard über das Seebecken zu den Pâquis.",
+              "travel": "ca. 15 Min. Tram 12 bis «Molard», dann 2 Min. zur Anlegestelle",
+              "rain": {
+                "placeId": "ge-rotkreuzmuseum",
+                "title": "Rotkreuzmuseum",
+                "text": "Bei Regen fährst du via Bahnhof Cornavin und mit Bus 60 bis «Appia» ins Rotkreuzmuseum (samstags bis 17 Uhr)."
+              }
+            },
+            {
+              "time": "15:15",
+              "placeId": "ge-bains-des-paquis",
+              "title": "Baden in den Bains des Pâquis",
+              "text": "Ein Nachmittag auf den Holzstegen und im See, mit Blick auf Jet d'eau und Mont Blanc. Wer bleibt, isst abends gleich in der Buvette auf der Mole.",
+              "travel": "ca. 3 Min. zu Fuss vom Mouette-Steg",
+              "rain": {
+                "placeId": "ge-mah",
+                "title": "Musée d'art et d'histoire",
+                "text": "Statt Seebad: Konrad Witz' Fischzug mit dem Genfersee von 1444 im MAH anschauen (samstags bis 18 Uhr)."
+              }
+            },
+            {
+              "time": "19:00",
+              "title": "Heimreise",
+              "text": "Vom Seeufer zurück zum Bahnhof Cornavin.",
+              "travel": "ca. 12 Min. zu Fuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lausanne-lavaux-2-tage",
+      "title": "Lausanne & Lavaux: Treppen, Olympia und Weinterrassen",
+      "teaser": "Ein Tag Stadt der Treppen von der Kathedrale bis Ouchy, ein Tag zu Fuss durch die UNESCO-Reben mit Schiff und Caveau.",
+      "region": "lausanne",
+      "days": 2,
+      "moods": [
+        "kultur",
+        "genuss",
+        "natur",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Mai–Oktober (Caveau in Cully offen); ideal Samstag und Sonntag – das Café du Grütli ist sonntags geschlossen",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 131
+        },
+        {
+          "from": "Bern",
+          "minutes": 69
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 133
+        }
+      ],
+      "hotelIds": [
+        "la-hotel-elite",
+        "la-hotel-angleterre"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Samstag) – Olympia, Treppen und Fondue",
+          "slots": [
+            {
+              "time": "09:45",
+              "placeId": "la-hotel-elite",
+              "title": "Gepäck abgeben",
+              "text": "Koffer ins Hotel bringen und den Lausanner ÖV-Pass abholen – Metro und Bus sind damit gratis.",
+              "travel": "ca. 5 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "10:15",
+              "placeId": "la-musee-olympique",
+              "title": "Olympisches Museum",
+              "text": "Zwei Stunden Fackeln, Medaillen und Filme; danach durch den Skulpturenpark hinunter zum See.",
+              "travel": "ca. 6 Min. Metro M2 ab «Lausanne-Gare» bis «Ouchy-Olympique», dann 5 Min. zu Fuss"
+            },
+            {
+              "time": "12:45",
+              "placeId": "la-cafe-romand",
+              "title": "Zmittag im Café Romand",
+              "text": "Papet vaudois, Fondue oder Malakoffs in der Traditionsbrasserie an der Place Saint-François.",
+              "travel": "ca. 6 Min. Metro M2 bis «Flon», dann 5 Min. zu Fuss"
+            },
+            {
+              "time": "14:15",
+              "placeId": "la-le-barbare",
+              "title": "Chocolat Marta",
+              "text": "Über die Place de la Palud und die gedeckte Holztreppe hinauf und im Le Barbare die dicke heisse Schokolade probieren.",
+              "travel": "ca. 10 Min. zu Fuss bergauf"
+            },
+            {
+              "time": "14:45",
+              "tourSlug": "lausanne-hoch-tief",
+              "title": "Audio-Rundgang Stadt der Treppen",
+              "text": "Von der Kathedrale über die Escaliers du Marché, die Palud und das Flon bis hinunter nach Ouchy – die Tour führt bewusst bergab.",
+              "travel": "ca. 2 Min. zu Fuss zur Kathedrale",
+              "rain": {
+                "placeId": "la-mcba",
+                "title": "MCBA auf der Plateforme 10",
+                "text": "Bei Regen nach der Kathedrale mit der M2 zum Bahnhof und ins Kunstmuseum auf der Plateforme 10 (Sammlung gratis, samstags bis 18 Uhr)."
+              }
+            },
+            {
+              "time": "17:30",
+              "title": "Abendlicht am Quai d'Ouchy",
+              "text": "Eine Glace am Quai, auf die Mole hinauslaufen und über den See nach Évian schauen.",
+              "travel": "Ende des Rundgangs, direkt am See"
+            },
+            {
+              "time": "19:30",
+              "placeId": "la-cafe-du-grutli",
+              "title": "Fondue im Café du Grütli",
+              "text": "Fondue unter Holzbalken in einem der ältesten Cafés der Stadt – am Samstagabend reservieren.",
+              "travel": "ca. 9 Min. Metro M2 bis «Riponne-M. Béjart», dann 4 Min. zu Fuss"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Sonntag) – Zu Fuss durch das Lavaux",
+          "slots": [
+            {
+              "time": "09:30",
+              "placeId": "la-lavaux-wanderung",
+              "title": "Wanderung Cully–St-Saphorin",
+              "text": "Von Cully via Epesses und Rivaz nach St-Saphorin durch die Rebterrassen – rund zweieinhalb Stunden mit Fotostopps.",
+              "travel": "ca. 10 Min. Regionalzug Lausanne–Cully",
+              "rain": {
+                "placeId": "la-chateau-chillon",
+                "title": "Schloss Chillon statt Wanderung",
+                "text": "Bei Regen fährst du bis Veytaux-Chillon (ca. 30 Min. mit Umsteigen in Montreux) und besichtigst die Wasserburg; zum Zmittag mit dem Regionalzug zurück nach St-Saphorin."
+              }
+            },
+            {
+              "time": "12:30",
+              "placeId": "la-auberge-de-londe",
+              "title": "Zmittag in der Auberge de l'Onde",
+              "text": "Ein Teller aus der Brasserie und ein Glas St-Saphorin im alten Gasthaus – reservieren.",
+              "travel": "Ziel der Wanderung, mitten im Dorf"
+            },
+            {
+              "time": "14:15",
+              "placeId": "la-lavaux-vinorama",
+              "title": "Degustation im Lavaux Vinorama",
+              "text": "Eine Degustationsformel bestellen und Weine aus mehreren Lavaux-Dörfern nebeneinander probieren.",
+              "travel": "ca. 15 Min. zu Fuss nach Rivaz oder 4 Min. Regionalzug"
+            },
+            {
+              "time": "15:45",
+              "placeId": "la-cgn-schiff",
+              "title": "Mit dem Schiff nach Cully",
+              "text": "Vom Steg Rivaz-St-Saphorin mit dem Kursschiff zurück nach Cully und die Reben vom Wasser aus sehen. Nicht jedes Schiff hält in Rivaz – Fahrplan prüfen.",
+              "travel": "ca. 5 Min. zu Fuss zur Schiffsstation",
+              "rain": {
+                "title": "Regionalzug statt Schiff",
+                "text": "Bei Regen nimmst du ab Rivaz den Regionalzug nach Cully."
+              }
+            },
+            {
+              "time": "17:00",
+              "placeId": "la-caveau-cully",
+              "title": "Apéro im Caveau",
+              "text": "Im Winzerkeller am See ein letztes Glas Chasselas, ausgeschenkt von den Winzern selbst.",
+              "travel": "ca. 3 Min. zu Fuss von der Schiffsstation"
+            },
+            {
+              "time": "18:45",
+              "title": "Heimreise",
+              "text": "Mit dem Regionalzug nach Lausanne und weiter nach Hause.",
+              "travel": "ca. 11 Min. Regionalzug Cully–Lausanne"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

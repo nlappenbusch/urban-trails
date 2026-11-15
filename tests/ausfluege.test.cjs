@@ -30,7 +30,35 @@ test('Orte: eindeutig, vollständig, mit Quelle', () => {
     if (p.url) assert.match(p.url, /^https?:\/\//, `${p.id}: url`);
     assert.ok(p.source, `${p.id}: keine Quelle`);
     if (p.coords) assert.ok(p.coords.lat > 45.7 && p.coords.lat < 47.9 && p.coords.lng > 5.9 && p.coords.lng < 10.6, `${p.id}: Koordinaten ausserhalb der Schweiz`);
+    if (p.priceInfo) {
+      const { from, to, unit } = p.priceInfo;
+      assert.ok(typeof from === 'number' && from >= 0 && from < 2000, `${p.id}: Preis ${from}`);
+      if (to != null) assert.ok(to >= from, `${p.id}: Preisspanne ${from}–${to}`);
+      assert.ok(unit, `${p.id}: Preis ohne Einheit`);
+    }
+    if (p.image) {
+      assert.match(p.image.source, /^https:\/\/upload\.wikimedia\.org\//, `${p.id}: Bild nicht von Commons`);
+      assert.match(p.image.credit, /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/, `${p.id}: Bildnachweis`);
+      assert.ok(p.image.alt, `${p.id}: Bild ohne alt`);
+    }
   }
+});
+
+test('Budget: nur belegte Preise, Hotel geteilt, Lücken genannt', () => {
+  const { tripBudget, priceText } = load('src/lib/ausfluege-core.ts');
+  const pl = {
+    a: { id: 'a', kind: 'aktivitaet', name: 'Bahn', priceInfo: { from: 40, unit: 'Retourbillett Erwachsene' } },
+    r: { id: 'r', kind: 'restaurant', name: 'Beiz', priceInfo: { from: 25, to: 45, unit: 'Hauptgang' } },
+    m: { id: 'm', kind: 'restaurant', name: 'Ohne Preis' },
+    h: { id: 'h', kind: 'hotel', name: 'Hotel', priceInfo: { from: 200, unit: 'Doppelzimmer pro Nacht' } },
+  };
+  const days = [{ title: '1', slots: [{ time: '10:00', placeId: 'a' }, { time: '12:00', placeId: 'r' }, { time: '19:00', placeId: 'm' }] }, { title: '2', slots: [{ time: '10:00', placeId: 'a' }] }];
+  const b = tripBudget(days, pl, pl.h);
+  assert.equal(b.low, 200); // 40 + 25 + 100 (halbes DZ) + 40 → abgerundet
+  assert.equal(b.high, 230);
+  assert.deepEqual(b.missing, ['Ohne Preis']);
+  assert.equal(priceText({ from: 0, unit: 'gratis' }), 'gratis');
+  assert.equal(priceText({ from: 190, unit: 'Doppelzimmer pro Nacht' }), 'ab CHF 190 · Doppelzimmer pro Nacht');
 });
 
 test('Programme verweisen nur auf vorhandene Orte und Touren, Zeiten aufsteigend', () => {

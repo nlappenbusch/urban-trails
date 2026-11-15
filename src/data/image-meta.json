@@ -730,5 +730,57 @@
  "t/solothurn-verenaschlucht": [
   1200,
   900
+ ],
+ "p/lug-hotel-villa-castagnola": [
+  798,
+  800
+ ],
+ "p/lug-monte-bre": [
+  1200,
+  900
+ ],
+ "p/lug-monte-san-salvatore": [
+  1200,
+  900
+ ],
+ "p/lug-sentiero-olivo-gandria": [
+  1200,
+  800
+ ],
+ "p/lug-lac-masi": [
+  1200,
+  808
+ ],
+ "p/lug-santa-maria-angioli": [
+  1200,
+  870
+ ],
+ "p/lug-parco-ciani": [
+  1200,
+  800
+ ],
+ "p/lug-swissminiatur": [
+  1200,
+  675
+ ],
+ "p/bern-altes-tramdepot": [
+  1200,
+  800
+ ],
+ "p/bern-kornhauskeller": [
+  1200,
+  900
+ ],
+ "p/bern-gurten": [
+  1200,
+  798
+ ],
+ "p/bern-rosengarten": [
+  1200,
+  708
+ ],
+ "p/bern-zentrum-paul-klee": [
+  1200,
+  676
  ]
 }

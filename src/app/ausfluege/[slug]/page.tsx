@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { CalendarDays, Clock, TrainFront, Users } from "lucide-react";
-import { AUDIENCE, MOODS, daysLabel, fmtMin, getPlace, getTrip, trips } from "@/lib/ausfluege";
+import { AUDIENCE, MOODS, daysLabel, fmtMin, getPlace, getTrip, priceText, tripBudget, trips } from "@/lib/ausfluege";
 import { mainTour, regionName, timelineData } from "@/lib/ausfluege-view";
 import { getTourHeroImage } from "@/data/images";
 import { imgAttrs } from "@/lib/img";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import TripTimeline from "@/components/TripTimeline";
+import TripMap from "@/components/TripMap";
+import TripBudget from "@/components/TripBudget";
 import GuideTeaser from "@/components/GuideTeaser";
 
 interface Props {
@@ -36,10 +38,16 @@ export default async function TripPage({ params }: Props) {
   const trip = getTrip((await params).slug);
   if (!trip) notFound();
   const tour = mainTour(trip);
-  const hero = tour ? getTourHeroImage(tour.slug) : undefined;
   const hotels = (trip.hotelIds ?? []).map((id) => getPlace(id)).filter((p): p is NonNullable<typeof p> => Boolean(p));
   const { places, tours } = timelineData(trip.dayPlans, trip.hotelIds);
   const region = regionName(trip.region);
+  const budget = tripBudget(trip.dayPlans, places, hotels[0]);
+  // Fotos der Stationen in Programm-Reihenfolge, ohne Doppelte
+  const gallery = [...new Set(trip.dayPlans.flatMap((d) => d.slots).map((s) => s.placeId).filter(Boolean) as string[])]
+    .map((id) => places[id])
+    .filter((p) => p?.img && p.kind !== "hotel")
+    .slice(0, 8);
+  const hero = (tour ? getTourHeroImage(tour.slug) : undefined) ?? gallery[0]?.img;
 
   const facts = [
     { icon: Clock, label: "Dauer", value: daysLabel(trip.days) },
@@ -90,6 +98,23 @@ export default async function TripPage({ params }: Props) {
         </div>
       </section>
 
+      {gallery.length >= 3 && (
+        <div className="container-page pt-6" aria-label="Fotos der Stationen">
+          <ul className="-mx-4 flex snap-x gap-3 overflow-x-auto px-4 pb-2 sm:mx-0 sm:px-0">
+            {gallery.map((p) => (
+              <li key={p.id} className="w-44 shrink-0 snap-start sm:w-52">
+                <a href={p.img!.credit} target="_blank" rel="noopener noreferrer" title="Foto: Wikimedia Commons – Urheber & Lizenz" className="block">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={p.img!.small} {...imgAttrs(p.img!, "208px")} loading="lazy" decoding="async" className="aspect-[4/3] w-full rounded-xl object-cover" />
+                </a>
+                <p className="mt-1.5 truncate text-sm font-semibold text-cream">{p.name}</p>
+                {p.priceInfo && <p className="truncate text-xs text-cream-faint">{priceText(p.priceInfo)}</p>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div className="container-page pb-16 pt-10 sm:pt-14">
         <div className="grid gap-10 lg:grid-cols-[1fr_300px]">
           <div className="min-w-0">
@@ -98,6 +123,9 @@ export default async function TripPage({ params }: Props) {
               Uhrzeiten sind ein Vorschlag – schieb, was du willst. Bei Regen tauscht der Schalter die Draussen-Punkte gegen Plan B.
             </p>
             <div className="mt-6">
+              <TripMap days={trip.dayPlans} places={places} hotel={hotels[0]} />
+            </div>
+            <div className="mt-8">
               <TripTimeline title={trip.title} days={trip.dayPlans} places={places} tours={tours} hotel={hotels[0]} />
             </div>
             {hotels.length > 1 && (
@@ -107,6 +135,7 @@ export default async function TripPage({ params }: Props) {
                   <div key={h.id} className="card p-4">
                     <p className="font-bold text-cream">{h.name}</p>
                     <p className="mt-1 text-sm text-cream-dim">{h.text}</p>
+                    {h.priceInfo && <p className="mt-1 text-sm font-semibold text-cream">{priceText(h.priceInfo)}</p>}
                     <p className="mt-1 text-xs text-cream-faint">
                       {h.address}{h.url && <> · <a href={h.url} target="_blank" rel="noopener" className="font-semibold text-cream-dim hover:text-cream">Website</a></>}
                     </p>
@@ -139,6 +168,7 @@ export default async function TripPage({ params }: Props) {
                   </div>
                 </div>
               )}
+              <TripBudget budget={budget} />
             </div>
             <p className="text-xs leading-relaxed text-cream-faint">
               Alle Orte haben wir geprüft (Stand {lastChecked(places)}). Öffnungszeiten und Saison können sich ändern – bei Restaurants lohnt sich reservieren.

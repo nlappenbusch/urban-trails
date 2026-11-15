@@ -1,4 +1,4 @@
-import type { Place, TripDay, TripSlot } from "@/lib/ausfluege";
+import type { Place, TripDay, TripSlot } from "@/lib/ausfluege-core";
 
 /** Eingaben des Planers. */
 export interface PlanInput {

@@ -1,0 +1,1424 @@
+{
+  "places": [
+    {
+      "id": "bs-jugendherberge-basel",
+      "kind": "hotel",
+      "name": "Jugendherberge Basel",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Maja Sacher-Platz 10, 4052 Basel",
+      "coords": {
+        "lat": 47.55405,
+        "lng": 7.60183
+      },
+      "url": "https://www.youthhostel.ch/de/hostels/basel/",
+      "price": 1,
+      "tags": [
+        "familie",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Preisgekrönte Design-Jugendherberge im ruhigen St. Alban-Quartier, fast direkt am Rhein. Neben Mehrbettzimmern gibt es Doppel- und Familienzimmer – eine günstige Basis, von der du zu Fuss ins Kunstmuseum und in die Altstadt gehst.",
+      "tip": "Lass dir beim Check-in die BaselCard geben – sie gehört zur Übernachtung und bringt Vergünstigungen in der Stadt.",
+      "source": "https://www.youthhostel.ch/de/hostels/basel/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/141007Jugendherberge_Basel%2C_Basel%2C_Switzerland1.jpg/1280px-141007Jugendherberge_Basel%2C_Basel%2C_Switzerland1.jpg",
+        "alt": "Gebäude der Jugendherberge Basel im St. Alban-Quartier",
+        "credit": "https://commons.wikimedia.org/wiki/File:141007Jugendherberge_Basel,_Basel,_Switzerland1.jpg"
+      }
+    },
+    {
+      "id": "bs-hotel-krafft",
+      "kind": "hotel",
+      "name": "Krafft Basel",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Rheingasse 12, 4058 Basel",
+      "coords": {
+        "lat": 47.56019,
+        "lng": 7.59174
+      },
+      "url": "https://www.krafftbasel.ch",
+      "price": 3,
+      "tags": [
+        "romantisch",
+        "kultur",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Stadthotel von 1873 an der Kleinbasler Rheinpromenade, ein paar Schritte von der Mittleren Brücke. Die «River Rooms» schauen über den Strom auf Münster und Altstadt, und auch im Restaurant sitzt du mit Rheinblick.",
+      "tip": "Buch ausdrücklich ein River Room – die City Rooms gehen nicht auf den Rhein hinaus.",
+      "source": "https://www.krafftbasel.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Krafft_Basel_am_Rheinufer.jpg/1280px-Krafft_Basel_am_Rheinufer.jpg",
+        "alt": "Fassade des Hotels Krafft direkt am Kleinbasler Rheinufer",
+        "credit": "https://commons.wikimedia.org/wiki/File:Krafft_Basel_am_Rheinufer.jpg"
+      }
+    },
+    {
+      "id": "bs-les-trois-rois",
+      "kind": "hotel",
+      "name": "Grand Hotel Les Trois Rois",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Blumenrain 8, 4001 Basel",
+      "coords": {
+        "lat": 47.56039,
+        "lng": 7.58769
+      },
+      "url": "https://www.lestroisrois.com",
+      "price": 4,
+      "tags": [
+        "romantisch",
+        "genuss",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Fünf-Sterne-Grandhotel am Grossbasler Rheinufer, gleich unterhalb der Mittleren Brücke. Im Haus gibt es unter anderem das Gourmetrestaurant Cheval Blanc und eine Brasserie, von der Rheinseite schaust du direkt aufs Wasser.",
+      "tip": "Auch ohne Übernachtung: Ein Afternoon Tea oder ein Drink in der Hotelbar ist die günstigste Art, das Haus von innen zu erleben.",
+      "source": "https://www.lestroisrois.com/de/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hotel_Les_Trois_Rois_Basel.JPG/1280px-Hotel_Les_Trois_Rois_Basel.JPG",
+        "alt": "Fassade des Hotels Les Trois Rois am Rhein in Basel",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_Les_Trois_Rois_Basel.JPG"
+      }
+    },
+    {
+      "id": "bs-restaurant-kunsthalle",
+      "kind": "restaurant",
+      "name": "Restaurant Kunsthalle",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Steinenberg 7, 4051 Basel",
+      "coords": {
+        "lat": 47.55366,
+        "lng": 7.59125
+      },
+      "url": "https://www.restaurant-kunsthalle.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "kultur",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Sa 11.30–23 Uhr; Küche 11.30–14 und 18–21.30 Uhr",
+      "text": "Traditionsrestaurant im Haus der Kunsthalle, mit dem lockeren «Schluuch» und einem eleganteren Saal. Auf der Karte stehen Basler und Schweizer Klassiker von Hörnli mit Gehacktem bis Wiener Schnitzel, im Sommer isst du draussen im Garten unter Bäumen.",
+      "tip": "Probier das «Plat de l’artiste»: Moules et Frites nach einem Rezept, das Jackson Pollock zugeschrieben wird.",
+      "source": "https://www.restaurant-kunsthalle.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 25,
+        "to": 54,
+        "unit": "Hauptgang",
+        "note": "Tagesteller 26 CHF, Vegi-Tagesteller 24 CHF"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Kunsthalle_Basel_2008-03-30.jpg/1280px-Kunsthalle_Basel_2008-03-30.jpg",
+        "alt": "Gebäude der Kunsthalle Basel am Steinenberg, in dem das Restaurant liegt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kunsthalle_Basel_2008-03-30.jpg"
+      }
+    },
+    {
+      "id": "bs-volkshaus-brasserie",
+      "kind": "restaurant",
+      "name": "Brasserie Volkshaus Basel",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Rebgasse 12–14, 4058 Basel",
+      "coords": {
+        "lat": 47.56109,
+        "lng": 7.59362
+      },
+      "url": "https://volkshaus-basel.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "freunde",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mittag Mo–Fr 12–14 Uhr, Abend Mo–Sa 18–22 Uhr; So nur Frühstück",
+      "text": "Brasserie im von Herzog & de Meuron umgebauten Volkshaus in Kleinbasel, mit französisch geprägter Marktküche von Steak frites bis Bouillabaisse. Bei schönem Wetter wird im baumbestandenen Innenhof serviert.",
+      "tip": "Im Innenhof gilt dieselbe Karte wie drinnen – bei warmem Wetter dort einen Tisch reservieren.",
+      "source": "https://volkshaus-basel.ch/en/brasserie",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 38,
+        "to": 58,
+        "unit": "Hauptgang",
+        "note": "Abendkarte; Steak frites 54 CHF"
+      }
+    },
+    {
+      "id": "bs-goldener-sternen",
+      "kind": "restaurant",
+      "name": "Gasthof zum Goldenen Sternen",
+      "region": "basel",
+      "town": "Basel",
+      "address": "St. Alban-Rheinweg 70, 4052 Basel",
+      "coords": {
+        "lat": 47.55481,
+        "lng": 7.602
+      },
+      "url": "https://sternen-basel.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "romantisch",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Rheinterrasse im Sommer",
+      "hours": "Mo–Fr 11.30–14 und 18–23 Uhr, Sa 11.30–23 Uhr, So 11.30–22 Uhr",
+      "text": "Das Gasthaus ist seit dem 14. Jahrhundert belegt und stand bis in die 1960er-Jahre in der Aeschenvorstadt – dann wurde es Teil für Teil abgebaut und im St. Alban-Tal am Rhein wieder aufgestellt. Gekocht wird mit Schwerpunkt Fisch und regionalen Produkten, im Sommer auch auf der Rheinterrasse.",
+      "tip": "Nach dem Essen ein paar Schritte rheinaufwärts ins St. Alban-Tal gehen – mit Gewerbekanal, Mühlen und Stadtmauer eine der ruhigsten Ecken der Stadt.",
+      "source": "https://sternen-basel.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Basel_Goldener_Sternen.jpg/1280px-Basel_Goldener_Sternen.jpg",
+        "alt": "Gasthof zum Goldenen Sternen von der Rheinseite aus gesehen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Basel_Goldener_Sternen.jpg"
+      }
+    },
+    {
+      "id": "bs-fischerstube",
+      "kind": "restaurant",
+      "name": "Restaurant Fischerstube (Ueli Bier)",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Rheingasse 45, 4058 Basel",
+      "coords": {
+        "lat": 47.5593,
+        "lng": 7.59323
+      },
+      "url": "https://www.restaurantfischerstube.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig; Biergarten im Sommer",
+      "text": "Kleinbasler Beiz mit eigener Brauerei, in der seit 1974 das Ueli Bier gebraut wird. Dazu gibt es deftige Küche, etwa in Dunkelbier geschmorte Schweinsbäggli oder Salsiccia mit Sauerkraut und Serviettenknödeln.",
+      "tip": "Wenn du dich nicht entscheiden kannst: «Ueli Bier entdecken» bringt dir vier Sorten in kleinen Gläsern.",
+      "source": "https://restaurantfischerstube.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 27,
+        "to": 51,
+        "unit": "Hauptgang"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Fischerstube.jpg/1280px-Fischerstube.jpg",
+        "alt": "Restaurant Fischerstube an der Rheingasse in Kleinbasel",
+        "credit": "https://commons.wikimedia.org/wiki/File:Fischerstube.jpg"
+      }
+    },
+    {
+      "id": "bs-unternehmen-mitte",
+      "kind": "cafe",
+      "name": "Kaffeehaus Unternehmen Mitte",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Gerbergasse 30, 4001 Basel",
+      "coords": {
+        "lat": 47.55657,
+        "lng": 7.58836
+      },
+      "url": "https://www.mitte.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "freunde",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich ab 8 Uhr, So ab 9 Uhr",
+      "text": "Riesiges Kaffeehaus in der ehemaligen Schalterhalle der Schweizerischen Volksbank von 1912, mitten in der Altstadt. Die Küche ist biozertifiziert und weitgehend vegetarisch, gebacken wird in der eigenen Backstube.",
+      "tip": "Mo–Fr gibt es von 11.30 bis 14 Uhr ein Bio-Mittagsmenü – ein günstiger Zmittag mitten in der Stadt.",
+      "source": "https://www.mitte.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/UM_20260224_115341.jpg/1280px-UM_20260224_115341.jpg",
+        "alt": "Ehemaliges Bankgebäude an der Gerbergasse, heute Unternehmen Mitte",
+        "credit": "https://commons.wikimedia.org/wiki/File:UM_20260224_115341.jpg"
+      }
+    },
+    {
+      "id": "bs-markthalle",
+      "kind": "restaurant",
+      "name": "Markthalle Basel",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Steinentorberg 20, 4051 Basel",
+      "coords": {
+        "lat": 47.54927,
+        "lng": 7.58718
+      },
+      "url": "https://markthallebasel.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "familie",
+        "freunde",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Halle täglich ab 9 Uhr; Stände mit eigenen Öffnungszeiten",
+      "text": "Die Kuppelhalle von 1929 war bis 2004 Basels Grossmarkt, heute kochen hier Dutzende Stände Essen aus aller Welt. Fünf Gehminuten vom Bahnhof SBB ist sie ideal für einen schnellen, günstigen Zmittag oder einen Happen vor der Heimfahrt.",
+      "tip": "Samstags ist zusätzlich Wochenmarkt – dann wird es um die Mittagszeit voll.",
+      "source": "https://www.bs.ch/verwaltung/praesidialdepartement/aemter-und-bereiche/aussenbeziehungen-und-standortmarketing/messen-und-maerkte/basler-maerkte/weitere-maerkte",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Markthalle_Basel.jpg/1280px-Markthalle_Basel.jpg",
+        "alt": "Kuppelbau der Markthalle Basel beim Bahnhof SBB",
+        "credit": "https://commons.wikimedia.org/wiki/File:Markthalle_Basel.jpg"
+      }
+    },
+    {
+      "id": "bs-kunstmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kunstmuseum Basel",
+      "region": "basel",
+      "town": "Basel",
+      "address": "St. Alban-Graben 8, 4010 Basel",
+      "coords": {
+        "lat": 47.55393,
+        "lng": 7.59445
+      },
+      "url": "https://kunstmuseumbasel.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di und Do–So 10–18 Uhr, Mi 10–20 Uhr",
+      "durationMin": 150,
+      "text": "Eine der ältesten öffentlichen Kunstsammlungen der Welt, verteilt auf Hauptbau und Neubau am St. Alban-Graben. Du gehst von Holbein und den Alten Meistern bis zu Picasso und Rothko – plane lieber zu viel Zeit ein als zu wenig.",
+      "tip": "Die Sammlung ist Di, Do und Fr von 17 bis 18 Uhr, Mi von 17 bis 20 Uhr und an jedem ersten Sonntag im Monat gratis (nicht an Feiertagen).",
+      "source": "https://kunstmuseumbasel.ch/de/besuch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 25,
+        "to": 30,
+        "unit": "Eintritt Erwachsene",
+        "note": "25 CHF Sammlung, 30 CHF inkl. Sonderausstellung; Sammlung zu bestimmten Abendstunden gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Basel_-_2017_-_Kunstmuseum_Basel_-_Altbau.jpg/1280px-Basel_-_2017_-_Kunstmuseum_Basel_-_Altbau.jpg",
+        "alt": "Hauptbau des Kunstmuseums Basel am St. Alban-Graben",
+        "credit": "https://commons.wikimedia.org/wiki/File:Basel_-_2017_-_Kunstmuseum_Basel_-_Altbau.jpg"
+      }
+    },
+    {
+      "id": "bs-fondation-beyeler",
+      "kind": "sehenswuerdigkeit",
+      "name": "Fondation Beyeler",
+      "region": "basel",
+      "town": "Riehen",
+      "address": "Baselstrasse 101, 4125 Riehen",
+      "coords": {
+        "lat": 47.58805,
+        "lng": 7.65099
+      },
+      "url": "https://www.fondationbeyeler.ch",
+      "price": 3,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 10–18 Uhr, Mi bis 20 Uhr",
+      "durationMin": 150,
+      "text": "Renzo Pianos lichter Museumsbau steht in einem Park in Riehen, mit Klassikern der Moderne und grossen Wechselausstellungen. Durch die Glasfronten schaust du aus den Sälen auf Seerosenteich, Wiesen und die Rebhänge dahinter.",
+      "tip": "Tickets gibt es mit Zeitfenster online – buch vorab, dann sparst du dir das Warten am Eingang.",
+      "source": "https://www.fondationbeyeler.ch/en/visit",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Riehen_BS_Fondation_Beyeler.jpg/1280px-Riehen_BS_Fondation_Beyeler.jpg",
+        "alt": "Museumsbau der Fondation Beyeler mit Wasserbecken in Riehen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Riehen_BS_Fondation_Beyeler.jpg"
+      }
+    },
+    {
+      "id": "bs-museum-tinguely",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museum Tinguely",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Paul Sacher-Anlage 2, 4058 Basel",
+      "coords": {
+        "lat": 47.55922,
+        "lng": 7.6123
+      },
+      "url": "https://www.tinguely.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 11–18 Uhr, Do bis 21 Uhr",
+      "durationMin": 90,
+      "text": "Museum für die ratternden und quietschenden Maschinenskulpturen von Jean Tinguely, gebaut von Mario Botta im Solitude-Park direkt am Rhein. Viele Werke setzt du per Fussschalter selbst in Gang – das begeistert auch Kinder.",
+      "tip": "Am «Langen Donnerstag» von 18 bis 21 Uhr ist der Eintritt frei.",
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/museum-tinguely-2481.html",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 18,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder unter 16 in Begleitung gratis; Do 18–21 Uhr gratis; Museumspass gilt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Basel_Museum_Tinguely_02.jpg/1280px-Basel_Museum_Tinguely_02.jpg",
+        "alt": "Museum Tinguely vom gegenüberliegenden Rheinufer aus",
+        "credit": "https://commons.wikimedia.org/wiki/File:Basel_Museum_Tinguely_02.jpg"
+      }
+    },
+    {
+      "id": "bs-zoo-basel",
+      "kind": "aktivitaet",
+      "name": "Zoo Basel (Zolli)",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Binningerstrasse 40, 4054 Basel",
+      "coords": {
+        "lat": 47.5469,
+        "lng": 7.57792
+      },
+      "url": "https://www.zoobasel.ch",
+      "price": 2,
+      "tags": [
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "hours": "täglich ab 8 Uhr; Schluss je nach Saison 17.30–18.30 Uhr",
+      "durationMin": 210,
+      "text": "Der älteste Zoo der Schweiz liegt rund zehn Gehminuten vom Bahnhof SBB entfernt mitten in der Stadt. Neben Elefanten, Gorillas und Pinguinen lohnt sich das Vivarium mit Aquarien und Reptilien – praktisch, wenn zwischendurch ein Schauer kommt.",
+      "tip": "Mit RailAway-Kombiangeboten gibt es auf den Eintritt zeitweise Rabatt – vor der Anreise in der SBB-App nachschauen.",
+      "source": "https://www.bls.ch/de/freizeit-und-ferien/ausfluege/basel-zoo",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 21,
+        "to": 22,
+        "unit": "Eintritt Erwachsene",
+        "note": "je nach freiwilligem Naturschutzfranken; Kinder 6–15 CHF 10, Familienkarte erhältlich"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Zoo_Basel_Haupteingang.jpg/1280px-Zoo_Basel_Haupteingang.jpg",
+        "alt": "Haupteingang des Zoo Basel",
+        "credit": "https://commons.wikimedia.org/wiki/File:Zoo_Basel_Haupteingang.jpg"
+      }
+    },
+    {
+      "id": "bs-muensterfaehre-leu",
+      "kind": "aktivitaet",
+      "name": "Münsterfähre «Leu»",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Anlegestellen unterhalb der Pfalz (Grossbasel) und am Oberen Rheinweg (Kleinbasel)",
+      "coords": {
+        "lat": 47.55703,
+        "lng": 7.59301
+      },
+      "url": "https://www.leu-faehri.ch",
+      "price": 1,
+      "tags": [
+        "romantisch",
+        "familie",
+        "aussicht",
+        "kultur"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; bei Hochwasser oder Sturm kein Betrieb",
+      "hours": "Sommer täglich 9–20 Uhr, Winter täglich 11–17 Uhr",
+      "durationMin": 15,
+      "text": "Die Fähre hat keinen Motor: Sie hängt an einem Drahtseil über dem Rhein und lässt sich von der Strömung hinüberdrücken. Die Überfahrt zwischen Münsterhügel und Kleinbasel dauert nur wenige Minuten, aber vom Wasser aus siehst du die Pfalz-Terrasse so gut wie von nirgends sonst.",
+      "tip": "Bezahlt wird direkt beim Fährmann an Bord – halte etwas Münz bereit.",
+      "source": "https://www.leu-faehri.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 2,
+        "unit": "Einzelfahrt Erwachsene",
+        "note": "Kinder, Velos und Hunde CHF 1"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Basel_M%C3%BCnsterf%C3%A4hre_Leu.jpg/1280px-Basel_M%C3%BCnsterf%C3%A4hre_Leu.jpg",
+        "alt": "Münsterfähre Leu auf dem Rhein kurz nach der Abfahrt unterhalb des Münsters",
+        "credit": "https://commons.wikimedia.org/wiki/File:Basel_M%C3%BCnsterf%C3%A4hre_Leu.jpg"
+      }
+    },
+    {
+      "id": "bs-rheinschwimmen",
+      "kind": "aktivitaet",
+      "name": "Rheinschwimmen mit dem Wickelfisch",
+      "region": "basel",
+      "town": "Basel",
+      "address": "Einstieg Schaffhauserrheinweg 93 (unterhalb Museum Tinguely), 4058 Basel",
+      "coords": {
+        "lat": 47.55739,
+        "lng": 7.60366
+      },
+      "url": "https://www.basel.com/de/freizeit-ausfluege/rheinschwimmen",
+      "price": 1,
+      "tags": [
+        "aktiv",
+        "gratis",
+        "freunde"
+      ],
+      "weatherProof": false,
+      "season": "Hochsommer bei warmem Wasser; Wickelfisch-Verleih Juni–September",
+      "durationMin": 60,
+      "text": "Das Basler Sommerritual: Kleider in den wasserdichten Wickelfisch packen, unterhalb des Tinguely-Museums ins Wasser steigen und sich auf der Kleinbasler Seite rund zwei Kilometer flussabwärts treiben lassen. Spätestens nach der Johanniterbrücke steigst du über eine der Treppen wieder aus.",
+      "tip": "Nur für sichere Schwimmer: Bleib in Ufernähe, weg von Fähren, Brückenpfeilern und der Schifffahrtsrinne. Im Juli und August begleitet die SLRG dienstags Gruppen durch den Rhein.",
+      "source": "https://www.basel.com/de/freizeit-ausfluege/rheinschwimmen",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis",
+        "note": "Wickelfisch bei Basel Tourismus ausleihbar (Depot), solange Vorrat"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Basel_Rheinschwimmer.JPG/1280px-Basel_Rheinschwimmer.JPG",
+        "alt": "Rheinschwimmer mit Schwimmsäcken im Rhein in Basel",
+        "credit": "https://commons.wikimedia.org/wiki/File:Basel_Rheinschwimmer.JPG"
+      }
+    },
+    {
+      "id": "bs-basler-papiermuehle",
+      "kind": "sehenswuerdigkeit",
+      "name": "Basler Papiermühle",
+      "region": "basel",
+      "town": "Basel",
+      "address": "St. Alban-Tal 37, 4052 Basel",
+      "coords": {
+        "lat": 47.55466,
+        "lng": 7.60346
+      },
+      "url": "https://baslerpapiermuehle.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–Fr 11–17, Sa 13–17, So 11–17 Uhr",
+      "durationMin": 90,
+      "text": "Mitmach-Museum in einer mittelalterlichen Mühle am Gewerbekanal im St. Alban-Tal. Du schöpfst selbst einen Bogen Papier, setzt Bleilettern und schreibst mit der Feder – gut mit Kindern und bei Regen.",
+      "tip": "Samstags öffnet das Museum erst um 13 Uhr.",
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/basler-papiermuehle-1895.html",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Basler_Papierm%C3%BChle_-_Flickr_-_Alexandre_Prevot.jpg/1280px-Basler_Papierm%C3%BChle_-_Flickr_-_Alexandre_Prevot.jpg",
+        "alt": "Basler Papiermühle am Gewerbekanal im St. Alban-Tal",
+        "credit": "https://commons.wikimedia.org/wiki/File:Basler_Papierm%C3%BChle_-_Flickr_-_Alexandre_Prevot.jpg"
+      }
+    },
+    {
+      "id": "sg-hotel-einstein",
+      "kind": "hotel",
+      "name": "Hotel Einstein St. Gallen",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Berneggstrasse 2, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.42145,
+        "lng": 9.37545
+      },
+      "url": "https://www.einstein.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Grosses Stadthotel am Rand des Klosterviertels, nur wenige Gehminuten vom Stiftsbezirk. Im Haus gibt es das Gourmetrestaurant Einstein Gourmet mit zwei Michelin-Sternen, ein Bistro, Bar, Cigar Lounge und einen Fitnessbereich.",
+      "tip": "Wer im Einstein Gourmet essen will, reserviert am besten gleich mit dem Zimmer.",
+      "source": "https://www.einstein.ch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/St.Gallen_Einstein_02.jpg/1280px-St.Gallen_Einstein_02.jpg",
+        "alt": "Gebäude des Hotels Einstein in St. Gallen",
+        "credit": "https://commons.wikimedia.org/wiki/File:St.Gallen_Einstein_02.jpg"
+      }
+    },
+    {
+      "id": "sg-hotel-dom",
+      "kind": "hotel",
+      "name": "Hotel Dom",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Webergasse 22, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.42282,
+        "lng": 9.37508
+      },
+      "url": "https://www.hoteldom.ch",
+      "price": 2,
+      "tags": [
+        "kultur",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Design-Hotel in der Altstadt, getragen von der Stiftung Förderraum: Rund 55 Menschen mit Unterstützungsbedarf arbeiten oder lernen hier. Zum Stiftsbezirk und zum Gallusplatz sind es nur ein paar Schritte.",
+      "tip": "Frag nach einem Superior-Zimmer mit Erker – einige schauen direkt auf den Gallusplatz. Direkt gebucht ist es laut Hotel mindestens 16 Franken günstiger als über Portale.",
+      "source": "https://www.hoteldom.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sg-bratwurst-bowls-gemperli",
+      "kind": "restaurant",
+      "name": "Bratwurst & Bowls (Bratwurststand Gemperli)",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Schmiedgasse 34, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.4236,
+        "lng": 9.37481
+      },
+      "price": 1,
+      "tags": [
+        "genuss",
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "hours": "So geschlossen; Mo–Fr 11–18.30, Sa 11–17 Uhr",
+      "text": "Am traditionellen Gemperli-Stand in der Altstadt gibt es die St. Galler Bratwurst vom Grill mit einem Bürli auf die Hand. Seit 2021 stehen daneben auch Poke Bowls auf der Tafel.",
+      "tip": "Bestell die Bratwurst ohne Senf – in St. Gallen ist das Ehrensache.",
+      "source": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/bratwurst-bowls/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sg-zum-goldenen-schaefli",
+      "kind": "restaurant",
+      "name": "Zum Goldenen Schäfli",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Metzgergasse 5, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.42661,
+        "lng": 9.37557
+      },
+      "url": "https://www.zumgoldenenschaeflisg.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So Ruhetag; Mo–Sa 11.30–14 und 18–24 Uhr",
+      "text": "Erststockbeiz im letzten erhaltenen Zunfthaus der Stadt, gebaut 1484. In der getäferten Zunftstube fällt der Boden über die Raumbreite um 33 Zentimeter ab, auf den Tisch kommen saisonale und regionale Gerichte.",
+      "tip": "Hier gibt es die St. Galler Kalbsbratwurst auch als richtiges Tellergericht – abends unbedingt reservieren.",
+      "source": "https://guide.michelin.com/en/sankt-gallen-region/sankt-gallen/restaurant/zum-goldenen-schafli",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Goldenes_Sch%C3%A4fli_St._Gallen_02.jpg/1280px-Goldenes_Sch%C3%A4fli_St._Gallen_02.jpg",
+        "alt": "Wirtshausschild des Goldenen Schäfli an der Metzgergasse",
+        "credit": "https://commons.wikimedia.org/wiki/File:Goldenes_Sch%C3%A4fli_St._Gallen_02.jpg"
+      }
+    },
+    {
+      "id": "sg-wirtschaft-zur-alten-post",
+      "kind": "restaurant",
+      "name": "Wirtschaft zur Alten Post",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Gallusstrasse 4, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.42419,
+        "lng": 9.37659
+      },
+      "url": "https://www.apost.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo Ruhetag; Küche Di–Sa 11.30–13.30 und 17.30–21.30 Uhr, So 11.30–13.30 und 16.30–20.30 Uhr",
+      "text": "Altstadthaus beim Stiftsbezirk mit Bar im Erdgeschoss und der St. Galler Gaststube im ersten Stock. Im Herbst kommt Wild auf die Karte, das ganze Jahr Klassiker wie Kalbsgeschnetzeltes mit Rösti oder Hackbraten nach Grossmutterart.",
+      "tip": "Sonntags kocht die Küche ein Überraschungsmenü («Simsala Sonntag»).",
+      "source": "https://www.apost.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 42,
+        "to": 59,
+        "unit": "Hauptgang"
+      }
+    },
+    {
+      "id": "sg-netts-schuetzengarten",
+      "kind": "restaurant",
+      "name": "netts Schützengarten",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "St. Jakob-Strasse 35, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.42971,
+        "lng": 9.37903
+      },
+      "url": "https://www.netts.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So Ruhetag; Mo–Do 11.30–23, Fr 11.30–24, Sa 17–24 Uhr",
+      "text": "Restaurant auf dem Gelände der Brauerei Schützengarten, der ältesten noch aktiven Brauerei der Schweiz, mit Bier aus dem eigenen Haus. Neben Entrecôte Café de Paris und Tatar steht die St. Galler Kinderfest-Bratwurst mit Zwiebelsauce als Klassiker auf der Karte.",
+      "tip": "Die Kinderfest-Bratwurst (220 g) ist mit 20 Franken das günstigste Hauptgericht – mit einem Hausbier dazu.",
+      "source": "https://www.netts.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 20,
+        "to": 58,
+        "unit": "Hauptgang",
+        "note": "Kinderfest-Bratwurst 20 CHF"
+      }
+    },
+    {
+      "id": "sg-confiserie-roggwiller",
+      "kind": "cafe",
+      "name": "Confiserie Roggwiller (Tea Room Multergasse)",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Multergasse 17, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.42427,
+        "lng": 9.3756
+      },
+      "url": "https://www.roggwiller.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "regenfest",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So/Feiertage geschlossen; Mo 9.30–18, Di–Fr 9–18, Sa 9–17 Uhr",
+      "text": "Stammhaus der St. Galler Confiserie mit Tea Room an der Multergasse. Hier bekommst du Klosterbiber, Schoggi-«Pflastersteine» und Pralinen, die in der Altstadt von Hand hergestellt werden.",
+      "tip": "Am Sonntag ist das Stammhaus zu – dann hat die Filiale beim Bahnhof (Poststrasse 30) bis 19 Uhr offen.",
+      "source": "https://www.roggwiller.ch/kontakt/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sg-restaurant-schwaegalp",
+      "kind": "restaurant",
+      "name": "Restaurant Schwägalp (Säntis – das Hotel)",
+      "region": "st-gallen",
+      "town": "Schwägalp",
+      "address": "Schwägalp, 9107 Schwägalp",
+      "coords": {
+        "lat": 47.25654,
+        "lng": 9.3185
+      },
+      "url": "https://saentisbahn.ch/essen-trinken/restaurant-schwaegalp/",
+      "price": 2,
+      "tags": [
+        "berg",
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "warme Küche durchgehend 11–21 Uhr",
+      "text": "Restaurant im Erdgeschoss des Hotels an der Talstation der Säntis-Schwebebahn, mit regionaler Küche und einer grossen Sonnenterrasse mit Blick zum Säntis.",
+      "tip": "Die warme Küche läuft ohne Pause – praktisch, wenn du erst nach der Gipfelfahrt am Nachmittag isst.",
+      "source": "https://saentisbahn.ch/essen-trinken/restaurant-schwaegalp/",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "sg-stiftsbibliothek",
+      "kind": "sehenswuerdigkeit",
+      "name": "Stiftsbibliothek St. Gallen",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Klosterhof 6d, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.42279,
+        "lng": 9.37644
+      },
+      "url": "https://www.stiftsbezirk.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich 10–17 Uhr, Juli–September bis 18 Uhr",
+      "durationMin": 75,
+      "text": "Der barocke Bibliothekssaal aus dem 18. Jahrhundert ist das Herz des UNESCO-Welterbes Stiftsbezirk: Bücherschränke über zwei Etagen, Stuck und Deckenbilder, in den Vitrinen mittelalterliche Handschriften. Im Gewölbekeller erzählt eine Ausstellung die Geschichte des Klosters.",
+      "tip": "Im Barocksaal ziehst du Filzpantoffeln über die Schuhe, damit der alte Parkettboden geschont wird.",
+      "source": "https://www.stiftsbezirk.ch/de/oeffnungszeiten",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 18,
+        "unit": "Eintritt Erwachsene",
+        "note": "Ticket «Stiftsbezirk gesamt» inkl. Gewölbekeller und Ausstellungssaal"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Barocksaal_der_Stiftsbibliothek_St._Gallen.jpg/1280px-Barocksaal_der_Stiftsbibliothek_St._Gallen.jpg",
+        "alt": "Barocksaal der Stiftsbibliothek St. Gallen mit Bücherschränken und Deckenmalerei",
+        "credit": "https://commons.wikimedia.org/wiki/File:Barocksaal_der_Stiftsbibliothek_St._Gallen.jpg"
+      }
+    },
+    {
+      "id": "sg-textilmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Textilmuseum St. Gallen",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Vadianstrasse 2, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.42339,
+        "lng": 9.37359
+      },
+      "url": "https://www.textilmuseum.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17 Uhr",
+      "durationMin": 75,
+      "text": "Hier verstehst du, wie St. Gallen mit Stickereien und Spitzen um 1900 zur Textilmetropole wurde, deren Ware in die ganze Welt ging. Zu sehen sind historische Musterbücher, kostbare Spitzen und Wechselausstellungen zu Mode und Design.",
+      "tip": "Am Mittwoch von 12 bis 17 Uhr ist zusätzlich die Textilbibliothek mit alten Musterbüchern offen.",
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/textilmuseum-st-gallen-2269.html",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "Museumspass gilt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/St.Gallen_Textilmuseum.jpg/1280px-St.Gallen_Textilmuseum.jpg",
+        "alt": "Gebäude des Textilmuseums an der Vadianstrasse in St. Gallen",
+        "credit": "https://commons.wikimedia.org/wiki/File:St.Gallen_Textilmuseum.jpg"
+      }
+    },
+    {
+      "id": "sg-drei-weieren",
+      "kind": "aussicht",
+      "name": "Drei Weieren",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Drei Weieren, 9000 St. Gallen (ca. 5 Min. ab Haltestelle «Mühlegg»)",
+      "coords": {
+        "lat": 47.42143,
+        "lng": 9.38728
+      },
+      "url": "https://www.myswitzerland.com/en/experiences/drei-weieren",
+      "price": 1,
+      "tags": [
+        "gratis",
+        "aussicht",
+        "familie",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig; Familienbad etwa Mai bis Anfang September",
+      "durationMin": 60,
+      "text": "Auf der Geländeterrasse über der Altstadt liegen alte Weiher, die einst Wasser für die Textilbleichen lieferten und heute Badeplatz und Spazierziel sind. Vom Damm schaust du über die Dächer der Stadt bis zum Bodensee.",
+      "tip": "Im Sommer ist das Familienbad am Weiher offen – pack die Badesachen ein, wenn du an einem heissen Tag hier oben bist.",
+      "source": "https://www.myswitzerland.com/en/experiences/drei-weieren",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/St.Gallen_Dreiweieren_Mannenweiher_01.jpg/1280px-St.Gallen_Dreiweieren_Mannenweiher_01.jpg",
+        "alt": "Mannenweiher der Drei Weieren oberhalb von St. Gallen",
+        "credit": "https://commons.wikimedia.org/wiki/File:St.Gallen_Dreiweieren_Mannenweiher_01.jpg"
+      }
+    },
+    {
+      "id": "sg-saentis",
+      "kind": "aussicht",
+      "name": "Säntis mit der Schwebebahn ab Schwägalp",
+      "region": "st-gallen",
+      "town": "Schwägalp",
+      "address": "Talstation Säntis-Schwebebahn, 9107 Schwägalp",
+      "coords": {
+        "lat": 47.25648,
+        "lng": 9.3176
+      },
+      "url": "https://saentisbahn.ch",
+      "price": 3,
+      "tags": [
+        "berg",
+        "aussicht",
+        "aktiv",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig, ausser Revisionen; nach dem Neubau der Bahn Betrieb ab Mitte Dezember 2026",
+      "hours": "meist 8.30–17 Uhr, im Sommer bis 17.30 Uhr (Sa/So bis 18.30 Uhr)",
+      "durationMin": 180,
+      "text": "Von der Schwägalp schwebt die Bahn auf den 2502 Meter hohen Säntis, den höchsten Gipfel im Alpstein. Bei klarem Wetter reicht der Blick oben über sechs Länder, vom Bodensee bis tief in die Alpen.",
+      "tip": "An deinem Geburtstag fährst du mit Ausweis für 35 statt 50 Franken hinauf und hinunter.",
+      "source": "https://saentisbahn.ch/de/preise",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 50,
+        "unit": "Retourbillett Erwachsene",
+        "note": "Einzelfahrt 30 CHF, Kinder 6–15 CHF 10; ein Halbtax-Rabatt wird in der Preisliste nicht erwähnt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/S%C3%A4ntis_Bergstation_und_Gipfel_20210812.jpg/1280px-S%C3%A4ntis_Bergstation_und_Gipfel_20210812.jpg",
+        "alt": "Säntisgipfel mit Bergstation der Schwebebahn, Sendeturm und Restaurant",
+        "credit": "https://commons.wikimedia.org/wiki/File:S%C3%A4ntis_Bergstation_und_Gipfel_20210812.jpg"
+      }
+    },
+    {
+      "id": "sg-appenzell-dorf",
+      "kind": "sehenswuerdigkeit",
+      "name": "Appenzell Dorf mit Hauptgasse und Landsgemeindeplatz",
+      "region": "st-gallen",
+      "town": "Appenzell",
+      "address": "Landsgemeindeplatz, 9050 Appenzell",
+      "coords": {
+        "lat": 47.33148,
+        "lng": 9.40757
+      },
+      "url": "https://www.appenzell.ch",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "gratis",
+        "familie",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "durationMin": 90,
+      "text": "Der Hauptort von Innerrhoden ist klein genug für einen gemütlichen Bummel: Holzhäuser mit bunt bemalten Fassaden und geschweiften Giebeln an der Hauptgasse, dazwischen Läden mit Käse, Biber und Alpenbitter. Am Landsgemeindeplatz mit der Gerichtslinde stimmen die Innerrhoder einmal im Jahr unter freiem Himmel ab.",
+      "tip": "Der Bahnhof liegt nur wenige Gehminuten vom Dorfkern – den Ausflug machst du problemlos ohne Auto.",
+      "source": "https://de.wikipedia.org/wiki/Appenzell_(Ort)",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Appenzell_Landsgemeindeplatz_20210528.jpg/1280px-Appenzell_Landsgemeindeplatz_20210528.jpg",
+        "alt": "Bemalte Häuser am Landsgemeindeplatz in Appenzell",
+        "credit": "https://commons.wikimedia.org/wiki/File:Appenzell_Landsgemeindeplatz_20210528.jpg"
+      }
+    },
+    {
+      "id": "sg-museum-appenzell",
+      "kind": "sehenswuerdigkeit",
+      "name": "Museum Appenzell",
+      "region": "st-gallen",
+      "town": "Appenzell",
+      "address": "Hauptgasse 4, 9050 Appenzell",
+      "coords": {
+        "lat": 47.33089,
+        "lng": 9.40986
+      },
+      "url": "https://www.museum.ai.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "April–Oktober Mo–Fr 10–12 und 13.30–17, Sa/So 11–17 Uhr; November–März Di–So 14–17 Uhr",
+      "durationMin": 75,
+      "text": "Das Museum beim Rathaus an der Hauptgasse widmet sich der ländlichen, katholisch geprägten Kultur Innerrhodens. Auf mehreren Stockwerken siehst du Trachten, Stickereien, Bauernmalerei und erfährst, wie die Landsgemeinde funktioniert.",
+      "tip": "Von November bis März öffnet das Museum erst um 14 Uhr – plan den Besuch auf den Nachmittag.",
+      "source": "https://www.appenzell.ch/fileadmin/template_appenzell/user_upload/01_Bilder/05_Kultur_und_Brauchtum/Museen/MUA_Dauerausstellungsflyer_DE_160520.pdf",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Appenzell_Hauptgasse4.JPG/1280px-Appenzell_Hauptgasse4.JPG",
+        "alt": "Bemaltes Haus Buherre Hanisefs an der Hauptgasse 4 in Appenzell",
+        "credit": "https://commons.wikimedia.org/wiki/File:Appenzell_Hauptgasse4.JPG"
+      }
+    },
+    {
+      "id": "sg-kunstmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kunstmuseum St. Gallen (Stadtpark)",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Museumstrasse 32, 9000 St. Gallen",
+      "coords": {
+        "lat": 47.42779,
+        "lng": 9.38159
+      },
+      "url": "https://www.kunstmuseumsg.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17 Uhr, Do bis 20 Uhr",
+      "durationMin": 90,
+      "text": "Neoklassizistischer Museumsbau von 1877 im Stadtpark, in dem Wechselausstellungen ältere Werke und Gegenwartskunst nebeneinanderstellen. Kompakt genug für einen Regennachmittag ohne Museumsmüdigkeit.",
+      "tip": "Kinder und Jugendliche kommen in Begleitung Erwachsener gratis hinein.",
+      "source": "https://www.kunstmuseumsg.ch/eintritt",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder und Jugendliche in Begleitung gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Art_Museum_St_Gallen_May_2011.jpg/1280px-Art_Museum_St_Gallen_May_2011.jpg",
+        "alt": "Museumsbau von 1877 an der Museumstrasse im St. Galler Stadtpark",
+        "credit": "https://commons.wikimedia.org/wiki/File:Art_Museum_St_Gallen_May_2011.jpg"
+      }
+    },
+    {
+      "id": "sg-naturmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Naturmuseum St. Gallen",
+      "region": "st-gallen",
+      "town": "St. Gallen",
+      "address": "Rorschacher Strasse 263, 9016 St. Gallen",
+      "coords": {
+        "lat": 47.43946,
+        "lng": 9.40873
+      },
+      "url": "https://www.naturmuseumsg.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17 Uhr",
+      "durationMin": 120,
+      "text": "Naturkundemuseum am östlichen Stadtrand mit Tieren, Pflanzen, Gesteinen und Landschaften der Ostschweiz, dazu wechselnde Sonderausstellungen. Ein guter Plan für einen verregneten Vormittag, besonders mit Kindern.",
+      "tip": "Bus 1 ab Bahnhof St. Gallen hält direkt vor dem Haus (Haltestelle «Naturmuseum»).",
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/naturmuseum-st-gallen-2267.html",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 12,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder in Begleitung gratis; Museumspass gilt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Neues_Naturmuseum_St._Gallen%2C_Ost-_und_S%C3%BCdfassade.jpg/1280px-Neues_Naturmuseum_St._Gallen%2C_Ost-_und_S%C3%BCdfassade.jpg",
+        "alt": "Neubau des Naturmuseums St. Gallen von Osten",
+        "credit": "https://commons.wikimedia.org/wiki/File:Neues_Naturmuseum_St._Gallen,_Ost-_und_S%C3%BCdfassade.jpg"
+      }
+    }
+  ],
+  "trips": [
+    {
+      "slug": "basel-kunst-rhein-faehren",
+      "title": "Basel – Kunst, Rhein und Fähren",
+      "teaser": "Zwei Tage zwischen Holbein, Beyeler und Tinguely – und zwischendurch lässt du dich mit der Fähre über den Rhein treiben.",
+      "region": "basel",
+      "days": 2,
+      "moods": [
+        "kultur",
+        "genuss",
+        "romantik"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "ganzjährig; ideal Dienstag bis Freitag, weil die Museen am Montag zu sind und die Volkshaus-Brasserie am Wochenende mittags geschlossen hat",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 53
+        },
+        {
+          "from": "Bern",
+          "minutes": 56
+        },
+        {
+          "from": "Luzern",
+          "minutes": 61
+        }
+      ],
+      "hotelIds": [
+        "bs-jugendherberge-basel",
+        "bs-hotel-krafft",
+        "bs-les-trois-rois"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Di–Fr) – Rundgang, St. Alban und Kunstmuseum",
+          "slots": [
+            {
+              "time": "09:45",
+              "placeId": "bs-hotel-krafft",
+              "title": "Gepäck abgeben",
+              "text": "Mit dem Tram vom Bahnhof SBB nach Kleinbasel und das Gepäck im Hotel am Rhein lassen.",
+              "travel": "ca. 10 Min. Tram 8 bis «Rheingasse»"
+            },
+            {
+              "time": "10:15",
+              "tourSlug": "basel-rhein",
+              "title": "Audio-Rundgang «Basel – Stadt am Strom»",
+              "text": "Vom Marktplatz übers Münster und die Mittlere Brücke nach Kleinbasel, mit der Klingental-Fähre über den Rhein und zum Schluss den Unteren Rheinweg entlang.",
+              "travel": "ca. 5 Min. zu Fuss über die Mittlere Brücke zum Startpunkt Marktplatz",
+              "rain": {
+                "placeId": "bs-basler-papiermuehle",
+                "title": "Papiermühle statt Rheinufer",
+                "text": "Bei Dauerregen kürzt du den Rundgang nach Münster und Mittlerer Brücke ab und gehst ins St. Alban-Tal: In der Papiermühle schöpfst du selbst Papier (Di–Fr ab 11 Uhr)."
+              }
+            },
+            {
+              "time": "13:20",
+              "placeId": "bs-goldener-sternen",
+              "title": "Zmittag im Goldenen Sternen",
+              "text": "Fisch oder Mittagsmenü im Gasthaus, das Teil für Teil an den Rhein umgezogen ist – bei Sonne auf der Rheinterrasse. Die Mittagsküche schliesst um 14 Uhr.",
+              "travel": "ca. 25 Min. zu Fuss rheinaufwärts und über die Wettsteinbrücke"
+            },
+            {
+              "time": "15:00",
+              "placeId": "bs-kunstmuseum",
+              "title": "Von Holbein bis Rothko",
+              "text": "Zweieinhalb Stunden durch Hauptbau und Neubau; zum Schluss ein Blick in den Innenhof mit Rodins «Bürgern von Calais».",
+              "travel": "ca. 10 Min. zu Fuss bergauf zum St. Alban-Graben"
+            },
+            {
+              "time": "17:45",
+              "placeId": "bs-unternehmen-mitte",
+              "title": "Kaffee in der alten Bankhalle",
+              "text": "Kurz durchatmen im grossen Kaffeehaus, bevor es zum Znacht über den Rhein geht.",
+              "travel": "ca. 10 Min. zu Fuss in die Gerbergasse"
+            },
+            {
+              "time": "19:30",
+              "placeId": "bs-fischerstube",
+              "title": "Ueli Bier und Schweinsbäggli",
+              "text": "Znacht in der Hausbrauerei an der Rheingasse – besser vorher reservieren.",
+              "travel": "ca. 10 Min. zu Fuss über die Mittlere Brücke"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Di–Fr) – Beyeler, Tinguely und die Fähre",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "bs-fondation-beyeler",
+              "title": "Fondation Beyeler",
+              "text": "Mit dem Zeitfenster-Ticket gleich zur Öffnung hinein, solange es noch ruhig ist; danach ein paar Minuten durch den Park am Museum.",
+              "travel": "ca. 5 Min. zu Fuss zum Claraplatz, dann ca. 18 Min. Tram 6 bis «Fondation Beyeler»"
+            },
+            {
+              "time": "12:45",
+              "placeId": "bs-volkshaus-brasserie",
+              "title": "Zmittag im Volkshaus",
+              "text": "Marktküche in der Brasserie oder im Innenhof – der Mittagsservice läuft nur Mo–Fr bis 14 Uhr.",
+              "travel": "ca. 18 Min. Tram 6 zurück bis «Claraplatz», dann 3 Min. zu Fuss"
+            },
+            {
+              "time": "14:30",
+              "placeId": "bs-museum-tinguely",
+              "title": "Maschinen in Bewegung",
+              "text": "Fussschalter drücken und zusehen, wie Tinguelys Skulpturen rattern und quietschen – rund anderthalb Stunden.",
+              "travel": "ca. 20 Min. zu Fuss am Rhein entlang bis in den Solitude-Park"
+            },
+            {
+              "time": "16:15",
+              "placeId": "bs-muensterfaehre-leu",
+              "title": "Mit der «Leu» übers Wasser",
+              "text": "Dem Oberen Rheinweg entlang zur Anlegestelle und mit der Strömung hinüber zum Münster. Im Winter fährt die Fähre nur bis 17 Uhr.",
+              "travel": "ca. 15 Min. zu Fuss rheinabwärts",
+              "rain": {
+                "placeId": "bs-markthalle",
+                "title": "Markthalle statt Fähre",
+                "text": "Bei Sturm oder Hochwasser bleibt die Fähre am Ufer: Nimm das Tram Richtung Bahnhof und gönn dir in der Markthalle noch einen Happen vor der Heimfahrt."
+              }
+            },
+            {
+              "time": "16:45",
+              "title": "Über die Pfalz zum Bahnhof",
+              "text": "Von der Pfalz-Terrasse hinter dem Münster noch einmal auf den Rhein schauen, dann durch die Altstadt zum Bahnhof SBB.",
+              "travel": "ca. 20 Min. zu Fuss oder Tram ab «Kunstmuseum»"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basel-sommertag-wickelfisch",
+      "title": "Basler Sommertag mit Wickelfisch",
+      "teaser": "Altstadt-Rundgang, Tinguelys Maschinen und dann ab in den Rhein – der Tag endet im Innenhof des Volkshauses.",
+      "region": "basel",
+      "days": 1,
+      "moods": [
+        "aktiv",
+        "kultur",
+        "genuss"
+      ],
+      "audience": [
+        "freunde",
+        "paar",
+        "allein"
+      ],
+      "season": "Hochsommer (Juli–August) an warmen Tagen; Dienstag bis Samstag, weil das Tinguely montags und das Restaurant Kunsthalle sonntags zu ist",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 53
+        },
+        {
+          "from": "Bern",
+          "minutes": 56
+        },
+        {
+          "from": "Luzern",
+          "minutes": 61
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Di–Sa) – Altstadt, Tinguely und Rhein",
+          "slots": [
+            {
+              "time": "10:00",
+              "tourSlug": "basel-rhein",
+              "title": "Audio-Rundgang «Basel – Stadt am Strom»",
+              "text": "Vom Marktplatz übers Münster nach Kleinbasel und mit der Klingental-Fähre über den Rhein – so siehst du die Strecke, die du am Nachmittag schwimmst, schon einmal vom Ufer aus.",
+              "travel": "ca. 7 Min. Tram ab Bahnhof SBB bis «Marktplatz»",
+              "rain": {
+                "placeId": "bs-kunstmuseum",
+                "title": "Kunstmuseum statt Rheinufer",
+                "text": "Bei Regen nach Münster und Mittlerer Brücke abbrechen und den Vormittag im Kunstmuseum verbringen (ab 10 Uhr offen)."
+              }
+            },
+            {
+              "time": "13:00",
+              "placeId": "bs-restaurant-kunsthalle",
+              "title": "Zmittag im Kunsthalle-Garten",
+              "text": "Unter den Bäumen im Garten essen – die Mittagsküche läuft bis 14 Uhr.",
+              "travel": "ca. 20 Min. zu Fuss vom Unteren Rheinweg über die Mittlere Brücke"
+            },
+            {
+              "time": "14:30",
+              "placeId": "bs-museum-tinguely",
+              "title": "Museum Tinguely",
+              "text": "Anderthalb Stunden mit Tinguelys Maschinen, dann bist du schon am Einstieg fürs Rheinschwimmen.",
+              "travel": "ca. 20 Min. mit dem Tram über die Wettsteinbrücke und zu Fuss durch den Solitude-Park"
+            },
+            {
+              "time": "16:15",
+              "placeId": "bs-rheinschwimmen",
+              "title": "Ab in den Rhein",
+              "text": "Kleider in den Wickelfisch, unterhalb des Museums ins Wasser und gemütlich bis vor die Johanniterbrücke treiben lassen.",
+              "travel": "2 Min. zu Fuss zum Einstieg am Schaffhauserrheinweg",
+              "rain": {
+                "placeId": "bs-fondation-beyeler",
+                "title": "Fondation Beyeler statt Rhein",
+                "text": "Bei Gewitter oder kühlem Wetter fährst du mit dem Tram 6 ab Claraplatz nach Riehen und schaust bis 18 Uhr Kunst im Museum am Park."
+              }
+            },
+            {
+              "time": "18:30",
+              "placeId": "bs-volkshaus-brasserie",
+              "title": "Znacht im Innenhof",
+              "text": "Vom Ausstieg sind es wenige Minuten bis zum Volkshaus – Brasserie-Küche unter den Bäumen im Innenhof (Mo–Sa abends).",
+              "travel": "ca. 15 Min. zu Fuss vom Ausstieg bei der Johanniterbrücke"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "st-gallen-saentis-appenzell",
+      "title": "St. Gallen, Säntis und Appenzell",
+      "teaser": "Barocke Bücher und eine Bratwurst ohne Senf, am zweiten Tag hinauf auf den Säntis und hinunter ins Appenzellerland.",
+      "region": "st-gallen",
+      "days": 2,
+      "moods": [
+        "kultur",
+        "natur",
+        "genuss"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "ganzjährig bei klarer Sicht, am schönsten Mai–Oktober; ideal Dienstag bis Samstag (sonntags sind Bratwurststand, Schäfli und Confiserie zu, montags die Alte Post). Säntisbahn 2026 wegen Neubau bis Mitte Dezember geschlossen",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 58
+        },
+        {
+          "from": "Bern",
+          "minutes": 120
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 119
+        }
+      ],
+      "hotelIds": [
+        "sg-hotel-dom",
+        "sg-hotel-einstein"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Di–Sa) – Klosterviertel, Bratwurst und Drei Weieren",
+          "slots": [
+            {
+              "time": "10:15",
+              "placeId": "sg-hotel-dom",
+              "title": "Gepäck abgeben",
+              "text": "Vom Bahnhof durch die Altstadt zum Hotel beim Gallusplatz.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "10:45",
+              "tourSlug": "st-gallen-stiftsbezirk",
+              "title": "Audio-Rundgang «Bücher, Erker, roter Platz»",
+              "text": "Durchs Klosterviertel und an den Erkern vorbei auf den roten Platz der Stadtlounge, zum Schluss mit der Mühleggbahn hinauf zu den Drei Weieren.",
+              "travel": "Start am Bahnhof, ca. 10 Min. zu Fuss vom Hotel",
+              "rain": {
+                "placeId": "sg-textilmuseum",
+                "title": "Textilmuseum statt Altstadtgassen",
+                "text": "Bei Regen nach Stiftsbezirk und Erkern abbrechen und im Textilmuseum an der Vadianstrasse die Stickereigeschichte der Stadt anschauen (Di–So)."
+              }
+            },
+            {
+              "time": "13:15",
+              "placeId": "sg-drei-weieren",
+              "title": "Oben bleiben an den Weihern",
+              "text": "Am Ende des Rundgangs eine halbe Stunde am Wasser sitzen und über die Stadt zum Bodensee schauen.",
+              "travel": "Der Rundgang endet hier",
+              "rain": {
+                "placeId": "sg-kunstmuseum",
+                "title": "Kunstmuseum im Stadtpark",
+                "text": "Wenn es oben ungemütlich ist: mit der Mühleggbahn hinunter und ins Kunstmuseum im Stadtpark (Di–So)."
+              }
+            },
+            {
+              "time": "14:00",
+              "placeId": "sg-bratwurst-bowls-gemperli",
+              "title": "Bratwurst ohne Senf",
+              "text": "Am Gemperli-Stand eine St. Galler Bratwurst mit Bürli holen und auf die Hand essen.",
+              "travel": "Mühleggbahn talwärts, dann ca. 10 Min. zu Fuss"
+            },
+            {
+              "time": "14:45",
+              "placeId": "sg-stiftsbibliothek",
+              "title": "Barocksaal der Stiftsbibliothek",
+              "text": "In Filzpantoffeln durch den Bibliothekssaal, danach in den Gewölbekeller mit der Ausstellung zur Klostergeschichte.",
+              "travel": "ca. 5 Min. zu Fuss"
+            },
+            {
+              "time": "16:15",
+              "placeId": "sg-confiserie-roggwiller",
+              "title": "Kaffee und Klosterbiber",
+              "text": "Pause im Tea Room der Confiserie und einen Biber für zu Hause einpacken (Sa nur bis 17 Uhr).",
+              "travel": "ca. 5 Min. zu Fuss in die Multergasse"
+            },
+            {
+              "time": "19:00",
+              "placeId": "sg-zum-goldenen-schaefli",
+              "title": "Znacht in der Zunftstube",
+              "text": "Saisonale Küche in der schiefen Zunftstube von 1484 – unbedingt reservieren.",
+              "travel": "ca. 10 Min. zu Fuss vom Hotel"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Di–Sa) – Säntis und Appenzell",
+          "slots": [
+            {
+              "time": "10:15",
+              "placeId": "sg-saentis",
+              "title": "Mit der Schwebebahn auf den Säntis",
+              "text": "Hinauf auf 2502 Meter, oben über die Gipfelterrasse spazieren und bei klarer Sicht über sechs Länder schauen.",
+              "travel": "ca. 1 Std. ab St. Gallen mit S-Bahn bis Urnäsch und Bus 791 bis «Schwägalp, Säntisbahn»",
+              "rain": {
+                "placeId": "sg-naturmuseum",
+                "title": "Naturmuseum statt Gipfel",
+                "text": "Steckt der Säntis in den Wolken, bleibst du in St. Gallen und fährst mit Bus 1 ins Naturmuseum (Di–So ab 10 Uhr)."
+              }
+            },
+            {
+              "time": "12:45",
+              "placeId": "sg-restaurant-schwaegalp",
+              "title": "Zmittag auf der Schwägalp",
+              "text": "Regionale Küche im Hotelrestaurant an der Talstation, bei Sonne draussen auf der Terrasse.",
+              "travel": "Talfahrt mit der Schwebebahn"
+            },
+            {
+              "time": "14:30",
+              "placeId": "sg-appenzell-dorf",
+              "title": "Bummel durch Appenzell",
+              "text": "Durch die Hauptgasse mit ihren bemalten Fassaden zum Landsgemeindeplatz; unterwegs Käse, Biber oder Alpenbitter einkaufen.",
+              "travel": "ca. 45 Min. mit Bus 791 bis Urnäsch und weiter mit der Appenzeller Bahn",
+              "rain": {
+                "placeId": "sg-museum-appenzell",
+                "title": "Museum Appenzell",
+                "text": "Bei Regen ins Museum an der Hauptgasse: Trachten, Stickereien und Landsgemeinde auf mehreren Stockwerken (im Winter ab 14 Uhr offen)."
+              }
+            },
+            {
+              "time": "16:15",
+              "title": "Zurück nach St. Gallen",
+              "text": "Mit der Appenzeller Bahn durchs Hügelland zurück in die Stadt.",
+              "travel": "ca. 40 Min. mit der S21 ab Appenzell"
+            },
+            {
+              "time": "17:30",
+              "placeId": "sg-wirtschaft-zur-alten-post",
+              "title": "Früher Znacht vor der Heimfahrt",
+              "text": "In der Gaststube im ersten Stock essen – die Abendküche beginnt um 17.30 Uhr (Di–Sa).",
+              "travel": "ca. 12 Min. zu Fuss vom Bahnhof"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

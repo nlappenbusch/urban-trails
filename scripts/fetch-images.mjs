@@ -1,9 +1,10 @@
 // Holt alle Fotos aus src/data/images.ts einmal von Wikimedia und legt sie
-// als WebP in zwei Breiten unter public/img/ ab (s/ = Stopps, t/ = Tour-Titelbilder).
+// als WebP in zwei Breiten unter public/img/ ab (s/ = Stopps, t/ = Tour-Titelbilder,
+// p/ = Orte der Ausflüge aus src/data/ausfluege/*.json → image.source).
 // Masse landen in src/data/image-meta.json. Bereits vorhandene Dateien werden übersprungen.
 //   node scripts/fetch-images.mjs            alle fehlenden holen
 //   node scripts/fetch-images.mjs --force    alles neu
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
@@ -19,6 +20,13 @@ const split = src.indexOf("export const tourHeroImages");
 const entries = [];
 for (const [part, kind] of [[src.slice(0, split), "s"], [src.slice(split), "t"]]) {
   for (const m of part.matchAll(/"([^"]+)":\s*\{\s*source:\s*"([^"]+)"/g)) entries.push({ key: `${kind}/${m[1]}`, url: m[2] });
+}
+// p/ = Orte der Ausflüge (Quelle steht im Orts-JSON unter image.source)
+const tripDir = join(root, "src/data/ausfluege");
+for (const f of readdirSync(tripDir).filter((x) => x.endsWith(".json"))) {
+  for (const p of JSON.parse(readFileSync(join(tripDir, f), "utf8")).places ?? []) {
+    if (p.image?.source?.startsWith("https://upload.wikimedia.org/")) entries.push({ key: `p/${p.id}`, url: p.image.source });
+  }
 }
 console.log(`${entries.length} Bilder in images.ts`);
 

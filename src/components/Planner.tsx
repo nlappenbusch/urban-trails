@@ -4,9 +4,11 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Link2, Shuffle } from "lucide-react";
-import { AUDIENCE, MOODS, daysLabel, type Place } from "@/lib/ausfluege";
+import { AUDIENCE, MOODS, daysLabel, tripBudget, type Place } from "@/lib/ausfluege-core";
 import { composePlan, type PlanInput, type PlanTour } from "@/lib/compose";
 import TripTimeline, { type TimelineTour } from "@/components/TripTimeline";
+import TripMap from "@/components/TripMap";
+import TripBudget from "@/components/TripBudget";
 
 const chip = (on: boolean) =>
   `min-h-[40px] rounded-full border px-4 py-1.5 text-sm font-semibold transition ${on ? "border-signal-500 bg-signal-500 text-white" : "border-cream/20 bg-ink-900 text-cream-dim hover:border-cream/40"}`;
@@ -44,6 +46,9 @@ export default function Planner({ regions, places, tours }: {
     [sp.toString(), places, tours]);
 
   const placeMap = useMemo(() => Object.fromEntries(places.map((p) => [p.id, p])), [places]);
+  const budget = useMemo(() => (plan ? tripBudget(plan.days, placeMap, plan.hotel, input.rain) : null),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [plan, placeMap]);
   const tourMap = useMemo(() => Object.fromEntries(tours.map((t) => [t.slug, { name: t.name, citySlug: t.citySlug } satisfies TimelineTour])), [tours]);
 
   useEffect(() => setCopied(false), [sp]);
@@ -122,7 +127,15 @@ export default function Planner({ regions, places, tours }: {
               </div>
             </div>
             {plan.notes.length > 0 && <ul className="mt-4 space-y-1 text-sm text-cream-dim">{plan.notes.map((n) => <li key={n}>{n}</li>)}</ul>}
+            {budget && budget.high > 0 && (
+              <div className="card mt-6 p-5 text-sm">
+                <TripBudget budget={budget} />
+              </div>
+            )}
             <div className="mt-6">
+              <TripMap key={sp.toString()} days={plan.days} places={placeMap} hotel={plan.hotel} />
+            </div>
+            <div className="mt-8">
               <TripTimeline title={`Ausflug ${region.name}`} days={plan.days} places={placeMap} tours={tourMap} hotel={plan.hotel} allowRainToggle={false} />
             </div>
             <p className="mt-10 text-sm text-cream-dim">

@@ -5,7 +5,8 @@ import Link from "next/link";
 import {
   Bed, CalendarPlus, CloudRain, Coffee, ExternalLink, Footprints, Headphones, Landmark, MapPin, Mountain, Sparkles, Sun, UtensilsCrossed, Waves, Wine,
 } from "lucide-react";
-import { effectiveSlot, KIND_LABEL, priceLabel, type Place, type PlaceKind, type TripDay } from "@/lib/ausfluege";
+import { effectiveSlot, KIND_LABEL, priceLabel, priceText, type Place, type PlaceKind, type TripDay } from "@/lib/ausfluege-core";
+import { imgAttrs } from "@/lib/img";
 
 export interface TimelineTour { name: string; citySlug: string }
 
@@ -128,19 +129,22 @@ export default function TripTimeline({
                         <Icon size={17} aria-hidden />
                       </span>
                     </div>
-                    <div className="min-w-0 pt-0.5">
-                      {raw.travel && <p className="mb-1 text-xs text-cream-faint">{raw.travel}</p>}
-                      <p className="font-bold leading-snug text-cream">
-                        {s.title}
-                        {s.swapped && <span className="ml-2 align-middle text-xs font-bold uppercase tracking-wide text-cream-faint">Regenvariante</span>}
-                      </p>
-                      <p className="mt-1 text-sm leading-relaxed text-cream-dim">{s.text}</p>
-                      {tour && (
-                        <Link href={`/${tour.citySlug}/${s.tourSlug}`} className="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-signal-600 hover:text-signal-500">
-                          Tour öffnen: {tour.name}
-                        </Link>
-                      )}
-                      {p && <PlaceLine p={p} />}
+                    <div className="flex min-w-0 gap-3 pt-0.5 sm:gap-5">
+                      <div className="min-w-0 flex-1">
+                        {raw.travel && <p className="mb-1 text-xs text-cream-faint">{raw.travel}</p>}
+                        <p className="font-bold leading-snug text-cream">
+                          {s.title}
+                          {s.swapped && <span className="ml-2 align-middle text-xs font-bold uppercase tracking-wide text-cream-faint">Regenvariante</span>}
+                        </p>
+                        <p className="mt-1 text-sm leading-relaxed text-cream-dim">{s.text}</p>
+                        {tour && (
+                          <Link href={`/${tour.citySlug}/${s.tourSlug}`} className="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-signal-600 hover:text-signal-500">
+                            Tour öffnen: {tour.name}
+                          </Link>
+                        )}
+                        {p && <PlaceLine p={p} />}
+                      </div>
+                      {p?.img && <Thumb p={p} />}
                     </div>
                   </li>
                 );
@@ -155,12 +159,13 @@ export default function TripTimeline({
           <h3 className="font-display text-2xl font-extrabold tracking-tight text-cream">Übernachten</h3>
           <div className="card mt-4 flex gap-4 p-5">
             <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-ink-800 text-signal-600"><Bed size={18} aria-hidden /></span>
-            <div className="min-w-0">
+            <div className="min-w-0 flex-1">
               <p className="font-bold text-cream">{hotel.name}</p>
               <p className="mt-1 text-sm leading-relaxed text-cream-dim">{hotel.text}</p>
               {hotel.tip && <p className="mt-1 text-sm text-cream-dim"><strong className="text-cream">Tipp:</strong> {hotel.tip}</p>}
               <PlaceLine p={hotel} />
             </div>
+            {hotel.img && <Thumb p={hotel} />}
           </div>
         </section>
       )}
@@ -168,10 +173,28 @@ export default function TripTimeline({
   );
 }
 
+/** Foto des Orts; Klick führt zur Commons-Seite mit Urheber und Lizenz. */
+function Thumb({ p }: { p: Place }) {
+  const img = p.img!;
+  return (
+    <a href={img.credit} target="_blank" rel="noopener noreferrer" title="Foto: Wikimedia Commons – Urheber & Lizenz" className="shrink-0 self-start">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={img.small} {...imgAttrs(img, "128px")} loading="lazy" decoding="async" className="h-16 w-16 rounded-lg object-cover sm:h-24 sm:w-32" />
+    </a>
+  );
+}
+
 function PlaceLine({ p }: { p: Place }) {
-  const facts = [KIND_LABEL[p.kind], priceLabel(p.price), p.season && p.season !== "ganzjährig" ? p.season : "", p.hours].filter(Boolean);
+  const price = priceText(p.priceInfo);
+  const facts = [KIND_LABEL[p.kind], p.priceInfo ? "" : priceLabel(p.price), p.season && p.season !== "ganzjährig" ? p.season : "", p.hours].filter(Boolean);
   return (
     <div className="mt-2 text-xs leading-relaxed text-cream-faint">
+      {price && (
+        <p className="mb-1 text-sm font-semibold text-cream">
+          {price}
+          {p.priceInfo?.note && <span className="font-normal text-cream-faint"> – {p.priceInfo.note}</span>}
+        </p>
+      )}
       <p>{facts.join(" · ")}</p>
       <p className="mt-1 flex flex-wrap gap-x-4 gap-y-1">
         <a href={mapsLink(p)} target="_blank" rel="noopener" className="inline-flex items-center gap-1 font-semibold text-cream-dim hover:text-cream">

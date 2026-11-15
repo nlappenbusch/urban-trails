@@ -1,0 +1,1165 @@
+{
+  "places": [
+    {
+      "id": "chur-ambiente-hotel-freieck",
+      "kind": "hotel",
+      "name": "Ambiente Hotel Freieck",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Reichsgasse 44, 7000 Chur",
+      "coords": {
+        "lat": 46.8498,
+        "lng": 9.53334
+      },
+      "url": "https://www.freieck.ch",
+      "price": 2,
+      "tags": [
+        "kultur",
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Altstadthotel in einem Haus von 1575 an der Reichsgasse, mit dem auffälligen goldenen Dach an der Südfassade. Du schläfst mitten in der Fussgängerzone und bist in gut zehn Minuten am Bahnhof.",
+      "tip": "Check-in ist erst ab 15 Uhr – das Gepäck kannst du am Vormittag trotzdem abgeben und gleich losziehen.",
+      "source": "https://www.freieck.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 160,
+        "to": 240,
+        "unit": "Doppelzimmer pro Nacht",
+        "note": "je nach Saison und Zimmer; Kurtaxe nicht inbegriffen"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Hotel_freieck_vazerolgasse_chur.jpg/1280px-Hotel_freieck_vazerolgasse_chur.jpg",
+        "alt": "Das Hotel Freieck an der Ecke Reichsgasse/Vazerolgasse in der Churer Altstadt",
+        "credit": "https://commons.wikimedia.org/wiki/File:Hotel_freieck_vazerolgasse_chur.jpg"
+      }
+    },
+    {
+      "id": "chur-abc-swiss-quality-hotel",
+      "kind": "hotel",
+      "name": "ABC Swiss Quality Hotel",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Ottostrasse 8, 7000 Chur",
+      "coords": {
+        "lat": 46.8533,
+        "lng": 9.53108
+      },
+      "url": "https://www.hotelabc.ch",
+      "price": 3,
+      "tags": [
+        "wellness",
+        "freunde"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Vier-Sterne-Stadthotel direkt neben dem Bahnhof, praktisch, wenn du früh mit der RhB losfahren willst. Im Haus gibt es einen kleinen Spa-Bereich mit Dampfbad und Sauna.",
+      "tip": "Ideal, wenn du am zweiten Tag den ersten Zug nach Arosa erwischen willst – vom Zimmer zum Perron sind es nur ein paar Minuten.",
+      "source": "https://www.graubuenden.ch/de/beherbergung/abc-swiss-quality-hotel",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "chur-gasthaus-gansplatz",
+      "kind": "restaurant",
+      "name": "Gasthaus Gansplatz",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Goldgasse 22, 7000 Chur",
+      "coords": {
+        "lat": 46.84812,
+        "lng": 9.53048
+      },
+      "url": "https://www.gansplatz-chur.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "freunde",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So/Mo geschlossen; Di–Sa, warme Küche 11.30–13.30 und ab 18 Uhr",
+      "text": "Gasthaus am kleinen Gansplatz in der Altstadt mit Schweizer und Bündner Klassikern, dazu Fisch, Fleisch und Vegetarisches. Mittags gibt es wechselnde Tagesmenüs.",
+      "tip": "Die Mittagsküche schliesst schon um 13.30 Uhr – plan den Rundgang so, dass du rechtzeitig am Tisch sitzt.",
+      "source": "https://www.gansplatz-chur.ch/infos/",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Gasthaus_Gansplatz_Goldgasse_Chur.jpg/1280px-Gasthaus_Gansplatz_Goldgasse_Chur.jpg",
+        "alt": "Fassade des Gasthauses Gansplatz in der Goldgasse",
+        "credit": "https://commons.wikimedia.org/wiki/File:Gasthaus_Gansplatz_Goldgasse_Chur.jpg"
+      }
+    },
+    {
+      "id": "chur-veltliner-weinstuben-stern",
+      "kind": "restaurant",
+      "name": "Veltliner Weinstuben zum Stern",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Reichsgasse 11, 7000 Chur",
+      "coords": {
+        "lat": 46.85103,
+        "lng": 9.53417
+      },
+      "url": "https://www.stern-chur.ch",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "täglich mittags und abends",
+      "text": "Getäferte Stuben im historischen Hotel Stern, in denen seit Langem Bündner Küche gekocht wird. Hier bekommst du Capuns, Maluns und Pizzoccheri, auch als Trilogie auf einem Teller.",
+      "tip": "Die meisten Gerichte gibt es als kleine und grosse Portion – die kleine reicht mittags gut, wenn noch ein Museum ansteht.",
+      "source": "https://www.graubuenden.ch/de/gastronomie/restaurant-veltliner-weinstuben-zum-stern",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 25,
+        "to": 49,
+        "unit": "Hauptgang",
+        "note": "Bündner Trilogie CHF 36/39 (klein/gross)"
+      }
+    },
+    {
+      "id": "chur-zunfthaus-rebleuten",
+      "kind": "restaurant",
+      "name": "Zunfthaus zur Rebleuten",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Pfisterplatz 1, 7000 Chur",
+      "coords": {
+        "lat": 46.84864,
+        "lng": 9.53102
+      },
+      "url": "https://www.rebleutenchur.ch",
+      "price": 3,
+      "tags": [
+        "genuss",
+        "kultur",
+        "romantisch"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Di/Mi geschlossen (Mai–Okt nur Di); Do–Sa nur abends; So/Mo mittags und abends",
+      "text": "Das ehemalige Haus der Weinbauernzunft am Pfisterplatz wurde nach dem Stadtbrand 1674 neu gebaut, die getäferte Zunftstube stammt aus dieser Zeit. Auf der Karte stehen Bündner und Schweizer Gerichte mit regionalen Zutaten, etwa Quark-Pizzokel mit Churer Pilzen.",
+      "tip": "Frag nach einem Tisch in der alten Zunftstube und lass Platz für die Bündner Nusstorte zum Kaffee.",
+      "source": "https://www.rebleutenchur.ch",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 28,
+        "to": 49,
+        "unit": "Hauptgang",
+        "note": "Bündner Gerichte auch als kleine Portion ab CHF 18"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Chur_Pfisterplatz_Zunfthaus.jpg/1280px-Chur_Pfisterplatz_Zunfthaus.jpg",
+        "alt": "Das Zunfthaus zur Rebleuten am Pfisterplatz",
+        "credit": "https://commons.wikimedia.org/wiki/File:Chur_Pfisterplatz_Zunfthaus.jpg"
+      }
+    },
+    {
+      "id": "chur-giger-bar",
+      "kind": "bar",
+      "name": "Giger Bar",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Comercialstrasse 23, 7000 Chur",
+      "coords": {
+        "lat": 46.84691,
+        "lng": 9.50952
+      },
+      "url": "https://www.hrgiger.com",
+      "price": 1,
+      "tags": [
+        "kultur",
+        "freunde",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "So geschlossen; Mo–Mi bis 19, Do/Fr bis 20, Sa bis 17 Uhr",
+      "text": "Der Churer Künstler H. R. Giger, bekannt für das Wesen aus «Alien», hat diese Bar im Kalchbühl-Center komplett gestaltet – Wände, Decke, Theke und Stühle wirken wie ein Skelett von innen. Ein Bier oder Kaffee hier ist ein kleines Kunsterlebnis.",
+      "tip": "Am Samstag schliesst die Bar schon um 17 Uhr – am Freitagabend hast du am meisten Zeit.",
+      "source": "https://www.graubuenden.ch/de/gastronomie/giger-bar",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gigerbar.jpg/1280px-Gigerbar.jpg",
+        "alt": "Eingang der von H. R. Giger gestalteten Bar in Chur",
+        "credit": "https://commons.wikimedia.org/wiki/File:Gigerbar.jpg"
+      }
+    },
+    {
+      "id": "chur-cafe-merz",
+      "kind": "cafe",
+      "name": "Café Merz Bahnhofstrasse",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Bahnhofstrasse 22, 7000 Chur",
+      "coords": {
+        "lat": 46.85158,
+        "lng": 9.5313
+      },
+      "url": "https://www.merz.swiss",
+      "price": 2,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "text": "Café der Churer Confiserie Merz an der Bahnhofstrasse, mit Bäckerei, Pralinen-Bar und Take-away. Gut für einen letzten Kaffee und etwas Süsses, bevor du zum Zug gehst.",
+      "tip": "Nimm ein Bündner Birnbrot aus der Theke als Mitbringsel mit – das Familienrezept stammt laut Haus von 1952.",
+      "source": "https://www.graubuenden.ch/de/gastronomie/cafe-merz-bahnhofstrasse-chur",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "chur-raetisches-museum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Rätisches Museum",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Hofstrasse 1, 7000 Chur",
+      "coords": {
+        "lat": 46.84816,
+        "lng": 9.53357
+      },
+      "url": "https://raetischesmuseum.gr.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17 Uhr",
+      "durationMin": 90,
+      "text": "Das Kantonsmuseum in einem Patrizierhaus unterhalb des Hofs erzählt die Geschichte Graubündens von der Steinzeit über die Römer bis ins 20. Jahrhundert. Gut, um die Stationen des Rundgangs mit Funden und Modellen zu ergänzen.",
+      "tip": "Mit dem Kombiticket kommst du für CHF 10 auch ins Domschatzmuseum bei der Kathedrale.",
+      "source": "https://www.graubuenden.ch/de/ausflugsziele/raetisches-museum",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 6,
+        "unit": "Eintritt Erwachsene",
+        "note": "Kinder bis 16 gratis; Schweizer Museumspass gilt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Chur_R%C3%A4tisches_Museum.jpg/1280px-Chur_R%C3%A4tisches_Museum.jpg",
+        "alt": "Das Rätische Museum im historischen Haus Buol in Chur",
+        "credit": "https://commons.wikimedia.org/wiki/File:Chur_R%C3%A4tisches_Museum.jpg"
+      }
+    },
+    {
+      "id": "chur-buendner-kunstmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Bündner Kunstmuseum",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Bahnhofstrasse 35, 7000 Chur",
+      "coords": {
+        "lat": 46.85127,
+        "lng": 9.53231
+      },
+      "url": "https://kunstmuseum.gr.ch",
+      "price": 2,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17, Do bis 20 Uhr",
+      "durationMin": 90,
+      "text": "Die Sammlung sitzt in der Villa Planta und einem Erweiterungsbau gleich daneben, der einen grossen Teil der Ausstellungsfläche unter die Erde verlegt. Schwerpunkt ist Kunst mit Bezug zu Graubünden, etwa von Segantini, den Giacomettis und Kirchner, dazu Wechselausstellungen.",
+      "tip": "Am Donnerstag ist bis 20 Uhr offen – praktisch, wenn du den Museumsbesuch auf den Abend legen willst.",
+      "source": "https://www.graubuenden.ch/de/ausflugsziele/buendner-kunstmuseum",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 15,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 12; Kinder bis 16 gratis; Schweizer Museumspass gilt"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Villa_Planta_und_Sulserbau.jpg/1280px-Villa_Planta_und_Sulserbau.jpg",
+        "alt": "Villa Planta und Sulserbau des Bündner Kunstmuseums",
+        "credit": "https://commons.wikimedia.org/wiki/File:Villa_Planta_und_Sulserbau.jpg"
+      }
+    },
+    {
+      "id": "chur-buendner-naturmuseum",
+      "kind": "sehenswuerdigkeit",
+      "name": "Bündner Naturmuseum",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Masanserstrasse 31, 7000 Chur",
+      "coords": {
+        "lat": 46.85417,
+        "lng": 9.53427
+      },
+      "url": "https://naturmuseum.gr.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "familie",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo geschlossen; Di–So 10–17 Uhr",
+      "durationMin": 90,
+      "text": "Tiere, Pflanzen, Fossilien und Gesteine aus Graubünden in Dauer- und Wechselausstellungen. Das Museum liegt wenige Minuten vom Bahnhof und ist an einem verregneten Nachmittag schnell erreicht.",
+      "tip": "Kinder unter 16 zahlen nichts – mit Familie ist das die günstigste Regenvariante in Chur.",
+      "source": "https://www.graubuenden.ch/de/ausflugsziele/buendner-naturmuseum-1",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 6,
+        "unit": "Eintritt Erwachsene",
+        "note": "ermässigt CHF 4; Kinder unter 16 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Naturmuseum_Chur.jpg/1280px-Naturmuseum_Chur.jpg",
+        "alt": "Gebäude des Bündner Naturmuseums in Chur",
+        "credit": "https://commons.wikimedia.org/wiki/File:Naturmuseum_Chur.jpg"
+      }
+    },
+    {
+      "id": "chur-kathedrale-domschatz",
+      "kind": "sehenswuerdigkeit",
+      "name": "Kathedrale St. Mariä Himmelfahrt und Domschatzmuseum",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Hof 18, 7000 Chur",
+      "coords": {
+        "lat": 46.84765,
+        "lng": 9.53544
+      },
+      "url": "https://www.domschatzmuseum-chur.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "Kathedrale ganzjährig; Domschatzmuseum Dezember–Oktober, im November zu",
+      "hours": "Domschatzmuseum Mo geschlossen; Mai–Okt Di–So 11–17, Dez–Apr Di–So 14–17 Uhr",
+      "durationMin": 75,
+      "text": "Die Bischofskirche auf dem Hof oberhalb der Altstadt ist innen romanisch-gotisch, mit spätgotischem Flügelaltar im Chor. Im Domschatzmuseum nebenan siehst du Reliquiare, Textilien und die restaurierten Todesbilder aus dem bischöflichen Schloss.",
+      "tip": "Nimm dir für den Hof oben ein paar Minuten extra – von der Terrasse beim Schloss schaust du über die Dächer der Altstadt.",
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/domschatzmuseum-chur-1979.html",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 8,
+        "unit": "Eintritt Erwachsene",
+        "note": "Preis fürs Domschatzmuseum; Kombi mit Rätischem Museum CHF 10; Kinder bis 16 gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Kathedrale_St._Maria_Himmelfahrt_%28Chur%29.JPG/1280px-Kathedrale_St._Maria_Himmelfahrt_%28Chur%29.JPG",
+        "alt": "Die Kathedrale von Chur, vom Friedhof aus gesehen",
+        "credit": "https://commons.wikimedia.org/wiki/File:Kathedrale_St._Maria_Himmelfahrt_%28Chur%29.JPG"
+      }
+    },
+    {
+      "id": "chur-brambrueesch",
+      "kind": "aussicht",
+      "name": "Brambrüesch – Churer Hausberg mit Bergbahn",
+      "region": "chur",
+      "town": "Chur",
+      "address": "Talstation Bergbahnen, Kasernenstrasse 15, 7000 Chur",
+      "coords": {
+        "lat": 46.84733,
+        "lng": 9.52571
+      },
+      "url": "https://www.churbergbahnen.ch",
+      "price": 2,
+      "tags": [
+        "berg",
+        "aussicht",
+        "aktiv",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "Sommerbetrieb täglich Anfang Juni bis Mitte Oktober, im Frühling und Spätherbst nur an Wochenenden; Winterbetrieb Dezember–März",
+      "hours": "Sommer Mo–Fr 8.30–16.30, Sa/So 8.30–17 Uhr",
+      "durationMin": 150,
+      "text": "Wenige Gehminuten von der Altstadt startet die Bahn und bringt dich auf rund 1600 Meter, wo Wanderwege, ein Bikepark und Aussichtspunkte über das Rheintal warten. Kaum eine andere Kantonshauptstadt hat ihren Berg so nah am Zentrum.",
+      "tip": "Unter der Woche fährt die letzte Bahn um 16.30 Uhr hinunter – behalte die Uhr im Auge, wenn du oben noch eine Runde gehst.",
+      "source": "https://www.graubuenden.ch/de/ausflugsziele/chur-bergbahnen-hausberg-brambrueesch",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Chur_Brambr%C3%BCesch_Seilbahn_1.jpg/1280px-Chur_Brambr%C3%BCesch_Seilbahn_1.jpg",
+        "alt": "Kabine der Brambrüesch-Bahn bei der Abfahrt in Chur",
+        "credit": "https://commons.wikimedia.org/wiki/File:Chur_Brambr%C3%BCesch_Seilbahn_1.jpg"
+      }
+    },
+    {
+      "id": "chur-rhb-arosalinie",
+      "kind": "aktivitaet",
+      "name": "Rhätische Bahn Chur–Arosa",
+      "region": "chur",
+      "town": "Chur / Arosa",
+      "address": "Abfahrt Bahnhof Chur (Arosa-Gleise auf dem Bahnhofplatz), Ankunft Bahnhof Arosa",
+      "coords": {
+        "lat": 46.78388,
+        "lng": 9.67944
+      },
+      "url": "https://www.rhb.ch",
+      "price": 2,
+      "tags": [
+        "berg",
+        "aussicht",
+        "see",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig",
+      "hours": "stündlich, Fahrzeit rund 1 Stunde",
+      "durationMin": 240,
+      "text": "Der Zug rollt zuerst mitten durch die Churer Strassen und klettert dann durch das enge Schanfigg nach Arosa, unter anderem über den 1914 gebauten Langwieser Viadukt. Oben spazierst du in wenigen Minuten vom Bahnhof zum Obersee und weiter zum Untersee.",
+      "tip": "Bei Langwies fährt der Zug über den grossen Viadukt – halt dort die Kamera bereit, der Tiefblick ins Tobel dauert nur Sekunden.",
+      "source": "https://search.ch/timetable/Chur..Arosa.en.html",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/RhB_ABe_8-12_Langwieser_Viadukt.jpg/1280px-RhB_ABe_8-12_Langwieser_Viadukt.jpg",
+        "alt": "Ein roter RhB-Zug auf dem Langwieser Viadukt der Arosalinie",
+        "credit": "https://commons.wikimedia.org/wiki/File:RhB_ABe_8-12_Langwieser_Viadukt.jpg"
+      }
+    },
+    {
+      "id": "eg-rhybar",
+      "kind": "restaurant",
+      "name": "Rhybar Eglisau",
+      "region": "eglisau",
+      "town": "Eglisau",
+      "address": "Rheinstrasse 10, 8193 Eglisau",
+      "coords": {
+        "lat": 47.57544,
+        "lng": 8.52373
+      },
+      "url": "https://www.rhybar-eglisau.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "genuss",
+        "freunde",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "Sommerbetrieb mit Terrasse etwa Mai–September; im Winter eingeschränkt",
+      "hours": "Sommer: Mo geschlossen, Di–Sa 11–21, So 11–20 Uhr; Winter: Mi–Sa ab 16 Uhr",
+      "text": "Café und Bar mit grosser Terrasse direkt am Wasser, im Städtli die einzige Gastronomie unmittelbar am Rhein. Zu essen gibt es regionale und mediterrane Teller, sonntags einen Brunch.",
+      "tip": "Bei sehr schlechtem Wetter kann die Rhybar ohne Reservationen zubleiben – an zweifelhaften Tagen vorher anrufen.",
+      "source": "https://www.rhybar-eglisau.ch/",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 35,
+        "unit": "Sonntagsbrunch pro Person",
+        "note": "Kinder bis 10 CHF 18.50"
+      }
+    },
+    {
+      "id": "eg-cafe-nachtwaechter",
+      "kind": "cafe",
+      "name": "Café Konditorei Nachtwächter",
+      "region": "eglisau",
+      "town": "Eglisau",
+      "address": "Untergass 2, 8193 Eglisau",
+      "coords": {
+        "lat": 47.57571,
+        "lng": 8.52406
+      },
+      "url": null,
+      "price": 1,
+      "tags": [
+        "genuss",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mi Ruhetag",
+      "text": "Konditorei und Café am Eingang der Untergass, gleich beim Brückenkopf. Neben Kuchen gibt es mittags einfache warme Gerichte, im Sommer sitzt du im Garten mit Blick Richtung Rhein.",
+      "tip": "Ein guter Ort, wenn du nach dem Rundgang ohne Reservation schnell etwas essen willst.",
+      "source": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/cafe-konditorei-nachtwaechter",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eg-restaurant-toessegg",
+      "kind": "restaurant",
+      "name": "Restaurant Tössegg",
+      "region": "eglisau",
+      "town": "Teufen ZH",
+      "address": "Tössegg 1, 8428 Teufen",
+      "coords": {
+        "lat": 47.55138,
+        "lng": 8.55543
+      },
+      "url": "https://www.toessegg.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "familie",
+        "genuss"
+      ],
+      "weatherProof": true,
+      "season": "Februar–Oktober (Betriebsferien November bis Anfang Februar)",
+      "text": "Gartenwirtschaft dort, wo die Töss in den Rhein mündet, mit Schweizer Küche, Spielplatz und Terrasse über dem Wasser. Fähre und Kursschiff legen gleich unterhalb an.",
+      "tip": "Die Öffnungszeiten stehen nicht online – ruf vor allem in der Vor- und Nachsaison kurz an.",
+      "source": "https://www.toessegg.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "eg-szr-kursschiff",
+      "kind": "aktivitaet",
+      "name": "Kursschiff Eglisau–Tössegg–Rüdlingen (Züri-Rhy)",
+      "region": "eglisau",
+      "town": "Eglisau",
+      "address": "Schiffsteg Eglisau (ca. 15 Min. zu Fuss vom Bahnhof)",
+      "coords": null,
+      "url": "https://www.szr.ch",
+      "price": 2,
+      "tags": [
+        "see",
+        "familie",
+        "romantisch"
+      ],
+      "weatherProof": false,
+      "season": "etwa Ende März bis Oktober; Sonntagskurs bei jedem Wetter, werktags nur bei schönem Wetter; Ausfälle bei Hoch- oder Niedrigwasser möglich",
+      "durationMin": 60,
+      "text": "Ein kleines Kursschiff pendelt zwischen Eglisau, der Tössegg und Rüdlingen auf einem Abschnitt, auf dem der Rhein fast wie ein See wirkt. Vom Wasser aus siehst du Rebberge, Auenwald und mit etwas Glück Biberspuren am Ufer.",
+      "tip": "GA, Halbtax und ZVV-Billette gelten hier nicht – nimm etwas Bargeld oder Karte für das Schiffsbillett mit.",
+      "source": "https://www.szr.ch/fahrplan",
+      "checked": "2026-11-15",
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/T%C3%B6ssegg_-_Rhein_2011-09-21_14-10-36.jpg/1280px-T%C3%B6ssegg_-_Rhein_2011-09-21_14-10-36.jpg",
+        "alt": "Der Rhein bei der Tössegg mit bewaldeten Ufern",
+        "credit": "https://commons.wikimedia.org/wiki/File:T%C3%B6ssegg_-_Rhein_2011-09-21_14-10-36.jpg"
+      }
+    },
+    {
+      "id": "eg-rheinuferweg-buchberg",
+      "kind": "aktivitaet",
+      "name": "Uferweg Eglisau–Buchberg mit Fähre zur Tössegg",
+      "region": "eglisau",
+      "town": "Eglisau",
+      "address": "Start Eglisau, Ziel Fähranlegestelle Buchberg",
+      "coords": {
+        "lat": 47.57244,
+        "lng": 8.51653
+      },
+      "url": "https://wandersite.ch/Tageswanderung/667_Rhein.html",
+      "price": 1,
+      "tags": [
+        "aktiv",
+        "see",
+        "gratis",
+        "familie"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig begehbar; Fähre Buchberg–Tössegg ab Ende März sonntags, ab April auch samstags",
+      "durationMin": 90,
+      "text": "Vom Städtli gehst du flussabwärts an der Burgstelle vorbei und durch die Rebberge der Aachhalde bis zur Fährstelle bei Buchberg, rund 1 Stunde 20 Minuten. Dort setzt dich eine kleine Fähre ans andere Ufer zur Tössegg über.",
+      "tip": "Die Rebberge am Weg gehören zum Eglisauer Weinbau – wer Wein mitnehmen will, findet im Städtli das Weingut Pircher am Stadtberg (vorher anfragen).",
+      "source": "https://wandersite.ch/Tageswanderung/667_Rhein.html",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis",
+        "note": "Fähre Buchberg–Tössegg CHF 5 pro Person, Kinder 6–13 CHF 2.50"
+      }
+    },
+    {
+      "id": "eg-ortsmuseum-weierbachhus",
+      "kind": "sehenswuerdigkeit",
+      "name": "Ortsmuseum Eglisau (Weierbachhus)",
+      "region": "eglisau",
+      "town": "Eglisau",
+      "address": "Weierbachstrasse 6, 8193 Eglisau",
+      "coords": {
+        "lat": 47.57565,
+        "lng": 8.52824
+      },
+      "url": "https://www.weierbachhus.ch",
+      "price": 1,
+      "tags": [
+        "regenfest",
+        "kultur",
+        "gratis"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "nur 1. Sonntag im Monat 14.30–17 Uhr, Gruppen nach Vereinbarung",
+      "durationMin": 60,
+      "text": "Kleines Museum zur Geschichte des Städtlis, etwa zur alten gedeckten Brücke und zum Leben am Rhein. Es ist nur selten offen, dafür ist der Eintritt frei.",
+      "tip": "Plane deinen Ausflug auf den ersten Sonntag im Monat, wenn du das Museum mitnehmen willst.",
+      "source": "https://www.museums.ch/de/museumsbesuch/museen/museen/ortsmuseum-eglisau-2001.html",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Eglisau_Weierbachhaus.JPG/1280px-Eglisau_Weierbachhaus.JPG",
+        "alt": "Das Weierbachhus in Eglisau, Sitz des Ortsmuseums",
+        "credit": "https://commons.wikimedia.org/wiki/File:Eglisau_Weierbachhaus.JPG"
+      }
+    },
+    {
+      "id": "rb-restaurant-hochwacht",
+      "kind": "restaurant",
+      "name": "Restaurant Lägern Hochwacht",
+      "region": "regensberg",
+      "town": "Regensberg",
+      "address": "Lägernhochwacht 2, 8158 Regensberg",
+      "coords": {
+        "lat": 47.48181,
+        "lng": 8.40149
+      },
+      "url": "https://www.laegern-hochwacht.ch",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "berg",
+        "aktiv",
+        "familie"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo/Di geschlossen; Mi/Do 9–18, Fr/Sa 9–21, So 8.30–18 Uhr; Küche schliesst eine Stunde früher",
+      "text": "Ausflugsbeiz beim Aussichtspunkt Hochwacht auf dem Lägerngrat, nur zu Fuss oder mit dem Velo erreichbar. Von der Gartenwirtschaft schaust du über das Zürcher Unterland bis zu den Alpen.",
+      "tip": "Nach der Hochwacht gibt es bis Baden keine Einkehr mehr – füll hier deine Flasche auf.",
+      "source": "https://www.laegern-hochwacht.ch",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "rb-krone-regensberg",
+      "kind": "restaurant",
+      "name": "Hotel Restaurant Krone Regensberg",
+      "region": "regensberg",
+      "town": "Regensberg",
+      "address": "Oberburg 1, 8158 Regensberg",
+      "coords": {
+        "lat": 47.48275,
+        "lng": 8.43901
+      },
+      "url": "https://www.kroneregensberg.com",
+      "price": 4,
+      "tags": [
+        "genuss",
+        "romantisch",
+        "kultur"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig, Betriebsferien meist im Januar",
+      "hours": "nur abends, Di–Sa ab 18 Uhr; So/Mo geschlossen",
+      "text": "Gourmetrestaurant mit neun Gästezimmern im mittelalterlichen Oberdorf, gleich beim Schloss. Die Küche ist modern und setzt auf Produkte aus der Region; der Guide Michelin führt das Haus.",
+      "tip": "Reservier früh und frag nach den Zimmern – dann musst du nach dem Essen nicht auf den letzten Bus nach Dielsdorf achten.",
+      "source": "https://guide.michelin.com/ch/de/zurich-region/regensberg/restaurant/krone498722",
+      "checked": "2026-11-15"
+    },
+    {
+      "id": "rb-rundturm-schloss",
+      "kind": "sehenswuerdigkeit",
+      "name": "Rundturm Schloss Regensberg",
+      "region": "regensberg",
+      "town": "Regensberg",
+      "address": "Schloss Regensberg, Oberburg, 8158 Regensberg",
+      "coords": {
+        "lat": 47.48309,
+        "lng": 8.43831
+      },
+      "url": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/schloss-regensberg",
+      "price": 1,
+      "tags": [
+        "aussicht",
+        "kultur",
+        "familie",
+        "regenfest"
+      ],
+      "weatherProof": true,
+      "season": "ganzjährig",
+      "hours": "Mo–Fr 8–20, Sa/So 9–17 Uhr",
+      "durationMin": 30,
+      "text": "Der runde Bergfried ist der öffentlich zugängliche Teil des Schlosses aus dem 13. Jahrhundert. Drinnen erklären Tafeln die Geschichte des Städtchens, oben hast du die Rundsicht über das Wehntal bis zu den Alpen.",
+      "tip": "Für den Eintritt brauchst du einen Franken – halt eine Münze bereit.",
+      "source": "https://www.zuerich.com/de/besuchen/sehenswuerdigkeiten/schloss-regensberg",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 1,
+        "unit": "Eintritt Erwachsene"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Regensberg_-_Schloss_20100524_18-42-36_ShiftN.jpg/1280px-Regensberg_-_Schloss_20100524_18-42-36_ShiftN.jpg",
+        "alt": "Schlosshof Regensberg mit dem Rundturm am linken Bildrand",
+        "credit": "https://commons.wikimedia.org/wiki/File:Regensberg_-_Schloss_20100524_18-42-36_ShiftN.jpg"
+      }
+    },
+    {
+      "id": "rb-laegerngrat",
+      "kind": "aktivitaet",
+      "name": "Gratwanderung Lägern (Regensberg–Hochwacht–Baden)",
+      "region": "regensberg",
+      "town": "Regensberg",
+      "address": "Start Bushaltestelle Regensberg, Dorf; Ziel Bahnhof Baden",
+      "coords": {
+        "lat": 47.48181,
+        "lng": 8.40149
+      },
+      "url": "https://www.zuerich.com/de/besuchen/sport/gratwanderung-laegern",
+      "price": 1,
+      "tags": [
+        "aktiv",
+        "aussicht",
+        "berg",
+        "gratis"
+      ],
+      "weatherProof": false,
+      "season": "ganzjährig, am schönsten April–Oktober",
+      "durationMin": 210,
+      "text": "Elf Kilometer auf dem östlichsten Jurakamm: erst durch den Wald zur Hochwacht, dann über den schmalen, felsigen Grat bis nach Baden. Wer nicht schwindelfrei ist, nimmt den unteren Weg parallel zum Grat.",
+      "tip": "Der obere Gratweg ist nach Regen glitschig – mit Kindern, Hund oder in Turnschuhen bleib auf dem unteren Weg.",
+      "source": "https://www.zuerich.com/de/besuchen/sport/gratwanderung-laegern",
+      "checked": "2026-11-15",
+      "priceInfo": {
+        "from": 0,
+        "unit": "gratis"
+      },
+      "image": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/L%C3%A4gerngrat_4242.jpg/1280px-L%C3%A4gerngrat_4242.jpg",
+        "alt": "Waldweg auf dem Lägerngrat",
+        "credit": "https://commons.wikimedia.org/wiki/File:L%C3%A4gerngrat_4242.jpg"
+      }
+    }
+  ],
+  "trips": [
+    {
+      "slug": "chur-rhaetische-bahn-2-tage",
+      "title": "Chur & die Rhätische Bahn",
+      "teaser": "Zwei Tage in der ältesten Stadt der Schweiz – mit Hausberg-Gondel, Giger-Bar und der Bahnfahrt durchs Schanfigg nach Arosa.",
+      "region": "chur",
+      "days": 2,
+      "moods": [
+        "kultur",
+        "natur",
+        "genuss"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "Anfang Juni bis Mitte Oktober (Brambrüesch täglich in Betrieb); ideal Freitag und Samstag, weil die Museen am Montag und mehrere Restaurants So/Mo oder Di/Mi zu sind",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 74
+        },
+        {
+          "from": "Bern",
+          "minutes": 143
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 139
+        }
+      ],
+      "hotelIds": [
+        "chur-ambiente-hotel-freieck",
+        "chur-abc-swiss-quality-hotel"
+      ],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Freitag) – Altstadt, Hausberg und Giger-Bar",
+          "slots": [
+            {
+              "time": "10:00",
+              "placeId": "chur-ambiente-hotel-freieck",
+              "title": "Gepäck abgeben",
+              "text": "Vom Bahnhof durch die Bahnhofstrasse in die Altstadt und die Taschen im Hotel deponieren.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "10:20",
+              "tourSlug": "chur-aelteste-stadt",
+              "title": "Audio-Rundgang «Chur – die älteste Stadt»",
+              "text": "Zwei Stunden vom Bahnhof durch die autofreie Altstadt bis hinauf zum Hof – mit Obertor, Arcas und Martinsplatz.",
+              "travel": "ca. 10 Min. zu Fuss zurück zum Startpunkt am Bahnhof",
+              "rain": {
+                "placeId": "chur-raetisches-museum",
+                "title": "Rätisches Museum",
+                "text": "Bei Regen den Rundgang nach dem ersten Teil abbrechen und die Bündner Geschichte im Rätischen Museum unter dem Hof weiterverfolgen."
+              }
+            },
+            {
+              "time": "12:40",
+              "placeId": "chur-gasthaus-gansplatz",
+              "title": "Zmittag am Gansplatz",
+              "text": "Tagesmenü oder Bündner Klassiker im Gasthaus in der Altstadt – die Mittagsküche läuft bis 13.30 Uhr.",
+              "travel": "ca. 8 Min. zu Fuss vom Hof hinunter"
+            },
+            {
+              "time": "14:00",
+              "placeId": "chur-brambrueesch",
+              "title": "Mit der Bahn auf Brambrüesch",
+              "text": "Von der Talstation hinauf auf rund 1600 Meter, oben eine kurze Runde mit Blick über das Rheintal und vor 16.30 Uhr wieder hinunter.",
+              "travel": "ca. 5 Min. zu Fuss zur Talstation an der Kasernenstrasse",
+              "rain": {
+                "placeId": "chur-buendner-naturmuseum",
+                "title": "Bündner Naturmuseum",
+                "text": "Wenn der Berg in den Wolken hängt, holst du dir die Bündner Bergwelt im Naturmuseum an der Masanserstrasse ins Trockene."
+              }
+            },
+            {
+              "time": "17:15",
+              "placeId": "chur-giger-bar",
+              "title": "Apéro in der Giger Bar",
+              "text": "Ein Drink unter den Knochengewölben von H. R. Giger – freitags ist bis 20 Uhr offen.",
+              "travel": "ca. 20 Min. zu Fuss von der Talstation Richtung Kalchbühl"
+            },
+            {
+              "time": "19:00",
+              "placeId": "chur-zunfthaus-rebleuten",
+              "title": "Znacht im Zunfthaus",
+              "text": "Bündner Küche in der getäferten Zunftstube am Pfisterplatz – vorher reservieren.",
+              "travel": "ca. 20 Min. zu Fuss zurück in die Altstadt"
+            }
+          ]
+        },
+        {
+          "title": "Tag 2 (Samstag) – Arosa-Bahn und Kunst",
+          "slots": [
+            {
+              "time": "09:08",
+              "placeId": "chur-rhb-arosalinie",
+              "title": "Mit der RhB nach Arosa",
+              "text": "Erst wie ein Tram durch Chur, dann eine Stunde durchs Schanfigg und über den Langwieser Viadukt; in Arosa zum Obersee und Untersee spazieren und mit einem der stündlichen Züge zurück.",
+              "travel": "Abfahrt auf dem Bahnhofplatz Chur, ca. 10 Min. zu Fuss vom Hotel",
+              "rain": {
+                "placeId": "chur-kathedrale-domschatz",
+                "title": "Kathedrale und Domschatz",
+                "text": "Bei Regen bleibst du in Chur: Kathedrale auf dem Hof und das Domschatzmuseum mit den Todesbildern (Di–So ab 11 Uhr, im November zu)."
+              }
+            },
+            {
+              "time": "13:15",
+              "placeId": "chur-veltliner-weinstuben-stern",
+              "title": "Bündner Trilogie im Stern",
+              "text": "Capuns, Maluns und Pizzoccheri auf einem Teller in den alten Weinstuben an der Reichsgasse.",
+              "travel": "ca. 10 Min. zu Fuss vom Bahnhof"
+            },
+            {
+              "time": "14:45",
+              "placeId": "chur-buendner-kunstmuseum",
+              "title": "Bündner Kunstmuseum",
+              "text": "Bündner Kunst von Segantini bis Kirchner in der Villa Planta und im Erweiterungsbau – rund anderthalb Stunden.",
+              "travel": "ca. 8 Min. zu Fuss"
+            },
+            {
+              "time": "16:30",
+              "placeId": "chur-cafe-merz",
+              "title": "Kaffee und Birnbrot",
+              "text": "Zum Abschluss ein Kaffee bei Merz und etwas Süsses für die Heimfahrt.",
+              "travel": "ca. 2 Min. zu Fuss; danach 5 Min. zum Bahnhof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "eglisau-rhein-tagesausflug",
+      "title": "Eglisau: Städtli, Uferweg und Schiff",
+      "teaser": "Rundgang durchs Städtli, Zmittag am Wasser, zu Fuss durch die Rebberge zur Tössegg und mit dem Schiff zurück.",
+      "region": "eglisau",
+      "days": 1,
+      "moods": [
+        "natur",
+        "genuss",
+        "erholung",
+        "kultur"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "familie",
+        "allein"
+      ],
+      "season": "Mai–September, am besten an einem Sonntag (Fähre, Sonntagsschiff bei jedem Wetter, Rhybar offen)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 32
+        },
+        {
+          "from": "Bern",
+          "minutes": 97
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 95
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Sonntag) – Vom Städtli zur Tössegg",
+          "slots": [
+            {
+              "time": "10:15",
+              "tourSlug": "eglisau",
+              "title": "Audio-Rundgang «Eglisau – das Städtli am Rhein»",
+              "text": "Vom Bahnhof hinunter in die Untergass, zur Kirche über dem Strom, auf die Rheinbrücke und durch den Rebberg Rheinhalde bis zum Flussbad – rund eindreiviertel Stunden.",
+              "travel": "Start direkt am Bahnhof Eglisau",
+              "rain": {
+                "title": "Kurzvariante unter dem Schirm",
+                "text": "Bei Regen nur den Teil im Städtli machen – Brücke, Untergass, Kirche – und dann früher ins Trockene zum Mittagessen."
+              }
+            },
+            {
+              "time": "12:15",
+              "placeId": "eg-rhybar",
+              "title": "Zmittag auf der Rhybar-Terrasse",
+              "text": "Direkt am Wasser essen und den Schiffen zuschauen – am Sonntag gibt es auch Brunch.",
+              "travel": "wenige Minuten zu Fuss im Städtli"
+            },
+            {
+              "time": "13:30",
+              "placeId": "eg-rheinuferweg-buchberg",
+              "title": "Durch die Rebberge zur Fähre",
+              "text": "Rund 1 Stunde 20 Minuten flussabwärts an der Burgstelle vorbei durch die Aachhalde zur Fährstelle Buchberg, dann mit der kleinen Fähre ans andere Ufer.",
+              "travel": "Start im Städtli",
+              "rain": {
+                "placeId": "eg-ortsmuseum-weierbachhus",
+                "title": "Ortsmuseum Weierbachhus",
+                "text": "Am ersten Sonntag im Monat ist ab 14.30 Uhr das Ortsmuseum offen – bis dahin bei einem Kaffee abwarten. An anderen Sonntagen lieber früher heimfahren."
+              }
+            },
+            {
+              "time": "15:00",
+              "placeId": "eg-restaurant-toessegg",
+              "title": "Zvieri an der Tössegg",
+              "text": "Pause in der Gartenwirtschaft an der Töss-Mündung, Kinder toben auf dem Spielplatz.",
+              "travel": "Fähre Buchberg–Tössegg, wenige Minuten"
+            },
+            {
+              "time": "16:30",
+              "placeId": "eg-szr-kursschiff",
+              "title": "Mit dem Kursschiff zurück",
+              "text": "Gemütlich rheinaufwärts zurück nach Eglisau – die genauen Abfahrtszeiten stehen tagesaktuell auf szr.ch.",
+              "travel": "Schiffsteg Tössegg, gleich unterhalb des Restaurants",
+              "rain": {
+                "title": "Trotzdem aufs Schiff",
+                "text": "Der Sonntagskurs fährt laut Betreiber bei jedem Wetter. Nur bei Hoch- oder Niedrigwasser fällt er aus – das steht am Morgen auf der Startseite von szr.ch, dann den Uferweg in umgekehrter Richtung planen."
+              }
+            },
+            {
+              "time": "17:30",
+              "title": "Heimreise",
+              "text": "Vom Schiffsteg zurück über die Rheinbrücke zum Bahnhof; die S9 fährt halbstündlich Richtung Zürich.",
+              "travel": "ca. 15 Min. zu Fuss zum Bahnhof"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "regensberg-laegerngrat",
+      "title": "Regensberg und der Lägerngrat",
+      "teaser": "Morgens durchs Mittelalter-Städtchen auf dem Hügel, mittags auf die Hochwacht und dann über den Grat bis nach Baden.",
+      "region": "regensberg",
+      "days": 1,
+      "moods": [
+        "aktiv",
+        "natur",
+        "kultur"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "April–Oktober bei trockenem Wetter; Mittwoch bis Samstag (Hochwacht Mo/Di zu)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 36
+        },
+        {
+          "from": "Bern",
+          "minutes": 116
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 112
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Mittwoch bis Samstag) – Vom Städtchen über den Grat",
+          "slots": [
+            {
+              "time": "10:30",
+              "tourSlug": "regensberg",
+              "title": "Audio-Rundgang «Regensberg – Mittelalter auf dem Hügel»",
+              "text": "Anderthalb Stunden von der Unterburg hinauf in die Oberburg mit Rundturm, Schloss und dem 57 Meter tiefen Sodbrunnen, zum Schluss in den Rebberg mit Lägernblick.",
+              "travel": "Bus 593 ab Dielsdorf bis Regensberg, Dorf",
+              "rain": {
+                "placeId": "rb-rundturm-schloss",
+                "title": "Rundturm von innen",
+                "text": "Bei Regen den Rundgang kürzen und im Turm die Tafeln zur Stadtgeschichte lesen – die Aussicht oben gibt es auch bei tiefen Wolken ein Stück weit."
+              }
+            },
+            {
+              "time": "12:15",
+              "placeId": "rb-laegerngrat",
+              "title": "Aufstieg zur Hochwacht",
+              "text": "Rund 45 Minuten durch den Wald hinauf zum Aussichtspunkt auf dem Lägerngrat.",
+              "travel": "Start im Städtchen",
+              "rain": {
+                "title": "Unterer Weg oder Rückfahrt",
+                "text": "Bei Nässe nur auf dem breiten Waldweg zur Hochwacht und zurück – oder direkt mit Bus 593 nach Dielsdorf und heim."
+              }
+            },
+            {
+              "time": "13:00",
+              "placeId": "rb-restaurant-hochwacht",
+              "title": "Zmittag auf der Hochwacht",
+              "text": "Einkehr mit Aussicht über das Unterland – es ist die letzte vor Baden.",
+              "travel": "direkt am Weg"
+            },
+            {
+              "time": "14:15",
+              "title": "Über den Grat nach Baden",
+              "text": "Weiter auf dem schmalen Grat Richtung Burghorn und hinunter nach Baden, gut zweieinhalb Stunden. Ohne Schwindelfreiheit den unteren Parallelweg nehmen.",
+              "travel": "zu Fuss, Ziel Bahnhof Baden",
+              "rain": {
+                "title": "Abstieg zurück nach Regensberg",
+                "text": "Wenn es zu regnen beginnt, nicht auf den felsigen Grat – in rund 45 Minuten zurück nach Regensberg und mit dem Bus nach Dielsdorf."
+              }
+            },
+            {
+              "time": "17:00",
+              "title": "Heimreise ab Baden",
+              "text": "Vom Bahnhof Baden fahren direkte Züge nach Zürich und Richtung Basel und Bern.",
+              "travel": "Bahnhof Baden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "zuercher-unterland-eglisau-regensberg",
+      "title": "Zürcher Unterland: Eglisau und Regensberg",
+      "teaser": "Zwei Städtli an einem Tag – morgens am Rhein, nachmittags auf dem Hügel, abends Znacht in der Krone.",
+      "region": "regensberg",
+      "days": 1,
+      "moods": [
+        "kultur",
+        "genuss",
+        "natur"
+      ],
+      "audience": [
+        "paar",
+        "freunde",
+        "allein"
+      ],
+      "season": "April–Oktober; Donnerstag bis Samstag (Nachtwächter Mi zu, Hochwacht Mo/Di zu, Krone So/Mo zu)",
+      "arrival": [
+        {
+          "from": "Zürich HB",
+          "minutes": 32
+        },
+        {
+          "from": "Bern",
+          "minutes": 97
+        },
+        {
+          "from": "Basel SBB",
+          "minutes": 95
+        }
+      ],
+      "hotelIds": [],
+      "dayPlans": [
+        {
+          "title": "Tag 1 (Donnerstag bis Samstag) – Vom Rhein auf die Lägern",
+          "slots": [
+            {
+              "time": "09:40",
+              "tourSlug": "eglisau",
+              "title": "Audio-Rundgang «Eglisau – das Städtli am Rhein»",
+              "text": "Vom Bahnhof in die Untergass, zur Kirche, auf die Rheinbrücke und in den Rebberg Rheinhalde.",
+              "travel": "Start direkt am Bahnhof Eglisau",
+              "rain": {
+                "title": "Kurzvariante",
+                "text": "Bei Regen nur Brücke, Untergass und Kirche anschauen und früher ins Café."
+              }
+            },
+            {
+              "time": "11:40",
+              "placeId": "eg-cafe-nachtwaechter",
+              "title": "Früher Zmittag im Nachtwächter",
+              "text": "Einfaches Mittagessen oder Kuchen im Café am Eingang der Untergass.",
+              "travel": "wenige Minuten zu Fuss"
+            },
+            {
+              "time": "12:51",
+              "title": "Weiter nach Regensberg",
+              "text": "Mit der S9 bis Oberglatt, der S15 bis Dielsdorf und dem Bus 593 hinauf nach Regensberg – Ankunft 13.28 Uhr, Verbindung jede halbe Stunde.",
+              "travel": "ca. 15 Min. zu Fuss zum Bahnhof Eglisau, dann 37 Min. Bahn und Bus"
+            },
+            {
+              "time": "13:30",
+              "tourSlug": "regensberg",
+              "title": "Audio-Rundgang «Regensberg – Mittelalter auf dem Hügel»",
+              "text": "Durch Unter- und Oberburg zu Schloss, Rundturm und Sodbrunnen.",
+              "travel": "Start bei der Bushaltestelle Regensberg, Dorf",
+              "rain": {
+                "placeId": "rb-rundturm-schloss",
+                "title": "Rundturm",
+                "text": "Bei Regen in den Turm mit der kleinen Ausstellung zur Stadtgeschichte ausweichen."
+              }
+            },
+            {
+              "time": "15:15",
+              "placeId": "rb-laegerngrat",
+              "title": "Hinauf zur Hochwacht",
+              "text": "Rund 45 Minuten auf dem Waldweg zum höchsten Aussichtspunkt des Unterlands.",
+              "travel": "Start im Städtchen",
+              "rain": {
+                "title": "Im Städtchen bleiben",
+                "text": "Bei Nässe den Aufstieg auslassen und die Zeit bis zum Znacht mit einem Spaziergang um die Oberburg und Blick ins Wehntal füllen."
+              }
+            },
+            {
+              "time": "16:00",
+              "placeId": "rb-restaurant-hochwacht",
+              "title": "Zvieri auf der Hochwacht",
+              "text": "Etwas trinken in der Gartenwirtschaft mit Blick über das Unterland.",
+              "travel": "direkt am Weg"
+            },
+            {
+              "time": "17:00",
+              "title": "Abstieg nach Regensberg",
+              "text": "Auf demselben Weg zurück ins Städtchen.",
+              "travel": "ca. 45 Min. zu Fuss",
+              "rain": {
+                "title": "Breiter Waldweg",
+                "text": "Wenn es unterwegs zu regnen beginnt, den breiten Waldweg statt der schmalen Abkürzungen nehmen."
+              }
+            },
+            {
+              "time": "18:15",
+              "placeId": "rb-krone-regensberg",
+              "title": "Znacht in der Krone",
+              "text": "Regionale Gourmetküche gleich beim Schloss – unbedingt reservieren. Danach mit Bus 593 nach Dielsdorf oder im Haus übernachten.",
+              "travel": "wenige Minuten zu Fuss in der Oberburg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

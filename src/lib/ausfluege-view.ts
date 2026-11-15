@@ -1,7 +1,7 @@
 import { getDestination } from "@/data/destinations";
 import { getTourHeroImage } from "@/data/images";
 import { tours } from "@/lib/tours";
-import { getPlace, places, type Place, type Trip, type TripDay } from "@/lib/ausfluege";
+import { getPlace, places, tripBudget, type Place, type Trip, type TripDay } from "@/lib/ausfluege";
 import type { TripLite } from "@/components/TripExplorer";
 import type { TimelineTour } from "@/components/TripTimeline";
 import type { PlanTour } from "@/lib/compose";
@@ -17,6 +17,9 @@ export function mainTour(trip: Trip) {
 export function toTripLite(trip: Trip): TripLite {
   const t = mainTour(trip);
   const zh = trip.arrival?.find((a) => /zürich/i.test(a.from)) ?? trip.arrival?.[0];
+  const { places: pm } = timelineData(trip.dayPlans, trip.hotelIds);
+  const b = tripBudget(trip.dayPlans, pm, getPlace(trip.hotelIds?.[0]));
+  const firstImg = trip.dayPlans.flatMap((d) => d.slots).map((s) => pm[s.placeId ?? ""]).find((p) => p?.img && p.kind !== "hotel")?.img;
   return {
     slug: trip.slug,
     title: trip.title,
@@ -27,8 +30,9 @@ export function toTripLite(trip: Trip): TripLite {
     audience: trip.audience,
     season: trip.season,
     arrival: zh,
-    hero: t ? getTourHeroImage(t.slug) : undefined,
+    hero: (t ? getTourHeroImage(t.slug) : undefined) ?? firstImg,
     gradient: t?.gradient ?? ["#ff4d00", "#d63f00"],
+    cost: b.high > 0 && b.missing.length <= 1 ? [b.low, b.high] : undefined,
   };
 }
 

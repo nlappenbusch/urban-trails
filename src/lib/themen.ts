@@ -51,6 +51,16 @@ export const THEMEN: Thema[] = [
     faq: (r, n) => ({ q: `Was kann man in ${r} zu zweit machen?`, a: `Zu zweit in ${r} empfehlen wir ${list(n.slice(0, 4))}.` }),
   },
   {
+    slug: "krasse-orte",
+    label: "krasse Orte & Geheimtipps",
+    title: (r) => `Krasse Orte & Geheimtipps ${r}`,
+    intro: (r) => `Nicht die Postkarte, sondern die Orte, bei denen man «Was, das gibt's?» sagt: in und um ${r} – mit der harten Tatsache dahinter, Preis und Saison.`,
+    match: (p) => (p.tags.includes("besonders") || p.tags.includes("geheimtipp")) && p.kind !== "hotel",
+    tripMatch: (t) => t.moods.includes("krass"),
+    plan: { days: 1, audience: "freunde", moods: ["krass"], rain: false, budget: 3 },
+    faq: (r, n) => ({ q: `Was sind besondere Ausflugsziele in ${r}?`, a: `Abseits der Klassiker lohnen sich in ${r} ${list(n.slice(0, 4))}. Bei jedem Ort stehen Preis, Saison und was ihn besonders macht.` }),
+  },
+  {
     slug: "guenstig",
     label: "günstig",
     title: (r) => `Günstiger Ausflug ${r}`,

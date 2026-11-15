@@ -20,6 +20,9 @@ const MOOD_TAGS: Record<string, string[]> = {
   aktiv: ["aktiv", "berg"],
   erholung: ["wellness", "see"],
   romantik: ["romantisch", "aussicht"],
+  krass: ["besonders", "geheimtipp"],
+  wandern: ["wandern"],
+  schwimmen: ["baden"],
 };
 const AUDIENCE_TAG: Record<string, string> = { paar: "romantisch", freunde: "freunde", familie: "familie" };
 const AUDIENCE_LABEL: Record<string, string> = { paar: "zu zweit", freunde: "mit Freunden", familie: "für Familien" };

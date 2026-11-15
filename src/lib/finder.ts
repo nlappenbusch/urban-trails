@@ -1,5 +1,5 @@
 ﻿/**
- * Sucht AusflÃ¼ge, die an einem Datum ab einem Bahnhof wirklich aufgehen:
+ * Sucht Ausflüge, die an einem Datum ab einem Bahnhof wirklich aufgehen:
  * Wetter am Ziel, echte Zugverbindung, offene Orte. Genutzt von /api/heute und /api/ueberraschung.
  */
 import { connections, findStations, type Station } from "@/lib/oev";
@@ -32,9 +32,9 @@ export interface FinderInput {
   depTime: string;
   audience: string;
   moods: string[];
-  /** Zufallsanteil der Bewertung: 0.6 = Â«HeuteÂ», hÃ¶her = Ãœberraschung */
+  /** Zufallsanteil der Bewertung: 0.6 = «Heute», höher = Überraschung */
   randomness?: number;
-  /** hÃ¶chstens so viele CHF pro Person (grobe SchÃ¤tzung ohne Bahn) */
+  /** höchstens so viele CHF pro Person (grobe Schätzung ohne Bahn) */
   maxCost?: number;
   /** Regionen, die nicht in Frage kommen (z. B. schon ausgelost) */
   exclude?: string[];

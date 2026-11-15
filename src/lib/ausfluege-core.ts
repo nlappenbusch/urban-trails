@@ -84,8 +84,27 @@ export interface Place {
   durationMin?: number;
   text: string;
   tip?: string;
+  /** harte Tatsache, warum der Ort aussergewöhnlich ist (nur bei «besonders»/«geheimtipp») */
+  wow?: string;
+  /** Wanderung: Eckdaten laut SchweizMobil/Tourismus */
+  hike?: { km: number; up?: number; down?: number; hours: number; difficulty?: string; start?: string; end?: string; winter?: boolean };
+  /** Baden: Art des Gewässers (für Live-Wassertemperatur) */
+  water?: { type: "see" | "fluss" | "freibad" | "hallenbad" | "therme"; body?: string; heated?: boolean; tempC?: number };
   source?: string;
   checked?: string;
+}
+
+/** «11,5 km · 520 Hm · 3½ h · T2» */
+export function hikeText(h: NonNullable<Place["hike"]>) {
+  const hrs = h.hours % 1 === 0.5 ? `${Math.floor(h.hours) || ""}½ h` : `${String(h.hours).replace(".", ",")} h`;
+  return [`${String(h.km).replace(".", ",")} km`, h.up ? `${h.up} Hm hoch` : "", h.down ? `${h.down} Hm runter` : "", hrs, h.difficulty ?? "", h.winter ? "Winterweg" : ""].filter(Boolean).join(" · ");
+}
+
+/** Krasser Ort oder Geheimtipp? Liefert das Etikett, sonst undefined. */
+export function specialLabel(p: Pick<Place, "tags">): "Geheimtipp" | "Krass" | undefined {
+  if (p.tags.includes("geheimtipp")) return "Geheimtipp";
+  if (p.tags.includes("besonders")) return "Krass";
+  return undefined;
 }
 
 export interface TripAlt {
@@ -132,6 +151,9 @@ export const MOODS: Record<string, string> = {
   aktiv: "Aktiv",
   erholung: "Erholung",
   romantik: "Romantik",
+  krass: "Krass & Geheimtipps",
+  wandern: "Wandern",
+  schwimmen: "Schwimmen",
   familie: "Familie",
 };
 

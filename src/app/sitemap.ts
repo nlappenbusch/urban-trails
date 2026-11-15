@@ -23,6 +23,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/ausfluege/heute`, changeFrequency: "daily", priority: 0.8 },
     { url: `${SITE_URL}/ausfluege/ueberraschung`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/geschenk`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE_URL}/wassertemperaturen`, changeFrequency: "hourly", priority: 0.8 },
+    { url: `${SITE_URL}/skigebiete`, changeFrequency: "hourly", priority: 0.8 },
     ...trips.map((t) => ({ url: `${SITE_URL}/ausfluege/${t.slug}`, changeFrequency: "monthly" as const, priority: 0.8 })),
     { url: `${SITE_URL}/ausflugsziele`, changeFrequency: "weekly", priority: 0.9 },
     ...allRegions()

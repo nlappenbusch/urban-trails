@@ -5,9 +5,11 @@ import Link from "next/link";
 import {
   AlertTriangle, Ban, Shuffle, Bed, CalendarPlus, CheckCircle2, CloudRain, Coffee, ExternalLink, Footprints, Headphones, Landmark, MapPin, Mountain, Sparkles, Sun, TrainFront, Umbrella, UtensilsCrossed, Waves, Wine, XCircle,
 } from "lucide-react";
-import { addDays, effectiveSlot, fmtMin, KIND_LABEL, layoutDay, minToHm, openState, priceLabel, priceText, type Place, type PlaceKind, type SlotLayout, type TripDay } from "@/lib/ausfluege-core";
+import { addDays, effectiveSlot, fmtMin, hikeText, KIND_LABEL, layoutDay, minToHm, openState, priceLabel, priceText, type Place, type PlaceKind, type SlotLayout, type TripDay } from "@/lib/ausfluege-core";
 import { WEATHER_LABEL, weatherKind, type DayWeatherLite } from "@/lib/wetter-core";
 import { imgAttrs } from "@/lib/img";
+import SpecialBadge, { WowLine } from "@/components/SpecialBadge";
+import LiveWater from "@/components/LiveWater";
 import DayBand, { slotTone } from "@/components/DayBand";
 import WeatherIcon from "@/components/WeatherIcon";
 
@@ -244,9 +246,11 @@ function SlotRow({ id, n, r, next, raw, tours, date, wx, swap }: {
                 <span className="text-signal-600">{tour ? "Audio-Tour" : p ? KIND_LABEL[p.kind] : "Programm"}</span>
                 <span>{fmtMin(dur)}</span>
                 {s.swapped && <span className="rounded-full bg-cream px-2 py-0.5 text-[10px] uppercase tracking-wide text-ink-900">Regenvariante</span>}
+                {p && <SpecialBadge p={p} />}
                 {raw.travel && <span>· {raw.travel}</span>}
               </p>
               <p className="mt-1 font-display text-lg font-extrabold leading-snug tracking-tight text-cream">{s.title}</p>
+              {p && <WowLine p={p} className="mt-1 text-signal-600" />}
               <p className="mt-1.5 text-sm leading-relaxed text-cream-dim">{s.text}</p>
 
               {(open || rainPct !== undefined) && (
@@ -324,6 +328,7 @@ function SwapPanel({ p, swap, onDone }: { p: Place; swap: SwapApi; onDone: () =>
                 <span className="block p-3">
                   <span className="block text-xs font-semibold text-signal-600">{KIND_LABEL[a.kind]}{a.weatherProof ? " · mit Dach" : ""}</span>
                   <span className="mt-0.5 block font-bold leading-snug text-cream group-hover:underline">{a.name}</span>
+                  {a.wow && <span className="mt-0.5 block text-xs font-semibold text-signal-600">{a.wow}</span>}
                   {a.priceInfo && <span className="mt-0.5 block text-xs text-cream-faint">{priceText(a.priceInfo)}</span>}
                 </span>
               </button>
@@ -364,6 +369,13 @@ function PlaceLine({ p }: { p: Place }) {
           {p.priceInfo?.note && <span className="font-normal text-cream-faint"> – {p.priceInfo.note}</span>}
         </p>
       )}
+      {p.hike && (
+        <p className="mb-1 text-sm font-semibold text-cream">
+          {hikeText(p.hike)}
+          {p.hike.start && <span className="font-normal text-cream-faint"> – {p.hike.start}{p.hike.end && p.hike.end !== p.hike.start ? ` → ${p.hike.end}` : " (Rundweg)"}</span>}
+        </p>
+      )}
+      {p.water && (p.water.type === "see" || p.water.type === "fluss") && <LiveWater id={p.id} className="mb-1" />}
       <p>{facts.join(" · ")}</p>
       <p className="mt-1 flex flex-wrap gap-x-4 gap-y-1">
         <a href={mapsLink(p)} target="_blank" rel="noopener" className="inline-flex items-center gap-1 font-semibold text-cream-dim hover:text-cream">

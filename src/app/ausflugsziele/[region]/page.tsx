@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { allRegions, regionInfo, trips, type Place, type PlaceKind } from "@/lib/ausfluege";
+import { specialLabel } from "@/lib/ausfluege-core";
+import { skiAreas } from "@/lib/ski";
 import { toTripLite } from "@/lib/ausfluege-view";
 import { THEMEN, regionPlaces, themaPages } from "@/lib/themen";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
@@ -48,7 +50,14 @@ export default async function RegionPage({ params }: Props) {
   const regionTrips = trips.filter((t) => t.region === r.slug).map(toTripLite);
   const themen = themaPages().filter((x) => x.region === r.slug).map((x) => THEMEN.find((t) => t.slug === x.thema)!);
   const hero = ps.find((p) => p.img && p.kind !== "hotel" && p.kind !== "restaurant")?.img;
-  const groups = GROUPS.map((g) => ({ ...g, places: ps.filter((p) => g.kinds.includes(p.kind)).sort(byKind(g.kinds)) })).filter((g) => g.places.length);
+  // Krasse Orte und Geheimtipps zuerst – die anderen Gruppen ohne sie
+  const special = ps.filter((p) => specialLabel(p) && p.kind !== "hotel").sort((a, b) => Number(Boolean(b.img)) - Number(Boolean(a.img)));
+  const rest = ps.filter((p) => !special.includes(p));
+  const groups = [
+    { title: "Krass & Geheimtipps", kinds: [] as PlaceKind[], places: special },
+    ...GROUPS.map((g) => ({ ...g, places: rest.filter((p) => g.kinds.includes(p.kind)).sort(byKind(g.kinds)) })),
+  ].filter((g) => g.places.length);
+  const ski = skiAreas.filter((s) => s.region === r.slug);
   const regenfest = ps.filter((p) => p.weatherProof && p.kind !== "hotel").length;
   const gratis = ps.filter((p) => p.priceInfo?.from === 0).length;
 
@@ -119,6 +128,24 @@ export default async function RegionPage({ params }: Props) {
             <div className="mt-5"><PlaceGrid places={g.places} /></div>
           </section>
         ))}
+
+        {ski.length > 0 && (
+          <section className="mt-14" aria-labelledby="ski">
+            <h2 id="ski" className="headline text-3xl text-cream">Skifahren in der Nähe</h2>
+            <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {ski.map((s) => (
+                <li key={s.id} className="card p-4">
+                  <p className="text-xs font-semibold text-cream-faint">{s.canton}{s.altitude?.top ? ` · bis ${s.altitude.top} m` : ""}{s.season ? ` · ${s.season}` : ""}</p>
+                  <p className="mt-0.5 font-display text-lg font-extrabold leading-tight tracking-tight text-cream">{s.name}</p>
+                  <p className="mt-1 text-sm text-cream-dim">
+                    {[s.pistes?.total ? `${s.pistes.total} km Pisten` : "", s.lifts ? `${s.lifts} Anlagen` : "", s.ticket ? `Tageskarte CHF ${s.ticket.from}` : ""].filter(Boolean).join(" · ")}
+                  </p>
+                </li>
+              ))}
+            </ul>
+            <Link href="/skigebiete" className="mt-4 inline-block text-sm font-semibold text-signal-600 hover:text-signal-500">Alle Skigebiete mit Schnee und Anreise</Link>
+          </section>
+        )}
 
         <section className="mt-16">
           <h2 className="font-display text-2xl font-extrabold tracking-tight text-cream">Noch nicht sicher?</h2>

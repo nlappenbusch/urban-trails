@@ -4,7 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Link2, Shuffle, Sparkles } from "lucide-react";
-import { AUDIENCE, MOODS, daysLabel, openState, tripBudget, type Place } from "@/lib/ausfluege-core";
+import { AUDIENCE, MOODS, addDays, daysLabel, openState, tripBudget, type Place } from "@/lib/ausfluege-core";
+import HotelCheck from "@/components/HotelCheck";
 import { composePlan, type PlanInput, type PlanTour } from "@/lib/compose";
 import TripTimeline, { type SwapApi, type TimelineTour } from "@/components/TripTimeline";
 import TripMap from "@/components/TripMap";
@@ -170,9 +171,14 @@ export default function Planner({ regions, places, tours }: {
                 <p className="kicker mb-4">Dein Ausflug</p>
                 <TripPlanPanel key={region.slug} region={region.slug} station={region.station} days={plan.days} />
               </div>
-              {budget && budget.high > 0 && (
-                <div className="card h-fit p-5 text-sm">
-                  <TripBudget budget={budget} />
+              {((budget && budget.high > 0) || days > 1) && (
+                <div className="card h-fit space-y-6 p-5 text-sm">
+                  {budget && budget.high > 0 && <TripBudget budget={budget} />}
+                  {days > 1 && (
+                    <div className={budget && budget.high > 0 ? "border-t border-cream/10 pt-5" : ""}>
+                      <HotelCheck place={region.name.split(/[ ,&(/]/)[0]} checkin={input.date} checkout={input.date ? addDays(input.date, days - 1) : undefined} adults={input.audience === "allein" ? 1 : 2} />
+                    </div>
+                  )}
                 </div>
               )}
             </div>

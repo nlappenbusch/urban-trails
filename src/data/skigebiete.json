@@ -1,0 +1,1942 @@
+[
+ {
+  "id": "laax",
+  "name": "Laax / Flims / Falera",
+  "canton": "GR",
+  "region": "chur",
+  "coords": {
+   "lat": 46.8202,
+   "lng": 9.26331
+  },
+  "station": "Laax Murschetg (Talstation)",
+  "access": "Postauto ab Bahnhof Chur oder Ilanz bis Laax Murschetg, von dort Gondelbahn direkt ins Skigebiet.",
+  "url": "https://www.laax.com",
+  "altitude": {
+   "base": 1100,
+   "top": 3018
+  },
+  "pistes": {
+   "blue": 85,
+   "red": 76,
+   "black": 15,
+   "total": 176,
+   "skiRoutes": 40
+  },
+  "lifts": 29,
+  "season": "28.11.2026 – 11.04.2027",
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Wenn du Freestyle magst, bist du hier richtig: mehrere Snowparks und eine Superpipe gehören zu den besten der Alpen. Dazu kommen breite Pisten bis auf den Vorab-Gletscher auf über 3000 m."
+ },
+ {
+  "id": "arosa-lenzerheide",
+  "name": "Arosa Lenzerheide",
+  "canton": "GR",
+  "region": "davos",
+  "coords": {
+   "lat": 46.78392,
+   "lng": 9.67946
+  },
+  "station": "Arosa",
+  "access": "Mit der Rhätischen Bahn ab Chur nach Arosa, die Talstationen erreichst du zu Fuss oder mit dem Ortsbus; Lenzerheide erreichst du per Postauto ab Chur.",
+  "url": "https://arosalenzerheide.swiss",
+  "altitude": {
+   "base": 1229,
+   "top": 2865
+  },
+  "pistes": {
+   "blue": 110,
+   "red": 87,
+   "black": 28,
+   "total": 225
+  },
+  "lifts": 43,
+  "season": "28.11.2026 – 11.04.2027",
+  "ticket": {
+   "from": 89,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 59, Kinder CHF 29 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Zwei Täler, ein Skipass: Über die Urdenbahn wechselst du in wenigen Minuten zwischen Arosa und Lenzerheide. Ideal, wenn du viele abwechslungsreiche Pistenkilometer an einem Tag fahren willst."
+ },
+ {
+  "id": "st-moritz-corviglia",
+  "name": "St. Moritz – Corviglia",
+  "canton": "GR",
+  "region": "engadin",
+  "coords": {
+   "lat": 46.49799,
+   "lng": 9.84585
+  },
+  "station": "St. Moritz",
+  "access": "Vom Bahnhof St. Moritz zu Fuss oder per Ortsbus ins Dorf, dann mit der Standseilbahn Chantarella–Corviglia; alternativ Gondelbahn ab Celerina.",
+  "url": "https://www.mountains.ch",
+  "altitude": {
+   "base": 1772,
+   "top": 3057
+  },
+  "pistes": {
+   "blue": 42,
+   "red": 79,
+   "black": 34,
+   "total": 155,
+   "skiRoutes": 4.8
+  },
+  "lifts": 23,
+  "season": "28.11.2026 – 04.04.2027",
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Der Hausberg von St. Moritz bietet gepflegte, sonnige Pisten mit Engadiner Seenpanorama bis hinauf zum Piz Nair. Gut für dich, wenn du Genuss-Skifahren mit stilvollen Bergrestaurants verbinden willst."
+ },
+ {
+  "id": "corvatsch",
+  "name": "Corvatsch / Furtschellas",
+  "canton": "GR",
+  "region": "engadin",
+  "coords": {
+   "lat": 46.45524,
+   "lng": 9.81429
+  },
+  "station": "Surlej, Corvatschbahn",
+  "access": "Bus ab Bahnhof St. Moritz bis Surlej, Corvatschbahn, dann Luftseilbahn auf den Corvatsch.",
+  "url": "https://www.corvatsch-diavolezza.ch/berge/corvatsch",
+  "altitude": {
+   "base": 1797,
+   "top": 3303
+  },
+  "pistes": {
+   "blue": 13,
+   "red": 89.3,
+   "black": 17.7,
+   "total": 120,
+   "skiRoutes": 2
+  },
+  "lifts": 14,
+  "season": "21.11.2026 – 25.04.2027",
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Höchste Bergstation Graubündens mit Blick auf Bernina und die Engadiner Seen. Freitags lockt eine der längsten beleuchteten Nachtpisten der Schweiz."
+ },
+ {
+  "id": "diavolezza-lagalb",
+  "name": "Diavolezza / Lagalb",
+  "canton": "GR",
+  "region": "engadin",
+  "coords": {
+   "lat": 46.44174,
+   "lng": 9.98228
+  },
+  "station": "Bernina Diavolezza",
+  "access": "Mit der Berninabahn bis Bernina Diavolezza, die Luftseilbahn startet direkt beim Bahnhof.",
+  "url": "https://www.corvatsch-diavolezza.ch",
+  "altitude": {
+   "base": 2093,
+   "top": 3006
+  },
+  "pistes": {
+   "blue": 0,
+   "red": 27,
+   "black": 8,
+   "total": 35,
+   "skiRoutes": 10
+  },
+  "lifts": 5,
+  "season": "24.10.2026 – 02.05.2027",
+  "nightSkiing": false,
+  "text": "Hier gibt es keine blauen Pisten – dafür Gletscherblick, Schneesicherheit bis in den Mai und die Gletscherabfahrt über den Morteratsch. Perfekt für sportliche Fahrer und Freerider."
+ },
+ {
+  "id": "davos-parsenn",
+  "name": "Davos Klosters – Parsenn",
+  "canton": "GR",
+  "region": "davos",
+  "coords": {
+   "lat": 46.80956,
+   "lng": 9.84183
+  },
+  "station": "Davos Dorf",
+  "access": "Die Parsennbahn startet wenige Schritte vom Bahnhof Davos Dorf; ab Klosters Platz fährt die Gotschnabahn.",
+  "url": "https://www.davosklostersmountains.ch/parsenn",
+  "altitude": {
+   "base": 810,
+   "top": 2844
+  },
+  "pistes": {
+   "blue": 17.3,
+   "red": 60.5,
+   "black": 17.7,
+   "total": 95.5,
+   "skiRoutes": 6.3
+  },
+  "lifts": 18,
+  "season": "13.11.2026 – 04.04.2027",
+  "ticket": {
+   "from": 87,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 61, Kinder CHF 35 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Das grösste Gebiet von Davos Klosters mit der legendären 12-km-Abfahrt vom Weissfluhgipfel bis Küblis. Zurück bringt dich ganz entspannt die Rhätische Bahn."
+ },
+ {
+  "id": "davos-jakobshorn",
+  "name": "Davos – Jakobshorn",
+  "canton": "GR",
+  "region": "davos",
+  "coords": {
+   "lat": 46.79177,
+   "lng": 9.82101
+  },
+  "station": "Davos Platz",
+  "access": "Vom Bahnhof Davos Platz sind es wenige Gehminuten zur Jakobshornbahn.",
+  "url": "https://www.davosklostersmountains.ch/jakobshorn",
+  "altitude": {
+   "base": 1535,
+   "top": 2568
+  },
+  "pistes": {
+   "blue": 25.5,
+   "red": 13.2,
+   "black": 2.5,
+   "total": 41.2,
+   "skiRoutes": 13
+  },
+  "lifts": 13,
+  "season": "27.11.2026 – 11.04.2027",
+  "ticket": {
+   "from": 87,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 61, Kinder CHF 35 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Der Freestyle-Berg von Davos mit dem Jatz Park für alle Könnerstufen. Nach dem Skitag geht es zum Après-Ski auf die Bolgen."
+ },
+ {
+  "id": "savognin",
+  "name": "Savognin",
+  "canton": "GR",
+  "region": "engadin",
+  "coords": {
+   "lat": 46.59613,
+   "lng": 9.59226
+  },
+  "station": "Savognin, pendicularas/Bahnen",
+  "access": "Postauto ab Bahnhof Tiefencastel bis Savognin, pendicularas/Bahnen direkt an der Talstation.",
+  "url": "https://www.valsurses.ch/de/bergbahnen/savognin-bergbahnen",
+  "altitude": {
+   "base": 1168,
+   "top": 2713
+  },
+  "pistes": {
+   "blue": 32.5,
+   "red": 38,
+   "black": 3,
+   "total": 73.5
+  },
+  "lifts": 12,
+  "season": "05.12.2026 – 29.03.2027",
+  "family": true,
+  "nightSkiing": true,
+  "text": "Lange, breite Abfahrten mit bis zu 1500 Höhenmetern am Stück – ideal zum Carven. Familien finden im Dorf ein grosses Kinderland und mit dem Tigignas-Park einen Übungsbereich."
+ },
+ {
+  "id": "scuol",
+  "name": "Scuol – Motta Naluns",
+  "canton": "GR",
+  "region": "davos",
+  "coords": {
+   "lat": 46.7938,
+   "lng": 10.28681
+  },
+  "station": "Scuol-Tarasp",
+  "access": "Vom Bahnhof Scuol-Tarasp gelangst du in wenigen Gehminuten zur Gondelbahn Motta Naluns.",
+  "url": "https://www.bergbahnen-scuol.ch",
+  "altitude": {
+   "base": 1250,
+   "top": 2785
+  },
+  "pistes": {
+   "blue": 27,
+   "red": 32,
+   "black": 11,
+   "total": 70
+  },
+  "lifts": 12,
+  "season": "12.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 69,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 59, Kinder CHF 33 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Sonniges Gebiet über dem Unterengadin mit Blick auf die Engadiner Dolomiten. Die «Traumpiste» nach Sent ist mit fast 1300 Höhenmetern ein Highlight."
+ },
+ {
+  "id": "obersaxen-mundaun",
+  "name": "Obersaxen Mundaun Val Lumnezia",
+  "canton": "GR",
+  "region": "chur",
+  "coords": {
+   "lat": 46.7488,
+   "lng": 9.10224
+  },
+  "station": "Obersaxen, Meierhof Talstation",
+  "access": "Postauto ab Bahnhof Ilanz bis Obersaxen, Meierhof Talstation; der Sessellift startet direkt dort.",
+  "url": "https://www.obersaxen-mundaun.ch",
+  "altitude": {
+   "base": 1201,
+   "top": 2310
+  },
+  "pistes": {
+   "blue": 46,
+   "red": 65,
+   "black": 9,
+   "total": 120
+  },
+  "lifts": 15,
+  "season": "18.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 67,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 50, Kinder CHF 30 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": true,
+  "text": "Familienfreundliches Surselva-Gebiet mit gut präparierten, aussichtsreichen Pisten über mehrere Gipfel. Im Vergleich zu den Grossen geht es hier entspannter zu."
+ },
+ {
+  "id": "brigels",
+  "name": "Brigels / Waltensburg / Andiast",
+  "canton": "GR",
+  "region": "chur",
+  "coords": {
+   "lat": 46.76962,
+   "lng": 9.06139
+  },
+  "station": "Tavanasa-Breil/Brigels",
+  "access": "Postauto ab Bahnhof Tavanasa-Breil/Brigels hinauf nach Brigels, dort Sesselbahn ins Skigebiet.",
+  "url": "https://www.brigels-bergbahnen.ch",
+  "altitude": {
+   "base": 1102,
+   "top": 2418
+  },
+  "pistes": {
+   "blue": 11,
+   "red": 26,
+   "black": 3,
+   "total": 40
+  },
+  "lifts": 10,
+  "season": "19.12.2026 – 21.03.2027",
+  "ticket": {
+   "from": 65,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 60, Kinder CHF 35 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Sonnenverwöhnte, meist baumfreie Hänge mit weiten Pisten und viel Panorama. Mit Funslope, Snowtubing und Schlittelwegen auch für Kinder spannend."
+ },
+ {
+  "id": "disentis",
+  "name": "Disentis",
+  "canton": "GR",
+  "region": "stoos",
+  "coords": {
+   "lat": 46.70509,
+   "lng": 8.85518
+  },
+  "station": "Disentis/Mustér",
+  "access": "Vom Bahnhof Disentis/Mustér erreichst du die Talstation der Gondelbahn Caischavedra in wenigen Minuten.",
+  "url": "https://www.disentis.fun",
+  "altitude": {
+   "base": 1227,
+   "top": 2833
+  },
+  "pistes": {
+   "blue": 20,
+   "red": 30,
+   "black": 10,
+   "total": 60
+  },
+  "lifts": 12,
+  "season": "28.11.2026 – 04.04.2027",
+  "ticket": {
+   "from": 64,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 45, Kinder CHF 32 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Übersichtliches, schneesicheres Gebiet in der oberen Surselva mit Kinderliften und Spielplatz. Rund um den Péz Ault finden Freerider oft noch Tage nach dem Schneefall unverspurte Hänge."
+ },
+ {
+  "id": "andermatt-sedrun",
+  "name": "Andermatt / Oberalp / Sedrun",
+  "canton": "UR",
+  "region": "engelberg",
+  "coords": {
+   "lat": 46.63689,
+   "lng": 8.59328
+  },
+  "station": "Andermatt",
+  "access": "Die Gondelbahn Gütsch-Express startet direkt beim Bahnhof Andermatt.",
+  "url": "https://andermatt-sedrun-disentis.ch",
+  "altitude": {
+   "base": 1444,
+   "top": 2600
+  },
+  "pistes": {
+   "blue": 18,
+   "red": 40,
+   "black": 12,
+   "total": 70
+  },
+  "lifts": 13,
+  "season": "12.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 92,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 65, Kinder CHF 46 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Seit 2018 durchgehend von Andermatt über den Oberalppass bis Sedrun verbunden – eine Skisafari über zwei Kantone. Am Gemsstock warten zudem anspruchsvolle Freeride-Hänge."
+ },
+ {
+  "id": "gruesch-danusa",
+  "name": "Grüsch Danusa",
+  "canton": "GR",
+  "region": "chur",
+  "coords": {
+   "lat": 46.98056,
+   "lng": 9.64591
+  },
+  "station": "Grüsch",
+  "access": "Vom Bahnhof Grüsch gehst du wenige Minuten zur Gondelbahn ins Skigebiet.",
+  "url": "https://www.gruesch-danusa.ch",
+  "altitude": {
+   "base": 600,
+   "top": 1800
+  },
+  "pistes": {
+   "blue": 6.8,
+   "red": 17.8,
+   "black": 6,
+   "total": 30.6
+  },
+  "lifts": 6,
+  "season": "05.12.2026 – 29.03.2027",
+  "ticket": {
+   "from": 63,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 47, Kinder CHF 31 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Kleines Familiengebiet am Eingang des Prättigaus mit grossem Kinderland samt Förderbändern bei der Bergstation. Schnell erreichbar, ideal für einen entspannten Tag mit Kindern."
+ },
+ {
+  "id": "samnaun",
+  "name": "Samnaun – Silvretta Arena (mit Ischgl)",
+  "canton": "GR",
+  "region": "davos",
+  "coords": {
+   "lat": 46.95143,
+   "lng": 10.37467
+  },
+  "station": "Samnaun-Ravaisch (Bergbahn)",
+  "access": "Postauto ab Bahnhof Scuol-Tarasp bis Samnaun-Ravaisch, die Doppelstockbahn startet direkt an der Haltestelle.",
+  "url": "https://www.samnaun.ch",
+  "altitude": {
+   "base": 1360,
+   "top": 2872
+  },
+  "pistes": {
+   "blue": 47,
+   "red": 140,
+   "black": 52,
+   "total": 239,
+   "skiRoutes": 15
+  },
+  "lifts": 45,
+  "season": "26.11.2026 – 02.05.2027",
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Grenzüberschreitendes Skigebiet mit Ischgl: riesige Auswahl an Pisten und Schnee meist bis Anfang Mai. Nach dem Skifahren lockt das zollfreie Einkaufen in Samnaun."
+ },
+ {
+  "id": "flumserberg",
+  "name": "Flumserberg",
+  "canton": "SG",
+  "region": "chur",
+  "coords": {
+   "lat": 47.09251,
+   "lng": 9.28038
+  },
+  "station": "Unterterzen",
+  "access": "Vom Bahnhof Unterterzen fährt die Gondelbahn direkt bis Tannenboden im Skigebiet.",
+  "url": "https://www.flumserberg.ch",
+  "altitude": {
+   "base": 665,
+   "top": 2222
+  },
+  "pistes": {
+   "blue": 14,
+   "red": 40,
+   "black": 11,
+   "total": 65,
+   "skiRoutes": 6
+  },
+  "lifts": 17,
+  "season": "12.12.2026 – 29.03.2027",
+  "ticket": {
+   "from": 76,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 61, Kinder CHF 38 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Das grösste Skigebiet zwischen Zürich und Chur, mit Blick auf Walensee und Churfirsten. Familien finden leichte Pisten unten, Könner zieht es zum Leist – abends gibt es Nachtskifahren."
+ },
+ {
+  "id": "pizol",
+  "name": "Pizol – Bad Ragaz / Wangs",
+  "canton": "SG",
+  "region": "chur",
+  "coords": {
+   "lat": 47.01703,
+   "lng": 9.47388
+  },
+  "station": "Bad Ragaz, Pizolbahn",
+  "access": "Bus ab Bahnhof Bad Ragaz bis zur Pizolbahn, dann Gondel nach Pardiel; alternativ Gondelbahn ab Wangs.",
+  "url": "https://pizol.com",
+  "altitude": {
+   "base": 509,
+   "top": 2250
+  },
+  "pistes": {
+   "blue": 20,
+   "red": 19.5,
+   "black": 13.5,
+   "total": 53,
+   "skiRoutes": 6.4
+  },
+  "lifts": 12,
+  "season": "20.11.2026 – 04.04.2027",
+  "ticket": {
+   "from": 62,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 46.5, Kinder CHF 28 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Aussichtsberg im St. Galler Rheintal mit Blick bis zum Bodensee. Mit dem Kinderland Pardiel und einem Riderpark ist für Familien und Freestyler gesorgt."
+ },
+ {
+  "id": "chaeserrugg",
+  "name": "Chäserrugg – Toggenburg",
+  "canton": "SG",
+  "region": "st-gallen",
+  "coords": {
+   "lat": 47.19502,
+   "lng": 9.30924
+  },
+  "station": "Unterwasser, Chäserrugg Bahn",
+  "access": "Bus ab Bahnhof Nesslau-Neu St. Johann oder Buchs SG bis Unterwasser, Chäserrugg Bahn; Standseilbahn und Luftseilbahn bringen dich hoch.",
+  "url": "https://www.chaeserrugg.ch",
+  "altitude": {
+   "base": 900,
+   "top": 2262
+  },
+  "pistes": {
+   "blue": 8,
+   "red": 40,
+   "black": 2,
+   "total": 50,
+   "skiRoutes": 2
+  },
+  "lifts": 12,
+  "season": "21.11.2026 – 05.04.2027",
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Skifahren vor der Kulisse der Churfirsten, mit Pisten für Carver und Skirouten für Freerider. Oben wartet das von Herzog & de Meuron gestaltete Gipfelgebäude."
+ },
+ {
+  "id": "wildhaus",
+  "name": "Wildhaus – Gamserrugg",
+  "canton": "SG",
+  "region": "st-gallen",
+  "coords": {
+   "lat": 47.19225,
+   "lng": 9.34507
+  },
+  "station": "Wildhaus, Dorf",
+  "access": "Bus ab Bahnhof Buchs SG bis Wildhaus, von dort kurzer Weg zur Talstation Oberdorf.",
+  "url": "https://www.wildhaus.ch",
+  "altitude": {
+   "base": 1020,
+   "top": 2076
+  },
+  "pistes": {
+   "blue": 7,
+   "red": 18,
+   "black": 3,
+   "total": 28,
+   "skiRoutes": 12
+  },
+  "lifts": 6,
+  "season": "21.11.2026 – 29.03.2027",
+  "ticket": {
+   "from": 63,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 54, Kinder CHF 32 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Sportliche Carving-Pisten am Gamserrugg, dazu ein moderner Familienlift mit Klangpiste zwischen Oberdorf und Freienalp. Gut kombinierbar mit dem Chäserrugg."
+ },
+ {
+  "id": "elm",
+  "name": "Elm im Sernftal",
+  "canton": "GL",
+  "region": "chur",
+  "coords": {
+   "lat": 46.91333,
+   "lng": 9.16221
+  },
+  "station": "Elm, Sportbahnen",
+  "access": "Bus ab Bahnhof Schwanden GL bis Elm, Sportbahnen, die Gondelbahn startet direkt dort.",
+  "url": "https://www.sportbahnenelm.ch",
+  "altitude": {
+   "base": 1020,
+   "top": 2105
+  },
+  "pistes": {
+   "blue": 15,
+   "red": 20,
+   "black": 5,
+   "total": 40,
+   "skiRoutes": 2
+  },
+  "lifts": 5,
+  "season": "05.12.2026 – 29.03.2027",
+  "ticket": {
+   "from": 59,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 44, Kinder CHF 30 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Ursprüngliches Glarner Gebiet mit rustikalen Hütten, ungepisteten Hängen und grosser Kinderarena auf dem Ämpächli. Ideal, wenn du Rummel meiden willst."
+ },
+ {
+  "id": "braunwald",
+  "name": "Braunwald",
+  "canton": "GL",
+  "region": "stoos",
+  "coords": {
+   "lat": 46.92831,
+   "lng": 9.00265
+  },
+  "station": "Linthal Braunwaldbahn",
+  "access": "Ab Bahnhof Linthal Braunwaldbahn mit der Standseilbahn ins autofreie Braunwald, die Lifte erreichst du von dort zu Fuss.",
+  "url": "https://sportbahnen-braunwald.ch",
+  "altitude": {
+   "base": 1236,
+   "top": 1901
+  },
+  "pistes": {
+   "blue": 6,
+   "red": 18,
+   "black": 2,
+   "total": 26,
+   "skiRoutes": 2.5
+  },
+  "lifts": 10,
+  "season": "üblich: Mitte Dezember – Mitte März",
+  "ticket": {
+   "from": 58,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 47, Kinder CHF 30 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": false,
+  "text": "Autofreies Sonnenplateau in den Glarner Alpen mit kleinem, ruhigem Skigebiet. Schön für Familien und alle, die Skifahren mit Winterwandern verbinden möchten."
+ },
+ {
+  "id": "amden",
+  "name": "Amden – Arvenbüel / Mattstock",
+  "canton": "SG",
+  "region": "rapperswil",
+  "coords": {
+   "lat": 47.14727,
+   "lng": 9.17382
+  },
+  "station": "Arvenbüel, Arven",
+  "access": "Bus ab Bahnhof Ziegelbrücke über Amden bis Arvenbüel, Arven; die Lifte liegen in Gehdistanz.",
+  "url": "https://www.amden-weesen.ch",
+  "altitude": {
+   "base": 931,
+   "top": 1684
+  },
+  "pistes": {
+   "blue": 5.5,
+   "red": 11.5,
+   "black": 0,
+   "total": 17
+  },
+  "lifts": 6,
+  "season": "19.12.2026 – 14.03.2027",
+  "ticket": {
+   "from": 41,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 26 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": true,
+  "text": "Kleines Sonnenterrassen-Gebiet hoch über dem Walensee mit leichten und mittleren Pisten. Gut für Anfänger und einen kurzen Skitag ab Zürich."
+ },
+ {
+  "id": "atzmaennig",
+  "name": "Atzmännig",
+  "canton": "SG",
+  "region": "rapperswil",
+  "coords": {
+   "lat": 47.28531,
+   "lng": 8.9971
+  },
+  "station": "Atzmännig, Schutt",
+  "access": "Bus bis Atzmännig, Schutt; Sesselbahn und Übungslifte liegen direkt bei der Haltestelle.",
+  "url": "https://www.atzmaennig.ch",
+  "altitude": {
+   "base": 821,
+   "top": 1198
+  },
+  "pistes": {
+   "blue": 3,
+   "red": 5,
+   "black": 0,
+   "total": 8
+  },
+  "lifts": 5,
+  "season": "19.12.2026 – 07.03.2027",
+  "ticket": {
+   "from": 35,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 29, Kinder CHF 25 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": true,
+  "text": "Kleines Familiengebiet im Goldingertal, nur eine kurze Fahrt von Rapperswil entfernt. Mit Nachtskifahren und Rodelbahn perfekt für einen spontanen Nachmittag."
+ },
+ {
+  "id": "hoch-ybrig",
+  "name": "Hoch-Ybrig",
+  "canton": "SZ",
+  "region": "stoos",
+  "coords": {
+   "lat": 47.02017,
+   "lng": 8.80821
+  },
+  "station": "Hoch-Ybrig, Talst. Weglosen",
+  "access": "Bus ab Bahnhof Einsiedeln bis Hoch-Ybrig, Talst. Weglosen, dann Luftseilbahn nach Seebli.",
+  "url": "https://www.hoch-ybrig.ch",
+  "altitude": {
+   "base": 1040,
+   "top": 1831
+  },
+  "pistes": {
+   "blue": 15,
+   "red": 30,
+   "black": 5,
+   "total": 50,
+   "skiRoutes": 5
+  },
+  "lifts": 12,
+  "season": "28.11.2026 – 18.04.2027",
+  "ticket": {
+   "from": 62,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 56, Kinder CHF 35 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Schneesicheres Gebiet nur eine Stunde von Zürich, mit baumfreien Hängen für alle Stufen. Familien und Freestyler finden hier gleich gute Bedingungen."
+ },
+ {
+  "id": "stoos",
+  "name": "Stoos",
+  "canton": "SZ",
+  "region": "stoos",
+  "coords": {
+   "lat": 46.99168,
+   "lng": 8.67308
+  },
+  "station": "Schwyz, Stoosbahn",
+  "access": "Bus ab Bahnhof Schwyz bis Schwyz, Stoosbahn, dann mit der steilsten Standseilbahn der Welt ins autofreie Dorf.",
+  "url": "https://www.stoos.ch",
+  "altitude": {
+   "base": 1300,
+   "top": 1935
+  },
+  "pistes": {
+   "blue": 4,
+   "red": 24,
+   "black": 7,
+   "total": 35
+  },
+  "lifts": 8,
+  "season": "12.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 58,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 43, Kinder CHF 28 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Autofreies Bergdorf über dem Vierwaldstättersee mit Seepanorama zwischen Klingenstock und Fronalpstock. Ideal für einen Familien-Skitag mit spektakulärer Anreise."
+ },
+ {
+  "id": "sattel-hochstuckli",
+  "name": "Sattel-Hochstuckli",
+  "canton": "SZ",
+  "region": "einsiedeln",
+  "coords": {
+   "lat": 47.08162,
+   "lng": 8.63394
+  },
+  "station": "Sattel",
+  "access": "Vom Bahnhof Sattel sind es wenige Gehminuten zur Drehgondelbahn auf die Mostelberg.",
+  "url": "https://www.sattel-hochstuckli.ch",
+  "altitude": {
+   "base": 800,
+   "top": 1491
+  },
+  "pistes": {
+   "blue": 2,
+   "red": 1,
+   "black": 0,
+   "total": 3,
+   "skiRoutes": 3.5
+  },
+  "lifts": 5,
+  "season": "19.12.2026 – 07.03.2027",
+  "ticket": {
+   "from": 35,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 19 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": false,
+  "text": "Kleines Familiengebiet mit Drehgondel und kurzen, einfachen Pisten. Gut für erste Schwünge oder einen halben Tag im Schnee nahe Zug und Zürich."
+ },
+ {
+  "id": "brunni-alpthal",
+  "name": "Familienskilift Brunni-Alpthal",
+  "canton": "SZ",
+  "region": "stoos",
+  "coords": {
+   "lat": 47.04606,
+   "lng": 8.70638
+  },
+  "station": "Brunni SZ, Rest. Brunni",
+  "access": "Bus ab Bahnhof Einsiedeln durchs Alpthal bis Brunni SZ, Rest. Brunni; der Skilift liegt in Gehdistanz.",
+  "url": "https://www.skiliftbrunni.ch",
+  "altitude": {
+   "base": 1100,
+   "top": 1200
+  },
+  "pistes": {
+   "blue": 1.1,
+   "red": 0.2,
+   "black": 0,
+   "total": 1.3
+  },
+  "lifts": 1,
+  "ticket": {
+   "from": 29,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 24 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Ein einziger Lift, kurze Wege und überschaubare Hänge – perfekt für Kinder, die das Skifahren gerade lernen. Danach lohnt sich ein Abstecher nach Einsiedeln."
+ },
+ {
+  "id": "engelberg-titlis",
+  "name": "Engelberg – Titlis",
+  "canton": "OW",
+  "region": "engelberg",
+  "coords": {
+   "lat": 46.81645,
+   "lng": 8.39585
+  },
+  "station": "Engelberg",
+  "access": "Vom Bahnhof Engelberg gehst du rund zehn Minuten (oder nimmst den Skibus) zur Titlis-Talstation.",
+  "url": "https://www.titlis.ch",
+  "altitude": {
+   "base": 1003,
+   "top": 3020
+  },
+  "pistes": {
+   "blue": 18,
+   "red": 42.5,
+   "black": 9.5,
+   "total": 70
+  },
+  "lifts": 18,
+  "season": "29.10.2026 – 02.05.2027",
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Gletscher, über 2000 Höhenmeter und eine der längsten Abfahrten der Alpen vom Titlis bis ins Dorf. Ein Muss für Freerider und alle, die es sportlich mögen."
+ },
+ {
+  "id": "melchsee-frutt",
+  "name": "Melchsee-Frutt",
+  "canton": "OW",
+  "region": "engelberg",
+  "coords": {
+   "lat": 46.80242,
+   "lng": 8.27923
+  },
+  "station": "Stöckalp",
+  "access": "Bus ab Bahnhof Sarnen bis Stöckalp, dann Gondelbahn auf die Melchsee-Frutt.",
+  "url": "https://frutt.ch",
+  "altitude": {
+   "base": 1080,
+   "top": 2255
+  },
+  "pistes": {
+   "blue": 20,
+   "red": 6,
+   "black": 10,
+   "total": 36
+  },
+  "lifts": 15,
+  "season": "12.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 69,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 49, Kinder CHF 28 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": true,
+  "text": "Schneesichere Hochebene auf fast 2000 m mit sonnigen, flachen Pisten auf der einen und sportlichen Hängen auf der anderen Seite. Schön auch für Winterwanderer in der Familie."
+ },
+ {
+  "id": "klewenalp",
+  "name": "Klewenalp-Stockhütte",
+  "canton": "NW",
+  "region": "stoos",
+  "coords": {
+   "lat": 46.96634,
+   "lng": 8.47321
+  },
+  "station": "Beckenried (Klewenalpbahn)",
+  "access": "Mit Schiff oder Bus ab Luzern nach Beckenried, die Luftseilbahn Klewenalp startet beim Seeufer.",
+  "url": "https://www.klewenalp.ch",
+  "altitude": {
+   "base": 1199,
+   "top": 1938
+  },
+  "pistes": {
+   "blue": 15,
+   "red": 25,
+   "black": 0,
+   "total": 40
+  },
+  "lifts": 15,
+  "season": "19.12.2026 – 29.03.2027",
+  "ticket": {
+   "from": 61,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 37 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": true,
+  "text": "Skifahren mit Blick auf den Vierwaldstättersee, nur eine kurze Fahrt von Luzern entfernt. Leichte und mittlere Pisten sowie zwei Kinderbereiche machen es familientauglich."
+ },
+ {
+  "id": "soerenberg",
+  "name": "Sörenberg",
+  "canton": "LU",
+  "region": "interlaken",
+  "coords": {
+   "lat": 46.82182,
+   "lng": 8.03461
+  },
+  "station": "Sörenberg, Post",
+  "access": "Postauto ab Bahnhof Schüpfheim bis Sörenberg, Post; die Talstationen liegen im Dorf.",
+  "url": "https://www.soerenberg.ch",
+  "altitude": {
+   "base": 1110,
+   "top": 2298
+  },
+  "pistes": {
+   "blue": 24,
+   "red": 10,
+   "black": 8,
+   "total": 42
+  },
+  "lifts": 14,
+  "season": "19.12.2026 – 28.03.2027",
+  "ticket": {
+   "from": 64,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 32, Kinder CHF 32 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Grösstes Gebiet des Kantons Luzern im UNESCO-Biosphärenreservat Entlebuch, mit Freestyle-Park und Brienzer-Rothorn-Gipfel. Gut für Familien wie für ambitionierte Fahrer."
+ },
+ {
+  "id": "marbachegg",
+  "name": "Marbachegg",
+  "canton": "LU",
+  "region": "interlaken",
+  "coords": {
+   "lat": 46.85339,
+   "lng": 7.89942
+  },
+  "station": "Marbach LU, Dorf",
+  "access": "Bus ab Bahnhof Escholzmatt bis Marbach LU, Dorf; Gondelbahn und Übungslifte liegen in Gehdistanz.",
+  "url": "https://www.marbachegg.ch",
+  "altitude": {
+   "base": 885,
+   "top": 1474
+  },
+  "pistes": {
+   "blue": 6,
+   "red": 2,
+   "black": 0,
+   "total": 8,
+   "skiRoutes": 2
+  },
+  "lifts": 5,
+  "season": "19.12.2026 – 21.03.2027",
+  "ticket": {
+   "from": 45,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 25 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Kleines, gemütliches Familiengebiet im Entlebuch mit leichten Pisten und Übungsliften direkt im Dorf. Vom Gipfel siehst du bis zu Eiger, Mönch und Jungfrau."
+ },
+ {
+  "id": "mythenregion",
+  "name": "Mythenregion",
+  "canton": "SZ",
+  "region": "stoos",
+  "coords": {
+   "lat": 47.01465,
+   "lng": 8.66921
+  },
+  "station": "Rickenbach SZ, Rotenfluebahn",
+  "access": "Bus ab Bahnhof Schwyz bis Rickenbach SZ, Rotenfluebahn, dann Gondelbahn auf die Rotenflue.",
+  "url": "https://www.mythenregion.ch",
+  "altitude": {
+   "base": 1070,
+   "top": 1593
+  },
+  "pistes": {
+   "blue": 18,
+   "red": 31,
+   "black": 1,
+   "total": 50
+  },
+  "lifts": 17,
+  "season": "05.12.2026 – 21.03.2027",
+  "ticket": {
+   "from": 49,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 44, Kinder CHF 31 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Grösstes Skigebiet im Kanton Schwyz zwischen Schwyz und Einsiedeln, familiär und gemütlich. Ideal für einen unkomplizierten Tagesausflug mit Kindern."
+ },
+ {
+  "id": "grindelwald-wengen",
+  "name": "Grindelwald-Wengen – Kleine Scheidegg / Männlichen",
+  "canton": "BE",
+  "region": "interlaken",
+  "coords": {
+   "lat": 46.62551,
+   "lng": 8.01711
+  },
+  "station": "Grindelwald Terminal",
+  "access": "Ab Grindelwald Terminal mit der Gondel auf den Männlichen oder dem Eiger Express zum Eigergletscher; ab Wengen mit der Zahnradbahn.",
+  "url": "https://www.jungfrau.ch/de-ch/jungfrau-ski-region/",
+  "altitude": {
+   "base": 944,
+   "top": 2400
+  },
+  "pistes": {
+   "blue": 33,
+   "red": 55,
+   "black": 14,
+   "total": 102
+  },
+  "lifts": 23,
+  "season": "21.11.2026 – 25.04.2027",
+  "ticket": {
+   "from": 83,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 45, Kinder CHF 38 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Das grösste Gebiet im Berner Oberland mit Pisten direkt unter Eiger, Mönch und Jungfrau. Klassiker ist die Lauberhorn-Abfahrt nach Wengen."
+ },
+ {
+  "id": "grindelwald-first",
+  "name": "Grindelwald – First",
+  "canton": "BE",
+  "region": "interlaken",
+  "coords": {
+   "lat": 46.62512,
+   "lng": 8.04179
+  },
+  "station": "Grindelwald",
+  "access": "Vom Bahnhof Grindelwald gehst du wenige Minuten zur Firstbahn.",
+  "url": "https://www.jungfrau.ch/de-ch/jungfrau-ski-region/skigebiet-grindelwald-first/",
+  "altitude": {
+   "base": 1034,
+   "top": 2500
+  },
+  "pistes": {
+   "blue": 30,
+   "red": 11,
+   "black": 8,
+   "total": 49,
+   "skiRoutes": 4
+  },
+  "lifts": 10,
+  "season": "19.12.2026 – 29.03.2027",
+  "ticket": {
+   "from": 83,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 45, Kinder CHF 38 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Sonnige, lange Pisten mit Blick auf die Eiger-Nordwand und ein Snowpark für alle Stufen. Für Familien gibt es leichte Abfahrten und Rodelspass."
+ },
+ {
+  "id": "muerren-schilthorn",
+  "name": "Mürren – Schilthorn",
+  "canton": "BE",
+  "region": "interlaken",
+  "coords": {
+   "lat": 46.56411,
+   "lng": 7.89724
+  },
+  "station": "Lauterbrunnen",
+  "access": "Ab Bahnhof Lauterbrunnen mit Seilbahn und Bergbahn über Grütschalp ins autofreie Mürren; alternativ Schilthornbahn ab Stechelberg.",
+  "url": "https://schilthorn.ch",
+  "altitude": {
+   "base": 796,
+   "top": 2970
+  },
+  "pistes": {
+   "blue": 19,
+   "red": 23,
+   "black": 12,
+   "total": 54,
+   "skiRoutes": 3
+  },
+  "lifts": 17,
+  "season": "31.10.2026 – 02.05.2027",
+  "ticket": {
+   "from": 83,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 45, Kinder CHF 38 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Das höchste Skigebiet im Berner Oberland mit der berühmten Inferno-Abfahrt vom Schilthorn. Aus dem autofreien Mürren startest du direkt auf die Piste."
+ },
+ {
+  "id": "adelboden-lenk",
+  "name": "Adelboden-Lenk",
+  "canton": "BE",
+  "region": "thun",
+  "coords": {
+   "lat": 46.48789,
+   "lng": 7.56043
+  },
+  "station": "Adelboden, Oey",
+  "access": "Bus ab Bahnhof Frutigen bis Adelboden, Oey zur Sillerenbahn; von Lenk aus startet die Metschbahn beim Bahnhof Lenk im Simmental.",
+  "url": "https://www.adelboden-lenk.ch",
+  "altitude": {
+   "base": 1260,
+   "top": 2200
+  },
+  "pistes": {
+   "blue": 46,
+   "red": 34,
+   "black": 6,
+   "total": 86
+  },
+  "lifts": 22,
+  "season": "28.11.2026 – 04.04.2027",
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Eines der grössten Gebiete der Schweiz, verbunden über das Hahnenmoos zwischen Adelboden und Lenk. Am Chuenisbärgli kannst du auf der Weltcup-Strecke fahren."
+ },
+ {
+  "id": "meiringen-hasliberg",
+  "name": "Meiringen-Hasliberg",
+  "canton": "BE",
+  "region": "engelberg",
+  "coords": {
+   "lat": 46.72834,
+   "lng": 8.19206
+  },
+  "station": "Meiringen",
+  "access": "Vom Bahnhof Meiringen gehst du etwa zehn Minuten zur Luftseilbahn Richtung Reuti und Mägisalp.",
+  "url": "https://www.meiringen-hasliberg.ch",
+  "altitude": {
+   "base": 1065,
+   "top": 2433
+  },
+  "pistes": {
+   "blue": 20,
+   "red": 34,
+   "black": 6,
+   "total": 60
+  },
+  "lifts": 13,
+  "season": "19.12.2026 – 29.03.2027",
+  "ticket": {
+   "from": 65,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 49, Kinder CHF 33 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": true,
+  "text": "Sonnenterrasse über dem Haslital mit breiten Pisten am Hochsträss und Couloirs am Planplatten. Kinder sind im Skihäsliland gut aufgehoben."
+ },
+ {
+  "id": "gstaad-rinderberg",
+  "name": "Gstaad – Rinderberg / Saanerslochgrat / Horneggli",
+  "canton": "BE",
+  "region": "gruyeres",
+  "coords": {
+   "lat": 46.55348,
+   "lng": 7.37486
+  },
+  "station": "Zweisimmen",
+  "access": "Die Gondelbahn auf den Rinderberg startet direkt beim Bahnhof Zweisimmen; weitere Einstiege gibt es in Saanenmöser und Schönried.",
+  "url": "https://bergbahnen-gstaad.ch/winter",
+  "altitude": {
+   "base": 948,
+   "top": 2011
+  },
+  "pistes": {
+   "blue": 65,
+   "red": 34,
+   "black": 6,
+   "total": 105
+  },
+  "lifts": 16,
+  "season": "28.11.2026 – 04.04.2027",
+  "ticket": {
+   "from": 94,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 78 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Viele leichte, breite Pisten zwischen Simmental und Saanenland – ideal für Geniesser und Familien. Mit dem GoldenPass-Zug bist du schnell in Gstaad."
+ },
+ {
+  "id": "glacier-3000",
+  "name": "Glacier 3000",
+  "canton": "VD",
+  "region": "gruyeres",
+  "coords": {
+   "lat": 46.35382,
+   "lng": 7.20561
+  },
+  "station": "Col-du-Pillon, Glacier 3000",
+  "access": "Bus ab Gstaad oder Les Diablerets bis Col-du-Pillon, Glacier 3000, dann Luftseilbahn auf den Gletscher.",
+  "url": "https://www.glacier3000.ch",
+  "altitude": {
+   "base": 1343,
+   "top": 3016
+  },
+  "pistes": {
+   "blue": 12,
+   "red": 6,
+   "black": 10,
+   "total": 28
+  },
+  "lifts": 11,
+  "season": "07.11.2026 – 30.04.2027",
+  "ticket": {
+   "from": 79,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 71, Kinder CHF 51 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Gletscherskigebiet mit Saison von Herbst bis Frühling und der 7 km langen Oldenpiste. Oben warten der Peak Walk und ein Panorama bis zum Matterhorn."
+ },
+ {
+  "id": "zermatt",
+  "name": "Zermatt – Matterhorn Ski Paradise",
+  "canton": "VS",
+  "region": "zermatt",
+  "coords": {
+   "lat": 46.01477,
+   "lng": 7.74287
+  },
+  "station": "Zermatt",
+  "access": "Vom Bahnhof Zermatt per E-Bus oder zu Fuss zur Talstation Matterhorn Express; die Gornergratbahn fährt direkt gegenüber dem Bahnhof.",
+  "url": "https://www.matterhornparadise.ch",
+  "altitude": {
+   "base": 1562,
+   "top": 3899
+  },
+  "pistes": {
+   "blue": 75,
+   "red": 220,
+   "black": 27,
+   "total": 322,
+   "skiRoutes": 38
+  },
+  "lifts": 51,
+  "season": "üblich: ganzjährig",
+  "ticket": {
+   "from": 116,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 99, Kinder CHF 59 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Das höchste Skigebiet der Alpen, grenzüberschreitend bis Cervinia und mit Gletscherskifahren das ganze Jahr. Immer im Blick: das Matterhorn."
+ },
+ {
+  "id": "saas-fee",
+  "name": "Saas-Fee",
+  "canton": "VS",
+  "region": "zermatt",
+  "coords": {
+   "lat": 46.1088,
+   "lng": 7.92957
+  },
+  "station": "Saas-Fee, Busterminal",
+  "access": "Postauto ab Bahnhof Visp bis Saas-Fee, Busterminal; die Bergbahnen erreichst du zu Fuss durchs autofreie Dorf.",
+  "url": "https://www.saas-fee.ch",
+  "altitude": {
+   "base": 1800,
+   "top": 3573
+  },
+  "pistes": {
+   "blue": 21,
+   "red": 60,
+   "black": 20,
+   "total": 101,
+   "skiRoutes": 5
+  },
+  "lifts": 23,
+  "season": "18.07.2026 – 18.04.2027",
+  "ticket": {
+   "from": 86,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 73, Kinder CHF 44 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Gletscherdorf umringt von 18 Viertausendern, mit Freestyle-Park und Skifahren bis weit in den Frühling. Die unterirdische Metro Alpin bringt dich auf rund 3450 m."
+ },
+ {
+  "id": "verbier-4-vallees",
+  "name": "Verbier – 4 Vallées",
+  "canton": "VS",
+  "region": "zermatt",
+  "coords": {
+   "lat": 46.09363,
+   "lng": 7.23316
+  },
+  "station": "Le Châble VS",
+  "access": "Vom Bahnhof Le Châble VS fährt die Gondelbahn direkt nach Verbier und weiter ins Skigebiet.",
+  "url": "https://www.verbier4vallees.ch",
+  "altitude": {
+   "base": 1350,
+   "top": 3330
+  },
+  "pistes": {
+   "blue": 107,
+   "red": 202,
+   "black": 103,
+   "total": 412
+  },
+  "lifts": 65,
+  "season": "07.11.2026 – 25.04.2027",
+  "ticket": {
+   "from": 94,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 80, Kinder CHF 47 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Das grösste Skigebiet der Schweiz rund um den Mont-Fort. Berühmt für steile Freeride-Hänge, aber mit Nendaz und Veysonnaz auch für Geniesser riesig."
+ },
+ {
+  "id": "crans-montana",
+  "name": "Crans-Montana",
+  "canton": "VS",
+  "region": "zermatt",
+  "coords": {
+   "lat": 46.31291,
+   "lng": 7.48922
+  },
+  "station": "Sierre/Siders",
+  "access": "Ab Bahnhof Sierre/Siders mit der Standseilbahn nach Crans-Montana, von dort Skibus oder Fussweg zu den Gondeln.",
+  "url": "https://www.mycma.ch",
+  "altitude": {
+   "base": 1510,
+   "top": 2927
+  },
+  "pistes": {
+   "blue": 55,
+   "red": 70,
+   "black": 15,
+   "total": 140
+  },
+  "lifts": 24,
+  "season": "28.11.2026 – 04.04.2027",
+  "ticket": {
+   "from": 94,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 73, Kinder CHF 53 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Sonnenplateau mit rund 300 Sonnentagen und Blick über das ganze Rhonetal bis zum Matterhorn. Pisten für alle Stufen, vom Weltcup-Hang bis zur Familienabfahrt."
+ },
+ {
+  "id": "aletsch-arena",
+  "name": "Aletsch Arena",
+  "canton": "VS",
+  "region": "interlaken",
+  "coords": {
+   "lat": 46.406,
+   "lng": 8.13407
+  },
+  "station": "Fiesch",
+  "access": "Ab Bahnhof Fiesch mit der Gondelbahn auf die Fiescheralp; Riederalp und Bettmeralp erreichst du per Seilbahn ab Mörel bzw. Betten.",
+  "url": "https://www.aletscharena.ch",
+  "altitude": {
+   "base": 1845,
+   "top": 2869
+  },
+  "pistes": {
+   "blue": 42,
+   "red": 50,
+   "black": 12,
+   "total": 104,
+   "skiRoutes": 15
+  },
+  "lifts": 35,
+  "season": "05.12.2026 – 03.04.2027",
+  "ticket": {
+   "from": 89,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 75, Kinder CHF 45 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Autofreie Dörfer auf einem Hochplateau, Ski-in/Ski-out direkt vor der Haustür und Blick auf den Grossen Aletschgletscher. Sehr familienfreundlich."
+ },
+ {
+  "id": "grimentz-zinal",
+  "name": "Grimentz-Zinal",
+  "canton": "VS",
+  "region": "zermatt",
+  "coords": {
+   "lat": 46.17511,
+   "lng": 7.57379
+  },
+  "station": "Grimentz, télécabine",
+  "access": "Bus ab Bahnhof Sierre/Siders ins Val d’Anniviers bis Grimentz, télécabine.",
+  "url": "https://www.valdanniviers.ch",
+  "altitude": {
+   "base": 1570,
+   "top": 2900
+  },
+  "pistes": {
+   "blue": 26.5,
+   "red": 58.6,
+   "black": 29.9,
+   "total": 115
+  },
+  "lifts": 21,
+  "season": "28.11.2026 – 18.04.2027",
+  "ticket": {
+   "from": 73,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 62, Kinder CHF 44 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Grösstes Gebiet im Val d’Anniviers mit ausgeglichenen Schwierigkeitsgraden und viel Freeride-Gelände. Die Dörfer sind ursprünglich geblieben."
+ },
+ {
+  "id": "leukerbad",
+  "name": "Leukerbad – Torrent",
+  "canton": "VS",
+  "region": "interlaken",
+  "coords": {
+   "lat": 46.37979,
+   "lng": 7.62641
+  },
+  "station": "Leukerbad, Busterminal",
+  "access": "Bus ab Bahnhof Leuk bis Leukerbad, Busterminal; die Gondelbahn Torrent erreichst du per Ortsbus.",
+  "url": "https://www.leukerbad.ch",
+  "altitude": {
+   "base": 1411,
+   "top": 2610
+  },
+  "pistes": {
+   "blue": 3.5,
+   "red": 27,
+   "black": 17,
+   "total": 47.5,
+   "skiRoutes": 6
+  },
+  "lifts": 13,
+  "season": "05.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 65,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 39 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Nach dem Skitag direkt ins Thermalbad – das ist Leukerbad. Das Torrent-Gebiet bietet vor allem rote Pisten, die Sportarena im Dorf ist ideal für Kinder."
+ },
+ {
+  "id": "graechen",
+  "name": "Grächen",
+  "canton": "VS",
+  "region": "zermatt",
+  "coords": {
+   "lat": 46.19665,
+   "lng": 7.8415
+  },
+  "station": "Grächen (Talstation Hannigalp)",
+  "access": "Postauto ab Bahnhof St. Niklaus bis Grächen, die Gondelbahn Hannigalp liegt mitten im Dorf.",
+  "url": "https://www.graechen.ch",
+  "altitude": {
+   "base": 1619,
+   "top": 2864
+  },
+  "pistes": {
+   "blue": 9,
+   "red": 33,
+   "black": 2,
+   "total": 44
+  },
+  "lifts": 10,
+  "season": "12.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 67,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 48, Kinder CHF 36 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Kinderfreundliches Bergdorf im Mattertal mit Märchengondel auf die Hannigalp. Trotzdem gibt es einen hohen Anteil an sportlichen Pisten."
+ },
+ {
+  "id": "belalp",
+  "name": "Belalp",
+  "canton": "VS",
+  "region": "interlaken",
+  "coords": {
+   "lat": 46.35892,
+   "lng": 7.98428
+  },
+  "station": "Blatten b. Naters (Belalpbahn)",
+  "access": "Bus ab Bahnhof Brig bis Blatten b. Naters (Belalpbahn), dann Luftseilbahn auf die Belalp.",
+  "url": "https://www.belalp.ch",
+  "altitude": {
+   "base": 1322,
+   "top": 3118
+  },
+  "pistes": {
+   "blue": 15.1,
+   "red": 12.1,
+   "black": 10.9,
+   "total": 38.1,
+   "skiRoutes": 6.7
+  },
+  "lifts": 10,
+  "season": "12.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 77,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 65.5, Kinder CHF 38.5 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Pisten fast nur oberhalb der Baumgrenze bis auf 3100 m, mit Blick auf den Aletschgletscher. Kinder sind gut betreut, Könner finden lange Talabfahrten."
+ },
+ {
+  "id": "champery",
+  "name": "Champéry – Portes du Soleil",
+  "canton": "VS",
+  "region": "lausanne",
+  "coords": {
+   "lat": 46.17488,
+   "lng": 6.87115
+  },
+  "station": "Champéry",
+  "access": "Mit der Bahn ab Aigle bis Champéry, die Seilbahn nach Planachaux startet im Dorf.",
+  "url": "https://www.champery.ch",
+  "altitude": {
+   "base": 985,
+   "top": 2254
+  },
+  "pistes": {
+   "blue": 310,
+   "red": 210,
+   "black": 60,
+   "total": 580
+  },
+  "lifts": 163,
+  "season": "11.12.2026 – 18.04.2027",
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": false,
+  "text": "Einstieg ins riesige Portes du Soleil, das die Schweiz mit französischen Orten wie Avoriaz verbindet. Für dich, wenn du an einem Tag die Grenze auf Ski überqueren willst."
+ },
+ {
+  "id": "anzere",
+  "name": "Anzère",
+  "canton": "VS",
+  "region": "gruyeres",
+  "coords": {
+   "lat": 46.29465,
+   "lng": 7.39466
+  },
+  "station": "Anzère, télécabine",
+  "access": "Bus ab Bahnhof Sion bis Anzère, télécabine; die Gondelbahn startet direkt im autofreien Ortskern.",
+  "url": "https://www.anzere.ch",
+  "altitude": {
+   "base": 1516,
+   "top": 2420
+  },
+  "pistes": {
+   "blue": 12,
+   "red": 37,
+   "black": 9,
+   "total": 58,
+   "skiRoutes": 6
+  },
+  "lifts": 12,
+  "season": "04.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 72,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 46, Kinder CHF 42 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": false,
+  "text": "Sonniges Plateau über dem Rhonetal mit Pisten für alle Stufen und sehr wenig Niederschlag. Ein entspannter Ort für Familien, die kurze Wege mögen."
+ },
+ {
+  "id": "villars-gryon-diablerets",
+  "name": "Villars-Gryon-Les Diablerets",
+  "canton": "VD",
+  "region": "gruyeres",
+  "coords": {
+   "lat": 46.30342,
+   "lng": 7.05501
+  },
+  "station": "Villars-sur-Ollon",
+  "access": "Mit der Zahnradbahn ab Bex nach Villars-sur-Ollon, die Gondel zum Roc d’Orsay liegt wenige Gehminuten vom Bahnhof.",
+  "url": "https://www.villars-diablerets.ch",
+  "altitude": {
+   "base": 1224,
+   "top": 2120
+  },
+  "pistes": {
+   "blue": 66,
+   "red": 18,
+   "black": 3,
+   "total": 87,
+   "skiRoutes": 16
+  },
+  "lifts": 30,
+  "season": "28.11.2026 – 11.04.2027",
+  "ticket": {
+   "from": 69,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 63, Kinder CHF 47 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "snowpark": true,
+  "nightSkiing": true,
+  "text": "Vor allem leichte und mittlere Pisten, dazu Blick auf den Genfersee und die Dents du Midi. Ideal für Familien und Anfänger aus der Romandie."
+ },
+ {
+  "id": "leysin",
+  "name": "Leysin",
+  "canton": "VD",
+  "region": "gruyeres",
+  "coords": {
+   "lat": 46.34444,
+   "lng": 7.00836
+  },
+  "station": "Leysin-Feydey",
+  "access": "Mit der Zahnradbahn ab Aigle bis Leysin-Feydey; die Gondel zur Berneuse ist in Gehdistanz.",
+  "url": "https://www.tlml.ch",
+  "altitude": {
+   "base": 1250,
+   "top": 2198
+  },
+  "pistes": {
+   "blue": 43,
+   "red": 15,
+   "black": 2,
+   "total": 60
+  },
+  "lifts": 12,
+  "season": "28.11.2026 – 11.04.2027",
+  "ticket": {
+   "from": 68,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 61, Kinder CHF 44 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": false,
+  "text": "Sonnenbalkon über dem Rhonetal mit überwiegend leichten Pisten und Drehrestaurant auf der Berneuse. Der Skipass gilt auch in Les Mosses und La Lécherette."
+ },
+ {
+  "id": "moleson",
+  "name": "Moléson",
+  "canton": "FR",
+  "region": "gruyeres",
+  "coords": {
+   "lat": 46.56128,
+   "lng": 7.03815
+  },
+  "station": "Moléson-sur-Gruyères",
+  "access": "Bus ab Bahnhof Gruyères bis Moléson-sur-Gruyères, dann Standseilbahn und Seilbahn.",
+  "url": "https://www.moleson.ch",
+  "altitude": {
+   "base": 1109,
+   "top": 1978
+  },
+  "pistes": {
+   "blue": 19,
+   "red": 4,
+   "black": 7,
+   "total": 30
+  },
+  "lifts": 6,
+  "season": "üblich: Mitte Dezember – Ende Februar",
+  "ticket": {
+   "from": 49,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 39, Kinder CHF 31 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": false,
+  "text": "Kleines Gebiet am Hausberg des Greyerzerlands mit Weitblick bis zum Genfersee. Kombiniere den Skitag mit einem Fondue in Gruyères."
+ },
+ {
+  "id": "charmey",
+  "name": "Charmey",
+  "canton": "FR",
+  "region": "gruyeres",
+  "coords": {
+   "lat": 46.6187,
+   "lng": 7.16897
+  },
+  "station": "Charmey (Gruyère), télécabine",
+  "access": "Bus ab Bahnhof Bulle bis Charmey (Gruyère), télécabine, die Gondelbahn startet direkt dort.",
+  "url": "https://www.charmey.ch",
+  "altitude": {
+   "base": 875,
+   "top": 1626
+  },
+  "pistes": {
+   "blue": 19.5,
+   "red": 7.5,
+   "black": 3,
+   "total": 30
+  },
+  "lifts": 5,
+  "season": "üblich: Mitte Dezember – Mitte März",
+  "ticket": {
+   "from": 49,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 39, Kinder CHF 31 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": false,
+  "text": "Familiäres Voralpen-Gebiet im Greyerzerland mit vielen leichten Pisten. Nach dem Skifahren lockt das Thermalbad Les Bains de la Gruyère."
+ },
+ {
+  "id": "bugnenets-savagnieres",
+  "name": "Bugnenets-Savagnières",
+  "canton": "BE",
+  "region": "bern",
+  "coords": {
+   "lat": 47.11966,
+   "lng": 7.00115
+  },
+  "station": "Les Bugnenets",
+  "access": "Bus bis Les Bugnenets; die Skilifte beginnen direkt an der Haltestelle.",
+  "url": "https://www.chasseral-snow.ch",
+  "altitude": {
+   "base": 1078,
+   "top": 1449
+  },
+  "pistes": {
+   "blue": 10,
+   "red": 10,
+   "black": 10,
+   "total": 30
+  },
+  "lifts": 8,
+  "season": "üblich: Mitte Dezember – Ende März",
+  "ticket": {
+   "from": 44,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 34, Kinder CHF 25 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "family": true,
+  "nightSkiing": false,
+  "text": "Das höchstgelegene Skigebiet im Berner Jura mit Kindergarten und Skischule. Gut für einen Familientag ab Biel oder Neuenburg."
+ },
+ {
+  "id": "airolo",
+  "name": "Airolo – Pesciüm",
+  "canton": "TI",
+  "region": "engelberg",
+  "coords": {
+   "lat": 46.52752,
+   "lng": 8.60862
+  },
+  "station": "Airolo",
+  "access": "Vom Bahnhof Airolo gelangst du zu Fuss zur Luftseilbahn Airolo–Pesciüm.",
+  "url": "https://www.airolo.ch",
+  "altitude": {
+   "base": 1175,
+   "top": 2250
+  },
+  "pistes": {
+   "blue": 1,
+   "red": 15,
+   "black": 14,
+   "total": 30,
+   "skiRoutes": 10
+  },
+  "lifts": 8,
+  "season": "19.12.2026 – 04.04.2027",
+  "ticket": {
+   "from": 59,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": false,
+  "text": "Sportliches Tessiner Gebiet am Gotthard mit vielen roten und schwarzen Pisten und Skirouten. Gut erreichbar, wenn du aus der Deutschschweiz durch den Tunnel fährst."
+ },
+ {
+  "id": "bosco-gurin",
+  "name": "Bosco Gurin",
+  "canton": "TI",
+  "region": "locarno",
+  "coords": {
+   "lat": 46.31626,
+   "lng": 8.49312
+  },
+  "station": "Bosco/Gurin, Paese",
+  "access": "Postauto ab Locarno über Cevio bis Bosco/Gurin, Paese; die Lifte liegen am Dorfrand.",
+  "url": "https://www.bosco-gurin.ch",
+  "altitude": {
+   "base": 1482,
+   "top": 2331
+  },
+  "pistes": {
+   "blue": 1,
+   "red": 25,
+   "black": 4,
+   "total": 30
+  },
+  "lifts": 7,
+  "season": "üblich: Mitte Dezember – Anfang April",
+  "ticket": {
+   "from": 57,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 37, Kinder CHF 22 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": false,
+  "text": "Höchstgelegenes Dorf im Tessin mit Walser-Tradition und schneesicherem Skigebiet. Perfekt, wenn du Ruhe und Südschweizer Sonne suchst."
+ },
+ {
+  "id": "nara",
+  "name": "Nara – Leontica",
+  "canton": "TI",
+  "region": "bellinzona",
+  "coords": {
+   "lat": 46.46066,
+   "lng": 8.92088
+  },
+  "station": "Leontica, Seggiovia",
+  "access": "Bus ab Bahnhof Biasca ins Bleniotal bis Leontica, Seggiovia, dann Sesselbahn ins Gebiet.",
+  "url": "https://nara.ch",
+  "altitude": {
+   "base": 925,
+   "top": 2123
+  },
+  "pistes": {
+   "blue": 10,
+   "red": 15,
+   "black": 5,
+   "total": 30,
+   "skiRoutes": 30
+  },
+  "lifts": 7,
+  "season": "üblich: Ende Dezember – Mitte März",
+  "ticket": {
+   "from": 47,
+   "unit": "Tageskarte Erwachsene",
+   "note": "Jugend CHF 36, Kinder CHF 26 · Richtwert Hauptsaison, online oft günstiger"
+  },
+  "nightSkiing": false,
+  "text": "Kleines Familiengebiet im Bleniotal mit Sonne, Aussicht und günstigen Preisen. Ideal für einen ruhigen Skitag im Tessin."
+ }
+]

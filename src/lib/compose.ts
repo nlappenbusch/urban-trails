@@ -38,6 +38,9 @@ const MOOD_TAGS: Record<string, string[]> = {
   aktiv: ["aktiv", "berg"],
   erholung: ["wellness", "see"],
   romantik: ["romantisch", "aussicht"],
+  krass: ["besonders", "geheimtipp"],
+  wandern: ["wandern"],
+  schwimmen: ["baden"],
   familie: ["familie"],
 };
 const AUDIENCE_TAGS: Record<string, string[]> = {
@@ -72,6 +75,8 @@ export function composePlan(input: PlanInput, all: Place[], tours: PlanTour[]): 
 
   const score = (p: Place) => {
     let s = p.tags.filter((t) => wanted.has(t)).length * 3 + (prefer.has(p.id) ? 100 : 0);
+    // Krasse Orte und Geheimtipps sollen auch ohne Wunsch öfter vorkommen – das unterscheidet uns vom Prospekt
+    if (p.tags.includes("besonders") || p.tags.includes("geheimtipp")) s += wanted.has("besonders") ? 3 : 2;
     if (at.rain) s += p.weatherProof ? 4 : OUTDOOR.includes(p.kind) ? -50 : 0;
     if (input.audience === "familie" && p.kind === "bar") s -= 50;
     if (p.price && p.price > input.budget) s -= 8;

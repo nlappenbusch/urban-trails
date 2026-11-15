@@ -36,5 +36,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  return [...staticPages, ...cityPages, ...tourPages];
+  const lastModified = new Date(); // Stand des Builds = Stand der Inhalte
+  return [...staticPages, ...cityPages, ...tourPages].map((p) => ({ ...p, lastModified }));
 }

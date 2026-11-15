@@ -5,7 +5,20 @@ import { toTourLite } from "@/lib/tour-lite";
 import HomeTours, { type CityChip } from "@/components/HomeTours";
 import AudioPlayer from "@/components/AudioPlayer";
 import { sceneFor } from "@/lib/scene";
-import { getStopImage } from "@/data/images";
+import { getStopImage, getTourHeroImage } from "@/data/images";
+import { siteJsonLd, socialMeta } from "@/lib/seo";
+import type { Metadata } from "next";
+
+const HOME_TITLE = "Urban Trails – kostenlose Stadtrundgänge mit Audioguide in der Schweiz";
+const HOME_DESC =
+  "Selbstgeführte Walking-Touren durch Zürich, Solothurn, Bern, Luzern, Basel und weitere Schweizer Städte: gratis, ohne App, mit Audio-Story, Navi und Rätsel an jedem Stopp.";
+
+export const metadata: Metadata = {
+  title: { absolute: HOME_TITLE },
+  description: HOME_DESC,
+  alternates: { canonical: "/" },
+  ...socialMeta({ title: HOME_TITLE, description: HOME_DESC, path: "/", image: getTourHeroImage("zuerich-klassiker") }),
+};
 
 export default function HomePage() {
   const lite = tours.map(toTourLite);
@@ -27,6 +40,7 @@ export default function HomePage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd()) }} />
       <section className="container-page pb-6 pt-8 sm:pb-10 sm:pt-14">
         <h1 className="headline text-4xl text-cream sm:text-6xl">
           Die Stadt ist kein <em>Museum.</em>

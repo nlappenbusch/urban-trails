@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { tours, getTour, formatDuration, totalWalkMinutes, moodLabels } from "@/lib/tours";
-import { tourJsonLd } from "@/lib/seo";
+import { socialMeta, tourJsonLd } from "@/lib/seo";
 import TourMap from "@/components/TourMap";
 import StopTimeline from "@/components/StopTimeline";
 import GuideChat from "@/components/GuideChat";
@@ -24,16 +24,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { city, tour: tourSlug } = await params;
   const tour = getTour(city, tourSlug);
   if (!tour) return {};
+  const path = `/${tour.citySlug}/${tour.slug}`;
   return {
     title: tour.seo.metaTitle,
     description: tour.seo.metaDescription,
     keywords: tour.seo.keywords,
-    alternates: { canonical: `/${tour.citySlug}/${tour.slug}` },
-    openGraph: {
+    alternates: { canonical: path },
+    ...socialMeta({
       title: tour.seo.metaTitle,
       description: tour.seo.metaDescription,
+      path,
+      image: getTourHeroImage(tour.slug),
       type: "article",
-    },
+    }),
   };
 }
 

@@ -1318,5 +1318,1257 @@
  "p/bz-villa-dei-cedri": [
   1200,
   900
+ ],
+ "p/en-hotel-steinbock-pontresina": [
+  1200,
+  770
+ ],
+ "p/en-romantik-hotel-muottas-muragl": [
+  1200,
+  898
+ ],
+ "p/en-hotel-waldhaus-sils": [
+  1200,
+  891
+ ],
+ "p/en-hanselmann": [
+  1200,
+  937
+ ],
+ "p/en-lej-da-staz": [
+  1200,
+  511
+ ],
+ "p/en-berghaus-diavolezza": [
+  1200,
+  801
+ ],
+ "p/en-hotel-fex-restaurant": [
+  1200,
+  810
+ ],
+ "p/en-muottas-muragl": [
+  1200,
+  302
+ ],
+ "p/en-gletscherweg-morteratsch": [
+  1200,
+  798
+ ],
+ "p/en-berninalinie-alp-gruem": [
+  1200,
+  848
+ ],
+ "p/en-segantini-museum": [
+  1200,
+  1624
+ ],
+ "p/en-museum-engiadinais": [
+  1200,
+  1127
+ ],
+ "p/en-nationalparkzentrum-zernez": [
+  1200,
+  900
+ ],
+ "p/en-halbinsel-chaste": [
+  1200,
+  685
+ ],
+ "p/en-nietzsche-haus": [
+  1200,
+  900
+ ],
+ "p/dv-strela-alp": [
+  1200,
+  900
+ ],
+ "p/dv-chesa-grischuna": [
+  1200,
+  1614
+ ],
+ "p/dv-schatzalp-alpinum": [
+  1199,
+  688
+ ],
+ "p/dv-jakobshorn": [
+  1200,
+  1600
+ ],
+ "p/dv-davosersee": [
+  1200,
+  758
+ ],
+ "p/dv-kirchner-museum": [
+  1200,
+  685
+ ],
+ "p/dv-madrisa": [
+  1200,
+  673
+ ],
+ "p/eb-brunnihuette": [
+  1200,
+  800
+ ],
+ "p/eb-titlis": [
+  1200,
+  672
+ ],
+ "p/eb-gletscherpark": [
+  1200,
+  800
+ ],
+ "p/eb-truebsee": [
+  1200,
+  854
+ ],
+ "p/eb-gerschnialp": [
+  1200,
+  800
+ ],
+ "p/eb-brunni-haerzlisee": [
+  1200,
+  839
+ ],
+ "p/eb-kloster-engelberg": [
+  1200,
+  800
+ ],
+ "p/eb-talmuseum": [
+  1200,
+  800
+ ],
+ "p/ei-kloster-einsiedeln": [
+  1200,
+  797
+ ],
+ "p/ei-panorama": [
+  1200,
+  800
+ ],
+ "p/ei-sihlsee-viadukt": [
+  1200,
+  900
+ ],
+ "p/st-stoosbahn": [
+  1200,
+  662
+ ],
+ "p/st-gratweg": [
+  1200,
+  800
+ ],
+ "p/il-hotel-interlaken": [
+  1200,
+  801
+ ],
+ "p/il-victoria-jungfrau": [
+  1200,
+  801
+ ],
+ "p/il-panorama-restaurant-harder-kulm": [
+  1200,
+  900
+ ],
+ "p/il-alter-baeren-ballenberg": [
+  1200,
+  797
+ ],
+ "p/il-harder-kulm": [
+  1200,
+  800
+ ],
+ "p/il-schynige-platte": [
+  1200,
+  815
+ ],
+ "p/il-grindelwald-first": [
+  1200,
+  900
+ ],
+ "p/il-jungfraujoch": [
+  1200,
+  801
+ ],
+ "p/il-staubbachfall": [
+  1200,
+  800
+ ],
+ "p/il-truemmelbachfaelle": [
+  1200,
+  797
+ ],
+ "p/il-brienz-rothorn-bahn": [
+  1200,
+  800
+ ],
+ "p/il-ballenberg": [
+  1200,
+  800
+ ],
+ "p/il-beatushoehlen": [
+  1200,
+  675
+ ],
+ "p/il-giessbach": [
+  1200,
+  900
+ ],
+ "p/il-aareschlucht": [
+  1200,
+  800
+ ],
+ "p/il-schifffahrt-brienzersee": [
+  1200,
+  1600
+ ],
+ "p/sh-hotel-rheinfels": [
+  1200,
+  900
+ ],
+ "p/sh-gueterhof": [
+  1200,
+  800
+ ],
+ "p/sh-burg-hohenklingen": [
+  1200,
+  801
+ ],
+ "p/sh-rheinfall-neuhausen": [
+  1200,
+  800
+ ],
+ "p/sh-schloss-laufen": [
+  1200,
+  900
+ ],
+ "p/sh-felsenfahrt": [
+  1200,
+  772
+ ],
+ "p/sh-smilestones": [
+  1200,
+  675
+ ],
+ "p/sh-munot": [
+  1200,
+  878
+ ],
+ "p/sh-altstadt-schaffhausen": [
+  1200,
+  919
+ ],
+ "p/sh-allerheiligen": [
+  1200,
+  800
+ ],
+ "p/sh-altstadt-stein-am-rhein": [
+  1200,
+  800
+ ],
+ "p/sh-kloster-st-georgen": [
+  1200,
+  900
+ ],
+ "p/sh-urh-schiff": [
+  1200,
+  750
+ ],
+ "p/zg-altstadt": [
+  1200,
+  1372
+ ],
+ "p/zg-zugerberg": [
+  1200,
+  1600
+ ],
+ "p/zg-hoellgrotten": [
+  1200,
+  864
+ ],
+ "p/zg-aegerisee-schiff": [
+  1200,
+  800
+ ],
+ "p/zg-zugersee-schiff": [
+  1200,
+  1195
+ ],
+ "p/zg-kunsthaus": [
+  1200,
+  797
+ ],
+ "p/zg-burg": [
+  1200,
+  797
+ ],
+ "p/zm-kulmhotel-gornergrat": [
+  1200,
+  900
+ ],
+ "p/zm-gornergrat-bahn": [
+  1200,
+  800
+ ],
+ "p/zm-riffelsee": [
+  1200,
+  800
+ ],
+ "p/zm-matterhorn-glacier-paradise": [
+  1200,
+  1600
+ ],
+ "p/zm-5-seenweg": [
+  1200,
+  795
+ ],
+ "p/zm-gornerschlucht": [
+  1200,
+  1800
+ ],
+ "p/zm-matterhorn-museum": [
+  1200,
+  800
+ ],
+ "p/zm-kirche-bergsteigerfriedhof": [
+  1200,
+  797
+ ],
+ "p/gr-hr-giger-bar": [
+  1200,
+  900
+ ],
+ "p/gr-schloss-greyerz": [
+  1200,
+  675
+ ],
+ "p/gr-hr-giger-museum": [
+  1200,
+  1800
+ ],
+ "p/gr-maison-du-gruyere": [
+  1200,
+  1600
+ ],
+ "p/gr-maison-cailler": [
+  1200,
+  900
+ ],
+ "p/gr-moleson": [
+  1200,
+  800
+ ],
+ "p/gr-staedtchen": [
+  1200,
+  800
+ ],
+ "p/zh-w-pfannenstiel": [
+  1200,
+  797
+ ],
+ "p/zh-w-albiskette": [
+  1200,
+  675
+ ],
+ "p/zh-s-frauenbad": [
+  1200,
+  800
+ ],
+ "p/wi-w-kyburg": [
+  1200,
+  900
+ ],
+ "p/wi-w-irchel": [
+  1200,
+  900
+ ],
+ "p/ba-w-teufelskeller": [
+  1200,
+  900
+ ],
+ "p/ba-w-wasserschloss": [
+  1200,
+  675
+ ],
+ "p/ba-s-taegi": [
+  1200,
+  800
+ ],
+ "p/ra-w-luetzelsee": [
+  1200,
+  800
+ ],
+ "p/ra-w-etzel": [
+  1200,
+  801
+ ],
+ "p/ra-s-seebad": [
+  1200,
+  800
+ ],
+ "p/eg-w-rhein-kaiserstuhl": [
+  1200,
+  1600
+ ],
+ "p/rb-w-neeracherried": [
+  1200,
+  675
+ ],
+ "p/sh-w-rheinfall-rheinau": [
+  1200,
+  800
+ ],
+ "p/sh-w-randen": [
+  1200,
+  960
+ ],
+ "p/zg-w-lorzentobel": [
+  1200,
+  960
+ ],
+ "p/zg-s-seeliken": [
+  1200,
+  675
+ ],
+ "p/lu-w-felsenweg": [
+  1200,
+  810
+ ],
+ "p/lu-w-rigi-winterweg": [
+  1200,
+  900
+ ],
+ "p/lu-s-seebad": [
+  1200,
+  900
+ ],
+ "p/eb-w-vier-seen": [
+  1200,
+  800
+ ],
+ "p/eb-w-aaschlucht": [
+  1200,
+  900
+ ],
+ "p/eb-w-ristis-winter": [
+  1200,
+  849
+ ],
+ "p/ei-s-sihlsee-badi": [
+  1200,
+  900
+ ],
+ "p/st-w-nuehusweidli-winter": [
+  1200,
+  799
+ ],
+ "p/st-s-swiss-holiday-park": [
+  1200,
+  706
+ ],
+ "p/bs-w-gempen": [
+  1200,
+  800
+ ],
+ "p/bs-w-rheinfelden-kaiseraugst": [
+  1200,
+  675
+ ],
+ "p/sg-w-seealpsee": [
+  1200,
+  900
+ ],
+ "p/sg-w-brueckenweg": [
+  1200,
+  900
+ ],
+ "p/chur-w-caumasee-trin": [
+  1200,
+  663
+ ],
+ "p/chur-w-dreibuendenstein": [
+  1200,
+  1600
+ ],
+ "p/chur-s-caumasee": [
+  1200,
+  743
+ ],
+ "p/dv-w-sertig": [
+  1200,
+  800
+ ],
+ "p/dv-w-zuegenschlucht": [
+  1200,
+  800
+ ],
+ "p/en-w-muottas-languard": [
+  1200,
+  800
+ ],
+ "p/en-w-val-roseg": [
+  1200,
+  800
+ ],
+ "p/en-s-ovaverva": [
+  1200,
+  701
+ ],
+ "p/en-s-bogn-engiadina": [
+  1200,
+  900
+ ],
+ "p/bern-w-bantiger-geristein": [
+  1200,
+  1600
+ ],
+ "p/bern-s-aareschwumm-eichholz-marzili": [
+  1200,
+  938
+ ],
+ "p/bern-s-lorrainebad": [
+  1200,
+  900
+ ],
+ "p/th-w-stockhorn-bergseen": [
+  1200,
+  900
+ ],
+ "p/th-w-sigriswil-panoramabruecke": [
+  1200,
+  800
+ ],
+ "p/th-s-flussbad-schwaebis": [
+  1200,
+  900
+ ],
+ "p/th-s-hallenbad-oberhofen": [
+  1063,
+  683
+ ],
+ "p/il-w-panoramaweg-maennlichen": [
+  1200,
+  900
+ ],
+ "p/il-w-winterwanderweg-maennlichen": [
+  1200,
+  900
+ ],
+ "p/il-w-gruetschalp-muerren": [
+  1200,
+  900
+ ],
+ "p/il-s-burgseeli": [
+  1200,
+  900
+ ],
+ "p/so-w-weissenstein-hasenmatt": [
+  1200,
+  900
+ ],
+ "p/so-w-aare-altreu": [
+  1200,
+  800
+ ],
+ "p/so-w-verenaschlucht-weissenstein": [
+  1200,
+  800
+ ],
+ "p/gr-w-gorges-de-la-jogne": [
+  1200,
+  1800
+ ],
+ "p/gr-w-gruyeres-chapelle-des-marches": [
+  1200,
+  1800
+ ],
+ "p/zm-w-hoernlihuette": [
+  1200,
+  900
+ ],
+ "p/zm-s-thermalbad-brigerbad": [
+  739,
+  682
+ ],
+ "p/ge-w-vallon-allondon": [
+  1200,
+  800
+ ],
+ "p/ge-s-baignade-rhone-jonction": [
+  1200,
+  800
+ ],
+ "p/ge-s-geneve-plage": [
+  1200,
+  536
+ ],
+ "p/ge-s-piscine-des-vernets": [
+  1200,
+  600
+ ],
+ "p/la-w-rives-du-lac-morges": [
+  1200,
+  890
+ ],
+ "p/lug-w-monte-san-giorgio": [
+  1200,
+  900
+ ],
+ "p/lo-w-sentierone-verzasca": [
+  1200,
+  797
+ ],
+ "p/lo-s-lido-ascona": [
+  1200,
+  797
+ ],
+ "p/bz-w-curzutt-ponte-tibetano": [
+  414,
+  275
+ ],
+ "p/bz-s-bagno-pubblico": [
+  1200,
+  797
+ ],
+ "p/bern-x-papiliorama": [
+  1200,
+  902
+ ],
+ "p/bern-x-schloss-burgdorf": [
+  1200,
+  797
+ ],
+ "p/bern-x-schaukaeserei-koenigsweg": [
+  1200,
+  800
+ ],
+ "p/bern-x-marzilibahn": [
+  1200,
+  900
+ ],
+ "p/bern-x-zytglogge-fuehrung": [
+  1200,
+  881
+ ],
+ "p/th-x-blausee": [
+  1200,
+  798
+ ],
+ "p/th-x-oeschinensee": [
+  1200,
+  642
+ ],
+ "p/th-x-panoramabruecke-sigriswil": [
+  1200,
+  900
+ ],
+ "p/th-x-stockhorn-plattform": [
+  1200,
+  900
+ ],
+ "p/th-x-stockhorn-iglu": [
+  1200,
+  719
+ ],
+ "p/il-x-schilthorn-thrill-walk": [
+  1200,
+  800
+ ],
+ "p/il-x-gelmerbahn": [
+  1200,
+  797
+ ],
+ "p/il-x-rosenlaui-gletscherschlucht": [
+  1200,
+  900
+ ],
+ "p/il-x-sulwald-seilbahn": [
+  1200,
+  900
+ ],
+ "p/il-x-kraftwerk-innertkirchen": [
+  1200,
+  788
+ ],
+ "p/gr-x-moleson-via-ferrata": [
+  1200,
+  899
+ ],
+ "p/gr-x-electrobroc": [
+  1000,
+  1500
+ ],
+ "p/zm-x-charles-kuonen-haengebruecke": [
+  1200,
+  800
+ ],
+ "p/zm-x-haengebruecke-furi": [
+  1200,
+  803
+ ],
+ "p/zm-x-leisee-wolli": [
+  1200,
+  899
+ ],
+ "p/zm-x-hoernlihuette": [
+  1200,
+  796
+ ],
+ "p/zm-x-findlerhof": [
+  1200,
+  674
+ ],
+ "p/bs-x-augusta-raurica": [
+  1200,
+  780
+ ],
+ "p/bs-x-goetheanum": [
+  1200,
+  790
+ ],
+ "p/bs-x-tierpark-lange-erlen": [
+  1200,
+  785
+ ],
+ "p/bs-x-anatomisches-museum": [
+  1200,
+  1600
+ ],
+ "p/bs-x-pharmaziemuseum": [
+  1200,
+  1600
+ ],
+ "p/bs-x-ermitage-arlesheim": [
+  1200,
+  800
+ ],
+ "p/sg-x-ebenalp-bahn": [
+  1200,
+  764
+ ],
+ "p/sg-x-aescher": [
+  1200,
+  758
+ ],
+ "p/sg-x-seealpsee": [
+  1200,
+  1207
+ ],
+ "p/sg-x-hoher-kasten": [
+  1200,
+  831
+ ],
+ "p/sg-x-kristallhoehle-kobelwald": [
+  1200,
+  1600
+ ],
+ "p/sg-x-schaukaeserei-stein": [
+  1024,
+  1536
+ ],
+ "p/chur-x-viamala": [
+  1200,
+  430
+ ],
+ "p/chur-x-caumasee": [
+  1200,
+  902
+ ],
+ "p/chur-x-il-spir": [
+  1200,
+  663
+ ],
+ "p/chur-x-crestasee": [
+  1200,
+  996
+ ],
+ "p/chur-x-taminaschlucht": [
+  1200,
+  1600
+ ],
+ "p/chur-x-arosa-baerenland": [
+  1200,
+  800
+ ],
+ "p/dv-x-landwasserviadukt-acatos": [
+  1200,
+  1798
+ ],
+ "p/dv-x-wiesener-viadukt-skywalk": [
+  1200,
+  900
+ ],
+ "p/dv-x-bahnmuseum-albula": [
+  1200,
+  900
+ ],
+ "p/dv-x-sertig-wasserfall": [
+  1200,
+  525
+ ],
+ "p/en-x-olympia-bobrun": [
+  1200,
+  900
+ ],
+ "p/en-x-corvatsch": [
+  1200,
+  1741
+ ],
+ "p/en-x-mili-weber-haus": [
+  1200,
+  900
+ ],
+ "p/en-x-val-roseg-kutsche": [
+  1200,
+  900
+ ],
+ "p/en-x-gletschertoepfe-maloja": [
+  1200,
+  900
+ ],
+ "p/en-x-schiefer-turm": [
+  1200,
+  1798
+ ],
+ "p/en-x-val-trupchun": [
+  1200,
+  800
+ ],
+ "p/ge-x-pointe-jonction": [
+  1200,
+  800
+ ],
+ "p/ge-x-parc-animaux-batie": [
+  1200,
+  800
+ ],
+ "p/ge-x-musee-histoire-sciences": [
+  1200,
+  900
+ ],
+ "p/ge-x-relief-magnin": [
+  1200,
+  800
+ ],
+ "p/ge-x-cimetiere-des-rois": [
+  1200,
+  795
+ ],
+ "p/ge-x-fondation-bodmer": [
+  1200,
+  800
+ ],
+ "p/la-x-mines-de-sel-bex": [
+  1200,
+  528
+ ],
+ "p/la-x-rochers-de-naye": [
+  1200,
+  800
+ ],
+ "p/la-x-art-brut": [
+  1200,
+  1060
+ ],
+ "p/la-x-guet-cathedrale": [
+  1200,
+  899
+ ],
+ "p/la-x-aquatis": [
+  1200,
+  609
+ ],
+ "p/la-x-bains-de-lavey": [
+  1200,
+  900
+ ],
+ "p/lug-x-monte-generoso": [
+  1200,
+  801
+ ],
+ "p/lug-x-museo-fossili-meride": [
+  1200,
+  675
+ ],
+ "p/lug-x-museo-dogane": [
+  1200,
+  750
+ ],
+ "p/lug-x-monte-tamaro": [
+  1200,
+  800
+ ],
+ "p/lug-x-alprose": [
+  1200,
+  900
+ ],
+ "p/lug-x-museo-hesse": [
+  1200,
+  900
+ ],
+ "p/lo-x-cascata-foroglio": [
+  1200,
+  795
+ ],
+ "p/lo-x-orrido-ponte-brolla": [
+  1200,
+  675
+ ],
+ "p/lo-x-museo-val-verzasca": [
+  1200,
+  766
+ ],
+ "p/lo-x-chiesa-mogno": [
+  1200,
+  901
+ ],
+ "p/bz-x-ponte-tibetano-carasc": [
+  1200,
+  800
+ ],
+ "p/bz-x-funicolare-ritom": [
+  1200,
+  900
+ ],
+ "p/bz-x-cascata-santa-petronilla": [
+  1200,
+  900
+ ],
+ "p/bz-x-bagno-pubblico": [
+  1200,
+  797
+ ],
+ "p/bz-x-castello-mesocco": [
+  1200,
+  899
+ ],
+ "p/lu-x-hammetschwand-lift": [
+  1200,
+  810
+ ],
+ "p/lu-x-stanserhorn-cabrio": [
+  1200,
+  800
+ ],
+ "p/lu-x-bourbaki-panorama": [
+  1200,
+  800
+ ],
+ "p/lu-x-mineralbad-rigi-kaltbad": [
+  1200,
+  900
+ ],
+ "p/lu-x-glasi-hergiswil": [
+  1200,
+  723
+ ],
+ "p/lu-x-museggmauer": [
+  1200,
+  675
+ ],
+ "p/zg-x-museum-urgeschichte": [
+  1200,
+  1148
+ ],
+ "p/zg-x-lorzentobel-bruecken": [
+  1200,
+  960
+ ],
+ "p/zh-x-dolder-eisbahn": [
+  1200,
+  675
+ ],
+ "p/zh-x-moulagenmuseum": [
+  1200,
+  674
+ ],
+ "p/zh-x-sukkulenten-sammlung": [
+  1200,
+  800
+ ],
+ "p/zh-x-wildnispark-langenberg": [
+  1200,
+  675
+ ],
+ "p/zh-x-flussbad-oberer-letten": [
+  1200,
+  800
+ ],
+ "p/zh-x-zuschauerterrasse-b": [
+  1200,
+  687
+ ],
+ "p/zh-x-tram-museum": [
+  1200,
+  795
+ ],
+ "p/wi-x-wildpark-bruderhaus": [
+  1200,
+  900
+ ],
+ "p/wi-x-schloss-kyburg": [
+  1200,
+  900
+ ],
+ "p/wi-x-dampfbahn-dvzo": [
+  1200,
+  676
+ ],
+ "p/wi-x-uhrenmuseum": [
+  1200,
+  1800
+ ],
+ "p/wi-x-kartause-ittingen": [
+  1200,
+  900
+ ],
+ "p/ba-x-kloster-koenigsfelden": [
+  1200,
+  900
+ ],
+ "p/ba-x-schloss-lenzburg": [
+  1200,
+  490
+ ],
+ "p/ba-x-legionaerspfad": [
+  1200,
+  554
+ ],
+ "p/ba-x-schloss-habsburg": [
+  1200,
+  799
+ ],
+ "p/ba-x-wasserschloss": [
+  1200,
+  675
+ ],
+ "p/ra-x-hirschpark": [
+  1200,
+  800
+ ],
+ "p/ra-x-duftrosengarten": [
+  1200,
+  900
+ ],
+ "p/ra-x-atzmaennig-rodelbahn": [
+  1200,
+  900
+ ],
+ "p/ra-x-alpamare": [
+  1200,
+  800
+ ],
+ "p/ra-x-ritterhaus-bubikon": [
+  1200,
+  800
+ ],
+ "p/ra-x-juckerhof": [
+  1200,
+  795
+ ],
+ "p/ra-x-bachtelturm": [
+  1200,
+  1600
+ ],
+ "p/eg-x-naturzentrum-thurauen": [
+  1200,
+  800
+ ],
+ "p/eg-x-irchelturm": [
+  1200,
+  803
+ ],
+ "p/eg-x-eisenbahnbruecke": [
+  1200,
+  800
+ ],
+ "p/eg-x-kaiserstuhl": [
+  1200,
+  675
+ ],
+ "p/eg-x-gottfried-keller-zentrum": [
+  1200,
+  797
+ ],
+ "p/rb-x-mammutmuseum": [
+  1200,
+  900
+ ],
+ "p/rb-x-neeracherried": [
+  1200,
+  675
+ ],
+ "p/rb-x-kloster-fahr": [
+  1200,
+  800
+ ],
+ "p/rb-x-strandbad-katzensee": [
+  1200,
+  900
+ ],
+ "p/rb-x-sternwarte-buelach": [
+  1200,
+  800
+ ],
+ "p/sh-x-rhybadi": [
+  1200,
+  676
+ ],
+ "p/sh-x-kesslerloch": [
+  1200,
+  900
+ ],
+ "p/sh-x-klosterinsel-rheinau": [
+  1200,
+  750
+ ],
+ "p/sh-x-museum-lindwurm": [
+  1200,
+  1366
+ ],
+ "p/sh-x-sternwarte-schaffhausen": [
+  1200,
+  842
+ ],
+ "p/sh-x-siblinger-randenturm": [
+  1200,
+  1600
+ ],
+ "n/corvatsch-snow-night": [
+  1200,
+  900
+ ],
+ "n/lenzerheide-snownights": [
+  1200,
+  760
+ ],
+ "n/soerenberg-rossweid": [
+  1200,
+  800
+ ],
+ "n/atzmaennig-brustenegg": [
+  1200,
+  720
+ ],
+ "n/flumserberg-galaxie": [
+  1200,
+  800
+ ],
+ "n/flumserberg-nachtschlitteln": [
+  1200,
+  800
+ ],
+ "n/klewenalp-ergglen": [
+  1200,
+  581
+ ],
+ "n/stockhuette-twaeregg": [
+  1200,
+  800
+ ],
+ "n/wiriehorn-nachtskifahren": [
+  1200,
+  755
+ ],
+ "n/grindelwald-bodmi": [
+  1200,
+  900
+ ],
+ "n/hasliberg-maegisalp-reuti": [
+  1200,
+  857
+ ],
+ "n/les-diablerets-willy-favre": [
+  1200,
+  900
+ ],
+ "n/zermatt-mondscheinabfahrt": [
+  1200,
+  696
+ ],
+ "n/savognin-nachtspektakel": [
+  1200,
+  900
+ ],
+ "n/obersaxen-chummenbuehl": [
+  1200,
+  800
+ ],
+ "n/berguen-tect": [
+  1200,
+  900
+ ],
+ "n/diavolezza-gluena-plaina": [
+  1200,
+  800
+ ],
+ "n/laax-night-skiing": [
+  1200,
+  900
+ ],
+ "n/aletsch-arena-nachtskifahren": [
+  1200,
+  675
+ ],
+ "n/leukerbad-sportarena": [
+  1200,
+  800
+ ],
+ "n/pizol-nachtskifahren": [
+  1200,
+  900
+ ],
+ "n/pizol-nachtschlitteln": [
+  1200,
+  900
+ ],
+ "n/elm-abendschlitteln": [
+  1200,
+  800
+ ],
+ "n/st-cergue-ski-nocturne": [
+  1200,
+  675
+ ],
+ "n/schwarzsee-riggisalp": [
+  1200,
+  900
+ ],
+ "n/melchsee-frutt-nachtschlitteln": [
+  1200,
+  800
+ ],
+ "n/engelberg-klostermatte": [
+  1200,
+  900
+ ],
+ "n/davos-rinerhorn": [
+  1200,
+  800
+ ],
+ "n/klosters-selfranga": [
+  1200,
+  800
+ ],
+ "n/adelboden-chuenis-bi-nacht": [
+  1200,
+  800
+ ],
+ "n/unterbaech-dorflift": [
+  1200,
+  848
+ ],
+ "n/lorient-vallee-de-joux": [
+  1200,
+  900
+ ],
+ "n/gstaad-eggli-night-vibes": [
+  1200,
+  800
+ ],
+ "n/sattel-hochstuckli-nachtschlitteln": [
+  1200,
+  898
  ]
 }

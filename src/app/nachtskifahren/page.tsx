@@ -4,6 +4,7 @@ import data from "@/data/nachtski.json";
 import { WD_LONG, isoDay, nightStatus, type NightOffer } from "@/lib/nachtski-core";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import NightCalendar from "@/components/NightCalendar";
+import { getNightImage } from "@/data/images";
 
 export const revalidate = 3600;
 
@@ -26,6 +27,7 @@ export default function NachtskiPage() {
   const longest = [...ski].filter((o) => o.km).sort((a, b) => b.km! - a.km!)[0];
   const cheapest = [...ski].filter((o) => o.ticket?.price).sort((a, b) => a.ticket!.price - b.ticket!.price)[0];
   const byWd = [5, 4, 3, 6, 2].map((w) => ({ w, n: offers.filter((o) => o.weekdays.includes(w)).length })).sort((a, b) => b.n - a.n)[0];
+  const thumbs = Object.fromEntries(offers.flatMap((o) => { const i = getNightImage(o.id, o.image); return i ? [[o.id, { src: i.small, alt: i.alt }]] : []; }));
   const tonight = offers.filter((o) => nightStatus(o, today)).length;
 
   const jsonLd = [
@@ -79,7 +81,7 @@ export default function NachtskiPage() {
         {longest && ` Die längste: ${longest.place} mit ${String(longest.km).replace(".", ",")} km bis ${longest.to} Uhr.`}
       </p>
       <div className="mt-10">
-        <NightCalendar offers={offers} today={today} />
+        <NightCalendar offers={offers} today={today} thumbs={thumbs} />
       </div>
       <p className="mt-14 max-w-3xl text-xs leading-relaxed text-cream-faint">
         Zeiten und Preise laut Bergbahnen, geprüft am {new Date(offers[0].checked).toLocaleDateString("de-CH")}. Nachtskifahren findet nur bei genügend Schnee und gutem Wetter statt – vor der Fahrt die Website der Bergbahn prüfen.

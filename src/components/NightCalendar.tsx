@@ -22,7 +22,7 @@ const long = (iso: string) => new Date(`${iso}T12:00:00`).toLocaleDateString("de
 const chip = (on: boolean) =>
   `min-h-[38px] rounded-full border px-3.5 py-1 text-sm font-semibold transition ${on ? "border-signal-500 bg-signal-500 text-white" : "border-cream/20 bg-ink-900 text-cream-dim hover:border-cream/40"}`;
 
-export default function NightCalendar({ offers, today }: { offers: NightOffer[]; today: string }) {
+export default function NightCalendar({ offers, today, thumbs = {} }: { offers: NightOffer[]; today: string; thumbs?: Record<string, { src: string; alt: string }> }) {
   const [view, setView] = useState<View>("woche");
   const [kind, setKind] = useState<Kind>("");
   // vor Saisonstart direkt die erste Woche mit Angeboten zeigen
@@ -198,7 +198,13 @@ export default function NightCalendar({ offers, today }: { offers: NightOffer[];
         <h2 id="alle" className="headline text-3xl text-cream">Alle {list.length} Angebote</h2>
         <ul className="mt-5 grid gap-4 lg:grid-cols-2">
           {list.map(({ o, d, travel }) => (
-            <li key={o.id} id={o.id} className="card scroll-mt-24 p-5">
+            <li key={o.id} id={o.id} className="card scroll-mt-24 overflow-hidden p-5">
+              {thumbs[o.id] && (
+                <Link href={`/nachtskifahren/${o.id}`} className="-mx-5 -mt-5 mb-4 block" tabIndex={-1} aria-hidden>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={thumbs[o.id].src} alt="" loading="lazy" width={480} height={200} className="h-36 w-full object-cover" />
+                </Link>
+              )}
               <p className="flex flex-wrap items-center gap-x-2 text-xs font-semibold text-cream-faint">
                 <span className="inline-flex items-center gap-1">{o.type === "ski" ? <MountainSnow size={13} aria-hidden /> : <Sparkles size={13} aria-hidden />} {o.type === "ski" ? "Nachtskifahren" : "Nachtschlitteln"}</span>
                 <span>· {o.place}, {o.canton}</span>

@@ -37,6 +37,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/wassertemperaturen`, changeFrequency: "hourly", priority: 0.8 },
     { url: `${SITE_URL}/skigebiete`, changeFrequency: "hourly", priority: 0.8 },
     { url: `${SITE_URL}/nachtskifahren`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${SITE_URL}/sonnige-skigebiete`, changeFrequency: "daily", priority: 0.7 },
     { url: `${SITE_URL}/ausfluege/ki`, changeFrequency: "monthly", priority: 0.8 },
     ...skiAreas.map((a) => ({ url: `${SITE_URL}/skigebiete/${a.id}`, changeFrequency: "daily" as const, priority: 0.7 })),
     ...nightOffers.map((o) => ({ url: `${SITE_URL}/nachtskifahren/${o.id}`, changeFrequency: "daily" as const, priority: 0.7 })),

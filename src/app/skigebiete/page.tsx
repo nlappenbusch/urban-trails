@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Moon } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { LIVE_ON, skiRows } from "@/lib/ski";
 import { kmOpen } from "@/lib/ski-core";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
@@ -39,8 +39,9 @@ export default async function SkiPage() {
         {deepest && ` Am meisten Schnee: ${deepest.name} mit ${deepest.snow!.cm} cm.`}
         {" "}Wähl deinen Startort, Zug oder Auto – wir rechnen die Anreise.
       </p>
-      <p className="mt-4">
+      <p className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
         <Link href="/nachtskifahren" className="inline-flex items-center gap-1.5 text-sm font-bold text-signal-600 hover:text-signal-500"><Moon size={15} aria-hidden /> Nachtskifahren: wann und wo abends Pisten beleuchtet sind</Link>
+        <Link href="/sonnige-skigebiete" className="inline-flex items-center gap-1.5 text-sm font-bold text-signal-600 hover:text-signal-500"><Sun size={15} aria-hidden /> Die sonnigsten Skigebiete</Link>
       </p>
       <div className="mt-10">
         <SkiFinder rows={rows} live={LIVE_ON} />

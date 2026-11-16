@@ -30,6 +30,11 @@ ${night}
 Übersicht mit offenen Pisten-km, Anlagen und Schnee: ${SITE_URL}/skigebiete
 ${skiAreas.map((a) => `- [${a.name}](${SITE_URL}/skigebiete/${a.id})`).join("\n")}
 
+## Sonne auf der Piste
+
+Die sonnigsten Skigebiete (Sonnenstunden je Piste, aus Hangausrichtung und Sonnenstand gerechnet): ${SITE_URL}/sonnige-skigebiete
+Jede Skigebiet-Seite hat eine Sonnenkarte und einen Sonnen-Fahrplan: welche Pisten morgens, mittags und nachmittags Sonne haben.
+
 ## Weitere Seiten
 
 - Wassertemperaturen aller Schweizer Seen und Flüsse, über 800 Badestellen: ${SITE_URL}/wassertemperaturen

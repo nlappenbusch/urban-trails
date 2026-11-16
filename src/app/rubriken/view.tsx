@@ -2,15 +2,10 @@ import Link from "next/link";
 import RubrikFinder from "@/components/RubrikFinder";
 import { KANTONE, MIN_KANTON, RUBRIKEN, itemsIn, top, type Kanton, type Rubrik, type RubrikItem } from "@/lib/rubriken";
 import { SITE_URL, breadcrumbJsonLd } from "@/lib/seo";
+import { Plakette, rubrikColor } from "@/lib/rubrik-style";
+import { ChevronRight } from "lucide-react";
 
 const list = (names: string[]) => (names.length > 1 ? `${names.slice(0, -1).join(", ")} und ${names[names.length - 1]}` : names[0] ?? "");
-const COLORS: Record<string, string> = {
-  tierparks: "#16a34a", museen: "#7c3aed", "burgen-schloesser": "#b45309", hoehlen: "#475569", wasserfaelle: "#0284c7",
-  aussichtstuerme: "#ea580c", freizeitparks: "#db2777", erlebnisbaeder: "#0891b2", seilparks: "#65a30d", sternwarten: "#1e3a8a", minigolf: "#ca8a04",
-  rodelbahnen: "#e11d48", klettersteige: "#78350f", themenwege: "#15803d", schifffahrten: "#1d4ed8", eisbahnen: "#0ea5e9", langlauf: "#0369a1",
-  winterwandern: "#64748b", bergbahnen: "#9a3412", kletterhallen: "#a16207", thermen: "#0f766e",
-  velorouten: "#65a30d", bikeparks: "#c2410c", iglu: "#0284c7", schlittenhunde: "#475569", helikopter: "#b91c1c", erlebnisgastro: "#b45309",
-};
 
 export function rubrikTitle(r: Rubrik, k: Kanton | undefined, n: number) {
   return k ? `${r.label} ${k.im}: alle ${n} mit Karte` : `${r.label} Schweiz: alle ${n} auf einer Karte`;
@@ -65,34 +60,49 @@ export default function RubrikView({ r, k, items }: { r: Rubrik; k?: Kanton; ite
   ];
 
   return (
-    <div className="container-page py-12 sm:py-16">
+    <div className="container-page pb-16 pt-4 sm:pt-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="kicker">
-        <Link href="/rubriken" className="hover:underline">Ausflugsziele nach Rubrik</Link> · {k ? <Link href={`/rubriken/${r.slug}`} className="hover:underline">{r.label} Schweiz</Link> : "ganze Schweiz"}
-      </p>
-      <h1 className="headline mt-3 max-w-4xl text-4xl text-cream sm:text-6xl">{r.label} {k ? k.im : "in der Schweiz"}</h1>
-      <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">
-        {items.length} {r.many} {where} auf einer Karte – {/^(Vom|Von|Auf|Grosse|Bewohnte|Öffentliche|Gepfadete) /.test(r.claim) ? r.claim.charAt(0).toLowerCase() + r.claim.slice(1) : r.claim}
-        {best.length > 2 && ` Bekannt: ${list(best.slice(0, 3).map((i) => i.name))}.`}
-        {" "}Wähl deine Haltestelle, dann steht das Nächste oben.
-      </p>
+      <nav aria-label="Brotkrumen" className="text-sm text-cream-faint">
+        <ol className="flex flex-wrap items-center gap-1">
+          <li><Link href="/rubriken" className="font-semibold hover:text-cream">Ausflugsziele</Link></li>
+          <li aria-hidden><ChevronRight size={14} /></li>
+          {k ? (
+            <>
+              <li><Link href={`/rubriken/${r.slug}`} className="font-semibold hover:text-cream">{r.label}</Link></li>
+              <li aria-hidden><ChevronRight size={14} /></li>
+              <li aria-current="page">{k.name}</li>
+            </>
+          ) : (
+            <li aria-current="page">{r.label}</li>
+          )}
+        </ol>
+      </nav>
+      <div className="mt-3 flex items-start gap-4">
+        <Plakette r={r.slug} size={56} className="mt-1 hidden sm:grid" />
+        <div className="min-w-0">
+          <h1 className="headline text-[2rem] text-cream sm:text-5xl">{r.label} {k ? k.im : "in der Schweiz"}</h1>
+          <p className="mt-2 max-w-2xl text-base leading-relaxed text-cream-dim sm:text-[17px]">
+            <span className="tabnums">{items.length.toLocaleString("de-CH")}</span> {r.many} {where}. {r.claim}
+          </p>
+        </div>
+      </div>
 
-      <div className="mt-10">
-        <RubrikFinder items={items} one={r.one} showCanton={!k} color={COLORS[r.slug]} />
+      <div className="mt-4">
+        <RubrikFinder items={items} one={r.one} showCanton={!k} color={rubrikColor(r.slug)} />
       </div>
 
       {!k && byKt.length > 1 && (
         <section className="mt-16">
-          <h2 className="font-display text-2xl font-extrabold tracking-tight text-cream">{r.label} nach Kanton</h2>
+          <h2 className="text-2xl font-extrabold tracking-[-0.02em] text-cream">{r.label} nach Kanton</h2>
           <ul className="mt-4 flex flex-wrap gap-2">
             {byKt.map(({ c, n }) => (
               <li key={c.ak}>
                 {n >= MIN_KANTON ? (
-                  <Link href={`/rubriken/${r.slug}/${c.slug}`} className="inline-flex min-h-[38px] items-center gap-1.5 rounded-full border border-cream/20 bg-ink-900 px-3.5 text-sm font-semibold text-cream-dim hover:border-cream/40 hover:text-cream">
+                  <Link href={`/rubriken/${r.slug}/${c.slug}`} className="chip">
                     {c.name} <span className="text-cream-faint">{n}</span>
                   </Link>
                 ) : (
-                  <span className="inline-flex min-h-[38px] items-center gap-1.5 rounded-full border border-cream/10 px-3.5 text-sm text-cream-faint">{c.name} {n}</span>
+                  <span className="inline-flex min-h-[40px] items-center gap-1.5 rounded-full px-3.5 text-sm text-cream-faint ring-1 ring-cream/10">{c.name} <span className="tabnums">{n}</span></span>
                 )}
               </li>
             ))}
@@ -102,11 +112,11 @@ export default function RubrikView({ r, k, items }: { r: Rubrik; k?: Kanton; ite
 
       {k && (
         <section className="mt-16">
-          <h2 className="font-display text-2xl font-extrabold tracking-tight text-cream">Mehr {k.im}</h2>
+          <h2 className="text-2xl font-extrabold tracking-[-0.02em] text-cream">Mehr {k.im}</h2>
           <ul className="mt-4 flex flex-wrap gap-2">
             {RUBRIKEN.filter((x) => x.slug !== r.slug && itemsIn(x.slug, k.ak).length >= MIN_KANTON).map((x) => (
               <li key={x.slug}>
-                <Link href={`/rubriken/${x.slug}/${k.slug}`} className="inline-flex min-h-[38px] items-center gap-1.5 rounded-full border border-cream/20 bg-ink-900 px-3.5 text-sm font-semibold text-cream-dim hover:border-cream/40 hover:text-cream">
+                <Link href={`/rubriken/${x.slug}/${k.slug}`} className="chip">
                   {x.label} <span className="text-cream-faint">{itemsIn(x.slug, k.ak).length}</span>
                 </Link>
               </li>
@@ -116,7 +126,7 @@ export default function RubrikView({ r, k, items }: { r: Rubrik; k?: Kanton; ite
       )}
 
       <section className="mt-16 max-w-3xl">
-        <h2 className="font-display text-2xl font-extrabold tracking-tight text-cream">Häufige Fragen</h2>
+        <h2 className="text-2xl font-extrabold tracking-[-0.02em] text-cream">Häufige Fragen</h2>
         <dl className="mt-4 space-y-5">
           {faq.map((f) => (
             <div key={f.q}>

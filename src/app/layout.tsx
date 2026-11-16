@@ -2,13 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BottomNav from "@/components/BottomNav";
+import { Figtree } from "next/font/google";
 import { SITE_NAME, SITE_URL } from "@/lib/seo";
 import { buildCatalog } from "@/lib/catalog";
+
+const figtree = Figtree({ subsets: ["latin", "latin-ext"], weight: ["400", "500", "600", "700", "800"], variable: "--font-figtree", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} – Walking-Touren mit Audioguide & Geheimtipps`,
+    default: `${SITE_NAME} – Ausflugsziele und Audio-Touren in der Schweiz`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
@@ -32,23 +36,12 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="de-CH">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Inter:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang="de-CH" className={figtree.variable}>
       <body className="flex min-h-screen flex-col">
         <Header catalog={buildCatalog()} />
         <main className="flex-1">{children}</main>
         <Footer />
+        <BottomNav />
       </body>
     </html>
   );

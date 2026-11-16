@@ -17,6 +17,35 @@ html {
 
 body {
   @apply bg-ink-950 text-cream antialiased;
+  caret-color: #d63f00;
+  font-feature-settings: "ss01" off;
+}
+
+/* Daumenleiste unten (mobil): Platz freihalten, auf Tourseiten mit eigener Leiste ausblenden */
+@media (max-width: 1023px) {
+  body {
+    padding-bottom: calc(4.25rem + env(safe-area-inset-bottom));
+  }
+  body[data-tourbar] {
+    padding-bottom: 0;
+  }
+}
+body[data-tourbar] .bottom-nav {
+  display: none;
+}
+
+:focus-visible {
+  outline: 2px solid #d63f00;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+.tabnums {
+  font-variant-numeric: tabular-nums;
 }
 
 /* Tourseite: Platz für die Tour-Leiste, falls sie (bei laufendem Audio) über dem Footer steht */
@@ -26,7 +55,8 @@ body[data-tourbar] footer {
 
 
 ::selection {
-  @apply bg-signal-500 text-ink-950;
+  background: #ffd9c2;
+  color: #2b241f;
 }
 
 @layer components {
@@ -34,10 +64,24 @@ body[data-tourbar] footer {
     @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
   }
   .btn-primary {
-    @apply inline-flex items-center gap-2 rounded-full bg-signal-500 px-6 py-3 font-semibold text-white transition hover:bg-signal-600 active:scale-[0.98];
+    @apply inline-flex items-center gap-2 rounded-full bg-signal-500 px-6 py-3 font-bold text-white shadow-soft transition duration-200 ease-out hover:bg-signal-600 active:scale-[0.97];
   }
   .btn-secondary {
-    @apply inline-flex items-center gap-2 rounded-full border border-cream/20 bg-ink-900 px-6 py-3 font-semibold text-cream transition hover:border-cream/40 active:scale-[0.98];
+    @apply inline-flex items-center gap-2 rounded-full bg-ink-900 px-6 py-3 font-bold text-cream shadow-soft ring-1 ring-cream/10 transition duration-200 ease-out hover:ring-cream/25 active:scale-[0.97];
+  }
+  /* Auswahl-Chip: aus = weiss mit Haarlinie, an = Aktionsfarbe */
+  .chip {
+    @apply inline-flex min-h-[40px] shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-ink-900 px-3.5 text-sm font-semibold text-cream-dim ring-1 ring-cream/15 transition duration-200 ease-out hover:ring-cream/30 active:scale-[0.97];
+  }
+  .chip[aria-pressed="true"],
+  .chip[aria-current="page"] {
+    @apply bg-signal-500 text-white ring-signal-500;
+  }
+  /* Rubrik-Plakette: farbige Kachel mit Icon, trägt Einträge ohne Foto */
+  .plakette {
+    @apply grid shrink-0 place-items-center rounded-2xl;
+    background: color-mix(in srgb, var(--rc) 14%, white);
+    color: var(--rc);
   }
   /* Gestaltungsregeln: Karten rounded-2xl, Knöpfe rounded-full (gefüllt = btn-primary,
      Umriss = btn-secondary). Eine Etikett-Art: .kicker (Text) bzw. .badge (auf Fotos).
@@ -49,13 +93,14 @@ body[data-tourbar] footer {
     @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-bold;
   }
   .card {
-    @apply rounded-2xl border border-cream/10 bg-ink-900 shadow-sm;
+    @apply rounded-[22px] bg-ink-900 shadow-soft ring-1 ring-cream/[0.06];
   }
   .headline {
-    @apply font-display font-extrabold leading-[1.04] tracking-tight;
+    @apply font-display font-extrabold leading-[1.05] tracking-[-0.025em];
+    text-wrap: balance;
   }
   h1.headline em {
-    @apply inline-block -rotate-1 rounded-md bg-signal-500 px-2.5 not-italic text-white sm:px-3;
+    @apply not-italic text-signal-500;
   }
   .headline em {
     @apply not-italic;
@@ -98,7 +143,28 @@ body[data-tourbar] footer {
 }
 ::-webkit-scrollbar-thumb {
   @apply rounded-full bg-ink-700;
+  border: 2px solid #f6efe6;
+}
+html {
+  scrollbar-color: #e2d4c3 #f6efe6;
 }
 ::-webkit-scrollbar-track {
   @apply bg-ink-950;
+}
+
+/* Zeilen gleiten an ihren neuen Platz, wenn Filter die Liste neu sortieren */
+::view-transition-group(*) {
+  animation-duration: 420ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 180ms;
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
 }

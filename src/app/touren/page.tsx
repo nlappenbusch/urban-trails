@@ -19,13 +19,12 @@ export default function ToursPage() {
     .map((c) => ({ slug: c.slug, name: c.name }));
 
   return (
-    <div className="container-page py-16">
-      <p className="kicker">{tours.length} Touren · {new Set(tours.map((t) => t.citySlug)).size} Städte</p>
-      <h1 className="headline mt-3 text-5xl text-cream sm:text-6xl">
-        Alle <em>Touren</em>
+    <div className="container-page pb-16 pt-6 sm:pt-10">
+      <h1 className="headline text-[2.5rem] text-cream sm:text-6xl">
+        Audio-Touren
       </h1>
-      <p className="mt-4 max-w-xl text-cream-dim">
-        Jede Tour ist komplett ausgearbeitet: logische Route, Gehzeiten,
+      <p className="mt-3 max-w-xl text-cream-dim">
+        {tours.length} Rundgänge in {new Set(tours.map((t) => t.citySlug)).size} Städten. Jede Tour ist komplett ausgearbeitet: logische Route, Gehzeiten,
         GPS-Koordinaten, Audio-Story und Geheimtipps für jeden Stopp.
       </p>
       <div className="mt-8">

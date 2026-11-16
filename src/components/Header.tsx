@@ -1,111 +1,86 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Heart, Menu, X } from "lucide-react";
 import Logo from "@/components/Logo";
 import GameChip from "@/components/GameChip";
+import { useMerkliste } from "@/lib/merkliste";
+import { MEHR, TABS, activeTab } from "@/lib/hauptnav";
 import type { Catalog } from "@/lib/game";
-
-const links = [
-  { href: "/touren", label: "Touren" },
-  { href: "/ausfluege", label: "Ausflüge" },
-  { href: "/rubriken", label: "Alle Ziele" },
-  { href: "/destinationen", label: "Destinationen" },
-  { href: "/kategorien", label: "Kategorien" },
-  { href: "/fuehrung", label: "Mit Guide" },
-];
 
 export default function Header({ catalog }: { catalog: Catalog }) {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const active = activeTab(pathname);
+  const merk = useMerkliste().length;
+
+  useEffect(() => setOpen(false), [pathname]);
+  useEffect(() => {
+    if (!open) return;
+    const esc = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    window.addEventListener("keydown", esc);
+    return () => window.removeEventListener("keydown", esc);
+  }, [open]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-cream/10 bg-ink-950/90 backdrop-blur-md">
-      <div className="container-page flex h-16 items-center justify-between">
+    <header className="sticky top-0 z-50 bg-ink-950/85 backdrop-blur-md" style={{ viewTransitionName: "kopf" }}>
+      <div className="container-page flex h-16 items-center justify-between gap-4">
         <Logo />
 
-        {/* Desktop-Nav */}
-        <nav className="hidden items-center gap-2 lg:flex">
-          {links.map((l) => (
+        <nav aria-label="Hauptnavigation" className="hidden items-center gap-1 lg:flex">
+          {TABS.map((t) => (
             <Link
-              key={l.href}
-              href={l.href}
-              className={`px-3 py-2 text-sm font-bold uppercase tracking-wide transition hover:text-cream ${
-                pathname.startsWith(l.href) ? "text-signal-600" : "text-cream-dim"
+              key={t.key}
+              href={t.href}
+              aria-current={active === t.key ? "page" : undefined}
+              className={`inline-flex min-h-[40px] items-center gap-1.5 rounded-full px-4 text-[15px] font-bold transition duration-200 ease-out ${
+                active === t.key ? "bg-ink-900 text-signal-600 shadow-soft" : "text-cream-dim hover:bg-ink-900/70 hover:text-cream"
               }`}
             >
-              {l.label}
+              {t.key === "merkliste" && <Heart size={15} fill={merk ? "currentColor" : "none"} aria-hidden />}
+              {t.label}
+              {t.key === "merkliste" && merk > 0 && <span className="tabnums text-cream-faint">{merk}</span>}
             </Link>
           ))}
-          <Link
-            href="/ueberrasche-mich"
-            className="ml-1 rounded-full bg-signal-500 px-4 py-2 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-signal-600"
-          >
-            Überrasch mich
-          </Link>
-          <span className="ml-1"><GameChip catalog={catalog} /></span>
         </nav>
 
-        {/* Mobile: CTA + Burger */}
-        <div className="flex items-center gap-2 lg:hidden">
+        <div className="flex items-center gap-2">
           <GameChip catalog={catalog} />
           <button
+            type="button"
             onClick={() => setOpen(!open)}
-            aria-label={open ? "Menü schliessen" : "Menü öffnen"}
+            aria-label={open ? "Menü schliessen" : "Mehr anzeigen"}
             aria-expanded={open}
-            className="grid h-11 w-11 place-items-center rounded-full border border-cream/15 text-cream"
+            aria-controls="mehr-panel"
+            className="inline-flex min-h-[44px] items-center gap-2 rounded-full bg-ink-900 px-3.5 text-sm font-bold text-cream shadow-soft ring-1 ring-cream/[0.06] transition duration-200 ease-out hover:ring-cream/20 active:scale-[0.97]"
           >
-            <svg width="18" height="18" viewBox="0 0 18 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-              {open ? (
-                <>
-                  <line x1="3" y1="3" x2="15" y2="15" />
-                  <line x1="15" y1="3" x2="3" y2="15" />
-                </>
-              ) : (
-                <>
-                  <line x1="2" y1="4.5" x2="16" y2="4.5" />
-                  <line x1="2" y1="9" x2="16" y2="9" />
-                  <line x1="2" y1="13.5" x2="16" y2="13.5" />
-                </>
-              )}
-            </svg>
+            {open ? <X size={18} aria-hidden /> : <Menu size={18} aria-hidden />}
+            <span className="hidden sm:inline">Mehr</span>
           </button>
         </div>
       </div>
 
-      {/* Mobile-Panel */}
       {open && (
-        <nav className="border-t border-cream/10 bg-ink-900 lg:hidden">
-          <div className="container-page flex flex-col py-2">
-            {links.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                onClick={() => setOpen(false)}
-                className={`border-b border-cream/5 py-3.5 font-display text-lg font-extrabold tracking-tight ${
-                  pathname.startsWith(l.href) ? "text-signal-600" : "text-cream"
-                }`}
-              >
-                {l.label}
-              </Link>
+        <div id="mehr-panel" className="absolute inset-x-0 top-16 border-t border-cream/[0.06] bg-ink-950 shadow-lift">
+          <div className="container-page grid max-h-[calc(100dvh-4rem)] gap-6 overflow-y-auto py-6 pb-28 sm:grid-cols-3 lg:pb-8">
+            {MEHR.map((g) => (
+              <div key={g.title}>
+                <p className="text-sm font-bold text-cream-faint">{g.title}</p>
+                <ul className="mt-2 space-y-0.5">
+                  {g.links.map((l) => (
+                    <li key={l.href}>
+                      <Link href={l.href} className="flex min-h-[44px] items-center rounded-xl px-2 -mx-2 text-[17px] font-semibold text-cream transition hover:bg-ink-900">
+                        {l.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
-            <Link
-              href="/ueberrasche-mich"
-              onClick={() => setOpen(false)}
-              className="py-3.5 font-display text-lg font-extrabold tracking-tight text-signal-600"
-            >
-              Überrasch mich
-            </Link>
-            <Link
-              href="/konto"
-              onClick={() => setOpen(false)}
-              className="border-t border-cream/5 py-3.5 font-display text-lg font-extrabold tracking-tight text-cream"
-            >
-              Spielstand & Konto
-            </Link>
           </div>
-        </nav>
+        </div>
       )}
     </header>
   );

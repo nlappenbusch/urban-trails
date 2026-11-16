@@ -49,6 +49,9 @@ export default function PointsMap({ points, color = "#f97316", height = 420, lin
       map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-right");
       map.on("load", () => {
         if (!map) return;
+        // Behälter kann nach dem Anlegen noch Grösse geändert haben: neu messen und auf die Punkte einpassen
+        map.resize();
+        map.fitBounds([[Math.min(...lngs) - 0.05, Math.min(...lats) - 0.04], [Math.max(...lngs) + 0.05, Math.max(...lats) + 0.04]], { padding: 40, maxZoom: 13, duration: 0 });
         if (lines) {
           map.addSource("lines", { type: "geojson", data: lines as GeoJSON.FeatureCollection });
           map.addLayer({ id: "lines", type: "line", source: "lines", paint: { "line-color": color, "line-width": ["interpolate", ["linear"], ["zoom"], 8, 1.5, 13, 4], "line-opacity": 0.85 } });
@@ -95,7 +98,7 @@ export default function PointsMap({ points, color = "#f97316", height = 420, lin
       cancelled = true;
       map?.remove();
     };
-  }, [visible, token, points, color, lines]);
+  }, [visible, token, points, color, lines, height]);
 
   if (!token?.startsWith("pk.")) return null;
   return <div ref={ref} className="w-full overflow-hidden rounded-2xl border border-cream/10 bg-ink-900" style={{ height }} role="region" aria-label="Karte" />;

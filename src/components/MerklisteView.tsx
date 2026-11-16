@@ -75,11 +75,10 @@ export default function MerklisteView() {
   }
 
   return (
-    <div className="container-page py-12 sm:py-16">
-      <p className="kicker">Nur auf diesem Gerät · ohne Konto</p>
-      <h1 className="headline mt-3 text-4xl text-cream sm:text-6xl">Meine Merkliste</h1>
-      <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">
-        Mit dem Herz gemerkte Ziele aus allen Rubriken. Die Liste liegt nur in deinem Browser – wer sie sehen soll, bekommt einen Link, in dem sie steckt.
+    <div className="container-page pb-16 pt-6 sm:pt-10">
+      <h1 className="headline text-[2.5rem] text-cream sm:text-6xl">Meine Merkliste</h1>
+      <p className="mt-3 max-w-2xl text-lg leading-relaxed text-cream-dim">
+        Mit dem Herz gemerkte Ziele aus allen Rubriken, ohne Konto. Die Liste liegt nur in deinem Browser – wer sie sehen soll, bekommt einen Link, in dem sie steckt.
       </p>
 
       {shared && (

@@ -9,7 +9,9 @@ import { skiAreas } from "@/lib/ski";
 import { offers as nightOffers } from "@/lib/nachtski";
 import { riverTemps } from "@/lib/wasser";
 import { LAKES, lakeSlug } from "@/lib/wasser-core";
-import { RUBRIKEN, rubrikKantonPages } from "@/lib/rubriken";
+import { RUBRIKEN, rubrikItems, rubrikKantonPages } from "@/lib/rubriken";
+import { hatInhalt } from "@/lib/hit";
+import { zielHref } from "@/lib/ziel";
 import { ANLAESSE } from "@/lib/anlass";
 import { markets } from "@/lib/maerkte";
 import { runs as sledRuns } from "@/lib/schlitteln";
@@ -48,6 +50,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/feste`, changeFrequency: "weekly", priority: 0.8 },
     ...RUBRIKEN.map((r) => ({ url: `${SITE_URL}/rubriken/${r.slug}`, changeFrequency: "weekly" as const, priority: 0.8 })),
     ...rubrikKantonPages().map((p) => ({ url: `${SITE_URL}/rubriken/${p.slug}/${p.kanton}`, changeFrequency: "weekly" as const, priority: 0.6 })),
+    ...rubrikItems().filter(hatInhalt).map((i) => ({ url: `${SITE_URL}${zielHref(i)}`, changeFrequency: "monthly" as const, priority: 0.5 })),
     { url: `${SITE_URL}/weihnachtsmaerkte`, changeFrequency: "daily", priority: 0.9 },
     ...markets().map((m) => ({ url: `${SITE_URL}/weihnachtsmaerkte/${m.id}`, changeFrequency: "weekly" as const, priority: 0.7 })),
     { url: `${SITE_URL}/schlitteln`, changeFrequency: "weekly", priority: 0.8 },

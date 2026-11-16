@@ -11,9 +11,12 @@ import type { RubrikItem } from "@/lib/rubriken-core";
 
 const UA = { "user-agent": "UrbanTrailsSync/1.0 (https://urban-trails.ch)" };
 const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
-const QUERY = `[out:json][timeout:300];
+// Zwei kleinere Abfragen statt einer grossen: Overpass bricht grosse Abfragen unter Last ab.
+const HEAD = `[out:json][timeout:300];
 area(3600051701)->.ch;
-(
+(`;
+const QUERIES = [
+  `${HEAD}
  nwr["tourism"="zoo"](area.ch);
  nwr["tourism"="museum"]["name"](area.ch);
  nwr["historic"~"^(castle|fort|ruins)$"]["name"]["castle_type"!~"manor|stately"](area.ch);
@@ -28,6 +31,9 @@ area(3600051701)->.ch;
  nwr["tourism"="aquarium"](area.ch);
  nwr["amenity"="planetarium"](area.ch);
  nwr["man_made"="observatory"]["name"](area.ch);
+);
+out center tags;`,
+  `${HEAD}
  nwr["leisure"="ice_rink"]["name"](area.ch);
  relation["route"="piste"]["piste:type"~"^(nordic|hike|snowshoe)$"]["name"](area.ch);
  nwr["attraction"="summer_toboggan"]["name"](area.ch);
@@ -40,7 +46,8 @@ area(3600051701)->.ch;
  way["railway"="funicular"]["name"](area.ch);
  way["aerialway"~"^(cable_car|gondola)$"]["name"](area.ch);
 );
-out center tags;`;
+out center tags;`,
+];
 
 type Tags = Record<string, string | undefined>;
 const CASTLE = /burg|schloss|ruine|château|chateau|castel|castell|feste|festung|chastè|tour |turm|tour$|fort/i;
@@ -89,22 +96,31 @@ export function subOf(r: string, t: Tags): string | undefined {
   return t.zoo || t.museum || t.castle_type || undefined;
 }
 
-async function overpass(): Promise<{ type: string; id: number; lat?: number; lon?: number; center?: { lat: number; lon: number }; tags?: Tags }[]> {
+type OsmEl = { type: string; id: number; lat?: number; lon?: number; center?: { lat: number; lon: number }; tags?: Tags };
+
+async function overpassOne(query: string): Promise<OsmEl[]> {
   for (const url of OVERPASS) {
     for (let i = 0; i < 3; i++) {
       try {
-        const res = await fetch(url, { method: "POST", headers: UA, body: new URLSearchParams({ data: QUERY }), signal: AbortSignal.timeout(330_000) });
+        const res = await fetch(url, { method: "POST", headers: UA, body: new URLSearchParams({ data: query }), signal: AbortSignal.timeout(330_000) });
         if (res.ok) {
           const j = await res.json();
-          if (Array.isArray(j.elements) && j.elements.length > 1000) return j.elements; // Plausibilität: Teilantwort nie übernehmen
+          if (Array.isArray(j.elements) && j.elements.length > 500) return j.elements; // Plausibilität: Teilantwort nie übernehmen
         }
       } catch {
         /* nächster Versuch */
       }
-      await new Promise((r) => setTimeout(r, 20_000 * (i + 1)));
+      await new Promise((r) => setTimeout(r, 30_000 * (i + 1)));
     }
   }
   throw new Error("Overpass nicht erreichbar");
+}
+
+/** Alle Teilabfragen – nur wenn jede vollständig kam (sonst würden Orte fälschlich als «fehlt» markiert). */
+async function overpass(): Promise<OsmEl[]> {
+  const all = new Map<string, OsmEl>();
+  for (const q of QUERIES) for (const e of await overpassOne(q)) all.set(`${e.type}${e.id}`, e);
+  return [...all.values()];
 }
 
 async function cantonOf(lat: number, lng: number): Promise<string | null> {

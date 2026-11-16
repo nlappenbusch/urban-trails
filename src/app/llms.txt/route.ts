@@ -5,6 +5,7 @@ import { SITE_URL } from "@/lib/seo";
 import { markets, spanText, daysText } from "@/lib/maerkte";
 import { runs } from "@/lib/schlitteln";
 import { RUBRIKEN, itemsOf } from "@/lib/rubriken";
+import { ANLAESSE } from "@/lib/anlass";
 
 export const revalidate = 86400;
 
@@ -51,6 +52,10 @@ ${runs().map((r) => `- [${r.name}](${SITE_URL}/schlitteln/${r.id}): ${String(r.k
 ## Ausflugsziele nach Rubrik (alle Kantone)
 
 ${RUBRIKEN.map((r) => `- [${r.label} Schweiz](${SITE_URL}/rubriken/${r.slug}): ${itemsOf(r.slug).length} Einträge mit Karte, je Kanton eine eigene Seite`).join("\n")}
+
+## Ausflüge nach Anlass und Monat
+
+${ANLAESSE.map((a) => `- [Ausflug ${a.label}](${SITE_URL}/ausflug/${a.slug}): ${a.rubriken.map((r) => r.label).join(", ")}`).join("\n")}
 
 ## Weitere Seiten
 

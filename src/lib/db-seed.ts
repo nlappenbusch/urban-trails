@@ -4,6 +4,7 @@
  * nächste Start die neuen Stände ein (ältere Stände in der DB werden überschrieben, neuere nicht).
  */
 import rubriken from "@/data/rubriken.json";
+import schiffe from "@/data/schifffahrten.json";
 import maerkte from "@/data/weihnachtsmaerkte.json";
 import schlitteln from "@/data/schlitteln.json";
 import ski from "@/data/skigebiete.json";
@@ -13,7 +14,7 @@ import { places } from "@/lib/ausfluege";
 import type { UpsertRow } from "@/lib/db";
 
 // Format: UTC wie toISOString() (der Abgleich vergleicht Stände als Text)
-export const SEED_STAND = "2026-11-16T12:01";
+export const SEED_STAND = "2026-11-16T12:02";
 
 type Any = Record<string, unknown> & { id: string; name: string };
 const num = (x: unknown) => (typeof x === "number" ? x : Number(x));
@@ -23,6 +24,9 @@ export function seedRows(): UpsertRow[] {
   const rows: UpsertRow[] = [];
   for (const r of rubriken as (Any & { r: string; lat: number; lng: number; kt: string; ort?: string; web?: string })[])
     rows.push({ id: `osm:${r.id}`, art: r.r, bestand: "verzeichnis", name: r.name, lat: r.lat, lng: r.lng, kanton: r.kt, ort: r.ort, web: r.web, daten: r, quelle: "osm", quelle_ref: r.id, stand: s });
+  // kuratiert (nicht aus OSM): eigene Quelle, damit der OSM-Abgleich sie nie als «fehlt» markiert
+  for (const r of schiffe as (Any & { r: string; lat: number; lng: number; kt: string; ort?: string; web?: string })[])
+    rows.push({ id: `recherche:${r.id}`, art: r.r, bestand: "verzeichnis", name: r.name, lat: r.lat, lng: r.lng, kanton: r.kt, ort: r.ort, web: r.web, daten: r, quelle: "recherche", stand: s });
   for (const m of maerkte as (Any & { kind: string; place: string; canton: string; coords: { lat: number; lng: number }; url?: string; source?: string; checked?: string })[])
     rows.push({ id: `markt:${m.id}`, art: m.kind, bestand: "maerkte", name: m.name, lat: m.coords.lat, lng: m.coords.lng, kanton: m.canton, ort: m.place, web: m.url, daten: m, quelle: "recherche", quelle_ref: m.source, stand: s });
   for (const r of schlitteln as (Any & { kt: string; ort?: string; web?: string; top: { lat: number; lng: number } })[])

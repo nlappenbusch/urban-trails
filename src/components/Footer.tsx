@@ -58,6 +58,10 @@ export default function Footer() {
           <p className="kicker">Entdecken</p>
           <ul className="mt-3 space-y-2 text-sm">
             <li><Link href="/rubriken" className="font-bold text-cream-dim hover:text-cream">Ausflugsziele nach Rubrik</Link></li>
+            <li><Link href="/ausflug" className="font-bold text-cream-dim hover:text-cream">Was jetzt Saison hat</Link></li>
+            <li><Link href="/ausflug/mit-kindern" className="font-bold text-cream-dim hover:text-cream">Ausflüge mit Kindern</Link></li>
+            <li><Link href="/ausflug/bei-regen" className="font-bold text-cream-dim hover:text-cream">Ausflüge bei Regen</Link></li>
+            <li><Link href="/ausflug/mit-hund" className="font-bold text-cream-dim hover:text-cream">Ausflüge mit Hund</Link></li>
             <li><Link href="/weihnachtsmaerkte" className="font-bold text-cream-dim hover:text-cream">Weihnachtsmärkte 2026</Link></li>
             <li><Link href="/schlitteln" className="font-bold text-cream-dim hover:text-cream">Schlittelwege</Link></li>
             <li><Link href="/skigebiete" className="font-bold text-cream-dim hover:text-cream">Skigebiete live</Link></li>

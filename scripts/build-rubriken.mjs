@@ -1,7 +1,7 @@
 // Schweiz-Verzeichnis nach Rubriken (Tierparks, Museen, Burgen …) aus OpenStreetMap,
 // angereichert mit Wikidata/Wikipedia (Kurzbeschreibung, Foto mit Urheber) → src/data/rubriken.json
 //
-// Aufruf: node scripts/build-rubriken.mjs <cache-ordner>
+// Aufruf: node scripts/build-rubriken.mjs <cache-ordner> [--merge]
 //   <cache-ordner>/rubriken.json  Overpass-Antwort (out center tags)
 //   <cache-ordner>/orte.json      Overpass place=city|town|village (out qt)
 //   <cache-ordner>/kt/1..26.json  Kantonsflächen von api3.geo.admin.ch (geojson, sr=4326)
@@ -64,8 +64,13 @@ const nearestTown = (p) => {
 };
 
 // ---------- Rubriken ----------
+// gleiche Regeln wie src/lib/db-sync.ts (rubrikOf / subOf / LINE_RUBRIKEN)
 const CASTLE = /burg|schloss|ruine|château|chateau|castel|castell|feste|festung|chastè|tour |turm|tour$|fort/i;
-function rubrik(t) {
+const THEMENWEG = /lehrpfad|themenweg|erlebnisweg|sagenweg|planetenweg|naturpfad|skulpturenweg|barfuss|märliweg|zwergliweg|kulturweg|sentier didactique|sentier découverte|sentiero didattico/i;
+const THERME = /therm|bogn|solbad|sole|spa|hammam|bains|bagni/i;
+/** Linien (Loipen, Bahnen, Wege): Abschnitte gleichen Namens bis 3 km zusammenfassen */
+const LINE_RUBRIKEN = new Set(["langlauf", "winterwandern", "klettersteige", "bergbahnen", "themenwege"]);
+function rubrik(t, type) {
   if (t.tourism === "zoo") return t.zoo === "enclosure" ? null : "tierparks";
   if (t.tourism === "aquarium") return "tierparks";
   if (t.tourism === "museum") return "museen";
@@ -80,16 +85,39 @@ function rubrik(t) {
   if (t.leisure === "miniature_golf") return "minigolf";
   if (t.amenity === "planetarium") return "sternwarten";
   if (t.man_made === "observatory") return /sternwarte|observatoire|osservatorio|planet|volks|public/i.test(`${t.name} ${t.operator ?? ""}`) || t.website || t.tourism ? "sternwarten" : null;
+  if (t.access === "private" || t.access === "no") return null;
+  if (t.leisure === "ice_rink") return t.sport === "curling" || /curling/i.test(t.name ?? "") ? null : "eisbahnen";
+  if (t.route === "piste") return t["piste:type"] === "nordic" ? "langlauf" : /^(hike|snowshoe)$/.test(t["piste:type"] ?? "") ? "winterwandern" : null;
+  if (t.attraction === "summer_toboggan") return /sentier|chemin|weg$/i.test(t.name ?? "") ? null : "rodelbahnen";
+  if (t.highway === "via_ferrata" || t.route === "ferrata" || t.route === "via_ferrata") return "klettersteige";
+  if (t.sport === "climbing") return t.leisure === "sports_centre" || t.leisure === "sports_hall" || /halle|boulder|kletterzentrum|salle|bloc/i.test(t.name ?? "") ? "kletterhallen" : null;
+  if (t.amenity === "public_bath") return /^(lake|river|pool|foot_bath)$/.test(t["bath:type"] ?? "") ? null : /^(thermal|hot_spring|brine|hammam|roman|onsen)$/.test(t["bath:type"] ?? "") || THERME.test(t.name ?? "") ? "thermen" : null;
+  if (t.leisure === "spa") return "thermen";
+  if ((t.route === "hiking" || t.route === "foot") && type === "relation") return THEMENWEG.test(t.name ?? "") ? "themenwege" : null;
+  if (t.railway === "funicular" || t.aerialway === "cable_car" || t.aerialway === "gondola") return t.usage === "freight" ? null : "bergbahnen";
   return null;
 }
+function subOf(r, t) {
+  if (r === "eisbahnen") return t.indoor === "yes" || (t.building && t.building !== "no") || /halle|hall|arena|stadion|stadium/i.test(t.name ?? "") ? "halle" : t.indoor === "no" || /natur|see|lac/i.test(t.name ?? "") ? "freiluft" : undefined;
+  if (r === "langlauf") { const g = t["piste:grooming"] ?? ""; return /classic/.test(g) && /skating/.test(g) ? "klassisch-skating" : /skating/.test(g) ? "skating" : /classic/.test(g) ? "klassisch" : undefined; }
+  if (r === "winterwandern") return t["piste:type"] === "snowshoe" || /schneeschuh|scheeschuh|snowshoe|raquette|racchett/i.test(t.name ?? "") ? "schneeschuh" : "winterwanderweg";
+  if (r === "klettersteige") return t.via_ferrata_scale ? `K${String(t.via_ferrata_scale).replace(/^k/i, "")}` : undefined;
+  if (r === "bergbahnen") return t.railway === "funicular" ? "funicular" : t.aerialway;
+  if (r === "thermen") return t["bath:type"] === "hammam" ? "hammam" : t.leisure === "spa" ? "spa" : "therme";
+  return t.zoo || t["museum"] || t.castle_type || undefined;
+}
+const cleanName = (n) => n.replace(/^(snowshoes?|raquettes?)\s*:\s*/i, "").replace(/^Scheeschuh/, "Schneeschuh").replace(/_/g, " ").trim();
 
+const MERGE = process.argv.includes("--merge");
+// Rubriken aus dem Winter-/Sport-Abzug (scripts/build-rubriken.mjs <ordner> --merge ersetzt nur diese)
+const NEU = new Set(["eisbahnen", "langlauf", "winterwandern", "rodelbahnen", "klettersteige", "kletterhallen", "thermen", "themenwege", "bergbahnen"]);
 const raw = read("rubriken.json").elements;
 let items = [];
 for (const e of raw) {
   const t = e.tags ?? {};
-  const r = rubrik(t);
+  const r = rubrik(t, e.type);
   const lat = e.lat ?? e.center?.lat, lng = e.lon ?? e.center?.lon;
-  const name = t["name:de"] || t.name;
+  const name = cleanName(t["name:de"] || t.name || "");
   if (!r || lat == null || !name) continue;
   if (t.disused || t["disused:tourism"] || t.abandoned || /geschlossen|closed/i.test(t.note ?? "")) continue;
   const kt = cantonOf(lng, lat);
@@ -108,20 +136,20 @@ for (const e of raw) {
     wheel: t.wheelchair === "yes" ? true : t.wheelchair === "no" ? false : undefined,
     height: Number.parseFloat(t.height) || undefined,
     ele: Number.parseFloat(t.ele) || undefined,
-    sub: t.zoo || t["museum"] || t.castle_type || undefined,
+    sub: subOf(r, t),
     wd: t.wikidata || undefined,
     wp: t.wikipedia || undefined,
     score: Object.keys(t).length + (t.wikidata ? 10 : 0) + (t.website ? 5 : 0),
   });
 }
 
-// Dubletten: gleiche Rubrik, ähnlicher Name, < 400 m (z. B. Wasserfall als Punkt und als Linie)
+// Dubletten: gleiche Rubrik, ähnlicher Name, < 400 m (z. B. Wasserfall als Punkt und als Linie), bei Linien < 3 km
 const norm = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]/g, "");
 items.sort((a, b) => b.score - a.score);
 const kept = [];
 for (const it of items) {
   const n = norm(it.name);
-  const dup = kept.find((k) => k.r === it.r && km(k, it) < 0.4 && (norm(k.name) === n || norm(k.name).includes(n) || n.includes(norm(k.name))));
+  const dup = kept.find((k) => k.r === it.r && km(k, it) < (LINE_RUBRIKEN.has(it.r) ? 3 : 0.4) && (norm(k.name) === n || norm(k.name).includes(n) || n.includes(norm(k.name))));
   if (dup) {
     for (const f of ["web", "hours", "wd", "wp", "height", "ele", "ort"]) dup[f] ??= it[f];
     continue;
@@ -258,7 +286,13 @@ const out = items
   })
   .sort((a, b) => b.q - a.q || a.name.localeCompare(b.name, "de"));
 
-fs.writeFileSync("src/data/rubriken.json", JSON.stringify(out));
+// --merge: nur die Rubriken dieses Laufs ersetzen, alle anderen aus der bestehenden Datei behalten
+let final = out;
+if (MERGE) {
+  const prev = JSON.parse(fs.readFileSync("src/data/rubriken.json", "utf8"));
+  final = [...prev.filter((o) => !NEU.has(o.r)), ...out.filter((o) => NEU.has(o.r))];
+}
+fs.writeFileSync("src/data/rubriken.json", JSON.stringify(final));
 const by = {};
 for (const o of out) by[o.r] = (by[o.r] ?? 0) + 1;
 console.log("fertig:", out.length, by, "mit Text", out.filter((o) => o.text).length, "mit Foto", out.filter((o) => o.img).length);

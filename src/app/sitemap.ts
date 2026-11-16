@@ -10,6 +10,7 @@ import { offers as nightOffers } from "@/lib/nachtski";
 import { riverTemps } from "@/lib/wasser";
 import { LAKES, lakeSlug } from "@/lib/wasser-core";
 import { RUBRIKEN, rubrikKantonPages } from "@/lib/rubriken";
+import { ANLAESSE } from "@/lib/anlass";
 import { markets } from "@/lib/maerkte";
 import { runs as sledRuns } from "@/lib/schlitteln";
 
@@ -43,6 +44,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/sonnige-skigebiete`, changeFrequency: "daily", priority: 0.7 },
     { url: `${SITE_URL}/ausfluege/ki`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/rubriken`, changeFrequency: "weekly", priority: 0.8 },
+    ...ANLAESSE.map((a) => ({ url: `${SITE_URL}/ausflug/${a.slug}`, changeFrequency: "weekly" as const, priority: a.kind === "thema" ? 0.8 : 0.7 })),
     ...RUBRIKEN.map((r) => ({ url: `${SITE_URL}/rubriken/${r.slug}`, changeFrequency: "weekly" as const, priority: 0.8 })),
     ...rubrikKantonPages().map((p) => ({ url: `${SITE_URL}/rubriken/${p.slug}/${p.kanton}`, changeFrequency: "weekly" as const, priority: 0.6 })),
     { url: `${SITE_URL}/weihnachtsmaerkte`, changeFrequency: "daily", priority: 0.9 },

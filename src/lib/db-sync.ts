@@ -28,13 +28,30 @@ area(3600051701)->.ch;
  nwr["tourism"="aquarium"](area.ch);
  nwr["amenity"="planetarium"](area.ch);
  nwr["man_made"="observatory"]["name"](area.ch);
+ nwr["leisure"="ice_rink"]["name"](area.ch);
+ relation["route"="piste"]["piste:type"~"^(nordic|hike|snowshoe)$"]["name"](area.ch);
+ nwr["attraction"="summer_toboggan"]["name"](area.ch);
+ nwr["sport"="climbing"]["leisure"~"sports_centre|sports_hall|pitch"]["name"](area.ch);
+ way["highway"="via_ferrata"]["name"](area.ch);
+ relation["route"~"^(ferrata|via_ferrata)$"]["name"](area.ch);
+ nwr["amenity"="public_bath"]["name"](area.ch);
+ nwr["leisure"="spa"]["name"](area.ch);
+ relation["route"~"^(hiking|foot)$"]["name"~"lehrpfad|themenweg|erlebnisweg|sagenweg|planetenweg|naturpfad|skulpturenweg|barfuss|märliweg|zwergliweg|kulturweg|sentier didactique|sentier découverte|sentiero didattico",i](area.ch);
+ way["railway"="funicular"]["name"](area.ch);
+ way["aerialway"~"^(cable_car|gondola)$"]["name"](area.ch);
 );
 out center tags;`;
 
 type Tags = Record<string, string | undefined>;
 const CASTLE = /burg|schloss|ruine|château|chateau|castel|castell|feste|festung|chastè|tour |turm|tour$|fort/i;
+const THEMENWEG = /lehrpfad|themenweg|erlebnisweg|sagenweg|planetenweg|naturpfad|skulpturenweg|barfuss|märliweg|zwergliweg|kulturweg|sentier didactique|sentier découverte|sentiero didattico/i;
+const THERME = /therm|bogn|solbad|sole|spa\b|hammam|bains|bagni/i;
+/** Linien (Loipen, Bahnen, Wege): Abschnitte gleichen Namens bis 3 km gelten als derselbe Ort */
+const LINE_RUBRIKEN = new Set(["langlauf", "winterwandern", "klettersteige", "bergbahnen", "themenwege"]);
+const cleanName = (n: string) => n.replace(/^(snowshoes?|raquettes?)\s*:\s*/i, "").replace(/^Scheeschuh/, "Schneeschuh").replace(/_/g, " ").trim();
+
 /** gleiche Regeln wie scripts/build-rubriken.mjs */
-export function rubrikOf(t: Tags): string | null {
+export function rubrikOf(t: Tags, type = "node"): string | null {
   if (t.tourism === "zoo") return t.zoo === "enclosure" ? null : "tierparks";
   if (t.tourism === "aquarium") return "tierparks";
   if (t.tourism === "museum") return "museen";
@@ -49,7 +66,27 @@ export function rubrikOf(t: Tags): string | null {
   if (t.leisure === "miniature_golf") return "minigolf";
   if (t.amenity === "planetarium") return "sternwarten";
   if (t.man_made === "observatory") return /sternwarte|observatoire|osservatorio|planet|volks|public/i.test(`${t.name} ${t.operator ?? ""}`) || t.website || t.tourism ? "sternwarten" : null;
+  if (t.access === "private" || t.access === "no") return null;
+  if (t.leisure === "ice_rink") return t.sport === "curling" || /curling/i.test(t.name ?? "") ? null : "eisbahnen";
+  if (t.route === "piste") return t["piste:type"] === "nordic" ? "langlauf" : /^(hike|snowshoe)$/.test(t["piste:type"] ?? "") ? "winterwandern" : null;
+  if (t.attraction === "summer_toboggan") return /sentier|chemin|weg$/i.test(t.name ?? "") ? null : "rodelbahnen";
+  if (t.highway === "via_ferrata" || t.route === "ferrata" || t.route === "via_ferrata") return "klettersteige";
+  if (t.sport === "climbing") return t.leisure === "sports_centre" || t.leisure === "sports_hall" || /halle|boulder|kletterzentrum|salle|bloc/i.test(t.name ?? "") ? "kletterhallen" : null;
+  if (t.amenity === "public_bath") return /^(lake|river|pool|foot_bath)$/.test(t["bath:type"] ?? "") ? null : /^(thermal|hot_spring|brine|hammam|roman|onsen)$/.test(t["bath:type"] ?? "") || THERME.test(t.name ?? "") ? "thermen" : null;
+  if (t.leisure === "spa") return "thermen";
+  if ((t.route === "hiking" || t.route === "foot") && type === "relation") return THEMENWEG.test(t.name ?? "") ? "themenwege" : null;
+  if (t.railway === "funicular" || t.aerialway === "cable_car" || t.aerialway === "gondola") return t.usage === "freight" ? null : "bergbahnen";
   return null;
+}
+
+export function subOf(r: string, t: Tags): string | undefined {
+  if (r === "eisbahnen") return t.indoor === "yes" || (t.building && t.building !== "no") || /halle|hall|arena|stadion|stadium/i.test(t.name ?? "") ? "halle" : t.indoor === "no" || /natur|see\b|lac\b/i.test(t.name ?? "") ? "freiluft" : undefined;
+  if (r === "langlauf") { const g = t["piste:grooming"] ?? ""; return /classic/.test(g) && /skating/.test(g) ? "klassisch-skating" : /skating/.test(g) ? "skating" : /classic/.test(g) ? "klassisch" : undefined; }
+  if (r === "winterwandern") return t["piste:type"] === "snowshoe" || /schneeschuh|scheeschuh|snowshoe|raquette|racchett/i.test(t.name ?? "") ? "schneeschuh" : "winterwanderweg";
+  if (r === "klettersteige") return t.via_ferrata_scale ? `K${String(t.via_ferrata_scale).replace(/^k/i, "")}` : undefined;
+  if (r === "bergbahnen") return t.railway === "funicular" ? "funicular" : t.aerialway;
+  if (r === "thermen") return t["bath:type"] === "hammam" ? "hammam" : t.leisure === "spa" ? "spa" : "therme";
+  return t.zoo || t.museum || t.castle_type || undefined;
 }
 
 async function overpass(): Promise<{ type: string; id: number; lat?: number; lon?: number; center?: { lat: number; lon: number }; tags?: Tags }[]> {
@@ -108,12 +145,12 @@ async function wikiFor(qid: string): Promise<Pick<RubrikItem, "text" | "desc" | 
 
 const r5 = (x: number) => Math.round(x * 1e5) / 1e5;
 
-/** Dubletten-Regel wie scripts/build-rubriken.mjs: gleiche Rubrik, < 400 m, Name gleich oder enthalten. */
+/** Dubletten-Regel wie scripts/build-rubriken.mjs: gleiche Rubrik, < 400 m (Linien < 3 km), Name gleich oder enthalten. */
 const normName = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]/g, "");
 type Pos = { r: string; name: string; lat: number; lng: number };
 const kmOf = (a: Pos, b: Pos) => Math.hypot((a.lat - b.lat) * 111.2, (a.lng - b.lng) * 111.2 * Math.cos((a.lat * Math.PI) / 180));
 export function isSameSpot(a: Pos, b: Pos) {
-  if (a.r !== b.r || kmOf(a, b) >= 0.4) return false;
+  if (a.r !== b.r || kmOf(a, b) >= (LINE_RUBRIKEN.has(a.r) ? 3 : 0.4)) return false;
   const x = normName(a.name), y = normName(b.name);
   return !!x && !!y && (x === y || x.includes(y) || y.includes(x));
 }
@@ -142,9 +179,9 @@ export async function syncVerzeichnis() {
   let neu = 0, geaendert = 0, doppelt = 0;
   for (const e of els) {
     const t = e.tags ?? {};
-    const r = rubrikOf(t);
+    const r = rubrikOf(t, e.type);
     const lat = e.lat ?? e.center?.lat, lng = e.lon ?? e.center?.lon;
-    const name = (t["name:de"] || t.name)?.trim();
+    const name = cleanName(t["name:de"] || t.name || "");
     if (!r || lat == null || lng == null || !name || t.disused || t["disused:tourism"] || t.abandoned) continue;
     const id = `osm:${e.type[0]}${e.id}`;
     const old = existing.get(id);
@@ -173,7 +210,7 @@ export async function syncVerzeichnis() {
         ...(t["addr:city"] ? { ort: t["addr:city"] } : {}),
         ...Object.fromEntries(Object.entries(patch).filter(([k, v]) => k !== "name" && v !== undefined)),
         ...(Number.parseFloat(t.height ?? "") ? { height: Number.parseFloat(t.height!) } : {}),
-        ...(t.zoo || t.museum || t.castle_type ? { sub: t.zoo || t.museum || t.castle_type } : {}),
+        ...(subOf(r, t) ? { sub: subOf(r, t) } : {}),
         ...wiki,
         q: (wiki.text ? 4 : 0) + (wiki.img ? 3 : 0) + (patch.web ? 2 : 0) + (patch.hours ? 1 : 0) + (t.wikidata ? 1 : 0),
       };

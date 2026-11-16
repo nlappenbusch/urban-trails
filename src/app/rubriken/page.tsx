@@ -7,7 +7,7 @@ import { runs } from "@/lib/schlitteln";
 import { markets } from "@/lib/maerkte";
 
 const TITLE = "Ausflugsziele Schweiz nach Rubrik: Tierparks, Museen, Eisbahnen, Bergbahnen …";
-const desc = () => `${rubrikItems().length.toLocaleString("de-CH")} Ausflugsziele in allen 26 Kantonen: Tierparks, Museen, Burgen, Höhlen, Wasserfälle, Eisbahnen, Loipen, Winterwanderwege, Bergbahnen, Schifffahrten, Thermen, Klettersteige, Schlittelwege und Weihnachtsmärkte – mit Karte und Entfernung ab deiner Haltestelle.`;
+const desc = () => `${rubrikItems().length.toLocaleString("de-CH")} Ausflugsziele in allen 26 Kantonen: Tierparks, Museen, Burgen, Höhlen, Wasserfälle, Eisbahnen, Loipen, Winterwanderwege, Bergbahnen, Schifffahrten, Thermen, Klettersteige, Velorouten, Pumptracks, Schlittelwege und Weihnachtsmärkte – mit Karte und Entfernung ab deiner Haltestelle.`;
 
 export const revalidate = 3600;
 
@@ -36,6 +36,8 @@ export default function RubrikenPage() {
           {themenAnlaesse().map((t) => (
             <li key={t.slug}><Link href={`/ausflug/${t.slug}`} className="inline-flex min-h-[44px] items-center rounded-full border border-cream/20 bg-ink-900 px-4 text-sm font-bold text-cream-dim hover:border-cream/40 hover:text-cream">Ausflug {t.label}</Link></li>
           ))}
+          <li><Link href="/feste" className="inline-flex min-h-[44px] items-center rounded-full border border-cream/20 bg-ink-900 px-4 text-sm font-bold text-cream-dim hover:border-cream/40 hover:text-cream">Feste & Bräuche</Link></li>
+          <li><Link href="/merkliste" className="inline-flex min-h-[44px] items-center rounded-full border border-cream/20 bg-ink-900 px-4 text-sm font-bold text-cream-dim hover:border-cream/40 hover:text-cream">Meine Merkliste</Link></li>
         </ul>
       </section>
 

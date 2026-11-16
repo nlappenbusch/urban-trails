@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ANLAESSE, MONATE, SAISON_LINKS, getAnlass, monatsAnlaesse, themenAnlaesse, type Anlass } from "@/lib/anlass";
 import { itemsOf, top, kantonByAk, subLabel, type RubrikItem } from "@/lib/rubriken";
 import { themaPages } from "@/lib/themen";
+import { festeImMonat, sicher, terminText } from "@/lib/feste";
 import { regionInfo } from "@/lib/ausfluege";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 
@@ -49,6 +50,7 @@ export default async function AnlassPage({ params }: { params: Promise<{ slug: s
   const path = `/ausflug/${a.slug}`;
   const n = count(a);
   const saison = a.monat ? SAISON_LINKS.filter((s) => s.monate.includes(a.monat!)) : [];
+  const feste = a.monat ? festeImMonat(a.monat) : [];
   const regional = a.regional ? themaPages().filter((p) => p.thema === a.regional).map((p) => ({ ...p, name: regionInfo(p.region)?.name ?? p.region })) : [];
   const andere = a.kind === "monat" ? monatsAnlaesse().filter((m) => m.slug !== a.slug) : themenAnlaesse().filter((t) => t.slug !== a.slug);
 
@@ -85,6 +87,24 @@ export default async function AnlassPage({ params }: { params: Promise<{ slug: s
               </Link>
             ))}
           </div>
+        </section>
+      )}
+
+      {feste.length > 0 && (
+        <section className="mt-12">
+          <h2 className="font-display text-2xl font-extrabold tracking-tight text-cream">Feste und Bräuche im {MONATE[a.monat! - 1]}</h2>
+          <ul className="mt-4 grid gap-x-6 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
+            {feste.slice(0, 9).map(({ f, t }) => (
+              <li key={f.id}>
+                <Link href={`/feste#${f.id}`} className="group block rounded-xl p-2 hover:bg-ink-800">
+                  <span className="block text-xs font-extrabold text-signal-600">{terminText(t)}{sicher(f, t) ? "" : " (voraussichtlich)"}</span>
+                  <span className="block font-bold text-cream group-hover:text-signal-600">{f.name}</span>
+                  <span className="block text-xs text-cream-faint">{f.ort} ({f.kt})</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <Link href="/feste" className="mt-3 inline-block text-sm font-bold text-signal-600 hover:underline">Ganzer Festkalender</Link>
         </section>
       )}
 

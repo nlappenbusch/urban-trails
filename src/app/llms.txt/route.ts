@@ -56,6 +56,7 @@ ${RUBRIKEN.map((r) => `- [${r.label} Schweiz](${SITE_URL}/rubriken/${r.slug}): $
 ## Ausflüge nach Anlass und Monat
 
 ${ANLAESSE.map((a) => `- [Ausflug ${a.label}](${SITE_URL}/ausflug/${a.slug}): ${a.rubriken.map((r) => r.label).join(", ")}`).join("\n")}
+- [Feste und Bräuche](${SITE_URL}/feste): Kalender wiederkehrender Bräuche, Volksfeste und Grossanlässe mit den nächsten Daten und .ics-Termin
 
 ## Weitere Seiten
 

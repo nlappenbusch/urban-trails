@@ -9,6 +9,7 @@ const COLORS: Record<string, string> = {
   aussichtstuerme: "#ea580c", freizeitparks: "#db2777", erlebnisbaeder: "#0891b2", seilparks: "#65a30d", sternwarten: "#1e3a8a", minigolf: "#ca8a04",
   rodelbahnen: "#e11d48", klettersteige: "#78350f", themenwege: "#15803d", schifffahrten: "#1d4ed8", eisbahnen: "#0ea5e9", langlauf: "#0369a1",
   winterwandern: "#64748b", bergbahnen: "#9a3412", kletterhallen: "#a16207", thermen: "#0f766e",
+  velorouten: "#65a30d", bikeparks: "#c2410c", iglu: "#0284c7", schlittenhunde: "#475569", helikopter: "#b91c1c", erlebnisgastro: "#b45309",
 };
 
 export function rubrikTitle(r: Rubrik, k: Kanton | undefined, n: number) {

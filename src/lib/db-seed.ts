@@ -14,7 +14,7 @@ import { places } from "@/lib/ausfluege";
 import type { UpsertRow } from "@/lib/db";
 
 // Format: UTC wie toISOString() (der Abgleich vergleicht Stände als Text)
-export const SEED_STAND = "2026-11-16T12:02";
+export const SEED_STAND = "2026-11-16T14:00";
 
 type Any = Record<string, unknown> & { id: string; name: string };
 const num = (x: unknown) => (typeof x === "number" ? x : Number(x));

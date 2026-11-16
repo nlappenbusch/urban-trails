@@ -45,6 +45,10 @@ out center tags;`,
  relation["route"~"^(hiking|foot)$"]["name"~"lehrpfad|themenweg|erlebnisweg|sagenweg|planetenweg|naturpfad|skulpturenweg|barfuss|märliweg|zwergliweg|kulturweg|sentier didactique|sentier découverte|sentiero didattico",i](area.ch);
  way["railway"="funicular"]["name"](area.ch);
  way["aerialway"~"^(cable_car|gondola)$"]["name"](area.ch);
+ relation["route"~"^(bicycle|mtb)$"]["network"~"^(ncn|rcn)$"](area.ch);
+ nwr["leisure"="bike_park"](area.ch);
+ nwr["sport"~"bmx|pump"]["name"](area.ch);
+ nwr["name"~"pump ?track|bike ?park|dirt ?park|velopark|bike ?parcours|skills ?park",i](area.ch);
 );
 out center tags;`,
 ];
@@ -54,7 +58,8 @@ const CASTLE = /burg|schloss|ruine|château|chateau|castel|castell|feste|festung
 const THEMENWEG = /lehrpfad|themenweg|erlebnisweg|sagenweg|planetenweg|naturpfad|skulpturenweg|barfuss|märliweg|zwergliweg|kulturweg|sentier didactique|sentier découverte|sentiero didattico/i;
 const THERME = /therm|bogn|solbad|sole|spa\b|hammam|bains|bagni/i;
 /** Linien (Loipen, Bahnen, Wege): Abschnitte gleichen Namens bis 3 km gelten als derselbe Ort */
-const LINE_RUBRIKEN = new Set(["langlauf", "winterwandern", "klettersteige", "bergbahnen", "themenwege"]);
+const LINE_RUBRIKEN = new Set(["langlauf", "winterwandern", "klettersteige", "bergbahnen", "themenwege", "velorouten"]);
+const BIKE = /pump ?track|bike ?park|dirt ?park|bmx|velopark|bike ?parcours|skills ?park/i;
 const cleanName = (n: string) => n.replace(/^(snowshoes?|raquettes?)\s*:\s*/i, "").replace(/^Scheeschuh/, "Schneeschuh").replace(/_/g, " ").trim();
 
 /** gleiche Regeln wie scripts/build-rubriken.mjs */
@@ -83,8 +88,23 @@ export function rubrikOf(t: Tags, type = "node"): string | null {
   if (t.leisure === "spa") return "thermen";
   if ((t.route === "hiking" || t.route === "foot") && type === "relation") return THEMENWEG.test(t.name ?? "") ? "themenwege" : null;
   if (t.railway === "funicular" || t.aerialway === "cable_car" || t.aerialway === "gondola") return t.usage === "freight" ? null : "bergbahnen";
+  if ((t.route === "bicycle" || t.route === "mtb") && type === "relation") return /^(ncn|rcn)$/.test(t.network ?? "") && t.type !== "superroute" && (t.ref || /schweiz ?mobil|veloland/i.test(`${t.operator} ${t.url} ${t.website}`)) && !(Number.parseFloat(t.distance ?? "") < 5) ? "velorouten" : null;
+  if (t.leisure === "bike_park" || /bmx|pump/.test(t.sport ?? "") || BIKE.test(t.name ?? "")) return t.tourism || t.amenity || t.shop || t.information || /posten|infotafel|regeln|club ?house|chalet|départ|rennbahn|velodrom|vélodrome/i.test(t.name ?? "") ? null : "bikeparks";
   return null;
 }
+
+/** Etappen-Name für Velo-/MTB-Routen; nationale Routen ohne Etappe (ganze Schweiz) fallen weg */
+export function veloName(t: Tags, name: string) {
+  const base = (name || (t.note ?? "").replace(/\s*-\s*stage.*$/i, "")).replace(/ - /g, " – ").trim();
+  if (!base) return "";
+  if (/\(.+–.+\)/.test(base) || (t.from && t.to && base.includes(t.from) && base.includes(t.to))) return base;
+  if (t.from && t.to) return `${base.replace(/\s*–\s*(etappe|étape|tappa|stage).*$/i, "")}: ${t.from} – ${t.to}`;
+  if (/etappe|étape|tappa|stage/i.test(base)) return base;
+  const m = `${t.website ?? ""} ${t.url ?? ""}`.match(/etappe(\d+)\.0?(\d+)/);
+  if (t.stage || m) return `${base} – Etappe ${t.stage ?? m![2]}`;
+  return t.network === "ncn" ? "" : base;
+}
+const veloDesc = (t: Tags) => [`${t.route === "mtb" ? "Mountainbike" : "Velo"}-Route${t.ref ? ` ${t.ref.split(";")[0]}` : ""}, ${t.network === "ncn" ? "national" : "regional"}`, Number.parseFloat(t.distance ?? "") ? `${Math.round(Number.parseFloat(t.distance!))} km` : ""].filter(Boolean).join(" · ");
 
 export function subOf(r: string, t: Tags): string | undefined {
   if (r === "eisbahnen") return t.indoor === "yes" || (t.building && t.building !== "no") || /halle|hall|arena|stadion|stadium/i.test(t.name ?? "") ? "halle" : t.indoor === "no" || /natur|see\b|lac\b/i.test(t.name ?? "") ? "freiluft" : undefined;
@@ -93,6 +113,8 @@ export function subOf(r: string, t: Tags): string | undefined {
   if (r === "klettersteige") return t.via_ferrata_scale ? `K${String(t.via_ferrata_scale).replace(/^k/i, "")}` : undefined;
   if (r === "bergbahnen") return t.railway === "funicular" ? "funicular" : t.aerialway;
   if (r === "thermen") return t["bath:type"] === "hammam" ? "hammam" : t.leisure === "spa" ? "spa" : "therme";
+  if (r === "velorouten") return t.route === "mtb" ? "mtb" : "velo";
+  if (r === "bikeparks") return /pump/i.test(`${t.sport ?? ""} ${t.name ?? ""}`) ? "pumptrack" : /bmx/i.test(`${t.sport ?? ""} ${t.name ?? ""}`) ? "bmx" : "bikepark";
   return t.zoo || t.museum || t.castle_type || undefined;
 }
 
@@ -197,7 +219,8 @@ export async function syncVerzeichnis() {
     const t = e.tags ?? {};
     const r = rubrikOf(t, e.type);
     const lat = e.lat ?? e.center?.lat, lng = e.lon ?? e.center?.lon;
-    const name = cleanName(t["name:de"] || t.name || "");
+    let name = cleanName(t["name:de"] || t.name || "");
+    if (r === "velorouten") name = veloName(t, name);
     if (!r || lat == null || lng == null || !name || t.disused || t["disused:tourism"] || t.abandoned) continue;
     const id = `osm:${e.type[0]}${e.id}`;
     const old = existing.get(id);
@@ -227,6 +250,7 @@ export async function syncVerzeichnis() {
         ...Object.fromEntries(Object.entries(patch).filter(([k, v]) => k !== "name" && v !== undefined)),
         ...(Number.parseFloat(t.height ?? "") ? { height: Number.parseFloat(t.height!) } : {}),
         ...(subOf(r, t) ? { sub: subOf(r, t) } : {}),
+        ...(r === "velorouten" ? { desc: veloDesc(t) } : {}),
         ...wiki,
         q: (wiki.text ? 4 : 0) + (wiki.img ? 3 : 0) + (patch.web ? 2 : 0) + (patch.hours ? 1 : 0) + (t.wikidata ? 1 : 0),
       };

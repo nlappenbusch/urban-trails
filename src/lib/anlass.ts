@@ -75,6 +75,15 @@ const THEMEN_ANLASS: Anlass[] = [
     hinweis: "In Bahn, Bus und Schiff braucht ein Hund über 30 cm Schulterhöhe ein eigenes Billett. Auf Weiden mit Mutterkühen und in Naturschutzgebieten gilt Leinenpflicht. Museen, Thermen und Hallen lassen Hunde meist nicht hinein – sie fehlen deshalb hier. Bei einzelnen Aussichtstürmen mit Gitterrost-Treppen tragen viele ihren Hund.",
     rubriken: RUBRIKEN.filter((r) => r.hund),
   },
+  {
+    slug: "schulreise",
+    kind: "thema",
+    label: "für Schulreisen",
+    title: "Schulreise und Gruppenausflug: Ziele in der ganzen Schweiz",
+    intro: "Ziele, die eine Klasse, einen Verein oder eine Firmengruppe einen Tag lang tragen: Höhlen mit Führung, Burgen zum Hochsteigen, Tierparks, Seilparks, Schiff und Bergbahn. Auf jeder Rubrikseite nach Entfernung ab eurer Haltestelle sortierbar.",
+    hinweis: "Im öffentlichen Verkehr fahren Gruppen ab 10 Personen mit Gruppenbillett günstiger; Schulklassen melden die Reise am besten früh an, damit Plätze reserviert werden. Führungen in Höhlen und Museen und Gruppentarife bei Bahnen, Schiffen und Seilparks stehen auf der Website des Anbieters – oft nur mit Voranmeldung.",
+    rubriken: ["hoehlen", "burgen-schloesser", "tierparks", "seilparks", "themenwege", "schifffahrten", "bergbahnen", "museen", "wasserfaelle", "freizeitparks", "rodelbahnen", "bikeparks", "aussichtstuerme", "kletterhallen"].map((s) => RUBRIKEN.find((r) => r.slug === s)!).filter(Boolean),
+  },
 ];
 
 const MONAT_ANLASS: Anlass[] = MONATE.map((m, i) => ({

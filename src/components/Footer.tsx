@@ -62,6 +62,9 @@ export default function Footer() {
             <li><Link href="/ausflug/mit-kindern" className="font-bold text-cream-dim hover:text-cream">Ausflüge mit Kindern</Link></li>
             <li><Link href="/ausflug/bei-regen" className="font-bold text-cream-dim hover:text-cream">Ausflüge bei Regen</Link></li>
             <li><Link href="/ausflug/mit-hund" className="font-bold text-cream-dim hover:text-cream">Ausflüge mit Hund</Link></li>
+            <li><Link href="/ausflug/schulreise" className="font-bold text-cream-dim hover:text-cream">Schulreisen & Gruppen</Link></li>
+            <li><Link href="/feste" className="font-bold text-cream-dim hover:text-cream">Feste & Bräuche</Link></li>
+            <li><Link href="/merkliste" className="font-bold text-cream-dim hover:text-cream">Meine Merkliste</Link></li>
             <li><Link href="/weihnachtsmaerkte" className="font-bold text-cream-dim hover:text-cream">Weihnachtsmärkte 2026</Link></li>
             <li><Link href="/schlitteln" className="font-bold text-cream-dim hover:text-cream">Schlittelwege</Link></li>
             <li><Link href="/skigebiete" className="font-bold text-cream-dim hover:text-cream">Skigebiete live</Link></li>

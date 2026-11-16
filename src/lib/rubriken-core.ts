@@ -63,6 +63,8 @@ export const RUBRIKEN: Rubrik[] = [
   { slug: "rodelbahnen", label: "Sommerrodelbahnen", one: "Rodelbahn", many: "Sommerrodelbahnen und Alpine Coaster", claim: "Auf Schienen talwärts – vom Gurten bis zum Stuckli Run, die Bremse in der eigenen Hand.", familie: true, monate: SOMMER, gruppe: "sommer" },
   { slug: "klettersteige", label: "Klettersteige", one: "Klettersteig", many: "Klettersteige", claim: "Drahtseil, Leitern und Hängebrücken – mit Schwierigkeit von K1 bis K6, wo eingetragen.", monate: [6, 7, 8, 9, 10], gruppe: "sommer" },
   { slug: "themenwege", label: "Themenwege", one: "Themenweg", many: "Themen- und Erlebniswege", claim: "Planetenwege, Sagenwege, Barfusswege und Lehrpfade – Wandern mit Geschichte unterwegs.", familie: true, hund: true, monate: SOMMER, gruppe: "sommer" },
+  { slug: "velorouten", label: "Velo & Mountainbike", one: "Veloroute", many: "Velo- und Mountainbike-Routen", claim: "Die signalisierten Routen von SchweizMobil, Etappe für Etappe – mit Start, Ziel und Länge.", hund: false, monate: SOMMER, gruppe: "sommer" },
+  { slug: "bikeparks", label: "Pumptracks & Bikeparks", one: "Pumptrack", many: "Pumptracks, Bikeparks und BMX-Bahnen", claim: "Wellen und Steilkurven für Velo, Trottinett und Laufrad – die meisten frei zugänglich.", familie: true, monate: SOMMER, gruppe: "sommer" },
   { slug: "schifffahrten", label: "Schifffahrten", one: "Schifffahrt", many: "Schifffahrten auf Seen und Flüssen", claim: "Raddampfer, Kursschiffe und Rheinfähren – von uns ausgewählt, mit Abfahrtsort.", familie: true, hund: true, monate: SOMMER, gruppe: "sommer" },
   { slug: "eisbahnen", label: "Eisbahnen", one: "Eisbahn", many: "Eisbahnen und Eishallen", claim: "Kunsteisbahnen, Eishallen und Eisfelder unter freiem Himmel – Schlittschuhe meist zum Mieten.", familie: true, monate: [10, 11, 12, 1, 2, 3], gruppe: "winter" },
   { slug: "langlauf", label: "Langlaufloipen", one: "Loipe", many: "Langlaufloipen", claim: "Loipen für klassisch und Skating, vom Dorfrundkurs bis zur Marathonloipe.", monate: WINTER, gruppe: "winter" },
@@ -130,6 +132,11 @@ const SUB: Record<string, string> = {
   hammam: "Hammam",
   spa: "Spa",
   dampfschiff: "auch Dampfschiff",
+  velo: "Veloroute",
+  mtb: "Mountainbike",
+  pumptrack: "Pumptrack",
+  bmx: "BMX-Bahn",
+  bikepark: "Bikepark",
 };
 export const subLabel = (s?: string) => (s ? SUB[s] ?? (/^K[1-6]/.test(s) ? `Schwierigkeit ${s}` : undefined) : undefined);
 

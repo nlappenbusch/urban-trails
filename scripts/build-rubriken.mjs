@@ -69,7 +69,8 @@ const CASTLE = /burg|schloss|ruine|château|chateau|castel|castell|feste|festung
 const THEMENWEG = /lehrpfad|themenweg|erlebnisweg|sagenweg|planetenweg|naturpfad|skulpturenweg|barfuss|märliweg|zwergliweg|kulturweg|sentier didactique|sentier découverte|sentiero didattico/i;
 const THERME = /therm|bogn|solbad|sole|spa|hammam|bains|bagni/i;
 /** Linien (Loipen, Bahnen, Wege): Abschnitte gleichen Namens bis 3 km zusammenfassen */
-const LINE_RUBRIKEN = new Set(["langlauf", "winterwandern", "klettersteige", "bergbahnen", "themenwege"]);
+const LINE_RUBRIKEN = new Set(["langlauf", "winterwandern", "klettersteige", "bergbahnen", "themenwege", "velorouten"]);
+const BIKE = /pump ?track|bike ?park|dirt ?park|bmx|velopark|bike ?parcours|skills ?park/i;
 function rubrik(t, type) {
   if (t.tourism === "zoo") return t.zoo === "enclosure" ? null : "tierparks";
   if (t.tourism === "aquarium") return "tierparks";
@@ -95,8 +96,22 @@ function rubrik(t, type) {
   if (t.leisure === "spa") return "thermen";
   if ((t.route === "hiking" || t.route === "foot") && type === "relation") return THEMENWEG.test(t.name ?? "") ? "themenwege" : null;
   if (t.railway === "funicular" || t.aerialway === "cable_car" || t.aerialway === "gondola") return t.usage === "freight" ? null : "bergbahnen";
+  if ((t.route === "bicycle" || t.route === "mtb") && type === "relation") return /^(ncn|rcn)$/.test(t.network ?? "") && t.type !== "superroute" && (t.ref || /schweiz ?mobil|veloland/i.test(`${t.operator} ${t.url} ${t.website}`)) && !(Number.parseFloat(t.distance) < 5) ? "velorouten" : null;
+  if (t.leisure === "bike_park" || /bmx|pump/.test(t.sport ?? "") || BIKE.test(t.name ?? "")) return t.tourism || t.amenity || t.shop || t.information || /posten|infotafel|regeln|club ?house|chalet|départ|rennbahn|velodrom|vélodrome/i.test(t.name ?? "") ? null : "bikeparks";
   return null;
 }
+/** Etappen-Name für Velo-/MTB-Routen; nationale Routen ohne Etappe (ganze Schweiz) fallen weg */
+function veloName(t, name) {
+  const base = (name || (t.note ?? "").replace(/\s*-\s*stage.*$/i, "")).replace(/ - /g, " – ").trim();
+  if (!base) return "";
+  if (/\(.+–.+\)/.test(base) || (t.from && t.to && base.includes(t.from) && base.includes(t.to))) return base;
+  if (t.from && t.to) return `${base.replace(/\s*–\s*(etappe|étape|tappa|stage).*$/i, "")}: ${t.from} – ${t.to}`;
+  if (/etappe|étape|tappa|stage/i.test(base)) return base;
+  const m = `${t.website ?? ""} ${t.url ?? ""}`.match(/etappe(\d+)\.0?(\d+)/);
+  if (t.stage || m) return `${base} – Etappe ${t.stage ?? m[2]}`;
+  return t.network === "ncn" ? "" : base;
+}
+const veloDesc = (t) => [`${t.route === "mtb" ? "Mountainbike" : "Velo"}-Route${t.ref ? ` ${t.ref.split(";")[0]}` : ""}, ${t.network === "ncn" ? "national" : "regional"}`, Number.parseFloat(t.distance) ? `${Math.round(Number.parseFloat(t.distance))} km` : ""].filter(Boolean).join(" · ");
 function subOf(r, t) {
   if (r === "eisbahnen") return t.indoor === "yes" || (t.building && t.building !== "no") || /halle|hall|arena|stadion|stadium/i.test(t.name ?? "") ? "halle" : t.indoor === "no" || /natur|see|lac/i.test(t.name ?? "") ? "freiluft" : undefined;
   if (r === "langlauf") { const g = t["piste:grooming"] ?? ""; return /classic/.test(g) && /skating/.test(g) ? "klassisch-skating" : /skating/.test(g) ? "skating" : /classic/.test(g) ? "klassisch" : undefined; }
@@ -104,20 +119,23 @@ function subOf(r, t) {
   if (r === "klettersteige") return t.via_ferrata_scale ? `K${String(t.via_ferrata_scale).replace(/^k/i, "")}` : undefined;
   if (r === "bergbahnen") return t.railway === "funicular" ? "funicular" : t.aerialway;
   if (r === "thermen") return t["bath:type"] === "hammam" ? "hammam" : t.leisure === "spa" ? "spa" : "therme";
+  if (r === "velorouten") return t.route === "mtb" ? "mtb" : "velo";
+  if (r === "bikeparks") return /pump/i.test(`${t.sport ?? ""} ${t.name ?? ""}`) ? "pumptrack" : /bmx/i.test(`${t.sport ?? ""} ${t.name ?? ""}`) ? "bmx" : "bikepark";
   return t.zoo || t["museum"] || t.castle_type || undefined;
 }
 const cleanName = (n) => n.replace(/^(snowshoes?|raquettes?)\s*:\s*/i, "").replace(/^Scheeschuh/, "Schneeschuh").replace(/_/g, " ").trim();
 
 const MERGE = process.argv.includes("--merge");
 // Rubriken aus dem Winter-/Sport-Abzug (scripts/build-rubriken.mjs <ordner> --merge ersetzt nur diese)
-const NEU = new Set(["eisbahnen", "langlauf", "winterwandern", "rodelbahnen", "klettersteige", "kletterhallen", "thermen", "themenwege", "bergbahnen"]);
+const NEU = new Set(process.argv.includes("--velo") ? ["velorouten", "bikeparks"] : ["eisbahnen", "langlauf", "winterwandern", "rodelbahnen", "klettersteige", "kletterhallen", "thermen", "themenwege", "bergbahnen"]);
 const raw = read("rubriken.json").elements;
 let items = [];
 for (const e of raw) {
   const t = e.tags ?? {};
   const r = rubrik(t, e.type);
   const lat = e.lat ?? e.center?.lat, lng = e.lon ?? e.center?.lon;
-  const name = cleanName(t["name:de"] || t.name || "");
+  let name = cleanName(t["name:de"] || t.name || "");
+  if (r === "velorouten") name = veloName(t, name);
   if (!r || lat == null || !name) continue;
   if (t.disused || t["disused:tourism"] || t.abandoned || /geschlossen|closed/i.test(t.note ?? "")) continue;
   const kt = cantonOf(lng, lat);
@@ -137,6 +155,7 @@ for (const e of raw) {
     height: Number.parseFloat(t.height) || undefined,
     ele: Number.parseFloat(t.ele) || undefined,
     sub: subOf(r, t),
+    vdesc: r === "velorouten" ? veloDesc(t) : undefined,
     wd: t.wikidata || undefined,
     wp: t.wikipedia || undefined,
     score: Object.keys(t).length + (t.wikidata ? 10 : 0) + (t.website ? 5 : 0),
@@ -278,7 +297,7 @@ const out = items
       ...(it.height ? { height: it.height } : {}),
       ...(it.ele ? { ele: Math.round(it.ele) } : {}),
       ...(it.sub ? { sub: it.sub } : {}),
-      ...(clean(it.ex) ? { text: clean(it.ex) } : it.wdDesc ? { desc: it.wdDesc } : {}),
+      ...(clean(it.ex) ? { text: clean(it.ex) } : it.vdesc || it.wdDesc ? { desc: it.vdesc || it.wdDesc } : {}),
       ...(it.wpTitle ? { wiki: `https://de.wikipedia.org/wiki/${encodeURIComponent(it.wpTitle.replace(/ /g, "_"))}` } : {}),
       ...(im?.src ? { img: { src: im.src, w: im.w, h: im.h, page: im.page, by: im.by, lic: im.lic } } : {}),
       q: (it.ex ? 4 : 0) + (im?.src ? 3 : 0) + (it.web ? 2 : 0) + (it.hours ? 1 : 0) + (it.wd ? 1 : 0),

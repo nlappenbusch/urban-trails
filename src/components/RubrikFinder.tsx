@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Accessibility, BadgeCheck, ExternalLink, MapPin, Search } from "lucide-react";
 import PointsMap from "@/components/PointsMap";
+import MerkButton, { MerkLink } from "@/components/MerkButton";
 import StationPicker, { loadStart, type StartStation } from "@/components/StationPicker";
 import { crowKm } from "@/lib/ski-core";
 import { hoursText, kantonByAk, subLabel, type RubrikItem } from "@/lib/rubriken-core";
@@ -92,7 +93,10 @@ export default function RubrikFinder({ items, one, showCanton, color }: { items:
         </div>
       </div>
 
-      <p className="mt-5 text-sm text-cream-dim"><strong className="text-cream">{list.length}</strong> Einträge{q ? ` für «${q}»` : ""}</p>
+      <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
+        <p className="text-sm text-cream-dim"><strong className="text-cream">{list.length}</strong> Einträge{q ? ` für «${q}»` : ""} · mit dem Herz merken</p>
+        <MerkLink />
+      </div>
       <ul className="mt-3 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {list.slice(0, n).map(({ i, d }) => {
           const sub = subLabel(i.sub);
@@ -109,12 +113,15 @@ export default function RubrikFinder({ items, one, showCanton, color }: { items:
                 </figure>
               )}
               <div className="flex flex-1 flex-col p-4">
-                <p className="flex flex-wrap items-center gap-x-2 text-xs font-semibold text-cream-faint">
-                  <span>{i.ort ?? kantonByAk(i.kt)?.name}{i.ort && ` (${i.kt})`}</span>
-                  {d !== undefined && <span>· {d < 10 ? d.toFixed(1).replace(".", ",") : Math.round(d)} km</span>}
-                  {sub && <span>· {sub}</span>}
-                  {i.height && <span>· {Math.round(i.height)} m hoch</span>}
-                </p>
+                <div className="flex items-start gap-2">
+                  <p className="flex flex-1 flex-wrap items-center gap-x-2 pt-2 text-xs font-semibold text-cream-faint">
+                    <span>{i.ort ?? kantonByAk(i.kt)?.name}{i.ort && ` (${i.kt})`}</span>
+                    {d !== undefined && <span>· {d < 10 ? d.toFixed(1).replace(".", ",") : Math.round(d)} km</span>}
+                    {sub && <span>· {sub}</span>}
+                    {i.height && <span>· {Math.round(i.height)} m hoch</span>}
+                  </p>
+                  <MerkButton item={{ id: i.id, r: i.r, name: i.name, ort: i.ort, kt: i.kt, lat: i.lat, lng: i.lng, web: i.web, href: `/rubriken/${i.r}#${i.id}` }} className="-mr-2 -mt-1" />
+                </div>
                 <h3 className="mt-0.5 font-display text-lg font-extrabold leading-tight tracking-tight text-cream">{i.ours ? <Link href={i.ours} className="hover:underline">{i.name}</Link> : i.name}</h3>
                 {i.ours && <Link href={i.ours} className="mt-1 inline-flex items-center gap-1 text-xs font-bold text-signal-600 hover:text-signal-500"><BadgeCheck size={13} aria-hidden /> von uns geprüft: Preis, Zeiten, Tipp</Link>}
                 {text && <p className="mt-2 line-clamp-4 text-sm leading-relaxed text-cream-dim">{text}</p>}

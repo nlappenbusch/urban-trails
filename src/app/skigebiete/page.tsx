@@ -5,6 +5,7 @@ import { LIVE_ON, skiRows } from "@/lib/ski";
 import { kmOpen } from "@/lib/ski-core";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import SkiFinder from "@/components/SkiFinder";
+import Brotkrumen, { LiveHinweis } from "@/components/Brotkrumen";
 
 // Live-Status bei jedem Aufruf frisch (die Quellen sind intern 15–60 Min. gecacht)
 export const dynamic = "force-dynamic";
@@ -28,8 +29,8 @@ export default async function SkiPage() {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Start", path: "/" }, { name: "Skigebiete", path: "/skigebiete" }])) }} />
-      <p className="kicker">{LIVE_ON ? `Live · ${today}` : "Skigebiete Schweiz"}</p>
-      <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">Wo kann ich skifahren?</h1>
+      <h1 className="headline max-w-3xl text-4xl text-cream sm:text-6xl">Wo kann ich skifahren?</h1>
+      {LIVE_ON && <LiveHinweis className="mt-3">Live, Stand {today}</LiveHinweis>}
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">
         {LIVE_ON
           ? open.length

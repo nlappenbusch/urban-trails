@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Thermometer } from "lucide-react";
+import { Thermometer } from "lucide-react";
 import { places } from "@/lib/ausfluege";
 import { bathingSpots, lakeSeries, lakeTemp, riverSeries, riverTemps } from "@/lib/wasser";
 import { LAKES, lakeFor, lakeSlug, waterFeel, type BathSpot, type WaterReading } from "@/lib/wasser-core";
@@ -9,6 +9,7 @@ import { crowKm } from "@/lib/ski-core";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import TempChart from "@/components/TempChart";
 import PlaceGrid from "@/components/PlaceGrid";
+import Brotkrumen from "@/components/Brotkrumen";
 
 export const revalidate = 1800;
 export const generateStaticParams = () => [];
@@ -104,9 +105,9 @@ export default async function WaterPage({ params }: Props) {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Link href="/wassertemperaturen" className="inline-flex items-center gap-1 text-sm font-semibold text-cream-dim hover:text-cream"><ArrowLeft size={15} aria-hidden /> Alle Seen und Flüsse</Link>
-      <p className="kicker mt-6">Wassertemperatur · {w.kind === "see" ? "See" : `Fluss · Messstation ${w.station.label.split(" - ")[1] ?? ""}`}</p>
+      <Brotkrumen items={[{ label: "Wassertemperaturen", href: "/wassertemperaturen" }, { label: w.name }]} />
       <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">Wie warm ist {art} {w.name}?</h1>
+      <p className="mt-2 font-semibold text-cream-dim">{w.kind === "see" ? "See" : `Fluss, Messstation ${w.station.label.split(" - ")[1] ?? ""}`}</p>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_1.6fr]">
         <section className="card p-6" aria-label="Aktueller Wert">

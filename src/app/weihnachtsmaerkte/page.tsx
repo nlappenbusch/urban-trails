@@ -64,8 +64,7 @@ export default function Page() {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="kicker">Kalender · Advent 2026</p>
-      <h1 className="headline mt-3 max-w-4xl text-4xl text-cream sm:text-6xl">Weihnachtsmärkte in der Schweiz 2026</h1>
+      <h1 className="headline max-w-4xl text-4xl text-cream sm:text-6xl">Weihnachtsmärkte in der Schweiz 2026</h1>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">
         {upcoming.length} Märkte, Lichter-Events und Weihnachtsschiffe mit Daten und Zeiten aus den offiziellen Quellen.
         {openToday.length ? ` Heute offen: ${openToday.length}.` : first ? ` Der nächste beginnt am ${new Date(first.from + "T12:00:00Z").toLocaleDateString("de-CH", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" })}: ${first.name}.` : ""}

@@ -7,6 +7,7 @@ import { themaPages } from "@/lib/themen";
 import { festeImMonat, sicher, terminText } from "@/lib/feste";
 import { regionInfo } from "@/lib/ausfluege";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
+import Brotkrumen from "@/components/Brotkrumen";
 
 export const dynamicParams = false;
 export const revalidate = 3600;
@@ -68,9 +69,7 @@ export default async function AnlassPage({ params }: { params: Promise<{ slug: s
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="kicker">
-        <Link href="/rubriken" className="hover:underline">Ausflugsziele nach Rubrik</Link> · {a.kind === "monat" ? "Saison" : "Anlass"}
-      </p>
+      <Brotkrumen items={[{ label: "Ausflugsziele", href: "/rubriken" }, { label: a.label }]} />
       <h1 className="headline mt-3 max-w-4xl text-4xl text-cream sm:text-6xl">Ausflug {a.label}</h1>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">{a.intro}</p>
       <p className="mt-3 text-sm font-bold text-signal-600">{n.toLocaleString("de-CH")} Ziele in {a.rubriken.length} Rubriken</p>

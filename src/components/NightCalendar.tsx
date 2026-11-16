@@ -71,7 +71,7 @@ export default function NightCalendar({ offers, today, thumbs = {} }: { offers: 
   return (
     <div>
       <section aria-labelledby="heute" className="card border-signal-500/40 p-5 sm:p-6">
-        <h2 id="heute" className="kicker flex items-center gap-2"><Moon size={14} aria-hidden /> Heute Abend · {long(today)}</h2>
+        <h2 id="heute" className="text-lg font-extrabold text-cream flex items-center gap-2"><Moon size={14} aria-hidden /> Heute Abend · {long(today)}</h2>
         {tonight.length ? (
           <ul className="mt-3 flex flex-wrap gap-2">
             {tonight.map(({ o, travel }) => (

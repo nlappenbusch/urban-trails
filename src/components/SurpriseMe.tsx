@@ -84,8 +84,8 @@ export default function SurpriseMe() {
       </button>
 
       {result && (
-        <div className="mt-8 animate-fade-up rounded-2xl border border-signal-500/40 bg-glacier-50 p-6">
-          <p className="text-xs font-semibold uppercase tracking-wider text-signal-600">
+        <div className="card mt-8 p-6">
+          <p className="text-xs font-semibold text-signal-600">
             Deine Tour für heute
           </p>
           <h3 className="mt-2 text-2xl font-bold text-cream">

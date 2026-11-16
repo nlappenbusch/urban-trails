@@ -97,7 +97,7 @@ export default function DayBand({ rows, weather, isToday, anchorPrefix }: {
         )}
         {now !== undefined && now > from && now < to && (
           <div className="absolute -inset-y-1 w-0.5 bg-cream" style={{ left: pos(now) }}>
-            <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-[10px] font-bold uppercase text-cream">jetzt</span>
+            <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-[10px] font-bold text-cream">jetzt</span>
           </div>
         )}
       </div>

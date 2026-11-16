@@ -129,7 +129,7 @@ export default function GuideChat({
           onChange={(e) => setInput(e.target.value)}
           placeholder="Deine Frage…"
           maxLength={300}
-          className="min-w-0 flex-1 rounded-full border border-white/10 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-cream-faint focus:border-glacier-500 focus:outline-none"
+          className="min-w-0 flex-1 rounded-full bg-ink-900 px-4 py-2.5 text-sm text-cream ring-1 ring-cream/15 placeholder:text-cream-faint focus:outline-none focus:ring-2 focus:ring-signal-500"
         />
         <button
           type="submit"

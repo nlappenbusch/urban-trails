@@ -6,6 +6,7 @@ import { tours } from "@/lib/tours";
 import { getTourHeroImage } from "@/data/images";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import GuideRequestForm from "@/components/GuideRequestForm";
+import Brotkrumen from "@/components/Brotkrumen";
 
 const TITLE = "Stadtführung mit Guide anfragen – individuell für eure Gruppe";
 const DESC =
@@ -78,7 +79,7 @@ export default async function GuidePage({ searchParams }: { searchParams: Promis
           ]),
         }}
       />
-      <p className="kicker">Führung mit Guide</p>
+      <Brotkrumen items={[{ label: "Audio-Touren", href: "/touren" }, { label: "Führung mit Guide" }]} />
       <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">
         Mit Guide – <em>nach Laune.</em>
       </h1>

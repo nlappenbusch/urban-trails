@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, CalendarDays, Clock, ExternalLink, MapPin, Store, TrainFront } from "lucide-react";
+import { CalendarDays, Clock, ExternalLink, MapPin, Store, TrainFront } from "lucide-react";
 import { KIND_LABEL, dateLong, daysText, getMarkt, markets, nearMarkets, nextOpen, openDays, openOn, spanText, todayZurich, type Markt } from "@/lib/maerkte";
 import { RUBRIKEN, rubrikItems } from "@/lib/rubriken";
 import { crowKm } from "@/lib/ski-core";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import NightTrip from "@/components/NightTrip";
 import PointsMap from "@/components/PointsMap";
+import Brotkrumen from "@/components/Brotkrumen";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -73,9 +74,9 @@ export default async function Page({ params }: Props) {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Link href="/weihnachtsmaerkte" className="inline-flex items-center gap-1 text-sm font-semibold text-cream-dim hover:text-cream"><ArrowLeft size={15} aria-hidden /> Alle Weihnachtsmärkte</Link>
-      <p className="kicker mt-6">{KIND_LABEL[m.kind]} · {m.place} ({m.canton})</p>
+      <Brotkrumen items={[{ label: "Weihnachtsmärkte", href: "/weihnachtsmaerkte" }, { label: m.name }]} />
       <h1 className="headline mt-3 max-w-4xl text-4xl text-cream sm:text-6xl">{m.name}</h1>
+      <p className="mt-2 font-semibold text-cream-dim">{KIND_LABEL[m.kind]} in {m.place} ({m.canton})</p>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">{answer(m)}</p>
       <p className="mt-3 text-base font-bold">
         {isToday ? <span className="text-emerald-700">Heute offen{m.open ? `, ${m.open.from}–${m.open.to} Uhr` : ""}</span> : next ? <span className="text-cream">Nächster Tag: {dateLong(next)}</span> : <span className="text-cream-faint">Für 2026 vorbei</span>}
@@ -84,7 +85,7 @@ export default async function Page({ params }: Props) {
       <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {facts.map(([Icon, k, v]) => (
           <div key={k} className="rounded-xl bg-ink-800/60 p-4">
-            <p className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-cream-faint"><Icon size={14} aria-hidden /> {k}</p>
+            <p className="flex items-center gap-1.5 text-xs font-bold text-cream-faint"><Icon size={14} aria-hidden /> {k}</p>
             <p className="mt-1 text-sm font-semibold text-cream">{v}</p>
           </div>
         ))}

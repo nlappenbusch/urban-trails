@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, CalendarDays, Clock, ExternalLink, MapPin, Moon, Route, Snowflake, Ticket } from "lucide-react";
+import { CalendarDays, Clock, ExternalLink, MapPin, Moon, Route, Snowflake, Ticket } from "lucide-react";
 import { getOffer, litFor, nearOffers, nightForecast, offers, verdict, type NightForecast } from "@/lib/nachtski";
 import { WD, WD_LONG, dateLong, fullMoons, isoDay, moon, seasonNights, timeText } from "@/lib/nachtski-core";
 import { getSkiArea } from "@/lib/ski";
@@ -9,6 +9,7 @@ import { getNightImage } from "@/data/images";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import NightMap from "@/components/NightMap";
 import NightTrip from "@/components/NightTrip";
+import Brotkrumen from "@/components/Brotkrumen";
 
 export const revalidate = 3600;
 export const dynamicParams = false;
@@ -47,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 function Fact({ icon: Icon, label, children }: { icon: typeof Clock; label: string; children: React.ReactNode }) {
   return (
     <div className="rounded-xl bg-ink-800/60 p-4">
-      <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-cream-faint"><Icon size={14} aria-hidden /> {label}</p>
+      <p className="flex items-center gap-2 text-xs font-bold text-cream-faint"><Icon size={14} aria-hidden /> {label}</p>
       <p className="mt-1.5 text-base font-bold leading-snug text-cream">{children}</p>
     </div>
   );
@@ -126,10 +127,9 @@ export default async function NightOfferPage({ params }: Props) {
   return (
     <div className="container-page py-10 sm:py-14">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Link href="/nachtskifahren" className="inline-flex items-center gap-1.5 text-sm font-semibold text-cream-dim hover:text-cream"><ArrowLeft size={15} aria-hidden /> Nachtski-Kalender</Link>
-
-      <p className="kicker mt-6">{what} · {o.place} {o.canton}</p>
+      <Brotkrumen items={[{ label: "Nachtskifahren", href: "/nachtskifahren" }, { label: o.name }]} />
       <h1 className="headline mt-3 max-w-4xl text-4xl text-cream sm:text-6xl">{o.name}</h1>
+      <p className="mt-2 font-semibold text-cream-dim">{what} in {o.place} ({o.canton})</p>
       <p className="mt-4 max-w-3xl text-lg leading-relaxed text-cream-dim">{answer(o, next?.date)}</p>
 
       {img && (

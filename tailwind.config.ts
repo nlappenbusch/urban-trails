@@ -25,23 +25,6 @@ const config: Config = {
           700: "#962c00",
         },
         brand: "#ff4d00",
-        acid: {
-          400: "#e4ff5e",
-          500: "#d8ff3e",
-        },
-        glacier: {
-          50: "#fff7ed",
-          100: "#ffedd5",
-          300: "#fdba74",
-          400: "#fb923c",
-          500: "#f97316",
-          600: "#ea580c",
-        },
-        sunset: {
-          400: "#ff7a3d",
-          500: "#d63f00",
-          600: "#b33500",
-        },
       },
       fontFamily: {
         display: ["var(--font-figtree)", "system-ui", "sans-serif"],
@@ -54,20 +37,6 @@ const config: Config = {
       },
       transitionTimingFunction: {
         out: "cubic-bezier(0.16, 1, 0.3, 1)",
-      },
-      animation: {
-        "fade-up": "fadeUp 0.7s ease-out both",
-        "fade-in": "fadeIn 1s ease-out both",
-      },
-      keyframes: {
-        fadeUp: {
-          "0%": { opacity: "0", transform: "translateY(24px)" },
-          "100%": { opacity: "1", transform: "translateY(0)" },
-        },
-        fadeIn: {
-          "0%": { opacity: "0" },
-          "100%": { opacity: "1" },
-        },
       },
     },
   },

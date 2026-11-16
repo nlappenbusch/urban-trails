@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, CableCar, ExternalLink, Moon, Mountain, Snowflake, Sparkles, Ticket, Users } from "lucide-react";
+import { CableCar, ExternalLink, Moon, Mountain, Snowflake, Sparkles, Ticket, Users } from "lucide-react";
 import { LIVE_ON, getSkiArea, mountainWeather, skiAreas, skiDetail, skiNear, skiRow } from "@/lib/ski";
 import { crowKm, kmOpen, type SkiGroup } from "@/lib/ski-core";
 import SkiLiveBoard from "@/components/SkiLiveBoard";
+import Brotkrumen from "@/components/Brotkrumen";
 import MountainWeatherTable from "@/components/MountainWeatherTable";
 import PisteMap from "@/components/PisteMap";
 import nightData from "@/data/nachtski.json";
@@ -149,23 +150,22 @@ export default async function SkiAreaPage({ params }: Props) {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Link href="/skigebiete" className="inline-flex items-center gap-1 text-sm font-semibold text-cream-dim hover:text-cream"><ArrowLeft size={15} aria-hidden /> Alle Skigebiete</Link>
-
-      <p className="kicker mt-6 flex flex-wrap items-center gap-2">
+      <Brotkrumen items={[{ label: "Skigebiete", href: "/skigebiete" }, { label: r.name }]} />
+      <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">{r.name}</h1>
+      <p className="mt-3 flex flex-wrap items-center gap-2 font-semibold text-cream-dim">
         {LIVE_ON && r.live && (
-          <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wide ${isOpen ? "bg-emerald-600 text-white" : "bg-zinc-300 text-zinc-800"}`}>
-            {isOpen && <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-white" />} {isOpen ? "heute offen" : "geschlossen"}
+          <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-xs font-bold ${isOpen ? "bg-emerald-700 text-white" : "bg-ink-800 text-cream-dim"}`}>
+            {isOpen && <span className="h-1.5 w-1.5 rounded-full bg-white" aria-hidden />} {isOpen ? "Heute offen" : "Geschlossen"}
           </span>
         )}
-        <span>Skigebiet · {r.canton}{region ? ` · ${region.name}` : ""}</span>
+        <span>Skigebiet im Kanton {r.canton}{region ? `, ${region.name}` : ""}</span>
       </p>
-      <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">{r.name}</h1>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream">{statusSentence}</p>
       {r.text && <p className="mt-3 max-w-2xl leading-relaxed text-cream-dim">{r.text}</p>}
 
       <div className="mt-10 grid gap-6 lg:grid-cols-[1.3fr_1fr]">
         <section className="card p-5 sm:p-6" aria-labelledby="pisten">
-          <h2 id="pisten" className="kicker">Pistenbericht{at ? ` · Stand ${at}` : ""}</h2>
+          <h2 id="pisten" className="text-lg font-extrabold text-cream">Pistenbericht{at ? ` · Stand ${at}` : ""}</h2>
           {LIVE_ON && r.live && k.total > 0 ? (
             <>
               <p className="mt-3 flex flex-wrap items-baseline gap-x-3">
@@ -207,7 +207,7 @@ export default async function SkiAreaPage({ params }: Props) {
 
         <div className="space-y-6">
           <section className="card p-5 sm:p-6" aria-labelledby="anreise">
-            <h2 id="anreise" className="kicker mb-4">Dein Skitag in 30 Sekunden</h2>
+            <h2 id="anreise" className="text-lg font-extrabold text-cream mb-4">Dein Skitag in 30 Sekunden</h2>
             <SkiTravel to={r.coords} station={r.station} name={r.name} hotelPlace={hotelPlace} ticket={r.ticket} ticketUrl={r.url} shops={shops} food={foodOpen} weather={weather?.top} />
             {r.access && <p className="mt-4 text-xs text-cream-faint">{r.access}</p>}
           </section>
@@ -216,7 +216,7 @@ export default async function SkiAreaPage({ params }: Props) {
 
       {nights.length > 0 && (
         <section className="card mt-6 p-5 sm:p-6" aria-labelledby="nacht">
-          <h2 id="nacht" className="kicker mb-3 flex items-center gap-2"><Moon size={14} aria-hidden /> Nachtskifahren & Nachtschlitteln</h2>
+          <h2 id="nacht" className="text-lg font-extrabold text-cream mb-3 flex items-center gap-2"><Moon size={14} aria-hidden /> Nachtskifahren & Nachtschlitteln</h2>
           <ul className="space-y-3">
             {nights.map((o) => (
               <li key={o.id} className="text-sm">
@@ -231,21 +231,21 @@ export default async function SkiAreaPage({ params }: Props) {
 
       {weather && (
         <section className="card mt-6 p-5 sm:p-6" aria-labelledby="wetter">
-          <h2 id="wetter" className="kicker mb-3">Bergwetter {r.name}</h2>
+          <h2 id="wetter" className="text-lg font-extrabold text-cream mb-3">Bergwetter {r.name}</h2>
           <MountainWeatherTable w={weather} />
         </section>
       )}
 
       {groups.length > 0 && (
         <section className="card mt-6 p-5 sm:p-6" aria-labelledby="live">
-          <h2 id="live" className="kicker mb-4">Live von der Bergbahn: Anlagen, Pisten, Hütten{parking ? ", Parkplätze" : ""}</h2>
+          <h2 id="live" className="text-lg font-extrabold text-cream mb-4">Live von der Bergbahn: Anlagen, Pisten, Hütten{parking ? ", Parkplätze" : ""}</h2>
           <SkiLiveBoard groups={groups} at={detail?.at} stale={isStale(detail?.at)} />
         </section>
       )}
 
       {sun.length > 0 && (
         <section className="card mt-6 p-5 sm:p-6" aria-labelledby="sonne">
-          <h2 id="sonne" className="kicker mb-1">Sonne auf der Piste: wann welche Hänge Sonne haben</h2>
+          <h2 id="sonne" className="text-lg font-extrabold text-cream mb-1">Sonne auf der Piste: wann welche Hänge Sonne haben</h2>
           <p className="mb-5 text-sm text-cream-dim">Morgens Osthänge, mittags Süd, am Nachmittag West – hier für jede Piste in {r.name} gerechnet.</p>
           <SunPlanner runs={sun} center={r.coords} name={r.name} />
         </section>
@@ -253,7 +253,7 @@ export default async function SkiAreaPage({ params }: Props) {
 
       {shops.length > 0 && (
         <section className="card mt-6 p-5 sm:p-6" aria-labelledby="miete">
-          <h2 id="miete" className="kicker mb-1">Ski mieten & abholen in {r.station.split(/[,(]/)[0].trim()}</h2>
+          <h2 id="miete" className="text-lg font-extrabold text-cream mb-1">Ski mieten & abholen in {r.station.split(/[,(]/)[0].trim()}</h2>
           <p className="mb-4 text-sm text-cream-dim">Sportgeschäfte im Umkreis von 3,5 km um die Talstation. Online reserviert ist die Ausrüstung meist günstiger und liegt beim Abholen bereit.</p>
           <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {shops.map((s) => (
@@ -274,7 +274,7 @@ export default async function SkiAreaPage({ params }: Props) {
       )}
 
       <section className="mt-6" aria-labelledby="plan">
-        <h2 id="plan" className="kicker mb-3">Pistenplan{openNames.length + closedNames.length ? " mit Live-Status" : ""}</h2>
+        <h2 id="plan" className="text-lg font-extrabold text-cream mb-3">Pistenplan{openNames.length + closedNames.length ? " mit Live-Status" : ""}</h2>
         <PisteMap center={r.coords} open={openNames} closed={closedNames} />
       </section>
 

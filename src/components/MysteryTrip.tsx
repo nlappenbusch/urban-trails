@@ -127,7 +127,7 @@ function Ticket({ m, token, revealed, onReveal, onRedraw, loading, error }: { m:
     <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
       <div className="card overflow-hidden">
         <div className="border-b border-dashed border-cream/20 bg-signal-500 p-6 text-white sm:p-8">
-          <p className="text-sm font-semibold uppercase tracking-widest text-white/80">Überraschungs-Ausflug</p>
+          <p className="text-sm font-semibold text-white/80">Überraschungs-Ausflug</p>
           <p className="mt-2 font-display text-3xl font-extrabold capitalize tracking-tight sm:text-4xl">{fmtDate(m.d)}</p>
           <p className="mt-1 text-white/90">{AUDIENCE[m.w] ?? ""}</p>
         </div>

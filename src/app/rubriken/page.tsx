@@ -49,7 +49,7 @@ export default function RubrikenPage() {
           <p className="tabnums mt-3 text-sm font-semibold text-cream-faint">{schlitteln.length} Schlittelwege</p>
         </Link>
         <Link href="/weihnachtsmaerkte" className="card group flex flex-col p-6 hover:border-cream/30">
-          <span className="text-xs font-bold uppercase tracking-wide text-signal-600">Saison 2026</span>
+          <span className="text-xs font-bold text-signal-600">Saison 2026</span>
           <h3 className="mt-1 text-2xl font-extrabold tracking-[-0.02em] text-cream group-hover:text-signal-600">Weihnachtsmärkte</h3>
           <p className="mt-2 flex-1 text-sm text-cream-dim">Welcher Markt heute offen hat, von Bellevue Noël bis Montreux – mit Zug ab deinem Ort.</p>
           <p className="tabnums mt-3 text-sm font-semibold text-cream-faint">{maerkte.length} Märkte</p>

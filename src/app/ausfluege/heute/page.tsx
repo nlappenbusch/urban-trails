@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import HeuteFinder from "@/components/HeuteFinder";
+import Brotkrumen from "@/components/Brotkrumen";
 
 const TITLE = "Was machen wir heute? Ausflug für heute finden – mit Wetter und Zug";
 const DESC =
@@ -20,7 +21,7 @@ export default function HeutePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Start", path: "/" }, { name: "Ausflüge", path: "/ausfluege" }, { name: "Heute", path: "/ausfluege/heute" }])) }}
       />
-      <p className="kicker">Jetzt-Modus</p>
+      <Brotkrumen items={[{ label: "Ausflüge", href: "/ausfluege" }, { label: "Heute" }]} />
       <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">
         Was machen wir <em>heute?</em>
       </h1>

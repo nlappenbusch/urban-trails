@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Sun, Snowflake } from "lucide-react";
 import { sunRanking } from "@/lib/sonne";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
+import Brotkrumen from "@/components/Brotkrumen";
 
 export const revalidate = 86400;
 
@@ -48,8 +49,9 @@ export default async function SunnyPage() {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="kicker">Sonne auf der Piste · gerechnet für den {dateText}</p>
+      <Brotkrumen items={[{ label: "Skigebiete", href: "/skigebiete" }, { label: "Sonnige Skigebiete" }]} />
       <h1 className="headline mt-3 max-w-4xl text-4xl text-cream sm:text-6xl">Die sonnigsten Skigebiete der Schweiz</h1>
+      <p className="mt-2 font-semibold text-cream-dim">Gerechnet für den {dateText}</p>
       <p className="mt-4 max-w-3xl text-lg leading-relaxed text-cream-dim">
         Am meisten Sonne auf der Piste haben heute {top.map((r, i) => <span key={r.id}>{i ? (i === top.length - 1 ? " und " : ", ") : ""}<Link href={`/skigebiete/${r.id}`} className="font-bold text-cream underline-offset-4 hover:underline">{r.name}</Link> ({h(r.hours)} h)</span>)}.
         Gerechnet für jede einzelne Piste aus Ausrichtung, Neigung und Sonnenstand – nicht aus Prospekten.

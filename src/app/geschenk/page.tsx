@@ -4,6 +4,7 @@ import { trips } from "@/lib/ausfluege";
 import { toTripLite } from "@/lib/ausfluege-view";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import GiftCard, { type GiftTrip } from "@/components/GiftCard";
+import Brotkrumen from "@/components/Brotkrumen";
 
 const TITLE = "Ausflug verschenken – Gutschein zum Ausdrucken, gratis";
 const DESC =
@@ -28,7 +29,7 @@ export default function GeschenkPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Start", path: "/" }, { name: "Ausflug verschenken", path: "/geschenk" }])) }}
       />
       <div className="print:hidden">
-        <p className="kicker">Geschenkidee</p>
+        <Brotkrumen items={[{ label: "Ausflüge", href: "/ausfluege" }, { label: "Verschenken" }]} />
         <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">
           Einen Tag <em>verschenken.</em>
         </h1>

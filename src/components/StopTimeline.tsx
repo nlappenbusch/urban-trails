@@ -70,7 +70,7 @@ function StopCard({
 
       {stop.walkMinutesFromPrevious > 0 && (
         <p className="mb-4 text-sm leading-relaxed text-cream-faint">
-          <span className="mr-2 inline-block rounded-full bg-ink-800 px-2.5 py-0.5 font-display text-xs font-extrabold uppercase tracking-wide text-signal-600">
+          <span className="mr-2 inline-block rounded-full bg-ink-800 px-2.5 py-0.5 font-display text-xs font-extrabold text-signal-600">
             ↓ {stop.walkMinutesFromPrevious} Min. zu Fuss
           </span>
           {stop.directions ?? ""}
@@ -96,7 +96,7 @@ function StopCard({
         <h3 className="font-display text-xl font-extrabold tracking-tight text-cream sm:text-2xl">
           {stop.name}
           {stop.isHiddenGem && (
-            <span className="ml-2 align-middle text-xs font-bold uppercase tracking-wide text-signal-600">Geheimtipp</span>
+            <span className="ml-2 align-middle text-xs font-bold text-signal-600">Geheimtipp</span>
           )}
         </h3>
         <p className="mt-1 text-sm text-cream-dim">

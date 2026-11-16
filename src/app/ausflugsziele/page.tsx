@@ -26,8 +26,7 @@ export default function AusflugszielePage() {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Start", path: "/" }, { name: "Ausflugsziele", path: "/ausflugsziele" }])) }} />
-      <p className="kicker">Ausflugsziele</p>
-      <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">
+      <h1 className="headline max-w-3xl text-4xl text-cream sm:text-6xl">
         {places.length} Orte. <em>Alle geprüft.</em>
       </h1>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">

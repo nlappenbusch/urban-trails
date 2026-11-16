@@ -83,11 +83,11 @@ body[data-tourbar] footer {
     background: color-mix(in srgb, var(--rc) 14%, white);
     color: var(--rc);
   }
-  /* Gestaltungsregeln: Karten rounded-2xl, Knöpfe rounded-full (gefüllt = btn-primary,
-     Umriss = btn-secondary). Eine Etikett-Art: .kicker (Text) bzw. .badge (auf Fotos).
-     Orange unterlegtes Wort nur in der H1 einer Seite. */
+  /* Gestaltungsregeln: siehe DESIGN.md. Knöpfe rounded-full (btn-primary / btn-secondary),
+     Orange nur auf Antippbarem. .kicker = kleine Zwischenzeile in normaler Schreibung
+     (keine Etiketten in Grossbuchstaben über Überschriften – dort Brotkrumen). */
   .kicker {
-    @apply text-[11px] font-bold uppercase tracking-[0.2em] text-cream-faint;
+    @apply text-sm font-bold text-cream-faint;
   }
   .badge {
     @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-bold;
@@ -98,9 +98,6 @@ body[data-tourbar] footer {
   .headline {
     @apply font-display font-extrabold leading-[1.05] tracking-[-0.025em];
     text-wrap: balance;
-  }
-  h1.headline em {
-    @apply not-italic text-signal-500;
   }
   .headline em {
     @apply not-italic;

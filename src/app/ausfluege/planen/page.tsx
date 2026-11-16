@@ -4,6 +4,7 @@ import { places } from "@/lib/ausfluege";
 import { planTours, plannerRegions } from "@/lib/ausfluege-view";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import Planner from "@/components/Planner";
+import Brotkrumen from "@/components/Brotkrumen";
 
 const TITLE = "Ausflugsplaner Schweiz – Tagesausflug oder Wochenende selbst zusammenstellen";
 const DESC =
@@ -23,7 +24,7 @@ export default function PlanenPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Start", path: "/" }, { name: "Ausflüge", path: "/ausfluege" }, { name: "Planen", path: "/ausfluege/planen" }])) }}
       />
-      <p className="kicker">Ausflugsplaner</p>
+      <Brotkrumen items={[{ label: "Ausflüge", href: "/ausfluege" }, { label: "Selbst planen" }]} />
       <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">
         Dein Ausflug, <em>in zehn Sekunden.</em>
       </h1>

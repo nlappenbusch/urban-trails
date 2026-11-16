@@ -141,7 +141,7 @@ export default function SkiFinder({ rows, live }: { rows: SkiRow[]; live: boolea
           <Stat big={`${openRows.length}`} small={`von ${rows.length}`} label="Skigebiete offen" onClick={() => setStatus(status === "offen" ? "alle" : "offen")} active={status === "offen"} />
           <Stat big={`${Math.round(stats.km).toLocaleString("de-CH")} km`} small={`von ${Math.round(stats.kmTotal).toLocaleString("de-CH")} km`} label="Pisten offen" bar={stats.kmTotal ? stats.km / stats.kmTotal : 0} />
           <Stat big={`${stats.lifts}`} small={`von ${stats.liftsTotal}`} label="Anlagen in Betrieb" bar={stats.liftsTotal ? stats.lifts / stats.liftsTotal : 0} />
-          {stats.snow ? <Stat big={`${stats.snow.snow!.cm} cm`} small={stats.snow.name} label="meister Schnee (SLF)" /> : <Stat big="–" label="Schnee" />}
+          {stats.snow ? <Stat big={`${stats.snow.snow!.cm} cm`} small={stats.snow.name} label="Am meisten Schnee (SLF)" /> : <Stat big="–" label="Schnee" />}
         </section>
       )}
 
@@ -243,7 +243,7 @@ export default function SkiFinder({ rows, live }: { rows: SkiRow[]; live: boolea
 function Stat({ big, small, label, bar, onClick, active }: { big: string; small?: string; label: string; bar?: number; onClick?: () => void; active?: boolean }) {
   const inner = (
     <>
-      <span className="block text-xs font-bold uppercase tracking-wide text-cream-faint">{label}</span>
+      <span className="block text-xs font-bold text-cream-faint">{label}</span>
       <span className="mt-1 block font-display text-3xl font-extrabold leading-none tracking-tight text-cream">
         {big} {small && <span className="text-base font-semibold text-cream-dim">{small}</span>}
       </span>
@@ -292,9 +292,9 @@ function SkiCard({ r, d, oev, car, k, live, mode, conn, start, checkin, checkout
         <div className="min-w-0">
           <p className="flex flex-wrap items-center gap-2 text-xs font-semibold text-cream-faint">
             {live && (
-              <span className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide ${isOpen ? "bg-emerald-600 text-white" : st === "closed" ? "bg-zinc-300 text-zinc-800" : "bg-amber-100 text-amber-800"}`}>
+              <span className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-bold ${isOpen ? "bg-emerald-600 text-white" : st === "closed" ? "bg-ink-800 text-cream-dim" : "bg-amber-100 text-amber-800"}`}>
                 {isOpen && <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-white" />}
-                {isOpen ? "offen" : st === "closed" ? "geschlossen" : st === "no_report" ? "kein Bericht" : "ohne Live-Daten"}
+                {isOpen ? "Offen" : st === "closed" ? "Geschlossen" : st === "no_report" ? "Kein Bericht" : "Ohne Live-Daten"}
               </span>
             )}
             <span>{r.canton}</span>

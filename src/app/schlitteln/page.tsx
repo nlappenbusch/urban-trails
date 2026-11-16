@@ -49,8 +49,7 @@ export default function Page() {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="kicker">Winter · ganze Schweiz</p>
-      <h1 className="headline mt-3 max-w-4xl text-4xl text-cream sm:text-6xl">Schlittelwege in der Schweiz</h1>
+      <h1 className="headline max-w-4xl text-4xl text-cream sm:text-6xl">Schlittelwege in der Schweiz</h1>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">
         {runs.length} Schlittelwege mit Länge und Höhenmetern, {ov.length} davon mit Haltestelle oben und unten. Der längste: {longest.name} mit {kmText(longest.km)} und {longest.drop} Höhenmetern. Auf jeder Seite: Schnee oben und unten und der Zug ab deinem Ort.
       </p>

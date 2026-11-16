@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import KiPlanner from "@/components/KiPlanner";
 import AusflugTools from "@/components/AusflugTools";
+import Brotkrumen from "@/components/Brotkrumen";
 
 const TITLE = "KI-Ausflugsplaner: Sag, was ihr wollt – das Programm steht";
 const DESC = "Beschreib deinen Ausflug in eigenen Worten – mit Kindern, Budget, Wetter, Startbahnhof. Die KI baut ein Programm nur aus geprüften Orten, mit Öffnungszeiten, Preisen und Zugverbindung.";
@@ -18,7 +19,7 @@ export default function KiPage() {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Start", path: "/" }, { name: "Ausflüge", path: "/ausfluege" }, { name: "KI-Planer", path: "/ausfluege/ki" }])) }} />
-      <p className="kicker">KI-Planer</p>
+      <Brotkrumen items={[{ label: "Ausflüge", href: "/ausfluege" }, { label: "KI-Planer" }]} />
       <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">Sag einfach, was ihr wollt.</h1>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">
         «Samstag mit zwei Kindern, die lieben Tiere, nicht zu teuer» reicht. Die KI sucht die Region, schaut aufs Wetter und baut ein Programm –

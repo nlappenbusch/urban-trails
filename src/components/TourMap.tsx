@@ -302,7 +302,7 @@ export default function TourMap({
                 <h3 className="font-display text-2xl font-extrabold leading-tight tracking-tight text-cream [text-shadow:0_1px_6px_rgba(0,0,0,.6)]">
                   {selected.name}
                   {selected.isHiddenGem && (
-                    <span className="ml-2 align-middle text-xs font-bold uppercase tracking-wide text-signal-400">Geheimtipp</span>
+                    <span className="ml-2 align-middle text-xs font-bold text-signal-400">Geheimtipp</span>
                   )}
                 </h3>
               </div>

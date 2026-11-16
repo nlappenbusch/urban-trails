@@ -245,7 +245,7 @@ function SlotRow({ id, n, r, next, raw, tours, date, wx, swap }: {
               <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold text-cream-faint">
                 <span className="text-signal-600">{tour ? "Audio-Tour" : p ? KIND_LABEL[p.kind] : "Programm"}</span>
                 <span>{fmtMin(dur)}</span>
-                {s.swapped && <span className="rounded-full bg-cream px-2 py-0.5 text-[10px] uppercase tracking-wide text-ink-900">Regenvariante</span>}
+                {s.swapped && <span className="rounded-full bg-cream px-2 py-0.5 text-[11px] font-semibold text-ink-900">Regenvariante</span>}
                 {p && <SpecialBadge p={p} />}
                 {raw.travel && <span>· {raw.travel}</span>}
               </p>

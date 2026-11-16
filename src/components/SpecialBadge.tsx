@@ -7,7 +7,7 @@ export default function SpecialBadge({ p, className = "" }: { p: Pick<Place, "ta
   if (!label) return null;
   const Icon = label === "Geheimtipp" ? Gem : Zap;
   return (
-    <span className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white ${label === "Geheimtipp" ? "bg-violet-600" : "bg-signal-500"} ${className}`}>
+    <span className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-bold text-white ${label === "Geheimtipp" ? "bg-violet-600" : "bg-signal-500"} ${className}`}>
       <Icon size={11} aria-hidden /> {label}
     </span>
   );

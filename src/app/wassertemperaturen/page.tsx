@@ -4,6 +4,7 @@ import { allLakeTemps, bathingSpots, riverTemps } from "@/lib/wasser";
 import { type WaterReading } from "@/lib/wasser-core";
 import BathFinder from "@/components/BathFinder";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
+import Brotkrumen, { LiveHinweis } from "@/components/Brotkrumen";
 
 export const revalidate = 1800;
 
@@ -32,8 +33,8 @@ export default async function WasserPage() {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Start", path: "/" }, { name: "Wassertemperaturen", path: "/wassertemperaturen" }])) }} />
-      <p className="kicker">Live · alle 30 Minuten neu</p>
-      <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">Wie warm ist das Wasser?</h1>
+      <h1 className="headline max-w-3xl text-4xl text-cream sm:text-6xl">Wie warm ist das Wasser?</h1>
+      <LiveHinweis className="mt-3">Live, alle 30 Minuten neu</LiveHinweis>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">
         {lakes.length} Seen, {rivers.length} Flussstationen und {spots.length} Badestellen.
         {warmest && <> Am wärmsten gerade: <strong className="text-cream">{warmest.label}</strong> mit {fmt(warmest.temp)} °C.</>}

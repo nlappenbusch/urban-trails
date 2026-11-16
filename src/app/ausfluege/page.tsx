@@ -36,8 +36,7 @@ export default function AusfluegePage() {
           ]),
         }}
       />
-      <p className="kicker">Ausflüge & Wochenenden</p>
-      <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">
+      <h1 className="headline max-w-3xl text-4xl text-cream sm:text-6xl">
         Ausflüge, <em>fertig geplant.</em>
       </h1>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">

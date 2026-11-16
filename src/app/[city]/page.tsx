@@ -7,6 +7,7 @@ import { getTourHeroImage } from "@/data/images";
 import { cityJsonLd, socialMeta } from "@/lib/seo";
 import TourCard from "@/components/TourCard";
 import GuideTeaser from "@/components/GuideTeaser";
+import Brotkrumen from "@/components/Brotkrumen";
 
 interface Props {
   params: Promise<{ city: string }>;
@@ -49,7 +50,7 @@ export default async function CityPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(cityJsonLd(dest, cityTours)) }}
       />
-      <p className="kicker">Kanton {dest.canton}</p>
+      <Brotkrumen items={[{ label: "Audio-Touren", href: "/touren" }, { label: `${dest.name} (${dest.canton})` }]} />
       <h1 className="headline mt-3 text-5xl text-cream sm:text-6xl">
         {dest.name} <em>zu Fuss</em>
       </h1>

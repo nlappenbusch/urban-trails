@@ -5,6 +5,7 @@ import { WD_LONG, isoDay, nightStatus, type NightOffer } from "@/lib/nachtski-co
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import NightCalendar from "@/components/NightCalendar";
 import { getNightImage } from "@/data/images";
+import Brotkrumen from "@/components/Brotkrumen";
 
 export const revalidate = 3600;
 
@@ -73,8 +74,9 @@ export default function NachtskiPage() {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <p className="kicker">Kalender · Saison 2026/27</p>
+      <Brotkrumen items={[{ label: "Skigebiete", href: "/skigebiete" }, { label: "Nachtskifahren" }]} />
       <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">Nachtskifahren in der Schweiz</h1>
+      <p className="mt-2 font-semibold text-cream-dim">Saison 2026/27</p>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">
         {ski.length} beleuchtete Pisten und {offers.length - ski.length} Nachtschlittelwege – welcher Abend, welche Zeit, was es kostet.
         {tonight ? ` Heute Abend läuft an ${tonight} Orten etwas.` : ""}

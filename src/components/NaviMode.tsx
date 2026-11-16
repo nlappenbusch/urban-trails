@@ -452,7 +452,7 @@ export default function NaviMode({
                   <img src={image.small} alt={image.alt} width={64} height={64} className="h-16 w-16 shrink-0 rounded-2xl object-cover" />
                 )}
                 <div className="min-w-0">
-                  <p className="text-xs font-bold uppercase tracking-wider text-emerald-400">Du bist da</p>
+                  <p className="text-xs font-bold text-emerald-400">Du bist da</p>
                   <p className="truncate font-display text-xl font-extrabold">{target.name}</p>
                   <p className="line-clamp-2 text-xs text-cream-dim">{target.teaser}</p>
                 </div>
@@ -491,7 +491,7 @@ export default function NaviMode({
                   {fix ? <Arrow angle={arrowAngle} /> : <span className="h-6 w-6 animate-spin rounded-full border-2 border-cream/20 border-t-signal-500" />}
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="text-xs font-bold uppercase tracking-wider text-cream-faint">Nächster Stopp</p>
+                  <p className="text-xs font-bold text-cream-faint">Nächster Stopp</p>
                   <p className="line-clamp-2 font-display text-xl font-extrabold leading-tight">{target.name}</p>
                   <p className="mt-0.5 font-display text-lg font-bold tabular-nums text-signal-400">
                     {remaining != null ? `${formatMeters(remaining)} · ca. ${walkMinutes(remaining)} Min` : `ca. ${target.walkMinutesFromPrevious || 1} Min ab letztem Stopp`}

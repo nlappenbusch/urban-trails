@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import MysteryTrip from "@/components/MysteryTrip";
+import Brotkrumen from "@/components/Brotkrumen";
 
 const TITLE = "Überraschungs-Ausflug – Ziel auslosen, erst am Bahnhof erfahren";
 const DESC =
@@ -21,7 +22,7 @@ export default function UeberraschungPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd([{ name: "Start", path: "/" }, { name: "Ausflüge", path: "/ausfluege" }, { name: "Überraschung", path: "/ausfluege/ueberraschung" }])) }}
       />
-      <p className="kicker">Mystery-Ausflug</p>
+      <Brotkrumen items={[{ label: "Ausflüge", href: "/ausfluege" }, { label: "Überraschung" }]} />
       <h1 className="headline mt-3 max-w-3xl text-4xl text-cream sm:text-6xl">
         Wohin? <em>Sagen wir nicht.</em>
       </h1>

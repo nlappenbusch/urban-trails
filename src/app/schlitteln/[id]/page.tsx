@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ExternalLink, Lightbulb, Mountain, Snowflake, Timer, TrainFront } from "lucide-react";
+import { ExternalLink, Lightbulb, Mountain, Snowflake, Timer, TrainFront } from "lucide-react";
 import { DIFF, getRun, kmText, nearRuns, rideMin, runs, snowFor } from "@/lib/schlitteln";
 import { kantonByAk } from "@/lib/rubriken-core";
 import { getSkiArea } from "@/lib/ski";
@@ -9,6 +9,7 @@ import { getOffer } from "@/lib/nachtski";
 import { SITE_URL, breadcrumbJsonLd, socialMeta } from "@/lib/seo";
 import PointsMap from "@/components/PointsMap";
 import SledTrip from "@/components/SledTrip";
+import Brotkrumen from "@/components/Brotkrumen";
 
 export const revalidate = 10800;
 export const dynamicParams = true;
@@ -78,15 +79,15 @@ export default async function Page({ params }: Props) {
   return (
     <div className="container-page py-12 sm:py-16">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Link href="/schlitteln" className="inline-flex items-center gap-1 text-sm font-semibold text-cream-dim hover:text-cream"><ArrowLeft size={15} aria-hidden /> Alle Schlittelwege</Link>
-      <p className="kicker mt-6">Schlittelweg · {r.ort ?? kantonByAk(r.kt)?.name} ({r.kt}){r.diff && DIFF[r.diff] ? ` · ${DIFF[r.diff]}` : ""}</p>
+      <Brotkrumen items={[{ label: "Schlittelwege", href: "/schlitteln" }, { label: r.name }]} />
       <h1 className="headline mt-3 max-w-4xl text-4xl text-cream sm:text-6xl">{r.name}</h1>
+      <p className="mt-2 font-semibold text-cream-dim">Schlittelweg in {r.ort ?? kantonByAk(r.kt)?.name} ({r.kt}){r.diff && DIFF[r.diff] ? ` · ${DIFF[r.diff]}` : ""}</p>
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-cream-dim">{answer(r)}{r.via ? ` Der Weg folgt der ${r.via}.` : ""}</p>
 
       <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {facts.map(([Icon, k, v]) => (
           <div key={k} className="rounded-xl bg-ink-800/60 p-4">
-            <p className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-cream-faint"><Icon size={14} aria-hidden /> {k}</p>
+            <p className="flex items-center gap-1.5 text-xs font-bold text-cream-faint"><Icon size={14} aria-hidden /> {k}</p>
             <p className="mt-1 text-sm font-semibold text-cream">{v}</p>
           </div>
         ))}
@@ -103,9 +104,9 @@ export default async function Page({ params }: Props) {
             {enough === "ja" ? "Ja – laut Modell liegt bis ganz unten Schnee." : enough === "oben" ? "Oben ja, unten wird es knapp – evtl. nur ein Teil fahrbar." : "Im Moment kaum – erst nach Neuschnee lohnt es sich."}
           </p>
           <div className="mt-4 grid gap-3 sm:grid-cols-3">
-            <div className="rounded-xl bg-ink-800/60 p-4"><p className="text-xs font-bold uppercase text-cream-faint">Oben, {r.top.ele} m</p><p className="mt-1 font-display text-3xl font-extrabold text-cream">{snow.topCm} cm</p></div>
-            <div className="rounded-xl bg-ink-800/60 p-4"><p className="text-xs font-bold uppercase text-cream-faint">Unten, {r.bottom.ele} m</p><p className="mt-1 font-display text-3xl font-extrabold text-cream">{snow.bottomCm} cm</p></div>
-            <div className="rounded-xl bg-ink-800/60 p-4"><p className="text-xs font-bold uppercase text-cream-faint">Neuschnee 7 Tage</p><p className="mt-1 font-display text-3xl font-extrabold text-cream">{snow.snow7} cm</p></div>
+            <div className="rounded-xl bg-ink-800/60 p-4"><p className="text-xs font-bold text-cream-faint">Oben, {r.top.ele} m</p><p className="mt-1 font-display text-3xl font-extrabold text-cream">{snow.topCm} cm</p></div>
+            <div className="rounded-xl bg-ink-800/60 p-4"><p className="text-xs font-bold text-cream-faint">Unten, {r.bottom.ele} m</p><p className="mt-1 font-display text-3xl font-extrabold text-cream">{snow.bottomCm} cm</p></div>
+            <div className="rounded-xl bg-ink-800/60 p-4"><p className="text-xs font-bold text-cream-faint">Neuschnee 7 Tage</p><p className="mt-1 font-display text-3xl font-extrabold text-cream">{snow.snow7} cm</p></div>
           </div>
           <ul className="mt-4 grid grid-cols-4 gap-2 sm:grid-cols-7">
             {snow.days.map((d) => (

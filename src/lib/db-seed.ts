@@ -12,6 +12,7 @@ import baden from "@/data/badestellen.json";
 import { places } from "@/lib/ausfluege";
 import type { UpsertRow } from "@/lib/db";
 
+// Format: UTC wie toISOString() (der Abgleich vergleicht Stände als Text)
 export const SEED_STAND = "2026-11-16T12:01";
 
 type Any = Record<string, unknown> & { id: string; name: string };

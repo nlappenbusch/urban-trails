@@ -108,6 +108,29 @@ async function wikiFor(qid: string): Promise<Pick<RubrikItem, "text" | "desc" | 
 
 const r5 = (x: number) => Math.round(x * 1e5) / 1e5;
 
+/** Dubletten-Regel wie scripts/build-rubriken.mjs: gleiche Rubrik, < 400 m, Name gleich oder enthalten. */
+const normName = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]/g, "");
+type Pos = { r: string; name: string; lat: number; lng: number };
+const kmOf = (a: Pos, b: Pos) => Math.hypot((a.lat - b.lat) * 111.2, (a.lng - b.lng) * 111.2 * Math.cos((a.lat * Math.PI) / 180));
+export function isSameSpot(a: Pos, b: Pos) {
+  if (a.r !== b.r || kmOf(a, b) >= 0.4) return false;
+  const x = normName(a.name), y = normName(b.name);
+  return !!x && !!y && (x === y || x.includes(y) || y.includes(x));
+}
+
+/** Später angelegte Dubletten (ohne Korrekturen) entfernen – der zuerst angelegte Eintrag bleibt. */
+function removeDuplicateRows(d: ReturnType<typeof getDb>) {
+  const rows = d.prepare("SELECT id, daten FROM ort WHERE bestand = 'verzeichnis' AND id NOT IN (SELECT ort_id FROM korrektur) ORDER BY erstellt, rowid").all() as { id: string; daten: string }[];
+  const kept: Pos[] = [];
+  const del = d.prepare("DELETE FROM ort WHERE id = ?");
+  let n = 0;
+  for (const r of rows) {
+    const p = JSON.parse(r.daten) as Pos;
+    if (kept.some((k) => isSameSpot(k, p))) { del.run(r.id); n++; } else kept.push(p);
+  }
+  return n;
+}
+
 export async function syncVerzeichnis() {
   const d = getDb();
   const started = new Date().toISOString();
@@ -115,7 +138,8 @@ export async function syncVerzeichnis() {
   const existing = new Map((d.prepare("SELECT id, daten FROM ort WHERE bestand = 'verzeichnis'").all() as { id: string; daten: string }[]).map((r) => [r.id, JSON.parse(r.daten) as RubrikItem]));
   const seen = new Set<string>();
   const rows: UpsertRow[] = [];
-  let neu = 0, geaendert = 0;
+  const known: Pos[] = [...existing.values()];
+  let neu = 0, geaendert = 0, doppelt = 0;
   for (const e of els) {
     const t = e.tags ?? {};
     const r = rubrikOf(t);
@@ -140,6 +164,7 @@ export async function syncVerzeichnis() {
       rows.push({ id, art: r, bestand: "verzeichnis", name, lat: next.lat, lng: next.lng, kanton: next.kt, ort: next.ort, web: next.web, daten: next, quelle: "osm", quelle_ref: next.id, stand: started });
     } else {
       // Dublette eines bestehenden Eintrags (z. B. Punkt + Fläche)? Dann nicht neu anlegen.
+      if (known.some((k) => isSameSpot(k, { r, name, lat, lng }))) { doppelt++; continue; }
       const kt = await cantonOf(lat, lng);
       if (!kt) continue; // ausserhalb der Schweiz
       const wiki = t.wikidata && /^Q\d+$/.test(t.wikidata) ? await wikiFor(t.wikidata) : {};
@@ -153,16 +178,18 @@ export async function syncVerzeichnis() {
         q: (wiki.text ? 4 : 0) + (wiki.img ? 3 : 0) + (patch.web ? 2 : 0) + (patch.hours ? 1 : 0) + (t.wikidata ? 1 : 0),
       };
       neu++;
+      known.push(item);
       rows.push({ id, art: r, bestand: "verzeichnis", name, lat: item.lat, lng: item.lng, kanton: kt, ort: item.ort, web: item.web, daten: item, quelle: "osm", quelle_ref: item.id, stand: started });
     }
   }
   d.exec("BEGIN IMMEDIATE");
   try {
     upsert(rows, d);
+    const weg = removeDuplicateRows(d);
     const miss = markMissing("verzeichnis", seen, "osm", d);
     const links = linkDuplicates(d);
     d.prepare("INSERT INTO meta(k, v) VALUES('sync_verzeichnis', ?) ON CONFLICT(k) DO UPDATE SET v = excluded.v").run(started);
-    const msg = `OSM-Abgleich: ${els.length} Objekte geladen, ${neu} neu, ${geaendert} geändert, ${miss.marked} fehlen neu, ${miss.gone} nach 14 Tagen ausgeblendet, ${links} Dubletten-Verknüpfungen geändert`;
+    const msg = `OSM-Abgleich: ${els.length} Objekte geladen, ${neu} neu, ${doppelt} als Dublette übersprungen, ${weg} Dubletten entfernt, ${geaendert} geändert,${miss.marked} fehlen neu, ${miss.gone} nach 14 Tagen ausgeblendet, ${links} Dubletten-Verknüpfungen geändert`;
     log("abgleich", msg, d);
     bump(d);
     d.exec("COMMIT");

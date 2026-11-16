@@ -5,7 +5,7 @@
  */
 import { memo } from "@/lib/api-utils";
 import { LAKES, lakeFor, lakeSlug, norm, waterSlug, type BathSpot, type WaterReading } from "@/lib/wasser-core";
-import bathData from "@/data/badestellen.json";
+import { readBestand } from "@/lib/db";
 import { places } from "@/lib/ausfluege";
 import type { Place } from "@/lib/ausfluege-core";
 
@@ -201,7 +201,7 @@ export async function bathingSpots(): Promise<BathSpot[]> {
       ours: `/ausflugsziele/${p.region}#${p.id}`,
     }));
   const same = (a: string, b: string) => { const x = norm(a).replace(/[^a-z0-9]/g, ""), y = norm(b).replace(/[^a-z0-9]/g, ""); return x.includes(y) || y.includes(x); };
-  const osm = (bathData as BathSpot[]).filter((b) => !ours.some((o) => dist(o, b) < 0.15 || (dist(o, b) < 2 && same(o.name, b.name))));
+  const osm = readBestand<BathSpot>("baden").map(({ _gleich: _g, _top: _t, ...b }) => b as BathSpot).filter((b) => !ours.some((o) => dist(o, b) < 0.15 || (dist(o, b) < 2 && same(o.name, b.name))));
   // unsere Flussbäder/Strandbäder sind offenes Wasser, auch wenn der Ort als «freibad» geführt ist
   for (const o of ours) if (o.kind === "freibad" && /flussbad|strandbad|seebad|rheinbad|aarebad|badi am|lido|plage/i.test(o.name)) o.kind = "offen";
   return [...ours, ...osm].map((b) => {

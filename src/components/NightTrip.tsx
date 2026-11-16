@@ -32,7 +32,7 @@ async function conns(from: string, to: string, date: string, time: string, arriv
  * Hin und – das Entscheidende beim Nachtskifahren – zurück:
  * Ankunft rechtzeitig vor Pistenstart, und der erste Zug nach Pistenschluss.
  */
-export default function NightTrip({ station, to, from, end, nights }: { station: string; to: { lat: number; lng: number }; from: string; end: string; nights: { date: string; label: string }[] }) {
+export default function NightTrip({ station, to, from, end, nights, endLabel = "Pistenschluss", dayLabel = "Welcher Abend?", intro, carNote = "Nachts glatt – Winterreifen, Ketten dabei.", arriveBefore = 20, backAfter = 15 }: { station: string; to: { lat: number; lng: number }; from: string; end: string; nights: { date: string; label: string }[]; endLabel?: string; dayLabel?: string; intro?: string; carNote?: string; arriveBefore?: number; backAfter?: number }) {
   const [start, setStart] = useState<StartStation | null>(null);
   const [date, setDate] = useState(nights[0]?.date ?? "");
   const [there, setThere] = useState<Conn[] | null>(null);
@@ -41,7 +41,7 @@ export default function NightTrip({ station, to, from, end, nights }: { station:
 
   useEffect(() => setStart(loadStart()), []);
 
-  const backTime = end ? shift(end, 15) : shift(from, 180);
+  const backTime = end ? shift(end, backAfter) : shift(from, 180);
   const backDate = end && end < from ? nextDay(date) : date; // Piste bis nach Mitternacht
 
   useEffect(() => {
@@ -50,7 +50,7 @@ export default function NightTrip({ station, to, from, end, nights }: { station:
     setBusy(true);
     setThere(null);
     setBack(null);
-    Promise.all([conns(start.name, station, date, shift(from, -20), true), conns(station, start.name, backDate, backTime)])
+    Promise.all([conns(start.name, station, date, shift(from, -arriveBefore), true), conns(station, start.name, backDate, backTime)])
       .then(([a, b]) => {
         if (!alive) return;
         setThere(a.slice(-2));
@@ -75,7 +75,7 @@ export default function NightTrip({ station, to, from, end, nights }: { station:
         <StationPicker value={start} onChange={setStart} label="Wo wohnst du?" />
         {nights.length > 0 && (
           <label className="text-sm font-bold text-cream">
-            Welcher Abend?
+            {dayLabel}
             <select value={date} onChange={(e) => setDate(e.target.value)} className="mt-2 block min-h-[44px] rounded-xl border border-cream/20 bg-ink-900 px-3 text-sm font-normal text-cream">
               {nights.map((n) => (
                 <option key={n.date} value={n.date}>{n.label}</option>
@@ -86,11 +86,11 @@ export default function NightTrip({ station, to, from, end, nights }: { station:
       </div>
 
       {!start?.name ? (
-        <p className="text-sm text-cream-dim">Gib deinen Wohnort ein – wir zeigen, welcher Zug dich rechtzeitig hinbringt und wie du nach Pistenschluss heimkommst.</p>
+        <p className="text-sm text-cream-dim">{intro ?? `Gib deinen Wohnort ein – wir zeigen, welcher Zug dich rechtzeitig hinbringt und wie du nach ${endLabel} heimkommst.`}</p>
       ) : (
         <div className="grid gap-3 lg:grid-cols-3">
           <div className="rounded-xl bg-ink-800/60 p-4">
-            <p className="flex items-center gap-2 text-sm font-bold text-cream"><TrainFront size={16} aria-hidden /> Hin, an bis {shift(from, -20)}</p>
+            <p className="flex items-center gap-2 text-sm font-bold text-cream"><TrainFront size={16} aria-hidden /> Hin, an bis {shift(from, -arriveBefore)}</p>
             {busy ? (
               <p className="mt-2 text-sm text-cream-dim">Fahrplan wird geladen …</p>
             ) : there?.length ? (
@@ -102,11 +102,11 @@ export default function NightTrip({ station, to, from, end, nights }: { station:
             ) : (
               <p className="mt-2 text-sm text-cream-dim">Keine Verbindung gefunden.</p>
             )}
-            <a href={sbbLink(start.name, station, date, shift(from, -20))} target="_blank" rel="noopener" className="mt-3 inline-flex text-sm font-bold text-signal-600 hover:text-signal-500">SBB-Fahrplan</a>
+            <a href={sbbLink(start.name, station, date, shift(from, -arriveBefore))} target="_blank" rel="noopener" className="mt-3 inline-flex text-sm font-bold text-signal-600 hover:text-signal-500">SBB-Fahrplan</a>
           </div>
 
           <div className={`rounded-xl p-4 ${stranded || lateHome ? "bg-signal-500/15 ring-1 ring-signal-500/50" : "bg-ink-800/60"}`}>
-            <p className="flex items-center gap-2 text-sm font-bold text-cream"><Moon size={16} aria-hidden /> Zurück nach Pistenschluss</p>
+            <p className="flex items-center gap-2 text-sm font-bold text-cream"><Moon size={16} aria-hidden /> Zurück nach {endLabel}</p>
             {busy ? (
               <p className="mt-2 text-sm text-cream-dim">Fahrplan wird geladen …</p>
             ) : back?.length ? (
@@ -128,7 +128,7 @@ export default function NightTrip({ station, to, from, end, nights }: { station:
 
           <div className="rounded-xl bg-ink-800/60 p-4">
             <p className="flex items-center gap-2 text-sm font-bold text-cream"><Car size={16} aria-hidden /> Mit dem Auto</p>
-            {car && <p className="mt-2 text-sm text-cream-dim">ca. <strong className="text-cream">{fmtMin(car.min)}</strong> pro Weg · rund {car.km} km. Nachts glatt – Winterreifen, Ketten dabei.</p>}
+            {car && <p className="mt-2 text-sm text-cream-dim">ca. <strong className="text-cream">{fmtMin(car.min)}</strong> pro Weg · rund {car.km} km. {carNote}</p>}
             <a href={carLink(start, to)} target="_blank" rel="noopener" className="mt-3 inline-flex text-sm font-bold text-signal-600 hover:text-signal-500">Route in Google Maps</a>
           </div>
         </div>

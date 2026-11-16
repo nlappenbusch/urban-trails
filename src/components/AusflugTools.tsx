@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CloudSun, Dices, Gift, MapPinned, Moon, MountainSnow, Sparkles, Wand2, Waves, type LucideIcon } from "lucide-react";
+import { CloudSun, Dices, Gift, MapPinned, Moon, MountainSnow, Sparkles, Wand2, Waves, type LucideIcon, LayoutGrid, Snowflake } from "lucide-react";
 
 interface Tool {
   href: string;
@@ -17,6 +17,9 @@ export const TOOLS: Tool[] = [
   { href: "/geschenk", icon: Gift, title: "Ausflug verschenken", text: "Karte mit eigenem Text und QR-Code zum Programm. Gratis." },
   { href: "/skigebiete", icon: MountainSnow, title: "Wo kann ich skifahren?", text: "59 Skigebiete: Pisten je Farbe, Schnee, Tageskarte und Zugzeit ab deinem Bahnhof." },
   { href: "/nachtskifahren", icon: Moon, title: "Nachtskifahren", text: "Wann und wo abends Pisten beleuchtet sind – als Kalender, mit Vollmond-Abenden." },
+  { href: "/weihnachtsmaerkte", icon: Sparkles, title: "Weihnachtsmärkte 2026", text: "Über 100 Märkte, Lichter und Schiffe: welcher heute offen hat und der letzte Zug heim." },
+  { href: "/schlitteln", icon: Snowflake, title: "Schlittelwege", text: "Die längsten Schlittelbahnen mit Höhenmetern, Schnee oben und unten und Bahn hinauf." },
+  { href: "/rubriken", icon: LayoutGrid, title: "Tierparks, Museen, Burgen …", text: "Rund 3000 Ziele in allen Kantonen, sortiert nach Nähe zu deiner Haltestelle." },
   { href: "/wassertemperaturen", icon: Waves, title: "Wie warm ist das Wasser?", text: "Alle Seen und Flüsse live und über 800 Badestellen – Aare, Rhein, Zürichsee." },
 ];
 

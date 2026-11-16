@@ -10,6 +10,7 @@ import type { Catalog } from "@/lib/game";
 const links = [
   { href: "/touren", label: "Touren" },
   { href: "/ausfluege", label: "Ausflüge" },
+  { href: "/rubriken", label: "Alle Ziele" },
   { href: "/destinationen", label: "Destinationen" },
   { href: "/kategorien", label: "Kategorien" },
   { href: "/fuehrung", label: "Mit Guide" },

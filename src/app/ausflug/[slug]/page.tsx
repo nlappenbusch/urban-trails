@@ -162,7 +162,7 @@ export default async function AnlassPage({ params }: { params: Promise<{ slug: s
       </section>
 
       <p className="mt-14 max-w-3xl text-xs leading-relaxed text-cream-faint">
-        Die Zuordnung gilt für die Rubrik als Ganzes, nicht für jeden einzelnen Ort – Öffnungszeiten und Regeln stehen auf der Website des Anbieters. Verzeichnis aus OpenStreetMap (© OSM-Mitwirkende, ODbL), Schifffahrten von uns zusammengestellt.
+        Die Zuordnung gilt für die Rubrik als Ganzes, nicht für jeden einzelnen Ort – Öffnungszeiten und Regeln stehen auf der Website des Anbieters. Verzeichnis aus OpenStreetMap (© OSM-Mitwirkende, ODbL), Schifffahrten, Iglus, Schlittenhunde, Helikopter-Rundflüge und Erlebnis-Gastronomie von uns zusammengestellt.
       </p>
     </div>
   );

@@ -28,6 +28,8 @@ export default function RubrikView({ r, k, items }: { r: Rubrik; k?: Kanton; ite
   const byKt = KANTONE.map((c) => ({ c, n: itemsIn(r.slug, c.ak).length })).filter((x) => x.n > 0).sort((a, b) => b.n - a.n);
   const towns = k ? Object.entries(items.reduce<Record<string, number>>((m, i) => (i.ort ? ((m[i.ort] = (m[i.ort] ?? 0) + 1), m) : m), {})).sort((a, b) => b[1] - a[1]).slice(0, 3) : [];
   const path = k ? `/rubriken/${r.slug}/${k.slug}` : `/rubriken/${r.slug}`;
+  // OSM-Einträge haben IDs wie n123/w45/r6, recherchierte sprechende IDs
+  const kuratiert = items.length > 0 && items.every((i) => !/^[nwr]\d+$/.test(i.id));
 
   const faq = [
     { q: `Welche ${r.many} gibt es ${where}?`, a: `${where.charAt(0).toUpperCase() + where.slice(1)} kennen wir ${items.length} ${r.many}. Bekannt sind ${list(best.map((i) => i.name))}.` },
@@ -125,10 +127,16 @@ export default function RubrikView({ r, k, items }: { r: Rubrik; k?: Kanton; ite
         </dl>
       </section>
 
+      {kuratiert ? (
+      <p className="mt-14 max-w-3xl text-xs leading-relaxed text-cream-faint">
+        Von uns zusammengestellt, Stand November 2026: jedes Angebot mit der Website des Anbieters, die wir geprüft haben. Saison, Fahrplan und Preise ändern sich – vor dem Besuch beim Anbieter nachsehen.
+      </p>
+      ) : (
       <p className="mt-14 max-w-3xl text-xs leading-relaxed text-cream-faint">
         Verzeichnis aus OpenStreetMap (© OSM-Mitwirkende, ODbL), Kantone nach swisstopo. Kurztexte aus der deutschsprachigen Wikipedia (CC BY-SA 4.0, Link beim Eintrag), Fotos von Wikimedia Commons mit Urheber und Lizenz am Bild.
         {withHours > 0 && ` Öffnungszeiten bei ${withHours} Einträgen aus OSM – vor dem Besuch auf der Website prüfen.`} Fehlt etwas oder ist es geschlossen? In OpenStreetMap korrigieren – wir übernehmen es beim nächsten Abgleich.
       </p>
+      )}
     </div>
   );
 }

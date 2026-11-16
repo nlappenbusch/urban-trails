@@ -69,6 +69,10 @@ export const RUBRIKEN: Rubrik[] = [
   { slug: "eisbahnen", label: "Eisbahnen", one: "Eisbahn", many: "Eisbahnen und Eishallen", claim: "Kunsteisbahnen, Eishallen und Eisfelder unter freiem Himmel – Schlittschuhe meist zum Mieten.", familie: true, monate: [10, 11, 12, 1, 2, 3], gruppe: "winter" },
   { slug: "langlauf", label: "Langlaufloipen", one: "Loipe", many: "Langlaufloipen", claim: "Loipen für klassisch und Skating, vom Dorfrundkurs bis zur Marathonloipe.", monate: WINTER, gruppe: "winter" },
   { slug: "winterwandern", label: "Winterwandern & Schneeschuh", one: "Winterweg", many: "Winterwanderwege und Schneeschuhtrails", claim: "Gepfadete Winterwege und markierte Schneeschuhtrails – ohne Ski in den Schnee.", hund: true, monate: WINTER, gruppe: "winter" },
+  { slug: "iglu", label: "Iglus", one: "Iglu", many: "Iglu-Dörfer und Iglubau-Kurse", claim: "Im Iglu übernachten, an der Schneebar sitzen oder selbst eins bauen – von uns ausgewählt, mit Saison und Anreise.", familie: true, monate: WINTER, gruppe: "winter" },
+  { slug: "schlittenhunde", label: "Schlittenhunde", one: "Hundeschlitten-Angebot", many: "Schlittenhundefahrten und Husky-Trekkings", claim: "Im Schlitten mitfahren oder mit Huskys durch den Schnee laufen – von uns ausgewählt, mit Startort.", familie: true, monate: WINTER, gruppe: "winter" },
+  { slug: "helikopter", label: "Helikopter-Rundflüge", one: "Rundflug-Basis", many: "Basen für Helikopter-Rundflüge", claim: "Heliports, ab denen auch Privatpersonen mitfliegen – zum Matterhorn, zu Eiger, Mönch und Jungfrau oder übers Engadin.", gruppe: "ganzjahr" },
+  { slug: "erlebnisgastro", label: "Erlebnis-Gastronomie", one: "Erlebnis-Restaurant", many: "Drehrestaurants, Fondue-Gondeln und besondere Restaurants", claim: "Essen, während sich das Restaurant dreht, die Gondel schwebt oder das Tram durch Zürich fährt – von uns ausgewählt.", regenfest: true, gruppe: "ganzjahr" },
   { slug: "bergbahnen", label: "Bergbahnen", one: "Bergbahn", many: "Standseil-, Luftseil- und Gondelbahnen", claim: "Von der Marzilibahn bis zur Säntisbahn – Standseilbahnen, Luftseilbahnen und Gondeln.", hund: true, gruppe: "ganzjahr" },
   { slug: "kletterhallen", label: "Klettern & Bouldern", one: "Kletterhalle", many: "Kletter- und Boulderhallen", claim: "Kletterhallen, Boulderräume und einige Klettergärten – Schuhe und Gurt meist zum Mieten.", regenfest: true, familie: true, gruppe: "ganzjahr" },
   { slug: "thermen", label: "Thermen & Wellness", one: "Therme", many: "Thermal- und Wellnessbäder", claim: "Thermalquellen von Baden bis Leukerbad, Solebäder und Hammams – warm bei jedem Wetter.", regenfest: true, gruppe: "ganzjahr" },
@@ -137,6 +141,15 @@ const SUB: Record<string, string> = {
   pumptrack: "Pumptrack",
   bmx: "BMX-Bahn",
   bikepark: "Bikepark",
+  dorf: "Iglu-Dorf",
+  bar: "Iglu-Bar",
+  bauen: "Iglu selbst bauen",
+  fahrt: "Schlittenfahrt",
+  trekking: "Husky-Trekking",
+  drehrestaurant: "Drehrestaurant",
+  fondue: "Fondue unterwegs",
+  gipfel: "Gipfelrestaurant",
+  besonders: "besonderer Ort",
 };
 export const subLabel = (s?: string) => (s ? SUB[s] ?? (/^K[1-6]/.test(s) ? `Schwierigkeit ${s}` : undefined) : undefined);
 
